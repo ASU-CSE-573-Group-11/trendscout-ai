@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/trendscout/record.schema.json",
+  "title": "TrendScout Source Record",
+  "type": "object",
+  "required": [
+    "record_id",
+    "source_type",
+    "source_url",
+    "observed_at",
+    "content_hash"
+  ],
+  "properties": {
+    "record_id": { "type": "string", "minLength": 1 },
+    "source_type": {
+      "type": "string",
+      "enum": ["news", "company", "funding", "job", "github", "public_voice", "reference"]
+    },
+    "source_url": { "type": "string", "format": "uri" },
+    "publisher": { "type": ["string", "null"] },
+    "startup_name": { "type": ["string", "null"] },
+    "event_type": { "type": ["string", "null"] },
+    "event_at": { "type": ["string", "null"], "format": "date-time" },
+    "published_at": { "type": ["string", "null"], "format": "date-time" },
+    "observed_at": { "type": "string", "format": "date-time" },
+    "text": { "type": ["string", "null"] },
+    "content_hash": { "type": "string", "minLength": 1 },
+    "access_note": { "type": ["string", "null"] },
+    "metadata": { "type": "object", "additionalProperties": true }
+  },
+  "additionalProperties": false
+}
+
