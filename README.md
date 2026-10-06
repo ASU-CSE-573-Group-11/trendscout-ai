@@ -86,6 +86,7 @@ See [`docs/architecture.md`](docs/architecture.md) for the component boundaries 
 - [Evidence ledger rules](docs/evidence-ledger.md)
 - [Source and access policy](docs/source-policy.md)
 - [Contribution conventions](docs/contributing.md)
+- [Repository governance and review policy](docs/governance.md)
 
 ## License
 
