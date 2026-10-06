@@ -1,4 +1,4 @@
-# Source Policy — Draft
+# Source Policy - Version 1.0
 
 | Source | Core status | Collection method | Main restriction |
 |---|---|---|---|
@@ -13,3 +13,19 @@
 
 Every retained record must include its source URL, observation time, content hash, and an access note when relevant.
 
+## Independence and corroboration
+
+- Syndicated copies and reposts sharing one origin count as one evidence source.
+- Company announcements may establish what the company stated, but an independent source is required before the statement is labeled independently corroborated.
+- GitHub, hiring, and funding signals must be interpreted in context; none is treated as a standalone measure of company quality.
+
+## Storage and privacy
+
+- Store organization-level public information only.
+- Do not store applicant information, private profiles, session cookies, passwords, or access tokens.
+- Cache only what is necessary for reproducible coursework and record applicable source terms.
+- Raw data stays local by default. Share only permitted and documented snapshots.
+
+## Failure behavior
+
+If a source becomes unavailable, restricted, or non-reproducible, the system must continue from the last permitted frozen snapshot and identify the affected coverage. The core demo must not depend on LinkedIn or a paid database.
