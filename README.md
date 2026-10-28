@@ -15,7 +15,6 @@ The system is designed to answer not only *what is trending?*, but also *why is 
 - Sueda Sen
 - Mehmet Aksit
 - Vidya Sagar Dudekula
-- Baaz Jhaj
 - Faisal Barkat Khorasi
 
 ## Current status
