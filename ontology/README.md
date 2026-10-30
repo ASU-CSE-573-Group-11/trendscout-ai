@@ -16,3 +16,7 @@ graph commits.
 
 [`shapes.ttl`](./shapes.ttl) now validates the minimum provenance fields for
 `SourceRecord`, plus stable identity fields for `Startup` and `Publisher`.
+
+The Python RDF exporter in [`../graph/rdf.py`](../graph/rdf.py) uses these
+namespaces and emits Turtle for downstream SHACL validation or RDF/Turtle
+interoperability checks.

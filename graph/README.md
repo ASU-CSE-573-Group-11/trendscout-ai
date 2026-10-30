@@ -44,3 +44,8 @@ It does not infer claims from text automatically.
 Evidence-ledger review queries are in
 [`evidence_queries.cypher`](./evidence_queries.cypher). They keep support
 counts origin-aware and expose the observed-time window used for review.
+
+[`rdf.py`](./rdf.py) exports the same graph payload as RDF/Turtle with
+PROV-O-compatible `SourceRecord` and `Publisher` types. The exporter validates
+temporal literals and preserves source URLs, passages, hashes, and origin
+clusters.
