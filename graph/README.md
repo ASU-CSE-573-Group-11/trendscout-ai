@@ -45,6 +45,11 @@ Evidence-ledger review queries are in
 [`evidence_queries.cypher`](./evidence_queries.cypher). They keep support
 counts origin-aware and expose the observed-time window used for review.
 
+Temporal multi-hop queries are in
+[`temporal_queries.cypher`](./temporal_queries.cypher). They connect startups,
+source records, and claims while enforcing observation windows and minimum
+independent-origin thresholds.
+
 [`rdf.py`](./rdf.py) exports the same graph payload as RDF/Turtle with
 PROV-O-compatible `SourceRecord` and `Publisher` types. The exporter validates
 temporal literals and preserves source URLs, passages, hashes, and origin
