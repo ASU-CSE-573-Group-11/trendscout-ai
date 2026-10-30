@@ -40,3 +40,7 @@ queries are in [`competency_queries.cypher`](./competency_queries.cypher).
 an explicit claim text and evidence state, derives a stable claim id, and keeps
 the supporting record, origin, passage hash, and three source-record clocks.
 It does not infer claims from text automatically.
+
+Evidence-ledger review queries are in
+[`evidence_queries.cypher`](./evidence_queries.cypher). They keep support
+counts origin-aware and expose the observed-time window used for review.
