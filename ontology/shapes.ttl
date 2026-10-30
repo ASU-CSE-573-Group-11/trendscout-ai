@@ -48,3 +48,29 @@ ts:PublisherShape
         sh:minCount 1 ;
         sh:datatype xsd:string
     ] .
+
+ts:ClaimShape
+    a sh:NodeShape ;
+    sh:targetClass ts:Claim ;
+    sh:property [
+        sh:path ts:claimText ;
+        sh:minCount 1 ;
+        sh:datatype xsd:string
+    ] ;
+    sh:property [
+        sh:path ts:state ;
+        sh:minCount 1 ;
+        sh:in ("emerging" "corroborated" "disputed" "stale" "insufficient")
+    ] ;
+    sh:property [
+        sh:path ts:confidence ;
+        sh:minCount 1 ;
+        sh:datatype xsd:decimal ;
+        sh:minInclusive 0 ;
+        sh:maxInclusive 1
+    ] ;
+    sh:property [
+        sh:path ts:stateChangedAt ;
+        sh:minCount 1 ;
+        sh:datatype xsd:dateTime
+    ] .
