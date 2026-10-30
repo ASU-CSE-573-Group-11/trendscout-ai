@@ -1,0 +1,50 @@
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix ts: <https://example.org/trendscout/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ts:SourceRecordShape
+    a sh:NodeShape ;
+    sh:targetClass ts:SourceRecord ;
+    sh:property [
+        sh:path ts:recordId ;
+        sh:minCount 1 ;
+        sh:datatype xsd:string
+    ] ;
+    sh:property [
+        sh:path ts:sourceUrl ;
+        sh:minCount 1 ;
+        sh:datatype xsd:anyURI
+    ] ;
+    sh:property [
+        sh:path ts:observedAt ;
+        sh:minCount 1 ;
+        sh:datatype xsd:dateTime
+    ] ;
+    sh:property [
+        sh:path ts:contentHash ;
+        sh:minCount 1 ;
+        sh:datatype xsd:string
+    ] ;
+    sh:property [
+        sh:path ts:originClusterId ;
+        sh:minCount 1 ;
+        sh:datatype xsd:string
+    ] .
+
+ts:StartupShape
+    a sh:NodeShape ;
+    sh:targetClass ts:Startup ;
+    sh:property [
+        sh:path ts:companyId ;
+        sh:minCount 1 ;
+        sh:datatype xsd:string
+    ] .
+
+ts:PublisherShape
+    a sh:NodeShape ;
+    sh:targetClass ts:Publisher ;
+    sh:property [
+        sh:path ts:name ;
+        sh:minCount 1 ;
+        sh:datatype xsd:string
+    ] .

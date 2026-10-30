@@ -13,3 +13,6 @@ origin clusters, and the three source-record clocks:
 The vocabulary is deliberately small for the first graph handoff. Claims,
 events, SHACL shapes, and Neo4j-specific constraints will be added in the next
 graph commits.
+
+[`shapes.ttl`](./shapes.ttl) now validates the minimum provenance fields for
+`SourceRecord`, plus stable identity fields for `Startup` and `Publisher`.

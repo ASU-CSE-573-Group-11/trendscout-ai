@@ -37,3 +37,6 @@ ts:sourceUrl a owl:DatatypeProperty .
 ts:originClusterId a owl:DatatypeProperty .
 ts:sourceType a owl:DatatypeProperty .
 ts:passage a owl:DatatypeProperty .
+ts:recordId a owl:DatatypeProperty .
+ts:companyId a owl:DatatypeProperty .
+ts:name a owl:DatatypeProperty .
