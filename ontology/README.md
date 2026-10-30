@@ -20,3 +20,6 @@ graph commits.
 The Python RDF exporter in [`../graph/rdf.py`](../graph/rdf.py) uses these
 namespaces and emits Turtle for downstream SHACL validation or RDF/Turtle
 interoperability checks.
+
+SHACL execution is provided by [`../graph/shacl.py`](../graph/shacl.py); shape
+failures are intended to block graph import rather than be silently ignored.

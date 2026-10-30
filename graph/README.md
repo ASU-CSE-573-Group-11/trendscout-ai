@@ -49,3 +49,7 @@ counts origin-aware and expose the observed-time window used for review.
 PROV-O-compatible `SourceRecord` and `Publisher` types. The exporter validates
 temporal literals and preserves source URLs, passages, hashes, and origin
 clusters.
+
+[`shacl.py`](./shacl.py) runs the repository SHACL shapes against the exported
+RDF graph. A validation result includes the boolean conformance value, the
+machine-readable report graph, and the human-readable report text.
