@@ -4,15 +4,15 @@ The evidence ledger records why a claim is accepted, qualified, disputed, supers
 
 ## Evidence states
 
-| State | Working rule |
-|---|---|
-| `emerging` | Supported by one source or one operational signal and not contradicted by stronger evidence |
-| `corroborated` | Supported by at least two independent sources, or by one documentary source plus one operational signal |
-| `disputed` | Credible evidence disagrees on a material entity, amount, date, or relationship |
-| `stale` | The validity window has expired or a newer observation supersedes the claim |
-| `insufficient` | Available evidence does not justify a factual answer |
+| State | Working rule | Answer behavior |
+|---|---|---|
+| `emerging` | Supported by one independent document or one operational signal and not contradicted by stronger evidence | Qualify the answer |
+| `corroborated` | Supported by at least two independent origins, or by one documentary source plus one operational signal | Answer with the evidence path |
+| `disputed` | Credible evidence disagrees on a material entity or relationship; amounts differ by more than 10%; dates differ by more than 7 days | Show the conflict; do not silently resolve it |
+| `stale` | A newer snapshot supersedes the claim, two refresh windows were missed, or `valid_to` expires | Mark the time limit. Historical events stay historical; they do not become stale only because time passed |
+| `insufficient` | Available evidence does not justify a factual answer | Abstain and name the missing evidence |
 
-Syndicated copies that share the same origin do not count as independent sources.
+Syndicated copies that share the same origin do not count as independent sources. Origin membership is stored on each source record as `origin_cluster_id`.
 
 ## Minimum ledger entry
 
