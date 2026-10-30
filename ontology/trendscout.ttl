@@ -40,3 +40,9 @@ ts:passage a owl:DatatypeProperty .
 ts:recordId a owl:DatatypeProperty .
 ts:companyId a owl:DatatypeProperty .
 ts:name a owl:DatatypeProperty .
+ts:claimText a owl:DatatypeProperty .
+ts:state a owl:DatatypeProperty .
+ts:confidence a owl:DatatypeProperty .
+ts:extractionMethod a owl:DatatypeProperty .
+ts:stateChangedAt a owl:DatatypeProperty .
+ts:reason a owl:DatatypeProperty .

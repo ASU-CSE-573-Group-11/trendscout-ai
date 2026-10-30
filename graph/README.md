@@ -35,3 +35,8 @@ Neo4j server or SHACL engine for its unit tests.
 storage-neutral graph payload. It does not open a database connection and uses
 the same validated records as the graph contract. The initial competency
 queries are in [`competency_queries.cypher`](./competency_queries.cypher).
+
+[`evidence.py`](./evidence.py) defines the claim/evidence handoff. It requires
+an explicit claim text and evidence state, derives a stable claim id, and keeps
+the supporting record, origin, passage hash, and three source-record clocks.
+It does not infer claims from text automatically.
