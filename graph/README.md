@@ -30,3 +30,8 @@ export, and SHACL validation can consume the same contract.
 The constraints must be applied before loading records. SHACL validation remains
 an explicit step after RDF export; the repository does not require a live
 Neo4j server or SHACL engine for its unit tests.
+
+[`cypher.py`](./cypher.py) builds parameterized import statements from the
+storage-neutral graph payload. It does not open a database connection and uses
+the same validated records as the graph contract. The initial competency
+queries are in [`competency_queries.cypher`](./competency_queries.cypher).
