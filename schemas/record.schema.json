@@ -5,13 +5,22 @@
   "type": "object",
   "required": [
     "record_id",
+    "company_id",
     "source_type",
     "source_url",
+    "title",
     "observed_at",
-    "content_hash"
+    "text",
+    "content_hash",
+    "origin_cluster_id",
+    "collector_version"
   ],
   "properties": {
     "record_id": { "type": "string", "minLength": 1 },
+    "company_id": {
+      "type": ["string", "null"],
+      "description": "Frozen cohort identifier. Null when the record is not yet linked to one company."
+    },
     "source_type": {
       "type": "string",
       "enum": ["news", "company", "funding", "job", "github", "public_voice", "reference"]
@@ -19,15 +28,24 @@
     "source_url": { "type": "string", "format": "uri" },
     "publisher": { "type": ["string", "null"] },
     "startup_name": { "type": ["string", "null"] },
+    "title": { "type": ["string", "null"] },
     "event_type": { "type": ["string", "null"] },
     "event_at": { "type": ["string", "null"], "format": "date-time" },
     "published_at": { "type": ["string", "null"], "format": "date-time" },
     "observed_at": { "type": "string", "format": "date-time" },
-    "text": { "type": ["string", "null"] },
+    "text": {
+      "type": ["string", "null"],
+      "description": "Exact supporting passage retained from the source."
+    },
     "content_hash": { "type": "string", "minLength": 1 },
+    "origin_cluster_id": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Stable id for one documentary origin. Syndicated copies share this id."
+    },
+    "collector_version": { "type": "string", "minLength": 1 },
     "access_note": { "type": ["string", "null"] },
     "metadata": { "type": "object", "additionalProperties": true }
   },
   "additionalProperties": false
 }
-
