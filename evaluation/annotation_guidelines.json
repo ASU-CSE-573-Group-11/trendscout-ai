@@ -1,0 +1,39 @@
+{
+  "task": "Label entities, relations, and claim support on frozen source records.",
+  "do_not": [
+    "Treat syndicated copies as independent sources.",
+    "Treat a YC directory listing as a momentum signal.",
+    "Label a company announcement as independently corroborated.",
+    "Invent event dates that are not in the passage."
+  ],
+  "entity_types": [
+    "Startup",
+    "Investor",
+    "Voice",
+    "Product",
+    "Technology",
+    "Sector",
+    "Skill",
+    "JobPosting",
+    "Repository",
+    "FundingRound",
+    "Document",
+    "Claim"
+  ],
+  "relation_types": [
+    "RAISED",
+    "PARTICIPATED_IN",
+    "PUBLISHED",
+    "DEVELOPS",
+    "USES_TECHNOLOGY",
+    "OPERATES_IN",
+    "HIRING_FOR",
+    "MENTIONS",
+    "SUPPORTS",
+    "CONTRADICTS",
+    "DERIVED_FROM"
+  ],
+  "span_rule": "Highlight the exact supporting passage. The claim must be recoverable from that span plus recorded timestamps.",
+  "time_rule": "Record event_at when the passage states when something happened, published_at from the source, and observed_at from collection. Do not collapse the three clocks.",
+  "evidence_states": ["emerging", "corroborated", "disputed", "stale", "insufficient"]
+}
