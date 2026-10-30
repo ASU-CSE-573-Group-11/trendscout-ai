@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>LangChain Blog</title>
+    <item>
+      <title>LangSmith Engine v2</title>
+      <link>https://blog.langchain.dev/langsmith-engine-v2/</link>
+      <pubDate>Wed, 24 Sep 2026 12:00:00 GMT</pubDate>
+      <description>LangChain describes red teaming and automated testing in LangSmith Engine v2.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>TechCrunch AI</title>
+    <item>
+      <title>LangChain raises a follow-on round to expand LangSmith</title>
+      <link>https://techcrunch.com/2026/10/01/langchain-langsmith/?utm_source=feed</link>
+      <pubDate>Thu, 01 Oct 2026 12:00:00 GMT</pubDate>
+      <description>LangChain said it would hire more MLOps engineers after expanding LangSmith.</description>
+    </item>
+    <item>
+      <title>Unrelated chip story</title>
+      <link>https://techcrunch.com/2026/10/02/chips/</link>
+      <pubDate>Fri, 02 Oct 2026 12:00:00 GMT</pubDate>
+      <description>No cohort company is named here.</description>
+    </item>
+  </channel>
+</rss>

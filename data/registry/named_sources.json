@@ -1,0 +1,90 @@
+{
+  "version": "1.0",
+  "owner": "Sueda Sen",
+  "core_demo_boundary": "Public organization data only. No LinkedIn, private profiles, applicant data, or paid databases.",
+  "news": [
+    {
+      "source_id": "techcrunch_ai",
+      "publisher": "TechCrunch",
+      "page_url": "https://techcrunch.com/category/artificial-intelligence/",
+      "rss_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+      "refresh": "daily",
+      "planned_use": "Daily news discovery for the frozen cohort.",
+      "access_note": "Public RSS for the TechCrunch AI category."
+    },
+    {
+      "source_id": "venturebeat_ai",
+      "publisher": "VentureBeat",
+      "page_url": "https://venturebeat.com/category/ai/",
+      "rss_url": "https://venturebeat.com/category/ai/feed/",
+      "refresh": "daily",
+      "planned_use": "Daily news discovery for the frozen cohort.",
+      "access_note": "Public RSS for the VentureBeat AI category."
+    }
+  ],
+  "public_voices": [
+    {
+      "source_id": "the_batch",
+      "publisher": "DeepLearning.AI The Batch",
+      "page_url": "https://www.deeplearning.ai/the-batch/",
+      "rss_url": "https://www.deeplearning.ai/the-batch/feed/",
+      "refresh": "daily",
+      "default_label": "analysis",
+      "access_note": "Public page / RSS. Items are labeled analysis, interview, or opinion."
+    },
+    {
+      "source_id": "latent_space",
+      "publisher": "Latent Space",
+      "page_url": "https://www.latent.space/",
+      "rss_url": "https://www.latent.space/feed",
+      "refresh": "daily",
+      "default_label": "analysis",
+      "access_note": "Public technical commentary feed."
+    },
+    {
+      "source_id": "simon_willison",
+      "publisher": "Simon Willison",
+      "page_url": "https://simonwillison.net/",
+      "rss_url": "https://simonwillison.net/atom/xml/",
+      "refresh": "daily",
+      "default_label": "analysis",
+      "access_note": "Public dated technical commentary. No private subscriber data."
+    }
+  ],
+  "reference": [
+    {
+      "source_id": "yc_companies",
+      "publisher": "Y Combinator",
+      "page_url": "https://www.ycombinator.com/companies",
+      "planned_use": "Identity and category confirmation at freeze time.",
+      "access_note": "Public directory. A listing is not a trend score."
+    }
+  ],
+  "optional_api": [
+    {
+      "source_id": "youtube_data_api_v3",
+      "publisher": "YouTube",
+      "page_url": "https://developers.google.com/youtube/v3",
+      "refresh": "daily",
+      "planned_use": "Public video ID, title, channel, and publishedAt.",
+      "access_note": "Google Cloud project and API quota required. No private viewer data."
+    }
+  ],
+  "downstream_owned_elsewhere": [
+    {
+      "source_id": "greenhouse_job_board_api",
+      "owner": "Vidya Sagar Dudekula",
+      "page_url": "https://docs.greenhouse.io/job-board.html"
+    },
+    {
+      "source_id": "lever_postings_api",
+      "owner": "Vidya Sagar Dudekula",
+      "page_url": "https://github.com/lever/postings-api"
+    },
+    {
+      "source_id": "github_rest_api",
+      "owner": "Vidya Sagar Dudekula",
+      "page_url": "https://docs.github.com/en/rest"
+    }
+  ]
+}

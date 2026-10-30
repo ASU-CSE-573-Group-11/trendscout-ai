@@ -11,7 +11,9 @@
 | LinkedIn | Optional | Only when access is reproducible and permitted | The core system must not depend on it |
 | Private profiles or restricted content | Excluded | None | Do not collect |
 
-Every retained record must include its source URL, observation time, content hash, and an access note when relevant.
+Named websites and RSS endpoints used by Sueda's collectors live in `data/registry/named_sources.json`. The frozen company list lives in `data/registry/cohort.json`.
+
+Every retained record must include its source URL, observation time, content hash, origin cluster, and an access note when relevant.
 
 ## Independence and corroboration
 

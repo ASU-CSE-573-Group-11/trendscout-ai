@@ -1,0 +1,77 @@
+{
+  "snapshot_rule": "Every comparison uses one frozen dated snapshot. Do not mix live collection with scored evaluation.",
+  "annotation_plan": {
+    "documents": "40-50",
+    "entity_mentions": "200+",
+    "relations": "80-100",
+    "annotators": "two team members, independently",
+    "agreement": "report Cohen's kappa or equivalent after adjudication"
+  },
+  "retrieval_set": {
+    "questions": "25-30",
+    "temporal_multihop": "8-10",
+    "insufficient_evidence": "6-8"
+  },
+  "trust_pilot": {
+    "participants": "5-8",
+    "tasks_each": "6-8",
+    "conditions": ["citations_only", "citations_plus_state_and_path"],
+    "measures": ["status_accuracy", "evidence_choice", "abstention_accuracy", "time", "confidence"]
+  },
+  "questions": [
+    {
+      "question_id": "q-pilot-github-mlops",
+      "type": "temporal_multihop",
+      "question": "Which agent-infrastructure startups show both rising GitHub activity and new MLOps hiring in the last eight weeks?",
+      "expected_behavior": "answer_if_both_signals_else_qualify",
+      "needs": ["github", "jobs"]
+    },
+    {
+      "question_id": "q-investors-later-hiring",
+      "type": "temporal_multihop",
+      "question": "Which investors funded startups that later increased hiring for retrieval or evaluation skills?",
+      "expected_behavior": "answer_with_valid_time_path",
+      "needs": ["funding", "jobs"]
+    },
+    {
+      "question_id": "q-sector-attention",
+      "type": "temporal_multihop",
+      "question": "Which sectors gained attention from multiple public voices and also produced operational signals?",
+      "expected_behavior": "require_independent_origins_plus_jobs_or_github",
+      "needs": ["public_voice", "github_or_jobs"]
+    },
+    {
+      "question_id": "q-why-emerging",
+      "type": "evidence_state",
+      "question": "Why is a company marked as emerging, and what evidence could change that label?",
+      "expected_behavior": "explain_ledger_state",
+      "needs": ["evidence_ledger"]
+    },
+    {
+      "question_id": "q-unsupported-acquisition",
+      "type": "insufficient",
+      "question": "Which frozen cohort company acquired Anthropic in 2024?",
+      "expected_behavior": "abstain",
+      "needs": []
+    },
+    {
+      "question_id": "q-future-performance",
+      "type": "insufficient",
+      "question": "Which company in the cohort will have the highest valuation in 2027?",
+      "expected_behavior": "abstain",
+      "needs": []
+    }
+  ],
+  "metrics": {
+    "extraction": ["precision", "recall", "f1", "alias_accuracy"],
+    "retrieval": ["p@5", "r@5", "mrr", "ndcg@5"],
+    "temporal": ["answer_accuracy", "valid_time_accuracy", "path_correctness", "stale_accuracy", "false_alert_rate"],
+    "answer_quality": ["claim_support_rate", "citation_precision", "unsupported_claim_rate", "median_latency_seconds"],
+    "success_thresholds": {
+      "unsupported_claims_max": 0.10,
+      "factual_claims_with_valid_evidence_min": 0.90,
+      "trend_p_at_5_min": 0.70,
+      "median_latency_seconds_max": 8
+    }
+  }
+}

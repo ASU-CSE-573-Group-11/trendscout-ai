@@ -19,9 +19,9 @@ The system is designed to answer not only *what is trending?*, but also *why is 
 
 ## Current status
 
-The repository is in the proposal and project-foundation phase. The research scope, source policy, initial evaluation logic, shared source-record schema, and repository conventions are documented. Implementation will begin with a narrow end-to-end pilot before expanding the corpus.
+The repository has a frozen 18-company cohort, a named-source registry, Sueda's news/company/public-voice collectors, origin clustering, a BM25 baseline, and an evaluation design. Ontology, ATS/GitHub collectors, the temporal graph, dense retrieval, and the conversational interface are still outstanding.
 
-The submitted proposal is available at [`docs/proposal/TrendScout_AI_Project_Proposal_G11_P5.pdf`](docs/proposal/TrendScout_AI_Project_Proposal_G11_P5.pdf).
+The submitted proposal is available at [`docs/proposal/TrendScout_AI_Project_Proposal_G11_P5.pdf`](docs/proposal/TrendScout_AI_Project_Proposal_G11_P5.pdf). The live work division is [`docs/project-plan.md`](docs/project-plan.md).
 
 ## Project scope
 
@@ -48,9 +48,17 @@ The submitted proposal is available at [`docs/proposal/TrendScout_AI_Project_Pro
 
 1. Finalize scope and source policy.
 2. Approve the shared JSON schema.
-3. Create one-startup pilot records.
-4. Validate the first graph and retrieval path.
+3. Freeze the cohort and collect Sueda's documentary records.
+4. Create one-startup pilot records through jobs, GitHub, graph, and retrieval.
 5. Expand only after the end-to-end pilot works.
+
+Sueda's local collection:
+
+```bash
+python -m pip install -r requirements.txt
+python -m pytest
+python -m collectors.run --live --out data/processed/sueda
+```
 
 ## System flow
 

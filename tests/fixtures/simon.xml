@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Simon Willison's Weblog</title>
+  <entry>
+    <title>Notes on LlamaIndex retrieval</title>
+    <link href="https://simonwillison.net/2026/10/03/llamaindex/"/>
+    <updated>2026-10-03T09:00:00Z</updated>
+    <summary>Interview notes on how LlamaIndex scores retrieved chunks.</summary>
+  </entry>
+  <entry>
+    <title>Weekend baking</title>
+    <link href="https://simonwillison.net/2026/10/04/baking/"/>
+    <updated>2026-10-04T09:00:00Z</updated>
+    <summary>No startup names.</summary>
+  </entry>
+</feed>
