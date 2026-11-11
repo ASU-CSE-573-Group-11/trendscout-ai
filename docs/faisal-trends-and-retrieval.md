@@ -24,7 +24,7 @@ Nothing in `collectors/`, `graph/`, or `retrieval/bm25.py` was modified.
 
 ```bash
 python -m pip install -r requirements.txt
-python -m pytest                       # 195 tests, no extra dependencies
+python -m pytest                       # 227 tests, no extra dependencies
 
 # Weekly features and trend scoring over the fixture snapshot.
 python -m signals --records tests/fixtures/faisal/snapshot_records.jsonl \
