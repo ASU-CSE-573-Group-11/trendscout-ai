@@ -77,6 +77,16 @@ ROLE_FAMILY_PATTERNS: dict[str, tuple[str, ...]] = {
         r"\bresearch scientist\b",
         r"\bresearch engineer\b",
     ),
+    # Added after testing against the collector's real job fixtures, where
+    # "Machine Learning Engineer" fell through to `other`. It is a modelling
+    # role, distinct from the operations work `mlops` covers.
+    "machine_learning": (
+        r"\bmachine learning engineer\b",
+        r"\bml engineer\b",
+        r"\bai engineer\b",
+        r"\bdeep learning\b",
+        r"\bapplied scientist\b",
+    ),
     "infrastructure": (
         r"\binfrastructure\b",
         r"\bplatform\b",

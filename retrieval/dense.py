@@ -144,7 +144,12 @@ class SentenceTransformerEncoder:
                 "(requirements-interface.txt) or use the default HashingEncoder."
             ) from exc
         self._model = SentenceTransformer(self.model_name)
-        self.dim = int(self._model.get_sentence_embedding_dimension())
+        # Renamed in sentence-transformers 5.x; both spellings are supported so
+        # the encoder works across the versions a teammate might have pinned.
+        dimension = getattr(self._model, "get_embedding_dimension", None) or getattr(
+            self._model, "get_sentence_embedding_dimension"
+        )
+        self.dim = int(dimension())
         self.name = f"st:{self.model_name}"
 
     def encode(self, texts: Sequence[str]) -> list[list[float]]:  # pragma: no cover - optional path

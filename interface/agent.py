@@ -292,7 +292,9 @@ class TrendScoutAgent:
             encoder=_encoder(self.config.encoder),
         )
         self.graph = graph or InMemoryGraph.from_records(
-            self.records, trend_signals=to_payload(self.trend_run.signals)
+            self.records,
+            trend_signals=to_payload(self.trend_run.signals),
+            cohort=self.cohort,
         )
         requested = provider or build_provider(self.config.provider)
         usable, reason = requested.available()
@@ -398,6 +400,15 @@ class TrendScoutAgent:
         observed_from = window.start if self.config.use_temporal_fields else None
         observed_to = window.end if self.config.use_temporal_fields else None
         weeks = window.iso_weeks() if self.config.use_temporal_fields else None
+
+        if "sector" in route.question.lower() and self.graph.sectors():
+            results.append(
+                self.graph.sector_attention(
+                    observed_from=observed_from,
+                    observed_to=observed_to,
+                    minimum_voice_origins=self.evidence_config.minimum_independent_origins,
+                )
+            )
 
         for company_id in companies[: self.config.max_companies_queried]:
             results.append(
@@ -524,7 +535,7 @@ class TrendScoutAgent:
                 snapshot=snapshot,
             )
 
-        findings = self._findings(route, window, citations, trend_signals)
+        findings = self._findings(route, window, citations, trend_signals, graph_results)
         context = {
             "snapshot_anchor": self.snapshot_anchor,
             "time_window_label": window.label,
@@ -657,6 +668,7 @@ class TrendScoutAgent:
         window: TimeWindow,
         citations: Sequence[Citation],
         trend_signals: Sequence[TrendSignal],
+        graph_results: Sequence[GraphResult] = (),
     ) -> list[dict[str, Any]]:
         """Statements that answer the question, derived from cited evidence.
 
@@ -762,22 +774,47 @@ class TrendScoutAgent:
                     }
                 )
 
-        # A question about sectors cannot be grouped by sector until Sector
-        # nodes exist in the graph. Saying so is the honest answer; grouping by
-        # company and calling it a sector answer would not be.
-        if "sector" in route.question.lower() and not any(
-            node["label"] == "Sector" for node in self.graph.nodes.values()
-        ):
-            numbered = [citation.number for citation in citations if citation.kind == "graph"][:1]
-            findings.append(
-                {
-                    "text": (
-                        "The graph holds no Sector nodes yet, so this answer cannot be grouped by "
-                        "sector; what follows is per-company evidence for the same window."
-                    ),
-                    "citation_numbers": numbered,
-                }
+        if "sector" in route.question.lower():
+            sector_result = next(
+                (result for result in graph_results if result.purpose == "sector_attention"), None
             )
+            numbered = [citation.number for citation in citations if citation.kind == "graph"][:1]
+            if sector_result is None or not sector_result.rows:
+                # Without Sector nodes the question cannot be grouped by sector.
+                # Saying so beats grouping by company and calling it a sector
+                # answer.
+                findings.append(
+                    {
+                        "text": (
+                            "The graph holds no Sector nodes, so this answer cannot be grouped by "
+                            "sector; what follows is per-company evidence for the same window."
+                        ),
+                        "citation_numbers": numbered,
+                    }
+                )
+            else:
+                for row in sector_result.rows:
+                    name = row["sector_id"].replace("_", " ")
+                    if row["qualifies"]:
+                        text = (
+                            f"The {name} sector qualifies: "
+                            f"{row['independent_voice_origins']} independent coverage origins "
+                            f"across {len(row['companies'])} cohort companies, and "
+                            f"{row['operational_records']} operational records in the same window."
+                        )
+                    else:
+                        reason = (
+                            f"only {row['independent_voice_origins']} independent coverage "
+                            f"origin(s)"
+                            if row["independent_voice_origins"]
+                            < self.evidence_config.minimum_independent_origins
+                            else "no operational signal in the window"
+                        )
+                        text = (
+                            f"The {name} sector does not qualify: {reason} across "
+                            f"{len(row['companies'])} cohort companies."
+                        )
+                    findings.append({"text": text, "citation_numbers": numbered})
 
         return findings
 

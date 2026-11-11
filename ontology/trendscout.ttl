@@ -15,6 +15,7 @@ ts:Event a owl:Class ;
     rdfs:subClassOf prov:Entity .
 ts:Document a owl:Class ;
     rdfs:subClassOf prov:Entity .
+ts:Sector a owl:Class .
 
 ts:about a owl:ObjectProperty .
 ts:publishedBy a owl:ObjectProperty ;
@@ -25,6 +26,7 @@ ts:derivedFrom a owl:ObjectProperty ;
     rdfs:subPropertyOf prov:wasDerivedFrom .
 ts:sameOriginAs a owl:ObjectProperty ;
     a owl:SymmetricProperty .
+ts:operatesIn a owl:ObjectProperty .
 
 ts:eventAt a owl:DatatypeProperty ;
     rdfs:subPropertyOf schema:temporal .
@@ -38,6 +40,7 @@ ts:originClusterId a owl:DatatypeProperty .
 ts:sourceType a owl:DatatypeProperty .
 ts:passage a owl:DatatypeProperty .
 ts:recordId a owl:DatatypeProperty .
+ts:sectorId a owl:DatatypeProperty .
 ts:companyId a owl:DatatypeProperty .
 ts:name a owl:DatatypeProperty .
 ts:claimText a owl:DatatypeProperty .

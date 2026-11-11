@@ -130,6 +130,7 @@ class InMemoryGraph:
         records: Iterable[Mapping[str, Any]],
         *,
         trend_signals: Iterable[Mapping[str, Any]] | None = None,
+        cohort: Mapping[str, Any] | None = None,
         library: CypherLibrary | None = None,
     ) -> "InMemoryGraph":
         records = list(records)
@@ -151,6 +152,37 @@ class InMemoryGraph:
                     # the MATCH-based import: a signal never invents a record.
                     seen.add(key)
                     edges.append(edge)
+
+        # Sectors come from the frozen cohort's own `category` field, which is
+        # already the project's sector vocabulary. The proposal lists Sector and
+        # OPERATES_IN as core ontology types, so this materialises something the
+        # design specifies rather than inventing a grouping. Nothing in graph/
+        # changes: these nodes are built here, alongside the trend signals.
+        for company in (cohort or {}).get("companies", []):
+            company_id, category = company.get("company_id"), company.get("category")
+            if not company_id or not category:
+                continue
+            startup_node = f"startup:{company_id}"
+            if startup_node not in nodes:
+                # Only sector-tag companies the snapshot actually has records
+                # for; a cohort entry with no evidence is not in this graph.
+                continue
+            sector_node = f"sector:{category}"
+            nodes.setdefault(
+                sector_node,
+                {
+                    "id": sector_node,
+                    "label": "Sector",
+                    "properties": {"sector_id": category, "name": category.replace("_", " ")},
+                },
+            )
+            edges.append({"from": startup_node, "type": "OPERATES_IN", "to": sector_node})
+
+        unique_edges = {(edge["from"], edge["type"], edge["to"]) for edge in edges}
+        edges = [
+            {"from": source, "type": relation, "to": target}
+            for source, relation, target in sorted(unique_edges)
+        ]
         return cls(nodes=nodes, edges=edges, library=library or CypherLibrary())
 
     # -- helpers ---------------------------------------------------------
@@ -396,6 +428,88 @@ class InMemoryGraph:
                 None
                 if signals
                 else "no trend signal is attached to this company in the requested window"
+            ),
+        )
+
+    def sectors(self) -> list[str]:
+        return sorted(
+            node["properties"]["sector_id"]
+            for node in self.nodes.values()
+            if node["label"] == "Sector"
+        )
+
+    def companies_in_sector(self, sector_id: str) -> list[str]:
+        target = f"sector:{sector_id}"
+        found = []
+        for edge in self._in.get(target, []):
+            if edge["type"] != "OPERATES_IN":
+                continue
+            node = self.nodes.get(edge["from"])
+            if node and node["label"] == "Startup":
+                found.append(node["properties"]["company_id"])
+        return sorted(found)
+
+    def sector_attention(
+        self,
+        *,
+        observed_from: str | None = None,
+        observed_to: str | None = None,
+        minimum_voice_origins: int = 2,
+        voice_types: Sequence[str] = ("public_voice", "news"),
+    ) -> GraphResult:
+        """Attention and operational signals per sector, for the third prototype question.
+
+        A sector qualifies when independent *origins* carrying public-voice or
+        news coverage reach the minimum, and at least one company in it also
+        produced an operational signal in the same window. Origins are counted,
+        not articles, because syndicated copies of one origin are not several
+        voices.
+        """
+        rows: list[dict[str, Any]] = []
+        voice_set, operational_set = set(voice_types), {"github", "job"}
+        for sector_id in self.sectors():
+            companies = self.companies_in_sector(sector_id)
+            voice_origins: set[str] = set()
+            operational_records: list[str] = []
+            record_ids: list[str] = []
+            for company_id in companies:
+                for node in self._records_about(company_id):
+                    if observed_from and not self._in_window(node, observed_from, observed_to):
+                        continue
+                    properties = node["properties"]
+                    source_type = properties.get("source_type")
+                    if source_type in voice_set and properties.get("origin_cluster_id"):
+                        voice_origins.add(properties["origin_cluster_id"])
+                        record_ids.append(properties["record_id"])
+                    elif source_type in operational_set:
+                        operational_records.append(properties["record_id"])
+            rows.append(
+                {
+                    "sector_id": sector_id,
+                    "companies": companies,
+                    "independent_voice_origins": len(voice_origins),
+                    "voice_origin_ids": sorted(voice_origins),
+                    "operational_records": len(operational_records),
+                    "qualifies": len(voice_origins) >= minimum_voice_origins
+                    and bool(operational_records),
+                    "record_ids": sorted(record_ids),
+                }
+            )
+        rows.sort(key=lambda row: (-row["independent_voice_origins"], row["sector_id"]))
+        return GraphResult(
+            purpose="sector_attention",
+            template=self.library.for_purpose("independent_origins"),
+            parameters={
+                "observed_from": observed_from,
+                "observed_to": observed_to,
+                "minimum_independent_origins": minimum_voice_origins,
+            },
+            rows=rows,
+            backend=self.name,
+            note=(
+                None
+                if rows
+                else "no Sector nodes in this graph; pass the frozen cohort to from_records"
             ),
         )
 
