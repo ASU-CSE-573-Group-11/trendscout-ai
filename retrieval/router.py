@@ -123,6 +123,7 @@ class RouteDecision:
     scores: Mapping[str, float] = field(default_factory=dict)
     companies: tuple[str, ...] = ()
     metrics: tuple[str, ...] = ()
+    role_families: tuple[str, ...] = ()
     future_reference: str | None = None
 
     @property
@@ -145,6 +146,7 @@ class RouteDecision:
             "scores": dict(self.scores),
             "companies": list(self.companies),
             "metrics": list(self.metrics),
+            "role_families": list(self.role_families),
             "future_reference": self.future_reference,
         }
 
@@ -239,6 +241,24 @@ def detect_companies(question: str, company_ids: Iterable[str], aliases: Mapping
         if any(needle and f" {needle} " in lowered for needle in needles):
             found.append(company_id)
     return tuple(dict.fromkeys(found))
+
+
+def detect_role_families(question: str) -> tuple[str, ...]:
+    """Role families named in a question, using the hiring vocabulary itself.
+
+    The vocabulary is imported from ``signals.job_features`` rather than
+    duplicated, so a question and the series it selects always agree on what
+    "MLOps" matches.
+    """
+    from signals.job_features import ROLE_FAMILY_PATTERNS
+
+    text = " ".join(tokenize(question))
+    found = [
+        family
+        for family, patterns in sorted(ROLE_FAMILY_PATTERNS.items())
+        if any(re.search(pattern, text) for pattern in patterns)
+    ]
+    return tuple(found)
 
 
 def detect_metrics(question: str) -> tuple[str, ...]:
@@ -495,6 +515,7 @@ class QueryRouter:
         future = mentions_future(question, anchor=self.snapshot_anchor)
         companies = detect_companies(question, self.company_ids, self.aliases)
         metrics = detect_metrics(question)
+        families = detect_role_families(question)
 
         if future:
             return RouteDecision(
@@ -511,6 +532,7 @@ class QueryRouter:
                 matched_rules=("after_snapshot_anchor",),
                 companies=companies,
                 metrics=metrics,
+                role_families=families,
                 future_reference=future,
             )
 
@@ -537,6 +559,7 @@ class QueryRouter:
                 matched_rules=("before_coverage_start",),
                 companies=companies,
                 metrics=metrics,
+                role_families=families,
             )
 
         if method == "rules":
@@ -562,6 +585,7 @@ class QueryRouter:
             scores=scores,
             companies=companies,
             metrics=metrics,
+            role_families=families,
         )
 
     def describe(self) -> dict[str, Any]:
@@ -591,5 +615,6 @@ __all__ = [
     "classify_with_rules",
     "detect_companies",
     "detect_metrics",
+    "detect_role_families",
     "tokenize",
 ]

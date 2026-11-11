@@ -1,0 +1,191 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/trendscout/answer.schema.json",
+  "title": "TrendScout Answer Bundle",
+  "description": "One answered question. Carries the claims with their evidence states, the citations each claim rests on, the time window used, the graph path, and the per-stage latency, so the evaluation can score citation precision, abstention accuracy, and latency from the same object the interface displays.",
+  "type": "object",
+  "required": [
+    "question",
+    "answer_text",
+    "claims",
+    "citations",
+    "route",
+    "time_window",
+    "overall_state",
+    "abstained",
+    "missing_evidence",
+    "qualified",
+    "provider",
+    "latency",
+    "snapshot"
+  ],
+  "properties": {
+    "question": { "type": "string", "minLength": 1 },
+    "answer_text": { "type": "string" },
+    "overall_state": {
+      "type": "string",
+      "enum": ["corroborated", "emerging", "disputed", "stale", "insufficient"],
+      "description": "The most cautious state among the claims: one insufficient claim makes the whole answer insufficient."
+    },
+    "abstained": { "type": "boolean" },
+    "abstention_reason": { "type": ["string", "null"] },
+    "qualified": { "type": "boolean" },
+    "qualification": { "type": ["string", "null"] },
+    "missing_evidence": { "type": "array", "items": { "type": "string" } },
+    "unsupported_claim_count": { "type": "integer", "minimum": 0 },
+    "unsupported_claim_rate": { "type": "number", "minimum": 0, "maximum": 1 },
+    "claims": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["text", "citation_numbers", "evidence_state", "evidence_reason", "supported"],
+        "properties": {
+          "text": { "type": "string" },
+          "citation_numbers": { "type": "array", "items": { "type": "integer", "minimum": 1 } },
+          "evidence_state": {
+            "type": "string",
+            "enum": ["corroborated", "emerging", "disputed", "stale", "insufficient"]
+          },
+          "evidence_reason": { "type": "string", "minLength": 1 },
+          "supported": {
+            "type": "boolean",
+            "description": "False when the claim carries no citation or its evidence is insufficient. The unsupported-claim rate is computed from this."
+          },
+          "independent_origin_count": { "type": "integer", "minimum": 0 },
+          "record_ids": { "type": "array", "items": { "type": "string" } },
+          "conflicts": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["kind", "detail", "origins"],
+              "properties": {
+                "kind": { "type": "string", "enum": ["amount", "date", "entity"] },
+                "detail": { "type": "string" },
+                "origins": { "type": "array", "items": { "type": "string" } },
+                "values": { "type": "array", "items": { "type": "string" } }
+              },
+              "additionalProperties": false
+            }
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "citations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["number", "kind", "record_ids", "origin_cluster_ids"],
+        "properties": {
+          "number": { "type": "integer", "minimum": 1 },
+          "kind": { "type": "string", "enum": ["passage", "trend", "graph"] },
+          "record_ids": { "type": "array", "items": { "type": "string" } },
+          "origin_cluster_ids": { "type": "array", "items": { "type": "string" } },
+          "source_type": { "type": ["string", "null"] },
+          "title": { "type": ["string", "null"] },
+          "source_url": { "type": ["string", "null"] },
+          "publisher": { "type": ["string", "null"] },
+          "company_id": { "type": ["string", "null"] },
+          "when": { "type": ["string", "null"] },
+          "time_basis": { "type": ["string", "null"] },
+          "text": { "type": ["string", "null"] },
+          "retrievers": { "type": "object", "additionalProperties": true },
+          "score": { "type": ["number", "null"] },
+          "detail": { "type": "object", "additionalProperties": true }
+        },
+        "additionalProperties": false
+      }
+    },
+    "route": {
+      "type": "object",
+      "required": ["intent", "strategies", "method", "rationale"],
+      "properties": {
+        "question": { "type": "string" },
+        "intent": {
+          "type": "string",
+          "enum": ["exact", "aggregate", "narrative", "mixed_temporal", "evidence_state", "unsupported"]
+        },
+        "strategies": { "type": "array", "items": { "type": "string" } },
+        "method": { "type": "string" },
+        "rationale": { "type": "string" },
+        "confidence": { "type": "number", "minimum": 0, "maximum": 1 },
+        "matched_rules": { "type": "array", "items": { "type": "string" } },
+        "scores": { "type": "object", "additionalProperties": true },
+        "companies": { "type": "array", "items": { "type": "string" } },
+        "metrics": { "type": "array", "items": { "type": "string" } },
+        "role_families": { "type": "array", "items": { "type": "string" } },
+        "future_reference": { "type": ["string", "null"] },
+        "time_window": { "type": "object", "additionalProperties": true }
+      },
+      "additionalProperties": false
+    },
+    "time_window": {
+      "type": "object",
+      "required": ["end", "basis", "anchor"],
+      "description": "The window the answer used. 'anchor' is the snapshot date the relative expression was resolved against, never the current date.",
+      "properties": {
+        "start": { "type": ["string", "null"] },
+        "end": { "type": "string" },
+        "basis": { "type": "string", "enum": ["relative", "absolute", "none"] },
+        "expression": { "type": ["string", "null"] },
+        "anchor": { "type": "string" },
+        "weeks": { "type": ["integer", "null"] },
+        "label": { "type": "string" },
+        "iso_weeks": { "type": "array", "items": { "type": "string" } }
+      },
+      "additionalProperties": false
+    },
+    "graph": { "type": "array", "items": { "type": "object", "additionalProperties": true } },
+    "graph_paths": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["steps", "rendered"],
+        "properties": {
+          "steps": { "type": "array", "items": { "type": "object", "additionalProperties": true } },
+          "nodes": { "type": "array", "items": { "type": "object", "additionalProperties": true } },
+          "rendered": { "type": "string" }
+        },
+        "additionalProperties": false
+      }
+    },
+    "trend_signals": { "type": "array", "items": { "type": "object", "additionalProperties": true } },
+    "provider": {
+      "type": "object",
+      "required": ["text", "provider"],
+      "properties": {
+        "text": { "type": "string" },
+        "provider": { "type": "string" },
+        "model": { "type": ["string", "null"] },
+        "fallback_used": { "type": "boolean" },
+        "fallback_reason": { "type": ["string", "null"] },
+        "usage": { "type": "object", "additionalProperties": true },
+        "refused": { "type": "boolean" }
+      },
+      "additionalProperties": false
+    },
+    "latency": {
+      "type": "object",
+      "required": ["total"],
+      "description": "Milliseconds per stage. 'unattributed' is orchestration time outside the named stages, reported rather than folded into one of them.",
+      "additionalProperties": { "type": "number" }
+    },
+    "config": { "type": "object", "additionalProperties": true },
+    "snapshot": {
+      "type": "object",
+      "required": ["snapshot_anchor", "replayed_from_snapshot"],
+      "properties": {
+        "snapshot_id": { "type": "string" },
+        "snapshot_anchor": { "type": "string" },
+        "last_data_week": { "type": ["string", "null"] },
+        "records": { "type": "integer", "minimum": 0 },
+        "demo_mode": { "type": "boolean" },
+        "replayed_from_snapshot": { "type": "boolean" },
+        "graph_backend": { "type": "string" },
+        "dense": { "type": "object", "additionalProperties": true }
+      },
+      "additionalProperties": true
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,22 @@
+# Optional extras for Faisal's retrieval and interface module.
+# The core system runs on requirements.txt alone: dense retrieval falls back to
+# a deterministic hashing encoder, the graph falls back to the in-memory
+# backend, and answers fall back to the extractive provider. Install these only
+# for the real dense baseline, the Streamlit UI, a live Neo4j, or an LLM answer
+# provider.
+
+# Streamlit chat interface.
+streamlit>=1.36.0
+
+# Real dense retrieval. Pulls in torch; large download.
+sentence-transformers>=3.0.0
+
+# Faster dense search. numpy alone is enough; faiss is used when present.
+numpy>=1.26.0
+faiss-cpu>=1.8.0
+
+# Live graph backend, instead of the in-memory equivalent.
+neo4j>=5.20.0
+
+# LLM answer provider. Requires ANTHROPIC_API_KEY.
+anthropic>=0.49.0
