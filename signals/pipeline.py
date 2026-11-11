@@ -21,6 +21,7 @@ from signals.github_features import GitHubFeatureConfig, build_github_features
 from signals.job_features import JobFeatureConfig, build_job_features
 from signals.news_features import NewsFeatureConfig, build_news_features
 from signals.series import WeeklySeries
+from signals.topics import TopicConfig
 from signals.weeks import iso_week, parse_instant, parse_iso_week, weeks_back
 
 
@@ -30,6 +31,7 @@ class FeatureBundle:
 
     series: list[WeeklySeries] = field(default_factory=list)
     coverage: dict[str, Any] = field(default_factory=dict)
+    topic_model: Any = None
 
     def by_family(self, signal_family: str) -> list[WeeklySeries]:
         return [item for item in self.series if item.signal_family == signal_family]
@@ -50,15 +52,28 @@ def build_feature_bundle(
     github_config: GitHubFeatureConfig | None = None,
     job_config: JobFeatureConfig | None = None,
     news_config: NewsFeatureConfig | None = None,
+    topic_config: "TopicConfig | None" = None,
+    include_topics: bool = False,
     validate: bool = True,
 ) -> FeatureBundle:
-    """Build GitHub, hiring, and attention series from a mixed record set."""
+    """Build GitHub, hiring, attention, and optionally topic series."""
     records = list(records)
     github = build_github_features(records, config=github_config, validate=validate)
     jobs = build_job_features(records, config=job_config, validate=validate)
     news = build_news_features(records, config=news_config, validate=validate)
 
     series = [*github.series, *jobs.series, *news.series]
+
+    # Topics are the proposal's lightweight trend-discovery baseline and are
+    # opt-in: fitting a model changes the series set, and the other three
+    # families should stay comparable between runs that do and do not use it.
+    topic_model = None
+    if include_topics or topic_config is not None:
+        from signals.topics import TopicConfig, company_topic_series, fit_topics, topic_weekly_series
+
+        topic_model = fit_topics(records, config=topic_config or TopicConfig())
+        series.extend(topic_weekly_series(topic_model))
+        series.extend(company_topic_series(topic_model))
     by_type: dict[str, int] = defaultdict(int)
     for record in records:
         by_type[str(record.get("source_type"))] += 1
@@ -76,7 +91,9 @@ def build_feature_bundle(
         "jobs": jobs.coverage,
         "news": news.coverage,
     }
-    return FeatureBundle(series=series, coverage=coverage)
+    if topic_model is not None:
+        coverage["topics"] = topic_model.describe()
+    return FeatureBundle(series=series, coverage=coverage, topic_model=topic_model)
 
 
 def snapshot_week(records: Iterable[Mapping[str, Any]]) -> str | None:
@@ -141,6 +158,8 @@ def run_trend_pipeline(
     github_config: GitHubFeatureConfig | None = None,
     job_config: JobFeatureConfig | None = None,
     news_config: NewsFeatureConfig | None = None,
+    topic_config: "TopicConfig | None" = None,
+    include_topics: bool = False,
     validate: bool = True,
 ) -> TrendRun:
     """Build and score every weekly series in one snapshot."""
@@ -151,6 +170,8 @@ def run_trend_pipeline(
         github_config=github_config,
         job_config=job_config,
         news_config=news_config,
+        topic_config=topic_config,
+        include_topics=include_topics,
         validate=validate,
     )
     signals = score_many(bundle.series, config)
