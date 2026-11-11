@@ -73,11 +73,19 @@ DOMAIN_STOPWORDS: frozenset[str] = frozenset(
 
 
 def tokenize(text: str, *, stopwords: frozenset[str], min_length: int = 3) -> list[str]:
-    return [
-        token
-        for token in _WORD.findall((text or "").lower())
-        if len(token) >= min_length and token not in stopwords and not token.isdigit()
-    ]
+    """Content words, keeping internal punctuation in names like ``node.js``.
+
+    The pattern allows ``.``, ``-`` and ``+`` inside a token so ``c++`` and
+    ``node.js`` survive, which means sentence-final punctuation has to be
+    stripped afterwards; otherwise ``applications.`` and ``applications``
+    become two vocabulary entries.
+    """
+    tokens = []
+    for raw in _WORD.findall((text or "").lower()):
+        token = raw.strip(".-")
+        if len(token) >= min_length and token not in stopwords and not token.isdigit():
+            tokens.append(token)
+    return tokens
 
 
 @dataclass(frozen=True)

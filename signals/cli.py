@@ -28,6 +28,7 @@ from signals.ewma import TrendConfig
 from signals.github_features import GitHubFeatureConfig
 from signals.graph_export import trend_import_statements
 from signals.job_features import JobFeatureConfig
+from signals.topics import TopicConfig
 from signals.pipeline import (
     companies_missing_signal,
     resolve_window,
@@ -79,6 +80,15 @@ def build_parser() -> argparse.ArgumentParser:
         action="store_true",
         help="Exclude bot-heavy repositories entirely instead of flagging them.",
     )
+    topics = parser.add_argument_group("topic baseline (proposal section 3)")
+    topics.add_argument(
+        "--topics",
+        type=int,
+        help="Fit the LDA topic baseline with this many topics and emit weekly topic series.",
+    )
+    topics.add_argument("--topic-iterations", type=int, default=300)
+    topics.add_argument("--topic-seed", type=int, default=20261110)
+
     quality.add_argument(
         "--include-unavailable-metrics",
         action="store_true",
@@ -117,6 +127,16 @@ def main(argv: Sequence[str] | None = None) -> int:
             include_unavailable_metrics=args.include_unavailable_metrics,
         ),
         job_config=JobFeatureConfig(),
+        include_topics=bool(args.topics),
+        topic_config=(
+            TopicConfig(
+                topics=args.topics,
+                iterations=args.topic_iterations,
+                seed=args.topic_seed,
+            )
+            if args.topics
+            else None
+        ),
     )
 
     window = resolve_window(run, weeks=args.weeks, last_week=args.last_week)
@@ -130,6 +150,16 @@ def main(argv: Sequence[str] | None = None) -> int:
         "labels": run.labels(),
         "trend_config": run.config.as_dict(),
     }
+    if run.bundle.topic_model is not None:
+        described = run.bundle.topic_model.describe()
+        report["topics"] = described
+        if not args.json:
+            print(f"LDA baseline: {described['documents']} documents, "
+                  f"{described['vocabulary']} terms, {len(described['topics'])} topics")
+            for topic in described["topics"]:
+                print(f"  {topic['topic_id']} weight={topic['weight']:.3f}  {topic['label']}")
+            if described["caveat"]:
+                print(f"  caveat: {described['caveat']}")
 
     if args.question == "rising-with-hiring":
         matches = rising_with_new_hiring(

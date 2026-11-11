@@ -9,7 +9,7 @@ citation display, and latency logging.
 
 | Module | Purpose |
 |---|---|
-| `signals/` | Weekly features from GitHub, job, and documentary records; EWMA plus rolling z-score; the trend-signal contract; graph export |
+| `signals/` | Weekly features from GitHub, job, and documentary records; EWMA plus rolling z-score; the LDA topic baseline; the trend-signal contract; graph export |
 | `retrieval/dense.py`, `hybrid.py` | Dense passage index and reciprocal-rank fusion with Sueda's BM25 |
 | `retrieval/router.py`, `timewindow.py` | Intent and time-window routing, with both classical baselines from the proposal |
 | `retrieval/graph_queries.py`, `graph_access.py` | Mehmet's Cypher as named templates, a backend that answers them without a database, and Sector nodes from the frozen cohort |
@@ -176,6 +176,31 @@ articles rather than origins would let one press release look like a wave of
 coverage, and the evidence ledger is explicit that syndicated copies are not
 independent corroboration.
 
+**The LDA topic baseline.** Proposal section 3 lists LDA as the lightweight
+trend-discovery baseline alongside distinct-source counts and EWMA.
+`signals/topics.py` fits it by collapsed Gibbs sampling in plain Python, with
+no scikit-learn or gensim, because CI installs only `requirements.txt`. The
+sampler is seeded and its iteration order is fixed, so a frozen snapshot yields
+the same topics every run — a baseline whose topics move between runs cannot be
+compared against anything.
+
+Topics are not a parallel pipeline: `topic_weekly_series` emits distinct-origin
+counts per topic per ISO week, so "which topics are rising" is answered by the
+same EWMA scorer as commits and hiring. Topic series are opt-in
+(`--topics K`), so the other three families stay comparable between runs that
+do and do not fit a model.
+
+| Parameter | Default | Reason |
+|---|---|---|
+| `alpha` | 0.1 | The textbook 50/K is for long documents; on passages of a few dozen tokens it swamps the observed counts and leaves every document a near-uniform mixture |
+| `beta` | 0.01 | Sparse topic-word prior, standard for short text |
+| `iterations` / `burn_in` | 300 / 50 | Post-burn-in sweeps are averaged rather than taking one noisy final draw |
+| `min_documents` | 25 | Below this the model is marked `underpowered` and the caveat is reported |
+
+The alpha choice is not cosmetic: on a planted two-topic corpus the default
+separates the vocabularies cleanly, and at 50/K it does not. Both behaviours
+are asserted in `tests/test_topics_lda.py`.
+
 ### Traceability
 
 Every trend signal carries the `record_id` values for the week it scores **and**
@@ -340,7 +365,7 @@ synthetic and there are no relevance labels yet.
 |---|---|
 | Records | 95 (37 github, 53 job, 3 news, 1 company, 1 public_voice) |
 | Series built | 93 (36 github, 48 jobs, 9 news) |
-| Trend signals | 801 — 55 rising, 353 flat, 393 insufficient_history |
+| Trend signals | 801 — 55 rising, 353 flat, 393 insufficient_history (841 with `--topics 3`) |
 | Snapshot week / last data week | 2026-W45 / 2026-W44 |
 | GitHub observations | 37 received, 28 used (1 exact replay deduplicated, 8 from the excluded mirror) |
 | Excluded repositories | `run-llama/llama_index-mirror` (mirror) |
@@ -497,7 +522,6 @@ finished here instead.
 | Mehmet | A live Neo4j load | `Neo4jBackend` is written; the in-memory equivalent serves the demo |
 | Mehmet | `Claim` nodes from the evidence ledger | Multi-hop paths reach trend signals today; claim paths appear automatically once claims load |
 | Sueda | Relevance labels against the frozen snapshot | Needed to report retrieval metrics; every condition and ablation already runs |
-| Team | A decision on the LDA topic baseline (proposal §3) | Unowned in `project-plan.md`; outside my rows |
 | Team | Whether to enable the Anthropic provider, and whose key | The extractive fallback runs without one |
 
 Nice-to-have, not needed: per-commit `committed_at` in
@@ -511,11 +535,15 @@ four metrics currently reported as unavailable.
    collector; weekly activity features; EWMA baseline; repository-quality
    controls". `docs/project-plan.md` has four members and reassigns the
    collector to Vidya and the weekly features and EWMA to me. I followed the
-   plan, as it is the live work division.
+   plan, as it is the live work division. That member has since left the team;
+   his row is fully covered — the collector by PR #3, and the features, EWMA,
+   and repository-quality controls here.
 2. Consequently the proposal gives me only the Nov 6–13 row; the plan adds the
    Oct 28–Nov 5 EWMA work. That work was already overdue, not due Nov 13.
-3. Proposal §3 lists an **LDA topic baseline** under trend discovery.
-   `project-plan.md` assigns it to nobody and it is not in my scope.
+3. Proposal §3 listed an **LDA topic baseline** under trend discovery that
+   `project-plan.md` assigned to nobody. Since trend discovery is now my
+   module, it is implemented here (`signals/topics.py`) rather than left
+   unowned.
 4. `.github/workflows/sueda-collectors.yml` installs only `requirements.txt` on
    Python 3.11, so FAISS, sentence-transformers, Streamlit, Neo4j, and the
    Anthropic SDK cannot be test dependencies. Every one of them is optional with

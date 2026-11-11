@@ -35,6 +35,7 @@ write_trend_bundle(run, Path("artifacts/trends/fixture"))
 python -m signals --records tests/fixtures/faisal/snapshot_records.jsonl \
     --question rising-with-hiring --weeks 8
 python -m signals --records tests/fixtures/faisal/snapshot_records.jsonl --cypher
+python -m signals --records tests/fixtures/faisal/snapshot_records.jsonl --topics 6
 ```
 
 A bundle contains `trend_signals.jsonl`, `series.json`, and `coverage.json`,
@@ -52,6 +53,7 @@ matching the layout of Sueda's collection bundle.
 | `github_features.py` | Weekly commits, human commits, star and issue deltas |
 | `job_features.py` | Open and new postings per company, role family, and skill |
 | `news_features.py` | Distinct-origin attention counts |
+| `topics.py` | LDA topic baseline (collapsed Gibbs) and weekly topic trends |
 | `pipeline.py` | Build and score everything from one snapshot |
 | `graph_export.py` | Nodes, edges, and Cypher for the evidence ledger |
 | `cli.py` | `python -m signals` |
