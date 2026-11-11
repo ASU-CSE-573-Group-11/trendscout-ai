@@ -1,0 +1,31 @@
+{
+  "snapshot_version": 1,
+  "source": "greenhouse",
+  "target": "example",
+  "company_id": "example-ai",
+  "company_name": "Example AI (synthetic fixture)",
+  "observed_at": "2026-11-10T12:00:00Z",
+  "coverage": {"fixture": true, "pages": 1},
+  "payload": {
+    "meta": {"total": 2},
+    "jobs": [
+      {
+        "id": 101,
+        "title": "Machine Learning Engineer",
+        "absolute_url": "https://example.com/jobs/101",
+        "location": {"name": "Remote, US"},
+        "content": "&lt;p&gt;Build with Python, PyTorch, C++ and CUDA.&lt;/p&gt;",
+        "updated_at": "2026-11-09T09:30:00-07:00",
+        "departments": [{"name": "Engineering"}]
+      },
+      {
+        "id": 102,
+        "title": "Data Engineer",
+        "absolute_url": "https://example.com/jobs/102",
+        "location": {"name": "Tempe, AZ"},
+        "content": "<p>Python and SQL.</p><script>private_script_text</script>",
+        "departments": []
+      }
+    ]
+  }
+}

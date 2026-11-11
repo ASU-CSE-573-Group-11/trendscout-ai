@@ -1,0 +1,22 @@
+{
+  "snapshot_version": 1,
+  "source": "lever",
+  "target": "example",
+  "company_id": "example-ai",
+  "company_name": "Example AI (synthetic fixture)",
+  "observed_at": "2026-11-10T12:00:00Z",
+  "coverage": {"fixture": true, "pages": 2, "region": "global"},
+  "payload": [
+    [{
+      "id": "job-201",
+      "text": "Platform Engineer",
+      "hostedUrl": "https://example.com/jobs/201",
+      "descriptionPlain": "Build developer tools in Python.",
+      "categories": {"location": "Remote", "team": "Infrastructure", "commitment": "Full-time"},
+      "lists": [{"text": "Requirements", "content": "<li>Kubernetes and Docker</li><li>SQL</li>"}],
+      "additional": "<p>Experience with Rust.</p>",
+      "workplaceType": "remote"
+    }],
+    []
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "snapshot_version": 1,
+  "source": "github",
+  "target": "example/sdk",
+  "company_id": "example-ai",
+  "company_name": "Example AI (synthetic fixture)",
+  "observed_at": "2026-11-10T12:00:00Z",
+  "coverage": {
+    "fixture": true,
+    "commit_pages": 1,
+    "window_start": "2026-11-03T12:00:00Z",
+    "window_end": "2026-11-10T12:00:00Z",
+    "interval": "(start, end]",
+    "default_branch_sha": "3333333333333333333333333333333333333333",
+    "commit_scope": "default_branch",
+    "window_days": 7
+  },
+  "payload": {
+    "repository": {
+      "id": 301,
+      "full_name": "example/sdk",
+      "html_url": "https://github.com/example/sdk",
+      "description": "Synthetic developer-tool SDK fixture",
+      "private": false,
+      "fork": false,
+      "archived": false,
+      "disabled": false,
+      "mirror_url": null,
+      "stargazers_count": 42,
+      "forks_count": 7,
+      "open_issues_count": 5,
+      "language": "Python",
+      "topics": ["developer-tools", "agents"],
+      "pushed_at": "2026-11-10T09:00:00Z",
+      "updated_at": "2026-11-10T10:00:00Z",
+      "default_branch": "main",
+      "license": {"spdx_id": "MIT"}
+    },
+    "commits": [
+      {"sha": "1111111111111111111111111111111111111111", "committed_at": "2026-11-04T12:00:00Z", "author_type": "User"},
+      {"sha": "2222222222222222222222222222222222222222", "committed_at": "2026-11-07T12:00:00Z", "author_type": "Bot"},
+      {"sha": "3333333333333333333333333333333333333333", "committed_at": "2026-11-10T09:00:00Z", "author_type": "Unknown"}
+    ]
+  }
+}
