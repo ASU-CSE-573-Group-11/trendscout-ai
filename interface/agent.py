@@ -181,6 +181,7 @@ class Answer:
     """The full answer bundle returned to the interface and the evaluation."""
 
     question: str
+    question_id: str | None
     answer_text: str
     claims: list[Claim]
     citations: list[Citation]
@@ -211,6 +212,7 @@ class Answer:
     def as_dict(self) -> dict[str, Any]:
         return {
             "question": self.question,
+            "question_id": self.question_id,
             "answer_text": self.answer_text,
             "claims": [claim.as_dict() for claim in self.claims],
             "citations": [citation.as_dict() for citation in self.citations],
@@ -343,6 +345,7 @@ class TrendScoutAgent:
         with timings.time("generate"):
             answer = self._compose(
                 question=question,
+                question_id=question_id,
                 route=route,
                 window=window,
                 hits=hits,
@@ -462,6 +465,7 @@ class TrendScoutAgent:
         self,
         *,
         question: str,
+        question_id: str | None,
         route: RouteDecision,
         window: TimeWindow,
         hits: Sequence[Mapping[str, Any]],
@@ -493,6 +497,7 @@ class TrendScoutAgent:
             )
             return self._finish(
                 question=question,
+                question_id=question_id,
                 answer_text=text,
                 claims=[],
                 citations=[],
@@ -518,6 +523,7 @@ class TrendScoutAgent:
             )
             return self._finish(
                 question=question,
+                question_id=question_id,
                 answer_text=text,
                 claims=[],
                 citations=[],
@@ -613,6 +619,7 @@ class TrendScoutAgent:
         if not supported:
             return self._finish(
                 question=question,
+                question_id=question_id,
                 answer_text=(
                     "I cannot support an answer to this question from the retrieved evidence. "
                     + (f"Missing: {', '.join(missing)}." if missing else "No claim could be cited.")
@@ -645,6 +652,7 @@ class TrendScoutAgent:
 
         return self._finish(
             question=question,
+            question_id=question_id,
             answer_text=result.text,
             claims=claims,
             citations=citations,

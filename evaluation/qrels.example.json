@@ -1,0 +1,42 @@
+{
+  "grades": {
+    "0": "judged, not relevant",
+    "1": "related context",
+    "2": "directly answers the question"
+  },
+  "illustrative": true,
+  "judged_by": "ILLUSTRATIVE ONLY - generated to demonstrate the runner, not human judgements",
+  "note": "Replace with real adjudicated judgements before reporting any number computed from this file.",
+  "qrels": {
+    "q-investors-later-hiring": {
+      "greenhouse:crewai:6002:3d9ad44e8726928d977d28a9a6bfd6e5ab6ea0f2b9061bf16509056dcf415bdb": 2,
+      "greenhouse:langchain:4005:bdb3417aa9682f7bdc548da1a0f0882e7e81e3492e963f2b2f8942fe5752e783": 2,
+      "news:langchain-blog:langsmith-evaluation-update:45b8c5620ad76df898db09b090ffea56b011065180e7434069a74eb7156cca14": 2,
+      "news:techcrunch:langchain-raises-series-b:d90be12ea69f7997c9b1f388a368c68c185a1bc2df5dbda4c22545a85e5beb0e": 2,
+      "news:the-batch:llamaindex-document-agents:d0d5a200f6e88269a0a3d97163ebafff492a2c7a28e68ee77f3b1c31b67908cc": 2
+    },
+    "q-pilot-github-mlops": {
+      "greenhouse:crewai:6002:3d9ad44e8726928d977d28a9a6bfd6e5ab6ea0f2b9061bf16509056dcf415bdb": 2,
+      "greenhouse:crewai:6003:c3d3811d4e7f772324cf6159b7398d042ca65cdffe18ff797627ad48810945f2": 2,
+      "greenhouse:langchain:4003:d8d4daf8d77502bde703f018ae0ce42a5acfede3754b753a81c16b705c5e699c": 2,
+      "greenhouse:langchain:4005:bdb3417aa9682f7bdc548da1a0f0882e7e81e3492e963f2b2f8942fe5752e783": 2,
+      "news:latent-space:crewai-multi-agent-orchestration:9c9fb55b44a37bf919b3c89c3c4b489224a2ba37663ec4425d52cbea9c20c1b6": 2
+    },
+    "q-sector-attention": {
+      "github:langchain-ai/langchain:101:4350a834b6105063ae00a55ce09b73f446d2d6913480832cb8d0f62beccf3605": 0,
+      "github:run-llama/llama_index:201:3ed8476e917b9026ee6d0a23a55aba1cf9a180003c4cb40d0161518871855a0f": 0,
+      "news:langchain-blog:langsmith-evaluation-update:45b8c5620ad76df898db09b090ffea56b011065180e7434069a74eb7156cca14": 2,
+      "news:latent-space:crewai-multi-agent-orchestration:9c9fb55b44a37bf919b3c89c3c4b489224a2ba37663ec4425d52cbea9c20c1b6": 2,
+      "news:techcrunch:langchain-raises-series-b:d90be12ea69f7997c9b1f388a368c68c185a1bc2df5dbda4c22545a85e5beb0e": 2
+    },
+    "q-why-emerging": {
+      "github:langchain-ai/langchain:101:c3a86a2f11b19113c49b79b4f574152e67e4acb8614dd7146d044b92e7d5a6cf": 0,
+      "greenhouse:crewai:6002:92c7d7b4dad8fa6560ac39168b2e3685fea71ad6d4e36ca7b1e9adb701f59a5d": 2,
+      "news:langchain-blog:langsmith-evaluation-update:45b8c5620ad76df898db09b090ffea56b011065180e7434069a74eb7156cca14": 2,
+      "news:latent-space:crewai-multi-agent-orchestration:9c9fb55b44a37bf919b3c89c3c4b489224a2ba37663ec4425d52cbea9c20c1b6": 2,
+      "news:techcrunch:langchain-raises-series-b:d90be12ea69f7997c9b1f388a368c68c185a1bc2df5dbda4c22545a85e5beb0e": 2
+    }
+  },
+  "snapshot": "tests/fixtures/faisal/snapshot_records.jsonl",
+  "why_illustrative": "These grades were derived from the hybrid run's own citations, so scoring hybrid against them is circular and flatters it. The file exists to demonstrate the runner and to document the format. Replace it with adjudicated human judgements."
+}
