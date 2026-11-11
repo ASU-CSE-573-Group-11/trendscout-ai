@@ -12,12 +12,13 @@ citation display, and latency logging.
 | `signals/` | Weekly features from GitHub, job, and documentary records; EWMA plus rolling z-score; the trend-signal contract; graph export |
 | `retrieval/dense.py`, `hybrid.py` | Dense passage index and reciprocal-rank fusion with Sueda's BM25 |
 | `retrieval/router.py`, `timewindow.py` | Intent and time-window routing, with both classical baselines from the proposal |
-| `retrieval/graph_queries.py`, `graph_access.py` | Mehmet's Cypher as named templates, and a backend that answers them without a database |
+| `retrieval/graph_queries.py`, `graph_access.py` | Mehmet's Cypher as named templates, a backend that answers them without a database, and Sector nodes from the frozen cohort |
 | `interface/` | The agent, evidence states, citations, abstention, latency logging, a CLI, and a Streamlit chat UI |
 | `schemas/trend_signal.schema.json`, `answer.schema.json` | The two contracts this module publishes |
 
-Nothing in `collectors/`, `graph/`, `ontology/`, or `retrieval/bm25.py` was
-modified.
+Nothing in `collectors/`, `graph/`, or `retrieval/bm25.py` was modified.
+`ontology/trendscout.ttl` gains three declarative lines (`ts:Sector`,
+`ts:operatesIn`, `ts:sectorId`) for types the proposal already specifies.
 
 ## How to run it
 
@@ -302,10 +303,11 @@ extractive and records the reason in the answer bundle.
 Findings — the statements that actually answer an aggregate or multi-signal
 question — are computed from the trend signals and graph rows the answer already
 cites and carry those citation numbers, so a finding is never an uncited
-assertion. Where the graph cannot support a question at all, the answer says so:
-there are no `Sector` nodes yet, so the sector question states that and falls
-back to per-company evidence instead of grouping by company and calling it a
-sector answer.
+assertion. Sectors come from the frozen cohort's own `category` field, so the
+third prototype question is answered by counting independent coverage origins
+per sector against operational signals in the same window. Where a question
+genuinely cannot be supported — no cohort supplied, so no `Sector` nodes — the
+answer says so rather than grouping by company and calling it a sector answer.
 
 ### Evaluation hooks
 
@@ -424,39 +426,84 @@ insufficient-evidence cases, each for a stated reason), 4 are qualified, and
 which cannot assert anything the evidence does not contain. That number is the
 one to watch when an LLM provider is enabled.
 
+### Dense retrieval with the real encoder
+
+Repeated with `sentence-transformers/all-MiniLM-L6-v2` installed. The index then
+reports `semantic: true` and drops the caveat automatically. Top-3 titles:
+
+| Query | BM25 | Dense (MiniLM) |
+|---|---|---|
+| "LangSmith evaluation datasets" | LangSmith post, Evaluation Engineer, Series B article | LangSmith post, Evaluation Engineer, llama_index repo |
+| "MLOps engineer kubernetes" | MLOps Engineer, MLOps Deployments, Platform Engineer | MLOps Engineer, MLOps Deployments, ML Operations Lead |
+| **"who is hiring for search relevance work"** | **langgraph repo, LlamaIndex post, llama_index repo** | **Retrieval Engineer, Software Engineer (Retrieval)** |
+| "framework for building agents" | llama_index repo, LlamaIndex post, CrewAI interview | langchain repo, CrewAI interview, langgraph repo |
+
+The third row is the one that matters: the query shares no content word with
+the postings it should find, so BM25 cannot reach them and the dense index
+does. That is the comparison the evaluation is for, and it only appears with a
+real model — which is why a number produced with the hashing fallback must not
+be reported as dense retrieval.
+
+Dense query latency is ~5 ms after a one-off ~11 s model load.
+
 ## Known limitations
 
 1. **The fixtures are synthetic.** Every number above is a pipeline check. Real
-   numbers need Vidya's PR #3 merged and a live collection run.
-2. **The default dense encoder is lexical.** See the reporting caveat above.
-3. **The Neo4j backend is unverified.** Written against the driver API, never
-   run against a server.
-4. **The LLM provider path is unverified.** Written against the Messages API,
-   never run with a key.
-5. **No `Sector` nodes exist**, so the third prototype question cannot be
-   grouped by sector; the interface says so rather than approximating.
-6. **No relevance labels exist**, so no retrieval metric is reported here. The
-   hooks are in place for Sueda's and Mehmet's scored runs.
-7. **Week assignment is approximate** for any collection window that does not
+   numbers need a live collection run. Compatibility with the collector's own
+   output is verified (see below), so only the data is missing, not the wiring.
+2. **The Neo4j backend is unverified.** Written against the driver API, never
+   run against a server. The in-memory equivalent is the default and the demo
+   does not need a database.
+3. **The LLM provider path is unverified.** Written against the Messages API,
+   never run with a key. The extractive provider is the default.
+4. **No relevance labels exist**, so no retrieval metric is reported here. The
+   hooks are in place for the scored runs.
+5. **Week assignment is approximate** for any collection window that does not
    align to an ISO week. Flagged per week; resolved if per-commit dates are
    added upstream.
-8. **Bot-share estimation** is approximate when several snapshots contribute to
+6. **Bot-share estimation** is approximate when several snapshots contribute to
    one week, and is marked as estimated.
+7. **Sector coverage follows the snapshot.** Only cohort companies the snapshot
+   holds records for are sector-tagged, so a sector answer describes the
+   companies with evidence, not the whole cohort.
+
+## Integration status
+
+Verified rather than assumed:
+
+- **The collector's own output works unchanged.** Vidya's collectors were run
+  from her branch against their own fixtures, and the resulting records fed
+  through `signals/adapters.py` and the full pipeline: GitHub records
+  deduplicated correctly, job records read with her skill vocabulary, the
+  rolling seven-day window flagged as not ISO-aligned, bot and human commits
+  split correctly. Two integration tests in
+  `tests/test_integration_collectors.py` cover this and skip until the
+  collectors land on the branch.
+- **The branches merge cleanly.** This branch merged with
+  `vidya/api-collectors` produces no conflicts, and the combined suite is
+  **258 passed, 0 skipped** — her 49 collector tests, my tests, and the two
+  integration tests that activate on merge.
+- **Mehmet's graph tests are unaffected** by the three declarative lines added
+  to the ontology: 11 graph, RDF, SHACL, and evidence tests pass.
 
 ## Open dependencies on teammates
 
-| Needed from | What | Why |
+Short, because most of the earlier list turned out to be work that could be
+finished here instead.
+
+| Needed from | What | Why it is not blocking |
 |---|---|---|
-| Vidya | PR #3 merged, then a real `records.jsonl` cohort run | Replaces the synthetic fixtures; `signals/adapters.py` already reads her layout, so only the input path changes |
-| Vidya (optional) | Per-commit `committed_at` inside `metadata.activity_window` | Removes approximate week assignment entirely |
-| Vidya (optional) | Release counts, and issues opened/closed as events | Three of the four currently unavailable metrics |
-| Mehmet | A `ts:TrendSignal` class and SHACL shape in the ontology | `ts:derivedFrom` already exists; needed only for RDF/SHACL export of trend signals, not for the Neo4j path |
-| Mehmet | A live Neo4j load | Lets `Neo4jBackend` replace the in-memory equivalent |
-| Mehmet | `Claim` nodes from the evidence ledger | Today the multi-hop path reaches trend signals; claim paths appear automatically once claims are loaded |
-| Mehmet / Sueda | `Sector` nodes, or a decision to drop the sector question | Third prototype question |
-| Sueda | The frozen evaluation snapshot, and relevance labels | Turns the hooks into reported metrics |
-| Sueda | A decision on the LDA topic baseline (proposal §3) | Assigned to nobody in `project-plan.md` |
+| Vidya | A real cohort collection run | Only data is missing; the wiring is verified against her code |
+| Mehmet | A live Neo4j load | `Neo4jBackend` is written; the in-memory equivalent serves the demo |
+| Mehmet | `Claim` nodes from the evidence ledger | Multi-hop paths reach trend signals today; claim paths appear automatically once claims load |
+| Sueda | Relevance labels against the frozen snapshot | Needed to report retrieval metrics; every condition and ablation already runs |
+| Team | A decision on the LDA topic baseline (proposal §3) | Unowned in `project-plan.md`; outside my rows |
 | Team | Whether to enable the Anthropic provider, and whose key | The extractive fallback runs without one |
+
+Nice-to-have, not needed: per-commit `committed_at` in
+`metadata.activity_window` would remove approximate week assignment entirely,
+and release counts plus issues opened/closed as events would cover three of the
+four metrics currently reported as unavailable.
 
 ## Conflicts found between the proposal, the plan, and the code
 
