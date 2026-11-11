@@ -19,7 +19,7 @@ The system is designed to answer not only *what is trending?*, but also *why is 
 
 ## Current status
 
-The repository has a frozen 18-company cohort, a named-source registry, Sueda's news/company/public-voice collectors, origin clustering, a BM25 baseline, and an evaluation design. Ontology, ATS/GitHub collectors, the temporal graph, dense retrieval, and the conversational interface are still outstanding.
+The repository has a frozen 18-company cohort, a named-source registry, Sueda's news/company/public-voice collectors, origin clustering, a BM25 baseline, and an evaluation design. Ontology, the temporal graph, weekly activity features with an EWMA baseline, dense retrieval, query routing, and the conversational interface are in place. ATS/GitHub collection is open in PR #3, and the scored evaluation has not been run yet.
 
 The submitted proposal is available at [`docs/proposal/TrendScout_AI_Project_Proposal_G11_P5.pdf`](docs/proposal/TrendScout_AI_Project_Proposal_G11_P5.pdf). The live work division is [`docs/project-plan.md`](docs/project-plan.md).
 
@@ -38,6 +38,7 @@ The submitted proposal is available at [`docs/proposal/TrendScout_AI_Project_Pro
 - `schemas/` — shared JSON records and validation contracts
 - `ontology/` — ontology, RDF/PROV-O, and SHACL files
 - `graph/` — Neo4j loading and graph-query code
+- `signals/` — weekly activity features and the EWMA trend baseline
 - `retrieval/` — BM25, dense retrieval, and query routing
 - `interface/` — conversational interface and citation display
 - `evaluation/` — test sets, metrics, baselines, and ablations
@@ -92,6 +93,7 @@ See [`docs/architecture.md`](docs/architecture.md) for the component boundaries 
 - [Project plan and responsibilities](docs/project-plan.md)
 - [Evidence ledger rules](docs/evidence-ledger.md)
 - [Source and access policy](docs/source-policy.md)
+- [Weekly features, trends, and the interface](docs/faisal-trends-and-retrieval.md)
 - [Contribution conventions](docs/contributing.md)
 - [Repository governance and review policy](docs/governance.md)
 
