@@ -33,11 +33,14 @@ from typing import Any, Mapping, Protocol, Sequence
 
 DEFAULT_ANTHROPIC_MODEL = "claude-opus-5-5"
 
-# Sentences are split on terminal punctuation, but never immediately before a
-# citation marker: "…agent infrastructure. [1]" is one cited claim, and
-# splitting it would leave the claim uncited and the citation claimless.
-_SENTENCE = re.compile(r"(?<=[.!?])\s+(?!\[)")
+# Plain sentence splitting, for text that carries no citation markers yet.
+_SENTENCE = re.compile(r"(?<=[.!?])\s+")
 _CITATION = re.compile(r"\[(\d+)\]")
+# A claim ends at terminal punctuation together with any citation markers that
+# follow it: "…agent infrastructure. [1] Hiring also grew. [4]" is two cited
+# claims. Splitting before the markers would leave each claim uncited, and not
+# splitting at all would merge two claims into one.
+_CLAIM_END = re.compile(r"[.!?](?:\s*\[\d+\])*")
 
 SYSTEM_PROMPT = """You answer questions about AI startups strictly from the evidence given to you.
 
@@ -289,6 +292,31 @@ def build_provider(spec: str | None = None, **kwargs: Any) -> AnswerProvider:
     )
 
 
+def _split_sentences_with_citations(line: str) -> list[str]:
+    """Split one line into sentences, keeping each sentence's citations with it.
+
+    A boundary is terminal punctuation plus any citation markers that follow,
+    and only when whitespace or the end of the line comes next. That condition
+    is what stops a decimal ("score 2.49), commits…") from being read as a
+    sentence end.
+    """
+    pieces: list[str] = []
+    start = 0
+    for match in _CLAIM_END.finditer(line):
+        end = match.end()
+        rest = line[end:]
+        if rest and not rest[:1].isspace():
+            continue
+        piece = line[start:end].strip()
+        if piece:
+            pieces.append(piece)
+        start = end
+    tail = line[start:].strip()
+    if tail:
+        pieces.append(tail)
+    return pieces or [line]
+
+
 def split_claims(text: str) -> list[tuple[str, tuple[int, ...]]]:
     """Split generated text into claims and the citation numbers each carries.
 
@@ -300,8 +328,7 @@ def split_claims(text: str) -> list[tuple[str, tuple[int, ...]]]:
         line = raw_line.strip().lstrip("-•*").strip()
         if not line:
             continue
-        pieces = _SENTENCE.split(line) if line.count(". ") else [line]
-        for piece in pieces:
+        for piece in _split_sentences_with_citations(line):
             piece = piece.strip()
             if not piece:
                 continue
