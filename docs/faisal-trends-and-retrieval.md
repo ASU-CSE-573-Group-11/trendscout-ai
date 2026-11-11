@@ -15,6 +15,7 @@ citation display, and latency logging.
 | `retrieval/graph_queries.py`, `graph_access.py` | Mehmet's Cypher as named templates, a backend that answers them without a database, and Sector nodes from the frozen cohort |
 | `interface/` | The agent, evidence states, citations, abstention, latency logging, a CLI, and a Streamlit chat UI |
 | `schemas/trend_signal.schema.json`, `answer.schema.json` | The two contracts this module publishes |
+| `evaluation/metrics.py`, `run_metrics.py` | Scoring for the answer bundles; scaffolding for the evaluation row |
 
 Nothing in `collectors/`, `graph/`, or `retrieval/bm25.py` was modified.
 `ontology/trendscout.ttl` gains three declarative lines (`ts:Sector`,
@@ -342,11 +343,29 @@ Every condition is a CLI flag: `--mode {hybrid,bm25,dense,graph_only}`,
 `--stale-after-days`, `--k`. `--out` writes answer bundles as JSONL and
 `--validate` checks every bundle against `schemas/answer.schema.json`.
 
-Each bundle carries what the metrics need: `citations` with `record_ids` and
-`origin_cluster_ids` for Precision@5 / Recall@5 / MRR / nDCG@5, `claims` with
-`supported` and `evidence_state` for claim-support rate and citation precision,
-`abstained` with `abstention_reason` for abstention accuracy, and `latency`
-per stage.
+Each bundle carries what the metrics need: `question_id` to join to labels and
+expected behaviours, `citations` with `record_ids` and `origin_cluster_ids` for
+Precision@5 / Recall@5 / MRR / nDCG@5, `claims` with `supported` and
+`evidence_state` for claim-support rate and citation precision, `abstained`
+with `abstention_reason` for abstention accuracy, and `latency` per stage.
+
+`evaluation/run_metrics.py` computes all of that and compares conditions side
+by side:
+
+```bash
+for mode in hybrid bm25 dense graph_only; do
+  python -m interface --demo --seed-questions --mode $mode --out artifacts/answers-$mode.jsonl
+done
+python evaluation/run_metrics.py artifacts/answers-*.jsonl --qrels <labels>
+```
+
+Abstention accuracy, claim-support rate, unsupported-claim rate, and latency
+need no labels and are checked against the success thresholds already recorded
+in `questions.seed.json`. The ranking metrics need judgements; without them
+they print `n/a` rather than `0`, and unjudged questions are excluded with the
+count stated rather than scored as misses. `qrels.example.json` documents the
+format and is flagged `illustrative`, because its grades came from one run's
+own citations; the runner prints a banner when that flag is set.
 
 The corroboration-weighting ablation changes **ranking only**. Evidence states
 follow the ledger's rules regardless of how a passage was ranked, which isolates
@@ -521,7 +540,7 @@ finished here instead.
 | Vidya | A real cohort collection run | Only data is missing; the wiring is verified against her code |
 | Mehmet | A live Neo4j load | `Neo4jBackend` is written; the in-memory equivalent serves the demo |
 | Mehmet | `Claim` nodes from the evidence ledger | Multi-hop paths reach trend signals today; claim paths appear automatically once claims load |
-| Sueda | Relevance labels against the frozen snapshot | Needed to report retrieval metrics; every condition and ablation already runs |
+| Sueda | Relevance labels against the frozen snapshot | Needed to report retrieval metrics; every condition, ablation, and the scoring runner already work |
 | Team | Whether to enable the Anthropic provider, and whose key | The extractive fallback runs without one |
 
 Nice-to-have, not needed: per-commit `committed_at` in
