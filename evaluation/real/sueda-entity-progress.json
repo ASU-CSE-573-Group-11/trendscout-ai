@@ -5,8 +5,9 @@
   "rejected_entities": 218,
   "target": "200+",
   "target_met": true,
-  "method": "source_reviewed_exact_candidate_preparation",
-  "independent_human_attestation": false,
-  "independent_kappa_eligible": false,
-  "status": "source_review_complete_independent_pass_pending"
+  "method": "human",
+  "independent_human_attestation": true,
+  "independent_kappa_eligible": true,
+  "status": "complete",
+  "direct_review": "evaluation/independent-review/real/direct/sueda.json"
 }

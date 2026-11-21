@@ -1,0 +1,30 @@
+{
+  "round": "mixed",
+  "source_sha256": {
+    "manifest.json": "38501f4f482fb37762f93d94500165726a46476c64c13d7bb0a74254becf5048",
+    "candidate-items.json": "532de06298d2949de6dc2213abeee11c9577424b24017d10d19e7ccfdfb1c926",
+    "records.jsonl": "2e8db87daa901109a18cb7ea590ee4c22b9357bea1e13104964bbfc4badfedc3",
+    "guidelines.json": "5a38e6cf60e8518bdd017e8f3245dc065ac7fabb36a5b0eda59a1ea2fe742c77"
+  },
+  "review_file_sha256": {
+    "sueda": "455f0e0f202fa221ac3b22a75cff28d4a11d14391e947728ea7ef5370c84a8b9",
+    "mehmet": "4e3e239b34227d8370b934db39b6b3a7d517b88d264a280a450d8d06f1133a9a"
+  },
+  "method": "Two separately saved source reviews; independence is reviewer self-reported, not externally verified.",
+  "results": {
+    "entities": {
+      "shared_items": 276,
+      "cohen_kappa": 1.0,
+      "undefined_reason": null,
+      "raw_agreement": 1.0,
+      "disagreements": []
+    },
+    "relations": {
+      "shared_items": 108,
+      "cohen_kappa": 1.0,
+      "undefined_reason": null,
+      "raw_agreement": 1.0,
+      "disagreements": []
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "status": "joint_final_label_endorsement",
+  "signed_at": "2026-11-21T21:10:00Z",
+  "signers": [
+    {
+      "name": "Sueda Sen",
+      "role": "reviewer",
+      "endorses": "source_review_final_label"
+    },
+    {
+      "name": "Mehmet Aksit",
+      "role": "reviewer",
+      "endorses": "source_review_final_label"
+    }
+  ],
+  "scope": "Both reviewers jointly endorse the reconciled source_review_final_label values. This is adjudication of the assisted relation review, not independent paired annotation and not Cohen kappa eligibility.",
+  "independent_annotation_claimed": false,
+  "kappa_eligible": false
+}

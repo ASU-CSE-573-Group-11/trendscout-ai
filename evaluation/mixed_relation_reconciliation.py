@@ -79,9 +79,18 @@ def build(root=ROOT):
     left={k:v['reviewer_decision'] for k,v in reviewers['sueda'].items()};right={k:v['reviewer_decision'] for k,v in reviewers['mehmet'].items()}
     degenerate=len(set(left.values())|set(right.values()))==1
     kappa=None if degenerate else cohen_kappa(left,right)[0]
+    signoff_path=base/'relation-reconciliation-signoff.json'
+    signoff=json.loads(signoff_path.read_text()) if signoff_path.exists() else None
+    if signoff is not None:
+        if signoff.get('independent_annotation_claimed') is True or signoff.get('kappa_eligible') is True:
+            raise ValueError('Reconciliation signoff cannot claim independent annotation or kappa eligibility')
+        if signoff.get('status')!='joint_final_label_endorsement':
+            raise ValueError('Unexpected reconciliation signoff status')
     inputs=[packet_path,base/'records.jsonl',base/'candidate-items.json',base/'guidelines.json',base/'sueda-source-review/decision-plan.json',root/'evaluation/mixed_relation_reconciliation.py']
+    if signoff_path.exists():
+        inputs.append(signoff_path)
     return {'status':'source_assisted_reconciliation_complete','method':'Exact frozen source review under the existing named-entity and fragment-rejection policy.',
-            'reviewer_decisions_preserved':True,'is_independent_gold_standard':False,'personal_adjudicator_signoff':None,
+            'reviewer_decisions_preserved':True,'is_independent_gold_standard':False,'personal_adjudicator_signoff':signoff,
             'scope':'The final-label field is a source-assisted reconciliation output, not a replacement for either reviewer’s original decisions or an assertion of human independent adjudication.',
             'policy':'MENTIONS requires an explicit mention of an allowed typed entity; headings, pronouns, ordinary nouns and underspecified name fragments are NONE. Subject/object spans are fixed. No label is chosen to improve kappa.',
             'pre_reconciliation_agreement':{'shared_items':len(left),'matching_labels':len(left)-len(disagreements),'raw_agreement':(len(left)-len(disagreements))/len(left),

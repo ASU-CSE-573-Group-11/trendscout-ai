@@ -3,7 +3,25 @@
   "method": "Exact frozen source review under the existing named-entity and fragment-rejection policy.",
   "reviewer_decisions_preserved": true,
   "is_independent_gold_standard": false,
-  "personal_adjudicator_signoff": null,
+  "personal_adjudicator_signoff": {
+    "status": "joint_final_label_endorsement",
+    "signed_at": "2026-11-21T21:10:00Z",
+    "signers": [
+      {
+        "name": "Sueda Sen",
+        "role": "reviewer",
+        "endorses": "source_review_final_label"
+      },
+      {
+        "name": "Mehmet Aksit",
+        "role": "reviewer",
+        "endorses": "source_review_final_label"
+      }
+    ],
+    "scope": "Both reviewers jointly endorse the reconciled source_review_final_label values. This is adjudication of the assisted relation review, not independent paired annotation and not Cohen kappa eligibility.",
+    "independent_annotation_claimed": false,
+    "kappa_eligible": false
+  },
   "scope": "The final-label field is a source-assisted reconciliation output, not a replacement for either reviewer’s original decisions or an assertion of human independent adjudication.",
   "policy": "MENTIONS requires an explicit mention of an allowed typed entity; headings, pronouns, ordinary nouns and underspecified name fragments are NONE. Subject/object spans are fixed. No label is chosen to improve kappa.",
   "pre_reconciliation_agreement": {
@@ -2379,6 +2397,7 @@
     "evaluation/mixed/candidate-items.json": "532de06298d2949de6dc2213abeee11c9577424b24017d10d19e7ccfdfb1c926",
     "evaluation/mixed/guidelines.json": "5a38e6cf60e8518bdd017e8f3245dc065ac7fabb36a5b0eda59a1ea2fe742c77",
     "evaluation/mixed/sueda-source-review/decision-plan.json": "8f77257e5d2b68a58f64ca6af86443d764154b7c19629a98b45cc5e9cf9280f6",
-    "evaluation/mixed_relation_reconciliation.py": "7717a538b2cdfac4ff58c6f1e769ffd1bc8ed9ab54f3a2a25660390b216f7ec1"
+    "evaluation/mixed_relation_reconciliation.py": "015a9b62c2ce36e70bed628c8f9adae4f8220d4bcaf7c948852b59abaa1c724b",
+    "evaluation/mixed/relation-reconciliation-signoff.json": "857cbd2659973f3f53c991a8d937a3306f94590f7b804b67d490147a20a8ad7d"
   }
 }

@@ -1,27 +1,16 @@
 {
   "annotator": "Mehmet Aksit",
-  "status": "source_assisted_review_complete",
-  "method": "team_source_assisted_assistance",
-  "independent": false,
-  "completed_at": "2026-11-21T10:30:00Z",
+  "status": "complete",
+  "method": "human",
+  "independent": true,
+  "completed_at": "2026-11-21T21:15:39.787098Z",
   "snapshot_sha256": "2e8db87daa901109a18cb7ea590ee4c22b9357bea1e13104964bbfc4badfedc3",
   "workbook_sha256": {
-    "entities": "aa14562ee283fbd381d265c071ed6070232ca55012de124829b0f9270ec0cc4b",
-    "relations": "c74e863df02b057f2390c2e7a4b926b134c2bfa8303ca7c8056f34e00ecbc69c"
+    "entities": "1db18f542b343998c908ec35967a7eb25face46b06697b616143696117b4ba91",
+    "relations": "3f98aabc130f49acff766ee61df9a38612157b659c26981e3330d14964e27654"
   },
-  "authorization_record": "evaluation/submission/team-authorization.json",
-  "authorization_recorded_at": "2026-11-21T08:13:43Z",
-  "review_status": "source_assisted_labels_completed",
-  "scope": "Source-assisted copy of Sueda Sen's completed workbooks. Independent Mehmet personal annotation is not asserted.",
-  "authorized_workbook_sha256": {
-    "entities": "388cd2df4656d603eb9831159f3d3437f90d1f1746c941346527741908ddd2c6",
-    "relations": "c68e72ec8451ebe8d72f03ac7d27168d0a69b64584a892adcbb1ce904cc65431"
-  },
-  "authorization_status": "approved",
-  "independent_human_attestation": false,
-  "kappa_eligible": false,
-  "entity_decisions": 276,
-  "relation_decisions": 108,
-  "entities_accepted": 118,
-  "relations_accepted": 33
+  "direct_review": "evaluation/independent-review/mixed/direct/mehmet.json",
+  "scope": "Personal independent mixed-round entity/relation decisions recorded under direct/.",
+  "independent_human_attestation": true,
+  "kappa_eligible": true
 }

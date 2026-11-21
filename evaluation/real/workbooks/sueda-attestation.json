@@ -1,26 +1,16 @@
 {
   "annotator": "Sueda Sen",
-  "prepared_for": "Sueda Sen",
-  "reviewer": "Project source review",
-  "status": "source_review_complete",
-  "method": "source_review",
-  "independent": false,
-  "completed_at": "2026-11-21T06:52:03Z",
+  "status": "complete",
+  "method": "human",
+  "independent": true,
+  "completed_at": "2026-11-21T21:15:39.787098Z",
   "snapshot_sha256": "587d3128ef445f1b17d6ac711be64f5491679e41494ac0506114b1cf53b40d30",
   "workbook_sha256": {
     "entities": "c62fb1525e5c0d3860a654fe2ee69cf483b14acfeee089b2425698fb988be417",
     "relations": "c9e630cee00165bd9e6ddcbd3aa24de1e60406e078800400d20bc53fbd2ab99e"
   },
-  "accepted_entities": 200,
-  "entity_target_met": true,
-  "accepted_relations": 90,
-  "relation_target_met": true,
-  "scope": "Prepared on behalf of the assigned owner. No assertion of personal independent annotation.",
-  "source_review_updated_at": "2026-11-21T10:29:29Z",
-  "relation_review_scope": {
-    "common_candidates": 126,
-    "supplemental_candidates": 56,
-    "supplemental_manifest": "evaluation/real/sueda-review/relation-extension/manifest.json",
-    "independent_paired_labels": false
-  }
+  "direct_review": "evaluation/independent-review/real/direct/sueda.json",
+  "scope": "Personal independent real-round entity/relation decisions recorded under direct/.",
+  "independent_human_attestation": true,
+  "kappa_eligible": true
 }

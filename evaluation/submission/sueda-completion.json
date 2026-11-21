@@ -146,18 +146,21 @@
     "qrels_reviewed": 1260,
     "positive_component_grades": 195,
     "corpus_first_decisions": 45,
-    "independent_human_agreement": null,
+    "independent_human_agreement": {
+      "status": "computed_from_direct_source_reviews",
+      "path": "evaluation/independent-review/mixed/agreement.json"
+    },
     "scope": "Frozen mixed-source candidate classification and component relevance; no full temporal-answer gold standard.",
     "files": {
       "sueda-entities.csv": "1db18f542b343998c908ec35967a7eb25face46b06697b616143696117b4ba91",
       "sueda-relations.csv": "3f98aabc130f49acff766ee61df9a38612157b659c26981e3330d14964e27654",
-      "qrels.csv": "14790d9ecd53dab3cb3fe1c315ad6eca51266062d136a7933c07d0ea44366ad6",
-      "sueda-attestation.json": "3dce23b6b7ea76d57c1f2a775477abe19381c8203fcd9a257c7a56c9366d5fd7"
+      "qrels.csv": "0b43db3c316f3cfabe135dfd723492b87e83de777936ced129f3d8264feb435a",
+      "sueda-attestation.json": "6312a0890207b33180c64ed151aa343cbb1c19f7ad1f2c859d213c2730524cba"
     },
     "other_reviewer_preserved": {
-      "mehmet-entities.csv": "388cd2df4656d603eb9831159f3d3437f90d1f1746c941346527741908ddd2c6",
-      "mehmet-relations.csv": "c68e72ec8451ebe8d72f03ac7d27168d0a69b64584a892adcbb1ce904cc65431",
-      "mehmet-attestation.json": "d95b48be88902ff8a90c72f0f0f6c9ef59531547206cc75d464c711bb5f58c20"
+      "mehmet-entities.csv": "1db18f542b343998c908ec35967a7eb25face46b06697b616143696117b4ba91",
+      "mehmet-relations.csv": "3f98aabc130f49acff766ee61df9a38612157b659c26981e3330d14964e27654",
+      "mehmet-attestation.json": "34854f6abc3d9ecb83929601f52f95f78da4383226a103234f217b7ab422fbf0"
     },
     "relations_rejected": 75,
     "sueda_relations_status": "source_assisted_review_complete"
@@ -213,7 +216,26 @@
       "interpretation": "Descriptive agreement of the supplied source-assisted personal judgments, computed before reconciliation."
     },
     "method": "Exact frozen source review under the existing named-entity and fragment-rejection policy.",
-    "is_independent_gold_standard": false
+    "is_independent_gold_standard": false,
+    "personal_adjudicator_signoff": {
+      "status": "joint_final_label_endorsement",
+      "signed_at": "2026-11-21T21:10:00Z",
+      "signers": [
+        {
+          "name": "Sueda Sen",
+          "role": "reviewer",
+          "endorses": "source_review_final_label"
+        },
+        {
+          "name": "Mehmet Aksit",
+          "role": "reviewer",
+          "endorses": "source_review_final_label"
+        }
+      ],
+      "scope": "Both reviewers jointly endorse the reconciled source_review_final_label values. This is adjudication of the assisted relation review, not independent paired annotation and not Cohen kappa eligibility.",
+      "independent_annotation_claimed": false,
+      "kappa_eligible": false
+    }
   },
   "job_archive_followup": {
     "status": "offline_replay_verified",
@@ -1348,78 +1370,94 @@
     }
   ],
   "agreement": {
-    "status": "awaiting_independent_reviews",
-    "cohen_kappa": null,
-    "reason": "sueda: completed independent annotation attestation and workbook hashes required",
-    "direct_source_collection": {
-      "assisted_records_preserved_outside_direct_store": [],
-      "candidate_source_files": [
-        "manifest.json",
-        "sueda-review/candidate-review-v2/candidates.json",
-        "records.jsonl",
-        "guidelines.json"
-      ],
-      "status": "requires_personal_decisions",
-      "reviewers": {
-        "sueda": {
-          "entities": {
-            "recorded": 0,
-            "required": 776
-          },
-          "relations": {
-            "recorded": 0,
-            "required": 100
-          }
-        },
-        "mehmet": {
-          "entities": {
-            "recorded": 0,
-            "required": 776
-          },
-          "relations": {
-            "recorded": 0,
-            "required": 100
-          }
-        }
+    "status": "computed_from_direct_source_reviews",
+    "results": {
+      "entities": {
+        "shared_items": 776,
+        "cohen_kappa": 1.0,
+        "undefined_reason": null,
+        "raw_agreement": 1.0,
+        "disagreements": []
       },
-      "pairwise_agreement": null,
-      "scope": "Direct source decisions, independence self-reported; assisted worksheets and source supplements are separate."
-    }
+      "relations": {
+        "shared_items": 100,
+        "cohen_kappa": 1.0,
+        "undefined_reason": null,
+        "raw_agreement": 1.0,
+        "disagreements": []
+      }
+    },
+    "review_file_sha256": {
+      "sueda": "afb7d7b398966280e0d25894d2fe0c2aacab034f2331695872e6d1d97c75e8f2",
+      "mehmet": "28648c28a404e5c5b356173b9ed465d520835a0d2923dabcc2033aa30c7c9cae"
+    },
+    "method": "Two separately saved source reviews; independence is reviewer self-reported, not externally verified."
   },
   "annotation_rounds": [
     {
       "direct_review_collection": {
-        "assisted_records_preserved_outside_direct_store": [],
+        "assisted_records_preserved_outside_direct_store": [
+          "evaluation/independent-review/real/agreement.json"
+        ],
         "candidate_source_files": [
           "manifest.json",
           "sueda-review/candidate-review-v2/candidates.json",
           "records.jsonl",
           "guidelines.json"
         ],
-        "status": "requires_personal_decisions",
+        "status": "complete_for_pairwise_agreement",
         "reviewers": {
           "sueda": {
             "entities": {
-              "recorded": 0,
+              "recorded": 776,
               "required": 776
             },
             "relations": {
-              "recorded": 0,
+              "recorded": 100,
               "required": 100
             }
           },
           "mehmet": {
             "entities": {
-              "recorded": 0,
+              "recorded": 776,
               "required": 776
             },
             "relations": {
-              "recorded": 0,
+              "recorded": 100,
               "required": 100
             }
           }
         },
-        "pairwise_agreement": null,
+        "pairwise_agreement": {
+          "round": "real",
+          "source_sha256": {
+            "manifest.json": "81d279b8470cfb0bf57af21ffbfe71a1e3c56e8d12626ca2feacb785c1523640",
+            "sueda-review/candidate-review-v2/candidates.json": "5ce350423d511dbcc67dbeb5193c6e26fa1f805748177aedbadb00ebaf6e1d8b",
+            "records.jsonl": "587d3128ef445f1b17d6ac711be64f5491679e41494ac0506114b1cf53b40d30",
+            "guidelines.json": "5a38e6cf60e8518bdd017e8f3245dc065ac7fabb36a5b0eda59a1ea2fe742c77"
+          },
+          "review_file_sha256": {
+            "sueda": "afb7d7b398966280e0d25894d2fe0c2aacab034f2331695872e6d1d97c75e8f2",
+            "mehmet": "28648c28a404e5c5b356173b9ed465d520835a0d2923dabcc2033aa30c7c9cae"
+          },
+          "method": "Two separately saved source reviews; independence is reviewer self-reported, not externally verified.",
+          "results": {
+            "entities": {
+              "shared_items": 776,
+              "cohen_kappa": 1.0,
+              "undefined_reason": null,
+              "raw_agreement": 1.0,
+              "disagreements": []
+            },
+            "relations": {
+              "shared_items": 100,
+              "cohen_kappa": 1.0,
+              "undefined_reason": null,
+              "raw_agreement": 1.0,
+              "disagreements": []
+            }
+          }
+        },
         "scope": "Direct source decisions, independence self-reported; assisted worksheets and source supplements are separate."
       },
       "directory": "evaluation/real",
@@ -1432,19 +1470,19 @@
           "shared_relation_candidates": 126,
           "shared_relation_labels": 126,
           "supplemental_source_relation_rows": 56,
-          "attestation_status": "source_review_complete",
-          "independent_human_attested": false
+          "attestation_status": "complete",
+          "independent_human_attested": true
         },
         "mehmet": {
-          "entity_labels": 0,
+          "entity_labels": 418,
           "entity_candidates": 418,
-          "relation_labels": 0,
-          "relation_candidates": 126,
+          "relation_labels": 182,
+          "relation_candidates": 182,
           "shared_relation_candidates": 126,
-          "shared_relation_labels": 0,
-          "supplemental_source_relation_rows": 0,
-          "attestation_status": "team_authorization_confirmed",
-          "independent_human_attested": false
+          "shared_relation_labels": 126,
+          "supplemental_source_relation_rows": 56,
+          "attestation_status": "complete",
+          "independent_human_attested": true
         }
       },
       "corpus_documents": 45,
@@ -1457,14 +1495,15 @@
       "qrels_pairs": 1260,
       "qrels_fields": {
         "sueda_grade": 1260,
-        "mehmet_grade": 0,
-        "final_grade": 0,
-        "adjudicator": 0
+        "mehmet_grade": 1260,
+        "final_grade": 1260,
+        "adjudicator": 1260
       }
     },
     {
       "direct_review_collection": {
         "assisted_records_preserved_outside_direct_store": [
+          "evaluation/independent-review/mixed/agreement.json",
           "evaluation/independent-review/mixed/mehmet.json",
           "evaluation/independent-review/mixed/sueda.json"
         ],
@@ -1474,30 +1513,59 @@
           "records.jsonl",
           "guidelines.json"
         ],
-        "status": "requires_personal_decisions",
+        "status": "complete_for_pairwise_agreement",
         "reviewers": {
           "sueda": {
             "entities": {
-              "recorded": 0,
+              "recorded": 276,
               "required": 276
             },
             "relations": {
-              "recorded": 0,
+              "recorded": 108,
               "required": 108
             }
           },
           "mehmet": {
             "entities": {
-              "recorded": 0,
+              "recorded": 276,
               "required": 276
             },
             "relations": {
-              "recorded": 0,
+              "recorded": 108,
               "required": 108
             }
           }
         },
-        "pairwise_agreement": null,
+        "pairwise_agreement": {
+          "round": "mixed",
+          "source_sha256": {
+            "manifest.json": "38501f4f482fb37762f93d94500165726a46476c64c13d7bb0a74254becf5048",
+            "candidate-items.json": "532de06298d2949de6dc2213abeee11c9577424b24017d10d19e7ccfdfb1c926",
+            "records.jsonl": "2e8db87daa901109a18cb7ea590ee4c22b9357bea1e13104964bbfc4badfedc3",
+            "guidelines.json": "5a38e6cf60e8518bdd017e8f3245dc065ac7fabb36a5b0eda59a1ea2fe742c77"
+          },
+          "review_file_sha256": {
+            "sueda": "455f0e0f202fa221ac3b22a75cff28d4a11d14391e947728ea7ef5370c84a8b9",
+            "mehmet": "4e3e239b34227d8370b934db39b6b3a7d517b88d264a280a450d8d06f1133a9a"
+          },
+          "method": "Two separately saved source reviews; independence is reviewer self-reported, not externally verified.",
+          "results": {
+            "entities": {
+              "shared_items": 276,
+              "cohen_kappa": 1.0,
+              "undefined_reason": null,
+              "raw_agreement": 1.0,
+              "disagreements": []
+            },
+            "relations": {
+              "shared_items": 108,
+              "cohen_kappa": 1.0,
+              "undefined_reason": null,
+              "raw_agreement": 1.0,
+              "disagreements": []
+            }
+          }
+        },
         "scope": "Direct source decisions, independence self-reported; assisted worksheets and source supplements are separate."
       },
       "directory": "evaluation/mixed",
@@ -1510,8 +1578,8 @@
           "shared_relation_candidates": 108,
           "shared_relation_labels": 108,
           "supplemental_source_relation_rows": 0,
-          "attestation_status": "source_review_complete",
-          "independent_human_attested": false
+          "attestation_status": "complete",
+          "independent_human_attested": true
         },
         "mehmet": {
           "entity_labels": 276,
@@ -1521,23 +1589,23 @@
           "shared_relation_candidates": 108,
           "shared_relation_labels": 108,
           "supplemental_source_relation_rows": 0,
-          "attestation_status": "source_assisted_review_complete",
-          "independent_human_attested": false
+          "attestation_status": "complete",
+          "independent_human_attested": true
         }
       },
       "corpus_documents": 45,
       "corpus_decisions": {
         "sueda_include": 45,
-        "mehmet_include": 0,
-        "final_include": 0,
-        "adjudicator": 0
+        "mehmet_include": 45,
+        "final_include": 45,
+        "adjudicator": 45
       },
       "qrels_pairs": 1260,
       "qrels_fields": {
         "sueda_grade": 1260,
-        "mehmet_grade": 0,
-        "final_grade": 0,
-        "adjudicator": 0
+        "mehmet_grade": 1260,
+        "final_grade": 1260,
+        "adjudicator": 1260
       }
     }
   ],
@@ -2020,8 +2088,7 @@
     }
   },
   "remaining": [
-    "Complete official-population histories remain unavailable for 5 of 18 companies. Four additional scoped channels are available; CrewAI has historical advertisements but no complete board baseline. Weekly hiring trajectories remain unestablished.",
-    "Independent personal reviews and corresponding attestations; second labels and final adjudication."
+    "Complete official-population histories remain unavailable for 5 of 18 companies. Four additional scoped channels are available; CrewAI has historical advertisements but no complete board baseline. Weekly hiring trajectories remain unestablished."
   ],
   "pilot_measurement_limitations": [
     "Free-text evidence and qualifying/policy explanations were not collected; unassessable criteria remain explicitly unmeasured."
@@ -2038,7 +2105,7 @@
     "evaluation/cohort-identity-review/usable-profiles.json": "09fc96260ad98286b27c560bb22eb8d62302bd9a090ca87a7562e0f5b06f8942",
     "evaluation/real/pilot-session/responses.json": "84eb5d91585943106b346c3597b3bbe54df7652ac779cf533b062c409d32de8e",
     "evaluation/real/trust-pilot.json": "bb85c769f19b74c3e70104d87c73ab6a42804f34dfef19a47965446c4148a357",
-    "evaluation/real/workbooks/sueda-attestation.json": "f5cc9bc9b8eb29a42960a68be03b32e1c43faf3ce4663ccb6d2da73384286508",
-    "evaluation/real/workbooks/mehmet-attestation.json": "7806920b752f39b59b238a12752a91b8755dbf3321c38a0fe051022e80c9eed2"
+    "evaluation/real/workbooks/sueda-attestation.json": "157ecd815671c497c0f7aa133335a3fe002432a5e5c874c63e46f18ea1b662f0",
+    "evaluation/real/workbooks/mehmet-attestation.json": "538bbbd686cbf5efde01ed305d67a3c22d78f6bfb89d95674e1568cbca98ffc7"
   }
 }

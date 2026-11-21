@@ -2702,8 +2702,8 @@
     }
   },
   "method": "team_authorized_source_assisted_review",
-  "identity_basis": "Team-authorized workbook assistance; no independent personal human attestation.",
-  "updated_at": "2026-11-21T10:37:45.115651Z",
+  "identity_basis": "Assisted workbook retained outside direct store; personal decisions live under direct/.",
+  "updated_at": "2026-11-21T21:14:23.948082Z",
   "complete": true,
   "independent_human_attestation": false,
   "kappa_eligible": false

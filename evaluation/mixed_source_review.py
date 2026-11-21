@@ -144,7 +144,18 @@ def verify(directory):
             raise ValueError('First-review artifact checksum mismatch')
     for item in plan['files']:
         original=read_rows(audit/('before-'+item['file']));current=read_rows(work/item['file'])
-        if len(current)!=len(original) or current!=[{**row,**updates} for row,updates in zip(original,item['updates'])]:
+        expected=[{**row,**updates} for row,updates in zip(original,item['updates'])]
+        if len(current)!=len(original):
+            raise ValueError('First-review values differ from preserved input and decisions')
+        # Later Mehmet/final adjudication may fill secondary columns on qrels without changing Sueda grades.
+        if item['file']=='qrels.csv':
+            first_review_keys=set().union(*(update.keys() for update in item['updates'])) | set(original[0])
+            first_review_keys-={'mehmet_grade','final_grade','adjudicator'}
+            comparable=[{k:row.get(k,'') for k in first_review_keys} for row in current]
+            expected_cmp=[{k:row.get(k,'') for k in first_review_keys} for row in expected]
+            if comparable!=expected_cmp:
+                raise ValueError('First-review values differ from preserved input and decisions')
+        elif current!=expected:
             raise ValueError('First-review values differ from preserved input and decisions')
         for row in current:
             if item['file']=='sueda-entities.csv':

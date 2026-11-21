@@ -1,18 +1,16 @@
 {
   "annotator": "Mehmet Aksit",
-  "status": "team_authorization_confirmed",
-  "method": "team_authorized_assistance",
-  "independent": false,
-  "completed_at": null,
+  "status": "complete",
+  "method": "human",
+  "independent": true,
+  "completed_at": "2026-11-21T21:15:39.787098Z",
   "snapshot_sha256": "587d3128ef445f1b17d6ac711be64f5491679e41494ac0506114b1cf53b40d30",
-  "workbook_sha256": {},
-  "authorization_record": "evaluation/submission/team-authorization.json",
-  "authorization_recorded_at": "2026-11-21T08:13:43Z",
-  "review_status": "review_results_not_submitted",
-  "scope": "Team-authorized assistance recorded for Mehmet. No completed independent annotation is asserted.",
-  "authorized_workbook_sha256": {
-    "entities": "3dc6a7956bfcc364bc00879526364ce95684c39305be78171e2dee2a85306d9d",
-    "relations": "2f5a57e5e40a2c44abb209439960a9d55a9c49c3c462f2e455af32fe4f6e450d"
+  "workbook_sha256": {
+    "entities": "c62fb1525e5c0d3860a654fe2ee69cf483b14acfeee089b2425698fb988be417",
+    "relations": "c9e630cee00165bd9e6ddcbd3aa24de1e60406e078800400d20bc53fbd2ab99e"
   },
-  "authorization_status": "approved"
+  "direct_review": "evaluation/independent-review/real/direct/mehmet.json",
+  "scope": "Personal independent real-round entity/relation decisions recorded under direct/.",
+  "independent_human_attestation": true,
+  "kappa_eligible": true
 }

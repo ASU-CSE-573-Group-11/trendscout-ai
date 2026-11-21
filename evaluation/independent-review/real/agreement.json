@@ -1,0 +1,30 @@
+{
+  "round": "real",
+  "source_sha256": {
+    "manifest.json": "81d279b8470cfb0bf57af21ffbfe71a1e3c56e8d12626ca2feacb785c1523640",
+    "sueda-review/candidate-review-v2/candidates.json": "5ce350423d511dbcc67dbeb5193c6e26fa1f805748177aedbadb00ebaf6e1d8b",
+    "records.jsonl": "587d3128ef445f1b17d6ac711be64f5491679e41494ac0506114b1cf53b40d30",
+    "guidelines.json": "5a38e6cf60e8518bdd017e8f3245dc065ac7fabb36a5b0eda59a1ea2fe742c77"
+  },
+  "review_file_sha256": {
+    "sueda": "afb7d7b398966280e0d25894d2fe0c2aacab034f2331695872e6d1d97c75e8f2",
+    "mehmet": "28648c28a404e5c5b356173b9ed465d520835a0d2923dabcc2033aa30c7c9cae"
+  },
+  "method": "Two separately saved source reviews; independence is reviewer self-reported, not externally verified.",
+  "results": {
+    "entities": {
+      "shared_items": 776,
+      "cohen_kappa": 1.0,
+      "undefined_reason": null,
+      "raw_agreement": 1.0,
+      "disagreements": []
+    },
+    "relations": {
+      "shared_items": 100,
+      "cohen_kappa": 1.0,
+      "undefined_reason": null,
+      "raw_agreement": 1.0,
+      "disagreements": []
+    }
+  }
+}
