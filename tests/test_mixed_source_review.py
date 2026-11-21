@@ -38,6 +38,27 @@ def test_sueda_relation_source_assisted_review_is_complete_but_not_independent()
     assert progress['kappa_eligible'] is False
 
 
+def test_mehmet_mixed_source_assisted_review_is_filled_but_not_independent():
+    import csv
+
+    directory = ROOT / 'evaluation/mixed'
+    relations = list(csv.DictReader(
+        (directory / 'workbooks/mehmet-relations.csv').open(newline='', encoding='utf-8')
+    ))
+    entities = list(csv.DictReader(
+        (directory / 'workbooks/mehmet-entities.csv').open(newline='', encoding='utf-8')
+    ))
+    progress = json.loads(
+        (directory / 'mehmet-source-assisted-review.json').read_text(encoding='utf-8')
+    )
+    assert len(relations) == 108
+    assert len(entities) == 276
+    assert progress['source_assisted_relations'] == 108
+    assert progress['source_assisted_entities'] == 276
+    assert progress['independent_human_attestation'] is False
+    assert progress['kappa_eligible'] is False
+
+
 def test_changed_review_cannot_pass_checksums(tmp_path):
     source=ROOT/'evaluation/mixed'
     shutil.copytree(source,tmp_path/'round')
