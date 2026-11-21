@@ -10,6 +10,7 @@ def test_neo4j_constraints_cover_graph_identity_and_time_indexes():
     assert "startup_company_id" in text
     assert "origin_cluster_id" in text
     assert "source_record_observed_at" in text
+    assert "claim_id" in text
 
 
 def test_shacl_shapes_cover_required_provenance_fields():

@@ -31,6 +31,38 @@ The constraints must be applied before loading records. SHACL validation remains
 an explicit step after RDF export; the repository does not require a live
 Neo4j server or SHACL engine for its unit tests.
 
+## Live Neo4j loader
+
+Start the local Community Edition database:
+
+```bash
+docker compose up -d neo4j
+python -m pip install -r requirements-interface.txt
+```
+
+Load a validated JSONL snapshot:
+
+```bash
+python -m graph.neo4j artifacts/collectors/RUN_ID/records.jsonl
+```
+
+To load claim/evidence projections too:
+
+```bash
+python -m graph.neo4j artifacts/collectors/RUN_ID/records.jsonl \
+  --evidence artifacts/evidence.jsonl
+```
+
+The loader applies `constraints.cypher`, executes the parameterized import
+statements, and verifies the `SourceRecord` node count. Override the local
+defaults with `NEO4J_URI`, `NEO4J_USERNAME`, `NEO4J_PASSWORD`, or
+`NEO4J_DATABASE`.
+
+The first live check loaded 95 fixture records as 94 distinct source nodes,
+applied the Neo4j constraints, and returned live independent-origin results.
+Claim/evidence JSONL is loaded through `--evidence` and creates
+`Claim` nodes plus `SUPPORTS` relationships.
+
 [`cypher.py`](./cypher.py) builds parameterized import statements from the
 storage-neutral graph payload. It does not open a database connection and uses
 the same validated records as the graph contract. The initial competency

@@ -76,10 +76,9 @@ python -m pytest tests/test_interface_answers.py tests/test_retrieval_router.py
 
 ## Known limitations
 
-- The default graph backend answers the competency queries in Python rather
-  than executing Cypher; the selected query is reported but not run. The Neo4j
-  backend is written against the driver API and has not been run against a live
-  server.
+- The default graph backend answers competency queries in Python. The Neo4j
+  backend now has a live-loader and live-connection smoke test; production
+  cohort-scale validation is still required.
 - The Anthropic provider is written against the Messages API and has not been
   run with a key. Without one the agent falls back to extractive and says so.
 - The default dense encoder is lexical, not semantic; results produced with it

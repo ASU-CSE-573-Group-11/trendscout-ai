@@ -1,5 +1,21 @@
 from graph.cypher import build_import_payload, import_statements
+from graph.neo4j import split_cypher
 from collectors.records import make_record
+
+
+def test_split_cypher_ignores_comments_and_blank_statements():
+    statements = split_cypher(
+        "// comment\nCREATE CONSTRAINT test IF NOT EXISTS\nFOR (n:Test)\nREQUIRE n.id IS UNIQUE;\n\n"
+    )
+    assert len(statements) == 1
+    assert "CREATE CONSTRAINT test" in statements[0]
+
+
+def test_constraints_include_claim_identity():
+    from pathlib import Path
+
+    text = Path("graph/constraints.cypher").read_text(encoding="utf-8")
+    assert "claim_id" in text
 
 
 def test_import_payload_keeps_graph_ids_in_node_properties():
