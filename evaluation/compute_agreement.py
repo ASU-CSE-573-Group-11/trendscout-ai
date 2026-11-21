@@ -21,7 +21,6 @@ def cohen_kappa(first: Mapping[str, str], second: Mapping[str, str]) -> tuple[fl
     for item in shared:
         left = first[item]
         right = second[item]
-        observed[left] += 1
         first_counts[left] += 1
         second_counts[right] += 1
         if left == right:

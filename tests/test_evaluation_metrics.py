@@ -38,6 +38,11 @@ def test_cohen_kappa_requires_shared_items_and_reports_perfect_agreement():
     assert kappa == 1.0
 
 
+def test_cohen_kappa_rejects_disjoint_annotation_sets():
+    with pytest.raises(ValueError, match="no shared item ids"):
+        cohen_kappa({"item-1": "emerging"}, {"item-2": "corroborated"})
+
+
 def bundle(
     question_id: str,
     *,
