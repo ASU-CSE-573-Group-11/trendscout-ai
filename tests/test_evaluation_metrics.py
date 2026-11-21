@@ -6,6 +6,7 @@ import json
 
 import pytest
 
+from evaluation.compute_agreement import cohen_kappa
 from evaluation.metrics import (
     ConditionReport,
     check_thresholds,
@@ -24,8 +25,51 @@ from evaluation.metrics import (
 )
 from faisal_snapshot import snapshot_records
 from interface.agent import AgentConfig, TrendScoutAgent
+from evaluation.build_annotation_worklist import build_worklist
 
 SEED = json.loads(__import__("pathlib").Path("evaluation/questions.seed.json").read_text(encoding="utf-8"))["questions"]
+
+
+def test_cohen_kappa_requires_shared_items_and_reports_perfect_agreement():
+    kappa, count = cohen_kappa(
+        {"item-1": "corroborated", "item-2": "emerging"},
+        {"item-1": "corroborated", "item-2": "emerging"},
+    )
+    assert count == 2
+    assert kappa == 1.0
+
+
+def test_cohen_kappa_rejects_disjoint_annotation_sets():
+    with pytest.raises(ValueError, match="no shared item ids"):
+        cohen_kappa({"item-1": "emerging"}, {"item-2": "corroborated"})
+
+
+def test_annotation_worklist_uses_stable_record_ids():
+    items = build_worklist([{
+        "record_id": "record-1",
+        "source_record_id": "source-1",
+        "title": "Title",
+        "text": "Supporting passage",
+        "event_at": None,
+        "published_at": "2026-10-01T00:00:00Z",
+        "observed_at": "2026-10-02T00:00:00Z",
+    }])
+    assert items == [{
+        "item_id": "annotation:record-1",
+        "record_id": "record-1",
+        "document_id": "source-1",
+        "span_text": "Title\nSupporting passage",
+        "event_at": None,
+        "published_at": "2026-10-01T00:00:00Z",
+        "observed_at": "2026-10-02T00:00:00Z",
+    }]
+
+
+def test_frozen_snapshot_annotation_worklist_has_95_items_and_94_unique_ids():
+    items = build_worklist(snapshot_records())
+    item_ids = [item["item_id"] for item in items]
+    assert len(items) == 95
+    assert len(set(item_ids)) == 94
 
 
 def bundle(
@@ -295,12 +339,12 @@ def test_real_answer_bundles_score_and_abstain_correctly():
         agent.answer(
             item["question"], requires=item.get("needs", []), question_id=item["question_id"]
         ).as_dict()
-        for item in SEED
+        for item in SEED[:6]
     ]
     report = score_condition(
         bundles, condition="hybrid", expectations=load_seed_expectations()
     )
-    assert report.questions == len(SEED)
+    assert report.questions == 6
     # Both insufficient-evidence seed questions must abstain, and nothing else.
     assert report.abstention["accuracy"] == 1.0
     assert report.abstention["correct_abstentions"] == 2

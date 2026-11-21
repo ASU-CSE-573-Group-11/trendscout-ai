@@ -1,5 +1,20 @@
 {
   "task": "Label entities, relations, and claim support on frozen source records.",
+  "workflow": {
+    "corpus_size": "40-50 documents",
+    "entity_mentions": "200+",
+    "relations": "80-100",
+    "annotators": "two team members working independently",
+    "adjudication": "Resolve disagreements against the span and clock fields before creating final labels.",
+    "agreement": "Compute Cohen's kappa on independently labelled items before adjudication.",
+    "minimum_pairwise_items": 100
+  },
+  "output_format": {
+    "annotations": "Map item_id to a label string.",
+    "entities": "Map item_id to a list of entity objects.",
+    "relations": "Map item_id to a list of relation objects.",
+    "required_fields": ["item_id", "document_id", "span_text", "label", "annotator"]
+  },
   "do_not": [
     "Treat syndicated copies as independent sources.",
     "Treat a YC directory listing as a momentum signal.",

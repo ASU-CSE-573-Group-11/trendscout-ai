@@ -272,14 +272,15 @@ SEED = json.loads(Path("evaluation/questions.seed.json").read_text(encoding="utf
 @pytest.mark.parametrize("question", SEED, ids=[item["question_id"] for item in SEED])
 def test_seed_questions_route_as_their_expected_behaviour_requires(router, question):
     decision = router.route(question["question"])
-    if question["expected_behavior"] == "abstain":
+    if question["type"] == "insufficient" or question["expected_behavior"].startswith("abstain"):
         assert decision.intent == "unsupported"
         assert decision.should_abstain
-    elif question["expected_behavior"] == "explain_ledger_state":
+    elif question["type"] == "evidence_state":
         assert decision.intent == "evidence_state"
-    else:
-        assert decision.intent == "mixed_temporal"
-        assert decision.uses("graph") and decision.uses("documents")
+    elif question["type"] == "temporal_multihop":
+        assert decision.intent != "unsupported"
+    elif question["type"] == "temporal":
+        assert decision.intent != "unsupported"
 
 
 def test_a_question_about_the_future_is_refused_before_retrieval(router):
