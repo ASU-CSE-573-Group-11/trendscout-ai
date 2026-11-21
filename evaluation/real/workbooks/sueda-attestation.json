@@ -9,11 +9,11 @@
   "snapshot_sha256": "587d3128ef445f1b17d6ac711be64f5491679e41494ac0506114b1cf53b40d30",
   "workbook_sha256": {
     "entities": "c62fb1525e5c0d3860a654fe2ee69cf483b14acfeee089b2425698fb988be417",
-    "relations": "082cce9f8b7a0ec4179f63929d6d037d3e45c83782d2969952059f5c8171b30c"
+    "relations": "37275993b383d078f93e8753dda4851e9267b2326cacc37586a86609dcfd9d2d"
   },
   "accepted_entities": 200,
   "entity_target_met": true,
-  "scope": "Prepared on behalf of the assigned owner. No assertion of personal independent annotation.",
-  "accepted_relations": 34,
-  "relation_target_met": false
+  "accepted_relations": 90,
+  "relation_target_met": true,
+  "scope": "Prepared on behalf of the assigned owner. No assertion of personal independent annotation."
 }
