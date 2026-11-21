@@ -7,15 +7,21 @@ from collectors.archive_browser import validate_capture
 def test_final_six_review_replays_without_conflating_populations():
     r=build()
     assert r==json.loads((DIRECTORY/'review.json').read_text())
-    assert r['summary']['complete_official_population_history_count']==13
+    assert r['summary']['complete_official_population_history_count']==15
+    assert set(r['summary']['companies_without_complete_official_population_history'])=={'crewai','replicate','wandb'}
     assert r['summary']['companies_with_any_paired_public_channel']==17
     assert r['summary']['company_without_paired_historical_population']==['crewai']
+    assert 'continue' in r['summary']['complete_official_population_history_companies']
+    assert 'langfuse' in r['summary']['complete_official_population_history_companies']
     assert r['crewai_current_board']['listed_count']==4
     assert len(r['crewai_historical_advertisements'])==2
     assert all(a['active_at_archive_capture'] is None and not a['complete_historical_board'] for a in r['crewai_historical_advertisements'])
-    lf=[c for c in r['comparisons'] if c['company_id']=='langfuse']
-    assert [(c['baseline_listed'],c['latest_listed']) for c in lf]==[(1,13),(11,13)]
-    assert all(s['parent_board_count']>s['listed_count'] for s in r['snapshots']['langfuse'])
+    # Parent brand-title channel remains separate from complete Ashby board history.
+    lf_parent=[c for c in r['comparisons'] if c['company_id']=='langfuse' and c['population']=='explicit_brand_titles_in_parent_ats']
+    assert lf_parent
+    assert all(s['parent_board_count']>s['listed_count'] for s in r['snapshots']['langfuse'] if s['population']=='explicit_brand_titles_in_parent_ats')
+    cont=[c for c in r['comparisons'] if c['company_id']=='continue' and c['population']=='complete_official_ats_board']
+    assert cont and cont[0]['baseline_listed']==3 and cont[0]['latest_listed']==3
 
 
 def test_js_shell_or_inconsistent_category_counts_are_not_zero_jobs():

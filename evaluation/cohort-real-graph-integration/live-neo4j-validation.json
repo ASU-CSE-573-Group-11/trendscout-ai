@@ -1,0 +1,14 @@
+{
+  "status": "success",
+  "checked_at": "2026-11-21T22:18:11Z",
+  "node_count": 866,
+  "edge_count": 2308,
+  "payload_node_matches": 866,
+  "payload_edge_matches": 2308,
+  "payload_verified": true,
+  "live_matches_offline": true,
+  "demo_status": "offline_and_live_demo_complete",
+  "database": "neo4j",
+  "uri": "bolt://localhost:7687",
+  "scope": "Cohort 18-company graph loaded and offline/live demo parity verified."
+}

@@ -1,8 +1,16 @@
 from __future__ import annotations
 
+import re
 from typing import Any, Iterable
 
 from collectors.records import validate_record
+
+
+def _slug(value: str) -> str:
+    slug = re.sub(r"[^a-z0-9]+", "-", value.casefold()).strip("-")
+    if not slug:
+        raise ValueError("cannot create an empty graph identifier")
+    return slug
 
 
 def merge_graph_payloads(*payloads: dict[str, list[dict[str, Any]]]) -> dict[str, list[dict[str, Any]]]:
@@ -80,7 +88,8 @@ def record_to_graph(record: dict[str, Any]) -> dict[str, Any]:
 
     publisher = record.get("publisher")
     if publisher:
-        publisher_node = f"publisher:{publisher.casefold()}"
+        # Slugify so RDF URIs remain valid for names like "Weights & Biases".
+        publisher_node = f"publisher:{_slug(publisher)}"
         nodes.append(_node(publisher_node, "Publisher", name=publisher))
         edges.append({"from": source_node, "type": "PUBLISHED_BY", "to": publisher_node})
 

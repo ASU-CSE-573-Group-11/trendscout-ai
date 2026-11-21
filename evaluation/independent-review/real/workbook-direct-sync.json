@@ -1,0 +1,23 @@
+{
+  "synced_at": "2026-11-21T22:02:02Z",
+  "round": "real",
+  "basis": "independent-review/real/direct/{sueda,mehmet}.json unanimous labels",
+  "entity_updates": 116,
+  "relation_updates": 4,
+  "files": [
+    {
+      "person": "sueda",
+      "entities_sha256": "0569affce1e596aaebb9244eac04fa1e1950fd5d679ab497dbdcf437c68fbea1",
+      "relations_sha256": "c89d957bc12e4ce7a75bc3303a4b01bfb5fca887614205af6e3555baeae54dda",
+      "entity_row_updates": 58,
+      "relation_row_updates": 2
+    },
+    {
+      "person": "mehmet",
+      "entities_sha256": "0569affce1e596aaebb9244eac04fa1e1950fd5d679ab497dbdcf437c68fbea1",
+      "relations_sha256": "c89d957bc12e4ce7a75bc3303a4b01bfb5fca887614205af6e3555baeae54dda",
+      "entity_row_updates": 58,
+      "relation_row_updates": 2
+    }
+  ]
+}

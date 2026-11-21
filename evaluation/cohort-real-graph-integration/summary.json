@@ -1,0 +1,54 @@
+{
+  "status": "cohort_real_source_graph_integration_complete",
+  "source_snapshot_sha256": "ef90b095f71b6f6c293c688a55a35f8f429aa464dd61e29e29d76ba1e5a0798d",
+  "inputs": {
+    "records.jsonl": "ef90b095f71b6f6c293c688a55a35f8f429aa464dd61e29e29d76ba1e5a0798d",
+    "workbooks/sueda-entities.csv": "81ecb406ed15449715b505671245d25cb4fe8af01ff6aed6f7edb1fa5d14658f"
+  },
+  "node_count": 866,
+  "edge_count": 2308,
+  "node_labels": {
+    "Claim": 294,
+    "FundingRound": 3,
+    "Investor": 4,
+    "JobPosting": 147,
+    "OriginCluster": 48,
+    "Publisher": 18,
+    "Repository": 18,
+    "Skill": 14,
+    "SourceRecord": 294,
+    "Startup": 18,
+    "Technology": 8
+  },
+  "edge_types": {
+    "ABOUT": 294,
+    "BACKS": 4,
+    "CLAIM_SUBJECT": 294,
+    "DOCUMENTS": 294,
+    "FUNDING_OF": 3,
+    "HAS_JOB_POSTING": 147,
+    "HAS_REPOSITORY": 18,
+    "MEMBER_OF_ORIGIN": 294,
+    "MENTIONS": 60,
+    "PUBLISHED_BY": 294,
+    "REQUIRES_SKILL": 176,
+    "SUPPORTS": 294,
+    "USES_TECHNOLOGY": 136
+  },
+  "shacl_conforms": true,
+  "live_neo4j_validation": "live-neo4j-validation.json",
+  "reproducible_demo": "demo-results.json",
+  "visual_demo": "demo.html",
+  "documentation": "README.md",
+  "source_record_count": 294,
+  "source_review_basis": "Sueda source-assisted entity review; not independent paired annotation.",
+  "limitations": [
+    "JobPosting nodes are observed public listings, not completed hires or headcount.",
+    "FundingRound eventAt remains absent when the retained record has no reviewed event date.",
+    "Investor BACKS edges require an exact retained 'backed by leading investors including' context; no investor is assigned to a specific FundingRound.",
+    "Claim nodes are source excerpts in emerging state, not independently adjudicated semantic gold.",
+    "Repository activity windows do not establish product adoption or company growth."
+  ],
+  "cited_answer_check": "cited-answer-check.json",
+  "company_count": 18
+}

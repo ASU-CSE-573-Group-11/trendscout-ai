@@ -1,0 +1,139 @@
+{
+  "continue-ashby-api-cdx.json": [],
+  "continue-ashby-embed-cdx.json": [],
+  "continue-ashby-appdata-loose-cdx.json": [],
+  "crewai-widget-star-cdx.json": [],
+  "crewai-api-v3-star-cdx.json": [],
+  "crewai-jobs-json-cdx.json": [],
+  "crewai-careers-site-cdx.json": [],
+  "replicate-about-jobs-cdx.json": [],
+  "replicate-ashby-guess-cdx.json": [
+    {
+      "timestamp": "20251206031922",
+      "original": "https://jobs.ashbyhq.com/replicate"
+    },
+    {
+      "timestamp": "20260426010645",
+      "original": "https://jobs.ashbyhq.com/replicate/41d1c5f7-0f49-4903-9c11-ddfbe2e612cb"
+    },
+    {
+      "timestamp": "20260314193837",
+      "original": "https://jobs.ashbyhq.com/replicate/60d0977e-a39d-481a-a3f0-8d30be46bdbd?ref=reactjobs.io"
+    },
+    {
+      "timestamp": "20260319193627",
+      "original": "https://jobs.ashbyhq.com/replicate/87893d64-5a9d-402d-ad2b-cd2fc4c347ca?source=WAP2QXMr1O"
+    },
+    {
+      "timestamp": "20251118211804",
+      "original": "https://jobs.ashbyhq.com/replicated"
+    },
+    {
+      "timestamp": "20260209211645",
+      "original": "https://jobs.ashbyhq.com/replicated"
+    },
+    {
+      "timestamp": "20260607201329",
+      "original": "https://jobs.ashbyhq.com/replicated"
+    },
+    {
+      "timestamp": "20260314092705",
+      "original": "https://jobs.ashbyhq.com/replicated/1ac69d40-a4e9-4a0d-b7f0-5755b5e6f5f0"
+    },
+    {
+      "timestamp": "20260613070224",
+      "original": "https://jobs.ashbyhq.com/replicated/1ac69d40-a4e9-4a0d-b7f0-5755b5e6f5f0/application"
+    },
+    {
+      "timestamp": "20251118020039",
+      "original": "https://jobs.ashbyhq.com/replicated/4e85a162-d133-4019-a6fc-a45fa17bc4be"
+    },
+    {
+      "timestamp": "20260519102724",
+      "original": "https://jobs.ashbyhq.com/replicated/4e85a162-d133-4019-a6fc-a45fa17bc4be"
+    },
+    {
+      "timestamp": "20260722201852",
+      "original": "https://jobs.ashbyhq.com/replicated/4e85a162-d133-4019-a6fc-a45fa17bc4be?utm_source=Two+Sigma+Ventures+job+board&utm_medium=getro.com&gh_src=Two+Sigma+Ventures+job+board"
+    },
+    {
+      "timestamp": "20260711110727",
+      "original": "https://jobs.ashbyhq.com/replicated/84d3ccb4-7e59-45a8-b17d-8613b70c56ef"
+    },
+    {
+      "timestamp": "20260712034804",
+      "original": "https://jobs.ashbyhq.com/replicated/84d3ccb4-7e59-45a8-b17d-8613b70c56ef?utm_source=Headline+job+board&utm_medium=getro.com&gh_src=Headline+job+board"
+    },
+    {
+      "timestamp": "20260716131005",
+      "original": "https://jobs.ashbyhq.com/replicated/8e18afd0-a1f1-44aa-9c30-e6b1ef313f32?utm_source=Two+Sigma+Ventures+job+board&utm_medium=getro.com&gh_src=Two+Sigma+Ventures+job+board"
+    }
+  ],
+  "replicate-greenhouse-guess-cdx.json": [],
+  "langfuse-ashby-guess-cdx.json": [
+    {
+      "timestamp": "20251106201438",
+      "original": "https://jobs.ashbyhq.com/langfuse"
+    },
+    {
+      "timestamp": "20251118082106",
+      "original": "https://jobs.ashbyhq.com/langfuse/"
+    },
+    {
+      "timestamp": "20251118181402",
+      "original": "https://jobs.ashbyhq.com/langfuse"
+    },
+    {
+      "timestamp": "20260107202148",
+      "original": "https://jobs.ashbyhq.com/langfuse"
+    },
+    {
+      "timestamp": "20260311031449",
+      "original": "https://jobs.ashbyhq.com/langfuse"
+    },
+    {
+      "timestamp": "20260409102327",
+      "original": "https://jobs.ashbyhq.com/langfuse"
+    },
+    {
+      "timestamp": "20260409102436",
+      "original": "https://jobs.ashbyhq.com/langfuse"
+    },
+    {
+      "timestamp": "20260524060402",
+      "original": "https://jobs.ashbyhq.com/langfuse"
+    },
+    {
+      "timestamp": "20260524070419",
+      "original": "https://jobs.ashbyhq.com/langfuse"
+    },
+    {
+      "timestamp": "20260615194922",
+      "original": "https://jobs.ashbyhq.com/langfuse"
+    },
+    {
+      "timestamp": "20260624103716",
+      "original": "https://jobs.ashbyhq.com/langfuse"
+    },
+    {
+      "timestamp": "20260915231311",
+      "original": "https://jobs.ashbyhq.com/langfuse"
+    },
+    {
+      "timestamp": "20260409102448",
+      "original": "https://jobs.ashbyhq.com/langfuse/0cd84fa2-e4ce-4395-bee5-0489e86e89f5"
+    },
+    {
+      "timestamp": "20260512191540",
+      "original": "https://jobs.ashbyhq.com/langfuse/0cd84fa2-e4ce-4395-bee5-0489e86e89f5?utm_source=Redpoint+Ventures+job+board&utm_medium=getro.com&gh_src=Redpoint+Ventures+job+board"
+    },
+    {
+      "timestamp": "20260409102307",
+      "original": "https://jobs.ashbyhq.com/langfuse/1225fa3d-d590-41d2-b798-ef927320fb2e"
+    }
+  ],
+  "langfuse-greenhouse-guess-cdx.json": [],
+  "wandb-ashby-guess-cdx.json": [],
+  "wandb-greenhouse-guess-cdx.json": [],
+  "wandb-gh-short-cdx.json": []
+}

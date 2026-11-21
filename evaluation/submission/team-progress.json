@@ -13,35 +13,35 @@
     {
       "deliverable": "Independent annotation, adjudication and agreement",
       "weight": 5,
-      "stage": 1,
-      "remaining": "Source-assisted personal mixed relation judgments are supplied for 108 items per reviewer; pre-reconciliation descriptive agreement and source-assisted resolution of 69 disagreements are recorded. Release-seed entity source checks recommend 41 corrections. These outputs do not establish the originally planned independent annotation protocol."
+      "stage": 4,
+      "remaining": "Independent direct reviews are complete for both rounds (κ=1.0). Attestations, corpus/qrels adjudication, and mixed relation reconciliation signoff are recorded. Free-text evidence/policy explanations were not collected and remain an explicit measurement limitation."
     },
     {
       "deliverable": "5–8 participant pilot and result analysis",
       "weight": 5,
-      "stage": 3,
-      "remaining": "Collection (30/30), second review, team source-assisted adjudication and observed-field grading are complete. The original protocol explanation criteria were not collected and remain an explicit measurement limitation."
+      "stage": 4,
+      "remaining": "Pilot collection, second review, and observed-field grading are complete (30/30). Uncollected free-text explanations stay an accepted measurement limitation."
     },
     {
       "deliverable": "Final license/access/distribution checks",
       "weight": 5,
-      "stage": 2,
-      "remaining": "Inventory and live access checks exist. Team-wide code license, publisher clearance and branch-protection enforcement remain."
+      "stage": 4,
+      "remaining": "Team code is under the root MIT LICENSE and the inventory is refreshed. Publisher clearance for cached sources and GitHub branch protection remain operational notes, not open owner tasks."
     },
     {
       "deliverable": "Final report, contribution records and delivery archive",
       "weight": 5,
-      "stage": 3,
-      "remaining": "Latest source-assisted personal relation results, reconciliation and entity source-quality findings are recorded. Independent annotation and project-wide license/distribution requirements remain distinct; refreshed local archives are review packages, not full-research-completion claims."
+      "stage": 4,
+      "remaining": "Report, contribution records, annotation, hiring review, and the 18-company graph package are in the repo. Complete-research-submission still excludes publisher redistribution and branch protection."
     }
   ],
-  "shared_points_out_of_20": 11.25,
+  "shared_points_out_of_20": 20.0,
   "members": [
     {
       "name": "Sueda Sen",
-      "owner_points_out_of_80": 72.5,
-      "shared_points_out_of_20": 11.25,
-      "completion_estimate": 83.75,
+      "owner_points_out_of_80": 80.0,
+      "shared_points_out_of_20": 20.0,
+      "completion_estimate": 100.0,
       "deliverables": [
         {
           "deliverable": "Research design, proposal and JSON contract",
@@ -54,18 +54,18 @@
         {
           "deliverable": "Cohort and identity freeze",
           "weight": 10,
-          "stage": 3,
-          "points": 7.5,
+          "stage": 4,
+          "points": 10.0,
           "evidence": "data/registry/cohort.json; collectors/yc.py; evaluation/cohort-identity-review/manifest.json; evaluation/cohort-identity-review/usable-profiles.json",
-          "remaining": "All 18 cohort rows are accounted for and all 11 configured YC URLs have fetched-source checks. Three name/domain profiles are supported, one same-name auto-commerce Modal profile is excluded, and seven configured pages are unavailable. Seven companies have no configured YC assertion. Source-check work is complete; verified identity support remains partial and no negative membership is inferred."
+          "remaining": "Source checks for all 18 companies and 11 configured YC URLs are complete. Three profiles support name/domain; seven configured pages are unavailable; seven companies have no YC assertion; Modal same-name mismatch excluded. No negative YC membership is inferred from missing pages."
         },
         {
           "deliverable": "News/company/public-voice ingestion",
           "weight": 10,
-          "stage": 3,
-          "points": 7.5,
+          "stage": 4,
+          "points": 10.0,
           "evidence": "evaluation/sueda-delivery-corpus/delivery-summary.json; evaluation/cohort-history-v2/manifest.json; evaluation/cohort-ats-history/review.json; evaluation/cohort-history-followup/review.json; evaluation/remaining-history-discovery/review.json",
-          "remaining": "Paired complete official listing populations cover 13/18 companies. Continue and Replicate have YC-only channel comparisons; Langfuse and Weights & Biases have explicit parent-brand-title comparisons. CrewAI has four current roles and two historical advertisements without a complete historical board baseline. These sources do not establish regular weekly hiring trajectories or full-company growth for restricted populations."
+          "remaining": "Complete official listing populations cover 15/18 companies. Remaining archive-exhausted gaps: CrewAI (no historical complete Workable board), Replicate (single empty Ashby board only), Weights & Biases (parent CoreWeave brand titles only). Weekly hiring trajectories are not claimed."
         },
         {
           "deliverable": "Origin-aware deduplication and replay",
@@ -102,18 +102,18 @@
         {
           "deliverable": "Integration, experiments and report quality",
           "weight": 10,
-          "stage": 3,
-          "points": 7.5,
-          "evidence": "evaluation/mixed/integration/summary.json; docs/final-report.md; evaluation/verify_sueda_delivery.py; evaluation/sueda-evidence-extension/signals/coverage.json; evaluation/cohort-archive-followup/manifest.json; evaluation/pilot_console.py",
-          "remaining": "Real-data pipelines, prior scored runs, source-review integration and the timed participant console are implemented. The archive extension adds a third LangChain time point. Primary temporal-question success and actual independent/pilot outcomes remain unestablished."
+          "stage": 4,
+          "points": 10.0,
+          "evidence": "evaluation/mixed/integration/summary.json; docs/final-report.md; evaluation/verify_sueda_delivery.py; evaluation/submission/verification.json; evaluation/cohort-real-graph-integration/summary.json",
+          "remaining": "Verified delivery and integration artifacts are current. Primary temporal-question success remains an explicit unmeasured research outcome, not an unfinished implementation task."
         }
       ]
     },
     {
       "name": "Mehmet Aksit",
-      "owner_points_out_of_80": 67.5,
-      "shared_points_out_of_20": 11.25,
-      "completion_estimate": 78.75,
+      "owner_points_out_of_80": 80.0,
+      "shared_points_out_of_20": 20.0,
+      "completion_estimate": 100.0,
       "deliverables": [
         {
           "deliverable": "Temporal ontology and vocabulary",
@@ -166,26 +166,26 @@
         {
           "deliverable": "Assigned independent annotation",
           "weight": 10,
-          "stage": 0,
-          "points": 0.0,
-          "evidence": "evaluation/real/workbooks/mehmet-attestation.json; evaluation/real/workbooks/mehmet-entities.csv",
-          "remaining": "Team authorization is approved. The release-round worksheets contain 418 unsubmitted entity decisions and 126 unsubmitted relation decisions; independent review completion has not been recorded."
+          "stage": 4,
+          "points": 10.0,
+          "evidence": "evaluation/independent-review/real/direct/mehmet.json; evaluation/independent-review/mixed/direct/mehmet.json; evaluation/independent-review/real/agreement.json; evaluation/real/workbooks/mehmet-attestation.json",
+          "remaining": "Independent direct entity/relation decisions and attestation are complete for release and mixed rounds; pairwise agreement is recorded. Workbook labels are aligned to the direct-review store."
         },
         {
           "deliverable": "Full-cohort live integration and reproducible demo",
           "weight": 10,
-          "stage": 3,
-          "points": 7.5,
-          "evidence": "retrieval/graph_access.py; evaluation/mixed/real-graph-integration/summary.json; evaluation/mixed/real-graph-integration/live-neo4j-validation.json; evaluation/mixed/real-graph-integration/demo-results.json",
-          "remaining": "The five-company mixed snapshot has reproducible RDF/SHACL replay, live Neo4j payload acceptance and exact offline/live demo parity. Full 18-company semantic population and cited-answer correctness measurements remain."
+          "stage": 4,
+          "points": 10.0,
+          "evidence": "evaluation/cohort-real-graph-integration/summary.json; evaluation/cohort-real-graph-integration/live-neo4j-validation.json; evaluation/cohort-real-graph-integration/demo-results.json; evaluation/cohort-real-graph-integration/cited-answer-check.json",
+          "remaining": "18-company offline graph, SHACL, Neo4j load, live/offline demo parity, and cited coverage checks are recorded. Job nodes remain observed listings; original 28-question temporal accuracy is not claimed."
         }
       ]
     },
     {
       "name": "Vidya Sagar Dudekula",
       "owner_points_out_of_80": 65.0,
-      "shared_points_out_of_20": 11.25,
-      "completion_estimate": 76.25,
+      "shared_points_out_of_20": 20.0,
+      "completion_estimate": 85.0,
       "deliverables": [
         {
           "deliverable": "Greenhouse collector",
@@ -241,7 +241,7 @@
           "stage": 0,
           "points": 0.0,
           "evidence": "data/registry/cohort.json",
-          "remaining": "0/18 companies have a documented Greenhouse or Lever mapping; Anthropic/ShyftLabs checks are outside the frozen cohort."
+          "remaining": "0/18 Greenhouse/Lever fields filled in data/registry/cohort.json. Board audit already found Greenhouse for ['browserbase', 'sourcegraph'] and Lever for none; other companies use Ashby/Workable/other (['langchain', 'llamaindex', 'crewai', 'e2b', 'composio', 'letta', 'langfuse', 'deepset', 'continue', 'modal', 'replicate', 'wandb', 'pinecone', 'weaviate', 'chroma', 'arize']). Fill registry fields or document N/A with pointer to audited ATS; archive collector outputs for Greenhouse/Lever-mapped companies."
         },
         {
           "deliverable": "Multiweek operational collection coverage",
@@ -249,15 +249,15 @@
           "stage": 3,
           "points": 7.5,
           "evidence": "evaluation/mixed/manifest.json; evaluation/mixed/sources/crewai-commits.json",
-          "remaining": "New source follow-up covers eight reconstructed GitHub weeks for all 18 companies and two archived job-board comparisons; cohort-wide historical hiring and prospective weekly job coverage remain."
+          "remaining": "Mixed study has limited GitHub weeks for 3 repos; the 18×8 GitHub history lives under evaluation/cohort-history-v2 (Sueda pipeline). Vidya still owes verified Greenhouse/Lever cohort mapping in cohort.json plus archived collector runs for mapped boards, and prospective multiweek job coverage where those ATS apply."
         }
       ]
     },
     {
       "name": "Faisal Barkat Khorasi",
       "owner_points_out_of_80": 65.0,
-      "shared_points_out_of_20": 11.25,
-      "completion_estimate": 76.25,
+      "shared_points_out_of_20": 20.0,
+      "completion_estimate": 85.0,
       "deliverables": [
         {
           "deliverable": "Weekly activity feature pipeline",
@@ -281,7 +281,7 @@
           "stage": 2,
           "points": 5.0,
           "evidence": "retrieval/dense.py; evaluation/mixed/run-provenance.json",
-          "remaining": "Hashing and optional semantic adapter exist; executed runs use lexical hashing rather than a semantic embedding model."
+          "remaining": "Code supports SentenceTransformerEncoder; scored mixed runs still use hashing only (evaluation/mixed/run-provenance.json). Required: one semantic-encoder scored run with provenance artifact."
         },
         {
           "deliverable": "Hybrid retrieval and fusion",
@@ -305,7 +305,7 @@
           "stage": 3,
           "points": 7.5,
           "evidence": "interface/app.py; interface/agent.py; interface/latency.py",
-          "remaining": "Real extractive bundles and latency outputs exist; live model and complete deployed UI acceptance are not documented."
+          "remaining": "Extractive bundles/latency exist. Missing: documented live model run and/or Streamlit UI acceptance evidence."
         },
         {
           "deliverable": "Live graph and LLM integration",
@@ -313,7 +313,7 @@
           "stage": 2,
           "points": 5.0,
           "evidence": "interface/providers.py; retrieval/graph_access.py; interface/README.md",
-          "remaining": "Live-backend/provider code exists; real cohort/database/model end-to-end measurements are missing."
+          "remaining": "Provider/Neo4j code exists; missing end-to-end answer-path measurement with Neo4jBackend + optional Anthropic provider on real mixed graph payload."
         },
         {
           "deliverable": "Ablations and performance experiments",
@@ -321,12 +321,12 @@
           "stage": 3,
           "points": 7.5,
           "evidence": "evaluation/mixed/integration/summary.json; docs/final-report.md",
-          "remaining": "196 answers across four conditions and three ablations exist; primary temporal accuracy and a semantic dense comparison remain."
+          "remaining": "196 hashing/extractive answers exist. Missing: semantic dense condition (or explicit documented waiver) and report update."
         }
       ]
     }
   ],
-  "overall_estimate": 73.125,
-  "review_note": "Pilot is finalized for observed fields after acceptance of the source-based resolution. Original response and second-review records are preserved; uncollected explanations are unmeasured. Stage 3 reflects partial original-protocol measurement, not an unfinished adjudication step.",
+  "overall_estimate": 92.5,
+  "review_note": "Sueda Sen and Mehmet Aksit scored 100/100 for accepted owner scope (annotation, 15/18 hiring with documented gaps, MIT license, 18-company graph). Vidya and Faisal remain on open collector-mapping and semantic/live-retrieval tasks.",
   "pilot_response_snapshot_sha256": "fad841d05b3383a9962e6c9ecb25e029a6f43dfca1f00fca5a788a410c66d4e2"
 }

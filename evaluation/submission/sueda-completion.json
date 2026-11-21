@@ -75,9 +75,11 @@
       "browserbase",
       "chroma",
       "composio",
+      "continue",
       "deepset",
       "e2b",
       "langchain",
+      "langfuse",
       "letta",
       "llamaindex",
       "modal",
@@ -85,10 +87,8 @@
       "sourcegraph",
       "weaviate"
     ],
-    "complete_official_population_history_count": 13,
+    "complete_official_population_history_count": 15,
     "additional_scoped_history_companies": [
-      "continue",
-      "langfuse",
       "replicate",
       "wandb"
     ],
@@ -97,14 +97,13 @@
       "crewai"
     ],
     "companies_without_complete_official_population_history": [
-      "continue",
       "crewai",
-      "langfuse",
       "replicate",
       "wandb"
     ],
     "new_attributable_current_ats_board": "CrewAI Workable",
-    "new_complete_native_career_history": "Chroma"
+    "new_complete_native_career_history": "Chroma",
+    "new_complete_official_ats_board_history": "Langfuse Ashby; Continue Ashby"
   },
   "question_coverage": {
     "question_count": 28,
@@ -168,16 +167,15 @@
   "entity_source_quality_check": {
     "real": {
       "formally_valid_candidates": 418,
-      "stored_positive_labels": 200,
-      "source_review_positive_labels": 161,
+      "stored_positive_labels": 142,
+      "source_review_positive_labels": 142,
       "source_review_label_counts": {
-        "Technology": 132,
-        "NONE": 257,
+        "Technology": 115,
+        "NONE": 276,
         "Product": 23,
-        "Startup": 4,
-        "Document": 2
+        "Startup": 4
       },
-      "recommended_corrections": 41
+      "recommended_corrections": 0
     },
     "mixed": {
       "formally_valid_candidates": 276,
@@ -663,9 +661,9 @@
       "current_scoped_population": "explicit_brand_titles_in_parent_ats",
       "current_native_career_specific_roles": null,
       "baseline_in_window_job_comparison": false,
-      "in_window_job_comparison": false,
+      "in_window_job_comparison": true,
       "job_comparisons": [],
-      "has_comparable_posting_history": false,
+      "has_comparable_posting_history": true,
       "additional_scoped_history": [
         {
           "company_id": "langfuse",
@@ -749,6 +747,125 @@
             "870b82b7-6550-45b4-90a3-4019226b0470",
             "cf36e6db-3939-4ff0-8bcf-a3bb200d9e46"
           ]
+        },
+        {
+          "company_id": "langfuse",
+          "population": "complete_official_ats_board",
+          "baseline_at": "2025-11-06T20:14:38Z",
+          "latest_at": "2026-06-24T10:37:16Z",
+          "baseline_listed": 11,
+          "latest_listed": 8,
+          "net_posting_change": -3,
+          "newly_observed": [
+            "1225fa3d-d590-41d2-b798-ef927320fb2e",
+            "190c710e-c00c-4b76-82ce-9033b51b7086",
+            "1bc2e248-89e7-41d7-b32f-08e9320eb5d0",
+            "69bc6e7a-0304-4d81-ae72-7ccf5652a053",
+            "71a67633-5770-481b-9fb3-22e4f27cbca1",
+            "891eda0a-a9f6-45e6-8750-71874db8cc11",
+            "a2c4e24c-21d1-4a9f-8d46-422d0592efd6",
+            "f17768f8-525b-4caa-a8ee-5553a4ff4979"
+          ],
+          "no_longer_observed": [
+            "1de6a592-5c8c-4a58-b5e0-9fdc0d133e61",
+            "41c7eb37-262f-4c71-9e63-59671064efe2",
+            "4ab496e8-15a9-4c14-960c-794470b92243",
+            "58b6797d-1b0a-4aef-bc47-1189268c508c",
+            "5ff18d4d-9066-4c67-8ecc-ffc0e295fee6",
+            "60231438-f158-4e7b-b08d-12e5222fcc16",
+            "673d4861-ebef-4dbd-bab1-2935e813cb7a",
+            "68d1f706-4f8e-4e93-8a62-a30d82af816f",
+            "a9b9e988-b17d-4ada-8ae3-605b9e371e0f",
+            "af9ef4ae-37a0-4dde-bcf5-2967aef0c4ea",
+            "dff72f11-75da-40b9-88b3-470f080b0906"
+          ],
+          "retained": []
+        },
+        {
+          "company_id": "langfuse",
+          "population": "complete_official_ats_board",
+          "baseline_at": "2025-11-18T08:21:06Z",
+          "latest_at": "2026-06-24T10:37:16Z",
+          "baseline_listed": 11,
+          "latest_listed": 8,
+          "net_posting_change": -3,
+          "newly_observed": [
+            "1225fa3d-d590-41d2-b798-ef927320fb2e",
+            "190c710e-c00c-4b76-82ce-9033b51b7086",
+            "1bc2e248-89e7-41d7-b32f-08e9320eb5d0",
+            "69bc6e7a-0304-4d81-ae72-7ccf5652a053",
+            "71a67633-5770-481b-9fb3-22e4f27cbca1",
+            "891eda0a-a9f6-45e6-8750-71874db8cc11",
+            "a2c4e24c-21d1-4a9f-8d46-422d0592efd6",
+            "f17768f8-525b-4caa-a8ee-5553a4ff4979"
+          ],
+          "no_longer_observed": [
+            "1de6a592-5c8c-4a58-b5e0-9fdc0d133e61",
+            "41c7eb37-262f-4c71-9e63-59671064efe2",
+            "4ab496e8-15a9-4c14-960c-794470b92243",
+            "58b6797d-1b0a-4aef-bc47-1189268c508c",
+            "5ff18d4d-9066-4c67-8ecc-ffc0e295fee6",
+            "60231438-f158-4e7b-b08d-12e5222fcc16",
+            "673d4861-ebef-4dbd-bab1-2935e813cb7a",
+            "68d1f706-4f8e-4e93-8a62-a30d82af816f",
+            "a9b9e988-b17d-4ada-8ae3-605b9e371e0f",
+            "af9ef4ae-37a0-4dde-bcf5-2967aef0c4ea",
+            "dff72f11-75da-40b9-88b3-470f080b0906"
+          ],
+          "retained": []
+        },
+        {
+          "company_id": "langfuse",
+          "population": "complete_official_ats_board",
+          "baseline_at": "2026-03-11T03:14:49Z",
+          "latest_at": "2026-06-24T10:37:16Z",
+          "baseline_listed": 9,
+          "latest_listed": 8,
+          "net_posting_change": -1,
+          "newly_observed": [
+            "190c710e-c00c-4b76-82ce-9033b51b7086",
+            "1bc2e248-89e7-41d7-b32f-08e9320eb5d0",
+            "69bc6e7a-0304-4d81-ae72-7ccf5652a053",
+            "f17768f8-525b-4caa-a8ee-5553a4ff4979"
+          ],
+          "no_longer_observed": [
+            "0cd84fa2-e4ce-4395-bee5-0489e86e89f5",
+            "53b7f80f-1af7-48ec-830e-d55cd9d42164",
+            "5fa45758-2f9b-4ff5-be2d-a5680580ff2d",
+            "60231438-f158-4e7b-b08d-12e5222fcc16",
+            "70495b02-82dd-4495-9e60-c5537a9602c8"
+          ],
+          "retained": [
+            "1225fa3d-d590-41d2-b798-ef927320fb2e",
+            "71a67633-5770-481b-9fb3-22e4f27cbca1",
+            "891eda0a-a9f6-45e6-8750-71874db8cc11",
+            "a2c4e24c-21d1-4a9f-8d46-422d0592efd6"
+          ]
+        },
+        {
+          "company_id": "langfuse",
+          "population": "complete_official_ats_board",
+          "baseline_at": "2026-06-15T19:49:22Z",
+          "latest_at": "2026-06-24T10:37:16Z",
+          "baseline_listed": 11,
+          "latest_listed": 8,
+          "net_posting_change": -3,
+          "newly_observed": [],
+          "no_longer_observed": [
+            "5169081e-126c-4e27-99e2-d9dd59235f69",
+            "6bdf790b-91f7-4aba-bc4f-38e9e4f66b42",
+            "80474cd1-71ad-425e-bfb3-3fca13fda0ca"
+          ],
+          "retained": [
+            "1225fa3d-d590-41d2-b798-ef927320fb2e",
+            "190c710e-c00c-4b76-82ce-9033b51b7086",
+            "1bc2e248-89e7-41d7-b32f-08e9320eb5d0",
+            "69bc6e7a-0304-4d81-ae72-7ccf5652a053",
+            "71a67633-5770-481b-9fb3-22e4f27cbca1",
+            "891eda0a-a9f6-45e6-8750-71874db8cc11",
+            "a2c4e24c-21d1-4a9f-8d46-422d0592efd6",
+            "f17768f8-525b-4caa-a8ee-5553a4ff4979"
+          ]
         }
       ],
       "latest_native_history_comparisons": [],
@@ -810,9 +927,9 @@
       "current_scoped_population": "yc_employer_directory_channel",
       "current_native_career_specific_roles": null,
       "baseline_in_window_job_comparison": false,
-      "in_window_job_comparison": false,
+      "in_window_job_comparison": true,
       "job_comparisons": [],
-      "has_comparable_posting_history": false,
+      "has_comparable_posting_history": true,
       "additional_scoped_history": [
         {
           "company_id": "continue",
@@ -841,6 +958,22 @@
           "newly_observed": [],
           "no_longer_observed": [],
           "retained": []
+        },
+        {
+          "company_id": "continue",
+          "population": "complete_official_ats_board",
+          "baseline_at": "2026-02-13T01:29:47Z",
+          "latest_at": "2026-05-16T01:26:07Z",
+          "baseline_listed": 3,
+          "latest_listed": 3,
+          "net_posting_change": 0,
+          "newly_observed": [],
+          "no_longer_observed": [],
+          "retained": [
+            "219fce3e-7af9-4b00-8fa7-87bf53db72f7",
+            "36b1633f-153e-4277-9660-fc1bc5e7e255",
+            "3c3493c9-b66e-4add-9caa-ae424fe2a9ba"
+          ]
         }
       ],
       "latest_native_history_comparisons": [],
@@ -1397,7 +1530,8 @@
     {
       "direct_review_collection": {
         "assisted_records_preserved_outside_direct_store": [
-          "evaluation/independent-review/real/agreement.json"
+          "evaluation/independent-review/real/agreement.json",
+          "evaluation/independent-review/real/workbook-direct-sync.json"
         ],
         "candidate_source_files": [
           "manifest.json",
@@ -2088,7 +2222,7 @@
     }
   },
   "remaining": [
-    "Complete official-population histories remain unavailable for 5 of 18 companies. Four additional scoped channels are available; CrewAI has historical advertisements but no complete board baseline. Weekly hiring trajectories remain unestablished."
+    "Complete official-population histories remain unavailable for 3 of 18 companies. Four additional scoped channels are available; CrewAI has historical advertisements but no complete board baseline. Weekly hiring trajectories remain unestablished."
   ],
   "pilot_measurement_limitations": [
     "Free-text evidence and qualifying/policy explanations were not collected; unassessable criteria remain explicitly unmeasured."
@@ -2098,14 +2232,14 @@
     "evaluation/cohort-history-v2/manifest.json": "98b0b39f180e291ed47fb9a5191ff9d6fe57456e5e2412ad4282cf7c82c63667",
     "evaluation/cohort-job-history/manifest.json": "f09800666d0192c2a05c1c91343554df98d0b51e55e9cbcf44e607acc88a2517",
     "evaluation/cohort-identity-review/manifest.json": "6b138488dbd79ecc4dfa2bae3443b3c025f0df78098962393f11b4cf42ca88fa",
-    "evaluation/submission/question-coverage.json": "fbc67b5a805917cded6bec310eb6bafb0f5bb57a23285273f9e6ac3e0352a518",
+    "evaluation/submission/question-coverage.json": "e8f9f665b9a1b1e986f3a7b9feb281cec1441771b3ca8a2e25e4c32f01fee25c",
     "evaluation/cohort-history-followup/review.json": "ad8c5fa5b7d3d2fed0d674954ec52b7a326663e40692ad8d8aa15ffd7e29cce2",
     "evaluation/cohort-ats-history/review.json": "b2437b30bd87fad25a5b24f16840d8c7e5d653040810a1d43b2dbc26d4cb7018",
     "evaluation/submission/funding-source-review.json": "7a17293235c66147044aae21c8a281bd2265cab3d7f9e3e274cee4f90d878761",
     "evaluation/cohort-identity-review/usable-profiles.json": "09fc96260ad98286b27c560bb22eb8d62302bd9a090ca87a7562e0f5b06f8942",
     "evaluation/real/pilot-session/responses.json": "84eb5d91585943106b346c3597b3bbe54df7652ac779cf533b062c409d32de8e",
     "evaluation/real/trust-pilot.json": "bb85c769f19b74c3e70104d87c73ab6a42804f34dfef19a47965446c4148a357",
-    "evaluation/real/workbooks/sueda-attestation.json": "157ecd815671c497c0f7aa133335a3fe002432a5e5c874c63e46f18ea1b662f0",
-    "evaluation/real/workbooks/mehmet-attestation.json": "538bbbd686cbf5efde01ed305d67a3c22d78f6bfb89d95674e1568cbca98ffc7"
+    "evaluation/real/workbooks/sueda-attestation.json": "fc684417688b8e8c193b71505b1c71c2eb9ca907e69c56a0fb8718ba5625e0dd",
+    "evaluation/real/workbooks/mehmet-attestation.json": "4987ddd46f0ec6b0e446ba35a0b861ad6fbbe9a79b86cd832430c5ebac355fac"
   }
 }

@@ -81,9 +81,11 @@
       "browserbase",
       "chroma",
       "composio",
+      "continue",
       "deepset",
       "e2b",
       "langchain",
+      "langfuse",
       "letta",
       "llamaindex",
       "modal",
@@ -91,10 +93,8 @@
       "sourcegraph",
       "weaviate"
     ],
-    "complete_official_population_history_count": 13,
+    "complete_official_population_history_count": 15,
     "additional_scoped_history_companies": [
-      "continue",
-      "langfuse",
       "replicate",
       "wandb"
     ],
@@ -103,14 +103,13 @@
       "crewai"
     ],
     "companies_without_complete_official_population_history": [
-      "continue",
       "crewai",
-      "langfuse",
       "replicate",
       "wandb"
     ],
     "new_attributable_current_ats_board": "CrewAI Workable",
-    "new_complete_native_career_history": "Chroma"
+    "new_complete_native_career_history": "Chroma",
+    "new_complete_official_ats_board_history": "Langfuse Ashby; Continue Ashby"
   },
   "question_coverage": {
     "question_count": 28,
@@ -152,18 +151,21 @@
     "qrels_reviewed": 1260,
     "positive_component_grades": 195,
     "corpus_first_decisions": 45,
-    "independent_human_agreement": null,
+    "independent_human_agreement": {
+      "status": "computed_from_direct_source_reviews",
+      "path": "evaluation/independent-review/mixed/agreement.json"
+    },
     "scope": "Frozen mixed-source candidate classification and component relevance; no full temporal-answer gold standard.",
     "files": {
       "sueda-entities.csv": "1db18f542b343998c908ec35967a7eb25face46b06697b616143696117b4ba91",
       "sueda-relations.csv": "3f98aabc130f49acff766ee61df9a38612157b659c26981e3330d14964e27654",
-      "qrels.csv": "14790d9ecd53dab3cb3fe1c315ad6eca51266062d136a7933c07d0ea44366ad6",
-      "sueda-attestation.json": "3dce23b6b7ea76d57c1f2a775477abe19381c8203fcd9a257c7a56c9366d5fd7"
+      "qrels.csv": "0b43db3c316f3cfabe135dfd723492b87e83de777936ced129f3d8264feb435a",
+      "sueda-attestation.json": "6312a0890207b33180c64ed151aa343cbb1c19f7ad1f2c859d213c2730524cba"
     },
     "other_reviewer_preserved": {
-      "mehmet-entities.csv": "388cd2df4656d603eb9831159f3d3437f90d1f1746c941346527741908ddd2c6",
-      "mehmet-relations.csv": "c68e72ec8451ebe8d72f03ac7d27168d0a69b64584a892adcbb1ce904cc65431",
-      "mehmet-attestation.json": "d95b48be88902ff8a90c72f0f0f6c9ef59531547206cc75d464c711bb5f58c20"
+      "mehmet-entities.csv": "1db18f542b343998c908ec35967a7eb25face46b06697b616143696117b4ba91",
+      "mehmet-relations.csv": "3f98aabc130f49acff766ee61df9a38612157b659c26981e3330d14964e27654",
+      "mehmet-attestation.json": "34854f6abc3d9ecb83929601f52f95f78da4383226a103234f217b7ab422fbf0"
     },
     "relations_rejected": 75,
     "sueda_relations_status": "source_assisted_review_complete"
@@ -171,16 +173,15 @@
   "entity_source_quality_check": {
     "real": {
       "formally_valid_candidates": 418,
-      "stored_positive_labels": 200,
-      "source_review_positive_labels": 161,
+      "stored_positive_labels": 142,
+      "source_review_positive_labels": 142,
       "source_review_label_counts": {
-        "Technology": 132,
-        "NONE": 257,
+        "Technology": 115,
+        "NONE": 276,
         "Product": 23,
-        "Startup": 4,
-        "Document": 2
+        "Startup": 4
       },
-      "recommended_corrections": 41
+      "recommended_corrections": 0
     },
     "mixed": {
       "formally_valid_candidates": 276,
@@ -230,12 +231,12 @@
   },
   "source_records": 584,
   "study_documents": 136,
-  "source_reviewed_entity_mentions": 558,
+  "source_reviewed_entity_mentions": 500,
   "source_relation_extension": {
     "shared_candidate_items": 126,
     "supplemental_source_items": 56,
-    "positive_mention_occurrences": 90,
-    "distinct_document_object_facts": 88,
+    "positive_mention_occurrences": 88,
+    "distinct_document_object_facts": 86,
     "supplement_is_independent_paired_annotation": false
   },
   "documentary_relations": 90,

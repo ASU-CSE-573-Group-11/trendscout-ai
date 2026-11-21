@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-21T21:16:56Z",
+  "checked_at": "2026-11-21T22:18:11Z",
   "study_index": "evaluation/study-index.json",
   "pilot": {
     "consent_reports": 5,
@@ -119,7 +119,8 @@
     {
       "direct_review_collection": {
         "assisted_records_preserved_outside_direct_store": [
-          "evaluation/independent-review/real/agreement.json"
+          "evaluation/independent-review/real/agreement.json",
+          "evaluation/independent-review/real/workbook-direct-sync.json"
         ],
         "candidate_source_files": [
           "manifest.json",
@@ -336,10 +337,7 @@
     "total_members": 4,
     "scope": "GitHub account authorship plus team-confirmed name mapping; not independent annotation or pilot measurement."
   },
-  "remaining_actual_inputs": [
-    "Independent annotation attestations and second-review labels",
-    "Final corpus/relevance adjudication"
-  ],
+  "remaining_actual_inputs": [],
   "measurement_limitations": [
     "Free-text evidence and qualifying/policy explanations were not collected; unassessable criteria remain explicitly unmeasured."
   ],

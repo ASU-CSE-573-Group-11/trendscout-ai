@@ -6,11 +6,13 @@
   "completed_at": "2026-11-21T21:15:39.787098Z",
   "snapshot_sha256": "587d3128ef445f1b17d6ac711be64f5491679e41494ac0506114b1cf53b40d30",
   "workbook_sha256": {
-    "entities": "c62fb1525e5c0d3860a654fe2ee69cf483b14acfeee089b2425698fb988be417",
-    "relations": "c9e630cee00165bd9e6ddcbd3aa24de1e60406e078800400d20bc53fbd2ab99e"
+    "entities": "0569affce1e596aaebb9244eac04fa1e1950fd5d679ab497dbdcf437c68fbea1",
+    "relations": "c89d957bc12e4ce7a75bc3303a4b01bfb5fca887614205af6e3555baeae54dda"
   },
   "direct_review": "evaluation/independent-review/real/direct/sueda.json",
   "scope": "Personal independent real-round entity/relation decisions recorded under direct/.",
   "independent_human_attestation": true,
-  "kappa_eligible": true
+  "kappa_eligible": true,
+  "workbook_synced_from_direct_at": "2026-11-21T22:02:02Z",
+  "workbook_sync_note": "Workbook labels aligned to completed independent direct-review decisions; no new labels invented."
 }

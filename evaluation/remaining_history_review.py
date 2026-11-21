@@ -140,6 +140,8 @@ def build(root=ROOT):
     parent_apis=s.catalog('additional-endpoints.json');wandb_archives=s.catalog('coreweave-archive-captures.json');last_search=s.catalog('last-archive-search.json')
     replicate_discovery=s.catalog('replicate-yc-discovery.json');replicate_archives=s.catalog('replicate-yc-captures.json')
     wandb_discovery=s.catalog('wandb-discovery.json');s.catalog('parent-archive-discovery.json');render=s.load(directory/'langfuse-render.json')
+    langfuse_ashby_discovery=s.catalog('langfuse-ashby-discovery.json');langfuse_ashby_archives=s.catalog('langfuse-ashby-captures.json')
+    continue_ashby_discovery=s.catalog('continue-ashby-discovery.json');continue_ashby_archives=s.catalog('continue-ashby-captures.json')
     render_text,_=s.source(render)
     if 'https://api.ashbyhq.com/posting-api/job-board/clickhouse' not in render['job_data_urls']:
         raise ValueError('Official Langfuse-linked parent data endpoint not verified')
@@ -199,6 +201,44 @@ def build(root=ROOT):
         if source['source_id']!='langfuse-parent-board' or source.get('error'):continue
         html,path=verified(source,parent_discovery);rows=parse_board(html,'ClickHouse')
         snapshot('langfuse','explicit_brand_titles_in_parent_ats',source,branded_titles(rows,'langfuse'),path,True,parent='ClickHouse',parent_board_count=len(rows),parent_posting_ids=[r['posting_id'] for r in rows],title_filter='whole word Langfuse')
+    # Langfuse dedicated Ashby board: complete offline board populations from archive.
+    # Live jobs.ashbyhq.com/langfuse is currently 404; the latest in-window complete archive
+    # is retained as the latest available complete board observation.
+    langfuse_board_caps=sorted(
+        [c for c in langfuse_ashby_archives if c.get('source_id')=='langfuse-ashby' and not c.get('error')],
+        key=lambda c:c['timestamp'],
+    )
+    if len(langfuse_board_caps)<2:raise ValueError('Langfuse complete Ashby board history requires at least two verified captures')
+    latest_langfuse=langfuse_board_caps[-1]
+    for source in langfuse_board_caps:
+        html,path=verified(source,langfuse_ashby_discovery)
+        rows=parse_board(html,'Langfuse')
+        if source is latest_langfuse:
+            snapshot(
+                'langfuse','complete_official_ats_board',source,rows,path,False,
+                live_endpoint_status=404,live_endpoint_url='https://jobs.ashbyhq.com/langfuse',
+                observation_basis='latest_in_window_complete_archive_board_while_live_endpoint_unavailable',
+            )
+        else:
+            snapshot('langfuse','complete_official_ats_board',source,rows,path,True)
+    # Continue dedicated Ashby board: two in-window complete archives (live board currently 404).
+    continue_board_caps=sorted(
+        [c for c in continue_ashby_archives if c.get('source_id')=='continue-ashby' and not c.get('error')],
+        key=lambda c:c['timestamp'],
+    )
+    if len(continue_board_caps)<2:raise ValueError('Continue complete Ashby board history requires at least two verified captures')
+    latest_continue=continue_board_caps[-1]
+    for source in continue_board_caps:
+        html,path=verified(source,continue_ashby_discovery)
+        rows=parse_board(html,'Continue')
+        if source is latest_continue:
+            snapshot(
+                'continue','complete_official_ats_board',source,rows,path,False,
+                live_endpoint_status=404,live_endpoint_url='https://jobs.ashbyhq.com/continue',
+                observation_basis='latest_in_window_complete_archive_board_while_live_endpoint_unavailable',
+            )
+        else:
+            snapshot('continue','complete_official_ats_board',source,rows,path,True)
     current=next(x for x in parent_apis if x['source_id']=='coreweave-parent-api');text,path=s.source(current);rows=greenhouse(json.loads(text))
     snapshot('wandb','explicit_brand_titles_in_parent_ats',current,branded_titles(rows,'wandb'),path,parent='CoreWeave',parent_board_count=len(rows),parent_posting_ids=[r['posting_id'] for r in rows],title_filter='Weights & Biases or Weights and Biases')
     for source in wandb_archives:
@@ -222,25 +262,34 @@ def build(root=ROOT):
                         'active_at_archive_capture':None,'complete_historical_board':False})
     comparisons=[]
     for cid,items in pools.items():
-        current=next(x for x in items if not x['archived'])
-        for old in items:
-            if old['archived']:comparisons.append(compare(old,current))
-    full=old_companies|{c['company_id'] for c in comparisons if c['population']=='complete_official_career_list'}
-    scoped={c['company_id'] for c in comparisons if c['population']!='complete_official_career_list'}
+        # Compare archived snapshots only against the latest observation of the same population.
+        by_population={}
+        for item in items:
+            by_population.setdefault(item['population'], []).append(item)
+        for population, group in by_population.items():
+            latest=next(x for x in group if not x['archived'])
+            for old in group:
+                if old['archived']:
+                    comparisons.append(compare(old, latest))
+    complete_populations={'complete_official_career_list','complete_official_ats_board'}
+    full=old_companies|{c['company_id'] for c in comparisons if c['population'] in complete_populations}
+    scoped={c['company_id'] for c in comparisons if c['population'] not in complete_populations}-full
     all_companies=old_companies|{'chroma','continue','crewai','langfuse','replicate','wandb'}
     return {'status':'collection_review_complete_with_explicit_population_limits',
         'summary':{'complete_official_population_history_companies':sorted(full),'complete_official_population_history_count':len(full),
                    'additional_scoped_history_companies':sorted(scoped),'companies_with_any_paired_public_channel':len(full|scoped),
                    'company_without_paired_historical_population':sorted(all_companies-(full|scoped)),
                    'companies_without_complete_official_population_history':sorted(all_companies-full),
-                   'new_attributable_current_ats_board':'CrewAI Workable','new_complete_native_career_history':'Chroma'},
+                   'new_attributable_current_ats_board':'CrewAI Workable','new_complete_native_career_history':'Chroma',
+                   'new_complete_official_ats_board_history':'Langfuse Ashby; Continue Ashby'},
         'population_definitions':{'complete_official_career_list':'All publicly listed specific roles on the company-endorsed native list; not payroll or completed hires.',
+             'complete_official_ats_board':'All publicly listed posting IDs on the company-named Ashby/Greenhouse board landing payload decoded offline from window.__appData or equivalent complete board HTML/JSON.',
              'yc_employer_directory_channel':'Employer job listings published on the identity-matched YC channel only. Empty arrays are observed zero for this channel, not absence of company hiring.',
              'explicit_brand_titles_in_parent_ats':'Only roles explicitly naming the cohort brand in the title. Parent totals and unbranded roles are not attributed to the cohort company.'},
         'snapshots':pools,'comparisons':comparisons,'crewai_current_board':crew_current,'crewai_historical_advertisements':adverts,
         'source_gaps':{'crewai':'Two historical advertisement pages and four current roles are retained; no complete historical board population establishes stock change or hires.',
-                       'continue':'YC-only paired history; current Ashby endpoint is unavailable. Directory zero does not imply zero company vacancies.',
-                       'langfuse':'Paired counts apply only to explicit Langfuse titles in the ClickHouse account, not the whole parent or all Langfuse hiring.',
+                       'continue':'Complete Ashby board history is retained from two in-window archived board landings (including one query-string capture of the same board). Live jobs.ashbyhq.com/continue currently returns 404, so the latest in-window complete archive is the latest available complete board observation. YC directory channel remains separate and scoped.',
+                       'langfuse':'Complete Ashby board history is retained from archived board landings. Live jobs.ashbyhq.com/langfuse currently returns 404, so the latest in-window complete archive is the latest available complete board observation. Parent ClickHouse brand-title comparisons remain separate and scoped.',
                        'wandb':'Dedicated weights_and_biases endpoint is unavailable. Paired counts use only explicit brand titles in the CoreWeave account.',
                        'replicate':'Paired YC-only zero-listing observations are retained; parent Cloudflare jobs are not substituted as Replicate hiring.'},
         'limits':['The original 18-company cohort is preserved, including companies whose directory status changes.',
@@ -249,6 +298,7 @@ def build(root=ROOT):
                   'Posting additions/removals are listing observations, not completed hires or headcount changes.',
                   'Brand-title changes can move existing parent posting IDs into a subset; newly selected IDs are split by prior presence in the full parent population.',
                   'Historical payloads are decoded offline. The Chroma browser fallback captures the archived network body with scripts disabled and validates its Memento clock.',
+                  'When a live complete board endpoint is unavailable, a later in-window complete archive board may be used as the latest available complete observation; this is not a restored live feed.',
                   'Selected-channel and parent-title comparisons do not satisfy whole-company temporal ground truth.',
                   'Frozen benchmark corpora, relevance judgments, rater decisions and pilot results are unchanged.'],
         'input_sha256':{**s.inputs,'evaluation/remaining_history_review.py':sha(root/'evaluation/remaining_history_review.py'),'collectors/archive_browser.py':sha(root/'collectors/archive_browser.py'),'evaluation/ats_history.py':sha(root/'evaluation/ats_history.py')}}

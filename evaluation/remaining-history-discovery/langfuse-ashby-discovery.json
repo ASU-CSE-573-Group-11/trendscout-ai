@@ -1,0 +1,58 @@
+[
+  {
+    "source_id": "langfuse-ashby",
+    "target_url": "https://jobs.ashbyhq.com/langfuse*",
+    "observed_at": "2026-11-21T21:29:33.449311Z",
+    "http_status": 200,
+    "response_url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fjobs.ashbyhq.com%2Flangfuse*&output=json&filter=statuscode%3A200&from=20251101&to=20261121&limit=100",
+    "file": "sources/langfuse-ashby-guess-cdx.json",
+    "sha256": "f68188c30bd1cc3f47e9d4778b1af72b22b4ece37612c3e7362b3f7c48a41a6c",
+    "captures": [
+      {
+        "urlkey": "com,ashbyhq,jobs)/langfuse",
+        "timestamp": "20251106201438",
+        "original": "https://jobs.ashbyhq.com/langfuse",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "LHDAD2W4Q5B4VTT6DLXYB4H6237P4N5U",
+        "length": "7988"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/langfuse",
+        "timestamp": "20251118082106",
+        "original": "https://jobs.ashbyhq.com/langfuse",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "XQHFYC7B7ZLLXKTOEMFCFQ3OLKI5KOXQ",
+        "length": "6999"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/langfuse",
+        "timestamp": "20260311031449",
+        "original": "https://jobs.ashbyhq.com/langfuse",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "AMQEKBXYR7HT4ELYSPQJJHYTUHABZ3LB",
+        "length": "9252"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/langfuse",
+        "timestamp": "20260615194922",
+        "original": "https://jobs.ashbyhq.com/langfuse",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "F6WVIXYVVITQUD23E4UC62NGZ5TY7KX2",
+        "length": "10494"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/langfuse",
+        "timestamp": "20260624103716",
+        "original": "https://jobs.ashbyhq.com/langfuse",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "CFCWYMFKN7RFNTVNAIE6UUTGCU544G7S",
+        "length": "10408"
+      }
+    ]
+  }
+]

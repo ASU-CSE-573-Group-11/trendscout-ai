@@ -1,0 +1,51 @@
+{
+  "round": "cohort-real-graph",
+  "created_at": "2026-11-21T22:15:27Z",
+  "snapshot_sha256": "ef90b095f71b6f6c293c688a55a35f8f429aa464dd61e29e29d76ba1e5a0798d",
+  "source_record_count": 294,
+  "companies": [
+    "arize",
+    "browserbase",
+    "chroma",
+    "composio",
+    "continue",
+    "crewai",
+    "deepset",
+    "e2b",
+    "langchain",
+    "langfuse",
+    "letta",
+    "llamaindex",
+    "modal",
+    "pinecone",
+    "replicate",
+    "sourcegraph",
+    "wandb",
+    "weaviate"
+  ],
+  "company_count": 18,
+  "inputs": {
+    "github": "evaluation/cohort-history-v2/records.jsonl",
+    "jobs": "evaluation/cohort-job-history/records.jsonl (capped)",
+    "mixed_supplement": "evaluation/mixed/records.jsonl (funding + investor-bearing docs)",
+    "investors": "evaluation/mixed/workbooks/sueda-entities.csv Investor rows for retained docs"
+  },
+  "counts": {
+    "github": 144,
+    "job": 147,
+    "funding": 3,
+    "investor_entity_rows": 60
+  },
+  "job_cap_rule": "unique metadata.source_record_id per company; keep latest observed_at; max 25 postings/company from cohort-job-history",
+  "scope": "Offline provenance-bound 18-company graph expansion. JobPostings are observed listings only. Investor BACKS edges require explicit retained investor-list context.",
+  "sources": [
+    {
+      "file": "records.jsonl",
+      "role": "merged_frozen_records"
+    },
+    {
+      "file": "workbooks/sueda-entities.csv",
+      "role": "investor_spans_for_retained_docs"
+    }
+  ]
+}

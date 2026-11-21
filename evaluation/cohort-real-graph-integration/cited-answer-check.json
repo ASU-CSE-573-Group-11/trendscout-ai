@@ -1,0 +1,305 @@
+{
+  "status": "cohort_graph_cited_answer_check_complete",
+  "checked_at": "2026-11-21T22:16:41Z",
+  "graph": "evaluation/cohort-real-graph-integration/graph.json",
+  "demo": "evaluation/cohort-real-graph-integration/demo-results.json",
+  "method": "Deterministic offline demo summaries used as cited evidence for cohort-graph competency checks; no LLM answers and no hire/funding causality inferred.",
+  "checks_total": 36,
+  "checks_passed": 36,
+  "all_passed": true,
+  "company_count": 18,
+  "checks": [
+    {
+      "question_id": "cohort-graph-has-repository:arize",
+      "company_id": "arize",
+      "expected": "repository_count >= 1",
+      "observed": 1,
+      "passed": true,
+      "citation_basis": "HAS_REPOSITORY edge from Startup to Repository in cohort-real-graph-integration/graph.json"
+    },
+    {
+      "question_id": "cohort-graph-jobs-observed:arize",
+      "company_id": "arize",
+      "expected": "observed_job_posting_count is non-negative integer from listings",
+      "observed": 0,
+      "passed": true,
+      "citation_basis": "HAS_JOB_POSTING edges; listings are not completed hires"
+    },
+    {
+      "question_id": "cohort-graph-has-repository:browserbase",
+      "company_id": "browserbase",
+      "expected": "repository_count >= 1",
+      "observed": 1,
+      "passed": true,
+      "citation_basis": "HAS_REPOSITORY edge from Startup to Repository in cohort-real-graph-integration/graph.json"
+    },
+    {
+      "question_id": "cohort-graph-jobs-observed:browserbase",
+      "company_id": "browserbase",
+      "expected": "observed_job_posting_count is non-negative integer from listings",
+      "observed": 16,
+      "passed": true,
+      "citation_basis": "HAS_JOB_POSTING edges; listings are not completed hires"
+    },
+    {
+      "question_id": "cohort-graph-has-repository:chroma",
+      "company_id": "chroma",
+      "expected": "repository_count >= 1",
+      "observed": 1,
+      "passed": true,
+      "citation_basis": "HAS_REPOSITORY edge from Startup to Repository in cohort-real-graph-integration/graph.json"
+    },
+    {
+      "question_id": "cohort-graph-jobs-observed:chroma",
+      "company_id": "chroma",
+      "expected": "observed_job_posting_count is non-negative integer from listings",
+      "observed": 0,
+      "passed": true,
+      "citation_basis": "HAS_JOB_POSTING edges; listings are not completed hires"
+    },
+    {
+      "question_id": "cohort-graph-has-repository:composio",
+      "company_id": "composio",
+      "expected": "repository_count >= 1",
+      "observed": 1,
+      "passed": true,
+      "citation_basis": "HAS_REPOSITORY edge from Startup to Repository in cohort-real-graph-integration/graph.json"
+    },
+    {
+      "question_id": "cohort-graph-jobs-observed:composio",
+      "company_id": "composio",
+      "expected": "observed_job_posting_count is non-negative integer from listings",
+      "observed": 25,
+      "passed": true,
+      "citation_basis": "HAS_JOB_POSTING edges; listings are not completed hires"
+    },
+    {
+      "question_id": "cohort-graph-has-repository:continue",
+      "company_id": "continue",
+      "expected": "repository_count >= 1",
+      "observed": 1,
+      "passed": true,
+      "citation_basis": "HAS_REPOSITORY edge from Startup to Repository in cohort-real-graph-integration/graph.json"
+    },
+    {
+      "question_id": "cohort-graph-jobs-observed:continue",
+      "company_id": "continue",
+      "expected": "observed_job_posting_count is non-negative integer from listings",
+      "observed": 0,
+      "passed": true,
+      "citation_basis": "HAS_JOB_POSTING edges; listings are not completed hires"
+    },
+    {
+      "question_id": "cohort-graph-has-repository:crewai",
+      "company_id": "crewai",
+      "expected": "repository_count >= 1",
+      "observed": 1,
+      "passed": true,
+      "citation_basis": "HAS_REPOSITORY edge from Startup to Repository in cohort-real-graph-integration/graph.json"
+    },
+    {
+      "question_id": "cohort-graph-jobs-observed:crewai",
+      "company_id": "crewai",
+      "expected": "observed_job_posting_count is non-negative integer from listings",
+      "observed": 0,
+      "passed": true,
+      "citation_basis": "HAS_JOB_POSTING edges; listings are not completed hires"
+    },
+    {
+      "question_id": "cohort-graph-has-repository:deepset",
+      "company_id": "deepset",
+      "expected": "repository_count >= 1",
+      "observed": 1,
+      "passed": true,
+      "citation_basis": "HAS_REPOSITORY edge from Startup to Repository in cohort-real-graph-integration/graph.json"
+    },
+    {
+      "question_id": "cohort-graph-jobs-observed:deepset",
+      "company_id": "deepset",
+      "expected": "observed_job_posting_count is non-negative integer from listings",
+      "observed": 4,
+      "passed": true,
+      "citation_basis": "HAS_JOB_POSTING edges; listings are not completed hires"
+    },
+    {
+      "question_id": "cohort-graph-has-repository:e2b",
+      "company_id": "e2b",
+      "expected": "repository_count >= 1",
+      "observed": 1,
+      "passed": true,
+      "citation_basis": "HAS_REPOSITORY edge from Startup to Repository in cohort-real-graph-integration/graph.json"
+    },
+    {
+      "question_id": "cohort-graph-jobs-observed:e2b",
+      "company_id": "e2b",
+      "expected": "observed_job_posting_count is non-negative integer from listings",
+      "observed": 14,
+      "passed": true,
+      "citation_basis": "HAS_JOB_POSTING edges; listings are not completed hires"
+    },
+    {
+      "question_id": "cohort-graph-has-repository:langchain",
+      "company_id": "langchain",
+      "expected": "repository_count >= 1",
+      "observed": 1,
+      "passed": true,
+      "citation_basis": "HAS_REPOSITORY edge from Startup to Repository in cohort-real-graph-integration/graph.json"
+    },
+    {
+      "question_id": "cohort-graph-jobs-observed:langchain",
+      "company_id": "langchain",
+      "expected": "observed_job_posting_count is non-negative integer from listings",
+      "observed": 40,
+      "passed": true,
+      "citation_basis": "HAS_JOB_POSTING edges; listings are not completed hires"
+    },
+    {
+      "question_id": "cohort-graph-has-repository:langfuse",
+      "company_id": "langfuse",
+      "expected": "repository_count >= 1",
+      "observed": 1,
+      "passed": true,
+      "citation_basis": "HAS_REPOSITORY edge from Startup to Repository in cohort-real-graph-integration/graph.json"
+    },
+    {
+      "question_id": "cohort-graph-jobs-observed:langfuse",
+      "company_id": "langfuse",
+      "expected": "observed_job_posting_count is non-negative integer from listings",
+      "observed": 0,
+      "passed": true,
+      "citation_basis": "HAS_JOB_POSTING edges; listings are not completed hires"
+    },
+    {
+      "question_id": "cohort-graph-has-repository:letta",
+      "company_id": "letta",
+      "expected": "repository_count >= 1",
+      "observed": 1,
+      "passed": true,
+      "citation_basis": "HAS_REPOSITORY edge from Startup to Repository in cohort-real-graph-integration/graph.json"
+    },
+    {
+      "question_id": "cohort-graph-jobs-observed:letta",
+      "company_id": "letta",
+      "expected": "observed_job_posting_count is non-negative integer from listings",
+      "observed": 4,
+      "passed": true,
+      "citation_basis": "HAS_JOB_POSTING edges; listings are not completed hires"
+    },
+    {
+      "question_id": "cohort-graph-has-repository:llamaindex",
+      "company_id": "llamaindex",
+      "expected": "repository_count >= 1",
+      "observed": 1,
+      "passed": true,
+      "citation_basis": "HAS_REPOSITORY edge from Startup to Repository in cohort-real-graph-integration/graph.json"
+    },
+    {
+      "question_id": "cohort-graph-jobs-observed:llamaindex",
+      "company_id": "llamaindex",
+      "expected": "observed_job_posting_count is non-negative integer from listings",
+      "observed": 3,
+      "passed": true,
+      "citation_basis": "HAS_JOB_POSTING edges; listings are not completed hires"
+    },
+    {
+      "question_id": "cohort-graph-has-repository:modal",
+      "company_id": "modal",
+      "expected": "repository_count >= 1",
+      "observed": 1,
+      "passed": true,
+      "citation_basis": "HAS_REPOSITORY edge from Startup to Repository in cohort-real-graph-integration/graph.json"
+    },
+    {
+      "question_id": "cohort-graph-jobs-observed:modal",
+      "company_id": "modal",
+      "expected": "observed_job_posting_count is non-negative integer from listings",
+      "observed": 25,
+      "passed": true,
+      "citation_basis": "HAS_JOB_POSTING edges; listings are not completed hires"
+    },
+    {
+      "question_id": "cohort-graph-has-repository:pinecone",
+      "company_id": "pinecone",
+      "expected": "repository_count >= 1",
+      "observed": 1,
+      "passed": true,
+      "citation_basis": "HAS_REPOSITORY edge from Startup to Repository in cohort-real-graph-integration/graph.json"
+    },
+    {
+      "question_id": "cohort-graph-jobs-observed:pinecone",
+      "company_id": "pinecone",
+      "expected": "observed_job_posting_count is non-negative integer from listings",
+      "observed": 8,
+      "passed": true,
+      "citation_basis": "HAS_JOB_POSTING edges; listings are not completed hires"
+    },
+    {
+      "question_id": "cohort-graph-has-repository:replicate",
+      "company_id": "replicate",
+      "expected": "repository_count >= 1",
+      "observed": 1,
+      "passed": true,
+      "citation_basis": "HAS_REPOSITORY edge from Startup to Repository in cohort-real-graph-integration/graph.json"
+    },
+    {
+      "question_id": "cohort-graph-jobs-observed:replicate",
+      "company_id": "replicate",
+      "expected": "observed_job_posting_count is non-negative integer from listings",
+      "observed": 0,
+      "passed": true,
+      "citation_basis": "HAS_JOB_POSTING edges; listings are not completed hires"
+    },
+    {
+      "question_id": "cohort-graph-has-repository:sourcegraph",
+      "company_id": "sourcegraph",
+      "expected": "repository_count >= 1",
+      "observed": 1,
+      "passed": true,
+      "citation_basis": "HAS_REPOSITORY edge from Startup to Repository in cohort-real-graph-integration/graph.json"
+    },
+    {
+      "question_id": "cohort-graph-jobs-observed:sourcegraph",
+      "company_id": "sourcegraph",
+      "expected": "observed_job_posting_count is non-negative integer from listings",
+      "observed": 8,
+      "passed": true,
+      "citation_basis": "HAS_JOB_POSTING edges; listings are not completed hires"
+    },
+    {
+      "question_id": "cohort-graph-has-repository:wandb",
+      "company_id": "wandb",
+      "expected": "repository_count >= 1",
+      "observed": 1,
+      "passed": true,
+      "citation_basis": "HAS_REPOSITORY edge from Startup to Repository in cohort-real-graph-integration/graph.json"
+    },
+    {
+      "question_id": "cohort-graph-jobs-observed:wandb",
+      "company_id": "wandb",
+      "expected": "observed_job_posting_count is non-negative integer from listings",
+      "observed": 0,
+      "passed": true,
+      "citation_basis": "HAS_JOB_POSTING edges; listings are not completed hires"
+    },
+    {
+      "question_id": "cohort-graph-has-repository:weaviate",
+      "company_id": "weaviate",
+      "expected": "repository_count >= 1",
+      "observed": 1,
+      "passed": true,
+      "citation_basis": "HAS_REPOSITORY edge from Startup to Repository in cohort-real-graph-integration/graph.json"
+    },
+    {
+      "question_id": "cohort-graph-jobs-observed:weaviate",
+      "company_id": "weaviate",
+      "expected": "observed_job_posting_count is non-negative integer from listings",
+      "observed": 0,
+      "passed": true,
+      "citation_basis": "HAS_JOB_POSTING edges; listings are not completed hires"
+    }
+  ],
+  "limitations": [
+    "These checks validate graph coverage and citation paths, not temporal answer accuracy on the original 28 study questions.",
+    "Job posting counts are observed public listings only."
+  ]
+}

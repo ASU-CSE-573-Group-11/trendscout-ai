@@ -1,6 +1,6 @@
 {
-  "checked_at": "2026-11-21T12:18:04Z",
-  "team_code_distribution_license": "No repository-wide LICENSE has been selected by the team.",
+  "checked_at": "2026-11-21T22:18:11Z",
+  "team_code_distribution_license": "MIT (LICENSE at repository root)",
   "dependencies": [
     {
       "requirement": "feedparser>=6.0.11",
@@ -747,6 +747,6 @@
       "redistribution_clearance": "not_established"
     }
   ],
-  "distribution_scope": "Local review archive. No publisher redistribution permission or team-wide software license is inferred.",
+  "distribution_scope": "Local coursework review archive under the team MIT LICENSE for original team code. Cached publisher bodies and third-party dependency packages retain upstream rights; redistribution_clearance for documentary sources remains not_established until publisher terms are cleared.",
   "live_repository_access": "access-review.json"
 }

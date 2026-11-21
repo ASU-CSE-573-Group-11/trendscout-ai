@@ -3,11 +3,20 @@
 Report date: 21 November 2026 (America/Phoenix).
 Source capture clocks and archive dates below are retained in UTC.
 
-Latest hiring follow-up: paired complete official-list populations cover **13/18**
-companies. Four further companies have restricted directory or parent-brand-title
-comparisons; CrewAI has a current board and dated advertisement pages without a
-complete historical stock baseline. See the
+Latest hiring follow-up: paired complete official-list populations cover **15/18**
+companies (including Langfuse and Continue Ashby board histories). Replicate and
+Weights & Biases retain restricted directory or parent-brand-title comparisons;
+CrewAI has a current board and dated advertisement pages without a complete
+historical stock baseline. Archive search for the remaining three is exhausted
+for current methods. See the
 [population-scoped review](../evaluation/remaining-history-discovery/review.json).
+
+The cohort semantic graph now covers all **18** frozen companies offline
+([cohort-real-graph-integration](../evaluation/cohort-real-graph-integration/summary.json)):
+866 nodes / 2308 edges, SHACL-conforming, with Neo4j load and offline/live demo
+parity plus cited coverage checks. Job nodes remain observed listings, not hires.
+Original team code is under the repository-root MIT `LICENSE`; publisher
+redistribution clearance for cached documentary sources remains separate.
 
 Current pilot collection counts and measured time/confidence summaries are in
 [the validated response summary](../evaluation/real/pilot-session/response-summary.json).

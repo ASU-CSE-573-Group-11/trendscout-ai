@@ -1,8 +1,18 @@
 {
-  "status": "followup_probe_complete_no_new_complete_population",
-  "observed_at": "2026-11-21T21:20:00Z",
-  "target_companies": ["continue", "crewai", "langfuse", "replicate", "wandb"],
-  "complete_official_population_history_count_unchanged": 13,
+  "status": "followup_partial_progress_langfuse_and_continue_complete_ats_board",
+  "observed_at": "2026-11-21T21:45:00Z",
+  "target_companies": [
+    "continue",
+    "crewai",
+    "langfuse",
+    "replicate",
+    "wandb"
+  ],
+  "complete_official_population_history_count": 15,
+  "promoted": [
+    "langfuse",
+    "continue"
+  ],
   "findings": {
     "continue": {
       "current_ashby_board": "https://jobs.ashbyhq.com/continue returns HTTP 404",
@@ -12,15 +22,30 @@
           "file": "sources/continue-ashby-20260213012947.html",
           "listed_count": 3,
           "parse": "window.__appData complete board"
+        },
+        {
+          "timestamp": "20260516012607",
+          "file": "sources/continue-ashby-20260516012607.html",
+          "original": "https://jobs.ashbyhq.com/continue?utm_source=gettjalerts.com",
+          "listed_count": 3,
+          "parse": "window.__appData complete board"
         }
       ],
-      "outside_window_complete_ashby_board": {
-        "timestamp": "20250701225548",
-        "file": "sources/continue-ashby-20250701225548.html",
-        "listed_count": 3,
-        "note": "Parses as complete board but is before study window 2025-11-01; cannot count toward paired history."
-      },
-      "blocker": "Need a second in-window complete Ashby board or a restored current complete board. One in-window snapshot is insufficient for paired history."
+      "outside_window_complete_ashby_boards": [
+        {
+          "timestamp": "20250701225548",
+          "file": "sources/continue-ashby-20250701225548.html",
+          "listed_count": 3,
+          "note": "Before study window 2025-11-01."
+        },
+        {
+          "timestamp": "20250723083856",
+          "file": "sources/continue-ashby-20250723083856.html",
+          "listed_count": 3,
+          "note": "Before study window 2025-11-01."
+        }
+      ],
+      "result": "Promoted to complete_official_ats_board via two in-window archived Ashby board landings."
     },
     "crewai": {
       "current_complete_feed": {
@@ -41,7 +66,15 @@
     },
     "langfuse": {
       "live_careers_page": "sources/langfuse-careers-live.html",
-      "blocker": "No attributable complete ATS landing payload found on the live careers page; retained history remains explicit brand titles inside ClickHouse."
+      "live_ashby_board": "https://jobs.ashbyhq.com/langfuse returns HTTP 404",
+      "in_window_complete_ashby_boards": [
+        "sources/langfuse-ashby-20251112004629.html",
+        "sources/langfuse-ashby-20260116010451.html",
+        "sources/langfuse-ashby-20260318010315.html",
+        "sources/langfuse-ashby-20260711010517.html",
+        "sources/langfuse-ashby-20260925010529.html"
+      ],
+      "result": "Promoted to complete_official_ats_board via five in-window archived Ashby boards with parseable window.__appData job populations."
     },
     "wandb": {
       "live_careers_page": "sources/wandb-careers-live.html",
@@ -50,24 +83,51 @@
     "replicate": {
       "live_about_page": "sources/replicate-about-live.html",
       "careers_link_observed": "https://www.cloudflare.com/careers/",
-      "blocker": "No company-owned complete job population found; parent Cloudflare careers are not substitutable as Replicate hiring. YC directory channel remains the paired scoped history."
+      "in_window_complete_ashby_boards": [
+        {
+          "timestamp": "20251206031922",
+          "file": "sources/replicate-ashby-20251206031922.html",
+          "listed_count": 0,
+          "parse": "window.__appData complete board with empty jobPostings"
+        }
+      ],
+      "individual_job_archives_in_window": [
+        "https://jobs.ashbyhq.com/replicate/41d1c5f7-0f49-4903-9c11-ddfbe2e612cb @ 20260426010645",
+        "https://jobs.ashbyhq.com/replicate/60d0977e-a39d-481a-a3f0-8d30be46bdbd @ 20260314193837",
+        "https://jobs.ashbyhq.com/replicate/87893d64-5a9d-402d-ad2b-cd2fc4c347ca @ 20260319193627"
+      ],
+      "note": "Wayback redirects later board-landing requests to the single 20251206 capture. Individual posting archives are incomplete shells (org/jobBoard null) and do not establish a second complete board population. jobs.ashbyhq.com/replicated* is a different employer.",
+      "blocker": "Only one in-window complete Ashby board landing exists; a second is required for paired history. Parent Cloudflare careers are not substitutable. YC directory channel remains scoped."
     }
   },
   "artifacts": [
-    "followup-fetch-log.json",
-    "followup-live-probe.json",
-    "sources/continue-ashby-exact-cdx.json",
-    "sources/continue-ashby-window-cdx.json",
-    "sources/continue-ashby-20250701225548.html",
-    "sources/crewai-widget-cdx.json",
-    "sources/crewai-workable-home-cdx.json",
-    "sources/crewai-widget-live.json",
-    "sources/crewai-jobs-md-live.md",
-    "sources/crewai-llms-live.txt"
+    "continue-ashby-discovery.json",
+    "continue-ashby-captures.json",
+    "langfuse-ashby-discovery.json",
+    "langfuse-ashby-captures.json",
+    "sources/continue-ashby-20260213012947.html",
+    "sources/continue-ashby-20260516012607.html",
+    "sources/round3-continue-ashby-board-prefix-cdx.json",
+    "sources/round3-replicate-prefix-cdx.json",
+    "sources/replicate-ashby-20251206031922.html"
+  ],
+  "still_without_complete_official_population_history": [
+    "crewai",
+    "replicate",
+    "wandb"
   ],
   "next_attempts": [
-    "Monitor for a restored Continue Ashby board or another in-window complete board capture.",
     "Search alternate Workable archive endpoints that embed full CrewAI listing JSON without JavaScript.",
-    "If Langfuse/W&B publish a dedicated complete board URL, freeze current + archived landing populations."
-  ]
+    "If a second in-window Replicate Ashby board landing appears in CDX (or live board restores), freeze and promote.",
+    "If W&B publishes a company-owned complete board URL distinct from CoreWeave, freeze current + archived landing populations."
+  ],
+  "final_archive_exhaustion_check": {
+    "observed_at": "2026-11-21T22:11:13Z",
+    "continue_live": "404",
+    "replicate_live": "404",
+    "crewai_widget_live": 200,
+    "crewai_widget_cdx_in_window": 0,
+    "replicate_board_cdx_in_window": 1,
+    "conclusion": "No new complete official population captures for crewai/replicate/wandb; archive search exhausted for current methods."
+  }
 }

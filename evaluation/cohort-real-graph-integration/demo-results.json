@@ -1,0 +1,682 @@
+{
+  "status": "offline_and_live_demo_complete",
+  "graph": "evaluation/cohort-real-graph-integration/graph.json",
+  "graph_sha256": "d674bb5af49c7726608a538bffc7e6ebae4c5cdbed05ba19a00c7ec39708ea41",
+  "offline": {
+    "node_count": 866,
+    "edge_count": 2308,
+    "node_labels": {
+      "Claim": 294,
+      "FundingRound": 3,
+      "Investor": 4,
+      "JobPosting": 147,
+      "OriginCluster": 48,
+      "Publisher": 18,
+      "Repository": 18,
+      "Skill": 14,
+      "SourceRecord": 294,
+      "Startup": 18,
+      "Technology": 8
+    },
+    "edge_types": {
+      "ABOUT": 294,
+      "BACKS": 4,
+      "CLAIM_SUBJECT": 294,
+      "DOCUMENTS": 294,
+      "FUNDING_OF": 3,
+      "HAS_JOB_POSTING": 147,
+      "HAS_REPOSITORY": 18,
+      "MEMBER_OF_ORIGIN": 294,
+      "MENTIONS": 60,
+      "PUBLISHED_BY": 294,
+      "REQUIRES_SKILL": 176,
+      "SUPPORTS": 294,
+      "USES_TECHNOLOGY": 136
+    },
+    "companies": [
+      {
+        "company_id": "arize",
+        "name": "Arize",
+        "claim_count": 8,
+        "funding_announcement_count": 0,
+        "observed_job_posting_count": 0,
+        "repository_count": 1,
+        "named_backer_count": 0,
+        "skills": [],
+        "technologies": []
+      },
+      {
+        "company_id": "browserbase",
+        "name": "Browserbase",
+        "claim_count": 25,
+        "funding_announcement_count": 1,
+        "observed_job_posting_count": 16,
+        "repository_count": 1,
+        "named_backer_count": 0,
+        "skills": [],
+        "technologies": []
+      },
+      {
+        "company_id": "chroma",
+        "name": "Chroma",
+        "claim_count": 8,
+        "funding_announcement_count": 0,
+        "observed_job_posting_count": 0,
+        "repository_count": 1,
+        "named_backer_count": 0,
+        "skills": [],
+        "technologies": []
+      },
+      {
+        "company_id": "composio",
+        "name": "Composio",
+        "claim_count": 33,
+        "funding_announcement_count": 0,
+        "observed_job_posting_count": 25,
+        "repository_count": 1,
+        "named_backer_count": 0,
+        "skills": [
+          "kubernetes",
+          "python",
+          "sql",
+          "typescript"
+        ],
+        "technologies": [
+          "kubernetes",
+          "python",
+          "sql",
+          "typescript"
+        ]
+      },
+      {
+        "company_id": "continue",
+        "name": "Continue",
+        "claim_count": 8,
+        "funding_announcement_count": 0,
+        "observed_job_posting_count": 0,
+        "repository_count": 1,
+        "named_backer_count": 0,
+        "skills": [],
+        "technologies": []
+      },
+      {
+        "company_id": "crewai",
+        "name": "CrewAI",
+        "claim_count": 8,
+        "funding_announcement_count": 0,
+        "observed_job_posting_count": 0,
+        "repository_count": 1,
+        "named_backer_count": 0,
+        "skills": [],
+        "technologies": []
+      },
+      {
+        "company_id": "deepset",
+        "name": "deepset",
+        "claim_count": 12,
+        "funding_announcement_count": 0,
+        "observed_job_posting_count": 4,
+        "repository_count": 1,
+        "named_backer_count": 0,
+        "skills": [
+          "python",
+          "typescript"
+        ],
+        "technologies": [
+          "python",
+          "typescript"
+        ]
+      },
+      {
+        "company_id": "e2b",
+        "name": "E2B",
+        "claim_count": 22,
+        "funding_announcement_count": 0,
+        "observed_job_posting_count": 14,
+        "repository_count": 1,
+        "named_backer_count": 0,
+        "skills": [
+          "c++",
+          "javascript",
+          "kubernetes",
+          "python",
+          "rust",
+          "typescript"
+        ],
+        "technologies": [
+          "javascript",
+          "kubernetes",
+          "python",
+          "typescript"
+        ]
+      },
+      {
+        "company_id": "langchain",
+        "name": "LangChain",
+        "claim_count": 49,
+        "funding_announcement_count": 1,
+        "observed_job_posting_count": 40,
+        "repository_count": 1,
+        "named_backer_count": 4,
+        "skills": [
+          "evaluation",
+          "javascript",
+          "kubernetes",
+          "python",
+          "rag",
+          "retrieval",
+          "sql",
+          "typescript"
+        ],
+        "technologies": [
+          "javascript",
+          "kubernetes",
+          "python",
+          "rag",
+          "sql",
+          "typescript"
+        ]
+      },
+      {
+        "company_id": "langfuse",
+        "name": "Langfuse",
+        "claim_count": 8,
+        "funding_announcement_count": 0,
+        "observed_job_posting_count": 0,
+        "repository_count": 1,
+        "named_backer_count": 0,
+        "skills": [],
+        "technologies": []
+      },
+      {
+        "company_id": "letta",
+        "name": "Letta",
+        "claim_count": 12,
+        "funding_announcement_count": 0,
+        "observed_job_posting_count": 4,
+        "repository_count": 1,
+        "named_backer_count": 0,
+        "skills": [
+          "python",
+          "pytorch",
+          "sql",
+          "typescript"
+        ],
+        "technologies": [
+          "python",
+          "pytorch",
+          "sql",
+          "typescript"
+        ]
+      },
+      {
+        "company_id": "llamaindex",
+        "name": "LlamaIndex",
+        "claim_count": 12,
+        "funding_announcement_count": 1,
+        "observed_job_posting_count": 3,
+        "repository_count": 1,
+        "named_backer_count": 0,
+        "skills": [
+          "evaluation",
+          "nlp",
+          "python",
+          "pytorch",
+          "retrieval"
+        ],
+        "technologies": [
+          "nlp",
+          "python",
+          "pytorch"
+        ]
+      },
+      {
+        "company_id": "modal",
+        "name": "Modal",
+        "claim_count": 33,
+        "funding_announcement_count": 0,
+        "observed_job_posting_count": 25,
+        "repository_count": 1,
+        "named_backer_count": 0,
+        "skills": [
+          "c++",
+          "cuda",
+          "docker",
+          "javascript",
+          "kubernetes",
+          "python",
+          "rust",
+          "typescript"
+        ],
+        "technologies": [
+          "javascript",
+          "kubernetes",
+          "python",
+          "typescript"
+        ]
+      },
+      {
+        "company_id": "pinecone",
+        "name": "Pinecone",
+        "claim_count": 16,
+        "funding_announcement_count": 0,
+        "observed_job_posting_count": 8,
+        "repository_count": 1,
+        "named_backer_count": 0,
+        "skills": [
+          "c++",
+          "javascript",
+          "kubernetes",
+          "python",
+          "rust",
+          "sql",
+          "typescript"
+        ],
+        "technologies": [
+          "javascript",
+          "kubernetes",
+          "python",
+          "sql",
+          "typescript"
+        ]
+      },
+      {
+        "company_id": "replicate",
+        "name": "Replicate",
+        "claim_count": 8,
+        "funding_announcement_count": 0,
+        "observed_job_posting_count": 0,
+        "repository_count": 1,
+        "named_backer_count": 0,
+        "skills": [],
+        "technologies": []
+      },
+      {
+        "company_id": "sourcegraph",
+        "name": "Sourcegraph",
+        "claim_count": 16,
+        "funding_announcement_count": 0,
+        "observed_job_posting_count": 8,
+        "repository_count": 1,
+        "named_backer_count": 0,
+        "skills": [],
+        "technologies": []
+      },
+      {
+        "company_id": "wandb",
+        "name": "Weights & Biases",
+        "claim_count": 8,
+        "funding_announcement_count": 0,
+        "observed_job_posting_count": 0,
+        "repository_count": 1,
+        "named_backer_count": 0,
+        "skills": [],
+        "technologies": []
+      },
+      {
+        "company_id": "weaviate",
+        "name": "Weaviate",
+        "claim_count": 8,
+        "funding_announcement_count": 0,
+        "observed_job_posting_count": 0,
+        "repository_count": 1,
+        "named_backer_count": 0,
+        "skills": [],
+        "technologies": []
+      }
+    ],
+    "provenance_checks": {
+      "claims_with_source_and_subject_paths": 294,
+      "documented_domain_nodes": 294,
+      "funding_rounds_without_reviewed_event_date": 3,
+      "investor_to_specific_round_edges": 0
+    },
+    "interpretation_limits": [
+      "Observed job postings are not completed hires or headcount.",
+      "Funding announcement observations do not establish causal hiring effects.",
+      "Unknown funding event dates remain unknown.",
+      "Source-excerpt claims are not independently adjudicated semantic gold."
+    ]
+  },
+  "live": {
+    "node_count": 866,
+    "edge_count": 2308,
+    "node_labels": {
+      "Claim": 294,
+      "FundingRound": 3,
+      "Investor": 4,
+      "JobPosting": 147,
+      "OriginCluster": 48,
+      "Publisher": 18,
+      "Repository": 18,
+      "Skill": 14,
+      "SourceRecord": 294,
+      "Startup": 18,
+      "Technology": 8
+    },
+    "edge_types": {
+      "ABOUT": 294,
+      "BACKS": 4,
+      "CLAIM_SUBJECT": 294,
+      "DOCUMENTS": 294,
+      "FUNDING_OF": 3,
+      "HAS_JOB_POSTING": 147,
+      "HAS_REPOSITORY": 18,
+      "MEMBER_OF_ORIGIN": 294,
+      "MENTIONS": 60,
+      "PUBLISHED_BY": 294,
+      "REQUIRES_SKILL": 176,
+      "SUPPORTS": 294,
+      "USES_TECHNOLOGY": 136
+    },
+    "companies": [
+      {
+        "company_id": "arize",
+        "name": "Arize",
+        "claim_count": 8,
+        "funding_announcement_count": 0,
+        "observed_job_posting_count": 0,
+        "repository_count": 1,
+        "named_backer_count": 0,
+        "skills": [],
+        "technologies": []
+      },
+      {
+        "company_id": "browserbase",
+        "name": "Browserbase",
+        "claim_count": 25,
+        "funding_announcement_count": 1,
+        "observed_job_posting_count": 16,
+        "repository_count": 1,
+        "named_backer_count": 0,
+        "skills": [],
+        "technologies": []
+      },
+      {
+        "company_id": "chroma",
+        "name": "Chroma",
+        "claim_count": 8,
+        "funding_announcement_count": 0,
+        "observed_job_posting_count": 0,
+        "repository_count": 1,
+        "named_backer_count": 0,
+        "skills": [],
+        "technologies": []
+      },
+      {
+        "company_id": "composio",
+        "name": "Composio",
+        "claim_count": 33,
+        "funding_announcement_count": 0,
+        "observed_job_posting_count": 25,
+        "repository_count": 1,
+        "named_backer_count": 0,
+        "skills": [
+          "kubernetes",
+          "python",
+          "sql",
+          "typescript"
+        ],
+        "technologies": [
+          "kubernetes",
+          "python",
+          "sql",
+          "typescript"
+        ]
+      },
+      {
+        "company_id": "continue",
+        "name": "Continue",
+        "claim_count": 8,
+        "funding_announcement_count": 0,
+        "observed_job_posting_count": 0,
+        "repository_count": 1,
+        "named_backer_count": 0,
+        "skills": [],
+        "technologies": []
+      },
+      {
+        "company_id": "crewai",
+        "name": "CrewAI",
+        "claim_count": 8,
+        "funding_announcement_count": 0,
+        "observed_job_posting_count": 0,
+        "repository_count": 1,
+        "named_backer_count": 0,
+        "skills": [],
+        "technologies": []
+      },
+      {
+        "company_id": "deepset",
+        "name": "deepset",
+        "claim_count": 12,
+        "funding_announcement_count": 0,
+        "observed_job_posting_count": 4,
+        "repository_count": 1,
+        "named_backer_count": 0,
+        "skills": [
+          "python",
+          "typescript"
+        ],
+        "technologies": [
+          "python",
+          "typescript"
+        ]
+      },
+      {
+        "company_id": "e2b",
+        "name": "E2B",
+        "claim_count": 22,
+        "funding_announcement_count": 0,
+        "observed_job_posting_count": 14,
+        "repository_count": 1,
+        "named_backer_count": 0,
+        "skills": [
+          "c++",
+          "javascript",
+          "kubernetes",
+          "python",
+          "rust",
+          "typescript"
+        ],
+        "technologies": [
+          "javascript",
+          "kubernetes",
+          "python",
+          "typescript"
+        ]
+      },
+      {
+        "company_id": "langchain",
+        "name": "LangChain",
+        "claim_count": 49,
+        "funding_announcement_count": 1,
+        "observed_job_posting_count": 40,
+        "repository_count": 1,
+        "named_backer_count": 4,
+        "skills": [
+          "evaluation",
+          "javascript",
+          "kubernetes",
+          "python",
+          "rag",
+          "retrieval",
+          "sql",
+          "typescript"
+        ],
+        "technologies": [
+          "javascript",
+          "kubernetes",
+          "python",
+          "rag",
+          "sql",
+          "typescript"
+        ]
+      },
+      {
+        "company_id": "langfuse",
+        "name": "Langfuse",
+        "claim_count": 8,
+        "funding_announcement_count": 0,
+        "observed_job_posting_count": 0,
+        "repository_count": 1,
+        "named_backer_count": 0,
+        "skills": [],
+        "technologies": []
+      },
+      {
+        "company_id": "letta",
+        "name": "Letta",
+        "claim_count": 12,
+        "funding_announcement_count": 0,
+        "observed_job_posting_count": 4,
+        "repository_count": 1,
+        "named_backer_count": 0,
+        "skills": [
+          "python",
+          "pytorch",
+          "sql",
+          "typescript"
+        ],
+        "technologies": [
+          "python",
+          "pytorch",
+          "sql",
+          "typescript"
+        ]
+      },
+      {
+        "company_id": "llamaindex",
+        "name": "LlamaIndex",
+        "claim_count": 12,
+        "funding_announcement_count": 1,
+        "observed_job_posting_count": 3,
+        "repository_count": 1,
+        "named_backer_count": 0,
+        "skills": [
+          "evaluation",
+          "nlp",
+          "python",
+          "pytorch",
+          "retrieval"
+        ],
+        "technologies": [
+          "nlp",
+          "python",
+          "pytorch"
+        ]
+      },
+      {
+        "company_id": "modal",
+        "name": "Modal",
+        "claim_count": 33,
+        "funding_announcement_count": 0,
+        "observed_job_posting_count": 25,
+        "repository_count": 1,
+        "named_backer_count": 0,
+        "skills": [
+          "c++",
+          "cuda",
+          "docker",
+          "javascript",
+          "kubernetes",
+          "python",
+          "rust",
+          "typescript"
+        ],
+        "technologies": [
+          "javascript",
+          "kubernetes",
+          "python",
+          "typescript"
+        ]
+      },
+      {
+        "company_id": "pinecone",
+        "name": "Pinecone",
+        "claim_count": 16,
+        "funding_announcement_count": 0,
+        "observed_job_posting_count": 8,
+        "repository_count": 1,
+        "named_backer_count": 0,
+        "skills": [
+          "c++",
+          "javascript",
+          "kubernetes",
+          "python",
+          "rust",
+          "sql",
+          "typescript"
+        ],
+        "technologies": [
+          "javascript",
+          "kubernetes",
+          "python",
+          "sql",
+          "typescript"
+        ]
+      },
+      {
+        "company_id": "replicate",
+        "name": "Replicate",
+        "claim_count": 8,
+        "funding_announcement_count": 0,
+        "observed_job_posting_count": 0,
+        "repository_count": 1,
+        "named_backer_count": 0,
+        "skills": [],
+        "technologies": []
+      },
+      {
+        "company_id": "sourcegraph",
+        "name": "Sourcegraph",
+        "claim_count": 16,
+        "funding_announcement_count": 0,
+        "observed_job_posting_count": 8,
+        "repository_count": 1,
+        "named_backer_count": 0,
+        "skills": [],
+        "technologies": []
+      },
+      {
+        "company_id": "wandb",
+        "name": "Weights & Biases",
+        "claim_count": 8,
+        "funding_announcement_count": 0,
+        "observed_job_posting_count": 0,
+        "repository_count": 1,
+        "named_backer_count": 0,
+        "skills": [],
+        "technologies": []
+      },
+      {
+        "company_id": "weaviate",
+        "name": "Weaviate",
+        "claim_count": 8,
+        "funding_announcement_count": 0,
+        "observed_job_posting_count": 0,
+        "repository_count": 1,
+        "named_backer_count": 0,
+        "skills": [],
+        "technologies": []
+      }
+    ],
+    "provenance_checks": {
+      "claims_with_source_and_subject_paths": 294,
+      "documented_domain_nodes": 294,
+      "funding_rounds_without_reviewed_event_date": 3,
+      "investor_to_specific_round_edges": 0
+    },
+    "interpretation_limits": [
+      "Observed job postings are not completed hires or headcount.",
+      "Funding announcement observations do not establish causal hiring effects.",
+      "Unknown funding event dates remain unknown.",
+      "Source-excerpt claims are not independently adjudicated semantic gold."
+    ]
+  },
+  "live_matches_offline": true,
+  "scope": "Deterministic graph summaries; no hire, headcount, causal, or independent-gold claim.",
+  "checked_at": "2026-11-21T22:17:48.091996+00:00",
+  "database": "neo4j",
+  "uri": "bolt://localhost:7687"
+}

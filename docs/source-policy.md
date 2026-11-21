@@ -46,8 +46,10 @@ cache; review publisher terms before distributing full raw bodies. Reference
 registry assertions are distinguished from fetched source evidence. Core
 Python dependencies use their upstream licenses: Requests (Apache-2.0),
 feedparser (BSD-2-Clause), jsonschema (MIT), RDFLib (BSD-3-Clause), pySHACL
-(Apache-2.0), and pytest (MIT). No repository-wide license is inferred for team
-code; the team must select its distribution license before publication.
+(Apache-2.0), and pytest (MIT). Original team code is distributed under the
+repository-root MIT `LICENSE`. Cached publisher bodies and third-party packages
+retain upstream rights; publisher redistribution clearance for documentary
+sources is not established by the team LICENSE alone.
 
 ## YC identity source checks
 

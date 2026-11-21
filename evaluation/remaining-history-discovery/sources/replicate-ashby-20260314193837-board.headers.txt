@@ -1,0 +1,69 @@
+HTTP/2 302 
+server: nginx
+date: Sat, 21 Nov 2026 21:48:28 GMT
+content-type: text/plain; charset=utf-8
+content-length: 0
+x-archive-redirect-reason: found capture at 20251206031922
+location: https://web.archive.org/web/20251206031922id_/https://jobs.ashbyhq.com/replicate
+server-timing: captures_list;dur=0.393710, exclusion.robots;dur=0.048530, exclusion.robots.policy;dur=0.040251, esindex;dur=0.005963, cdx.remote;dur=4.401037, LoadShardBlock;dur=155.083864, PetaboxLoader3.datanode;dur=55.393024, PetaboxLoader3.resolve;dur=9.786760
+x-app-server: wwwb-app233-dc8
+x-ts: 302
+x-tr: 182
+server-timing: TR;dur=0,Tw;dur=0,Tc;dur=0
+set-cookie: wb-p-SERVER=wwwb-app233; path=/
+x-location: All
+x-as: 22773
+x-rl: 0
+x-na: 0
+x-page-cache: HIT
+server-timing: HIT
+x-nid: Cox Communications Inc.
+referrer-policy: no-referrer-when-downgrade
+permissions-policy: interest-cohort=()
+x-sd: 0
+
+HTTP/2 200 
+server: nginx
+date: Sat, 21 Nov 2026 21:48:28 GMT
+content-type: text/html; charset=utf-8
+x-archive-orig-date: Sat, 06 Dec 2025 03:19:22 GMT
+x-archive-orig-transfer-encoding: chunked
+x-archive-orig-connection: close
+content-encoding: gzip
+x-archive-orig-x-ashby-request-id: 01KBRTQNW8YGG1ES4QD0XM73XS
+x-archive-orig-x-content-type-options: nosniff
+x-archive-orig-x-frame-options: DENY
+x-archive-orig-referrer-policy: same-origin
+x-archive-orig-ashby-session-expiry-alert-level: 
+x-archive-orig-cache-control: public, max-age=60, stale-if-error=600
+x-archive-orig-content-security-policy: base-uri 'self'; block-all-mixed-content; connect-src 'self' https://cdn.ashbyprd.com https://*.browser-intake-datadoghq.com https://browser-intake-datadoghq.com https://browser-intake-us3-datadoghq.com https://browser-intake-us5-datadoghq.com https://browser-intake-datadoghq.eu https://browser-intake-ddog-gov.com https://browser-intake-ap1-datadoghq.com https://ashbyhq-infra-prd-main-app-uploaded-files-us-east-1.s3.us-east-1.amazonaws.com https://ashbyhq-infra-prd-main-app-uploaded-files-us-east-1.s3.dualstack.us-east-1.amazonaws.com https://edge.fullstory.com https://rs.fullstory.com https://www.recaptcha.net https://www.google.com/recaptcha https://sentry.io https://*.ingest.sentry.io https://*.seondnsresolve.com https://*.seondfresolver.com https://*.deviceinfresolver.com https://*.seonintelligence.com; default-src 'none'; img-src 'self' https://cdn.ashbyprd.com https://rs.fullstory.com https: data:; script-src 'nonce-KLkRJRZgz1jE0gz7LeWad_xbbUttktMX4Sfk4UM7eOo' https://cdn.ashbyprd.com https://edge.fullstory.com https://rs.fullstory.com https://www.recaptcha.net/recaptcha/ https://www.google.com/recaptcha/ https://www.gstatic.com/recaptcha/; style-src 'self' https://cdn.ashbyprd.com https: 'unsafe-inline'; upgrade-insecure-requests; font-src https://cdn.ashbyprd.com https:; child-src blob:; worker-src blob:; frame-src https://www.recaptcha.net/recaptcha/ https://www.google.com/recaptcha/ https://recaptcha.google.com/recaptcha/ https://embedded-media.ashbyhq.com; report-uri https://o201961.ingest.sentry.io/api/6375160/security/?sentry_key=ef348c2a37454519b254a0e38ab4ff76&sentry_environment=production; frame-ancestors *;
+x-archive-orig-cf-cache-status: EXPIRED
+x-archive-orig-vary: Accept-Encoding
+x-archive-orig-strict-transport-security: max-age=31536000; includeSubDomains; preload
+x-archive-orig-server: cloudflare
+x-archive-orig-cf-ray: 9a98a42ba988eb28-SJC
+x-archive-orig-alt-svc: h3=":443"; ma=86400
+cache-control: max-age=1800
+accept-ranges: bytes
+memento-datetime: Sat, 06 Dec 2025 03:19:22 GMT
+link: <https://jobs.ashbyhq.com/replicate>; rel="original", <https://web.archive.org/web/timemap/link/https://jobs.ashbyhq.com/replicate>; rel="timemap"; type="application/link-format", <https://web.archive.org/web/https://jobs.ashbyhq.com/replicate>; rel="timegate"
+content-security-policy: default-src 'self' 'unsafe-eval' 'unsafe-inline' data: blob: archive.org web.archive.org web-static.archive.org wayback-api.archive.org athena.archive.org analytics.archive.org pragma.archivelab.org wwwb-events.archive.org
+x-archive-src: SPNOUTLINKS-20251206031532-crawl917/SPNOUTLINKS-20251206031532-02779.warc.gz
+server-timing: captures_list;dur=0.388169, exclusion.robots;dur=0.032326, exclusion.robots.policy;dur=0.025126, esindex;dur=0.006263, cdx.remote;dur=4.071894, LoadShardBlock;dur=126.993049, PetaboxLoader3.resolve;dur=119.159458, PetaboxLoader3.datanode;dur=109.971899, load_resource;dur=122.655146
+x-app-server: wwwb-app262-dc8
+x-ts: 200
+x-tr: 271
+server-timing: TR;dur=0,Tw;dur=0,Tc;dur=0
+set-cookie: wb-p-SERVER=wwwb-app262; path=/
+cache-control: private
+x-location: All
+x-as: 22773
+x-rl: 0
+x-na: 0
+x-page-cache: MISS
+server-timing: MISS
+x-nid: Cox Communications Inc.
+referrer-policy: no-referrer-when-downgrade
+permissions-policy: interest-cohort=()
+x-sd: 0
+

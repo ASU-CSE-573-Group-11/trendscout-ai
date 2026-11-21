@@ -20,6 +20,39 @@ def rows(path):
         return list(csv.DictReader(handle))
 
 
+def _annotation_inputs_complete(rounds):
+    if not rounds:return False
+    for round_info in rounds:
+        if round_info['direct_review_collection'].get('status')!='complete_for_pairwise_agreement':
+            return False
+        for name in ['sueda','mehmet']:
+            rev=round_info['reviewers'][name]
+            if not rev.get('independent_human_attested'):return False
+            if rev['entity_labels']!=rev['entity_candidates'] or rev['relation_labels']!=rev['relation_candidates']:
+                return False
+        corpus=round_info['corpus_decisions'];qrels=round_info['qrels_fields']
+        docs=round_info['corpus_documents'];pairs=round_info['qrels_pairs']
+        for key in ['sueda_include','mehmet_include','final_include','adjudicator']:
+            if corpus.get(key,0)!=docs:return False
+        for key in ['sueda_grade','mehmet_grade','final_grade','adjudicator']:
+            if qrels.get(key,0)!=pairs:return False
+    return True
+
+
+def _remaining_actual_inputs(rounds, assignments, responses, finalized):
+    remaining=[]
+    if len(responses)<len(assignments):
+        remaining.append(f"{len(assignments)-len(responses)} additional participant responses with measured durations and confidence")
+    if not finalized:
+        remaining.append('Independent task-key review and correctness grading')
+    if not _annotation_inputs_complete(rounds):
+        remaining.extend([
+            'Independent annotation attestations and second-review labels',
+            'Final corpus/relevance adjudication',
+        ])
+    return remaining
+
+
 def report(root=ROOT):
     from evaluation.task_key_review import status as task_key_review_status
     index=read_json(root/'evaluation/study-index.json')
@@ -81,10 +114,7 @@ def report(root=ROOT):
         'annotation_rounds':rounds,
         'contributor_identities':{'project_account_mappings_confirmed':sum(m['github_commit_account_verified'] and m['team_mapping_confirmed'] for m in identities),
             'total_members':len(identities),'scope':'GitHub account authorship plus team-confirmed name mapping; not independent annotation or pilot measurement.'},
-        'remaining_actual_inputs':([f"{len(assignments)-len(responses)} additional participant responses with measured durations and confidence"] if len(responses)<len(assignments) else [])+[
-            *([] if finalized else ['Independent task-key review and correctness grading']),
-            'Independent annotation attestations and second-review labels',
-            'Final corpus/relevance adjudication'],
+        'remaining_actual_inputs':_remaining_actual_inputs(rounds, assignments, responses, finalized),
         'measurement_limitations':['Free-text evidence and qualifying/policy explanations were not collected; unassessable criteria remain explicitly unmeasured.'],
         'complete_research_submission':False}
 

@@ -1,0 +1,256 @@
+{
+  "continue-ashby-board-exact": {
+    "count": 3,
+    "file": "round3-continue-ashby-board-exact-cdx.json",
+    "sample": [
+      [
+        "urlkey",
+        "timestamp",
+        "original",
+        "mimetype",
+        "statuscode",
+        "digest",
+        "length"
+      ],
+      [
+        "com,ashbyhq,jobs)/continue",
+        "20250701225548",
+        "https://jobs.ashbyhq.com/continue",
+        "text/html",
+        "200",
+        "LABD5GZFOSRT5RZIU3Z36A53ZN7KRBRC",
+        "5712"
+      ],
+      [
+        "com,ashbyhq,jobs)/continue",
+        "20250723083856",
+        "https://jobs.ashbyhq.com/continue",
+        "text/html",
+        "200",
+        "UGXBGXANWCUDDSPDZGTXRG2NFD5WFZVZ",
+        "7201"
+      ],
+      [
+        "com,ashbyhq,jobs)/continue",
+        "20260213012947",
+        "https://jobs.ashbyhq.com/continue",
+        "text/html",
+        "200",
+        "ESSQSD62G2PZ56BBCENJL5LFH7WQZZMB",
+        "7706"
+      ]
+    ]
+  },
+  "continue-ashby-board-prefix": {
+    "count": 27,
+    "file": "round3-continue-ashby-board-prefix-cdx.json",
+    "sample": [
+      [
+        "timestamp",
+        "original",
+        "mimetype",
+        "statuscode",
+        "digest",
+        "length"
+      ],
+      [
+        "20250701225548",
+        "https://jobs.ashbyhq.com/continue",
+        "text/html",
+        "200",
+        "LABD5GZFOSRT5RZIU3Z36A53ZN7KRBRC",
+        "5712"
+      ],
+      [
+        "20250723083856",
+        "https://jobs.ashbyhq.com/continue",
+        "text/html",
+        "200",
+        "UGXBGXANWCUDDSPDZGTXRG2NFD5WFZVZ",
+        "7201"
+      ],
+      [
+        "20260213012947",
+        "https://jobs.ashbyhq.com/continue",
+        "text/html",
+        "200",
+        "ESSQSD62G2PZ56BBCENJL5LFH7WQZZMB",
+        "7706"
+      ],
+      [
+        "20250723083539",
+        "https://jobs.ashbyhq.com/continue/219fce3e-7af9-4b00-8fa7-87bf53db72f7",
+        "text/html",
+        "200",
+        "NXMB74W3JHD4UUSJ7R4OBOA2PBS43IM6",
+        "9247"
+      ],
+      [
+        "20250723083654",
+        "https://jobs.ashbyhq.com/continue/219fce3e-7af9-4b00-8fa7-87bf53db72f7",
+        "text/html",
+        "200",
+        "G5A4RBPUZWSNRQEY7SLJPC73U2GKYQGI",
+        "9246"
+      ],
+      [
+        "20250723083708",
+        "https://jobs.ashbyhq.com/continue/219fce3e-7af9-4b00-8fa7-87bf53db72f7",
+        "text/html",
+        "200",
+        "G5A4RBPUZWSNRQEY7SLJPC73U2GKYQGI",
+        "9338"
+      ],
+      [
+        "20250724054838",
+        "https://jobs.ashbyhq.com/continue/219fce3e-7af9-4b00-8fa7-87bf53db72f7",
+        "text/html",
+        "200",
+        "CZBTRY7DADGKCZNLFJGBQFGZQ3LDKBG7",
+        "9168"
+      ]
+    ]
+  },
+  "continue-api": {
+    "error": "HTTP Error 503: Service Unavailable"
+  },
+  "replicate-ashby-exact": {
+    "count": 1,
+    "file": "round3-replicate-ashby-exact-cdx.json",
+    "sample": [
+      [
+        "urlkey",
+        "timestamp",
+        "original",
+        "mimetype",
+        "statuscode",
+        "digest",
+        "length"
+      ],
+      [
+        "com,ashbyhq,jobs)/replicate",
+        "20251206031922",
+        "https://jobs.ashbyhq.com/replicate",
+        "text/html",
+        "200",
+        "U3XM5DHAUHSUZD5XFCZRNCXHD6KRKS3Y",
+        "7169"
+      ]
+    ]
+  },
+  "replicate-ashby-prefix": {
+    "count": 62,
+    "file": "round3-replicate-ashby-prefix-cdx.json",
+    "sample": [
+      [
+        "timestamp",
+        "original",
+        "mimetype",
+        "statuscode",
+        "digest",
+        "length"
+      ],
+      [
+        "20251206031922",
+        "https://jobs.ashbyhq.com/replicate",
+        "text/html",
+        "200",
+        "U3XM5DHAUHSUZD5XFCZRNCXHD6KRKS3Y",
+        "7169"
+      ],
+      [
+        "20250719123954",
+        "https://jobs.ashbyhq.com/replicate/0699e8d9-aa42-4230-8e33-05d16c73e9e9",
+        "text/html",
+        "200",
+        "YVWG3VDKP3Z4XYMMPUZPZFRZJ64I7H4I",
+        "12942"
+      ],
+      [
+        "20250719124006",
+        "https://jobs.ashbyhq.com/replicate/0699e8d9-aa42-4230-8e33-05d16c73e9e9",
+        "text/html",
+        "200",
+        "YVWG3VDKP3Z4XYMMPUZPZFRZJ64I7H4I",
+        "13318"
+      ],
+      [
+        "20250719124006",
+        "https://jobs.ashbyhq.com/replicate/0699e8d9-aa42-4230-8e33-05d16c73e9e9/application",
+        "text/html",
+        "200",
+        "ZZKH6H3TUOU6GOJWSILVXCV6WNMQZS5G",
+        "13209"
+      ],
+      [
+        "20250108111424",
+        "https://jobs.ashbyhq.com/replicate/30e267e9-c559-457f-b9d7-f60a3acc6860/application?source=WAP2QXMr1O",
+        "text/html",
+        "200",
+        "M73J23ZOZIMOUAKO7NJM2ROGH3JKCFQ6",
+        "10388"
+      ],
+      [
+        "20250107172123",
+        "https://jobs.ashbyhq.com/replicate/30e267e9-c559-457f-b9d7-f60a3acc6860?source=WAP2QXMr1O",
+        "text/html",
+        "200",
+        "XUDNASPZLIEJMC7URVDDJT3GS5NF2O3C",
+        "10149"
+      ],
+      [
+        "20260426010645",
+        "https://jobs.ashbyhq.com/replicate/41d1c5f7-0f49-4903-9c11-ddfbe2e612cb",
+        "text/html",
+        "200",
+        "OQP6AVCGE45LR6OEWIA3Y4SOAZFEH4ZZ",
+        "3459"
+      ]
+    ]
+  },
+  "replicate-api": {
+    "count": 0,
+    "file": "round3-replicate-api-cdx.json",
+    "sample": []
+  },
+  "wandb-gh": {
+    "count": 0,
+    "file": "round3-wandb-gh-cdx.json",
+    "sample": []
+  },
+  "wandb-gh2": {
+    "count": 0,
+    "file": "round3-wandb-gh2-cdx.json",
+    "sample": []
+  },
+  "wandb-gh3": {
+    "count": 0,
+    "file": "round3-wandb-gh3-cdx.json",
+    "sample": []
+  },
+  "wandb-ashby": {
+    "count": 0,
+    "file": "round3-wandb-ashby-cdx.json",
+    "sample": []
+  },
+  "wandb-ashby2": {
+    "count": 0,
+    "file": "round3-wandb-ashby2-cdx.json",
+    "sample": []
+  },
+  "crewai-widget": {
+    "count": 0,
+    "file": "round3-crewai-widget-cdx.json",
+    "sample": []
+  },
+  "crewai-api": {
+    "count": 0,
+    "file": "round3-crewai-api-cdx.json",
+    "sample": []
+  },
+  "crewai-jobs-json": {
+    "count": 0,
+    "file": "round3-crewai-jobs-json-cdx.json",
+    "sample": []
+  }
+}

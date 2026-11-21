@@ -1,0 +1,222 @@
+[
+  {
+    "url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fapi.ashbyhq.com%2Fposting-api%2Fjob-board%2Fcontinue*&output=json&filter=statuscode%3A200&from=20251101&to=20261121&collapse=timestamp%3A6&limit=200",
+    "response_url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fapi.ashbyhq.com%2Fposting-api%2Fjob-board%2Fcontinue*&output=json&filter=statuscode%3A200&from=20251101&to=20261121&collapse=timestamp%3A6&limit=200",
+    "status_code": 503,
+    "file": "sources/continue-ashby-api-cdx.json",
+    "sha256": "e084d527921708642a79724e9f0210da659bbc0905c6ce9a3a1f416e4628091c",
+    "bytes": 11832,
+    "observed_at": "2026-11-21T21:23:02.145510Z",
+    "memento_datetime": null
+  },
+  {
+    "url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fjobs.ashbyhq.com%2Fcontinue%2Fembed*&output=json&filter=statuscode%3A200&from=20251101&to=20261121&collapse=timestamp%3A6&limit=200",
+    "response_url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fjobs.ashbyhq.com%2Fcontinue%2Fembed*&output=json&filter=statuscode%3A200&from=20251101&to=20261121&collapse=timestamp%3A6&limit=200",
+    "status_code": 503,
+    "file": "sources/continue-ashby-embed-cdx.json",
+    "sha256": "e084d527921708642a79724e9f0210da659bbc0905c6ce9a3a1f416e4628091c",
+    "bytes": 11832,
+    "observed_at": "2026-11-21T21:23:02.145510Z",
+    "memento_datetime": null
+  },
+  {
+    "url": "https://web.archive.org/cdx/search/cdx?url=jobs.ashbyhq.com%2Fcontinue&matchType=prefix&output=json&filter=statuscode%3A200&filter=mimetype%3Atext%2Fhtml&from=20251101&to=20261121&collapse=urlkey&limit=200",
+    "response_url": "https://web.archive.org/cdx/search/cdx?url=jobs.ashbyhq.com%2Fcontinue&matchType=prefix&output=json&filter=statuscode%3A200&filter=mimetype%3Atext%2Fhtml&from=20251101&to=20261121&collapse=urlkey&limit=200",
+    "status_code": 503,
+    "file": "sources/continue-ashby-appdata-loose-cdx.json",
+    "sha256": "e084d527921708642a79724e9f0210da659bbc0905c6ce9a3a1f416e4628091c",
+    "bytes": 11832,
+    "observed_at": "2026-11-21T21:23:02.145510Z",
+    "memento_datetime": null
+  },
+  {
+    "url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fapply.workable.com%2Fapi%2Fv1%2Fwidget%2Faccounts%2Fcrewai*&output=json&filter=statuscode%3A200&from=20251101&to=20261121&collapse=timestamp%3A6&limit=200",
+    "response_url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fapply.workable.com%2Fapi%2Fv1%2Fwidget%2Faccounts%2Fcrewai*&output=json&filter=statuscode%3A200&from=20251101&to=20261121&collapse=timestamp%3A6&limit=200",
+    "status_code": 503,
+    "file": "sources/crewai-widget-star-cdx.json",
+    "sha256": "e084d527921708642a79724e9f0210da659bbc0905c6ce9a3a1f416e4628091c",
+    "bytes": 11832,
+    "observed_at": "2026-11-21T21:23:02.145510Z",
+    "memento_datetime": null
+  },
+  {
+    "url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fapply.workable.com%2Fapi%2Fv3%2Faccounts%2Fcrewai*&output=json&filter=statuscode%3A200&from=20251101&to=20261121&collapse=timestamp%3A6&limit=200",
+    "response_url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fapply.workable.com%2Fapi%2Fv3%2Faccounts%2Fcrewai*&output=json&filter=statuscode%3A200&from=20251101&to=20261121&collapse=timestamp%3A6&limit=200",
+    "status_code": 503,
+    "file": "sources/crewai-api-v3-star-cdx.json",
+    "sha256": "e084d527921708642a79724e9f0210da659bbc0905c6ce9a3a1f416e4628091c",
+    "bytes": 11832,
+    "observed_at": "2026-11-21T21:23:02.145510Z",
+    "memento_datetime": null
+  },
+  {
+    "url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fapply.workable.com%2Fcrewai%2Fjobs.json*&output=json&filter=statuscode%3A200&from=20251101&to=20261121&limit=100",
+    "response_url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fapply.workable.com%2Fcrewai%2Fjobs.json*&output=json&filter=statuscode%3A200&from=20251101&to=20261121&limit=100",
+    "status_code": 200,
+    "file": "sources/crewai-jobs-json-cdx.json",
+    "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "bytes": 3,
+    "observed_at": "2026-11-21T21:23:02.145510Z",
+    "memento_datetime": null
+  },
+  {
+    "url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fwww.crewai.com%2F*&output=json&filter=statuscode%3A200&from=20251101&to=20261121&collapse=timestamp%3A8&limit=100&fl=timestamp,original,statuscode,mimetype,length",
+    "response_url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fwww.crewai.com%2F*&output=json&filter=statuscode%3A200&from=20251101&to=20261121&collapse=timestamp%3A8&limit=100&fl=timestamp,original,statuscode,mimetype,length",
+    "status_code": 503,
+    "file": "sources/crewai-careers-site-cdx.json",
+    "sha256": "e084d527921708642a79724e9f0210da659bbc0905c6ce9a3a1f416e4628091c",
+    "bytes": 11832,
+    "observed_at": "2026-11-21T21:23:02.145510Z",
+    "memento_datetime": null
+  },
+  {
+    "url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Freplicate.com%2Fabout*&output=json&filter=statuscode%3A200&from=20251101&to=20261121&collapse=timestamp%3A6&limit=100",
+    "response_url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Freplicate.com%2Fabout*&output=json&filter=statuscode%3A200&from=20251101&to=20261121&collapse=timestamp%3A6&limit=100",
+    "status_code": 503,
+    "file": "sources/replicate-about-jobs-cdx.json",
+    "sha256": "e084d527921708642a79724e9f0210da659bbc0905c6ce9a3a1f416e4628091c",
+    "bytes": 11832,
+    "observed_at": "2026-11-21T21:23:02.145510Z",
+    "memento_datetime": null
+  },
+  {
+    "url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fjobs.ashbyhq.com%2Freplicate*&output=json&filter=statuscode%3A200&from=20251101&to=20261121&limit=100",
+    "response_url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fjobs.ashbyhq.com%2Freplicate*&output=json&filter=statuscode%3A200&from=20251101&to=20261121&limit=100",
+    "status_code": 200,
+    "file": "sources/replicate-ashby-guess-cdx.json",
+    "sha256": "aa571fffa880f51b3a1ff95778b03c0daa8f651632e5f54e02e8e6167516aacf",
+    "bytes": 3756,
+    "observed_at": "2026-11-21T21:23:02.145510Z",
+    "memento_datetime": null
+  },
+  {
+    "url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fboards.greenhouse.io%2Freplicate*&output=json&filter=statuscode%3A200&from=20251101&to=20261121&limit=100",
+    "response_url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fboards.greenhouse.io%2Freplicate*&output=json&filter=statuscode%3A200&from=20251101&to=20261121&limit=100",
+    "status_code": 504,
+    "file": "sources/replicate-greenhouse-guess-cdx.json",
+    "sha256": "c9c89d274726b86306e1c97d80360f820bce86042c34c9bb2487aac4ada6d606",
+    "bytes": 160,
+    "observed_at": "2026-11-21T21:23:02.145510Z",
+    "memento_datetime": null
+  },
+  {
+    "url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fjobs.ashbyhq.com%2Flangfuse*&output=json&filter=statuscode%3A200&from=20251101&to=20261121&limit=100",
+    "response_url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fjobs.ashbyhq.com%2Flangfuse*&output=json&filter=statuscode%3A200&from=20251101&to=20261121&limit=100",
+    "status_code": 200,
+    "file": "sources/langfuse-ashby-guess-cdx.json",
+    "sha256": "f68188c30bd1cc3f47e9d4778b1af72b22b4ece37612c3e7362b3f7c48a41a6c",
+    "bytes": 24810,
+    "observed_at": "2026-11-21T21:23:02.145510Z",
+    "memento_datetime": null
+  },
+  {
+    "url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fjob-boards.greenhouse.io%2Flangfuse*&output=json&filter=statuscode%3A200&from=20251101&to=20261121&limit=100",
+    "response_url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fjob-boards.greenhouse.io%2Flangfuse*&output=json&filter=statuscode%3A200&from=20251101&to=20261121&limit=100",
+    "status_code": 503,
+    "file": "sources/langfuse-greenhouse-guess-cdx.json",
+    "sha256": "e084d527921708642a79724e9f0210da659bbc0905c6ce9a3a1f416e4628091c",
+    "bytes": 11832,
+    "observed_at": "2026-11-21T21:23:02.145510Z",
+    "memento_datetime": null
+  },
+  {
+    "url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fjobs.ashbyhq.com%2Fwandb*&output=json&filter=statuscode%3A200&from=20251101&to=20261121&limit=100",
+    "response_url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fjobs.ashbyhq.com%2Fwandb*&output=json&filter=statuscode%3A200&from=20251101&to=20261121&limit=100",
+    "status_code": 200,
+    "file": "sources/wandb-ashby-guess-cdx.json",
+    "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "bytes": 3,
+    "observed_at": "2026-11-21T21:23:02.145510Z",
+    "memento_datetime": null
+  },
+  {
+    "url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fboards.greenhouse.io%2Fweightsandbiases*&output=json&filter=statuscode%3A200&from=20251101&to=20261121&limit=100",
+    "response_url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fboards.greenhouse.io%2Fweightsandbiases*&output=json&filter=statuscode%3A200&from=20251101&to=20261121&limit=100",
+    "status_code": 200,
+    "file": "sources/wandb-greenhouse-guess-cdx.json",
+    "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "bytes": 3,
+    "observed_at": "2026-11-21T21:23:02.145510Z",
+    "memento_datetime": null
+  },
+  {
+    "url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fboards.greenhouse.io%2Fwandb*&output=json&filter=statuscode%3A200&from=20251101&to=20261121&limit=100",
+    "response_url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fboards.greenhouse.io%2Fwandb*&output=json&filter=statuscode%3A200&from=20251101&to=20261121&limit=100",
+    "status_code": 503,
+    "file": "sources/wandb-gh-short-cdx.json",
+    "sha256": "e084d527921708642a79724e9f0210da659bbc0905c6ce9a3a1f416e4628091c",
+    "bytes": 11832,
+    "observed_at": "2026-11-21T21:23:02.145510Z",
+    "memento_datetime": null
+  },
+  {
+    "url": "https://api.ashbyhq.com/posting-api/job-board/continue?includeCompensation=true",
+    "response_url": "https://api.ashbyhq.com/posting-api/job-board/continue?includeCompensation=true",
+    "status_code": 404,
+    "file": "sources/continue-ashby-api-live.json",
+    "sha256": "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5",
+    "bytes": 9,
+    "observed_at": "2026-11-21T21:23:02.145510Z",
+    "memento_datetime": null
+  },
+  {
+    "url": "https://apply.workable.com/crewai/jobs.json",
+    "response_url": "https://apply.workable.com/crewai/jobs.json",
+    "status_code": 200,
+    "file": "sources/crewai-jobs-json-live.json",
+    "sha256": "8a8c0e974080f2331d8a2522fa712460ce71d87b0a3cc9c4116c768dfadd16c1",
+    "bytes": 5720,
+    "observed_at": "2026-11-21T21:23:02.145510Z",
+    "memento_datetime": null
+  },
+  {
+    "url": "https://jobs.ashbyhq.com/replicate",
+    "response_url": "https://jobs.ashbyhq.com/replicate",
+    "status_code": 404,
+    "file": "sources/replicate-ashby-live.html",
+    "sha256": "2d62491684c4ee2505da4411c3328063ca7c804ee98fe1daaa404095a157f373",
+    "bytes": 9125,
+    "observed_at": "2026-11-21T21:23:02.145510Z",
+    "memento_datetime": null
+  },
+  {
+    "url": "https://jobs.ashbyhq.com/langfuse",
+    "response_url": "https://jobs.ashbyhq.com/langfuse",
+    "status_code": 404,
+    "file": "sources/langfuse-ashby-live.html",
+    "sha256": "212b646612434237e60aaa0a92d36269ca5d3727054ab2f307b403f6098f5ac1",
+    "bytes": 9125,
+    "observed_at": "2026-11-21T21:23:02.145510Z",
+    "memento_datetime": null
+  },
+  {
+    "url": "https://jobs.ashbyhq.com/wandb",
+    "response_url": "https://jobs.ashbyhq.com/wandb",
+    "status_code": 404,
+    "file": "sources/wandb-ashby-live.html",
+    "sha256": "2f8fedf5216e426a461f338c11526620121f6269718680b080f491273b046dcd",
+    "bytes": 9125,
+    "observed_at": "2026-11-21T21:23:02.145510Z",
+    "memento_datetime": null
+  },
+  {
+    "url": "https://boards.greenhouse.io/wandb",
+    "response_url": "https://job-boards.greenhouse.io/wandb",
+    "status_code": 404,
+    "file": "sources/wandb-gh-live.html",
+    "sha256": "d5558469162019c544ffa41796e04b830fd452830b7873b5cc5c958576ff483b",
+    "bytes": 12249,
+    "observed_at": "2026-11-21T21:23:02.145510Z",
+    "memento_datetime": null
+  },
+  {
+    "url": "https://boards.greenhouse.io/weightsandbiases",
+    "response_url": "https://job-boards.greenhouse.io/weightsandbiases",
+    "status_code": 404,
+    "file": "sources/wandb-gh-weights-live.html",
+    "sha256": "d5558469162019c544ffa41796e04b830fd452830b7873b5cc5c958576ff483b",
+    "bytes": 12249,
+    "observed_at": "2026-11-21T21:23:02.145510Z",
+    "memento_datetime": null
+  }
+]

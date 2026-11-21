@@ -1,16 +1,23 @@
 {
   "status": "local_review_package",
-  "checked_at": "2026-11-21T12:18:04Z",
+  "checked_at": "2026-11-21T22:18:11Z",
   "contribution_commit_path_mismatches": [],
-  "stale_contribution_artifacts": [],
+  "stale_contribution_artifacts": [
+    "evaluation/submission/sueda-completion.json",
+    "evaluation/mixed/sueda-source-review/summary.json",
+    "evaluation/submission/question-coverage.json",
+    "evaluation/real/sueda-review/relation-extension/manifest.json",
+    "evaluation/mixed/relation-reconciliation.json",
+    "evaluation/submission/sueda-entity-source-check.json",
+    "evaluation/remaining-history-discovery/review.json"
+  ],
   "consent_reports": 5,
   "recorded_pilot_responses": 30,
   "scored_pilot_task_results": 30,
   "pilot_collection_complete": true,
   "confirmed_project_account_mappings": 4,
   "remaining_requirements": [
-    "Independent paired annotation and final adjudication",
-    "Team code license selection and source redistribution review",
+    "Publisher redistribution clearance for cached documentary sources (team MIT LICENSE covers original team code only)",
     "Verify or enable server-side branch protection under an eligible GitHub plan"
   ],
   "complete_research_submission": false

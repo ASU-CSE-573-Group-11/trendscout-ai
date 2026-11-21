@@ -1,0 +1,31 @@
+[
+  {
+    "source_id": "continue-ashby",
+    "target_url": "https://jobs.ashbyhq.com/continue*",
+    "observed_at": "2026-11-21T21:40:00Z",
+    "http_status": 200,
+    "response_url": "https://web.archive.org/cdx/search/cdx?url=jobs.ashbyhq.com/continue*",
+    "file": "sources/round3-continue-ashby-board-prefix-cdx.json",
+    "sha256": "29125b49b52cacf9d2da76349084b7128d8f715819682ad6068efaf66dbdad00",
+    "captures": [
+      {
+        "urlkey": "com,ashbyhq,jobs)/continue",
+        "timestamp": "20260213012947",
+        "original": "https://jobs.ashbyhq.com/continue",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "",
+        "length": "19860"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/continue",
+        "timestamp": "20260516012607",
+        "original": "https://jobs.ashbyhq.com/continue?utm_source=gettjalerts.com",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "",
+        "length": "21506"
+      }
+    ]
+  }
+]

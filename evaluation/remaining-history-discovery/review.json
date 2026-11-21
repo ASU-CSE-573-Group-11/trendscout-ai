@@ -6,9 +6,11 @@
       "browserbase",
       "chroma",
       "composio",
+      "continue",
       "deepset",
       "e2b",
       "langchain",
+      "langfuse",
       "letta",
       "llamaindex",
       "modal",
@@ -16,10 +18,8 @@
       "sourcegraph",
       "weaviate"
     ],
-    "complete_official_population_history_count": 13,
+    "complete_official_population_history_count": 15,
     "additional_scoped_history_companies": [
-      "continue",
-      "langfuse",
       "replicate",
       "wandb"
     ],
@@ -28,17 +28,17 @@
       "crewai"
     ],
     "companies_without_complete_official_population_history": [
-      "continue",
       "crewai",
-      "langfuse",
       "replicate",
       "wandb"
     ],
     "new_attributable_current_ats_board": "CrewAI Workable",
-    "new_complete_native_career_history": "Chroma"
+    "new_complete_native_career_history": "Chroma",
+    "new_complete_official_ats_board_history": "Langfuse Ashby; Continue Ashby"
   },
   "population_definitions": {
     "complete_official_career_list": "All publicly listed specific roles on the company-endorsed native list; not payroll or completed hires.",
+    "complete_official_ats_board": "All publicly listed posting IDs on the company-named Ashby/Greenhouse board landing payload decoded offline from window.__appData or equivalent complete board HTML/JSON.",
     "yc_employer_directory_channel": "Employer job listings published on the identity-matched YC channel only. Empty arrays are observed zero for this channel, not absence of company hiring.",
     "explicit_brand_titles_in_parent_ats": "Only roles explicitly naming the cohort brand in the title. Parent totals and unbranded roles are not attributed to the cohort company."
   },
@@ -211,6 +211,57 @@
           "directory_company_id": 28957,
           "source_reported_company_status": "Active"
         }
+      },
+      {
+        "company_id": "continue",
+        "population": "complete_official_ats_board",
+        "snapshot_at": "2026-02-13T01:29:47Z",
+        "observed_at": "2026-11-21T21:40:00Z",
+        "archived": true,
+        "source_file": "evaluation/remaining-history-discovery/sources/continue-ashby-20260213012947.html",
+        "source_url": "https://web.archive.org/web/20260213012947id_/https://jobs.ashbyhq.com/continue",
+        "listed_count": 3,
+        "listings": [
+          {
+            "posting_id": "219fce3e-7af9-4b00-8fa7-87bf53db72f7",
+            "title": "Software Engineer (New grad)"
+          },
+          {
+            "posting_id": "36b1633f-153e-4277-9660-fc1bc5e7e255",
+            "title": "Software Engineer (10+ years)"
+          },
+          {
+            "posting_id": "3c3493c9-b66e-4add-9caa-ae424fe2a9ba",
+            "title": "Software Engineer (5+ years)"
+          }
+        ]
+      },
+      {
+        "company_id": "continue",
+        "population": "complete_official_ats_board",
+        "snapshot_at": "2026-05-16T01:26:07Z",
+        "observed_at": "2026-11-21T21:40:00Z",
+        "archived": false,
+        "source_file": "evaluation/remaining-history-discovery/sources/continue-ashby-20260516012607.html",
+        "source_url": "https://web.archive.org/web/20260516012607id_/https://jobs.ashbyhq.com/continue?utm_source=gettjalerts.com",
+        "listed_count": 3,
+        "listings": [
+          {
+            "posting_id": "219fce3e-7af9-4b00-8fa7-87bf53db72f7",
+            "title": "Software Engineer (New grad)"
+          },
+          {
+            "posting_id": "36b1633f-153e-4277-9660-fc1bc5e7e255",
+            "title": "Software Engineer (10+ years)"
+          },
+          {
+            "posting_id": "3c3493c9-b66e-4add-9caa-ae424fe2a9ba",
+            "title": "Software Engineer (5+ years)"
+          }
+        ],
+        "live_endpoint_status": 404,
+        "live_endpoint_url": "https://jobs.ashbyhq.com/continue",
+        "observation_basis": "latest_in_window_complete_archive_board_while_live_endpoint_unavailable"
       }
     ],
     "langfuse": [
@@ -934,6 +985,269 @@
           "fe8430ad-2150-4838-ae36-535aa659b389"
         ],
         "title_filter": "whole word Langfuse"
+      },
+      {
+        "company_id": "langfuse",
+        "population": "complete_official_ats_board",
+        "snapshot_at": "2025-11-06T20:14:38Z",
+        "observed_at": "2026-11-21T21:29:33.449781Z",
+        "archived": true,
+        "source_file": "evaluation/remaining-history-discovery/sources/langfuse-ashby-20251106201438.html",
+        "source_url": "https://web.archive.org/web/20251106201438id_/https://jobs.ashbyhq.com/langfuse",
+        "listed_count": 11,
+        "listings": [
+          {
+            "posting_id": "1de6a592-5c8c-4a58-b5e0-9fdc0d133e61",
+            "title": "Technical Customer Success"
+          },
+          {
+            "posting_id": "41c7eb37-262f-4c71-9e63-59671064efe2",
+            "title": "Founder's Associate"
+          },
+          {
+            "posting_id": "4ab496e8-15a9-4c14-960c-794470b92243",
+            "title": "Technical Sales"
+          },
+          {
+            "posting_id": "58b6797d-1b0a-4aef-bc47-1189268c508c",
+            "title": "(Senior) Design Engineer"
+          },
+          {
+            "posting_id": "5ff18d4d-9066-4c67-8ecc-ffc0e295fee6",
+            "title": "Technical Support Engineer"
+          },
+          {
+            "posting_id": "60231438-f158-4e7b-b08d-12e5222fcc16",
+            "title": "Founding DevRel Engineer"
+          },
+          {
+            "posting_id": "673d4861-ebef-4dbd-bab1-2935e813cb7a",
+            "title": "(Senior) Product Engineer"
+          },
+          {
+            "posting_id": "68d1f706-4f8e-4e93-8a62-a30d82af816f",
+            "title": "(Senior) Frontend Engineer"
+          },
+          {
+            "posting_id": "a9b9e988-b17d-4ada-8ae3-605b9e371e0f",
+            "title": "(Former) CTO"
+          },
+          {
+            "posting_id": "af9ef4ae-37a0-4dde-bcf5-2967aef0c4ea",
+            "title": "GTM Engineer"
+          },
+          {
+            "posting_id": "dff72f11-75da-40b9-88b3-470f080b0906",
+            "title": "(Senior) Backend Engineer"
+          }
+        ]
+      },
+      {
+        "company_id": "langfuse",
+        "population": "complete_official_ats_board",
+        "snapshot_at": "2025-11-18T08:21:06Z",
+        "observed_at": "2026-11-21T21:29:33.449781Z",
+        "archived": true,
+        "source_file": "evaluation/remaining-history-discovery/sources/langfuse-ashby-20251118082106.html",
+        "source_url": "https://web.archive.org/web/20251118082106id_/https://jobs.ashbyhq.com/langfuse/",
+        "listed_count": 11,
+        "listings": [
+          {
+            "posting_id": "1de6a592-5c8c-4a58-b5e0-9fdc0d133e61",
+            "title": "Solutions Architect "
+          },
+          {
+            "posting_id": "41c7eb37-262f-4c71-9e63-59671064efe2",
+            "title": "Founder's Associate"
+          },
+          {
+            "posting_id": "4ab496e8-15a9-4c14-960c-794470b92243",
+            "title": "Technical Account Executive"
+          },
+          {
+            "posting_id": "58b6797d-1b0a-4aef-bc47-1189268c508c",
+            "title": "(Senior) Design Engineer"
+          },
+          {
+            "posting_id": "5ff18d4d-9066-4c67-8ecc-ffc0e295fee6",
+            "title": "Technical Support Engineer"
+          },
+          {
+            "posting_id": "60231438-f158-4e7b-b08d-12e5222fcc16",
+            "title": "Founding DevRel Engineer"
+          },
+          {
+            "posting_id": "673d4861-ebef-4dbd-bab1-2935e813cb7a",
+            "title": "(Senior) Product Engineer"
+          },
+          {
+            "posting_id": "68d1f706-4f8e-4e93-8a62-a30d82af816f",
+            "title": "(Senior) Frontend Engineer"
+          },
+          {
+            "posting_id": "a9b9e988-b17d-4ada-8ae3-605b9e371e0f",
+            "title": "(Former) CTO"
+          },
+          {
+            "posting_id": "af9ef4ae-37a0-4dde-bcf5-2967aef0c4ea",
+            "title": "GTM Engineer"
+          },
+          {
+            "posting_id": "dff72f11-75da-40b9-88b3-470f080b0906",
+            "title": "(Senior) Backend Engineer"
+          }
+        ]
+      },
+      {
+        "company_id": "langfuse",
+        "population": "complete_official_ats_board",
+        "snapshot_at": "2026-03-11T03:14:49Z",
+        "observed_at": "2026-11-21T21:29:33.449781Z",
+        "archived": true,
+        "source_file": "evaluation/remaining-history-discovery/sources/langfuse-ashby-20260311031449.html",
+        "source_url": "https://web.archive.org/web/20260311031449id_/https://jobs.ashbyhq.com/langfuse",
+        "listed_count": 9,
+        "listings": [
+          {
+            "posting_id": "0cd84fa2-e4ce-4395-bee5-0489e86e89f5",
+            "title": "Senior Forward Deployed Engineer"
+          },
+          {
+            "posting_id": "1225fa3d-d590-41d2-b798-ef927320fb2e",
+            "title": "Senior Backend Engineer"
+          },
+          {
+            "posting_id": "53b7f80f-1af7-48ec-830e-d55cd9d42164",
+            "title": "Product Designer"
+          },
+          {
+            "posting_id": "5fa45758-2f9b-4ff5-be2d-a5680580ff2d",
+            "title": "Senior Technical Account Manager"
+          },
+          {
+            "posting_id": "60231438-f158-4e7b-b08d-12e5222fcc16",
+            "title": "DevRel Engineer"
+          },
+          {
+            "posting_id": "70495b02-82dd-4495-9e60-c5537a9602c8",
+            "title": "Senior Frontend Engineer"
+          },
+          {
+            "posting_id": "71a67633-5770-481b-9fb3-22e4f27cbca1",
+            "title": "Product Engineer (Growth)"
+          },
+          {
+            "posting_id": "891eda0a-a9f6-45e6-8750-71874db8cc11",
+            "title": "Senior Software Engineer (SDK)"
+          },
+          {
+            "posting_id": "a2c4e24c-21d1-4a9f-8d46-422d0592efd6",
+            "title": "Senior Product Engineer "
+          }
+        ]
+      },
+      {
+        "company_id": "langfuse",
+        "population": "complete_official_ats_board",
+        "snapshot_at": "2026-06-15T19:49:22Z",
+        "observed_at": "2026-11-21T21:29:33.449781Z",
+        "archived": true,
+        "source_file": "evaluation/remaining-history-discovery/sources/langfuse-ashby-20260615194922.html",
+        "source_url": "https://web.archive.org/web/20260615194922id_/https://jobs.ashbyhq.com/langfuse",
+        "listed_count": 11,
+        "listings": [
+          {
+            "posting_id": "1225fa3d-d590-41d2-b798-ef927320fb2e",
+            "title": "Senior Backend Engineer (Data Infrastructure)"
+          },
+          {
+            "posting_id": "190c710e-c00c-4b76-82ce-9033b51b7086",
+            "title": "Developer Relations Engineer (Events & Community)"
+          },
+          {
+            "posting_id": "1bc2e248-89e7-41d7-b32f-08e9320eb5d0",
+            "title": "Senior Cloud Infrastructure Engineer"
+          },
+          {
+            "posting_id": "5169081e-126c-4e27-99e2-d9dd59235f69",
+            "title": "Product Marketing Engineer"
+          },
+          {
+            "posting_id": "69bc6e7a-0304-4d81-ae72-7ccf5652a053",
+            "title": "Senior Backend Engineer (IAM and Billing)"
+          },
+          {
+            "posting_id": "6bdf790b-91f7-4aba-bc4f-38e9e4f66b42",
+            "title": "Head of Marketing"
+          },
+          {
+            "posting_id": "71a67633-5770-481b-9fb3-22e4f27cbca1",
+            "title": "Senior Product Engineer (Growth)"
+          },
+          {
+            "posting_id": "80474cd1-71ad-425e-bfb3-3fca13fda0ca",
+            "title": "Developer Relations Engineer (Content)"
+          },
+          {
+            "posting_id": "891eda0a-a9f6-45e6-8750-71874db8cc11",
+            "title": "Senior Software Engineer (SDK)"
+          },
+          {
+            "posting_id": "a2c4e24c-21d1-4a9f-8d46-422d0592efd6",
+            "title": "Senior Product Engineer "
+          },
+          {
+            "posting_id": "f17768f8-525b-4caa-a8ee-5553a4ff4979",
+            "title": "Senior Product Engineer (Integrations)"
+          }
+        ]
+      },
+      {
+        "company_id": "langfuse",
+        "population": "complete_official_ats_board",
+        "snapshot_at": "2026-06-24T10:37:16Z",
+        "observed_at": "2026-11-21T21:29:33.449781Z",
+        "archived": false,
+        "source_file": "evaluation/remaining-history-discovery/sources/langfuse-ashby-20260624103716.html",
+        "source_url": "https://web.archive.org/web/20260624103716id_/https://jobs.ashbyhq.com/langfuse",
+        "listed_count": 8,
+        "listings": [
+          {
+            "posting_id": "1225fa3d-d590-41d2-b798-ef927320fb2e",
+            "title": "Senior Backend Engineer (Data Infrastructure)"
+          },
+          {
+            "posting_id": "190c710e-c00c-4b76-82ce-9033b51b7086",
+            "title": "Developer Relations Engineer (Events & Community)"
+          },
+          {
+            "posting_id": "1bc2e248-89e7-41d7-b32f-08e9320eb5d0",
+            "title": "Senior Cloud Infrastructure Engineer"
+          },
+          {
+            "posting_id": "69bc6e7a-0304-4d81-ae72-7ccf5652a053",
+            "title": "Senior Backend Engineer (IAM and Billing)"
+          },
+          {
+            "posting_id": "71a67633-5770-481b-9fb3-22e4f27cbca1",
+            "title": "Senior Product Engineer (Growth)"
+          },
+          {
+            "posting_id": "891eda0a-a9f6-45e6-8750-71874db8cc11",
+            "title": "Senior Software Engineer (SDK)"
+          },
+          {
+            "posting_id": "a2c4e24c-21d1-4a9f-8d46-422d0592efd6",
+            "title": "Senior Product Engineer "
+          },
+          {
+            "posting_id": "f17768f8-525b-4caa-a8ee-5553a4ff4979",
+            "title": "Senior Product Engineer (Integrations)"
+          }
+        ],
+        "live_endpoint_status": 404,
+        "live_endpoint_url": "https://jobs.ashbyhq.com/langfuse",
+        "observation_basis": "latest_in_window_complete_archive_board_while_live_endpoint_unavailable"
       }
     ],
     "wandb": [
@@ -2045,6 +2359,22 @@
       "retained": []
     },
     {
+      "company_id": "continue",
+      "population": "complete_official_ats_board",
+      "baseline_at": "2026-02-13T01:29:47Z",
+      "latest_at": "2026-05-16T01:26:07Z",
+      "baseline_listed": 3,
+      "latest_listed": 3,
+      "net_posting_change": 0,
+      "newly_observed": [],
+      "no_longer_observed": [],
+      "retained": [
+        "219fce3e-7af9-4b00-8fa7-87bf53db72f7",
+        "36b1633f-153e-4277-9660-fc1bc5e7e255",
+        "3c3493c9-b66e-4add-9caa-ae424fe2a9ba"
+      ]
+    },
+    {
       "company_id": "langfuse",
       "population": "explicit_brand_titles_in_parent_ats",
       "baseline_at": "2026-07-30T11:38:56Z",
@@ -2125,6 +2455,125 @@
         "62e56a74-e1a8-4cbd-8314-a6f9788a4dd2",
         "870b82b7-6550-45b4-90a3-4019226b0470",
         "cf36e6db-3939-4ff0-8bcf-a3bb200d9e46"
+      ]
+    },
+    {
+      "company_id": "langfuse",
+      "population": "complete_official_ats_board",
+      "baseline_at": "2025-11-06T20:14:38Z",
+      "latest_at": "2026-06-24T10:37:16Z",
+      "baseline_listed": 11,
+      "latest_listed": 8,
+      "net_posting_change": -3,
+      "newly_observed": [
+        "1225fa3d-d590-41d2-b798-ef927320fb2e",
+        "190c710e-c00c-4b76-82ce-9033b51b7086",
+        "1bc2e248-89e7-41d7-b32f-08e9320eb5d0",
+        "69bc6e7a-0304-4d81-ae72-7ccf5652a053",
+        "71a67633-5770-481b-9fb3-22e4f27cbca1",
+        "891eda0a-a9f6-45e6-8750-71874db8cc11",
+        "a2c4e24c-21d1-4a9f-8d46-422d0592efd6",
+        "f17768f8-525b-4caa-a8ee-5553a4ff4979"
+      ],
+      "no_longer_observed": [
+        "1de6a592-5c8c-4a58-b5e0-9fdc0d133e61",
+        "41c7eb37-262f-4c71-9e63-59671064efe2",
+        "4ab496e8-15a9-4c14-960c-794470b92243",
+        "58b6797d-1b0a-4aef-bc47-1189268c508c",
+        "5ff18d4d-9066-4c67-8ecc-ffc0e295fee6",
+        "60231438-f158-4e7b-b08d-12e5222fcc16",
+        "673d4861-ebef-4dbd-bab1-2935e813cb7a",
+        "68d1f706-4f8e-4e93-8a62-a30d82af816f",
+        "a9b9e988-b17d-4ada-8ae3-605b9e371e0f",
+        "af9ef4ae-37a0-4dde-bcf5-2967aef0c4ea",
+        "dff72f11-75da-40b9-88b3-470f080b0906"
+      ],
+      "retained": []
+    },
+    {
+      "company_id": "langfuse",
+      "population": "complete_official_ats_board",
+      "baseline_at": "2025-11-18T08:21:06Z",
+      "latest_at": "2026-06-24T10:37:16Z",
+      "baseline_listed": 11,
+      "latest_listed": 8,
+      "net_posting_change": -3,
+      "newly_observed": [
+        "1225fa3d-d590-41d2-b798-ef927320fb2e",
+        "190c710e-c00c-4b76-82ce-9033b51b7086",
+        "1bc2e248-89e7-41d7-b32f-08e9320eb5d0",
+        "69bc6e7a-0304-4d81-ae72-7ccf5652a053",
+        "71a67633-5770-481b-9fb3-22e4f27cbca1",
+        "891eda0a-a9f6-45e6-8750-71874db8cc11",
+        "a2c4e24c-21d1-4a9f-8d46-422d0592efd6",
+        "f17768f8-525b-4caa-a8ee-5553a4ff4979"
+      ],
+      "no_longer_observed": [
+        "1de6a592-5c8c-4a58-b5e0-9fdc0d133e61",
+        "41c7eb37-262f-4c71-9e63-59671064efe2",
+        "4ab496e8-15a9-4c14-960c-794470b92243",
+        "58b6797d-1b0a-4aef-bc47-1189268c508c",
+        "5ff18d4d-9066-4c67-8ecc-ffc0e295fee6",
+        "60231438-f158-4e7b-b08d-12e5222fcc16",
+        "673d4861-ebef-4dbd-bab1-2935e813cb7a",
+        "68d1f706-4f8e-4e93-8a62-a30d82af816f",
+        "a9b9e988-b17d-4ada-8ae3-605b9e371e0f",
+        "af9ef4ae-37a0-4dde-bcf5-2967aef0c4ea",
+        "dff72f11-75da-40b9-88b3-470f080b0906"
+      ],
+      "retained": []
+    },
+    {
+      "company_id": "langfuse",
+      "population": "complete_official_ats_board",
+      "baseline_at": "2026-03-11T03:14:49Z",
+      "latest_at": "2026-06-24T10:37:16Z",
+      "baseline_listed": 9,
+      "latest_listed": 8,
+      "net_posting_change": -1,
+      "newly_observed": [
+        "190c710e-c00c-4b76-82ce-9033b51b7086",
+        "1bc2e248-89e7-41d7-b32f-08e9320eb5d0",
+        "69bc6e7a-0304-4d81-ae72-7ccf5652a053",
+        "f17768f8-525b-4caa-a8ee-5553a4ff4979"
+      ],
+      "no_longer_observed": [
+        "0cd84fa2-e4ce-4395-bee5-0489e86e89f5",
+        "53b7f80f-1af7-48ec-830e-d55cd9d42164",
+        "5fa45758-2f9b-4ff5-be2d-a5680580ff2d",
+        "60231438-f158-4e7b-b08d-12e5222fcc16",
+        "70495b02-82dd-4495-9e60-c5537a9602c8"
+      ],
+      "retained": [
+        "1225fa3d-d590-41d2-b798-ef927320fb2e",
+        "71a67633-5770-481b-9fb3-22e4f27cbca1",
+        "891eda0a-a9f6-45e6-8750-71874db8cc11",
+        "a2c4e24c-21d1-4a9f-8d46-422d0592efd6"
+      ]
+    },
+    {
+      "company_id": "langfuse",
+      "population": "complete_official_ats_board",
+      "baseline_at": "2026-06-15T19:49:22Z",
+      "latest_at": "2026-06-24T10:37:16Z",
+      "baseline_listed": 11,
+      "latest_listed": 8,
+      "net_posting_change": -3,
+      "newly_observed": [],
+      "no_longer_observed": [
+        "5169081e-126c-4e27-99e2-d9dd59235f69",
+        "6bdf790b-91f7-4aba-bc4f-38e9e4f66b42",
+        "80474cd1-71ad-425e-bfb3-3fca13fda0ca"
+      ],
+      "retained": [
+        "1225fa3d-d590-41d2-b798-ef927320fb2e",
+        "190c710e-c00c-4b76-82ce-9033b51b7086",
+        "1bc2e248-89e7-41d7-b32f-08e9320eb5d0",
+        "69bc6e7a-0304-4d81-ae72-7ccf5652a053",
+        "71a67633-5770-481b-9fb3-22e4f27cbca1",
+        "891eda0a-a9f6-45e6-8750-71874db8cc11",
+        "a2c4e24c-21d1-4a9f-8d46-422d0592efd6",
+        "f17768f8-525b-4caa-a8ee-5553a4ff4979"
       ]
     },
     {
@@ -2242,8 +2691,8 @@
   ],
   "source_gaps": {
     "crewai": "Two historical advertisement pages and four current roles are retained; no complete historical board population establishes stock change or hires.",
-    "continue": "YC-only paired history; current Ashby endpoint is unavailable. Directory zero does not imply zero company vacancies.",
-    "langfuse": "Paired counts apply only to explicit Langfuse titles in the ClickHouse account, not the whole parent or all Langfuse hiring.",
+    "continue": "Complete Ashby board history is retained from two in-window archived board landings (including one query-string capture of the same board). Live jobs.ashbyhq.com/continue currently returns 404, so the latest in-window complete archive is the latest available complete board observation. YC directory channel remains separate and scoped.",
+    "langfuse": "Complete Ashby board history is retained from archived board landings. Live jobs.ashbyhq.com/langfuse currently returns 404, so the latest in-window complete archive is the latest available complete board observation. Parent ClickHouse brand-title comparisons remain separate and scoped.",
     "wandb": "Dedicated weights_and_biases endpoint is unavailable. Paired counts use only explicit brand titles in the CoreWeave account.",
     "replicate": "Paired YC-only zero-listing observations are retained; parent Cloudflare jobs are not substituted as Replicate hiring."
   },
@@ -2254,6 +2703,7 @@
     "Posting additions/removals are listing observations, not completed hires or headcount changes.",
     "Brand-title changes can move existing parent posting IDs into a subset; newly selected IDs are split by prior presence in the full parent population.",
     "Historical payloads are decoded offline. The Chroma browser fallback captures the archived network body with scripts disabled and validates its Memento clock.",
+    "When a live complete board endpoint is unavailable, a later in-window complete archive board may be used as the latest available complete observation; this is not a restored live feed.",
     "Selected-channel and parent-title comparisons do not satisfy whole-company temporal ground truth.",
     "Frozen benchmark corpora, relevance judgments, rater decisions and pilot results are unchanged."
   ],
@@ -2321,6 +2771,18 @@
     "evaluation/remaining-history-discovery/sources/clickhouse-parent-cdx.json": "0a5cee8510f584e5ff8f59e378fbdb04b8c55e2191cf406140f1fdbdf67eb315",
     "evaluation/remaining-history-discovery/sources/cloudflare-parent-cdx.json": "4f04b7c887ad588a2e3343af7ebf2997455c5287d07bdbde2a877f25d4bbe39b",
     "evaluation/remaining-history-discovery/langfuse-render.json": "976865dc7a53078d7fe190c25cfd2117434d7612aaea08d5dca026e95864414e",
+    "evaluation/remaining-history-discovery/langfuse-ashby-discovery.json": "db3ee4850ac388746777f7d1602bb3b86968c36b2b8f106e9f8f77bb91ec0dd2",
+    "evaluation/remaining-history-discovery/sources/langfuse-ashby-guess-cdx.json": "f68188c30bd1cc3f47e9d4778b1af72b22b4ece37612c3e7362b3f7c48a41a6c",
+    "evaluation/remaining-history-discovery/langfuse-ashby-captures.json": "bc8e8e9820280c7e428ca772e690303cccf4e95322dc016f2827628d1d6909b1",
+    "evaluation/remaining-history-discovery/sources/langfuse-ashby-20251106201438.html": "f483ce0b2ba29f5e0c322c37a8d3d7013531636b6d6403c19b12ab7af94a0b75",
+    "evaluation/remaining-history-discovery/sources/langfuse-ashby-20251118082106.html": "b1ba0034d2c71ff0f760e18885850ec10a9be04760178a1be621257f7d8826e8",
+    "evaluation/remaining-history-discovery/sources/langfuse-ashby-20260311031449.html": "1d6beac0290f0153dc7dfe2868daa6f79d43a53bc8dd084d9ccca8199a1d5329",
+    "evaluation/remaining-history-discovery/sources/langfuse-ashby-20260615194922.html": "372f8bcc8a33453f595f1bf7f2b7910f5f2502de169f7ba72931869b91fd21b7",
+    "evaluation/remaining-history-discovery/sources/langfuse-ashby-20260624103716.html": "8204b5613ea57dbaa9aaca426aaa3b3d58424b83944208cdc6982fc44adc0934",
+    "evaluation/remaining-history-discovery/continue-ashby-discovery.json": "2694f72b2ca384340748c1b93088ae79fa4aa2b2456d5b6914db9f575f978e38",
+    "evaluation/remaining-history-discovery/sources/round3-continue-ashby-board-prefix-cdx.json": "29125b49b52cacf9d2da76349084b7128d8f715819682ad6068efaf66dbdad00",
+    "evaluation/remaining-history-discovery/continue-ashby-captures.json": "5dfbb3671f2b63feb3480f674df69d1b0b37bc26bb5f9487ad26b4e22c497f10",
+    "evaluation/remaining-history-discovery/sources/continue-ashby-20260516012607.html": "6ef08cafca0f1e4c4d695f3aa3ee1851cb8f6fb1876dd261067e8d3fbc492d37",
     "evaluation/remaining-history-discovery/sources/langfuse-parent-rendered.html": "334a2ac2a1d2f6bd34292ef6973954205d0e24b87465103093a143681228ebdd",
     "evaluation/cohort-history-followup/sources/langfuse-careers.html": "1b71489e3df8fcbe56283e199d4f5b1264f8e68acbc6efd32ccfc6aa52072e36",
     "evaluation/cohort-history-followup/sources/wandb-careers.html": "c22097f4689df7b140fe2a353c329e729c1bc2e289ebaa347e3848df69debffa",
@@ -2334,7 +2796,7 @@
     "evaluation/browser-archives/chroma-20261003182939/response.html": "4ad72e2d8e7945080774a31c0168d1fa60c61a45213f0ba0f331c55d1541048b",
     "evaluation/browser-archives/chroma-20261102064608/manifest.json": "6eb946a1c081aa381e2caa1381a0b61b37d8d88526c49293d74f03182a9e53a0",
     "evaluation/browser-archives/chroma-20261102064608/response.html": "b0414b2eaca3f30eb29cf8901c68c7080af75cf723c7a89aa961084d8c7d826f",
-    "evaluation/remaining_history_review.py": "3263fdf1fef5745701dc6bd9744b94c2d99315ae8e33daab43c802cd9c33eb61",
+    "evaluation/remaining_history_review.py": "4351d2d4db3ac5a0f28b90614dedca0bfbf1651b3201d6d6b832be6dcddf6cf0",
     "collectors/archive_browser.py": "2385fba8417df22f9aeb772e5ed766092c752d6aa8f2faf872e444dd1656584a",
     "evaluation/ats_history.py": "fc86a9ac4c8f39cd50dc7452279405c8a025856314aaf2d9dfe484df93e485b8"
   }

@@ -1,0 +1,45 @@
+HTTP/2 200 
+server: nginx
+date: Sat, 21 Nov 2026 21:36:33 GMT
+content-type: text/html; charset=utf-8
+content-length: 19860
+x-archive-orig-date: Fri, 13 Feb 2026 01:29:47 GMT
+x-archive-orig-x-crawler-content-encoding: br
+x-archive-orig-x-ashby-request-id: 01KHA9WKRS3ZP7GE7K84Y8NQRV
+x-archive-orig-x-content-type-options: nosniff
+x-archive-orig-x-frame-options: DENY
+x-archive-orig-referrer-policy: same-origin
+x-archive-orig-ashby-session-expiry-alert-level: 
+x-archive-orig-cache-control: public, max-age=60, stale-if-error=600
+x-archive-orig-content-security-policy: base-uri 'self'; block-all-mixed-content; connect-src 'self' https://cdn.ashbyprd.com https://*.browser-intake-datadoghq.com https://browser-intake-datadoghq.com https://browser-intake-us3-datadoghq.com https://browser-intake-us5-datadoghq.com https://browser-intake-datadoghq.eu https://browser-intake-ddog-gov.com https://browser-intake-ap1-datadoghq.com https://ashbyhq-infra-prd-main-app-uploaded-files-us-east-1.s3.us-east-1.amazonaws.com https://ashbyhq-infra-prd-main-app-uploaded-files-us-east-1.s3.dualstack.us-east-1.amazonaws.com https://edge.fullstory.com https://rs.fullstory.com https://www.recaptcha.net https://www.google.com/recaptcha https://sentry.io https://*.ingest.sentry.io https://*.seondnsresolve.com https://*.seondfresolver.com https://*.deviceinfresolver.com https://*.seonintelligence.com; default-src 'none'; img-src 'self' https://cdn.ashbyprd.com https://rs.fullstory.com https: data:; script-src 'nonce-B3ti9AQ0lUIEiF-UXwt9fX49fP-W-Fl3usDECMerLzg' https://cdn.ashbyprd.com https://edge.fullstory.com https://rs.fullstory.com https://www.recaptcha.net/recaptcha/ https://www.google.com/recaptcha/ https://www.gstatic.com/recaptcha/; style-src 'self' https://cdn.ashbyprd.com https: 'unsafe-inline'; upgrade-insecure-requests; font-src https://cdn.ashbyprd.com https:; child-src blob:; worker-src blob:; frame-src https://www.recaptcha.net/recaptcha/ https://www.google.com/recaptcha/ https://recaptcha.google.com/recaptcha/ https://embedded-media.ashbyhq.com;
+x-archive-orig-cf-cache-status: EXPIRED
+x-archive-orig-vary: Accept-Encoding
+x-archive-orig-strict-transport-security: max-age=31536000; includeSubDomains; preload
+x-archive-orig-server: cloudflare
+x-archive-orig-cf-ray: 9cd08e84a97eea88-IAD
+x-archive-orig-alt-svc: h3=":443"; ma=86400
+x-archive-orig-content-length: 19860
+cache-control: max-age=1800
+accept-ranges: bytes
+memento-datetime: Fri, 13 Feb 2026 01:29:47 GMT
+link: <https://jobs.ashbyhq.com/continue>; rel="original", <https://web.archive.org/web/timemap/link/https://jobs.ashbyhq.com/continue>; rel="timemap"; type="application/link-format", <https://web.archive.org/web/https://jobs.ashbyhq.com/continue>; rel="timegate"
+content-security-policy: default-src 'self' 'unsafe-eval' 'unsafe-inline' data: blob: archive.org web.archive.org web-static.archive.org wayback-api.archive.org athena.archive.org analytics.archive.org pragma.archivelab.org wwwb-events.archive.org
+x-archive-src: CC-MAIN-2026-08-1770395506264.64-0014/CC-MAIN-20260213000354-20260213030354-00293.warc.gz
+server-timing: captures_list;dur=0.463430, exclusion.robots;dur=0.040406, exclusion.robots.policy;dur=0.029503, esindex;dur=0.009023, cdx.remote;dur=4.185641, LoadShardBlock;dur=818.353201, PetaboxLoader3.datanode;dur=803.876373, PetaboxLoader3.resolve;dur=89.806569, load_resource;dur=129.110653
+x-app-server: wwwb-app247-dc8
+x-ts: 200
+x-tr: 978
+server-timing: TR;dur=0,Tw;dur=0,Tc;dur=0
+set-cookie: wb-p-SERVER=wwwb-app247; path=/
+cache-control: private
+x-location: All
+x-as: 22773
+x-rl: 0
+x-na: 0
+x-page-cache: MISS
+server-timing: MISS
+x-nid: Cox Communications Inc.
+referrer-policy: no-referrer-when-downgrade
+permissions-policy: interest-cohort=()
+x-sd: 0
+

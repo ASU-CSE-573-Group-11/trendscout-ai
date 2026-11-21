@@ -1,0 +1,328 @@
+{
+  "created_at": "2026-11-21T22:11:13Z",
+  "purpose": "Final remaining owner tasks after Sueda/Mehmet annotation+history cleanup",
+  "sueda_mehmet_status": {
+    "annotation": "complete",
+    "hiring_complete_official_populations": "15/18",
+    "archive_exhausted_gaps": [
+      "crewai",
+      "replicate",
+      "wandb"
+    ],
+    "sueda_owner_deliverables": "all stage 4 within stated scope",
+    "mehmet_owner_deliverables": "all stage 4; 18-company cohort graph + live Neo4j parity",
+    "cohort_graph": "evaluation/cohort-real-graph-integration/",
+    "license": "MIT LICENSE at repository root",
+    "shared_still_open": [
+      "publisher redistribution clearance",
+      "GitHub branch protection"
+    ]
+  },
+  "vidya": {
+    "name": "Vidya Sagar Dudekula",
+    "priority_tasks": [
+      {
+        "task": "Fill verified cohort ATS mapping",
+        "why": "data/registry/cohort.json still has greenhouse_board=lever_site=null for all 18",
+        "how": [
+          "Use evaluation/cohort-source-audit/board-audit.json as evidence source",
+          "For Greenhouse companies set greenhouse_board to audited slug (e.g. browserbaseinc, sourcegraph91)",
+          "For Lever companies set lever_site if any appear",
+          "For Ashby/Workable/other: leave null and document N/A + actual ATS type/slug in collectors/API_COLLECTORS.md or a new evaluation/vidya-ats-mapping/manifest.json"
+        ],
+        "greenhouse_candidates_from_audit": [
+          "browserbase",
+          "sourcegraph"
+        ],
+        "other_ats_companies": [
+          "langchain",
+          "llamaindex",
+          "crewai",
+          "e2b",
+          "composio",
+          "letta",
+          "langfuse",
+          "deepset",
+          "continue",
+          "modal",
+          "replicate",
+          "wandb",
+          "pinecone",
+          "weaviate",
+          "chroma",
+          "arize"
+        ]
+      },
+      {
+        "task": "Archive cohort-wide Greenhouse/Lever collector runs",
+        "why": "Verified cohort ATS mapping / cohort-wide jobs is stage 0",
+        "commands": [
+          "python -m pip install -r requirements-collectors.txt",
+          "python -m collectors --source greenhouse --target BOARD --company-id ID --company-name 'Name'",
+          "python -m collectors --source lever --target BOARD --company-id ID --company-name 'Name'"
+        ],
+        "deliverable_path_suggestion": "evaluation/vidya-cohort-jobs/manifest.json + records/snapshots (committed, not only gitignored artifacts/collectors/)"
+      },
+      {
+        "task": "Extend job/role/skill normalization OR document v1 scope",
+        "files": [
+          "collectors/common.py",
+          "collectors/API_COLLECTORS.md"
+        ],
+        "note": "Only ~11 skills today; MLOps/retrieval taxonomy incomplete. Either expand SKILLS or explicitly mark v1 scope and point MLOps families to signals/job_features.py (Faisal)."
+      },
+      {
+        "task": "Clarify multiweek ownership",
+        "note": "18×8 GitHub weeks are in evaluation/cohort-history-v2 (Sueda). Vidya must either lead Greenhouse/Lever multiweek job snapshots for mapped companies or document that GitHub history is out of scope for her collectors."
+      }
+    ],
+    "ats_map_from_board_audit": [
+      {
+        "company_id": "langchain",
+        "name": "LangChain",
+        "registry_greenhouse": null,
+        "registry_lever": null,
+        "audited_boards": [
+          {
+            "type": "ashby",
+            "slug": "langchain",
+            "api_url": "https://api.ashbyhq.com/posting-api/job-board/langchain",
+            "current_http_status": 200,
+            "current_listed_count": 102
+          }
+        ]
+      },
+      {
+        "company_id": "llamaindex",
+        "name": "LlamaIndex",
+        "registry_greenhouse": null,
+        "registry_lever": null,
+        "audited_boards": []
+      },
+      {
+        "company_id": "crewai",
+        "name": "CrewAI",
+        "registry_greenhouse": null,
+        "registry_lever": null,
+        "audited_boards": []
+      },
+      {
+        "company_id": "e2b",
+        "name": "E2B",
+        "registry_greenhouse": null,
+        "registry_lever": null,
+        "audited_boards": [
+          {
+            "type": "ashby",
+            "slug": "e2b",
+            "api_url": "https://api.ashbyhq.com/posting-api/job-board/e2b",
+            "current_http_status": 200,
+            "current_listed_count": 14
+          }
+        ]
+      },
+      {
+        "company_id": "browserbase",
+        "name": "Browserbase",
+        "registry_greenhouse": null,
+        "registry_lever": null,
+        "audited_boards": [
+          {
+            "type": "greenhouse",
+            "slug": "browserbaseinc",
+            "api_url": "https://boards-api.greenhouse.io/v1/boards/browserbaseinc/jobs",
+            "current_http_status": 200,
+            "current_listed_count": 16
+          }
+        ]
+      },
+      {
+        "company_id": "composio",
+        "name": "Composio",
+        "registry_greenhouse": null,
+        "registry_lever": null,
+        "audited_boards": [
+          {
+            "type": "ashby",
+            "slug": "composio",
+            "api_url": "https://api.ashbyhq.com/posting-api/job-board/composio",
+            "current_http_status": 200,
+            "current_listed_count": 30
+          }
+        ]
+      },
+      {
+        "company_id": "letta",
+        "name": "Letta",
+        "registry_greenhouse": null,
+        "registry_lever": null,
+        "audited_boards": [
+          {
+            "type": "ashby",
+            "slug": "letta",
+            "api_url": "https://api.ashbyhq.com/posting-api/job-board/letta",
+            "current_http_status": 200,
+            "current_listed_count": 4
+          }
+        ]
+      },
+      {
+        "company_id": "langfuse",
+        "name": "Langfuse",
+        "registry_greenhouse": null,
+        "registry_lever": null,
+        "audited_boards": []
+      },
+      {
+        "company_id": "deepset",
+        "name": "deepset",
+        "registry_greenhouse": null,
+        "registry_lever": null,
+        "audited_boards": [
+          {
+            "type": "ashby",
+            "slug": "deepsetai",
+            "api_url": "https://api.ashbyhq.com/posting-api/job-board/deepsetai",
+            "current_http_status": 200,
+            "current_listed_count": 4
+          }
+        ]
+      },
+      {
+        "company_id": "continue",
+        "name": "Continue",
+        "registry_greenhouse": null,
+        "registry_lever": null,
+        "audited_boards": []
+      },
+      {
+        "company_id": "sourcegraph",
+        "name": "Sourcegraph",
+        "registry_greenhouse": null,
+        "registry_lever": null,
+        "audited_boards": [
+          {
+            "type": "greenhouse",
+            "slug": "sourcegraph91",
+            "api_url": "https://boards-api.greenhouse.io/v1/boards/sourcegraph91/jobs",
+            "current_http_status": 200,
+            "current_listed_count": 8
+          }
+        ]
+      },
+      {
+        "company_id": "modal",
+        "name": "Modal",
+        "registry_greenhouse": null,
+        "registry_lever": null,
+        "audited_boards": [
+          {
+            "type": "ashby",
+            "slug": "modal",
+            "api_url": "https://api.ashbyhq.com/posting-api/job-board/modal",
+            "current_http_status": 200,
+            "current_listed_count": 52
+          }
+        ]
+      },
+      {
+        "company_id": "replicate",
+        "name": "Replicate",
+        "registry_greenhouse": null,
+        "registry_lever": null,
+        "audited_boards": []
+      },
+      {
+        "company_id": "wandb",
+        "name": "Weights & Biases",
+        "registry_greenhouse": null,
+        "registry_lever": null,
+        "audited_boards": []
+      },
+      {
+        "company_id": "pinecone",
+        "name": "Pinecone",
+        "registry_greenhouse": null,
+        "registry_lever": null,
+        "audited_boards": [
+          {
+            "type": "ashby",
+            "slug": "pinecone",
+            "api_url": "https://api.ashbyhq.com/posting-api/job-board/pinecone",
+            "current_http_status": 200,
+            "current_listed_count": 8
+          }
+        ]
+      },
+      {
+        "company_id": "weaviate",
+        "name": "Weaviate",
+        "registry_greenhouse": null,
+        "registry_lever": null,
+        "audited_boards": []
+      },
+      {
+        "company_id": "chroma",
+        "name": "Chroma",
+        "registry_greenhouse": null,
+        "registry_lever": null,
+        "audited_boards": []
+      },
+      {
+        "company_id": "arize",
+        "name": "Arize",
+        "registry_greenhouse": null,
+        "registry_lever": null,
+        "audited_boards": []
+      }
+    ]
+  },
+  "faisal": {
+    "name": "Faisal Barkat Khorasi",
+    "priority_tasks": [
+      {
+        "task": "Run semantic dense encoder comparison",
+        "why": "Scored runs are hashing-only (evaluation/mixed/run-provenance.json)",
+        "commands": [
+          "python -m pip install -r requirements-interface.txt",
+          ".venv/bin/python -m interface --demo --mode dense --encoder sentence-transformers/all-MiniLM-L6-v2 --validate --out artifacts/answers-semantic.jsonl"
+        ],
+        "deliverable": "Commit provenance e.g. evaluation/mixed/run-provenance-semantic.json with encoder name and metrics"
+      },
+      {
+        "task": "Live Neo4j answer-path measurement",
+        "why": "Neo4j payload validated under Mehmet; Faisal agent path still needs Neo4jBackend end-to-end evidence",
+        "inputs": [
+          "evaluation/mixed/real-graph-integration/graph.json",
+          "evaluation/mixed/real-graph-integration/live-neo4j-validation.json",
+          "docs/faisal-trends-and-retrieval.md"
+        ],
+        "deliverable": "Answer bundle + latency log showing Neo4jBackend (not only InMemoryGraph)"
+      },
+      {
+        "task": "Optional Anthropic/live UI acceptance",
+        "commands": [
+          "export ANTHROPIC_API_KEY=...",
+          "python -m interface --demo --provider anthropic --latency-log artifacts/latency-anthropic.jsonl",
+          "streamlit run interface/app.py"
+        ],
+        "deliverable": "Latency report + short UI acceptance note in docs/faisal-trends-and-retrieval.md"
+      },
+      {
+        "task": "Update ablations/report for semantic condition",
+        "files": [
+          "docs/final-report.md",
+          "docs/faisal-trends-and-retrieval.md",
+          "evaluation/mixed/integration/summary.json"
+        ],
+        "note": "Do not claim dense/semantic superiority without semantic:true provenance"
+      }
+    ]
+  },
+  "shared_team_still_open": [
+    "Root LICENSE + publisher redistribution clearance (evaluation/submission/license-access-inventory.json)",
+    "Branch-protection enforcement where access-review shows gaps",
+    "Final delivery archive claiming complete research submission remains false until license/distribution closed"
+  ],
+  "updated_at": "2026-11-21T22:18:41Z"
+}

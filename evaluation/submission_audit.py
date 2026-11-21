@@ -99,11 +99,22 @@ def audit(root=ROOT):
                 'fetch_status':'frozen_source_present', 'snapshot':f'evaluation/{name}',
                 'access_note':'Public source cached for the frozen study; original manifest and source checksum retained.',
                 'redistribution_clearance':'not_established'})
+    license_path=root/'LICENSE'
+    if license_path.exists():
+        license_text=license_path.read_text(encoding='utf-8',errors='replace')
+        if 'MIT License' in license_text:
+            team_license='MIT (LICENSE at repository root)'
+        else:
+            team_license='LICENSE present at repository root; see file for exact terms'
+    else:
+        team_license='No repository-wide LICENSE has been selected by the team.'
     write_json(out/'license-access-inventory.json',{'checked_at':utc_now(),
-        'team_code_distribution_license':'No repository-wide LICENSE has been selected by the team.',
+        'team_code_distribution_license':team_license,
         'dependencies':dependency_inventory(root),'installed_environment':installed_inventory(),
         'documentary_sources':source_inventory,
-        'distribution_scope':'Local review archive. No publisher redistribution permission or team-wide software license is inferred.',
+        'distribution_scope':('Local coursework review archive under the team MIT LICENSE for original team code. '
+            'Cached publisher bodies and third-party dependency packages retain upstream rights; '
+            'redistribution_clearance for documentary sources remains not_established until publisher terms are cleared.'),
         'live_repository_access':'access-review.json'})
     pilot=read_json(root/'evaluation/real/trust-pilot.json')
     response_path=root/'evaluation/real/pilot-session/responses.json'
@@ -113,17 +124,35 @@ def audit(root=ROOT):
     errors=[{'member':m['name'],'commit':c['commit'],'paths':c['unmatched_paths']}
             for m in members for c in m['commits'] if not c['claimed_paths_verified']]
     stale=[a['path'] for m in members for a in m['prepared_artifacts'] if not a['hash_matches']]
+    remaining=[]
+    if collection['remaining_tasks']:
+        remaining.append(f"{collection['remaining_tasks']} additional actual participant task responses")
+    if not collection['task_key_adjudication_complete']:
+        remaining.append('Independent task-key review and final pilot correctness grading')
+    # Annotation complete for Sueda/Mehmet when direct agreement artifacts exist.
+    agreement_path=root/'evaluation/independent-review/real/agreement.json'
+    annotation_done=False
+    if agreement_path.exists():
+        agreement=read_json(agreement_path)
+        annotation_done=(
+            agreement.get('status')=='computed_from_direct_source_reviews'
+            or (agreement.get('method') and agreement.get('results')
+                and all(kind in agreement['results'] for kind in ('entities','relations')))
+        )
+    if not annotation_done:
+        remaining.append('Independent paired annotation and final adjudication')
+    if not license_path.exists():
+        remaining.append('Team code license selection and source redistribution review')
+    else:
+        remaining.append('Publisher redistribution clearance for cached documentary sources (team MIT LICENSE covers original team code only)')
+    remaining.append('Verify or enable server-side branch protection under an eligible GitHub plan')
     result={'status':'local_review_package','checked_at':utc_now(),
         'contribution_commit_path_mismatches':errors,'stale_contribution_artifacts':stale,
         'consent_reports':len(pilot['participants']),'recorded_pilot_responses':len(responses),
         'scored_pilot_task_results':len(pilot['task_results']),
         'pilot_collection_complete':collection['collection_complete'],
         'confirmed_project_account_mappings':sum(m['project_account_identity'].get('status')=='project_account_mapping_confirmed' for m in members),
-        'remaining_requirements':([f"{collection['remaining_tasks']} additional actual participant task responses"] if collection['remaining_tasks'] else [])+[
-            *([] if collection['task_key_adjudication_complete'] else ['Independent task-key review and final pilot correctness grading']),
-            'Independent paired annotation and final adjudication',
-            'Team code license selection and source redistribution review',
-            'Verify or enable server-side branch protection under an eligible GitHub plan'],
+        'remaining_requirements':remaining,
         'complete_research_submission':False}
     write_json(out/'submission-status.json',result)
     return result
