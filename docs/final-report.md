@@ -111,6 +111,19 @@ inventory contains 374 exact-offset entity predictions and 374 MENTIONS
 relations, requiring review. These are extraction outputs rather than gold
 annotations.
 
+A separate [real semantic graph projection](../evaluation/mixed/real-graph-integration/summary.json)
+keeps that original experiment frozen while projecting the same 45 retained
+records into 170 nodes and 466 relationships. It contains 45 source-excerpt
+Claims, 4 source-reviewed Investors, 3 explicitly named FundingRounds, 18 public
+JobPostings, 3 Repositories, 10 Skills and 8 Technologies, alongside provenance
+nodes. The complete RDF graph conforms to expanded SHACL shapes. A live local
+Neo4j acceptance check matched all 170 payload IDs and all 466 payload
+relationships. Database totals are higher because earlier fixture/source nodes
+remain in the same local database. Public listings are not treated as completed
+hires; unknown funding event dates remain absent; Investors are not assigned to
+specific FundingRounds without a retained source link; Claims remain emerging
+source excerpts rather than independent semantic gold.
+
 A component-only rubric assigns 1 to explicit relevant evidence components and
 0 otherwise, with no grade-2 labels. Ten of 28 questions have such components.
 Hybrid raw P@5 is 0.1714 and MRR@5 is 0.2321 under this rubric. These results

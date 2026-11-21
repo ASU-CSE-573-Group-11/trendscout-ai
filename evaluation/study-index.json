@@ -89,5 +89,10 @@
   "remaining_company_history_review": {
     "directory": "evaluation/remaining-history-discovery",
     "scope": "13 paired complete official populations, four additional restricted directory/brand-title channels, CrewAI current board and historical advertisements without a complete baseline. No weekly interpolation or old benchmark-score changes."
+  },
+  "real_graph_integration": {
+    "directory": "evaluation/mixed/real-graph-integration",
+    "builder": "evaluation.real_graph_integration",
+    "scope": "Frozen real mixed-source projection with Claim, Investor, FundingRound, JobPosting, Repository, Skill and Technology nodes; RDF/SHACL replay and payload-specific live Neo4j acceptance. Listings are not hires and unknown funding event dates remain absent."
   }
 }

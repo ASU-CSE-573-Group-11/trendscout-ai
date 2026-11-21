@@ -111,9 +111,9 @@
     },
     {
       "name": "Mehmet Aksit",
-      "owner_points_out_of_80": 55.0,
+      "owner_points_out_of_80": 67.5,
       "shared_points_out_of_20": 11.25,
-      "completion_estimate": 66.25,
+      "completion_estimate": 78.75,
       "deliverables": [
         {
           "deliverable": "Temporal ontology and vocabulary",
@@ -126,26 +126,26 @@
         {
           "deliverable": "Neo4j schema, constraints and loader",
           "weight": 10,
-          "stage": 3,
-          "points": 7.5,
-          "evidence": "graph/neo4j.py; graph/constraints.cypher; graph/README.md",
-          "remaining": "Fixture live-loader check is documented; full-cohort real-data acceptance is not present."
+          "stage": 4,
+          "points": 10.0,
+          "evidence": "graph/neo4j.py; graph/constraints.cypher; graph/README.md; evaluation/mixed/real-graph-integration/live-neo4j-validation.json",
+          "remaining": "The generic payload loader matched all 170 real mixed-graph node IDs and 466 relationships in local Neo4j. Full-cohort population remains a separate expansion task."
         },
         {
           "deliverable": "RDF/Turtle and PROV-O export",
           "weight": 10,
-          "stage": 3,
-          "points": 7.5,
-          "evidence": "graph/rdf.py; evaluation/mixed/integration/records.ttl",
-          "remaining": "Real mixed export has 45 SourceRecord nodes but zero Claim, Investor, or FundingRound nodes."
+          "stage": 4,
+          "points": 10.0,
+          "evidence": "graph/rdf.py; evaluation/mixed/real-graph-integration/records.ttl; evaluation/mixed/real-graph-integration/summary.json",
+          "remaining": "The real mixed RDF export includes Claim, Investor, FundingRound, JobPosting, Repository, Skill and Technology nodes with provenance. Full-cohort population remains separate."
         },
         {
           "deliverable": "SHACL validation",
           "weight": 10,
-          "stage": 3,
-          "points": 7.5,
-          "evidence": "ontology/shapes.ttl; graph/shacl.py; evaluation/mixed/integration/shacl-report.txt",
-          "remaining": "SourceRecord/Startup/Publisher/Claim shapes exist; the real exported RDF does not exercise Claim nodes."
+          "stage": 4,
+          "points": 10.0,
+          "evidence": "ontology/shapes.ttl; graph/shacl.py; evaluation/mixed/real-graph-integration/shacl-report.txt",
+          "remaining": "Expanded shapes validate the complete real mixed RDF graph, including all new semantic node classes."
         },
         {
           "deliverable": "Cypher and SPARQL competency queries",
@@ -158,10 +158,10 @@
         {
           "deliverable": "Claims, evidence ledger and temporal paths",
           "weight": 10,
-          "stage": 3,
-          "points": 7.5,
-          "evidence": "graph/evidence.py; evaluation/mixed/integration/evidence.jsonl; evaluation/mixed/integration/graph.json",
-          "remaining": "Real-source excerpts project to claims in JSON; full semantic event/investor/hiring paths and live DB verification remain."
+          "stage": 4,
+          "points": 10.0,
+          "evidence": "graph/evidence.py; graph/real_projection.py; evaluation/mixed/real-graph-integration/graph.json; evaluation/mixed/real-graph-integration/live-neo4j-validation.json",
+          "remaining": "Provenance-bound real claims, investor/startup backing, funding announcements, public listings and repositories are integrated. No hire, causal path, unknown event date or unsupported round participation is inferred."
         },
         {
           "deliverable": "Assigned independent annotation",
@@ -174,10 +174,10 @@
         {
           "deliverable": "Full-cohort live integration and reproducible demo",
           "weight": 10,
-          "stage": 2,
-          "points": 5.0,
-          "evidence": "retrieval/graph_access.py; docs/faisal-trends-and-retrieval.md",
-          "remaining": "Real-source offline demo exists; full-cohort Neo4j and graph-path correctness measurements remain."
+          "stage": 3,
+          "points": 7.5,
+          "evidence": "retrieval/graph_access.py; evaluation/mixed/real-graph-integration/summary.json; evaluation/mixed/real-graph-integration/live-neo4j-validation.json",
+          "remaining": "The five-company mixed snapshot has reproducible RDF/SHACL replay and live Neo4j payload acceptance. Full 18-company semantic population and cited-answer correctness measurements remain."
         }
       ]
     },

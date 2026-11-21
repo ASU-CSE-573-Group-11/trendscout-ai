@@ -1,13 +1,13 @@
 {
-  "checked_at": "2026-11-21T20:02:27Z",
-  "command": ".venv/bin/python -m pytest -q --junitxml=artifacts/submission-tests-mehmet.xml",
+  "checked_at": "2026-11-21T20:20:21Z",
+  "command": ".venv/bin/python -m pytest -q --junitxml=artifacts/submission-tests-real-graph.xml",
   "counts": {
-    "tests": 490,
+    "tests": 495,
     "failures": 0,
     "errors": 0,
     "skipped": 1
   },
-  "passed": 489,
+  "passed": 494,
   "scope": "Software tests. Final pilot scores assess only observed fields.",
   "browser_smoke_check": {
     "status": "passed",
@@ -21,9 +21,9 @@
     "verified": "Source visible, readable candidate, no label preselection, personal confirmation unchecked."
   },
   "latest_targeted_check": {
-    "command": ".venv/bin/python -m pytest tests/test_graph_artifacts.py tests/test_sparql_queries.py tests/test_rdf.py tests/test_shacl.py -q",
-    "passed": 12,
+    "command": ".venv/bin/python -m pytest tests/test_real_graph_integration.py tests/test_cypher.py tests/test_graph_artifacts.py tests/test_rdf.py tests/test_shacl.py tests/test_sparql_queries.py -q",
+    "passed": 21,
     "failed": 0,
-    "scope": "Ontology class and domain/range contracts; independent SPARQL parsing and representative in-memory query execution; existing RDF and SHACL regression checks."
+    "scope": "Real semantic projection, complete-payload Cypher generation, ontology/constraint coverage, RDF/SHACL conformance, SPARQL parsing and representative query execution."
   }
 }

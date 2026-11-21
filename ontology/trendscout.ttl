@@ -130,6 +130,22 @@ ts:relatedEvent a owl:ObjectProperty ;
     rdfs:domain ts:Claim ;
     rdfs:range ts:Event .
 
+ts:documents a owl:ObjectProperty ;
+    rdfs:domain ts:SourceRecord ;
+    rdfs:range owl:Thing .
+
+ts:mentions a owl:ObjectProperty ;
+    rdfs:domain ts:SourceRecord ;
+    rdfs:range owl:Thing .
+
+ts:backs a owl:ObjectProperty ;
+    rdfs:domain ts:Investor ;
+    rdfs:range ts:Startup .
+
+ts:claimSubject a owl:ObjectProperty ;
+    rdfs:domain ts:Claim ;
+    rdfs:range ts:Startup .
+
 # Temporal and scalar properties.
 
 ts:eventAt a owl:DatatypeProperty ;
@@ -150,6 +166,26 @@ ts:observedAt a owl:DatatypeProperty ;
 ts:stateChangedAt a owl:DatatypeProperty ;
     rdfs:subPropertyOf schema:temporal ;
     rdfs:domain ts:Claim ;
+    rdfs:range xsd:dateTime .
+
+ts:listedAt a owl:DatatypeProperty ;
+    rdfs:subPropertyOf schema:temporal ;
+    rdfs:domain ts:JobPosting ;
+    rdfs:range xsd:dateTime .
+
+ts:announcedAt a owl:DatatypeProperty ;
+    rdfs:subPropertyOf schema:temporal ;
+    rdfs:domain ts:FundingRound ;
+    rdfs:range xsd:dateTime .
+
+ts:sourceUpdatedAt a owl:DatatypeProperty ;
+    rdfs:subPropertyOf schema:temporal ;
+    rdfs:domain ts:Repository ;
+    rdfs:range xsd:dateTime .
+
+ts:sourcePushedAt a owl:DatatypeProperty ;
+    rdfs:subPropertyOf schema:temporal ;
+    rdfs:domain ts:Repository ;
     rdfs:range xsd:dateTime .
 
 ts:contentHash a owl:DatatypeProperty ;
@@ -238,4 +274,24 @@ ts:jobPostingId a owl:DatatypeProperty ;
 
 ts:repositoryId a owl:DatatypeProperty ;
     rdfs:domain ts:Repository ;
+    rdfs:range xsd:string .
+
+ts:sourceRecordId a owl:DatatypeProperty ;
+    rdfs:domain owl:Thing ;
+    rdfs:range xsd:string .
+
+ts:defaultBranch a owl:DatatypeProperty ;
+    rdfs:domain ts:Repository ;
+    rdfs:range xsd:string .
+
+ts:licenseSpdx a owl:DatatypeProperty ;
+    rdfs:domain ts:Repository ;
+    rdfs:range xsd:string .
+
+ts:eventDateBasis a owl:DatatypeProperty ;
+    rdfs:domain ts:FundingRound ;
+    rdfs:range xsd:string .
+
+ts:skillExtractionMethod a owl:DatatypeProperty ;
+    rdfs:domain ts:JobPosting ;
     rdfs:range xsd:string .
