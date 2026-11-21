@@ -1,0 +1,13 @@
+{
+  "snapshot_id": "faisal-fixture-2026-W44",
+  "generated_by": "scripts/build_faisal_fixtures.py",
+  "snapshot_date": "2026-11-02T00:00:00Z",
+  "snapshot_week": "2026-W44",
+  "synthetic": true,
+  "note": "Synthetic records in the layout of Vidya's api-collectors branch. Replace with a real records.jsonl run once PR #3 merges.",
+  "counts": {
+    "github": 37,
+    "jobs": 53,
+    "documents": 5
+  }
+}

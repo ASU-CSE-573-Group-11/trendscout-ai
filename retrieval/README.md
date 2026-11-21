@@ -33,4 +33,44 @@ returns at most one hit per `origin_cluster_id` by default, preventing syndicate
 copies from crowding a result set. `graph_evidence` preserves the source URL,
 passage, three time fields, content hash, and origin cluster needed for provenance.
 
-Dense retrieval, query routing, and the conversational interface remain Faisal's module.
+## Faisal Barkat Khorasi - dense retrieval, fusion, and routing
+
+`retrieval/dense.py` indexes the same unit BM25 does, one passage per record
+(title plus text), so the two rankings are comparable. The default encoder is a
+deterministic hashing encoder that needs no model download; it is **lexical,
+not semantic**, and results produced with it should be reported as a second
+lexical baseline rather than as dense retrieval. Install
+`requirements-interface.txt` for the real `all-MiniLM-L6-v2` encoder. The index
+persists beside the frozen snapshot and refuses to load under a different
+encoder.
+
+`retrieval/hybrid.py` fuses BM25 and dense hits by reciprocal rank
+(`score = sum(weight / (k + rank))`, `k = 60`). Rank fusion needs no score
+calibration and no labels, which suits a snapshot with no relevance judgements
+yet. `bm25.py` is used unmodified; only its input is prepared.
+
+```python
+from retrieval.hybrid import HybridRetriever, RetrievalConfig
+
+retriever = HybridRetriever.from_records(records)
+hits = retriever.search("LangSmith evaluation", k=5)
+bm25_only = retriever.search("LangSmith evaluation", k=5, config=RetrievalConfig(mode="bm25"))
+```
+
+`retrieval/timewindow.py` resolves relative expressions against the snapshot
+date, never against today, so a frozen snapshot answers "the last eight weeks"
+the same way next month.
+
+`retrieval/router.py` sends exact and aggregate questions to Cypher, narrative
+questions to documents, and mixed temporal questions to both, using either
+ordered intent rules or the proposal's TF-IDF logistic baseline. A question
+about a period after the snapshot, or before collection began, is routed to
+abstention before any retrieval runs.
+
+`retrieval/graph_queries.py` loads Mehmet's `graph/*.cypher` as named templates,
+and `retrieval/graph_access.py` answers them over the shared graph payload so
+the demo replays a frozen snapshot without a database. Both leave `graph/`
+untouched.
+
+The conversational interface is in [`interface/`](../interface/README.md).
+Details and first numbers: [`docs/faisal-trends-and-retrieval.md`](../docs/faisal-trends-and-retrieval.md).

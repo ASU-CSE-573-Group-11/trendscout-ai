@@ -1,0 +1,261 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/trendscout/trend_signal.schema.json",
+  "title": "TrendScout Trend Signal",
+  "description": "One scored week of one weekly series. Every signal carries the record_id values it was computed from so the evidence ledger can link a trend back to source records. A trend signal is a description of observed activity, never a claim about future performance.",
+  "type": "object",
+  "required": [
+    "trend_id",
+    "series_id",
+    "metric",
+    "signal_family",
+    "entity_type",
+    "entity_id",
+    "company_id",
+    "iso_week",
+    "week_start",
+    "week_end",
+    "value",
+    "value_state",
+    "label",
+    "label_reason",
+    "record_ids",
+    "window_record_ids",
+    "feature_version"
+  ],
+  "properties": {
+    "trend_id": {
+      "type": "string",
+      "pattern": "^trend-signal:[0-9a-f]{20}$",
+      "description": "Deterministic identifier over series_id, ISO week, feature version, and trend configuration."
+    },
+    "series_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "metric": {
+      "type": "string",
+      "minLength": 1
+    },
+    "signal_family": {
+      "type": "string",
+      "enum": [
+        "github",
+        "jobs",
+        "news",
+        "topics",
+        "generic"
+      ]
+    },
+    "entity_type": {
+      "type": "string",
+      "enum": [
+        "repository",
+        "company",
+        "company_role_family",
+        "company_skill",
+        "topic",
+        "company_topic",
+        "series"
+      ]
+    },
+    "entity_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "company_id": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Frozen cohort identifier, or null when the series is not company-scoped."
+    },
+    "iso_week": {
+      "type": "string",
+      "pattern": "^[0-9]{4}-W[0-9]{2}$"
+    },
+    "week_start": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "week_end": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "value": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "value_state": {
+      "type": "string",
+      "enum": [
+        "observed",
+        "zero_by_policy",
+        "unknown"
+      ],
+      "description": "observed: a record supplied the value. zero_by_policy: no record, and the series declares a missing week to be a real zero. unknown: no record, and a missing week cannot be interpreted."
+    },
+    "ewma_baseline": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "description": "EWMA level from weeks strictly before this one, so it never sees the current value."
+    },
+    "residual": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "scale": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "description": "Dispersion of the trailing residual window before the min_scale floor is applied."
+    },
+    "scale_method": {
+      "type": "string",
+      "enum": [
+        "std",
+        "mad"
+      ]
+    },
+    "z_score": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "trend_score": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "description": "The rolling z-score after clipping. Null whenever the label is insufficient_history."
+    },
+    "label": {
+      "type": "string",
+      "enum": [
+        "rising",
+        "flat",
+        "falling",
+        "insufficient_history"
+      ]
+    },
+    "label_reason": {
+      "type": "string",
+      "minLength": 1
+    },
+    "observed_weeks_used": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "residual_points_used": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "gap_policy": {
+      "type": "string",
+      "enum": [
+        "unknown",
+        "zero"
+      ]
+    },
+    "unit": {
+      "type": "string",
+      "minLength": 1
+    },
+    "config": {
+      "type": "object",
+      "description": "The trend configuration in force, reported with the signal so results stay reproducible.",
+      "required": [
+        "alpha",
+        "window",
+        "threshold",
+        "min_history",
+        "fingerprint"
+      ],
+      "properties": {
+        "alpha": {
+          "type": "number",
+          "exclusiveMinimum": 0,
+          "maximum": 1
+        },
+        "window": {
+          "type": "integer",
+          "minimum": 2
+        },
+        "threshold": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "min_history": {
+          "type": "integer",
+          "minimum": 2
+        },
+        "min_scale": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "min_scale_points": {
+          "type": "integer",
+          "minimum": 2
+        },
+        "scale_method": {
+          "type": "string",
+          "enum": [
+            "std",
+            "mad"
+          ]
+        },
+        "z_cap": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "fingerprint": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "additionalProperties": true
+    },
+    "record_ids": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "description": "Records that produced this week's value. Empty when the week was not observed."
+    },
+    "window_record_ids": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "description": "Records across the trailing residual window, so the ledger can audit the comparison baseline as well as the current week."
+    },
+    "origin_cluster_ids": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "feature_version": {
+      "type": "string",
+      "minLength": 1
+    },
+    "notes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "additionalProperties": false
+}
