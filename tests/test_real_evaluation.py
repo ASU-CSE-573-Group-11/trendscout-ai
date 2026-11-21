@@ -23,6 +23,16 @@ def test_sueda_source_review_has_200_accepted_entities():
     assert progress['independent_human_attestation'] is False
 
 
+def test_sueda_relation_source_review_is_below_80_100_target():
+    import csv
+    path = ROOT / 'evaluation/real/workbooks/sueda-relations.csv'
+    rows = list(csv.DictReader(path.open(newline='', encoding='utf-8')))
+    accepted = sum(row['label'].strip() not in ('', 'NONE') for row in rows)
+    assert len(rows) == 126
+    assert accepted == 34
+    assert not 80 <= accepted <= 100
+
+
 def test_frozen_real_corpus_is_valid_unique_and_traceable():
     records = frozen_records(ROOT / 'evaluation/real')
     assert len(records) == 45

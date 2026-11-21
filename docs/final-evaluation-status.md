@@ -77,6 +77,12 @@ shared independently labelled items for agreement analysis.
 Sueda's release-round entity preparation now contains 200 accepted and 218
 rejected candidate mentions. This is a source-review output, not an independent
 human attestation or Kappa result.
+
+Sueda's release-round relation preparation contains 34 accepted MENTIONS and
+92 rejected ordinary/heading candidates. The fixed 126-candidate pool does not
+contain enough accepted relation candidates to reach the 80-100 target. Additional
+valid relation candidates require an expanded, frozen candidate list and a
+second independent rater.
 Legacy synthetic human-workbook artifacts were removed in cleanup.
 `evaluation/mixed/workbooks/corpus-review.csv` now contains 45/45 Sueda
 source-review inclusion decisions. Mehmet and final inclusion decisions remain
