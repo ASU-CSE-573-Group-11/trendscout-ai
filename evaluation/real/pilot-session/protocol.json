@@ -1,0 +1,92 @@
+{
+  "participants": "5-8 consenting people; pseudonymous IDs only",
+  "tasks_each": 6,
+  "conditions": [
+    "citations_only",
+    "citations_plus_state_and_path"
+  ],
+  "design": "Within-participant, 3 tasks per condition; counterbalance order across participants.",
+  "task_ids": [
+    "q-pilot-github-mlops",
+    "q-investors-later-hiring",
+    "q-sector-attention",
+    "q-why-emerging",
+    "q-unsupported-acquisition",
+    "q-future-performance"
+  ],
+  "required_result_fields": [
+    "participant_id",
+    "question_id",
+    "condition",
+    "order",
+    "status_correct",
+    "evidence_correct",
+    "abstention_correct",
+    "duration_seconds",
+    "confidence"
+  ],
+  "confidence_scale": "1-5",
+  "correctness": "Boolean; judge against adjudicated task key.",
+  "task_key": {
+    "q-pilot-github-mlops": {
+      "expected_state": "insufficient",
+      "accepted_behaviors": [
+        "abstain",
+        "qualify_with_missing_evidence"
+      ],
+      "evidence_requirement": "State the specific evidence absent from the frozen release corpus. Do not infer funding, hiring, independent attention, or future valuations from release notes.",
+      "grading_scope": "Frozen release-document corpus, not claims about the outside world.",
+      "source": "manifest.json"
+    },
+    "q-investors-later-hiring": {
+      "expected_state": "insufficient",
+      "accepted_behaviors": [
+        "abstain",
+        "qualify_with_missing_evidence"
+      ],
+      "evidence_requirement": "State the specific evidence absent from the frozen release corpus. Do not infer funding, hiring, independent attention, or future valuations from release notes.",
+      "grading_scope": "Frozen release-document corpus, not claims about the outside world.",
+      "source": "manifest.json"
+    },
+    "q-sector-attention": {
+      "expected_state": "insufficient",
+      "accepted_behaviors": [
+        "abstain",
+        "qualify_with_missing_evidence"
+      ],
+      "evidence_requirement": "State the specific evidence absent from the frozen release corpus. Do not infer funding, hiring, independent attention, or future valuations from release notes.",
+      "grading_scope": "Frozen release-document corpus, not claims about the outside world.",
+      "source": "manifest.json"
+    },
+    "q-why-emerging": {
+      "expected_state": "emerging",
+      "accepted_behaviors": [
+        "explain_policy_with_missing_company_specific_evidence"
+      ],
+      "evidence_requirement": "Explain the one-origin emerging rule and independent-corroboration requirement.",
+      "grading_scope": "Frozen release-document corpus, not claims about the outside world.",
+      "source": "sueda-review/pilot-evidence-policy.md"
+    },
+    "q-unsupported-acquisition": {
+      "expected_state": "insufficient",
+      "accepted_behaviors": [
+        "abstain"
+      ],
+      "evidence_requirement": "State the specific evidence absent from the frozen release corpus. Do not infer funding, hiring, independent attention, or future valuations from release notes.",
+      "grading_scope": "Frozen release-document corpus, not claims about the outside world.",
+      "source": "manifest.json"
+    },
+    "q-future-performance": {
+      "expected_state": "insufficient",
+      "accepted_behaviors": [
+        "abstain"
+      ],
+      "evidence_requirement": "State the specific evidence absent from the frozen release corpus. Do not infer funding, hiring, independent attention, or future valuations from release notes.",
+      "grading_scope": "Frozen release-document corpus, not claims about the outside world.",
+      "source": "manifest.json"
+    }
+  },
+  "consent": "Record consent_confirmed=true per participant.",
+  "task_key_review_method": "single_source_review_pending_second_review",
+  "policy_sha256": "517bfa30134f13e9f5a3245d017959d66f0629d78b2c8cab8d9b3c2eb2e094f1"
+}

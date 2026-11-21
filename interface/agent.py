@@ -1015,13 +1015,17 @@ def _build_citations(
         number += 1
 
     for signal in trend_signals:
+        # Zero-filled weekly bins describe missing observations. They have no
+        # documentary origin and cannot serve as factual supporting evidence.
+        if not signal.origin_cluster_ids or not signal.record_ids:
+            continue
         citations.append(
             Citation(
                 number=number,
                 kind="trend",
                 record_ids=tuple(signal.record_ids),
                 origin_cluster_ids=tuple(signal.origin_cluster_ids),
-                source_type="github" if signal.signal_family == "github" else "job",
+                source_type={"github": "github", "jobs": "job", "news": "news"}.get(signal.signal_family),
                 title=f"{signal.metric} {signal.label} in {signal.iso_week}",
                 source_url=None,
                 publisher=None,
@@ -1053,6 +1057,10 @@ def _build_citations(
         if not rows:
             continue
         if result.purpose not in {"independent_origins", "temporal_multihop", "trend_signals"}:
+            continue
+        # An aggregate with zero supporting origins is useful graph context,
+        # but cannot support a factual claim as a numbered citation.
+        if not any(row.get("origin_cluster_ids") or row.get("origin_cluster_id") for row in rows):
             continue
         if graph_citations >= max_graph:
             break

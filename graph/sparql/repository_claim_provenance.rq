@@ -1,0 +1,19 @@
+PREFIX ts: <https://example.org/trendscout/>
+
+# Bind ?companyId at execution time. Repository linkage and documentary claim
+# support remain separate paths so repository activity is not treated as proof
+# of a semantic claim.
+SELECT ?repository ?record ?claim ?publisher
+WHERE {
+  ?startup a ts:Startup ;
+           ts:companyId ?companyId ;
+           ts:hasRepository ?repository .
+  ?repository a ts:Repository .
+  ?record a ts:SourceRecord ;
+          ts:about ?startup ;
+          ts:publishedBy ?publisher ;
+          ts:supports ?claim .
+  ?claim a ts:Claim .
+  ?publisher a ts:Publisher .
+}
+ORDER BY ?repository ?claim ?record

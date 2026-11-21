@@ -1,0 +1,20 @@
+{
+  "status": "team_mapping_confirmed",
+  "recorded_at": "2026-11-21T08:42:25Z",
+  "confirmed_participant_codes": [
+    "P01",
+    "P02",
+    "P03",
+    "P04",
+    "P05"
+  ],
+  "confirmed_mappings": 5,
+  "team_member_mappings": 4,
+  "external_participant_mappings": 1,
+  "mapping_sha256": "d0686e629b66c9d9de4e63b8f727a23ce6b98a347823492fa46395dd12f278e2",
+  "response_snapshot_sha256": "22dd7c48c698845cf150e87d577ed7ae0bbbc0ee74a6387636ee0f10516b98d2",
+  "scope": "Identifying map retained outside the submission archive. Public pilot data retains pseudonyms. Attribution reflects explicit team confirmation.",
+  "latest_response_snapshot_sha256": "fad841d05b3383a9962e6c9ecb25e029a6f43dfca1f00fca5a788a410c66d4e2",
+  "validated_response_count": 30,
+  "all_assigned_tasks_submitted": true
+}

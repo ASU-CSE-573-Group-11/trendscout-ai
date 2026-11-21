@@ -1,0 +1,19 @@
+{
+  "snapshot_sha256": "587d3128ef445f1b17d6ac711be64f5491679e41494ac0506114b1cf53b40d30",
+  "review_method": "single_source_review",
+  "entity_candidates_reviewed": 418,
+  "accepted_entity_candidates": 142,
+  "relation_candidates_reviewed": 126,
+  "accepted_relation_candidates": 28,
+  "corpus_first_decisions": 45,
+  "qrels_first_grades": 1260,
+  "second_review": "preserved; not supplied by this review",
+  "cohen_kappa": null,
+  "pilot": "Task keys and enrollment slots prepared; participant records required.",
+  "limitation": "Candidate seed includes many headings. Counts reflect supported labels, not target-driven substitutions.",
+  "additional_entity_mentions": 358,
+  "distinct_document_object_relations": 220,
+  "documentary_relation_sample": 90,
+  "supplement_scope": "Single source-review appendix; not silently added to frozen pairwise candidates.",
+  "total_source_reviewed_entity_mentions": 500
+}

@@ -10,6 +10,8 @@ from collectors.records import parse_datetime, strip_html
 
 def parse_feed(body: str, source_url: str) -> list[dict[str, Any]]:
     parsed = feedparser.parse(body)
+    if not parsed.get('version') or parsed.get('bozo'):
+        raise FetchError(f'invalid RSS/Atom feed: {source_url}')
     entries: list[dict[str, Any]] = []
     for entry in parsed.entries:
         link = entry.get("link") or source_url
@@ -18,10 +20,9 @@ def parse_feed(body: str, source_url: str) -> list[dict[str, Any]]:
         published = None
         if entry.get("published"):
             published = parse_datetime(entry.get("published"))
-        elif entry.get("updated"):
-            published = parse_datetime(entry.get("updated"))
-        elif entry.get("published_parsed"):
+        if not published and entry.get("published_parsed"):
             published = _struct_time_to_iso(entry.get("published_parsed"))
+        # An update timestamp does not establish initial publication time.
         entries.append(
             {
                 "url": link,

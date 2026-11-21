@@ -1,0 +1,3619 @@
+[
+  {
+    "availability": "available",
+    "availability_reason": null,
+    "company_id": "langchain",
+    "coverage_end": "2026-W47",
+    "coverage_start": "2026-W43",
+    "entity_id": "langchain",
+    "entity_type": "company",
+    "gap_policy": "unknown",
+    "metadata": {
+      "adapter_version": "signals-adapter/1.0.0",
+      "closed_postings": "not derived: a posting leaving a board may have been filled, withdrawn, reposted, or missed by a failed collection run",
+      "grouping": "all postings",
+      "role_family_method": "explicit_title_phrases_v1"
+    },
+    "metric": "open_postings",
+    "observed_week_count": 2,
+    "points": [
+      {
+        "iso_week": "2026-W43",
+        "notes": [
+          "distinct postings listed on the board during the week"
+        ],
+        "origin_cluster_ids": [
+          "9f6a86f37f2011bc"
+        ],
+        "record_ids": [
+          "ashby-observation:langchain:01b42b2d-538f-4d5f-b9f1-2de1197bc0cb:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:068b2e23-af01-42c7-9bce-d86976ea4d6e:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:0a5dd30c-6da1-4095-bd96-b16f27eeb333:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:0ee73994-b8a3-4a75-9675-da536abd3e10:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:0f35c8e1-9318-411d-929b-04c60e6d8522:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:14727440-65bd-4cce-bed1-27d0c863eab3:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:1683a053-1bca-4a54-9889-bc32259df4e1:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:1b125fc4-be24-422f-a180-30b7431fc6cf:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:20189c9d-f1af-4385-ae06-c3a6c7681ff0:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:22bd243f-4088-49e0-bf02-fbad4442b0cb:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:24af8cb4-aa2a-4d98-a6af-9feb6817f872:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:25d40647-c821-46ff-bf25-bacf21fa38b5:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:27af5f96-b287-4bcc-8679-f96686dc7c8d:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:28aba38e-de19-4ae5-9316-08575a11ae4d:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:2b151a4e-f3a4-41fc-95f7-4e802906f2cb:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:2e05a8c8-a9d8-4627-a651-6700923b2a70:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:329c0b62-0ca0-4311-a827-50a5a3333861:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:32c6fe13-76e0-49a2-849d-991014416987:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:34083fce-1e80-4595-9ce9-76387b735c70:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:38947013-3d0c-4257-aa58-ab8fe247ea3e:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:3a9b99ca-347f-4abf-8d34-9d66259c017f:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:3c38ac0d-4cb5-4c04-86c0-37b20166c8ec:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:3e31c750-67f2-4d3d-ac29-48a2b57cf4bd:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:426359a5-3a48-4b81-ba25-b2f32678b153:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:45773971-c904-41c4-b7af-1f3a661c49cc:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:461a1356-24fc-40f2-88d6-ce253f94eeb4:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:47a3bc2a-2bed-4d61-b1de-b3d7ec211a08:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:4beade3b-0bf2-4720-b553-0309880e22b4:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:5f5f8239-603c-47ca-a1ee-5a7ed34b502d:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:60d3bd4f-e80f-45fb-9801-725d8b681d54:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:65dbb419-ca80-4fda-b1b7-b81c08878992:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:6847e38f-ec98-4fb2-a2cb-a97cdd9be108:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:6b6ee951-6f94-4a2f-9e53-8410e9928614:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:6c1c47cf-fac0-4367-975e-795197df2c5d:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:6c5eacaf-0f0c-43c5-bac8-78c98424b979:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:6eecbcda-d94f-4700-b8c7-ce54cb212290:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:6f31aa85-23ce-4c6a-a395-363b7a659de1:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:6f50988c-8e95-4a68-aeea-a94872651ff7:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:70b5d446-7238-4324-9e70-a971b67a438c:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:72eefb77-605d-4616-adda-820eb5208ac8:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:733417d6-7b74-4260-95d9-3cabf85ce0b8:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:74e5f9f4-e44a-4594-ba26-abdf71bf287d:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:792b5e2e-be55-47db-be21-733a9dad8f32:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:7af64749-bc2c-4722-b40a-febac36fc56b:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:7b1e5ff7-4531-4d4a-8379-52a21b6d386d:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:7c4fd239-1166-4ed4-b7bf-686b7a390928:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:825b6d91-bc5e-4165-8a7c-2022a2248f7e:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:8807d9b6-64ef-4254-b2e0-ec712fd9ff77:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:886be84d-b56a-4260-a8dc-87992640293d:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:88cba16a-9131-4166-96a7-8f879edcda27:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:890884ed-1143-43a5-8a46-1aef8f66e119:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:8aa63e71-b431-49d7-ab4a-bf4b3630d8e6:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:8b83f97a-12fb-42a6-9697-c3ef07646335:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:92a89b0e-a520-4510-a0ba-f3398dbc6983:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:933a41a3-43ca-44de-a0ae-f541149151b7:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:97ac0410-c6db-4c2a-9492-b68f62fcbbe3:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:98fcaa18-d323-49cd-b231-b2d4b905419d:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:9930dd01-d12e-42e1-b751-5240c3814f85:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:9ef63e88-b1ff-4e88-9bf8-20c01439b80a:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:a03b3e54-495d-4960-aee7-0194a3cef57d:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:a86c555e-87ed-4942-b52e-c6081159f5d2:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:afb91b9b-46d5-4c9d-aa84-a4f1a3f74263:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:b23ea9af-c6dc-40fa-86ce-75042b905173:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:b47dbcea-222c-427d-bf4d-9e30a6b60d4a:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:b9cf3229-c257-4536-bae6-e9b63134dc68:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:bdc96ffd-2a95-4d63-bf8f-193574961e00:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:c02afa2f-5544-411d-a4e2-8bdc199b0c53:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:c16d44ab-faf0-4111-9ca7-8acb5dffcf46:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:c425239d-ddca-4333-84fd-d719b8d3cb8b:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:c450c07a-196e-4ad4-9938-f368eb0ba65d:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:c4575cc8-ed78-47d7-8b53-637402e77d8d:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:c8150807-d346-47d5-9242-b0994d77ca87:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:c882af7e-59aa-4017-b791-9a8094c0ef6f:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:d1dc8b4d-5f7f-46b3-bfd9-dfcb375a614b:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:d1ffe5ac-2f03-408b-a051-dad74c72771c:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:d6673e5e-30c4-413c-bda8-70d15908ff80:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:d7454c6d-7025-4e46-befc-e23bedd8f452:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:d81ac364-7b1c-48d2-a8b7-4bc7336c6be5:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:d81c35c1-7243-45e4-bfe2-7fc8746c76b9:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:d96a60dd-849b-4a2f-a48a-ea73845b86ea:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:da7cbabd-ceed-4d7d-ae25-f226cac0c1c1:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:ddf92275-1cc3-49c0-9f25-e8ded43b07f6:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:df3a645d-5c08-4ea2-8823-7e40a5cbf9a6:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:dfbba971-a7e2-4feb-a0d9-8e38a1155134:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:e10513d4-1b8d-492f-a6af-94bdae366a1a:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:e1263bfe-b638-4019-b4d5-0aacca93b2b3:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:e12d7176-8b9f-438a-8f3b-0cbbffab9c5c:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:e39f60c8-6bfb-4ca4-b1b0-dd3d44d128bc:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:e6d2bc1e-e0b9-4076-be01-ef8681863c01:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:e725293d-c27b-4a79-959d-19f5618f2f8e:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:e773649c-4ea7-47c2-9987-74d525474e82:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:e86a5b13-75e7-4b4e-bc18-3c81b58d1543:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:eadd2a71-47fc-483b-948f-4b2384f7f93f:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:f0396971-39fa-4d40-9af8-60e529bb6c86:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:f07bfbad-6daf-4b11-b5bb-2c3bbc47c53c:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:f07c1416-f126-4925-8606-5dd7c5a90f6f:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:f4a7aa79-3e7f-4de1-8fda-16f161cc909d:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:f5217646-e988-4060-8363-49ab93ba9fe4:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:f5887f10-50e7-459f-80e4-4c22a7db77bd:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:f71210f9-12e1-4726-88b9-ebafa194d5b2:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:f7de4819-e7aa-4dfb-9acd-8b81ad8caf2c:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:faeb56fd-e7d6-47d6-babe-e35315969206:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:fc868832-3865-4f4a-8222-33422a7d3d96:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:fd3767ba-6247-47bd-85ae-7e76be3871e6:c6e5e1dbaa58322a"
+        ],
+        "value": 104.0,
+        "value_state": "observed",
+        "week_end": "2026-10-26T00:00:00Z",
+        "week_start": "2026-10-19T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W44",
+        "notes": [
+          "no record observed; gap_policy=unknown"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-11-02T00:00:00Z",
+        "week_start": "2026-10-26T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W45",
+        "notes": [
+          "no record observed; gap_policy=unknown"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-11-09T00:00:00Z",
+        "week_start": "2026-11-02T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W46",
+        "notes": [
+          "no record observed; gap_policy=unknown"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-11-16T00:00:00Z",
+        "week_start": "2026-11-09T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W47",
+        "notes": [
+          "distinct postings listed on the board during the week"
+        ],
+        "origin_cluster_ids": [
+          "264db06d11a583e9"
+        ],
+        "record_ids": [
+          "ashby-observation:langchain:01b42b2d-538f-4d5f-b9f1-2de1197bc0cb:c5be412fff54a534",
+          "ashby-observation:langchain:0a5dd30c-6da1-4095-bd96-b16f27eeb333:c5be412fff54a534",
+          "ashby-observation:langchain:0ce4562c-3a98-408f-8945-15d8d4af6cb6:c5be412fff54a534",
+          "ashby-observation:langchain:0ea7e53d-9692-42d8-8f2d-a893dca3aef6:c5be412fff54a534",
+          "ashby-observation:langchain:0ee73994-b8a3-4a75-9675-da536abd3e10:c5be412fff54a534",
+          "ashby-observation:langchain:0f35c8e1-9318-411d-929b-04c60e6d8522:c5be412fff54a534",
+          "ashby-observation:langchain:14727440-65bd-4cce-bed1-27d0c863eab3:c5be412fff54a534",
+          "ashby-observation:langchain:1b125fc4-be24-422f-a180-30b7431fc6cf:c5be412fff54a534",
+          "ashby-observation:langchain:22bd243f-4088-49e0-bf02-fbad4442b0cb:c5be412fff54a534",
+          "ashby-observation:langchain:23ad4d96-98ea-420c-b935-5646318d8996:c5be412fff54a534",
+          "ashby-observation:langchain:24af8cb4-aa2a-4d98-a6af-9feb6817f872:c5be412fff54a534",
+          "ashby-observation:langchain:26b29c27-711c-4239-9c1d-90cb45e02aa0:c5be412fff54a534",
+          "ashby-observation:langchain:27af5f96-b287-4bcc-8679-f96686dc7c8d:c5be412fff54a534",
+          "ashby-observation:langchain:28aba38e-de19-4ae5-9316-08575a11ae4d:c5be412fff54a534",
+          "ashby-observation:langchain:2b151a4e-f3a4-41fc-95f7-4e802906f2cb:c5be412fff54a534",
+          "ashby-observation:langchain:2e05a8c8-a9d8-4627-a651-6700923b2a70:c5be412fff54a534",
+          "ashby-observation:langchain:2ec70ad4-e93f-4a51-a169-eef862fb3b64:c5be412fff54a534",
+          "ashby-observation:langchain:2f9100e9-655b-4244-9dab-9a37c153af6a:c5be412fff54a534",
+          "ashby-observation:langchain:32c6fe13-76e0-49a2-849d-991014416987:c5be412fff54a534",
+          "ashby-observation:langchain:342fdab9-275c-4016-8b1a-8847579372ba:c5be412fff54a534",
+          "ashby-observation:langchain:3858b7f4-6762-47d0-9fb5-ea2610a5a099:c5be412fff54a534",
+          "ashby-observation:langchain:38947013-3d0c-4257-aa58-ab8fe247ea3e:c5be412fff54a534",
+          "ashby-observation:langchain:3a9b99ca-347f-4abf-8d34-9d66259c017f:c5be412fff54a534",
+          "ashby-observation:langchain:3c38ac0d-4cb5-4c04-86c0-37b20166c8ec:c5be412fff54a534",
+          "ashby-observation:langchain:3e31c750-67f2-4d3d-ac29-48a2b57cf4bd:c5be412fff54a534",
+          "ashby-observation:langchain:426359a5-3a48-4b81-ba25-b2f32678b153:c5be412fff54a534",
+          "ashby-observation:langchain:45773971-c904-41c4-b7af-1f3a661c49cc:c5be412fff54a534",
+          "ashby-observation:langchain:46c1a69d-5eff-425f-8f76-da7ddf047dd4:c5be412fff54a534",
+          "ashby-observation:langchain:47a3bc2a-2bed-4d61-b1de-b3d7ec211a08:c5be412fff54a534",
+          "ashby-observation:langchain:4beade3b-0bf2-4720-b553-0309880e22b4:c5be412fff54a534",
+          "ashby-observation:langchain:4f80ad29-1c30-433c-9fff-3385bc8f9fe9:c5be412fff54a534",
+          "ashby-observation:langchain:5095871a-9af2-4521-8c63-ff0d852f7354:c5be412fff54a534",
+          "ashby-observation:langchain:5b20b362-a407-4d12-934c-4ae0d2028432:c5be412fff54a534",
+          "ashby-observation:langchain:5f5f8239-603c-47ca-a1ee-5a7ed34b502d:c5be412fff54a534",
+          "ashby-observation:langchain:60d3bd4f-e80f-45fb-9801-725d8b681d54:c5be412fff54a534",
+          "ashby-observation:langchain:657e8401-922f-4a47-8206-f1bf0180a626:c5be412fff54a534",
+          "ashby-observation:langchain:65dbb419-ca80-4fda-b1b7-b81c08878992:c5be412fff54a534",
+          "ashby-observation:langchain:6847e38f-ec98-4fb2-a2cb-a97cdd9be108:c5be412fff54a534",
+          "ashby-observation:langchain:6a53f11d-5446-4ca2-baf5-c4b84d4986a7:c5be412fff54a534",
+          "ashby-observation:langchain:6b6ee951-6f94-4a2f-9e53-8410e9928614:c5be412fff54a534",
+          "ashby-observation:langchain:6c1c47cf-fac0-4367-975e-795197df2c5d:c5be412fff54a534",
+          "ashby-observation:langchain:6c5eacaf-0f0c-43c5-bac8-78c98424b979:c5be412fff54a534",
+          "ashby-observation:langchain:6eecbcda-d94f-4700-b8c7-ce54cb212290:c5be412fff54a534",
+          "ashby-observation:langchain:6f50988c-8e95-4a68-aeea-a94872651ff7:c5be412fff54a534",
+          "ashby-observation:langchain:70b5d446-7238-4324-9e70-a971b67a438c:c5be412fff54a534",
+          "ashby-observation:langchain:72eefb77-605d-4616-adda-820eb5208ac8:c5be412fff54a534",
+          "ashby-observation:langchain:733417d6-7b74-4260-95d9-3cabf85ce0b8:c5be412fff54a534",
+          "ashby-observation:langchain:74e5f9f4-e44a-4594-ba26-abdf71bf287d:c5be412fff54a534",
+          "ashby-observation:langchain:792b5e2e-be55-47db-be21-733a9dad8f32:c5be412fff54a534",
+          "ashby-observation:langchain:7af64749-bc2c-4722-b40a-febac36fc56b:c5be412fff54a534",
+          "ashby-observation:langchain:7b1e5ff7-4531-4d4a-8379-52a21b6d386d:c5be412fff54a534",
+          "ashby-observation:langchain:7b54b0b9-703a-49f0-b927-98c43494b23a:c5be412fff54a534",
+          "ashby-observation:langchain:7bc0df5b-f358-4c70-b15c-9577a868c5c0:c5be412fff54a534",
+          "ashby-observation:langchain:7c4fd239-1166-4ed4-b7bf-686b7a390928:c5be412fff54a534",
+          "ashby-observation:langchain:86ba410e-2625-41e4-b430-3f0d7c7477a5:c5be412fff54a534",
+          "ashby-observation:langchain:8807d9b6-64ef-4254-b2e0-ec712fd9ff77:c5be412fff54a534",
+          "ashby-observation:langchain:886be84d-b56a-4260-a8dc-87992640293d:c5be412fff54a534",
+          "ashby-observation:langchain:890884ed-1143-43a5-8a46-1aef8f66e119:c5be412fff54a534",
+          "ashby-observation:langchain:8928b6e9-aa61-4bbe-9d63-bf9acaba18b1:c5be412fff54a534",
+          "ashby-observation:langchain:8b83f97a-12fb-42a6-9697-c3ef07646335:c5be412fff54a534",
+          "ashby-observation:langchain:92a89b0e-a520-4510-a0ba-f3398dbc6983:c5be412fff54a534",
+          "ashby-observation:langchain:933a41a3-43ca-44de-a0ae-f541149151b7:c5be412fff54a534",
+          "ashby-observation:langchain:960828f4-45ed-4925-97ad-28384c4311cc:c5be412fff54a534",
+          "ashby-observation:langchain:97ac0410-c6db-4c2a-9492-b68f62fcbbe3:c5be412fff54a534",
+          "ashby-observation:langchain:9930dd01-d12e-42e1-b751-5240c3814f85:c5be412fff54a534",
+          "ashby-observation:langchain:9ef63e88-b1ff-4e88-9bf8-20c01439b80a:c5be412fff54a534",
+          "ashby-observation:langchain:a03b3e54-495d-4960-aee7-0194a3cef57d:c5be412fff54a534",
+          "ashby-observation:langchain:a38cccbe-f540-4e4f-a970-3aa197c7b097:c5be412fff54a534",
+          "ashby-observation:langchain:ac5efe22-6098-49dc-850a-b89d332df41d:c5be412fff54a534",
+          "ashby-observation:langchain:afb91b9b-46d5-4c9d-aa84-a4f1a3f74263:c5be412fff54a534",
+          "ashby-observation:langchain:b23ea9af-c6dc-40fa-86ce-75042b905173:c5be412fff54a534",
+          "ashby-observation:langchain:b8e80939-373d-4d9d-a191-faee606c7efe:c5be412fff54a534",
+          "ashby-observation:langchain:b9cf3229-c257-4536-bae6-e9b63134dc68:c5be412fff54a534",
+          "ashby-observation:langchain:c02afa2f-5544-411d-a4e2-8bdc199b0c53:c5be412fff54a534",
+          "ashby-observation:langchain:c16d44ab-faf0-4111-9ca7-8acb5dffcf46:c5be412fff54a534",
+          "ashby-observation:langchain:c425239d-ddca-4333-84fd-d719b8d3cb8b:c5be412fff54a534",
+          "ashby-observation:langchain:c4575cc8-ed78-47d7-8b53-637402e77d8d:c5be412fff54a534",
+          "ashby-observation:langchain:c4b4b4e2-f434-460a-89a4-355ca53983ac:c5be412fff54a534",
+          "ashby-observation:langchain:c8150807-d346-47d5-9242-b0994d77ca87:c5be412fff54a534",
+          "ashby-observation:langchain:d6673e5e-30c4-413c-bda8-70d15908ff80:c5be412fff54a534",
+          "ashby-observation:langchain:d7454c6d-7025-4e46-befc-e23bedd8f452:c5be412fff54a534",
+          "ashby-observation:langchain:d96a60dd-849b-4a2f-a48a-ea73845b86ea:c5be412fff54a534",
+          "ashby-observation:langchain:da014d1d-f537-4bd2-a1de-f1e755c73d6e:c5be412fff54a534",
+          "ashby-observation:langchain:da7cbabd-ceed-4d7d-ae25-f226cac0c1c1:c5be412fff54a534",
+          "ashby-observation:langchain:ddf92275-1cc3-49c0-9f25-e8ded43b07f6:c5be412fff54a534",
+          "ashby-observation:langchain:df3a645d-5c08-4ea2-8823-7e40a5cbf9a6:c5be412fff54a534",
+          "ashby-observation:langchain:e1263bfe-b638-4019-b4d5-0aacca93b2b3:c5be412fff54a534",
+          "ashby-observation:langchain:e12d7176-8b9f-438a-8f3b-0cbbffab9c5c:c5be412fff54a534",
+          "ashby-observation:langchain:e16813af-c276-41ee-9f7a-c7a5cfc63f1b:c5be412fff54a534",
+          "ashby-observation:langchain:e39f60c8-6bfb-4ca4-b1b0-dd3d44d128bc:c5be412fff54a534",
+          "ashby-observation:langchain:e6d2bc1e-e0b9-4076-be01-ef8681863c01:c5be412fff54a534",
+          "ashby-observation:langchain:e725293d-c27b-4a79-959d-19f5618f2f8e:c5be412fff54a534",
+          "ashby-observation:langchain:e86a5b13-75e7-4b4e-bc18-3c81b58d1543:c5be412fff54a534",
+          "ashby-observation:langchain:ebfd7cd4-c9cd-46bd-b406-3fadaffcecef:c5be412fff54a534",
+          "ashby-observation:langchain:f0396971-39fa-4d40-9af8-60e529bb6c86:c5be412fff54a534",
+          "ashby-observation:langchain:f07c1416-f126-4925-8606-5dd7c5a90f6f:c5be412fff54a534",
+          "ashby-observation:langchain:f5887f10-50e7-459f-80e4-4c22a7db77bd:c5be412fff54a534",
+          "ashby-observation:langchain:f71210f9-12e1-4726-88b9-ebafa194d5b2:c5be412fff54a534",
+          "ashby-observation:langchain:f7de4819-e7aa-4dfb-9acd-8b81ad8caf2c:c5be412fff54a534",
+          "ashby-observation:langchain:faeb56fd-e7d6-47d6-babe-e35315969206:c5be412fff54a534",
+          "ashby-observation:langchain:fc868832-3865-4f4a-8222-33422a7d3d96:c5be412fff54a534",
+          "ashby-observation:langchain:fd3767ba-6247-47bd-85ae-7e76be3871e6:c5be412fff54a534"
+        ],
+        "value": 102.0,
+        "value_state": "observed",
+        "week_end": "2026-11-23T00:00:00Z",
+        "week_start": "2026-11-16T00:00:00Z"
+      }
+    ],
+    "series_id": "jobs:open_postings|company=langchain",
+    "signal_family": "jobs",
+    "unit": "count"
+  },
+  {
+    "availability": "available",
+    "availability_reason": null,
+    "company_id": "langchain",
+    "coverage_end": "2026-W47",
+    "coverage_start": "2026-W43",
+    "entity_id": "langchain",
+    "entity_type": "company",
+    "gap_policy": "unknown",
+    "metadata": {
+      "adapter_version": "signals-adapter/1.0.0",
+      "closed_postings": "not derived: a posting leaving a board may have been filled, withdrawn, reposted, or missed by a failed collection run",
+      "grouping": "all postings",
+      "role_family_method": "explicit_title_phrases_v1"
+    },
+    "metric": "new_postings",
+    "observed_week_count": 0,
+    "points": [
+      {
+        "iso_week": "2026-W43",
+        "notes": [
+          "first observed week: nothing is known about what was already listed, so no posting can be called new"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-10-26T00:00:00Z",
+        "week_start": "2026-10-19T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W44",
+        "notes": [
+          "no record observed; gap_policy=unknown"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-11-02T00:00:00Z",
+        "week_start": "2026-10-26T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W45",
+        "notes": [
+          "no record observed; gap_policy=unknown"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-11-09T00:00:00Z",
+        "week_start": "2026-11-02T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W46",
+        "notes": [
+          "no record observed; gap_policy=unknown"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-11-16T00:00:00Z",
+        "week_start": "2026-11-09T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W47",
+        "notes": [
+          "the previous observed week is 2026-W43; a posting first seen after a collection gap cannot be dated to this week"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-11-23T00:00:00Z",
+        "week_start": "2026-11-16T00:00:00Z"
+      }
+    ],
+    "series_id": "jobs:new_postings|company=langchain",
+    "signal_family": "jobs",
+    "unit": "count"
+  },
+  {
+    "availability": "available",
+    "availability_reason": null,
+    "company_id": "langchain",
+    "coverage_end": "2026-W47",
+    "coverage_start": "2026-W43",
+    "entity_id": "langchain:data",
+    "entity_type": "company_role_family",
+    "gap_policy": "unknown",
+    "metadata": {
+      "adapter_version": "signals-adapter/1.0.0",
+      "closed_postings": "not derived: a posting leaving a board may have been filled, withdrawn, reposted, or missed by a failed collection run",
+      "grouping": "role family",
+      "role_family": "data",
+      "role_family_method": "explicit_title_phrases_v1"
+    },
+    "metric": "open_postings",
+    "observed_week_count": 2,
+    "points": [
+      {
+        "iso_week": "2026-W43",
+        "notes": [
+          "distinct postings listed on the board during the week"
+        ],
+        "origin_cluster_ids": [
+          "9f6a86f37f2011bc"
+        ],
+        "record_ids": [
+          "ashby-observation:langchain:e10513d4-1b8d-492f-a6af-94bdae366a1a:c6e5e1dbaa58322a"
+        ],
+        "value": 1.0,
+        "value_state": "observed",
+        "week_end": "2026-10-26T00:00:00Z",
+        "week_start": "2026-10-19T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W44",
+        "notes": [
+          "no record observed; gap_policy=unknown"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-11-02T00:00:00Z",
+        "week_start": "2026-10-26T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W45",
+        "notes": [
+          "no record observed; gap_policy=unknown"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-11-09T00:00:00Z",
+        "week_start": "2026-11-02T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W46",
+        "notes": [
+          "no record observed; gap_policy=unknown"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-11-16T00:00:00Z",
+        "week_start": "2026-11-09T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W47",
+        "notes": [
+          "distinct postings listed on the board during the week"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": 0.0,
+        "value_state": "observed",
+        "week_end": "2026-11-23T00:00:00Z",
+        "week_start": "2026-11-16T00:00:00Z"
+      }
+    ],
+    "series_id": "jobs:open_postings|company=langchain|role_family=data",
+    "signal_family": "jobs",
+    "unit": "count"
+  },
+  {
+    "availability": "available",
+    "availability_reason": null,
+    "company_id": "langchain",
+    "coverage_end": "2026-W47",
+    "coverage_start": "2026-W43",
+    "entity_id": "langchain:data",
+    "entity_type": "company_role_family",
+    "gap_policy": "unknown",
+    "metadata": {
+      "adapter_version": "signals-adapter/1.0.0",
+      "closed_postings": "not derived: a posting leaving a board may have been filled, withdrawn, reposted, or missed by a failed collection run",
+      "grouping": "role family",
+      "role_family": "data",
+      "role_family_method": "explicit_title_phrases_v1"
+    },
+    "metric": "new_postings",
+    "observed_week_count": 0,
+    "points": [
+      {
+        "iso_week": "2026-W43",
+        "notes": [
+          "first observed week: nothing is known about what was already listed, so no posting can be called new"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-10-26T00:00:00Z",
+        "week_start": "2026-10-19T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W44",
+        "notes": [
+          "no record observed; gap_policy=unknown"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-11-02T00:00:00Z",
+        "week_start": "2026-10-26T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W45",
+        "notes": [
+          "no record observed; gap_policy=unknown"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-11-09T00:00:00Z",
+        "week_start": "2026-11-02T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W46",
+        "notes": [
+          "no record observed; gap_policy=unknown"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-11-16T00:00:00Z",
+        "week_start": "2026-11-09T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W47",
+        "notes": [
+          "the previous observed week is 2026-W43; a posting first seen after a collection gap cannot be dated to this week"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-11-23T00:00:00Z",
+        "week_start": "2026-11-16T00:00:00Z"
+      }
+    ],
+    "series_id": "jobs:new_postings|company=langchain|role_family=data",
+    "signal_family": "jobs",
+    "unit": "count"
+  },
+  {
+    "availability": "available",
+    "availability_reason": null,
+    "company_id": "langchain",
+    "coverage_end": "2026-W47",
+    "coverage_start": "2026-W43",
+    "entity_id": "langchain:evaluation",
+    "entity_type": "company_role_family",
+    "gap_policy": "unknown",
+    "metadata": {
+      "adapter_version": "signals-adapter/1.0.0",
+      "closed_postings": "not derived: a posting leaving a board may have been filled, withdrawn, reposted, or missed by a failed collection run",
+      "grouping": "role family",
+      "role_family": "evaluation",
+      "role_family_method": "explicit_title_phrases_v1"
+    },
+    "metric": "open_postings",
+    "observed_week_count": 2,
+    "points": [
+      {
+        "iso_week": "2026-W43",
+        "notes": [
+          "distinct postings listed on the board during the week"
+        ],
+        "origin_cluster_ids": [
+          "9f6a86f37f2011bc"
+        ],
+        "record_ids": [
+          "ashby-observation:langchain:20189c9d-f1af-4385-ae06-c3a6c7681ff0:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:4beade3b-0bf2-4720-b553-0309880e22b4:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:a03b3e54-495d-4960-aee7-0194a3cef57d:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:afb91b9b-46d5-4c9d-aa84-a4f1a3f74263:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:b23ea9af-c6dc-40fa-86ce-75042b905173:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:ddf92275-1cc3-49c0-9f25-e8ded43b07f6:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:e1263bfe-b638-4019-b4d5-0aacca93b2b3:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:e6d2bc1e-e0b9-4076-be01-ef8681863c01:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:f0396971-39fa-4d40-9af8-60e529bb6c86:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:f07c1416-f126-4925-8606-5dd7c5a90f6f:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:f7de4819-e7aa-4dfb-9acd-8b81ad8caf2c:c6e5e1dbaa58322a"
+        ],
+        "value": 11.0,
+        "value_state": "observed",
+        "week_end": "2026-10-26T00:00:00Z",
+        "week_start": "2026-10-19T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W44",
+        "notes": [
+          "no record observed; gap_policy=unknown"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-11-02T00:00:00Z",
+        "week_start": "2026-10-26T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W45",
+        "notes": [
+          "no record observed; gap_policy=unknown"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-11-09T00:00:00Z",
+        "week_start": "2026-11-02T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W46",
+        "notes": [
+          "no record observed; gap_policy=unknown"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-11-16T00:00:00Z",
+        "week_start": "2026-11-09T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W47",
+        "notes": [
+          "distinct postings listed on the board during the week"
+        ],
+        "origin_cluster_ids": [
+          "264db06d11a583e9"
+        ],
+        "record_ids": [
+          "ashby-observation:langchain:4beade3b-0bf2-4720-b553-0309880e22b4:c5be412fff54a534",
+          "ashby-observation:langchain:a03b3e54-495d-4960-aee7-0194a3cef57d:c5be412fff54a534",
+          "ashby-observation:langchain:afb91b9b-46d5-4c9d-aa84-a4f1a3f74263:c5be412fff54a534",
+          "ashby-observation:langchain:b23ea9af-c6dc-40fa-86ce-75042b905173:c5be412fff54a534",
+          "ashby-observation:langchain:ddf92275-1cc3-49c0-9f25-e8ded43b07f6:c5be412fff54a534",
+          "ashby-observation:langchain:e1263bfe-b638-4019-b4d5-0aacca93b2b3:c5be412fff54a534",
+          "ashby-observation:langchain:e6d2bc1e-e0b9-4076-be01-ef8681863c01:c5be412fff54a534",
+          "ashby-observation:langchain:f0396971-39fa-4d40-9af8-60e529bb6c86:c5be412fff54a534",
+          "ashby-observation:langchain:f07c1416-f126-4925-8606-5dd7c5a90f6f:c5be412fff54a534",
+          "ashby-observation:langchain:f7de4819-e7aa-4dfb-9acd-8b81ad8caf2c:c5be412fff54a534"
+        ],
+        "value": 10.0,
+        "value_state": "observed",
+        "week_end": "2026-11-23T00:00:00Z",
+        "week_start": "2026-11-16T00:00:00Z"
+      }
+    ],
+    "series_id": "jobs:open_postings|company=langchain|role_family=evaluation",
+    "signal_family": "jobs",
+    "unit": "count"
+  },
+  {
+    "availability": "available",
+    "availability_reason": null,
+    "company_id": "langchain",
+    "coverage_end": "2026-W47",
+    "coverage_start": "2026-W43",
+    "entity_id": "langchain:evaluation",
+    "entity_type": "company_role_family",
+    "gap_policy": "unknown",
+    "metadata": {
+      "adapter_version": "signals-adapter/1.0.0",
+      "closed_postings": "not derived: a posting leaving a board may have been filled, withdrawn, reposted, or missed by a failed collection run",
+      "grouping": "role family",
+      "role_family": "evaluation",
+      "role_family_method": "explicit_title_phrases_v1"
+    },
+    "metric": "new_postings",
+    "observed_week_count": 0,
+    "points": [
+      {
+        "iso_week": "2026-W43",
+        "notes": [
+          "first observed week: nothing is known about what was already listed, so no posting can be called new"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-10-26T00:00:00Z",
+        "week_start": "2026-10-19T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W44",
+        "notes": [
+          "no record observed; gap_policy=unknown"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-11-02T00:00:00Z",
+        "week_start": "2026-10-26T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W45",
+        "notes": [
+          "no record observed; gap_policy=unknown"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-11-09T00:00:00Z",
+        "week_start": "2026-11-02T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W46",
+        "notes": [
+          "no record observed; gap_policy=unknown"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-11-16T00:00:00Z",
+        "week_start": "2026-11-09T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W47",
+        "notes": [
+          "the previous observed week is 2026-W43; a posting first seen after a collection gap cannot be dated to this week"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-11-23T00:00:00Z",
+        "week_start": "2026-11-16T00:00:00Z"
+      }
+    ],
+    "series_id": "jobs:new_postings|company=langchain|role_family=evaluation",
+    "signal_family": "jobs",
+    "unit": "count"
+  },
+  {
+    "availability": "available",
+    "availability_reason": null,
+    "company_id": "langchain",
+    "coverage_end": "2026-W47",
+    "coverage_start": "2026-W43",
+    "entity_id": "langchain:go_to_market",
+    "entity_type": "company_role_family",
+    "gap_policy": "unknown",
+    "metadata": {
+      "adapter_version": "signals-adapter/1.0.0",
+      "closed_postings": "not derived: a posting leaving a board may have been filled, withdrawn, reposted, or missed by a failed collection run",
+      "grouping": "role family",
+      "role_family": "go_to_market",
+      "role_family_method": "explicit_title_phrases_v1"
+    },
+    "metric": "open_postings",
+    "observed_week_count": 2,
+    "points": [
+      {
+        "iso_week": "2026-W43",
+        "notes": [
+          "distinct postings listed on the board during the week"
+        ],
+        "origin_cluster_ids": [
+          "9f6a86f37f2011bc"
+        ],
+        "record_ids": [
+          "ashby-observation:langchain:01b42b2d-538f-4d5f-b9f1-2de1197bc0cb:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:24af8cb4-aa2a-4d98-a6af-9feb6817f872:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:2e05a8c8-a9d8-4627-a651-6700923b2a70:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:3a9b99ca-347f-4abf-8d34-9d66259c017f:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:3c38ac0d-4cb5-4c04-86c0-37b20166c8ec:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:426359a5-3a48-4b81-ba25-b2f32678b153:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:461a1356-24fc-40f2-88d6-ce253f94eeb4:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:65dbb419-ca80-4fda-b1b7-b81c08878992:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:6847e38f-ec98-4fb2-a2cb-a97cdd9be108:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:6b6ee951-6f94-4a2f-9e53-8410e9928614:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:6c1c47cf-fac0-4367-975e-795197df2c5d:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:6c5eacaf-0f0c-43c5-bac8-78c98424b979:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:6f31aa85-23ce-4c6a-a395-363b7a659de1:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:70b5d446-7238-4324-9e70-a971b67a438c:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:792b5e2e-be55-47db-be21-733a9dad8f32:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:7af64749-bc2c-4722-b40a-febac36fc56b:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:7c4fd239-1166-4ed4-b7bf-686b7a390928:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:8807d9b6-64ef-4254-b2e0-ec712fd9ff77:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:8b83f97a-12fb-42a6-9697-c3ef07646335:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:97ac0410-c6db-4c2a-9492-b68f62fcbbe3:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:98fcaa18-d323-49cd-b231-b2d4b905419d:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:9930dd01-d12e-42e1-b751-5240c3814f85:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:9ef63e88-b1ff-4e88-9bf8-20c01439b80a:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:a86c555e-87ed-4942-b52e-c6081159f5d2:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:b47dbcea-222c-427d-bf4d-9e30a6b60d4a:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:b9cf3229-c257-4536-bae6-e9b63134dc68:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:c16d44ab-faf0-4111-9ca7-8acb5dffcf46:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:c8150807-d346-47d5-9242-b0994d77ca87:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:d81ac364-7b1c-48d2-a8b7-4bc7336c6be5:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:d96a60dd-849b-4a2f-a48a-ea73845b86ea:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:df3a645d-5c08-4ea2-8823-7e40a5cbf9a6:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:e86a5b13-75e7-4b4e-bc18-3c81b58d1543:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:f4a7aa79-3e7f-4de1-8fda-16f161cc909d:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:f5887f10-50e7-459f-80e4-4c22a7db77bd:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:fd3767ba-6247-47bd-85ae-7e76be3871e6:c6e5e1dbaa58322a"
+        ],
+        "value": 35.0,
+        "value_state": "observed",
+        "week_end": "2026-10-26T00:00:00Z",
+        "week_start": "2026-10-19T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W44",
+        "notes": [
+          "no record observed; gap_policy=unknown"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-11-02T00:00:00Z",
+        "week_start": "2026-10-26T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W45",
+        "notes": [
+          "no record observed; gap_policy=unknown"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-11-09T00:00:00Z",
+        "week_start": "2026-11-02T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W46",
+        "notes": [
+          "no record observed; gap_policy=unknown"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-11-16T00:00:00Z",
+        "week_start": "2026-11-09T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W47",
+        "notes": [
+          "distinct postings listed on the board during the week"
+        ],
+        "origin_cluster_ids": [
+          "264db06d11a583e9"
+        ],
+        "record_ids": [
+          "ashby-observation:langchain:01b42b2d-538f-4d5f-b9f1-2de1197bc0cb:c5be412fff54a534",
+          "ashby-observation:langchain:0ce4562c-3a98-408f-8945-15d8d4af6cb6:c5be412fff54a534",
+          "ashby-observation:langchain:24af8cb4-aa2a-4d98-a6af-9feb6817f872:c5be412fff54a534",
+          "ashby-observation:langchain:26b29c27-711c-4239-9c1d-90cb45e02aa0:c5be412fff54a534",
+          "ashby-observation:langchain:2e05a8c8-a9d8-4627-a651-6700923b2a70:c5be412fff54a534",
+          "ashby-observation:langchain:32c6fe13-76e0-49a2-849d-991014416987:c5be412fff54a534",
+          "ashby-observation:langchain:3a9b99ca-347f-4abf-8d34-9d66259c017f:c5be412fff54a534",
+          "ashby-observation:langchain:3c38ac0d-4cb5-4c04-86c0-37b20166c8ec:c5be412fff54a534",
+          "ashby-observation:langchain:426359a5-3a48-4b81-ba25-b2f32678b153:c5be412fff54a534",
+          "ashby-observation:langchain:4f80ad29-1c30-433c-9fff-3385bc8f9fe9:c5be412fff54a534",
+          "ashby-observation:langchain:5b20b362-a407-4d12-934c-4ae0d2028432:c5be412fff54a534",
+          "ashby-observation:langchain:65dbb419-ca80-4fda-b1b7-b81c08878992:c5be412fff54a534",
+          "ashby-observation:langchain:6847e38f-ec98-4fb2-a2cb-a97cdd9be108:c5be412fff54a534",
+          "ashby-observation:langchain:6a53f11d-5446-4ca2-baf5-c4b84d4986a7:c5be412fff54a534",
+          "ashby-observation:langchain:6b6ee951-6f94-4a2f-9e53-8410e9928614:c5be412fff54a534",
+          "ashby-observation:langchain:6c1c47cf-fac0-4367-975e-795197df2c5d:c5be412fff54a534",
+          "ashby-observation:langchain:6c5eacaf-0f0c-43c5-bac8-78c98424b979:c5be412fff54a534",
+          "ashby-observation:langchain:70b5d446-7238-4324-9e70-a971b67a438c:c5be412fff54a534",
+          "ashby-observation:langchain:792b5e2e-be55-47db-be21-733a9dad8f32:c5be412fff54a534",
+          "ashby-observation:langchain:7af64749-bc2c-4722-b40a-febac36fc56b:c5be412fff54a534",
+          "ashby-observation:langchain:7c4fd239-1166-4ed4-b7bf-686b7a390928:c5be412fff54a534",
+          "ashby-observation:langchain:8807d9b6-64ef-4254-b2e0-ec712fd9ff77:c5be412fff54a534",
+          "ashby-observation:langchain:8b83f97a-12fb-42a6-9697-c3ef07646335:c5be412fff54a534",
+          "ashby-observation:langchain:97ac0410-c6db-4c2a-9492-b68f62fcbbe3:c5be412fff54a534",
+          "ashby-observation:langchain:9930dd01-d12e-42e1-b751-5240c3814f85:c5be412fff54a534",
+          "ashby-observation:langchain:9ef63e88-b1ff-4e88-9bf8-20c01439b80a:c5be412fff54a534",
+          "ashby-observation:langchain:b9cf3229-c257-4536-bae6-e9b63134dc68:c5be412fff54a534",
+          "ashby-observation:langchain:c16d44ab-faf0-4111-9ca7-8acb5dffcf46:c5be412fff54a534",
+          "ashby-observation:langchain:c8150807-d346-47d5-9242-b0994d77ca87:c5be412fff54a534",
+          "ashby-observation:langchain:d96a60dd-849b-4a2f-a48a-ea73845b86ea:c5be412fff54a534",
+          "ashby-observation:langchain:da014d1d-f537-4bd2-a1de-f1e755c73d6e:c5be412fff54a534",
+          "ashby-observation:langchain:df3a645d-5c08-4ea2-8823-7e40a5cbf9a6:c5be412fff54a534",
+          "ashby-observation:langchain:e86a5b13-75e7-4b4e-bc18-3c81b58d1543:c5be412fff54a534",
+          "ashby-observation:langchain:ebfd7cd4-c9cd-46bd-b406-3fadaffcecef:c5be412fff54a534",
+          "ashby-observation:langchain:f5887f10-50e7-459f-80e4-4c22a7db77bd:c5be412fff54a534",
+          "ashby-observation:langchain:fd3767ba-6247-47bd-85ae-7e76be3871e6:c5be412fff54a534"
+        ],
+        "value": 36.0,
+        "value_state": "observed",
+        "week_end": "2026-11-23T00:00:00Z",
+        "week_start": "2026-11-16T00:00:00Z"
+      }
+    ],
+    "series_id": "jobs:open_postings|company=langchain|role_family=go_to_market",
+    "signal_family": "jobs",
+    "unit": "count"
+  },
+  {
+    "availability": "available",
+    "availability_reason": null,
+    "company_id": "langchain",
+    "coverage_end": "2026-W47",
+    "coverage_start": "2026-W43",
+    "entity_id": "langchain:go_to_market",
+    "entity_type": "company_role_family",
+    "gap_policy": "unknown",
+    "metadata": {
+      "adapter_version": "signals-adapter/1.0.0",
+      "closed_postings": "not derived: a posting leaving a board may have been filled, withdrawn, reposted, or missed by a failed collection run",
+      "grouping": "role family",
+      "role_family": "go_to_market",
+      "role_family_method": "explicit_title_phrases_v1"
+    },
+    "metric": "new_postings",
+    "observed_week_count": 0,
+    "points": [
+      {
+        "iso_week": "2026-W43",
+        "notes": [
+          "first observed week: nothing is known about what was already listed, so no posting can be called new"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-10-26T00:00:00Z",
+        "week_start": "2026-10-19T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W44",
+        "notes": [
+          "no record observed; gap_policy=unknown"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-11-02T00:00:00Z",
+        "week_start": "2026-10-26T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W45",
+        "notes": [
+          "no record observed; gap_policy=unknown"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-11-09T00:00:00Z",
+        "week_start": "2026-11-02T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W46",
+        "notes": [
+          "no record observed; gap_policy=unknown"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-11-16T00:00:00Z",
+        "week_start": "2026-11-09T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W47",
+        "notes": [
+          "the previous observed week is 2026-W43; a posting first seen after a collection gap cannot be dated to this week"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-11-23T00:00:00Z",
+        "week_start": "2026-11-16T00:00:00Z"
+      }
+    ],
+    "series_id": "jobs:new_postings|company=langchain|role_family=go_to_market",
+    "signal_family": "jobs",
+    "unit": "count"
+  },
+  {
+    "availability": "available",
+    "availability_reason": null,
+    "company_id": "langchain",
+    "coverage_end": "2026-W47",
+    "coverage_start": "2026-W43",
+    "entity_id": "langchain:infrastructure",
+    "entity_type": "company_role_family",
+    "gap_policy": "unknown",
+    "metadata": {
+      "adapter_version": "signals-adapter/1.0.0",
+      "closed_postings": "not derived: a posting leaving a board may have been filled, withdrawn, reposted, or missed by a failed collection run",
+      "grouping": "role family",
+      "role_family": "infrastructure",
+      "role_family_method": "explicit_title_phrases_v1"
+    },
+    "metric": "open_postings",
+    "observed_week_count": 2,
+    "points": [
+      {
+        "iso_week": "2026-W43",
+        "notes": [
+          "distinct postings listed on the board during the week"
+        ],
+        "origin_cluster_ids": [
+          "9f6a86f37f2011bc"
+        ],
+        "record_ids": [
+          "ashby-observation:langchain:14727440-65bd-4cce-bed1-27d0c863eab3:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:1b125fc4-be24-422f-a180-30b7431fc6cf:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:20189c9d-f1af-4385-ae06-c3a6c7681ff0:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:4beade3b-0bf2-4720-b553-0309880e22b4:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:a03b3e54-495d-4960-aee7-0194a3cef57d:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:afb91b9b-46d5-4c9d-aa84-a4f1a3f74263:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:b23ea9af-c6dc-40fa-86ce-75042b905173:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:ddf92275-1cc3-49c0-9f25-e8ded43b07f6:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:e1263bfe-b638-4019-b4d5-0aacca93b2b3:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:e6d2bc1e-e0b9-4076-be01-ef8681863c01:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:f0396971-39fa-4d40-9af8-60e529bb6c86:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:f07c1416-f126-4925-8606-5dd7c5a90f6f:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:f7de4819-e7aa-4dfb-9acd-8b81ad8caf2c:c6e5e1dbaa58322a"
+        ],
+        "value": 13.0,
+        "value_state": "observed",
+        "week_end": "2026-10-26T00:00:00Z",
+        "week_start": "2026-10-19T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W44",
+        "notes": [
+          "no record observed; gap_policy=unknown"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-11-02T00:00:00Z",
+        "week_start": "2026-10-26T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W45",
+        "notes": [
+          "no record observed; gap_policy=unknown"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-11-09T00:00:00Z",
+        "week_start": "2026-11-02T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W46",
+        "notes": [
+          "no record observed; gap_policy=unknown"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-11-16T00:00:00Z",
+        "week_start": "2026-11-09T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W47",
+        "notes": [
+          "distinct postings listed on the board during the week"
+        ],
+        "origin_cluster_ids": [
+          "264db06d11a583e9"
+        ],
+        "record_ids": [
+          "ashby-observation:langchain:14727440-65bd-4cce-bed1-27d0c863eab3:c5be412fff54a534",
+          "ashby-observation:langchain:1b125fc4-be24-422f-a180-30b7431fc6cf:c5be412fff54a534",
+          "ashby-observation:langchain:4beade3b-0bf2-4720-b553-0309880e22b4:c5be412fff54a534",
+          "ashby-observation:langchain:a03b3e54-495d-4960-aee7-0194a3cef57d:c5be412fff54a534",
+          "ashby-observation:langchain:afb91b9b-46d5-4c9d-aa84-a4f1a3f74263:c5be412fff54a534",
+          "ashby-observation:langchain:b23ea9af-c6dc-40fa-86ce-75042b905173:c5be412fff54a534",
+          "ashby-observation:langchain:ddf92275-1cc3-49c0-9f25-e8ded43b07f6:c5be412fff54a534",
+          "ashby-observation:langchain:e1263bfe-b638-4019-b4d5-0aacca93b2b3:c5be412fff54a534",
+          "ashby-observation:langchain:e6d2bc1e-e0b9-4076-be01-ef8681863c01:c5be412fff54a534",
+          "ashby-observation:langchain:e725293d-c27b-4a79-959d-19f5618f2f8e:c5be412fff54a534",
+          "ashby-observation:langchain:f0396971-39fa-4d40-9af8-60e529bb6c86:c5be412fff54a534",
+          "ashby-observation:langchain:f07c1416-f126-4925-8606-5dd7c5a90f6f:c5be412fff54a534",
+          "ashby-observation:langchain:f7de4819-e7aa-4dfb-9acd-8b81ad8caf2c:c5be412fff54a534"
+        ],
+        "value": 13.0,
+        "value_state": "observed",
+        "week_end": "2026-11-23T00:00:00Z",
+        "week_start": "2026-11-16T00:00:00Z"
+      }
+    ],
+    "series_id": "jobs:open_postings|company=langchain|role_family=infrastructure",
+    "signal_family": "jobs",
+    "unit": "count"
+  },
+  {
+    "availability": "available",
+    "availability_reason": null,
+    "company_id": "langchain",
+    "coverage_end": "2026-W47",
+    "coverage_start": "2026-W43",
+    "entity_id": "langchain:infrastructure",
+    "entity_type": "company_role_family",
+    "gap_policy": "unknown",
+    "metadata": {
+      "adapter_version": "signals-adapter/1.0.0",
+      "closed_postings": "not derived: a posting leaving a board may have been filled, withdrawn, reposted, or missed by a failed collection run",
+      "grouping": "role family",
+      "role_family": "infrastructure",
+      "role_family_method": "explicit_title_phrases_v1"
+    },
+    "metric": "new_postings",
+    "observed_week_count": 0,
+    "points": [
+      {
+        "iso_week": "2026-W43",
+        "notes": [
+          "first observed week: nothing is known about what was already listed, so no posting can be called new"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-10-26T00:00:00Z",
+        "week_start": "2026-10-19T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W44",
+        "notes": [
+          "no record observed; gap_policy=unknown"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-11-02T00:00:00Z",
+        "week_start": "2026-10-26T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W45",
+        "notes": [
+          "no record observed; gap_policy=unknown"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-11-09T00:00:00Z",
+        "week_start": "2026-11-02T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W46",
+        "notes": [
+          "no record observed; gap_policy=unknown"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-11-16T00:00:00Z",
+        "week_start": "2026-11-09T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W47",
+        "notes": [
+          "the previous observed week is 2026-W43; a posting first seen after a collection gap cannot be dated to this week"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-11-23T00:00:00Z",
+        "week_start": "2026-11-16T00:00:00Z"
+      }
+    ],
+    "series_id": "jobs:new_postings|company=langchain|role_family=infrastructure",
+    "signal_family": "jobs",
+    "unit": "count"
+  },
+  {
+    "availability": "available",
+    "availability_reason": null,
+    "company_id": "langchain",
+    "coverage_end": "2026-W47",
+    "coverage_start": "2026-W43",
+    "entity_id": "langchain:other",
+    "entity_type": "company_role_family",
+    "gap_policy": "unknown",
+    "metadata": {
+      "adapter_version": "signals-adapter/1.0.0",
+      "closed_postings": "not derived: a posting leaving a board may have been filled, withdrawn, reposted, or missed by a failed collection run",
+      "grouping": "role family",
+      "role_family": "other",
+      "role_family_method": "explicit_title_phrases_v1"
+    },
+    "metric": "open_postings",
+    "observed_week_count": 2,
+    "points": [
+      {
+        "iso_week": "2026-W43",
+        "notes": [
+          "distinct postings listed on the board during the week"
+        ],
+        "origin_cluster_ids": [
+          "9f6a86f37f2011bc"
+        ],
+        "record_ids": [
+          "ashby-observation:langchain:0a5dd30c-6da1-4095-bd96-b16f27eeb333:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:0ee73994-b8a3-4a75-9675-da536abd3e10:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:0f35c8e1-9318-411d-929b-04c60e6d8522:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:1683a053-1bca-4a54-9889-bc32259df4e1:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:22bd243f-4088-49e0-bf02-fbad4442b0cb:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:25d40647-c821-46ff-bf25-bacf21fa38b5:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:27af5f96-b287-4bcc-8679-f96686dc7c8d:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:28aba38e-de19-4ae5-9316-08575a11ae4d:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:2b151a4e-f3a4-41fc-95f7-4e802906f2cb:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:329c0b62-0ca0-4311-a827-50a5a3333861:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:32c6fe13-76e0-49a2-849d-991014416987:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:34083fce-1e80-4595-9ce9-76387b735c70:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:38947013-3d0c-4257-aa58-ab8fe247ea3e:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:3e31c750-67f2-4d3d-ac29-48a2b57cf4bd:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:45773971-c904-41c4-b7af-1f3a661c49cc:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:47a3bc2a-2bed-4d61-b1de-b3d7ec211a08:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:5f5f8239-603c-47ca-a1ee-5a7ed34b502d:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:60d3bd4f-e80f-45fb-9801-725d8b681d54:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:6eecbcda-d94f-4700-b8c7-ce54cb212290:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:6f50988c-8e95-4a68-aeea-a94872651ff7:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:72eefb77-605d-4616-adda-820eb5208ac8:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:733417d6-7b74-4260-95d9-3cabf85ce0b8:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:74e5f9f4-e44a-4594-ba26-abdf71bf287d:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:7b1e5ff7-4531-4d4a-8379-52a21b6d386d:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:825b6d91-bc5e-4165-8a7c-2022a2248f7e:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:886be84d-b56a-4260-a8dc-87992640293d:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:88cba16a-9131-4166-96a7-8f879edcda27:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:890884ed-1143-43a5-8a46-1aef8f66e119:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:8aa63e71-b431-49d7-ab4a-bf4b3630d8e6:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:92a89b0e-a520-4510-a0ba-f3398dbc6983:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:933a41a3-43ca-44de-a0ae-f541149151b7:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:c02afa2f-5544-411d-a4e2-8bdc199b0c53:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:c425239d-ddca-4333-84fd-d719b8d3cb8b:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:c450c07a-196e-4ad4-9938-f368eb0ba65d:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:c4575cc8-ed78-47d7-8b53-637402e77d8d:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:c882af7e-59aa-4017-b791-9a8094c0ef6f:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:d1dc8b4d-5f7f-46b3-bfd9-dfcb375a614b:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:d1ffe5ac-2f03-408b-a051-dad74c72771c:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:d6673e5e-30c4-413c-bda8-70d15908ff80:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:d7454c6d-7025-4e46-befc-e23bedd8f452:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:d81c35c1-7243-45e4-bfe2-7fc8746c76b9:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:da7cbabd-ceed-4d7d-ae25-f226cac0c1c1:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:dfbba971-a7e2-4feb-a0d9-8e38a1155134:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:e12d7176-8b9f-438a-8f3b-0cbbffab9c5c:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:e39f60c8-6bfb-4ca4-b1b0-dd3d44d128bc:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:e725293d-c27b-4a79-959d-19f5618f2f8e:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:e773649c-4ea7-47c2-9987-74d525474e82:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:f5217646-e988-4060-8363-49ab93ba9fe4:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:f71210f9-12e1-4726-88b9-ebafa194d5b2:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:faeb56fd-e7d6-47d6-babe-e35315969206:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:fc868832-3865-4f4a-8222-33422a7d3d96:c6e5e1dbaa58322a"
+        ],
+        "value": 51.0,
+        "value_state": "observed",
+        "week_end": "2026-10-26T00:00:00Z",
+        "week_start": "2026-10-19T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W44",
+        "notes": [
+          "no record observed; gap_policy=unknown"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-11-02T00:00:00Z",
+        "week_start": "2026-10-26T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W45",
+        "notes": [
+          "no record observed; gap_policy=unknown"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-11-09T00:00:00Z",
+        "week_start": "2026-11-02T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W46",
+        "notes": [
+          "no record observed; gap_policy=unknown"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-11-16T00:00:00Z",
+        "week_start": "2026-11-09T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W47",
+        "notes": [
+          "distinct postings listed on the board during the week"
+        ],
+        "origin_cluster_ids": [
+          "264db06d11a583e9"
+        ],
+        "record_ids": [
+          "ashby-observation:langchain:0a5dd30c-6da1-4095-bd96-b16f27eeb333:c5be412fff54a534",
+          "ashby-observation:langchain:0ea7e53d-9692-42d8-8f2d-a893dca3aef6:c5be412fff54a534",
+          "ashby-observation:langchain:0ee73994-b8a3-4a75-9675-da536abd3e10:c5be412fff54a534",
+          "ashby-observation:langchain:0f35c8e1-9318-411d-929b-04c60e6d8522:c5be412fff54a534",
+          "ashby-observation:langchain:22bd243f-4088-49e0-bf02-fbad4442b0cb:c5be412fff54a534",
+          "ashby-observation:langchain:23ad4d96-98ea-420c-b935-5646318d8996:c5be412fff54a534",
+          "ashby-observation:langchain:27af5f96-b287-4bcc-8679-f96686dc7c8d:c5be412fff54a534",
+          "ashby-observation:langchain:28aba38e-de19-4ae5-9316-08575a11ae4d:c5be412fff54a534",
+          "ashby-observation:langchain:2b151a4e-f3a4-41fc-95f7-4e802906f2cb:c5be412fff54a534",
+          "ashby-observation:langchain:2ec70ad4-e93f-4a51-a169-eef862fb3b64:c5be412fff54a534",
+          "ashby-observation:langchain:2f9100e9-655b-4244-9dab-9a37c153af6a:c5be412fff54a534",
+          "ashby-observation:langchain:342fdab9-275c-4016-8b1a-8847579372ba:c5be412fff54a534",
+          "ashby-observation:langchain:3858b7f4-6762-47d0-9fb5-ea2610a5a099:c5be412fff54a534",
+          "ashby-observation:langchain:38947013-3d0c-4257-aa58-ab8fe247ea3e:c5be412fff54a534",
+          "ashby-observation:langchain:3e31c750-67f2-4d3d-ac29-48a2b57cf4bd:c5be412fff54a534",
+          "ashby-observation:langchain:45773971-c904-41c4-b7af-1f3a661c49cc:c5be412fff54a534",
+          "ashby-observation:langchain:46c1a69d-5eff-425f-8f76-da7ddf047dd4:c5be412fff54a534",
+          "ashby-observation:langchain:47a3bc2a-2bed-4d61-b1de-b3d7ec211a08:c5be412fff54a534",
+          "ashby-observation:langchain:5095871a-9af2-4521-8c63-ff0d852f7354:c5be412fff54a534",
+          "ashby-observation:langchain:5f5f8239-603c-47ca-a1ee-5a7ed34b502d:c5be412fff54a534",
+          "ashby-observation:langchain:60d3bd4f-e80f-45fb-9801-725d8b681d54:c5be412fff54a534",
+          "ashby-observation:langchain:657e8401-922f-4a47-8206-f1bf0180a626:c5be412fff54a534",
+          "ashby-observation:langchain:6eecbcda-d94f-4700-b8c7-ce54cb212290:c5be412fff54a534",
+          "ashby-observation:langchain:6f50988c-8e95-4a68-aeea-a94872651ff7:c5be412fff54a534",
+          "ashby-observation:langchain:72eefb77-605d-4616-adda-820eb5208ac8:c5be412fff54a534",
+          "ashby-observation:langchain:733417d6-7b74-4260-95d9-3cabf85ce0b8:c5be412fff54a534",
+          "ashby-observation:langchain:74e5f9f4-e44a-4594-ba26-abdf71bf287d:c5be412fff54a534",
+          "ashby-observation:langchain:7b1e5ff7-4531-4d4a-8379-52a21b6d386d:c5be412fff54a534",
+          "ashby-observation:langchain:7b54b0b9-703a-49f0-b927-98c43494b23a:c5be412fff54a534",
+          "ashby-observation:langchain:7bc0df5b-f358-4c70-b15c-9577a868c5c0:c5be412fff54a534",
+          "ashby-observation:langchain:86ba410e-2625-41e4-b430-3f0d7c7477a5:c5be412fff54a534",
+          "ashby-observation:langchain:886be84d-b56a-4260-a8dc-87992640293d:c5be412fff54a534",
+          "ashby-observation:langchain:890884ed-1143-43a5-8a46-1aef8f66e119:c5be412fff54a534",
+          "ashby-observation:langchain:8928b6e9-aa61-4bbe-9d63-bf9acaba18b1:c5be412fff54a534",
+          "ashby-observation:langchain:92a89b0e-a520-4510-a0ba-f3398dbc6983:c5be412fff54a534",
+          "ashby-observation:langchain:933a41a3-43ca-44de-a0ae-f541149151b7:c5be412fff54a534",
+          "ashby-observation:langchain:960828f4-45ed-4925-97ad-28384c4311cc:c5be412fff54a534",
+          "ashby-observation:langchain:a38cccbe-f540-4e4f-a970-3aa197c7b097:c5be412fff54a534",
+          "ashby-observation:langchain:ac5efe22-6098-49dc-850a-b89d332df41d:c5be412fff54a534",
+          "ashby-observation:langchain:b8e80939-373d-4d9d-a191-faee606c7efe:c5be412fff54a534",
+          "ashby-observation:langchain:c02afa2f-5544-411d-a4e2-8bdc199b0c53:c5be412fff54a534",
+          "ashby-observation:langchain:c425239d-ddca-4333-84fd-d719b8d3cb8b:c5be412fff54a534",
+          "ashby-observation:langchain:c4575cc8-ed78-47d7-8b53-637402e77d8d:c5be412fff54a534",
+          "ashby-observation:langchain:c4b4b4e2-f434-460a-89a4-355ca53983ac:c5be412fff54a534",
+          "ashby-observation:langchain:d6673e5e-30c4-413c-bda8-70d15908ff80:c5be412fff54a534",
+          "ashby-observation:langchain:d7454c6d-7025-4e46-befc-e23bedd8f452:c5be412fff54a534",
+          "ashby-observation:langchain:da7cbabd-ceed-4d7d-ae25-f226cac0c1c1:c5be412fff54a534",
+          "ashby-observation:langchain:e12d7176-8b9f-438a-8f3b-0cbbffab9c5c:c5be412fff54a534",
+          "ashby-observation:langchain:e16813af-c276-41ee-9f7a-c7a5cfc63f1b:c5be412fff54a534",
+          "ashby-observation:langchain:e39f60c8-6bfb-4ca4-b1b0-dd3d44d128bc:c5be412fff54a534",
+          "ashby-observation:langchain:f71210f9-12e1-4726-88b9-ebafa194d5b2:c5be412fff54a534",
+          "ashby-observation:langchain:faeb56fd-e7d6-47d6-babe-e35315969206:c5be412fff54a534",
+          "ashby-observation:langchain:fc868832-3865-4f4a-8222-33422a7d3d96:c5be412fff54a534"
+        ],
+        "value": 53.0,
+        "value_state": "observed",
+        "week_end": "2026-11-23T00:00:00Z",
+        "week_start": "2026-11-16T00:00:00Z"
+      }
+    ],
+    "series_id": "jobs:open_postings|company=langchain|role_family=other",
+    "signal_family": "jobs",
+    "unit": "count"
+  },
+  {
+    "availability": "available",
+    "availability_reason": null,
+    "company_id": "langchain",
+    "coverage_end": "2026-W47",
+    "coverage_start": "2026-W43",
+    "entity_id": "langchain:other",
+    "entity_type": "company_role_family",
+    "gap_policy": "unknown",
+    "metadata": {
+      "adapter_version": "signals-adapter/1.0.0",
+      "closed_postings": "not derived: a posting leaving a board may have been filled, withdrawn, reposted, or missed by a failed collection run",
+      "grouping": "role family",
+      "role_family": "other",
+      "role_family_method": "explicit_title_phrases_v1"
+    },
+    "metric": "new_postings",
+    "observed_week_count": 0,
+    "points": [
+      {
+        "iso_week": "2026-W43",
+        "notes": [
+          "first observed week: nothing is known about what was already listed, so no posting can be called new"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-10-26T00:00:00Z",
+        "week_start": "2026-10-19T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W44",
+        "notes": [
+          "no record observed; gap_policy=unknown"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-11-02T00:00:00Z",
+        "week_start": "2026-10-26T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W45",
+        "notes": [
+          "no record observed; gap_policy=unknown"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-11-09T00:00:00Z",
+        "week_start": "2026-11-02T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W46",
+        "notes": [
+          "no record observed; gap_policy=unknown"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-11-16T00:00:00Z",
+        "week_start": "2026-11-09T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W47",
+        "notes": [
+          "the previous observed week is 2026-W43; a posting first seen after a collection gap cannot be dated to this week"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-11-23T00:00:00Z",
+        "week_start": "2026-11-16T00:00:00Z"
+      }
+    ],
+    "series_id": "jobs:new_postings|company=langchain|role_family=other",
+    "signal_family": "jobs",
+    "unit": "count"
+  },
+  {
+    "availability": "available",
+    "availability_reason": null,
+    "company_id": "langchain",
+    "coverage_end": "2026-W47",
+    "coverage_start": "2026-W43",
+    "entity_id": "langchain:product_engineering",
+    "entity_type": "company_role_family",
+    "gap_policy": "unknown",
+    "metadata": {
+      "adapter_version": "signals-adapter/1.0.0",
+      "closed_postings": "not derived: a posting leaving a board may have been filled, withdrawn, reposted, or missed by a failed collection run",
+      "grouping": "role family",
+      "role_family": "product_engineering",
+      "role_family_method": "explicit_title_phrases_v1"
+    },
+    "metric": "open_postings",
+    "observed_week_count": 2,
+    "points": [
+      {
+        "iso_week": "2026-W43",
+        "notes": [
+          "distinct postings listed on the board during the week"
+        ],
+        "origin_cluster_ids": [
+          "9f6a86f37f2011bc"
+        ],
+        "record_ids": [
+          "ashby-observation:langchain:068b2e23-af01-42c7-9bce-d86976ea4d6e:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:14727440-65bd-4cce-bed1-27d0c863eab3:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:20189c9d-f1af-4385-ae06-c3a6c7681ff0:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:4beade3b-0bf2-4720-b553-0309880e22b4:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:a03b3e54-495d-4960-aee7-0194a3cef57d:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:afb91b9b-46d5-4c9d-aa84-a4f1a3f74263:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:b23ea9af-c6dc-40fa-86ce-75042b905173:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:ddf92275-1cc3-49c0-9f25-e8ded43b07f6:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:e6d2bc1e-e0b9-4076-be01-ef8681863c01:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:eadd2a71-47fc-483b-948f-4b2384f7f93f:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:f07bfbad-6daf-4b11-b5bb-2c3bbc47c53c:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:f07c1416-f126-4925-8606-5dd7c5a90f6f:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:f7de4819-e7aa-4dfb-9acd-8b81ad8caf2c:c6e5e1dbaa58322a"
+        ],
+        "value": 13.0,
+        "value_state": "observed",
+        "week_end": "2026-10-26T00:00:00Z",
+        "week_start": "2026-10-19T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W44",
+        "notes": [
+          "no record observed; gap_policy=unknown"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-11-02T00:00:00Z",
+        "week_start": "2026-10-26T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W45",
+        "notes": [
+          "no record observed; gap_policy=unknown"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-11-09T00:00:00Z",
+        "week_start": "2026-11-02T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W46",
+        "notes": [
+          "no record observed; gap_policy=unknown"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-11-16T00:00:00Z",
+        "week_start": "2026-11-09T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W47",
+        "notes": [
+          "distinct postings listed on the board during the week"
+        ],
+        "origin_cluster_ids": [
+          "264db06d11a583e9"
+        ],
+        "record_ids": [
+          "ashby-observation:langchain:14727440-65bd-4cce-bed1-27d0c863eab3:c5be412fff54a534",
+          "ashby-observation:langchain:4beade3b-0bf2-4720-b553-0309880e22b4:c5be412fff54a534",
+          "ashby-observation:langchain:a03b3e54-495d-4960-aee7-0194a3cef57d:c5be412fff54a534",
+          "ashby-observation:langchain:afb91b9b-46d5-4c9d-aa84-a4f1a3f74263:c5be412fff54a534",
+          "ashby-observation:langchain:b23ea9af-c6dc-40fa-86ce-75042b905173:c5be412fff54a534",
+          "ashby-observation:langchain:ddf92275-1cc3-49c0-9f25-e8ded43b07f6:c5be412fff54a534",
+          "ashby-observation:langchain:e6d2bc1e-e0b9-4076-be01-ef8681863c01:c5be412fff54a534",
+          "ashby-observation:langchain:e725293d-c27b-4a79-959d-19f5618f2f8e:c5be412fff54a534",
+          "ashby-observation:langchain:f07c1416-f126-4925-8606-5dd7c5a90f6f:c5be412fff54a534",
+          "ashby-observation:langchain:f7de4819-e7aa-4dfb-9acd-8b81ad8caf2c:c5be412fff54a534"
+        ],
+        "value": 10.0,
+        "value_state": "observed",
+        "week_end": "2026-11-23T00:00:00Z",
+        "week_start": "2026-11-16T00:00:00Z"
+      }
+    ],
+    "series_id": "jobs:open_postings|company=langchain|role_family=product_engineering",
+    "signal_family": "jobs",
+    "unit": "count"
+  },
+  {
+    "availability": "available",
+    "availability_reason": null,
+    "company_id": "langchain",
+    "coverage_end": "2026-W47",
+    "coverage_start": "2026-W43",
+    "entity_id": "langchain:product_engineering",
+    "entity_type": "company_role_family",
+    "gap_policy": "unknown",
+    "metadata": {
+      "adapter_version": "signals-adapter/1.0.0",
+      "closed_postings": "not derived: a posting leaving a board may have been filled, withdrawn, reposted, or missed by a failed collection run",
+      "grouping": "role family",
+      "role_family": "product_engineering",
+      "role_family_method": "explicit_title_phrases_v1"
+    },
+    "metric": "new_postings",
+    "observed_week_count": 0,
+    "points": [
+      {
+        "iso_week": "2026-W43",
+        "notes": [
+          "first observed week: nothing is known about what was already listed, so no posting can be called new"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-10-26T00:00:00Z",
+        "week_start": "2026-10-19T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W44",
+        "notes": [
+          "no record observed; gap_policy=unknown"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-11-02T00:00:00Z",
+        "week_start": "2026-10-26T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W45",
+        "notes": [
+          "no record observed; gap_policy=unknown"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-11-09T00:00:00Z",
+        "week_start": "2026-11-02T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W46",
+        "notes": [
+          "no record observed; gap_policy=unknown"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-11-16T00:00:00Z",
+        "week_start": "2026-11-09T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W47",
+        "notes": [
+          "the previous observed week is 2026-W43; a posting first seen after a collection gap cannot be dated to this week"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-11-23T00:00:00Z",
+        "week_start": "2026-11-16T00:00:00Z"
+      }
+    ],
+    "series_id": "jobs:new_postings|company=langchain|role_family=product_engineering",
+    "signal_family": "jobs",
+    "unit": "count"
+  },
+  {
+    "availability": "available",
+    "availability_reason": null,
+    "company_id": "langchain",
+    "coverage_end": "2026-W47",
+    "coverage_start": "2026-W43",
+    "entity_id": "langchain:research",
+    "entity_type": "company_role_family",
+    "gap_policy": "unknown",
+    "metadata": {
+      "adapter_version": "signals-adapter/1.0.0",
+      "closed_postings": "not derived: a posting leaving a board may have been filled, withdrawn, reposted, or missed by a failed collection run",
+      "grouping": "role family",
+      "role_family": "research",
+      "role_family_method": "explicit_title_phrases_v1"
+    },
+    "metric": "open_postings",
+    "observed_week_count": 2,
+    "points": [
+      {
+        "iso_week": "2026-W43",
+        "notes": [
+          "distinct postings listed on the board during the week"
+        ],
+        "origin_cluster_ids": [
+          "9f6a86f37f2011bc"
+        ],
+        "record_ids": [
+          "ashby-observation:langchain:bdc96ffd-2a95-4d63-bf8f-193574961e00:c6e5e1dbaa58322a"
+        ],
+        "value": 1.0,
+        "value_state": "observed",
+        "week_end": "2026-10-26T00:00:00Z",
+        "week_start": "2026-10-19T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W44",
+        "notes": [
+          "no record observed; gap_policy=unknown"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-11-02T00:00:00Z",
+        "week_start": "2026-10-26T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W45",
+        "notes": [
+          "no record observed; gap_policy=unknown"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-11-09T00:00:00Z",
+        "week_start": "2026-11-02T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W46",
+        "notes": [
+          "no record observed; gap_policy=unknown"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-11-16T00:00:00Z",
+        "week_start": "2026-11-09T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W47",
+        "notes": [
+          "distinct postings listed on the board during the week"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": 0.0,
+        "value_state": "observed",
+        "week_end": "2026-11-23T00:00:00Z",
+        "week_start": "2026-11-16T00:00:00Z"
+      }
+    ],
+    "series_id": "jobs:open_postings|company=langchain|role_family=research",
+    "signal_family": "jobs",
+    "unit": "count"
+  },
+  {
+    "availability": "available",
+    "availability_reason": null,
+    "company_id": "langchain",
+    "coverage_end": "2026-W47",
+    "coverage_start": "2026-W43",
+    "entity_id": "langchain:research",
+    "entity_type": "company_role_family",
+    "gap_policy": "unknown",
+    "metadata": {
+      "adapter_version": "signals-adapter/1.0.0",
+      "closed_postings": "not derived: a posting leaving a board may have been filled, withdrawn, reposted, or missed by a failed collection run",
+      "grouping": "role family",
+      "role_family": "research",
+      "role_family_method": "explicit_title_phrases_v1"
+    },
+    "metric": "new_postings",
+    "observed_week_count": 0,
+    "points": [
+      {
+        "iso_week": "2026-W43",
+        "notes": [
+          "first observed week: nothing is known about what was already listed, so no posting can be called new"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-10-26T00:00:00Z",
+        "week_start": "2026-10-19T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W44",
+        "notes": [
+          "no record observed; gap_policy=unknown"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-11-02T00:00:00Z",
+        "week_start": "2026-10-26T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W45",
+        "notes": [
+          "no record observed; gap_policy=unknown"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-11-09T00:00:00Z",
+        "week_start": "2026-11-02T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W46",
+        "notes": [
+          "no record observed; gap_policy=unknown"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-11-16T00:00:00Z",
+        "week_start": "2026-11-09T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W47",
+        "notes": [
+          "the previous observed week is 2026-W43; a posting first seen after a collection gap cannot be dated to this week"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-11-23T00:00:00Z",
+        "week_start": "2026-11-16T00:00:00Z"
+      }
+    ],
+    "series_id": "jobs:new_postings|company=langchain|role_family=research",
+    "signal_family": "jobs",
+    "unit": "count"
+  },
+  {
+    "availability": "available",
+    "availability_reason": null,
+    "company_id": "langchain",
+    "coverage_end": "2026-W47",
+    "coverage_start": "2026-W43",
+    "entity_id": "langchain:retrieval",
+    "entity_type": "company_role_family",
+    "gap_policy": "unknown",
+    "metadata": {
+      "adapter_version": "signals-adapter/1.0.0",
+      "closed_postings": "not derived: a posting leaving a board may have been filled, withdrawn, reposted, or missed by a failed collection run",
+      "grouping": "role family",
+      "role_family": "retrieval",
+      "role_family_method": "explicit_title_phrases_v1"
+    },
+    "metric": "open_postings",
+    "observed_week_count": 2,
+    "points": [
+      {
+        "iso_week": "2026-W43",
+        "notes": [
+          "distinct postings listed on the board during the week"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": 0.0,
+        "value_state": "observed",
+        "week_end": "2026-10-26T00:00:00Z",
+        "week_start": "2026-10-19T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W44",
+        "notes": [
+          "no record observed; gap_policy=unknown"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-11-02T00:00:00Z",
+        "week_start": "2026-10-26T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W45",
+        "notes": [
+          "no record observed; gap_policy=unknown"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-11-09T00:00:00Z",
+        "week_start": "2026-11-02T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W46",
+        "notes": [
+          "no record observed; gap_policy=unknown"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-11-16T00:00:00Z",
+        "week_start": "2026-11-09T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W47",
+        "notes": [
+          "distinct postings listed on the board during the week"
+        ],
+        "origin_cluster_ids": [
+          "264db06d11a583e9"
+        ],
+        "record_ids": [
+          "ashby-observation:langchain:6a53f11d-5446-4ca2-baf5-c4b84d4986a7:c5be412fff54a534"
+        ],
+        "value": 1.0,
+        "value_state": "observed",
+        "week_end": "2026-11-23T00:00:00Z",
+        "week_start": "2026-11-16T00:00:00Z"
+      }
+    ],
+    "series_id": "jobs:open_postings|company=langchain|role_family=retrieval",
+    "signal_family": "jobs",
+    "unit": "count"
+  },
+  {
+    "availability": "available",
+    "availability_reason": null,
+    "company_id": "langchain",
+    "coverage_end": "2026-W47",
+    "coverage_start": "2026-W43",
+    "entity_id": "langchain:retrieval",
+    "entity_type": "company_role_family",
+    "gap_policy": "unknown",
+    "metadata": {
+      "adapter_version": "signals-adapter/1.0.0",
+      "closed_postings": "not derived: a posting leaving a board may have been filled, withdrawn, reposted, or missed by a failed collection run",
+      "grouping": "role family",
+      "role_family": "retrieval",
+      "role_family_method": "explicit_title_phrases_v1"
+    },
+    "metric": "new_postings",
+    "observed_week_count": 0,
+    "points": [
+      {
+        "iso_week": "2026-W43",
+        "notes": [
+          "first observed week: nothing is known about what was already listed, so no posting can be called new"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-10-26T00:00:00Z",
+        "week_start": "2026-10-19T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W44",
+        "notes": [
+          "no record observed; gap_policy=unknown"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-11-02T00:00:00Z",
+        "week_start": "2026-10-26T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W45",
+        "notes": [
+          "no record observed; gap_policy=unknown"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-11-09T00:00:00Z",
+        "week_start": "2026-11-02T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W46",
+        "notes": [
+          "no record observed; gap_policy=unknown"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-11-16T00:00:00Z",
+        "week_start": "2026-11-09T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W47",
+        "notes": [
+          "the previous observed week is 2026-W43; a posting first seen after a collection gap cannot be dated to this week"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-11-23T00:00:00Z",
+        "week_start": "2026-11-16T00:00:00Z"
+      }
+    ],
+    "series_id": "jobs:new_postings|company=langchain|role_family=retrieval",
+    "signal_family": "jobs",
+    "unit": "count"
+  },
+  {
+    "availability": "available",
+    "availability_reason": null,
+    "company_id": "langchain",
+    "coverage_end": "2026-W47",
+    "coverage_start": "2026-W43",
+    "entity_id": "langchain:c++",
+    "entity_type": "company_skill",
+    "gap_policy": "unknown",
+    "metadata": {
+      "adapter_version": "signals-adapter/1.0.0",
+      "closed_postings": "not derived: a posting leaving a board may have been filled, withdrawn, reposted, or missed by a failed collection run",
+      "grouping": "explicitly mentioned skill",
+      "role_family_method": "explicit_title_phrases_v1",
+      "skill": "c++"
+    },
+    "metric": "open_postings",
+    "observed_week_count": 2,
+    "points": [
+      {
+        "iso_week": "2026-W43",
+        "notes": [
+          "distinct postings listed on the board during the week"
+        ],
+        "origin_cluster_ids": [
+          "9f6a86f37f2011bc"
+        ],
+        "record_ids": [
+          "ashby-observation:langchain:068b2e23-af01-42c7-9bce-d86976ea4d6e:c6e5e1dbaa58322a"
+        ],
+        "value": 1.0,
+        "value_state": "observed",
+        "week_end": "2026-10-26T00:00:00Z",
+        "week_start": "2026-10-19T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W44",
+        "notes": [
+          "no record observed; gap_policy=unknown"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-11-02T00:00:00Z",
+        "week_start": "2026-10-26T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W45",
+        "notes": [
+          "no record observed; gap_policy=unknown"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-11-09T00:00:00Z",
+        "week_start": "2026-11-02T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W46",
+        "notes": [
+          "no record observed; gap_policy=unknown"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-11-16T00:00:00Z",
+        "week_start": "2026-11-09T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W47",
+        "notes": [
+          "distinct postings listed on the board during the week"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": 0.0,
+        "value_state": "observed",
+        "week_end": "2026-11-23T00:00:00Z",
+        "week_start": "2026-11-16T00:00:00Z"
+      }
+    ],
+    "series_id": "jobs:open_postings|company=langchain|skill=c++",
+    "signal_family": "jobs",
+    "unit": "count"
+  },
+  {
+    "availability": "available",
+    "availability_reason": null,
+    "company_id": "langchain",
+    "coverage_end": "2026-W47",
+    "coverage_start": "2026-W43",
+    "entity_id": "langchain:c++",
+    "entity_type": "company_skill",
+    "gap_policy": "unknown",
+    "metadata": {
+      "adapter_version": "signals-adapter/1.0.0",
+      "closed_postings": "not derived: a posting leaving a board may have been filled, withdrawn, reposted, or missed by a failed collection run",
+      "grouping": "explicitly mentioned skill",
+      "role_family_method": "explicit_title_phrases_v1",
+      "skill": "c++"
+    },
+    "metric": "new_postings",
+    "observed_week_count": 0,
+    "points": [
+      {
+        "iso_week": "2026-W43",
+        "notes": [
+          "first observed week: nothing is known about what was already listed, so no posting can be called new"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-10-26T00:00:00Z",
+        "week_start": "2026-10-19T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W44",
+        "notes": [
+          "no record observed; gap_policy=unknown"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-11-02T00:00:00Z",
+        "week_start": "2026-10-26T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W45",
+        "notes": [
+          "no record observed; gap_policy=unknown"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-11-09T00:00:00Z",
+        "week_start": "2026-11-02T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W46",
+        "notes": [
+          "no record observed; gap_policy=unknown"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-11-16T00:00:00Z",
+        "week_start": "2026-11-09T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W47",
+        "notes": [
+          "the previous observed week is 2026-W43; a posting first seen after a collection gap cannot be dated to this week"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-11-23T00:00:00Z",
+        "week_start": "2026-11-16T00:00:00Z"
+      }
+    ],
+    "series_id": "jobs:new_postings|company=langchain|skill=c++",
+    "signal_family": "jobs",
+    "unit": "count"
+  },
+  {
+    "availability": "available",
+    "availability_reason": null,
+    "company_id": "langchain",
+    "coverage_end": "2026-W47",
+    "coverage_start": "2026-W43",
+    "entity_id": "langchain:docker",
+    "entity_type": "company_skill",
+    "gap_policy": "unknown",
+    "metadata": {
+      "adapter_version": "signals-adapter/1.0.0",
+      "closed_postings": "not derived: a posting leaving a board may have been filled, withdrawn, reposted, or missed by a failed collection run",
+      "grouping": "explicitly mentioned skill",
+      "role_family_method": "explicit_title_phrases_v1",
+      "skill": "docker"
+    },
+    "metric": "open_postings",
+    "observed_week_count": 2,
+    "points": [
+      {
+        "iso_week": "2026-W43",
+        "notes": [
+          "distinct postings listed on the board during the week"
+        ],
+        "origin_cluster_ids": [
+          "9f6a86f37f2011bc"
+        ],
+        "record_ids": [
+          "ashby-observation:langchain:8aa63e71-b431-49d7-ab4a-bf4b3630d8e6:c6e5e1dbaa58322a"
+        ],
+        "value": 1.0,
+        "value_state": "observed",
+        "week_end": "2026-10-26T00:00:00Z",
+        "week_start": "2026-10-19T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W44",
+        "notes": [
+          "no record observed; gap_policy=unknown"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-11-02T00:00:00Z",
+        "week_start": "2026-10-26T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W45",
+        "notes": [
+          "no record observed; gap_policy=unknown"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-11-09T00:00:00Z",
+        "week_start": "2026-11-02T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W46",
+        "notes": [
+          "no record observed; gap_policy=unknown"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-11-16T00:00:00Z",
+        "week_start": "2026-11-09T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W47",
+        "notes": [
+          "distinct postings listed on the board during the week"
+        ],
+        "origin_cluster_ids": [
+          "264db06d11a583e9"
+        ],
+        "record_ids": [
+          "ashby-observation:langchain:46c1a69d-5eff-425f-8f76-da7ddf047dd4:c5be412fff54a534"
+        ],
+        "value": 1.0,
+        "value_state": "observed",
+        "week_end": "2026-11-23T00:00:00Z",
+        "week_start": "2026-11-16T00:00:00Z"
+      }
+    ],
+    "series_id": "jobs:open_postings|company=langchain|skill=docker",
+    "signal_family": "jobs",
+    "unit": "count"
+  },
+  {
+    "availability": "available",
+    "availability_reason": null,
+    "company_id": "langchain",
+    "coverage_end": "2026-W47",
+    "coverage_start": "2026-W43",
+    "entity_id": "langchain:docker",
+    "entity_type": "company_skill",
+    "gap_policy": "unknown",
+    "metadata": {
+      "adapter_version": "signals-adapter/1.0.0",
+      "closed_postings": "not derived: a posting leaving a board may have been filled, withdrawn, reposted, or missed by a failed collection run",
+      "grouping": "explicitly mentioned skill",
+      "role_family_method": "explicit_title_phrases_v1",
+      "skill": "docker"
+    },
+    "metric": "new_postings",
+    "observed_week_count": 0,
+    "points": [
+      {
+        "iso_week": "2026-W43",
+        "notes": [
+          "first observed week: nothing is known about what was already listed, so no posting can be called new"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-10-26T00:00:00Z",
+        "week_start": "2026-10-19T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W44",
+        "notes": [
+          "no record observed; gap_policy=unknown"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-11-02T00:00:00Z",
+        "week_start": "2026-10-26T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W45",
+        "notes": [
+          "no record observed; gap_policy=unknown"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-11-09T00:00:00Z",
+        "week_start": "2026-11-02T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W46",
+        "notes": [
+          "no record observed; gap_policy=unknown"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-11-16T00:00:00Z",
+        "week_start": "2026-11-09T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W47",
+        "notes": [
+          "the previous observed week is 2026-W43; a posting first seen after a collection gap cannot be dated to this week"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-11-23T00:00:00Z",
+        "week_start": "2026-11-16T00:00:00Z"
+      }
+    ],
+    "series_id": "jobs:new_postings|company=langchain|skill=docker",
+    "signal_family": "jobs",
+    "unit": "count"
+  },
+  {
+    "availability": "available",
+    "availability_reason": null,
+    "company_id": "langchain",
+    "coverage_end": "2026-W47",
+    "coverage_start": "2026-W43",
+    "entity_id": "langchain:javascript",
+    "entity_type": "company_skill",
+    "gap_policy": "unknown",
+    "metadata": {
+      "adapter_version": "signals-adapter/1.0.0",
+      "closed_postings": "not derived: a posting leaving a board may have been filled, withdrawn, reposted, or missed by a failed collection run",
+      "grouping": "explicitly mentioned skill",
+      "role_family_method": "explicit_title_phrases_v1",
+      "skill": "javascript"
+    },
+    "metric": "open_postings",
+    "observed_week_count": 2,
+    "points": [
+      {
+        "iso_week": "2026-W43",
+        "notes": [
+          "distinct postings listed on the board during the week"
+        ],
+        "origin_cluster_ids": [
+          "9f6a86f37f2011bc"
+        ],
+        "record_ids": [
+          "ashby-observation:langchain:0ee73994-b8a3-4a75-9675-da536abd3e10:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:0f35c8e1-9318-411d-929b-04c60e6d8522:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:14727440-65bd-4cce-bed1-27d0c863eab3:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:25d40647-c821-46ff-bf25-bacf21fa38b5:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:329c0b62-0ca0-4311-a827-50a5a3333861:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:34083fce-1e80-4595-9ce9-76387b735c70:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:38947013-3d0c-4257-aa58-ab8fe247ea3e:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:3e31c750-67f2-4d3d-ac29-48a2b57cf4bd:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:5f5f8239-603c-47ca-a1ee-5a7ed34b502d:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:60d3bd4f-e80f-45fb-9801-725d8b681d54:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:6eecbcda-d94f-4700-b8c7-ce54cb212290:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:6f50988c-8e95-4a68-aeea-a94872651ff7:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:733417d6-7b74-4260-95d9-3cabf85ce0b8:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:afb91b9b-46d5-4c9d-aa84-a4f1a3f74263:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:b47dbcea-222c-427d-bf4d-9e30a6b60d4a:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:c450c07a-196e-4ad4-9938-f368eb0ba65d:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:d1dc8b4d-5f7f-46b3-bfd9-dfcb375a614b:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:d7454c6d-7025-4e46-befc-e23bedd8f452:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:dfbba971-a7e2-4feb-a0d9-8e38a1155134:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:e773649c-4ea7-47c2-9987-74d525474e82:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:f7de4819-e7aa-4dfb-9acd-8b81ad8caf2c:c6e5e1dbaa58322a"
+        ],
+        "value": 21.0,
+        "value_state": "observed",
+        "week_end": "2026-10-26T00:00:00Z",
+        "week_start": "2026-10-19T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W44",
+        "notes": [
+          "no record observed; gap_policy=unknown"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-11-02T00:00:00Z",
+        "week_start": "2026-10-26T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W45",
+        "notes": [
+          "no record observed; gap_policy=unknown"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-11-09T00:00:00Z",
+        "week_start": "2026-11-02T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W46",
+        "notes": [
+          "no record observed; gap_policy=unknown"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-11-16T00:00:00Z",
+        "week_start": "2026-11-09T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W47",
+        "notes": [
+          "distinct postings listed on the board during the week"
+        ],
+        "origin_cluster_ids": [
+          "264db06d11a583e9"
+        ],
+        "record_ids": [
+          "ashby-observation:langchain:0ee73994-b8a3-4a75-9675-da536abd3e10:c5be412fff54a534",
+          "ashby-observation:langchain:0f35c8e1-9318-411d-929b-04c60e6d8522:c5be412fff54a534",
+          "ashby-observation:langchain:14727440-65bd-4cce-bed1-27d0c863eab3:c5be412fff54a534",
+          "ashby-observation:langchain:38947013-3d0c-4257-aa58-ab8fe247ea3e:c5be412fff54a534",
+          "ashby-observation:langchain:3e31c750-67f2-4d3d-ac29-48a2b57cf4bd:c5be412fff54a534",
+          "ashby-observation:langchain:5f5f8239-603c-47ca-a1ee-5a7ed34b502d:c5be412fff54a534",
+          "ashby-observation:langchain:60d3bd4f-e80f-45fb-9801-725d8b681d54:c5be412fff54a534",
+          "ashby-observation:langchain:6eecbcda-d94f-4700-b8c7-ce54cb212290:c5be412fff54a534",
+          "ashby-observation:langchain:6f50988c-8e95-4a68-aeea-a94872651ff7:c5be412fff54a534",
+          "ashby-observation:langchain:733417d6-7b74-4260-95d9-3cabf85ce0b8:c5be412fff54a534",
+          "ashby-observation:langchain:afb91b9b-46d5-4c9d-aa84-a4f1a3f74263:c5be412fff54a534",
+          "ashby-observation:langchain:d7454c6d-7025-4e46-befc-e23bedd8f452:c5be412fff54a534",
+          "ashby-observation:langchain:f7de4819-e7aa-4dfb-9acd-8b81ad8caf2c:c5be412fff54a534"
+        ],
+        "value": 13.0,
+        "value_state": "observed",
+        "week_end": "2026-11-23T00:00:00Z",
+        "week_start": "2026-11-16T00:00:00Z"
+      }
+    ],
+    "series_id": "jobs:open_postings|company=langchain|skill=javascript",
+    "signal_family": "jobs",
+    "unit": "count"
+  },
+  {
+    "availability": "available",
+    "availability_reason": null,
+    "company_id": "langchain",
+    "coverage_end": "2026-W47",
+    "coverage_start": "2026-W43",
+    "entity_id": "langchain:javascript",
+    "entity_type": "company_skill",
+    "gap_policy": "unknown",
+    "metadata": {
+      "adapter_version": "signals-adapter/1.0.0",
+      "closed_postings": "not derived: a posting leaving a board may have been filled, withdrawn, reposted, or missed by a failed collection run",
+      "grouping": "explicitly mentioned skill",
+      "role_family_method": "explicit_title_phrases_v1",
+      "skill": "javascript"
+    },
+    "metric": "new_postings",
+    "observed_week_count": 0,
+    "points": [
+      {
+        "iso_week": "2026-W43",
+        "notes": [
+          "first observed week: nothing is known about what was already listed, so no posting can be called new"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-10-26T00:00:00Z",
+        "week_start": "2026-10-19T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W44",
+        "notes": [
+          "no record observed; gap_policy=unknown"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-11-02T00:00:00Z",
+        "week_start": "2026-10-26T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W45",
+        "notes": [
+          "no record observed; gap_policy=unknown"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-11-09T00:00:00Z",
+        "week_start": "2026-11-02T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W46",
+        "notes": [
+          "no record observed; gap_policy=unknown"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-11-16T00:00:00Z",
+        "week_start": "2026-11-09T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W47",
+        "notes": [
+          "the previous observed week is 2026-W43; a posting first seen after a collection gap cannot be dated to this week"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-11-23T00:00:00Z",
+        "week_start": "2026-11-16T00:00:00Z"
+      }
+    ],
+    "series_id": "jobs:new_postings|company=langchain|skill=javascript",
+    "signal_family": "jobs",
+    "unit": "count"
+  },
+  {
+    "availability": "available",
+    "availability_reason": null,
+    "company_id": "langchain",
+    "coverage_end": "2026-W47",
+    "coverage_start": "2026-W43",
+    "entity_id": "langchain:kubernetes",
+    "entity_type": "company_skill",
+    "gap_policy": "unknown",
+    "metadata": {
+      "adapter_version": "signals-adapter/1.0.0",
+      "closed_postings": "not derived: a posting leaving a board may have been filled, withdrawn, reposted, or missed by a failed collection run",
+      "grouping": "explicitly mentioned skill",
+      "role_family_method": "explicit_title_phrases_v1",
+      "skill": "kubernetes"
+    },
+    "metric": "open_postings",
+    "observed_week_count": 2,
+    "points": [
+      {
+        "iso_week": "2026-W43",
+        "notes": [
+          "distinct postings listed on the board during the week"
+        ],
+        "origin_cluster_ids": [
+          "9f6a86f37f2011bc"
+        ],
+        "record_ids": [
+          "ashby-observation:langchain:068b2e23-af01-42c7-9bce-d86976ea4d6e:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:0a5dd30c-6da1-4095-bd96-b16f27eeb333:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:0f35c8e1-9318-411d-929b-04c60e6d8522:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:25d40647-c821-46ff-bf25-bacf21fa38b5:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:34083fce-1e80-4595-9ce9-76387b735c70:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:38947013-3d0c-4257-aa58-ab8fe247ea3e:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:3e31c750-67f2-4d3d-ac29-48a2b57cf4bd:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:5f5f8239-603c-47ca-a1ee-5a7ed34b502d:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:60d3bd4f-e80f-45fb-9801-725d8b681d54:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:6eecbcda-d94f-4700-b8c7-ce54cb212290:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:733417d6-7b74-4260-95d9-3cabf85ce0b8:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:7b1e5ff7-4531-4d4a-8379-52a21b6d386d:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:8aa63e71-b431-49d7-ab4a-bf4b3630d8e6:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:933a41a3-43ca-44de-a0ae-f541149151b7:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:98fcaa18-d323-49cd-b231-b2d4b905419d:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:b47dbcea-222c-427d-bf4d-9e30a6b60d4a:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:c882af7e-59aa-4017-b791-9a8094c0ef6f:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:d7454c6d-7025-4e46-befc-e23bedd8f452:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:d81c35c1-7243-45e4-bfe2-7fc8746c76b9:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:da7cbabd-ceed-4d7d-ae25-f226cac0c1c1:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:dfbba971-a7e2-4feb-a0d9-8e38a1155134:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:e12d7176-8b9f-438a-8f3b-0cbbffab9c5c:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:e725293d-c27b-4a79-959d-19f5618f2f8e:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:e773649c-4ea7-47c2-9987-74d525474e82:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:f71210f9-12e1-4726-88b9-ebafa194d5b2:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:faeb56fd-e7d6-47d6-babe-e35315969206:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:fc868832-3865-4f4a-8222-33422a7d3d96:c6e5e1dbaa58322a"
+        ],
+        "value": 27.0,
+        "value_state": "observed",
+        "week_end": "2026-10-26T00:00:00Z",
+        "week_start": "2026-10-19T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W44",
+        "notes": [
+          "no record observed; gap_policy=unknown"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-11-02T00:00:00Z",
+        "week_start": "2026-10-26T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W45",
+        "notes": [
+          "no record observed; gap_policy=unknown"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-11-09T00:00:00Z",
+        "week_start": "2026-11-02T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W46",
+        "notes": [
+          "no record observed; gap_policy=unknown"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-11-16T00:00:00Z",
+        "week_start": "2026-11-09T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W47",
+        "notes": [
+          "distinct postings listed on the board during the week"
+        ],
+        "origin_cluster_ids": [
+          "264db06d11a583e9"
+        ],
+        "record_ids": [
+          "ashby-observation:langchain:0a5dd30c-6da1-4095-bd96-b16f27eeb333:c5be412fff54a534",
+          "ashby-observation:langchain:0f35c8e1-9318-411d-929b-04c60e6d8522:c5be412fff54a534",
+          "ashby-observation:langchain:38947013-3d0c-4257-aa58-ab8fe247ea3e:c5be412fff54a534",
+          "ashby-observation:langchain:3e31c750-67f2-4d3d-ac29-48a2b57cf4bd:c5be412fff54a534",
+          "ashby-observation:langchain:46c1a69d-5eff-425f-8f76-da7ddf047dd4:c5be412fff54a534",
+          "ashby-observation:langchain:5095871a-9af2-4521-8c63-ff0d852f7354:c5be412fff54a534",
+          "ashby-observation:langchain:5f5f8239-603c-47ca-a1ee-5a7ed34b502d:c5be412fff54a534",
+          "ashby-observation:langchain:60d3bd4f-e80f-45fb-9801-725d8b681d54:c5be412fff54a534",
+          "ashby-observation:langchain:6eecbcda-d94f-4700-b8c7-ce54cb212290:c5be412fff54a534",
+          "ashby-observation:langchain:733417d6-7b74-4260-95d9-3cabf85ce0b8:c5be412fff54a534",
+          "ashby-observation:langchain:7b1e5ff7-4531-4d4a-8379-52a21b6d386d:c5be412fff54a534",
+          "ashby-observation:langchain:933a41a3-43ca-44de-a0ae-f541149151b7:c5be412fff54a534",
+          "ashby-observation:langchain:d7454c6d-7025-4e46-befc-e23bedd8f452:c5be412fff54a534",
+          "ashby-observation:langchain:da7cbabd-ceed-4d7d-ae25-f226cac0c1c1:c5be412fff54a534",
+          "ashby-observation:langchain:e12d7176-8b9f-438a-8f3b-0cbbffab9c5c:c5be412fff54a534",
+          "ashby-observation:langchain:e725293d-c27b-4a79-959d-19f5618f2f8e:c5be412fff54a534",
+          "ashby-observation:langchain:f71210f9-12e1-4726-88b9-ebafa194d5b2:c5be412fff54a534",
+          "ashby-observation:langchain:faeb56fd-e7d6-47d6-babe-e35315969206:c5be412fff54a534",
+          "ashby-observation:langchain:fc868832-3865-4f4a-8222-33422a7d3d96:c5be412fff54a534"
+        ],
+        "value": 19.0,
+        "value_state": "observed",
+        "week_end": "2026-11-23T00:00:00Z",
+        "week_start": "2026-11-16T00:00:00Z"
+      }
+    ],
+    "series_id": "jobs:open_postings|company=langchain|skill=kubernetes",
+    "signal_family": "jobs",
+    "unit": "count"
+  },
+  {
+    "availability": "available",
+    "availability_reason": null,
+    "company_id": "langchain",
+    "coverage_end": "2026-W47",
+    "coverage_start": "2026-W43",
+    "entity_id": "langchain:kubernetes",
+    "entity_type": "company_skill",
+    "gap_policy": "unknown",
+    "metadata": {
+      "adapter_version": "signals-adapter/1.0.0",
+      "closed_postings": "not derived: a posting leaving a board may have been filled, withdrawn, reposted, or missed by a failed collection run",
+      "grouping": "explicitly mentioned skill",
+      "role_family_method": "explicit_title_phrases_v1",
+      "skill": "kubernetes"
+    },
+    "metric": "new_postings",
+    "observed_week_count": 0,
+    "points": [
+      {
+        "iso_week": "2026-W43",
+        "notes": [
+          "first observed week: nothing is known about what was already listed, so no posting can be called new"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-10-26T00:00:00Z",
+        "week_start": "2026-10-19T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W44",
+        "notes": [
+          "no record observed; gap_policy=unknown"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-11-02T00:00:00Z",
+        "week_start": "2026-10-26T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W45",
+        "notes": [
+          "no record observed; gap_policy=unknown"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-11-09T00:00:00Z",
+        "week_start": "2026-11-02T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W46",
+        "notes": [
+          "no record observed; gap_policy=unknown"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-11-16T00:00:00Z",
+        "week_start": "2026-11-09T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W47",
+        "notes": [
+          "the previous observed week is 2026-W43; a posting first seen after a collection gap cannot be dated to this week"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-11-23T00:00:00Z",
+        "week_start": "2026-11-16T00:00:00Z"
+      }
+    ],
+    "series_id": "jobs:new_postings|company=langchain|skill=kubernetes",
+    "signal_family": "jobs",
+    "unit": "count"
+  },
+  {
+    "availability": "available",
+    "availability_reason": null,
+    "company_id": "langchain",
+    "coverage_end": "2026-W47",
+    "coverage_start": "2026-W43",
+    "entity_id": "langchain:python",
+    "entity_type": "company_skill",
+    "gap_policy": "unknown",
+    "metadata": {
+      "adapter_version": "signals-adapter/1.0.0",
+      "closed_postings": "not derived: a posting leaving a board may have been filled, withdrawn, reposted, or missed by a failed collection run",
+      "grouping": "explicitly mentioned skill",
+      "role_family_method": "explicit_title_phrases_v1",
+      "skill": "python"
+    },
+    "metric": "open_postings",
+    "observed_week_count": 2,
+    "points": [
+      {
+        "iso_week": "2026-W43",
+        "notes": [
+          "distinct postings listed on the board during the week"
+        ],
+        "origin_cluster_ids": [
+          "9f6a86f37f2011bc"
+        ],
+        "record_ids": [
+          "ashby-observation:langchain:0a5dd30c-6da1-4095-bd96-b16f27eeb333:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:0ee73994-b8a3-4a75-9675-da536abd3e10:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:0f35c8e1-9318-411d-929b-04c60e6d8522:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:20189c9d-f1af-4385-ae06-c3a6c7681ff0:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:25d40647-c821-46ff-bf25-bacf21fa38b5:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:329c0b62-0ca0-4311-a827-50a5a3333861:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:32c6fe13-76e0-49a2-849d-991014416987:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:34083fce-1e80-4595-9ce9-76387b735c70:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:38947013-3d0c-4257-aa58-ab8fe247ea3e:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:3e31c750-67f2-4d3d-ac29-48a2b57cf4bd:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:47a3bc2a-2bed-4d61-b1de-b3d7ec211a08:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:4beade3b-0bf2-4720-b553-0309880e22b4:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:5f5f8239-603c-47ca-a1ee-5a7ed34b502d:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:60d3bd4f-e80f-45fb-9801-725d8b681d54:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:6eecbcda-d94f-4700-b8c7-ce54cb212290:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:6f50988c-8e95-4a68-aeea-a94872651ff7:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:733417d6-7b74-4260-95d9-3cabf85ce0b8:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:74e5f9f4-e44a-4594-ba26-abdf71bf287d:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:7b1e5ff7-4531-4d4a-8379-52a21b6d386d:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:825b6d91-bc5e-4165-8a7c-2022a2248f7e:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:8aa63e71-b431-49d7-ab4a-bf4b3630d8e6:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:933a41a3-43ca-44de-a0ae-f541149151b7:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:a03b3e54-495d-4960-aee7-0194a3cef57d:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:b23ea9af-c6dc-40fa-86ce-75042b905173:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:b47dbcea-222c-427d-bf4d-9e30a6b60d4a:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:c450c07a-196e-4ad4-9938-f368eb0ba65d:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:c4575cc8-ed78-47d7-8b53-637402e77d8d:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:c882af7e-59aa-4017-b791-9a8094c0ef6f:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:d1dc8b4d-5f7f-46b3-bfd9-dfcb375a614b:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:d6673e5e-30c4-413c-bda8-70d15908ff80:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:d7454c6d-7025-4e46-befc-e23bedd8f452:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:da7cbabd-ceed-4d7d-ae25-f226cac0c1c1:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:ddf92275-1cc3-49c0-9f25-e8ded43b07f6:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:dfbba971-a7e2-4feb-a0d9-8e38a1155134:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:e1263bfe-b638-4019-b4d5-0aacca93b2b3:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:e12d7176-8b9f-438a-8f3b-0cbbffab9c5c:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:e6d2bc1e-e0b9-4076-be01-ef8681863c01:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:e725293d-c27b-4a79-959d-19f5618f2f8e:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:e773649c-4ea7-47c2-9987-74d525474e82:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:eadd2a71-47fc-483b-948f-4b2384f7f93f:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:f0396971-39fa-4d40-9af8-60e529bb6c86:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:f07bfbad-6daf-4b11-b5bb-2c3bbc47c53c:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:f07c1416-f126-4925-8606-5dd7c5a90f6f:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:f71210f9-12e1-4726-88b9-ebafa194d5b2:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:faeb56fd-e7d6-47d6-babe-e35315969206:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:fc868832-3865-4f4a-8222-33422a7d3d96:c6e5e1dbaa58322a"
+        ],
+        "value": 46.0,
+        "value_state": "observed",
+        "week_end": "2026-10-26T00:00:00Z",
+        "week_start": "2026-10-19T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W44",
+        "notes": [
+          "no record observed; gap_policy=unknown"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-11-02T00:00:00Z",
+        "week_start": "2026-10-26T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W45",
+        "notes": [
+          "no record observed; gap_policy=unknown"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-11-09T00:00:00Z",
+        "week_start": "2026-11-02T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W46",
+        "notes": [
+          "no record observed; gap_policy=unknown"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-11-16T00:00:00Z",
+        "week_start": "2026-11-09T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W47",
+        "notes": [
+          "distinct postings listed on the board during the week"
+        ],
+        "origin_cluster_ids": [
+          "264db06d11a583e9"
+        ],
+        "record_ids": [
+          "ashby-observation:langchain:0a5dd30c-6da1-4095-bd96-b16f27eeb333:c5be412fff54a534",
+          "ashby-observation:langchain:0ce4562c-3a98-408f-8945-15d8d4af6cb6:c5be412fff54a534",
+          "ashby-observation:langchain:0ee73994-b8a3-4a75-9675-da536abd3e10:c5be412fff54a534",
+          "ashby-observation:langchain:0f35c8e1-9318-411d-929b-04c60e6d8522:c5be412fff54a534",
+          "ashby-observation:langchain:32c6fe13-76e0-49a2-849d-991014416987:c5be412fff54a534",
+          "ashby-observation:langchain:38947013-3d0c-4257-aa58-ab8fe247ea3e:c5be412fff54a534",
+          "ashby-observation:langchain:3e31c750-67f2-4d3d-ac29-48a2b57cf4bd:c5be412fff54a534",
+          "ashby-observation:langchain:46c1a69d-5eff-425f-8f76-da7ddf047dd4:c5be412fff54a534",
+          "ashby-observation:langchain:47a3bc2a-2bed-4d61-b1de-b3d7ec211a08:c5be412fff54a534",
+          "ashby-observation:langchain:4beade3b-0bf2-4720-b553-0309880e22b4:c5be412fff54a534",
+          "ashby-observation:langchain:5095871a-9af2-4521-8c63-ff0d852f7354:c5be412fff54a534",
+          "ashby-observation:langchain:5f5f8239-603c-47ca-a1ee-5a7ed34b502d:c5be412fff54a534",
+          "ashby-observation:langchain:60d3bd4f-e80f-45fb-9801-725d8b681d54:c5be412fff54a534",
+          "ashby-observation:langchain:6eecbcda-d94f-4700-b8c7-ce54cb212290:c5be412fff54a534",
+          "ashby-observation:langchain:6f50988c-8e95-4a68-aeea-a94872651ff7:c5be412fff54a534",
+          "ashby-observation:langchain:733417d6-7b74-4260-95d9-3cabf85ce0b8:c5be412fff54a534",
+          "ashby-observation:langchain:74e5f9f4-e44a-4594-ba26-abdf71bf287d:c5be412fff54a534",
+          "ashby-observation:langchain:7b1e5ff7-4531-4d4a-8379-52a21b6d386d:c5be412fff54a534",
+          "ashby-observation:langchain:933a41a3-43ca-44de-a0ae-f541149151b7:c5be412fff54a534",
+          "ashby-observation:langchain:a03b3e54-495d-4960-aee7-0194a3cef57d:c5be412fff54a534",
+          "ashby-observation:langchain:b23ea9af-c6dc-40fa-86ce-75042b905173:c5be412fff54a534",
+          "ashby-observation:langchain:c4575cc8-ed78-47d7-8b53-637402e77d8d:c5be412fff54a534",
+          "ashby-observation:langchain:d6673e5e-30c4-413c-bda8-70d15908ff80:c5be412fff54a534",
+          "ashby-observation:langchain:d7454c6d-7025-4e46-befc-e23bedd8f452:c5be412fff54a534",
+          "ashby-observation:langchain:da7cbabd-ceed-4d7d-ae25-f226cac0c1c1:c5be412fff54a534",
+          "ashby-observation:langchain:ddf92275-1cc3-49c0-9f25-e8ded43b07f6:c5be412fff54a534",
+          "ashby-observation:langchain:e1263bfe-b638-4019-b4d5-0aacca93b2b3:c5be412fff54a534",
+          "ashby-observation:langchain:e12d7176-8b9f-438a-8f3b-0cbbffab9c5c:c5be412fff54a534",
+          "ashby-observation:langchain:e6d2bc1e-e0b9-4076-be01-ef8681863c01:c5be412fff54a534",
+          "ashby-observation:langchain:f0396971-39fa-4d40-9af8-60e529bb6c86:c5be412fff54a534",
+          "ashby-observation:langchain:f07c1416-f126-4925-8606-5dd7c5a90f6f:c5be412fff54a534",
+          "ashby-observation:langchain:f71210f9-12e1-4726-88b9-ebafa194d5b2:c5be412fff54a534",
+          "ashby-observation:langchain:faeb56fd-e7d6-47d6-babe-e35315969206:c5be412fff54a534",
+          "ashby-observation:langchain:fc868832-3865-4f4a-8222-33422a7d3d96:c5be412fff54a534"
+        ],
+        "value": 34.0,
+        "value_state": "observed",
+        "week_end": "2026-11-23T00:00:00Z",
+        "week_start": "2026-11-16T00:00:00Z"
+      }
+    ],
+    "series_id": "jobs:open_postings|company=langchain|skill=python",
+    "signal_family": "jobs",
+    "unit": "count"
+  },
+  {
+    "availability": "available",
+    "availability_reason": null,
+    "company_id": "langchain",
+    "coverage_end": "2026-W47",
+    "coverage_start": "2026-W43",
+    "entity_id": "langchain:python",
+    "entity_type": "company_skill",
+    "gap_policy": "unknown",
+    "metadata": {
+      "adapter_version": "signals-adapter/1.0.0",
+      "closed_postings": "not derived: a posting leaving a board may have been filled, withdrawn, reposted, or missed by a failed collection run",
+      "grouping": "explicitly mentioned skill",
+      "role_family_method": "explicit_title_phrases_v1",
+      "skill": "python"
+    },
+    "metric": "new_postings",
+    "observed_week_count": 0,
+    "points": [
+      {
+        "iso_week": "2026-W43",
+        "notes": [
+          "first observed week: nothing is known about what was already listed, so no posting can be called new"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-10-26T00:00:00Z",
+        "week_start": "2026-10-19T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W44",
+        "notes": [
+          "no record observed; gap_policy=unknown"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-11-02T00:00:00Z",
+        "week_start": "2026-10-26T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W45",
+        "notes": [
+          "no record observed; gap_policy=unknown"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-11-09T00:00:00Z",
+        "week_start": "2026-11-02T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W46",
+        "notes": [
+          "no record observed; gap_policy=unknown"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-11-16T00:00:00Z",
+        "week_start": "2026-11-09T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W47",
+        "notes": [
+          "the previous observed week is 2026-W43; a posting first seen after a collection gap cannot be dated to this week"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-11-23T00:00:00Z",
+        "week_start": "2026-11-16T00:00:00Z"
+      }
+    ],
+    "series_id": "jobs:new_postings|company=langchain|skill=python",
+    "signal_family": "jobs",
+    "unit": "count"
+  },
+  {
+    "availability": "available",
+    "availability_reason": null,
+    "company_id": "langchain",
+    "coverage_end": "2026-W47",
+    "coverage_start": "2026-W43",
+    "entity_id": "langchain:rust",
+    "entity_type": "company_skill",
+    "gap_policy": "unknown",
+    "metadata": {
+      "adapter_version": "signals-adapter/1.0.0",
+      "closed_postings": "not derived: a posting leaving a board may have been filled, withdrawn, reposted, or missed by a failed collection run",
+      "grouping": "explicitly mentioned skill",
+      "role_family_method": "explicit_title_phrases_v1",
+      "skill": "rust"
+    },
+    "metric": "open_postings",
+    "observed_week_count": 2,
+    "points": [
+      {
+        "iso_week": "2026-W43",
+        "notes": [
+          "distinct postings listed on the board during the week"
+        ],
+        "origin_cluster_ids": [
+          "9f6a86f37f2011bc"
+        ],
+        "record_ids": [
+          "ashby-observation:langchain:068b2e23-af01-42c7-9bce-d86976ea4d6e:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:d81c35c1-7243-45e4-bfe2-7fc8746c76b9:c6e5e1dbaa58322a"
+        ],
+        "value": 2.0,
+        "value_state": "observed",
+        "week_end": "2026-10-26T00:00:00Z",
+        "week_start": "2026-10-19T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W44",
+        "notes": [
+          "no record observed; gap_policy=unknown"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-11-02T00:00:00Z",
+        "week_start": "2026-10-26T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W45",
+        "notes": [
+          "no record observed; gap_policy=unknown"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-11-09T00:00:00Z",
+        "week_start": "2026-11-02T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W46",
+        "notes": [
+          "no record observed; gap_policy=unknown"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-11-16T00:00:00Z",
+        "week_start": "2026-11-09T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W47",
+        "notes": [
+          "distinct postings listed on the board during the week"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": 0.0,
+        "value_state": "observed",
+        "week_end": "2026-11-23T00:00:00Z",
+        "week_start": "2026-11-16T00:00:00Z"
+      }
+    ],
+    "series_id": "jobs:open_postings|company=langchain|skill=rust",
+    "signal_family": "jobs",
+    "unit": "count"
+  },
+  {
+    "availability": "available",
+    "availability_reason": null,
+    "company_id": "langchain",
+    "coverage_end": "2026-W47",
+    "coverage_start": "2026-W43",
+    "entity_id": "langchain:rust",
+    "entity_type": "company_skill",
+    "gap_policy": "unknown",
+    "metadata": {
+      "adapter_version": "signals-adapter/1.0.0",
+      "closed_postings": "not derived: a posting leaving a board may have been filled, withdrawn, reposted, or missed by a failed collection run",
+      "grouping": "explicitly mentioned skill",
+      "role_family_method": "explicit_title_phrases_v1",
+      "skill": "rust"
+    },
+    "metric": "new_postings",
+    "observed_week_count": 0,
+    "points": [
+      {
+        "iso_week": "2026-W43",
+        "notes": [
+          "first observed week: nothing is known about what was already listed, so no posting can be called new"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-10-26T00:00:00Z",
+        "week_start": "2026-10-19T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W44",
+        "notes": [
+          "no record observed; gap_policy=unknown"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-11-02T00:00:00Z",
+        "week_start": "2026-10-26T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W45",
+        "notes": [
+          "no record observed; gap_policy=unknown"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-11-09T00:00:00Z",
+        "week_start": "2026-11-02T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W46",
+        "notes": [
+          "no record observed; gap_policy=unknown"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-11-16T00:00:00Z",
+        "week_start": "2026-11-09T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W47",
+        "notes": [
+          "the previous observed week is 2026-W43; a posting first seen after a collection gap cannot be dated to this week"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-11-23T00:00:00Z",
+        "week_start": "2026-11-16T00:00:00Z"
+      }
+    ],
+    "series_id": "jobs:new_postings|company=langchain|skill=rust",
+    "signal_family": "jobs",
+    "unit": "count"
+  },
+  {
+    "availability": "available",
+    "availability_reason": null,
+    "company_id": "langchain",
+    "coverage_end": "2026-W47",
+    "coverage_start": "2026-W43",
+    "entity_id": "langchain:sql",
+    "entity_type": "company_skill",
+    "gap_policy": "unknown",
+    "metadata": {
+      "adapter_version": "signals-adapter/1.0.0",
+      "closed_postings": "not derived: a posting leaving a board may have been filled, withdrawn, reposted, or missed by a failed collection run",
+      "grouping": "explicitly mentioned skill",
+      "role_family_method": "explicit_title_phrases_v1",
+      "skill": "sql"
+    },
+    "metric": "open_postings",
+    "observed_week_count": 2,
+    "points": [
+      {
+        "iso_week": "2026-W43",
+        "notes": [
+          "distinct postings listed on the board during the week"
+        ],
+        "origin_cluster_ids": [
+          "9f6a86f37f2011bc"
+        ],
+        "record_ids": [
+          "ashby-observation:langchain:c4575cc8-ed78-47d7-8b53-637402e77d8d:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:d6673e5e-30c4-413c-bda8-70d15908ff80:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:e725293d-c27b-4a79-959d-19f5618f2f8e:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:eadd2a71-47fc-483b-948f-4b2384f7f93f:c6e5e1dbaa58322a"
+        ],
+        "value": 4.0,
+        "value_state": "observed",
+        "week_end": "2026-10-26T00:00:00Z",
+        "week_start": "2026-10-19T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W44",
+        "notes": [
+          "no record observed; gap_policy=unknown"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-11-02T00:00:00Z",
+        "week_start": "2026-10-26T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W45",
+        "notes": [
+          "no record observed; gap_policy=unknown"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-11-09T00:00:00Z",
+        "week_start": "2026-11-02T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W46",
+        "notes": [
+          "no record observed; gap_policy=unknown"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-11-16T00:00:00Z",
+        "week_start": "2026-11-09T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W47",
+        "notes": [
+          "distinct postings listed on the board during the week"
+        ],
+        "origin_cluster_ids": [
+          "264db06d11a583e9"
+        ],
+        "record_ids": [
+          "ashby-observation:langchain:3858b7f4-6762-47d0-9fb5-ea2610a5a099:c5be412fff54a534",
+          "ashby-observation:langchain:c4575cc8-ed78-47d7-8b53-637402e77d8d:c5be412fff54a534",
+          "ashby-observation:langchain:d6673e5e-30c4-413c-bda8-70d15908ff80:c5be412fff54a534",
+          "ashby-observation:langchain:e725293d-c27b-4a79-959d-19f5618f2f8e:c5be412fff54a534"
+        ],
+        "value": 4.0,
+        "value_state": "observed",
+        "week_end": "2026-11-23T00:00:00Z",
+        "week_start": "2026-11-16T00:00:00Z"
+      }
+    ],
+    "series_id": "jobs:open_postings|company=langchain|skill=sql",
+    "signal_family": "jobs",
+    "unit": "count"
+  },
+  {
+    "availability": "available",
+    "availability_reason": null,
+    "company_id": "langchain",
+    "coverage_end": "2026-W47",
+    "coverage_start": "2026-W43",
+    "entity_id": "langchain:sql",
+    "entity_type": "company_skill",
+    "gap_policy": "unknown",
+    "metadata": {
+      "adapter_version": "signals-adapter/1.0.0",
+      "closed_postings": "not derived: a posting leaving a board may have been filled, withdrawn, reposted, or missed by a failed collection run",
+      "grouping": "explicitly mentioned skill",
+      "role_family_method": "explicit_title_phrases_v1",
+      "skill": "sql"
+    },
+    "metric": "new_postings",
+    "observed_week_count": 0,
+    "points": [
+      {
+        "iso_week": "2026-W43",
+        "notes": [
+          "first observed week: nothing is known about what was already listed, so no posting can be called new"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-10-26T00:00:00Z",
+        "week_start": "2026-10-19T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W44",
+        "notes": [
+          "no record observed; gap_policy=unknown"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-11-02T00:00:00Z",
+        "week_start": "2026-10-26T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W45",
+        "notes": [
+          "no record observed; gap_policy=unknown"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-11-09T00:00:00Z",
+        "week_start": "2026-11-02T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W46",
+        "notes": [
+          "no record observed; gap_policy=unknown"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-11-16T00:00:00Z",
+        "week_start": "2026-11-09T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W47",
+        "notes": [
+          "the previous observed week is 2026-W43; a posting first seen after a collection gap cannot be dated to this week"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-11-23T00:00:00Z",
+        "week_start": "2026-11-16T00:00:00Z"
+      }
+    ],
+    "series_id": "jobs:new_postings|company=langchain|skill=sql",
+    "signal_family": "jobs",
+    "unit": "count"
+  },
+  {
+    "availability": "available",
+    "availability_reason": null,
+    "company_id": "langchain",
+    "coverage_end": "2026-W47",
+    "coverage_start": "2026-W43",
+    "entity_id": "langchain:typescript",
+    "entity_type": "company_skill",
+    "gap_policy": "unknown",
+    "metadata": {
+      "adapter_version": "signals-adapter/1.0.0",
+      "closed_postings": "not derived: a posting leaving a board may have been filled, withdrawn, reposted, or missed by a failed collection run",
+      "grouping": "explicitly mentioned skill",
+      "role_family_method": "explicit_title_phrases_v1",
+      "skill": "typescript"
+    },
+    "metric": "open_postings",
+    "observed_week_count": 2,
+    "points": [
+      {
+        "iso_week": "2026-W43",
+        "notes": [
+          "distinct postings listed on the board during the week"
+        ],
+        "origin_cluster_ids": [
+          "9f6a86f37f2011bc"
+        ],
+        "record_ids": [
+          "ashby-observation:langchain:0a5dd30c-6da1-4095-bd96-b16f27eeb333:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:0ee73994-b8a3-4a75-9675-da536abd3e10:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:14727440-65bd-4cce-bed1-27d0c863eab3:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:1b125fc4-be24-422f-a180-30b7431fc6cf:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:329c0b62-0ca0-4311-a827-50a5a3333861:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:32c6fe13-76e0-49a2-849d-991014416987:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:4beade3b-0bf2-4720-b553-0309880e22b4:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:7b1e5ff7-4531-4d4a-8379-52a21b6d386d:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:825b6d91-bc5e-4165-8a7c-2022a2248f7e:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:8aa63e71-b431-49d7-ab4a-bf4b3630d8e6:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:933a41a3-43ca-44de-a0ae-f541149151b7:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:a03b3e54-495d-4960-aee7-0194a3cef57d:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:afb91b9b-46d5-4c9d-aa84-a4f1a3f74263:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:c450c07a-196e-4ad4-9938-f368eb0ba65d:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:c882af7e-59aa-4017-b791-9a8094c0ef6f:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:d1dc8b4d-5f7f-46b3-bfd9-dfcb375a614b:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:da7cbabd-ceed-4d7d-ae25-f226cac0c1c1:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:ddf92275-1cc3-49c0-9f25-e8ded43b07f6:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:e1263bfe-b638-4019-b4d5-0aacca93b2b3:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:e12d7176-8b9f-438a-8f3b-0cbbffab9c5c:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:e6d2bc1e-e0b9-4076-be01-ef8681863c01:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:f0396971-39fa-4d40-9af8-60e529bb6c86:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:f07bfbad-6daf-4b11-b5bb-2c3bbc47c53c:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:f71210f9-12e1-4726-88b9-ebafa194d5b2:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:f7de4819-e7aa-4dfb-9acd-8b81ad8caf2c:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:faeb56fd-e7d6-47d6-babe-e35315969206:c6e5e1dbaa58322a",
+          "ashby-observation:langchain:fc868832-3865-4f4a-8222-33422a7d3d96:c6e5e1dbaa58322a"
+        ],
+        "value": 27.0,
+        "value_state": "observed",
+        "week_end": "2026-10-26T00:00:00Z",
+        "week_start": "2026-10-19T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W44",
+        "notes": [
+          "no record observed; gap_policy=unknown"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-11-02T00:00:00Z",
+        "week_start": "2026-10-26T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W45",
+        "notes": [
+          "no record observed; gap_policy=unknown"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-11-09T00:00:00Z",
+        "week_start": "2026-11-02T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W46",
+        "notes": [
+          "no record observed; gap_policy=unknown"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-11-16T00:00:00Z",
+        "week_start": "2026-11-09T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W47",
+        "notes": [
+          "distinct postings listed on the board during the week"
+        ],
+        "origin_cluster_ids": [
+          "264db06d11a583e9"
+        ],
+        "record_ids": [
+          "ashby-observation:langchain:0a5dd30c-6da1-4095-bd96-b16f27eeb333:c5be412fff54a534",
+          "ashby-observation:langchain:0ee73994-b8a3-4a75-9675-da536abd3e10:c5be412fff54a534",
+          "ashby-observation:langchain:14727440-65bd-4cce-bed1-27d0c863eab3:c5be412fff54a534",
+          "ashby-observation:langchain:1b125fc4-be24-422f-a180-30b7431fc6cf:c5be412fff54a534",
+          "ashby-observation:langchain:32c6fe13-76e0-49a2-849d-991014416987:c5be412fff54a534",
+          "ashby-observation:langchain:46c1a69d-5eff-425f-8f76-da7ddf047dd4:c5be412fff54a534",
+          "ashby-observation:langchain:4beade3b-0bf2-4720-b553-0309880e22b4:c5be412fff54a534",
+          "ashby-observation:langchain:5095871a-9af2-4521-8c63-ff0d852f7354:c5be412fff54a534",
+          "ashby-observation:langchain:7b1e5ff7-4531-4d4a-8379-52a21b6d386d:c5be412fff54a534",
+          "ashby-observation:langchain:933a41a3-43ca-44de-a0ae-f541149151b7:c5be412fff54a534",
+          "ashby-observation:langchain:a03b3e54-495d-4960-aee7-0194a3cef57d:c5be412fff54a534",
+          "ashby-observation:langchain:afb91b9b-46d5-4c9d-aa84-a4f1a3f74263:c5be412fff54a534",
+          "ashby-observation:langchain:da7cbabd-ceed-4d7d-ae25-f226cac0c1c1:c5be412fff54a534",
+          "ashby-observation:langchain:ddf92275-1cc3-49c0-9f25-e8ded43b07f6:c5be412fff54a534",
+          "ashby-observation:langchain:e1263bfe-b638-4019-b4d5-0aacca93b2b3:c5be412fff54a534",
+          "ashby-observation:langchain:e12d7176-8b9f-438a-8f3b-0cbbffab9c5c:c5be412fff54a534",
+          "ashby-observation:langchain:e6d2bc1e-e0b9-4076-be01-ef8681863c01:c5be412fff54a534",
+          "ashby-observation:langchain:f0396971-39fa-4d40-9af8-60e529bb6c86:c5be412fff54a534",
+          "ashby-observation:langchain:f71210f9-12e1-4726-88b9-ebafa194d5b2:c5be412fff54a534",
+          "ashby-observation:langchain:f7de4819-e7aa-4dfb-9acd-8b81ad8caf2c:c5be412fff54a534",
+          "ashby-observation:langchain:faeb56fd-e7d6-47d6-babe-e35315969206:c5be412fff54a534",
+          "ashby-observation:langchain:fc868832-3865-4f4a-8222-33422a7d3d96:c5be412fff54a534"
+        ],
+        "value": 22.0,
+        "value_state": "observed",
+        "week_end": "2026-11-23T00:00:00Z",
+        "week_start": "2026-11-16T00:00:00Z"
+      }
+    ],
+    "series_id": "jobs:open_postings|company=langchain|skill=typescript",
+    "signal_family": "jobs",
+    "unit": "count"
+  },
+  {
+    "availability": "available",
+    "availability_reason": null,
+    "company_id": "langchain",
+    "coverage_end": "2026-W47",
+    "coverage_start": "2026-W43",
+    "entity_id": "langchain:typescript",
+    "entity_type": "company_skill",
+    "gap_policy": "unknown",
+    "metadata": {
+      "adapter_version": "signals-adapter/1.0.0",
+      "closed_postings": "not derived: a posting leaving a board may have been filled, withdrawn, reposted, or missed by a failed collection run",
+      "grouping": "explicitly mentioned skill",
+      "role_family_method": "explicit_title_phrases_v1",
+      "skill": "typescript"
+    },
+    "metric": "new_postings",
+    "observed_week_count": 0,
+    "points": [
+      {
+        "iso_week": "2026-W43",
+        "notes": [
+          "first observed week: nothing is known about what was already listed, so no posting can be called new"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-10-26T00:00:00Z",
+        "week_start": "2026-10-19T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W44",
+        "notes": [
+          "no record observed; gap_policy=unknown"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-11-02T00:00:00Z",
+        "week_start": "2026-10-26T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W45",
+        "notes": [
+          "no record observed; gap_policy=unknown"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-11-09T00:00:00Z",
+        "week_start": "2026-11-02T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W46",
+        "notes": [
+          "no record observed; gap_policy=unknown"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-11-16T00:00:00Z",
+        "week_start": "2026-11-09T00:00:00Z"
+      },
+      {
+        "iso_week": "2026-W47",
+        "notes": [
+          "the previous observed week is 2026-W43; a posting first seen after a collection gap cannot be dated to this week"
+        ],
+        "origin_cluster_ids": [],
+        "record_ids": [],
+        "value": null,
+        "value_state": "unknown",
+        "week_end": "2026-11-23T00:00:00Z",
+        "week_start": "2026-11-16T00:00:00Z"
+      }
+    ],
+    "series_id": "jobs:new_postings|company=langchain|skill=typescript",
+    "signal_family": "jobs",
+    "unit": "count"
+  }
+]

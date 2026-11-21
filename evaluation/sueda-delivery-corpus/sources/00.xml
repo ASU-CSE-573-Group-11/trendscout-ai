@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>AI News &amp; Artificial Intelligence | TechCrunch</title>
+	<atom:link href="https://techcrunch.com/category/artificial-intelligence/feed/" rel="self" type="application/rss+xml" />
+	<link>https://techcrunch.com/category/artificial-intelligence/</link>
+	<description>Startup and Technology News</description>
+	<lastBuildDate>Fri, 20 Nov 2026 22:51:18 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.9.12</generator>
+
+<image>
+	<url>https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=32</url>
+	<title>AI News &amp; Artificial Intelligence | TechCrunch</title>
+	<link>https://techcrunch.com/category/artificial-intelligence/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Daniel Ek backs AI researcher&#8217;s fusion power startup. Here&#8217;s what they&#8217;re building.</title>
+		<link>https://techcrunch.com/2026/11/20/daniel-ek-backs-ai-researchers-fusion-power-startup-heres-what-theyre-building/</link>
+		
+		<dc:creator><![CDATA[Tim De Chant]]></dc:creator>
+		<pubDate>Fri, 20 Nov 2026 19:53:41 +0000</pubDate>
+				<category><![CDATA[AI]]></category>
+		<category><![CDATA[Climate]]></category>
+		<category><![CDATA[Startups]]></category>
+		<category><![CDATA[Exclusive]]></category>
+		<category><![CDATA[fusion power]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=3190943</guid>
+
+					<description><![CDATA[Spotify founder Daniel Ek is backing Europa Fusion, a fusion power startup founded by an AI researcher. Here's what the startup is building.]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>AI claimed a solution to the 167-year-old Riemann hypothesis — and a human did, too</title>
+		<link>https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/</link>
+		
+		<dc:creator><![CDATA[Tim Fernholz]]></dc:creator>
+		<pubDate>Fri, 20 Nov 2026 19:32:08 +0000</pubDate>
+				<category><![CDATA[AI]]></category>
+		<category><![CDATA[Anthropic]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=3190908</guid>
+
+					<description><![CDATA[Mathematicians are having their minds blown by the latest AI-driven result — and there's a competing human solution, too. ]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Chips can survive the space environment — can their financing?</title>
+		<link>https://techcrunch.com/2026/11/20/chips-can-survive-the-space-environment-can-their-financing/</link>
+		
+		<dc:creator><![CDATA[Tim Fernholz]]></dc:creator>
+		<pubDate>Fri, 20 Nov 2026 17:40:01 +0000</pubDate>
+				<category><![CDATA[AI]]></category>
+		<category><![CDATA[Elon Musk]]></category>
+		<category><![CDATA[SpaceX]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=3190857</guid>
+
+					<description><![CDATA[Lenders don't want SpaceX shooting their collateral into orbit. What does that mean for space data centers writ large?]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>The fallout from Nvidia’s Jensen Huang scandal continues</title>
+		<link>https://techcrunch.com/podcast/the-fallout-from-nvidias-jensen-huang-scandal-continues/</link>
+		
+		<dc:creator><![CDATA[Theresa Loconsolo, Anthony Ha, Kirsten Korosec, Tim De Chant]]></dc:creator>
+		<pubDate>Fri, 20 Nov 2026 14:55:44 +0000</pubDate>
+				<category><![CDATA[AI]]></category>
+		<category><![CDATA[Startups]]></category>
+		<category><![CDATA[anthropic ipo]]></category>
+		<category><![CDATA[Equity podcast]]></category>
+		<category><![CDATA[Jensen Huang]]></category>
+		<category><![CDATA[nvidia]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?post_type=tc_podcast&#038;p=3190825</guid>
+
+					<description><![CDATA[In the midst of dealing with the fallout from its ouster of CEO Jensen Huang, Nvidia delivered its latest earnings report this week, with healthy growth and promises that the good times will continue. At the same time, the chipmaker said it will stop selling its H200 chips in China, and it dismissed calls to [&#8230;]]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Six AI-powered gadgets that could make your home office smarter</title>
+		<link>https://techcrunch.com/2026/11/20/6-ai-powered-gadgets-that-could-make-your-home-office-smarter/</link>
+		
+		<dc:creator><![CDATA[Lauren Forristal]]></dc:creator>
+		<pubDate>Fri, 20 Nov 2026 14:00:00 +0000</pubDate>
+				<category><![CDATA[AI]]></category>
+		<category><![CDATA[Gadgets]]></category>
+		<category><![CDATA[Hardware]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=3186208</guid>
+
+					<description><![CDATA[From notetakers to webcams, here are six AI-powered gadgets to upgrade your workspace.]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Apple may be developing its own AI agent that runs your Mac</title>
+		<link>https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/</link>
+		
+		<dc:creator><![CDATA[Lucas Ropek]]></dc:creator>
+		<pubDate>Fri, 20 Nov 2026 00:56:01 +0000</pubDate>
+				<category><![CDATA[AI]]></category>
+		<category><![CDATA[AI agents]]></category>
+		<category><![CDATA[Apple]]></category>
+		<category><![CDATA[Meta]]></category>
+		<category><![CDATA[muse]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=3190713</guid>
+
+					<description><![CDATA[The iPhone maker appears to be building agents that can compete with the likes of Meta Muse, Instinct, Claude, and OpenAI Dots. ]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Anthropic&#8217;s 7 founders cashed out nearly $2B in record-breaking IPO</title>
+		<link>https://techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo/</link>
+		
+		<dc:creator><![CDATA[Julie Bort]]></dc:creator>
+		<pubDate>Fri, 20 Nov 2026 00:43:50 +0000</pubDate>
+				<category><![CDATA[AI]]></category>
+		<category><![CDATA[TC]]></category>
+		<category><![CDATA[Anthropic]]></category>
+		<category><![CDATA[anthropic ipo]]></category>
+		<category><![CDATA[IPO]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=3190498</guid>
+
+					<description><![CDATA[At the upgraded $83/share IPO price, Anthropic's seven founders each pocketed $280 million, while the company nabbed nearly $105 billion.]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Meta&#8217;s new Muse Charm device may cost $300</title>
+		<link>https://techcrunch.com/2026/11/19/metas-new-muse-charm-device-may-cost-300/</link>
+		
+		<dc:creator><![CDATA[Lucas Ropek]]></dc:creator>
+		<pubDate>Thu, 19 Nov 2026 21:58:06 +0000</pubDate>
+				<category><![CDATA[AI]]></category>
+		<category><![CDATA[AI wearables]]></category>
+		<category><![CDATA[hardware]]></category>
+		<category><![CDATA[In Brief]]></category>
+		<category><![CDATA[Meta]]></category>
+		<category><![CDATA[muse]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=3190594</guid>
+
+					<description><![CDATA[Meta hasn't denied the reporting from The Information, saying only that it will "have more to share soon" about its upcoming AI wearable.]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>These tech outages are giving Y2K, AI agent style</title>
+		<link>https://techcrunch.com/2026/11/19/these-tech-outages-are-giving-y2k-ai-agent-style/</link>
+		
+		<dc:creator><![CDATA[Dominic-Madori Davis]]></dc:creator>
+		<pubDate>Thu, 19 Nov 2026 21:42:31 +0000</pubDate>
+				<category><![CDATA[AI]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[outages]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=3190572</guid>
+
+					<description><![CDATA[Are the recent outages in the airline booking systems, banking platforms, and productivity platforms really a coincidence? There's actually likely something deeper going on, cybersecurity experts say.]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>The unfolding Jensen Huang scandal: a timeline</title>
+		<link>https://techcrunch.com/2026/11/19/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/</link>
+		
+		<dc:creator><![CDATA[Amanda Silberling]]></dc:creator>
+		<pubDate>Thu, 19 Nov 2026 20:18:49 +0000</pubDate>
+				<category><![CDATA[AI]]></category>
+		<category><![CDATA[China]]></category>
+		<category><![CDATA[Donald Trump]]></category>
+		<category><![CDATA[Jensen Huang]]></category>
+		<category><![CDATA[nvidia]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=3186475</guid>
+
+					<description><![CDATA[Jensen Huang has resigned from Nvidia following an affair, which could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Anthropic&#8217;s IPO could deliver $156B to charity</title>
+		<link>https://techcrunch.com/2026/11/19/anthropics-ipo-could-deliver-156-billion-to-charity/</link>
+		
+		<dc:creator><![CDATA[Tim Fernholz]]></dc:creator>
+		<pubDate>Thu, 19 Nov 2026 19:10:45 +0000</pubDate>
+				<category><![CDATA[AI]]></category>
+		<category><![CDATA[Anthropic]]></category>
+		<category><![CDATA[anthropic ipo]]></category>
+		<category><![CDATA[IPO]]></category>
+		<category><![CDATA[philanthropy]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=3190534</guid>
+
+					<description><![CDATA[At a stock price of $95, the frontier lab's Public Benefit Foundation, its employee donations, and the company's match tot up to $156 billion.]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Google gives Gemini the ability to use your Mac for you</title>
+		<link>https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/</link>
+		
+		<dc:creator><![CDATA[Sarah Perez]]></dc:creator>
+		<pubDate>Thu, 19 Nov 2026 18:09:11 +0000</pubDate>
+				<category><![CDATA[AI]]></category>
+		<category><![CDATA[Apps]]></category>
+		<category><![CDATA[ai agent]]></category>
+		<category><![CDATA[gemini]]></category>
+		<category><![CDATA[Google]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=3190514</guid>
+
+					<description><![CDATA[Google's latest update to Gemini brings an AI agent to the Mac that can organize files, fill out forms, and tackle multistep workflows.]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Meta’s AI agent Muse is mixing up conversations and could be exposing private data, report says</title>
+		<link>https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says/</link>
+		
+		<dc:creator><![CDATA[Aisha Malik]]></dc:creator>
+		<pubDate>Thu, 19 Nov 2026 17:38:40 +0000</pubDate>
+				<category><![CDATA[AI]]></category>
+		<category><![CDATA[Apps]]></category>
+		<category><![CDATA[In Brief]]></category>
+		<category><![CDATA[Meta]]></category>
+		<category><![CDATA[muse]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=3190466</guid>
+
+					<description><![CDATA[In some of these instances, employees said Muse surfaced messages about childcare requests they never made, career advice they never asked for, product orders they never placed, and bank account balances that didn't belong to them. ]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Former Alibaba exec&#8217;s Everful raises $48.5M to connect retailers with Chinese factories</title>
+		<link>https://techcrunch.com/2026/11/19/former-alibaba-execs-everful-raises-48-5m-to-connect-retailers-with-chinese-factories/</link>
+		
+		<dc:creator><![CDATA[Kate Park]]></dc:creator>
+		<pubDate>Thu, 19 Nov 2026 17:00:00 +0000</pubDate>
+				<category><![CDATA[AI]]></category>
+		<category><![CDATA[Startups]]></category>
+		<category><![CDATA[alibaba]]></category>
+		<category><![CDATA[Asia]]></category>
+		<category><![CDATA[China]]></category>
+		<category><![CDATA[retailers]]></category>
+		<category><![CDATA[San Francisco]]></category>
+		<category><![CDATA[Singapore]]></category>
+		<category><![CDATA[supply chain]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=3190407</guid>
+
+					<description><![CDATA[Everful has raised $48.5 million to expand its factory-direct sourcing platform, helping retailers source products from overseas manufacturers.]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Anthropic hits Nasdaq exchanges at $111, 33% above IPO price</title>
+		<link>https://techcrunch.com/2026/11/19/anthropic-hits-nasdaq-exchanges-at-110-27-above-ipo-price/</link>
+		
+		<dc:creator><![CDATA[Russell Brandom]]></dc:creator>
+		<pubDate>Thu, 19 Nov 2026 16:59:23 +0000</pubDate>
+				<category><![CDATA[AI]]></category>
+		<category><![CDATA[Anthropic]]></category>
+		<category><![CDATA[In Brief]]></category>
+		<category><![CDATA[IPO]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=3190451</guid>
+
+					<description><![CDATA[Anthropic's IPO price was set at $83, representing more than $80 billion in new capital raised. ]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>At Nasdaq opening bell, Anthropic CEO recommits to pacing AI development</title>
+		<link>https://techcrunch.com/2026/11/19/at-nasdaq-opening-bell-anthropic-ceo-recommits-to-pacing-ai-development/</link>
+		
+		<dc:creator><![CDATA[Sarah Perez]]></dc:creator>
+		<pubDate>Thu, 19 Nov 2026 16:19:41 +0000</pubDate>
+				<category><![CDATA[AI]]></category>
+		<category><![CDATA[Anthropic]]></category>
+		<category><![CDATA[dario amodei]]></category>
+		<category><![CDATA[IPO]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=3190440</guid>
+
+					<description><![CDATA[In his Nasdaq opening bell speech, Dario Amodei reiterated Anthropic's commitment to pacing AI development, regardless of business or political pressure.]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Anthropic&#8217;s IPO puts AI&#8217;s circular financing boom to the test</title>
+		<link>https://techcrunch.com/2026/11/19/anthropics-ipo-puts-ais-circular-financing-boom-to-the-test/</link>
+		
+		<dc:creator><![CDATA[Rebecca Bellan]]></dc:creator>
+		<pubDate>Thu, 19 Nov 2026 14:54:39 +0000</pubDate>
+				<category><![CDATA[AI]]></category>
+		<category><![CDATA[Anthropic]]></category>
+		<category><![CDATA[anthropic ipo]]></category>
+		<category><![CDATA[IPO]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=3190277</guid>
+
+					<description><![CDATA[Anthropic faces enormous compute commitments as it goes public, but its biggest infrastructure partners, including Amazon and Google, could continue profiting from AI even if Anthropic loses its lead.]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Superhuman pushes its Go assistant everywhere</title>
+		<link>https://techcrunch.com/2026/11/19/superhuman-pushes-its-go-assistant-everywhere/</link>
+		
+		<dc:creator><![CDATA[Ivan Mehta]]></dc:creator>
+		<pubDate>Thu, 19 Nov 2026 14:00:00 +0000</pubDate>
+				<category><![CDATA[AI]]></category>
+		<category><![CDATA[Apps]]></category>
+		<category><![CDATA[productivity]]></category>
+		<category><![CDATA[superhuman]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=3188332</guid>
+
+					<description><![CDATA[Superhuman is making Go its central agent and making it available in Docs and Mail.]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Microsoft CEO Satya Nadella explains why he asked 60K employees to quit</title>
+		<link>https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-explains-why-he-asked-60k-employees-to-quit/</link>
+		
+		<dc:creator><![CDATA[Julie Bort]]></dc:creator>
+		<pubDate>Thu, 19 Nov 2026 00:42:56 +0000</pubDate>
+				<category><![CDATA[AI]]></category>
+		<category><![CDATA[Enterprise]]></category>
+		<category><![CDATA[TC]]></category>
+		<category><![CDATA[buyouts]]></category>
+		<category><![CDATA[Microsoft]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=3190274</guid>
+
+					<description><![CDATA[Microsoft CEO Satya Nadella explained why he offered buyouts to 60,000 of his employees in October, essentially urging them to voluntarily quit, rather than reducing the workforce via another massive layoff. The short answer is AI, but not in the way you might expect.]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Amidst fears of AI cyberattacks, Satya Nadella says lots of critical infrastructure is &#8216;unpatchable&#8217;</title>
+		<link>https://techcrunch.com/2026/11/18/amidst-fears-of-ai-cyberattacks-satya-nadella-says-lots-of-critical-infrastructure-is-unpatchable/</link>
+		
+		<dc:creator><![CDATA[Lucas Ropek]]></dc:creator>
+		<pubDate>Wed, 18 Nov 2026 23:45:00 +0000</pubDate>
+				<category><![CDATA[AI]]></category>
+		<category><![CDATA[cyberattacks]]></category>
+		<category><![CDATA[Microsoft]]></category>
+		<category><![CDATA[Outlook]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=3190239</guid>
+
+					<description><![CDATA[The Microsoft CEO downplayed the recent Outlook outage while noting that AI was causing both opportunities and new challenges for securing much of the connected world. ]]></description>
+		
+		
+		
+			</item>
+	</channel>
+</rss>

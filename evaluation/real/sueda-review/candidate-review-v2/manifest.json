@@ -1,0 +1,23 @@
+{
+  "revision": 2,
+  "base_snapshot_sha256": "587d3128ef445f1b17d6ac711be64f5491679e41494ac0506114b1cf53b40d30",
+  "base_candidate_items_sha256": "ddd9278c69627f7b61d7c02f229d80c455351aeb67cdd94efb404b6a1606d7c4",
+  "review_method": "single_source_review",
+  "prepared_for": "Sueda Sen",
+  "independent_personal_annotation_attested": false,
+  "documents": 45,
+  "candidate_counts": {
+    "entities": 776,
+    "relations": 100
+  },
+  "accepted_counts": {
+    "entities": 500,
+    "relations": 90
+  },
+  "relation_sampling": "90 distinct documentary MENTIONS facts, round-robin by source document, plus the first 10 rejected original candidates. This is candidate classification, not a population sample of semantic relations.",
+  "files": {
+    "candidates.json": "5ce350423d511dbcc67dbeb5193c6e26fa1f805748177aedbadb00ebaf6e1d8b",
+    "reviewed-entities.csv": "0d34739c04b60319f789e4b1dbc1b99507d386d81967e1592180ab34434f7ad9",
+    "reviewed-relations.csv": "00a6760629bbe078b030a7349546385ee09fd0755b083294569300dbcb0bd5bc"
+  }
+}

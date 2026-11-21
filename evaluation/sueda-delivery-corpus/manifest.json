@@ -1,0 +1,279 @@
+{
+  "version": 1,
+  "observed_at": "2026-11-21T06:57:01Z",
+  "sources": [
+    {
+      "kind": "news",
+      "source_id": "techcrunch_ai",
+      "key": "techcrunch_ai",
+      "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+      "status": "fetched",
+      "file": "sources/00.xml",
+      "sha256": "ed75ed48b892beb485dcbb66d0fe7a4b6b8c55aae3744fb926dc4079eecbebf5"
+    },
+    {
+      "kind": "news",
+      "source_id": "venturebeat_ai",
+      "key": "venturebeat_ai",
+      "url": "https://venturebeat.com/category/ai/feed/",
+      "status": "unavailable",
+      "detail": "failed to fetch https://venturebeat.com/category/ai/feed/: 429 Client Error: Too Many Requests for url: https://venturebeat.com/category/ai/feed/"
+    },
+    {
+      "kind": "news",
+      "source_id": "techcrunch_langchain",
+      "key": "techcrunch_langchain",
+      "url": "https://techcrunch.com/tag/langchain/feed/",
+      "status": "fetched",
+      "file": "sources/02.xml",
+      "sha256": "8d86d29743c884e8eb0323d5b1b551af9da40eac7afc104ba53114fa7d5b4320"
+    },
+    {
+      "kind": "news",
+      "source_id": "techcrunch_browserbase",
+      "key": "techcrunch_browserbase",
+      "url": "https://techcrunch.com/tag/browserbase/feed/",
+      "status": "unavailable",
+      "detail": "failed to fetch https://techcrunch.com/tag/browserbase/feed/: 404 Client Error: Not Found for url: https://techcrunch.com/tag/browserbase/feed/"
+    },
+    {
+      "kind": "news",
+      "source_id": "techcrunch_composio",
+      "key": "techcrunch_composio",
+      "url": "https://techcrunch.com/tag/composio/feed/",
+      "status": "unavailable",
+      "detail": "failed to fetch https://techcrunch.com/tag/composio/feed/: 404 Client Error: Not Found for url: https://techcrunch.com/tag/composio/feed/"
+    },
+    {
+      "kind": "public_voices",
+      "source_id": "the_batch",
+      "key": "the_batch",
+      "url": "https://www.deeplearning.ai/the-batch/feed/",
+      "status": "unavailable",
+      "detail": "failed to fetch https://www.deeplearning.ai/the-batch/feed/: 404 Client Error: Not Found for url: https://www.deeplearning.ai/the-batch/feed"
+    },
+    {
+      "kind": "public_voices",
+      "source_id": "latent_space",
+      "key": "latent_space",
+      "url": "https://www.latent.space/feed",
+      "status": "fetched",
+      "file": "sources/06.xml",
+      "sha256": "85e49551467a1e56e09078d165d54f06f11ba722c4075f8c1d5fc86618793b37"
+    },
+    {
+      "kind": "public_voices",
+      "source_id": "simon_willison",
+      "key": "simon_willison",
+      "url": "https://simonwillison.net/atom/everything/",
+      "status": "fetched",
+      "file": "sources/07.xml",
+      "sha256": "52c056ab98c04be20c9b351af3773c72df89d7cddf1a92cbafd0a3fa7131641a"
+    },
+    {
+      "kind": "public_voices",
+      "source_id": "interconnects",
+      "key": "interconnects",
+      "url": "https://www.interconnects.ai/feed",
+      "status": "fetched",
+      "file": "sources/08.xml",
+      "sha256": "425d5a83c7d9af609654a45f556af3157b440860a50b9e35e38f893a29a05c11"
+    },
+    {
+      "kind": "public_voices",
+      "source_id": "ahead_of_ai",
+      "key": "ahead_of_ai",
+      "url": "https://magazine.sebastianraschka.com/feed",
+      "status": "fetched",
+      "file": "sources/09.xml",
+      "sha256": "283f5abd2fb6191b07b891492dc4cd9159d12163b7fe53ca3c40d16ffa777c55"
+    },
+    {
+      "kind": "public_voices",
+      "source_id": "one_useful_thing",
+      "key": "one_useful_thing",
+      "url": "https://www.oneusefulthing.org/feed",
+      "status": "fetched",
+      "file": "sources/10.xml",
+      "sha256": "a320db151dcb16be2f6e818d4ecbc59ef05283b440cbb13460fee1fd64834738"
+    },
+    {
+      "kind": "public_voices",
+      "source_id": "pragmatic_engineer",
+      "key": "pragmatic_engineer",
+      "url": "https://newsletter.pragmaticengineer.com/feed",
+      "status": "fetched",
+      "file": "sources/11.xml",
+      "sha256": "226f48fb370e1040cf50286503aa08b61421e596f61eda146650d36dd7013a36"
+    },
+    {
+      "kind": "public_voices",
+      "source_id": "lilian_weng",
+      "key": "lilian_weng",
+      "url": "https://lilianweng.github.io/index.xml",
+      "status": "fetched",
+      "file": "sources/12.xml",
+      "sha256": "765443231ff5ceaafa287f97cb401563fb88e1d1b5e0ac4e7fb9b463baa4e044"
+    },
+    {
+      "kind": "public_voices",
+      "source_id": "chip_huyen",
+      "key": "chip_huyen",
+      "url": "https://huyenchip.com/feed.xml",
+      "status": "fetched",
+      "file": "sources/13.xml",
+      "sha256": "d6f73f746c2c1eeb7139d260c30e8482a32fa825b1aa19a1ed28009eff133f04"
+    },
+    {
+      "kind": "public_voices",
+      "source_id": "eugene_yan",
+      "key": "eugene_yan",
+      "url": "https://eugeneyan.com/rss/",
+      "status": "fetched",
+      "file": "sources/14.xml",
+      "sha256": "e174198dccbbc4666185b7e91b8f7ec2ea2710a1ae869078d3c6d3dd7a722b84"
+    },
+    {
+      "kind": "public_voices",
+      "source_id": "hamel_husain",
+      "key": "hamel_husain",
+      "url": "https://hamel.dev/feed.xml",
+      "status": "unavailable",
+      "detail": "failed to fetch https://hamel.dev/feed.xml: 404 Client Error: Not Found for url: https://hamel.dev/feed.xml"
+    },
+    {
+      "kind": "public_voices",
+      "source_id": "jason_liu",
+      "key": "jason_liu",
+      "url": "https://jxnl.co/rss.xml",
+      "status": "unavailable",
+      "detail": "failed to fetch https://jxnl.co/rss.xml: 404 Client Error: Not Found for url: https://jxnl.co/rss.xml"
+    },
+    {
+      "kind": "public_voices",
+      "source_id": "benedict_evans",
+      "key": "benedict_evans",
+      "url": "https://www.ben-evans.com/benedictevans?format=rss",
+      "status": "fetched",
+      "file": "sources/17.xml",
+      "sha256": "aa03a7ae995fb4220db0925b36fab6b6a11f1eaba4ad87686bf838a174741ec6"
+    },
+    {
+      "kind": "public_voices",
+      "source_id": "stratechery",
+      "key": "stratechery",
+      "url": "https://stratechery.com/feed/",
+      "status": "fetched",
+      "file": "sources/18.xml",
+      "sha256": "ca182ce88c85de50466175a6b5cd237d61d5c29268488f52885f7f4df77e5e47"
+    },
+    {
+      "kind": "public_voices",
+      "source_id": "import_ai",
+      "key": "import_ai",
+      "url": "https://importai.substack.com/feed",
+      "status": "fetched",
+      "file": "sources/19.xml",
+      "sha256": "c4bbe45ec26f4f02ecce32469deb4701e012fffa02018d1e040b150a859176f7"
+    },
+    {
+      "kind": "company",
+      "source_id": "company:langchain",
+      "key": "langchain",
+      "url": "https://blog.langchain.com/rss/",
+      "status": "fetched",
+      "file": "sources/20.xml",
+      "sha256": "7c9229c0579a7f77a6daab5cc2897507e05709bd785a20a7cc334fbdb556e2e4"
+    },
+    {
+      "kind": "company",
+      "source_id": "company:llamaindex",
+      "key": "llamaindex",
+      "url": "https://www.llamaindex.ai/blog/rss.xml",
+      "status": "unavailable",
+      "detail": "failed to fetch https://www.llamaindex.ai/blog/rss.xml: 404 Client Error: Not Found for url: https://www.llamaindex.ai/blog/rss.xml"
+    },
+    {
+      "kind": "company",
+      "source_id": "company:e2b",
+      "key": "e2b",
+      "url": "https://e2b.dev/blog/rss.xml",
+      "status": "unavailable",
+      "detail": "failed to fetch https://e2b.dev/blog/rss.xml: 404 Client Error: Not Found for url: https://e2b.dev/resources/rss.xml"
+    },
+    {
+      "kind": "company",
+      "source_id": "company:langfuse",
+      "key": "langfuse",
+      "url": "https://langfuse.com/blog/rss.xml",
+      "status": "unavailable",
+      "detail": "failed to fetch https://langfuse.com/blog/rss.xml: 404 Client Error: Not Found for url: https://langfuse.com/blog/rss.xml"
+    },
+    {
+      "kind": "company",
+      "source_id": "company:continue",
+      "key": "continue",
+      "url": "https://blog.continue.dev/rss.xml",
+      "status": "unavailable",
+      "detail": "failed to fetch https://blog.continue.dev/rss.xml: 404 Client Error: Not Found for url: https://blog.continue.dev/rss.xml"
+    },
+    {
+      "kind": "company",
+      "source_id": "company:sourcegraph",
+      "key": "sourcegraph",
+      "url": "https://about.sourcegraph.com/blog/rss.xml",
+      "status": "fetched",
+      "file": "sources/25.xml",
+      "sha256": "35cc81395aae89c8eb7d7c926627fb8f38e1a3919d414ae749d6154e156c1461"
+    },
+    {
+      "kind": "company",
+      "source_id": "company:modal",
+      "key": "modal",
+      "url": "https://modal.com/blog/rss.xml",
+      "status": "unavailable",
+      "detail": "failed to fetch https://modal.com/blog/rss.xml: 404 Client Error: Not Found for url: https://modal.com/blog/rss.xml"
+    },
+    {
+      "kind": "company",
+      "source_id": "company:replicate",
+      "key": "replicate",
+      "url": "https://replicate.com/blog/rss",
+      "status": "fetched",
+      "file": "sources/27.xml",
+      "sha256": "d6fc7fa46505c18c2e264af2b319d23bf18e356b0d60cb0b44796307c3a38e16"
+    },
+    {
+      "kind": "company",
+      "source_id": "company:pinecone",
+      "key": "pinecone",
+      "url": "https://www.pinecone.io/blog/rss.xml",
+      "status": "fetched",
+      "file": "sources/28.xml",
+      "sha256": "6794962779e6b59f4602bbba894e9b81c9f7fbc1602c150c8dda82e5d0d816df"
+    },
+    {
+      "kind": "company",
+      "source_id": "company:weaviate",
+      "key": "weaviate",
+      "url": "https://weaviate.io/blog/rss.xml",
+      "status": "fetched",
+      "file": "sources/29.xml",
+      "sha256": "37d3aa5211146f6e87186096c6ce6228484faba876f1b0b99734905554fc3585"
+    }
+  ],
+  "cohort_sha256": "682a77fe6f26b86ec0b4db4bb4aff683c9c00ef6dc16507af43f3d7746152e06",
+  "named_sources_sha256": "1390ece28021a4e6166c884b01c8719e91b7eedd130a4f6a24ce7588ed1667e1",
+  "body_encoding": "UTF-8 decoded HTTP response text",
+  "endpoint_revision": {
+    "revision_date": "2026-11-20",
+    "reason": "Refresh documented collection endpoints after live checks returned HTML or HTTP 404. Cohort membership, identifiers, and original freeze are unchanged.",
+    "endpoints": {
+      "company:langchain": "https://blog.langchain.com/rss/",
+      "simon_willison": "https://simonwillison.net/atom/everything/"
+    }
+  },
+  "scope": "Current feed window. No historical archive completeness asserted.",
+  "records_sha256": "ec5278e0121f7f4870a8681553821f36ca5d433383910a8ae2a09327a741136a",
+  "record_count": 584
+}

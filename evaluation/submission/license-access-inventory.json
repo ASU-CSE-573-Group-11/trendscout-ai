@@ -1,0 +1,752 @@
+{
+  "checked_at": "2026-11-21T12:18:04Z",
+  "team_code_distribution_license": "No repository-wide LICENSE has been selected by the team.",
+  "dependencies": [
+    {
+      "requirement": "feedparser>=6.0.11",
+      "declared_in": "requirements.txt",
+      "installed": true,
+      "installed_version": "6.0.12",
+      "license": "BSD-2-Clause",
+      "evidence": "Installed distribution METADATA; inventory only, not redistribution clearance."
+    },
+    {
+      "requirement": "jsonschema[format]>=4.18.0",
+      "declared_in": "requirements.txt",
+      "installed": true,
+      "installed_version": "4.25.1",
+      "license": "MIT",
+      "evidence": "Installed distribution METADATA; inventory only, not redistribution clearance."
+    },
+    {
+      "requirement": "requests>=2.31.0",
+      "declared_in": "requirements.txt",
+      "installed": true,
+      "installed_version": "2.32.5",
+      "license": "Apache-2.0",
+      "evidence": "Installed distribution METADATA; inventory only, not redistribution clearance."
+    },
+    {
+      "requirement": "rdflib>=7.0.0",
+      "declared_in": "requirements.txt",
+      "installed": true,
+      "installed_version": "7.6.0",
+      "license": "BSD-3-Clause",
+      "evidence": "Installed distribution METADATA; inventory only, not redistribution clearance."
+    },
+    {
+      "requirement": "pyshacl>=0.26.0",
+      "declared_in": "requirements.txt",
+      "installed": true,
+      "installed_version": "0.40.2",
+      "license": "Apache-2.0",
+      "evidence": "Installed distribution METADATA; inventory only, not redistribution clearance."
+    },
+    {
+      "requirement": "pytest>=7.4.0",
+      "declared_in": "requirements.txt",
+      "installed": true,
+      "installed_version": "8.4.2",
+      "license": "MIT",
+      "evidence": "Installed distribution METADATA; inventory only, not redistribution clearance."
+    },
+    {
+      "requirement": "requests>=2.32.3,<3",
+      "declared_in": "requirements-collectors.txt",
+      "installed": true,
+      "installed_version": "2.32.5",
+      "license": "Apache-2.0",
+      "evidence": "Installed distribution METADATA; inventory only, not redistribution clearance."
+    },
+    {
+      "requirement": "jsonschema[format]>=4.23,<5",
+      "declared_in": "requirements-collectors.txt",
+      "installed": true,
+      "installed_version": "4.25.1",
+      "license": "MIT",
+      "evidence": "Installed distribution METADATA; inventory only, not redistribution clearance."
+    },
+    {
+      "requirement": "streamlit>=1.36.0",
+      "declared_in": "requirements-interface.txt",
+      "installed": false,
+      "installed_version": null,
+      "license": null,
+      "evidence": "Optional/uninstalled dependency; upstream license review required before distribution."
+    },
+    {
+      "requirement": "sentence-transformers>=3.0.0",
+      "declared_in": "requirements-interface.txt",
+      "installed": false,
+      "installed_version": null,
+      "license": null,
+      "evidence": "Optional/uninstalled dependency; upstream license review required before distribution."
+    },
+    {
+      "requirement": "numpy>=1.26.0",
+      "declared_in": "requirements-interface.txt",
+      "installed": false,
+      "installed_version": null,
+      "license": null,
+      "evidence": "Optional/uninstalled dependency; upstream license review required before distribution."
+    },
+    {
+      "requirement": "faiss-cpu>=1.8.0",
+      "declared_in": "requirements-interface.txt",
+      "installed": false,
+      "installed_version": null,
+      "license": null,
+      "evidence": "Optional/uninstalled dependency; upstream license review required before distribution."
+    },
+    {
+      "requirement": "neo4j>=5.20.0",
+      "declared_in": "requirements-interface.txt",
+      "installed": true,
+      "installed_version": "5.28.8",
+      "license": "Apache-2.0",
+      "evidence": "Installed distribution METADATA; inventory only, not redistribution clearance."
+    },
+    {
+      "requirement": "anthropic>=0.49.0",
+      "declared_in": "requirements-interface.txt",
+      "installed": false,
+      "installed_version": null,
+      "license": null,
+      "evidence": "Optional/uninstalled dependency; upstream license review required before distribution."
+    }
+  ],
+  "installed_environment": [
+    {
+      "name": "arrow",
+      "version": "1.4.0",
+      "license": null,
+      "evidence": "Installed distribution METADATA; verify upstream terms before redistribution."
+    },
+    {
+      "name": "attrs",
+      "version": "26.1.0",
+      "license": "MIT",
+      "evidence": "Installed distribution METADATA; verify upstream terms before redistribution."
+    },
+    {
+      "name": "certifi",
+      "version": "2026.10.23",
+      "license": "MPL-2.0",
+      "evidence": "Installed distribution METADATA; verify upstream terms before redistribution."
+    },
+    {
+      "name": "charset-normalizer",
+      "version": "3.5.2",
+      "license": "MIT",
+      "evidence": "Installed distribution METADATA; verify upstream terms before redistribution."
+    },
+    {
+      "name": "exceptiongroup",
+      "version": "1.3.1",
+      "license": null,
+      "evidence": "Installed distribution METADATA; verify upstream terms before redistribution."
+    },
+    {
+      "name": "feedparser",
+      "version": "6.0.12",
+      "license": "BSD-2-Clause",
+      "evidence": "Installed distribution METADATA; verify upstream terms before redistribution."
+    },
+    {
+      "name": "fqdn",
+      "version": "1.6.0",
+      "license": "MPL-2.0",
+      "evidence": "Installed distribution METADATA; verify upstream terms before redistribution."
+    },
+    {
+      "name": "h11",
+      "version": "0.16.0",
+      "license": "MIT",
+      "evidence": "Installed distribution METADATA; verify upstream terms before redistribution."
+    },
+    {
+      "name": "html5rdf",
+      "version": "1.2.1",
+      "license": "See installed distribution license text",
+      "evidence": "Installed distribution METADATA; verify upstream terms before redistribution."
+    },
+    {
+      "name": "idna",
+      "version": "3.20",
+      "license": "BSD-3-Clause",
+      "evidence": "Installed distribution METADATA; verify upstream terms before redistribution."
+    },
+    {
+      "name": "importlib_metadata",
+      "version": "8.7.1",
+      "license": "Apache-2.0",
+      "evidence": "Installed distribution METADATA; verify upstream terms before redistribution."
+    },
+    {
+      "name": "iniconfig",
+      "version": "2.1.0",
+      "license": "MIT",
+      "evidence": "Installed distribution METADATA; verify upstream terms before redistribution."
+    },
+    {
+      "name": "isodate",
+      "version": "0.7.2",
+      "license": "See installed distribution license text",
+      "evidence": "Installed distribution METADATA; verify upstream terms before redistribution."
+    },
+    {
+      "name": "isoduration",
+      "version": "20.11.0",
+      "license": "UNKNOWN",
+      "evidence": "Installed distribution METADATA; verify upstream terms before redistribution."
+    },
+    {
+      "name": "jsonpointer",
+      "version": "3.0.0",
+      "license": "Modified BSD License",
+      "evidence": "Installed distribution METADATA; verify upstream terms before redistribution."
+    },
+    {
+      "name": "jsonschema",
+      "version": "4.25.1",
+      "license": "MIT",
+      "evidence": "Installed distribution METADATA; verify upstream terms before redistribution."
+    },
+    {
+      "name": "jsonschema-specifications",
+      "version": "2025.9.1",
+      "license": "MIT",
+      "evidence": "Installed distribution METADATA; verify upstream terms before redistribution."
+    },
+    {
+      "name": "neo4j",
+      "version": "5.28.8",
+      "license": "Apache-2.0",
+      "evidence": "Installed distribution METADATA; verify upstream terms before redistribution."
+    },
+    {
+      "name": "outcome",
+      "version": "1.3.0.post0",
+      "license": "MIT OR Apache-2.0",
+      "evidence": "Installed distribution METADATA; verify upstream terms before redistribution."
+    },
+    {
+      "name": "owlrl",
+      "version": "7.6.2",
+      "license": "W3C-20150513",
+      "evidence": "Installed distribution METADATA; verify upstream terms before redistribution."
+    },
+    {
+      "name": "packaging",
+      "version": "26.3",
+      "license": "Apache-2.0 OR BSD-2-Clause",
+      "evidence": "Installed distribution METADATA; verify upstream terms before redistribution."
+    },
+    {
+      "name": "pip",
+      "version": "21.2.4",
+      "license": "MIT",
+      "evidence": "Installed distribution METADATA; verify upstream terms before redistribution."
+    },
+    {
+      "name": "pluggy",
+      "version": "1.6.0",
+      "license": "MIT",
+      "evidence": "Installed distribution METADATA; verify upstream terms before redistribution."
+    },
+    {
+      "name": "prettytable",
+      "version": "3.16.0",
+      "license": "BSD-3-Clause",
+      "evidence": "Installed distribution METADATA; verify upstream terms before redistribution."
+    },
+    {
+      "name": "Pygments",
+      "version": "2.21.0",
+      "license": "BSD-2-Clause",
+      "evidence": "Installed distribution METADATA; verify upstream terms before redistribution."
+    },
+    {
+      "name": "pyparsing",
+      "version": "3.3.3",
+      "license": "MIT",
+      "evidence": "Installed distribution METADATA; verify upstream terms before redistribution."
+    },
+    {
+      "name": "pyshacl",
+      "version": "0.40.2",
+      "license": "Apache-2.0",
+      "evidence": "Installed distribution METADATA; verify upstream terms before redistribution."
+    },
+    {
+      "name": "PySocks",
+      "version": "1.7.1",
+      "license": "BSD",
+      "evidence": "Installed distribution METADATA; verify upstream terms before redistribution."
+    },
+    {
+      "name": "pytest",
+      "version": "8.4.2",
+      "license": "MIT",
+      "evidence": "Installed distribution METADATA; verify upstream terms before redistribution."
+    },
+    {
+      "name": "python-dateutil",
+      "version": "3.0.0",
+      "license": "Dual License",
+      "evidence": "Installed distribution METADATA; verify upstream terms before redistribution."
+    },
+    {
+      "name": "pytz",
+      "version": "2026.6",
+      "license": "MIT",
+      "evidence": "Installed distribution METADATA; verify upstream terms before redistribution."
+    },
+    {
+      "name": "rdflib",
+      "version": "7.6.0",
+      "license": "BSD-3-Clause",
+      "evidence": "Installed distribution METADATA; verify upstream terms before redistribution."
+    },
+    {
+      "name": "referencing",
+      "version": "0.36.2",
+      "license": "MIT",
+      "evidence": "Installed distribution METADATA; verify upstream terms before redistribution."
+    },
+    {
+      "name": "requests",
+      "version": "2.32.5",
+      "license": "Apache-2.0",
+      "evidence": "Installed distribution METADATA; verify upstream terms before redistribution."
+    },
+    {
+      "name": "rfc3339-validator",
+      "version": "0.1.4",
+      "license": "MIT license",
+      "evidence": "Installed distribution METADATA; verify upstream terms before redistribution."
+    },
+    {
+      "name": "rfc3987",
+      "version": "1.3.8",
+      "license": "GNU GPLv3+",
+      "evidence": "Installed distribution METADATA; verify upstream terms before redistribution."
+    },
+    {
+      "name": "rpds-py",
+      "version": "0.27.1",
+      "license": "MIT",
+      "evidence": "Installed distribution METADATA; verify upstream terms before redistribution."
+    },
+    {
+      "name": "selenium",
+      "version": "4.36.0",
+      "license": "Apache-2.0",
+      "evidence": "Installed distribution METADATA; verify upstream terms before redistribution."
+    },
+    {
+      "name": "setuptools",
+      "version": "58.0.4",
+      "license": "UNKNOWN",
+      "evidence": "Installed distribution METADATA; verify upstream terms before redistribution."
+    },
+    {
+      "name": "sgmllib3k",
+      "version": "1.0.0",
+      "license": "BSD License",
+      "evidence": "Installed distribution METADATA; verify upstream terms before redistribution."
+    },
+    {
+      "name": "six",
+      "version": "1.17.0",
+      "license": "MIT",
+      "evidence": "Installed distribution METADATA; verify upstream terms before redistribution."
+    },
+    {
+      "name": "sniffio",
+      "version": "1.3.1",
+      "license": "MIT OR Apache-2.0",
+      "evidence": "Installed distribution METADATA; verify upstream terms before redistribution."
+    },
+    {
+      "name": "sortedcontainers",
+      "version": "2.4.0",
+      "license": "Apache 2.0",
+      "evidence": "Installed distribution METADATA; verify upstream terms before redistribution."
+    },
+    {
+      "name": "tomli",
+      "version": "2.5.0",
+      "license": "MIT",
+      "evidence": "Installed distribution METADATA; verify upstream terms before redistribution."
+    },
+    {
+      "name": "trio",
+      "version": "0.31.0",
+      "license": "MIT OR Apache-2.0",
+      "evidence": "Installed distribution METADATA; verify upstream terms before redistribution."
+    },
+    {
+      "name": "trio-websocket",
+      "version": "0.12.2",
+      "license": null,
+      "evidence": "Installed distribution METADATA; verify upstream terms before redistribution."
+    },
+    {
+      "name": "typing_extensions",
+      "version": "4.16.0",
+      "license": "PSF-2.0",
+      "evidence": "Installed distribution METADATA; verify upstream terms before redistribution."
+    },
+    {
+      "name": "tzdata",
+      "version": "2026.6",
+      "license": "Apache-2.0",
+      "evidence": "Installed distribution METADATA; verify upstream terms before redistribution."
+    },
+    {
+      "name": "uri-template",
+      "version": "1.3.0",
+      "license": "MIT License",
+      "evidence": "Installed distribution METADATA; verify upstream terms before redistribution."
+    },
+    {
+      "name": "urllib3",
+      "version": "2.6.3",
+      "license": "MIT",
+      "evidence": "Installed distribution METADATA; verify upstream terms before redistribution."
+    },
+    {
+      "name": "wcwidth",
+      "version": "0.9.4",
+      "license": null,
+      "evidence": "Installed distribution METADATA; verify upstream terms before redistribution."
+    },
+    {
+      "name": "webcolors",
+      "version": "24.11.1",
+      "license": "BSD-3-Clause",
+      "evidence": "Installed distribution METADATA; verify upstream terms before redistribution."
+    },
+    {
+      "name": "websocket-client",
+      "version": "1.9.0",
+      "license": "Apache-2.0",
+      "evidence": "Installed distribution METADATA; verify upstream terms before redistribution."
+    },
+    {
+      "name": "wsproto",
+      "version": "1.2.0",
+      "license": "MIT License",
+      "evidence": "Installed distribution METADATA; verify upstream terms before redistribution."
+    },
+    {
+      "name": "zipp",
+      "version": "3.23.1",
+      "license": "MIT",
+      "evidence": "Installed distribution METADATA; verify upstream terms before redistribution."
+    }
+  ],
+  "documentary_sources": [
+    {
+      "source_id": "techcrunch_ai",
+      "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+      "fetch_status": "fetched",
+      "access_note": "Public RSS/Atom fetched and cached for local coursework.",
+      "redistribution_clearance": "not_established"
+    },
+    {
+      "source_id": "venturebeat_ai",
+      "url": "https://venturebeat.com/category/ai/feed/",
+      "fetch_status": "unavailable",
+      "access_note": "failed to fetch https://venturebeat.com/category/ai/feed/: 429 Client Error: Too Many Requests for url: https://venturebeat.com/category/ai/feed/",
+      "redistribution_clearance": "not_established"
+    },
+    {
+      "source_id": "techcrunch_langchain",
+      "url": "https://techcrunch.com/tag/langchain/feed/",
+      "fetch_status": "fetched",
+      "access_note": "Public RSS/Atom fetched and cached for local coursework.",
+      "redistribution_clearance": "not_established"
+    },
+    {
+      "source_id": "techcrunch_browserbase",
+      "url": "https://techcrunch.com/tag/browserbase/feed/",
+      "fetch_status": "unavailable",
+      "access_note": "failed to fetch https://techcrunch.com/tag/browserbase/feed/: 404 Client Error: Not Found for url: https://techcrunch.com/tag/browserbase/feed/",
+      "redistribution_clearance": "not_established"
+    },
+    {
+      "source_id": "techcrunch_composio",
+      "url": "https://techcrunch.com/tag/composio/feed/",
+      "fetch_status": "unavailable",
+      "access_note": "failed to fetch https://techcrunch.com/tag/composio/feed/: 404 Client Error: Not Found for url: https://techcrunch.com/tag/composio/feed/",
+      "redistribution_clearance": "not_established"
+    },
+    {
+      "source_id": "the_batch",
+      "url": "https://www.deeplearning.ai/the-batch/feed/",
+      "fetch_status": "unavailable",
+      "access_note": "failed to fetch https://www.deeplearning.ai/the-batch/feed/: 404 Client Error: Not Found for url: https://www.deeplearning.ai/the-batch/feed",
+      "redistribution_clearance": "not_established"
+    },
+    {
+      "source_id": "latent_space",
+      "url": "https://www.latent.space/feed",
+      "fetch_status": "fetched",
+      "access_note": "Public RSS/Atom fetched and cached for local coursework.",
+      "redistribution_clearance": "not_established"
+    },
+    {
+      "source_id": "simon_willison",
+      "url": "https://simonwillison.net/atom/everything/",
+      "fetch_status": "fetched",
+      "access_note": "Public RSS/Atom fetched and cached for local coursework.",
+      "redistribution_clearance": "not_established"
+    },
+    {
+      "source_id": "interconnects",
+      "url": "https://www.interconnects.ai/feed",
+      "fetch_status": "fetched",
+      "access_note": "Public RSS/Atom fetched and cached for local coursework.",
+      "redistribution_clearance": "not_established"
+    },
+    {
+      "source_id": "ahead_of_ai",
+      "url": "https://magazine.sebastianraschka.com/feed",
+      "fetch_status": "fetched",
+      "access_note": "Public RSS/Atom fetched and cached for local coursework.",
+      "redistribution_clearance": "not_established"
+    },
+    {
+      "source_id": "one_useful_thing",
+      "url": "https://www.oneusefulthing.org/feed",
+      "fetch_status": "fetched",
+      "access_note": "Public RSS/Atom fetched and cached for local coursework.",
+      "redistribution_clearance": "not_established"
+    },
+    {
+      "source_id": "pragmatic_engineer",
+      "url": "https://newsletter.pragmaticengineer.com/feed",
+      "fetch_status": "fetched",
+      "access_note": "Public RSS/Atom fetched and cached for local coursework.",
+      "redistribution_clearance": "not_established"
+    },
+    {
+      "source_id": "lilian_weng",
+      "url": "https://lilianweng.github.io/index.xml",
+      "fetch_status": "fetched",
+      "access_note": "Public RSS/Atom fetched and cached for local coursework.",
+      "redistribution_clearance": "not_established"
+    },
+    {
+      "source_id": "chip_huyen",
+      "url": "https://huyenchip.com/feed.xml",
+      "fetch_status": "fetched",
+      "access_note": "Public RSS/Atom fetched and cached for local coursework.",
+      "redistribution_clearance": "not_established"
+    },
+    {
+      "source_id": "eugene_yan",
+      "url": "https://eugeneyan.com/rss/",
+      "fetch_status": "fetched",
+      "access_note": "Public RSS/Atom fetched and cached for local coursework.",
+      "redistribution_clearance": "not_established"
+    },
+    {
+      "source_id": "hamel_husain",
+      "url": "https://hamel.dev/feed.xml",
+      "fetch_status": "unavailable",
+      "access_note": "failed to fetch https://hamel.dev/feed.xml: 404 Client Error: Not Found for url: https://hamel.dev/feed.xml",
+      "redistribution_clearance": "not_established"
+    },
+    {
+      "source_id": "jason_liu",
+      "url": "https://jxnl.co/rss.xml",
+      "fetch_status": "unavailable",
+      "access_note": "failed to fetch https://jxnl.co/rss.xml: 404 Client Error: Not Found for url: https://jxnl.co/rss.xml",
+      "redistribution_clearance": "not_established"
+    },
+    {
+      "source_id": "benedict_evans",
+      "url": "https://www.ben-evans.com/benedictevans?format=rss",
+      "fetch_status": "fetched",
+      "access_note": "Public RSS/Atom fetched and cached for local coursework.",
+      "redistribution_clearance": "not_established"
+    },
+    {
+      "source_id": "stratechery",
+      "url": "https://stratechery.com/feed/",
+      "fetch_status": "fetched",
+      "access_note": "Public RSS/Atom fetched and cached for local coursework.",
+      "redistribution_clearance": "not_established"
+    },
+    {
+      "source_id": "import_ai",
+      "url": "https://importai.substack.com/feed",
+      "fetch_status": "fetched",
+      "access_note": "Public RSS/Atom fetched and cached for local coursework.",
+      "redistribution_clearance": "not_established"
+    },
+    {
+      "source_id": "company:langchain",
+      "url": "https://blog.langchain.com/rss/",
+      "fetch_status": "fetched",
+      "access_note": "Public RSS/Atom fetched and cached for local coursework.",
+      "redistribution_clearance": "not_established"
+    },
+    {
+      "source_id": "company:llamaindex",
+      "url": "https://www.llamaindex.ai/blog/rss.xml",
+      "fetch_status": "unavailable",
+      "access_note": "failed to fetch https://www.llamaindex.ai/blog/rss.xml: 404 Client Error: Not Found for url: https://www.llamaindex.ai/blog/rss.xml",
+      "redistribution_clearance": "not_established"
+    },
+    {
+      "source_id": "company:e2b",
+      "url": "https://e2b.dev/blog/rss.xml",
+      "fetch_status": "unavailable",
+      "access_note": "failed to fetch https://e2b.dev/blog/rss.xml: 404 Client Error: Not Found for url: https://e2b.dev/resources/rss.xml",
+      "redistribution_clearance": "not_established"
+    },
+    {
+      "source_id": "company:langfuse",
+      "url": "https://langfuse.com/blog/rss.xml",
+      "fetch_status": "unavailable",
+      "access_note": "failed to fetch https://langfuse.com/blog/rss.xml: 404 Client Error: Not Found for url: https://langfuse.com/blog/rss.xml",
+      "redistribution_clearance": "not_established"
+    },
+    {
+      "source_id": "company:continue",
+      "url": "https://blog.continue.dev/rss.xml",
+      "fetch_status": "unavailable",
+      "access_note": "failed to fetch https://blog.continue.dev/rss.xml: 404 Client Error: Not Found for url: https://blog.continue.dev/rss.xml",
+      "redistribution_clearance": "not_established"
+    },
+    {
+      "source_id": "company:sourcegraph",
+      "url": "https://about.sourcegraph.com/blog/rss.xml",
+      "fetch_status": "fetched",
+      "access_note": "Public RSS/Atom fetched and cached for local coursework.",
+      "redistribution_clearance": "not_established"
+    },
+    {
+      "source_id": "company:modal",
+      "url": "https://modal.com/blog/rss.xml",
+      "fetch_status": "unavailable",
+      "access_note": "failed to fetch https://modal.com/blog/rss.xml: 404 Client Error: Not Found for url: https://modal.com/blog/rss.xml",
+      "redistribution_clearance": "not_established"
+    },
+    {
+      "source_id": "company:replicate",
+      "url": "https://replicate.com/blog/rss",
+      "fetch_status": "fetched",
+      "access_note": "Public RSS/Atom fetched and cached for local coursework.",
+      "redistribution_clearance": "not_established"
+    },
+    {
+      "source_id": "company:pinecone",
+      "url": "https://www.pinecone.io/blog/rss.xml",
+      "fetch_status": "fetched",
+      "access_note": "Public RSS/Atom fetched and cached for local coursework.",
+      "redistribution_clearance": "not_established"
+    },
+    {
+      "source_id": "company:weaviate",
+      "url": "https://weaviate.io/blog/rss.xml",
+      "fetch_status": "fetched",
+      "access_note": "Public RSS/Atom fetched and cached for local coursework.",
+      "redistribution_clearance": "not_established"
+    },
+    {
+      "source_id": "real:sources/langchain-releases.json",
+      "url": "https://api.github.com/repos/langchain-ai/langchain/releases?per_page=100",
+      "fetch_status": "frozen_source_present",
+      "snapshot": "evaluation/real",
+      "access_note": "Public source cached for the frozen study; original manifest and source checksum retained.",
+      "redistribution_clearance": "not_established"
+    },
+    {
+      "source_id": "real:sources/llamaindex-releases.json",
+      "url": "https://api.github.com/repos/run-llama/llama_index/releases?per_page=100",
+      "fetch_status": "frozen_source_present",
+      "snapshot": "evaluation/real",
+      "access_note": "Public source cached for the frozen study; original manifest and source checksum retained.",
+      "redistribution_clearance": "not_established"
+    },
+    {
+      "source_id": "real:sources/crewai-releases.json",
+      "url": "https://api.github.com/repos/crewAIInc/crewAI/releases?per_page=100",
+      "fetch_status": "frozen_source_present",
+      "snapshot": "evaluation/real",
+      "access_note": "Public source cached for the frozen study; original manifest and source checksum retained.",
+      "redistribution_clearance": "not_established"
+    },
+    {
+      "source_id": "mixed:sources/langchain-funding.html",
+      "url": "https://www.langchain.com/blog/series-c",
+      "fetch_status": "frozen_source_present",
+      "snapshot": "evaluation/mixed",
+      "access_note": "Public source cached for the frozen study; original manifest and source checksum retained.",
+      "redistribution_clearance": "not_established"
+    },
+    {
+      "source_id": "mixed:sources/llamaindex-funding.html",
+      "url": "https://www.llamaindex.ai/blog/announcing-our-series-a-and-llamacloud-general-availability",
+      "fetch_status": "frozen_source_present",
+      "snapshot": "evaluation/mixed",
+      "access_note": "Public source cached for the frozen study; original manifest and source checksum retained.",
+      "redistribution_clearance": "not_established"
+    },
+    {
+      "source_id": "mixed:sources/browserbase-funding.html",
+      "url": "https://www.browserbase.com/blog/series-b-and-beyond",
+      "fetch_status": "frozen_source_present",
+      "snapshot": "evaluation/mixed",
+      "access_note": "Public source cached for the frozen study; original manifest and source checksum retained.",
+      "redistribution_clearance": "not_established"
+    },
+    {
+      "source_id": "mixed:sources/langchain-jobs.json",
+      "url": "https://api.ashbyhq.com/posting-api/job-board/langchain",
+      "fetch_status": "frozen_source_present",
+      "snapshot": "evaluation/mixed",
+      "access_note": "Public source cached for the frozen study; original manifest and source checksum retained.",
+      "redistribution_clearance": "not_established"
+    },
+    {
+      "source_id": "mixed:sources/llamaindex-jobs.json",
+      "url": "https://api.ashbyhq.com/posting-api/job-board/llamaindex",
+      "fetch_status": "frozen_source_present",
+      "snapshot": "evaluation/mixed",
+      "access_note": "Public source cached for the frozen study; original manifest and source checksum retained.",
+      "redistribution_clearance": "not_established"
+    },
+    {
+      "source_id": "mixed:sources/langchain-commits.json",
+      "url": "https://api.github.com/repos/langchain-ai/langchain/commits",
+      "fetch_status": "frozen_source_present",
+      "snapshot": "evaluation/mixed",
+      "access_note": "Public source cached for the frozen study; original manifest and source checksum retained.",
+      "redistribution_clearance": "not_established"
+    },
+    {
+      "source_id": "mixed:sources/crewai-commits.json",
+      "url": "https://api.github.com/repos/crewAIInc/crewAI/commits",
+      "fetch_status": "frozen_source_present",
+      "snapshot": "evaluation/mixed",
+      "access_note": "Public source cached for the frozen study; original manifest and source checksum retained.",
+      "redistribution_clearance": "not_established"
+    },
+    {
+      "source_id": "mixed:sources/langfuse-commits.json",
+      "url": "https://api.github.com/repos/langfuse/langfuse/commits",
+      "fetch_status": "frozen_source_present",
+      "snapshot": "evaluation/mixed",
+      "access_note": "Public source cached for the frozen study; original manifest and source checksum retained.",
+      "redistribution_clearance": "not_established"
+    }
+  ],
+  "distribution_scope": "Local review archive. No publisher redistribution permission or team-wide software license is inferred.",
+  "live_repository_access": "access-review.json"
+}

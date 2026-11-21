@@ -1,0 +1,146 @@
+{
+  "questions": [
+    {
+      "question_id": "q-pilot-github-mlops",
+      "positive_component_records": 24,
+      "answer_correctness_established": false
+    },
+    {
+      "question_id": "q-investors-later-hiring",
+      "positive_component_records": 19,
+      "answer_correctness_established": false
+    },
+    {
+      "question_id": "q-sector-attention",
+      "positive_component_records": 0,
+      "answer_correctness_established": false
+    },
+    {
+      "question_id": "q-why-emerging",
+      "positive_component_records": 0,
+      "answer_correctness_established": false
+    },
+    {
+      "question_id": "q-unsupported-acquisition",
+      "positive_component_records": 0,
+      "answer_correctness_established": false
+    },
+    {
+      "question_id": "q-future-performance",
+      "positive_component_records": 0,
+      "answer_correctness_established": false
+    },
+    {
+      "question_id": "q-langchain-github-since-september",
+      "positive_component_records": 23,
+      "answer_correctness_established": false
+    },
+    {
+      "question_id": "q-crewai-activity-eight-weeks",
+      "positive_component_records": 8,
+      "answer_correctness_established": false
+    },
+    {
+      "question_id": "q-startups-multi-signal-ten-weeks",
+      "positive_component_records": 42,
+      "answer_correctness_established": false
+    },
+    {
+      "question_id": "q-funding-after-hiring",
+      "positive_component_records": 19,
+      "answer_correctness_established": false
+    },
+    {
+      "question_id": "q-sector-multi-origin",
+      "positive_component_records": 0,
+      "answer_correctness_established": false
+    },
+    {
+      "question_id": "q-company-slowed-commits",
+      "positive_component_records": 24,
+      "answer_correctness_established": false
+    },
+    {
+      "question_id": "q-llamaindex-retrieval-postings",
+      "positive_component_records": 1,
+      "answer_correctness_established": false
+    },
+    {
+      "question_id": "q-e2b-sandbox-coverage",
+      "positive_component_records": 0,
+      "answer_correctness_established": false
+    },
+    {
+      "question_id": "q-browserbase-agent-activity",
+      "positive_component_records": 0,
+      "answer_correctness_established": false
+    },
+    {
+      "question_id": "q-composio-tool-postings",
+      "positive_component_records": 0,
+      "answer_correctness_established": false
+    },
+    {
+      "question_id": "q-letta-memory-coverage",
+      "positive_component_records": 0,
+      "answer_correctness_established": false
+    },
+    {
+      "question_id": "q-langfuse-observability-signals",
+      "positive_component_records": 8,
+      "answer_correctness_established": false
+    },
+    {
+      "question_id": "q-haystack-rag-hiring",
+      "positive_component_records": 0,
+      "answer_correctness_established": false
+    },
+    {
+      "question_id": "q-funding-before-github-growth",
+      "positive_component_records": 27,
+      "answer_correctness_established": false
+    },
+    {
+      "question_id": "q-missing-funding-langsmith",
+      "positive_component_records": 0,
+      "answer_correctness_established": false
+    },
+    {
+      "question_id": "q-outside-collection-window",
+      "positive_component_records": 0,
+      "answer_correctness_established": false
+    },
+    {
+      "question_id": "q-future-acquisition",
+      "positive_component_records": 0,
+      "answer_correctness_established": false
+    },
+    {
+      "question_id": "q-undocumented-private-metrics",
+      "positive_component_records": 0,
+      "answer_correctness_established": false
+    },
+    {
+      "question_id": "q-emerging-change-label",
+      "positive_component_records": 0,
+      "answer_correctness_established": false
+    },
+    {
+      "question_id": "q-disputed-technical-claim",
+      "positive_component_records": 0,
+      "answer_correctness_established": false
+    },
+    {
+      "question_id": "q-stale-source-label",
+      "positive_component_records": 0,
+      "answer_correctness_established": false
+    },
+    {
+      "question_id": "q-independent-origin-definition",
+      "positive_component_records": 0,
+      "answer_correctness_established": false
+    }
+  ],
+  "questions_with_components": 10,
+  "limitation": "Component coverage is not answerability or temporal correctness."
+}

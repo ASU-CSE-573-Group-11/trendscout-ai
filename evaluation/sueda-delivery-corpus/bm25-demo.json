@@ -1,0 +1,178 @@
+{
+  "method": "BM25 k1=1.5 b=0.75; distinct origins; smoke queries, not scored ground truth",
+  "snapshot": "2026-11-20 America/Phoenix",
+  "queries": [
+    {
+      "query": "LangChain funding valuation",
+      "results": [
+        {
+          "record_id": "9ea49bcf-88e5-530f-959f-0145b55e5aba",
+          "title": "AI agent startup LangChain hits $3B valuation",
+          "source_url": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation",
+          "score": 12.362775040768515,
+          "origin_cluster_id": "49f0b0840b1ef26a"
+        }
+      ]
+    },
+    {
+      "query": "Pinecone retrieval evaluation",
+      "results": [
+        {
+          "record_id": "c97788ca-066b-56a7-b47a-150ecef8eccc",
+          "title": "Pinecone Nexus: The Knowledge Engine for Agents",
+          "source_url": "https://pinecone.io/blog/knowledge-infrastructure-for-agents",
+          "score": 3.733495364318136,
+          "origin_cluster_id": "b869c0027979b8fa"
+        },
+        {
+          "record_id": "49eb09f5-b03a-5730-964c-12c07f5ac1ef",
+          "title": "How to evaluate Sourcegraph on your own codebase",
+          "source_url": "https://sourcegraph.com/blog/how-to-evaluate-sourcegraph-on-your-own-codebase",
+          "score": 3.4174154826630105,
+          "origin_cluster_id": "3d728d5e785cdedf"
+        },
+        {
+          "record_id": "2b931efc-9d32-54ef-95d4-c261db21cd95",
+          "title": "RAG with Access Control",
+          "source_url": "https://pinecone.io/learn/rag-access-control",
+          "score": 3.117653163141673,
+          "origin_cluster_id": "2b40dedf03a8c7ec"
+        },
+        {
+          "record_id": "9a202a65-352a-5bdb-9efe-795fa3191af0",
+          "title": "Building RAG workflows in n8n: choosing the right Pinecone node",
+          "source_url": "https://pinecone.io/learn/pinecone-assistant-vs-pinecone-vector-store-node-n8n",
+          "score": 2.947879070552082,
+          "origin_cluster_id": "3bd5d0d4978d4b4f"
+        },
+        {
+          "record_id": "41762982-3d40-5e98-8594-ca38f16bae94",
+          "title": "Multi-domain RAG in n8n: why one knowledge base is not enough",
+          "source_url": "https://pinecone.io/learn/n8n-multi-domain-rag-knowledge-base",
+          "score": 2.930351583073084,
+          "origin_cluster_id": "9f414a7a179b6bd4"
+        }
+      ]
+    },
+    {
+      "query": "Sourcegraph code search",
+      "results": [
+        {
+          "record_id": "641a6346-df97-5345-ba54-48156e5aee8d",
+          "title": "We\u2019re lowering credit costs: The same credits get you 40% more Deep Search and 3.5X as many Code Finder calls",
+          "source_url": "https://sourcegraph.com/blog/credit-pricing-update",
+          "score": 6.309495187908459,
+          "origin_cluster_id": "a60bf9364f39ff19"
+        },
+        {
+          "record_id": "10f05567-7bb4-5ec8-aa29-1407bdd34535",
+          "title": "A smarter way to run code migrations with less LLM context",
+          "source_url": "https://sourcegraph.com/blog/a-smarter-way-to-run-code-migrations-with-less-llm-context",
+          "score": 6.184612102940954,
+          "origin_cluster_id": "fa89676c2ca9be77"
+        },
+        {
+          "record_id": "aca85303-aea0-5a43-893b-c8e4bb55a095",
+          "title": "Sunsetting Sourcegraph Cody and building the future of code intelligence",
+          "source_url": "https://sourcegraph.com/blog/sunsetting-cody-future-of-code-intelligence",
+          "score": 5.857881859996396,
+          "origin_cluster_id": "1682cb15623639ea"
+        },
+        {
+          "record_id": "49adf6f3-c107-51dc-980f-bb81931c6866",
+          "title": "Code Search, Deep Search, or MCP: When to Use Each",
+          "source_url": "https://sourcegraph.com/blog/the-right-tool-at-the-right-time-using-sourcegraph-search-effectively",
+          "score": 5.6663932924322875,
+          "origin_cluster_id": "2a8331585e237abc"
+        },
+        {
+          "record_id": "2dbacea0-b5b9-5025-a248-85a10069502f",
+          "title": "AI writes the code. Engineers still have to understand it.",
+          "source_url": "https://sourcegraph.com/blog/big-code-report-2026",
+          "score": 5.361749463551044,
+          "origin_cluster_id": "6cb0e3aada28682b"
+        }
+      ]
+    },
+    {
+      "query": "Weaviate hybrid search",
+      "results": [
+        {
+          "record_id": "63d09bc0-e644-53e7-a6a7-a5c5b6786bbf",
+          "title": "Building Foundry Part 3: From archive to creative search",
+          "source_url": "https://weaviate.io/blog/building-foundry-creative-search",
+          "score": 8.786859386924997,
+          "origin_cluster_id": "f603358e2a8d07ce"
+        },
+        {
+          "record_id": "61ff8974-8fa9-5e99-b379-880a58502886",
+          "title": "How to add hybrid search to a Postgres app with Pinecone in 2026",
+          "source_url": "https://pinecone.io/learn/hybrid-search-postgres-pinecone",
+          "score": 7.49633354038806,
+          "origin_cluster_id": "c31e7c62dd8c4119"
+        },
+        {
+          "record_id": "47a8f4f2-e07d-56df-bed1-3b4ce0b2e74d",
+          "title": "Weaviate 1.39 Release",
+          "source_url": "https://weaviate.io/blog/weaviate-1-39-release",
+          "score": 4.756753611912058,
+          "origin_cluster_id": "015d0293fc5471f3"
+        },
+        {
+          "record_id": "c013326f-81e4-5da6-bb86-94066980d9d3",
+          "title": "HFresh: Memory-Efficient Vector Search",
+          "source_url": "https://weaviate.io/blog/hfresh",
+          "score": 4.610700693079065,
+          "origin_cluster_id": "a6a9aabd38c6108a"
+        },
+        {
+          "record_id": "e5e4b35b-28ec-5d47-81a2-6776b05c7ce9",
+          "title": "Weaviate Cloud is now free to start",
+          "source_url": "https://weaviate.io/blog/weaviate-free-tier",
+          "score": 3.6025243497386845,
+          "origin_cluster_id": "f7efd7cfd23bdb67"
+        }
+      ]
+    },
+    {
+      "query": "Replicate model deployment",
+      "results": [
+        {
+          "record_id": "2dde3fbf-f0d1-5d15-beb9-760bd6219e95",
+          "title": "Run Isaac 0.1 on Replicate",
+          "source_url": "https://replicate.com/blog/isaac-01",
+          "score": 6.523546152207377,
+          "origin_cluster_id": "5ee8c33c5b69c1af"
+        },
+        {
+          "record_id": "4a1bbd63-e04a-54ec-a3b2-15a3c402bffd",
+          "title": "Replicate is joining Cloudflare",
+          "source_url": "https://replicate.com/blog/replicate-cloudflare",
+          "score": 5.317144078603228,
+          "origin_cluster_id": "229cf8d0dc226b3f"
+        },
+        {
+          "record_id": "d1333861-72ab-5fd2-9677-403b8e784b22",
+          "title": "Run FLUX.2 on Replicate",
+          "source_url": "https://replicate.com/blog/run-flux-2-on-replicate",
+          "score": 3.719280033893497,
+          "origin_cluster_id": "53deb794e04e536a"
+        },
+        {
+          "record_id": "f8a6d8a0-15ac-5694-99c2-9b37bd74b258",
+          "title": "The Ceiling Was Never the Model",
+          "source_url": "https://pinecone.io/blog/the-ceiling-was-never-the-model",
+          "score": 3.5533210566184326,
+          "origin_cluster_id": "13784e667e8a14e8"
+        },
+        {
+          "record_id": "dd5cab0c-86fc-597a-9ef9-e832c14791dc",
+          "title": "Retro Diffusion's pixel art models are now on Replicate",
+          "source_url": "https://replicate.com/blog/retro-diffusions-pixel-art-models-are-now-on-replicate",
+          "score": 3.49797826142324,
+          "origin_cluster_id": "f78cc971a97f091c"
+        }
+      ]
+    }
+  ]
+}

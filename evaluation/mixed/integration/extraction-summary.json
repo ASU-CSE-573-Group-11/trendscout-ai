@@ -1,0 +1,8 @@
+{
+  "status": "extraction_complete_review_pending",
+  "entity_mentions": 374,
+  "document_mention_relations": 374,
+  "method": "Exact case-sensitive lexicon matches with offsets; MENTIONS only.",
+  "independent_annotation_agreement": null,
+  "limitation": "Extraction predictions are not gold labels or two independent annotation sets."
+}

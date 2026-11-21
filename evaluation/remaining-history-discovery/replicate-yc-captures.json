@@ -1,0 +1,26 @@
+[
+  {
+    "source_id": "replicate-yc",
+    "timestamp": "20260511221108",
+    "original_url": "https://www.ycombinator.com/companies/replicate/jobs",
+    "response_url": "https://web.archive.org/web/20260511221108id_/https://www.ycombinator.com/companies/replicate/jobs",
+    "observed_at": "2026-11-21T11:52:46.095566+00:00",
+    "snapshot_at": "2026-05-11T22:11:08Z",
+    "memento_datetime": "Mon, 11 May 2026 22:11:08 GMT",
+    "capture_verified": true,
+    "file": "sources/replicate-yc-20260511221108.html",
+    "sha256": "9bb394173d407804db2a269d73c3aa590633feaba312b824c500c1680cc1ee0d"
+  },
+  {
+    "source_id": "replicate-yc-role",
+    "timestamp": "20251107124449",
+    "original_url": "https://www.ycombinator.com/companies/replicate/jobs/shoNthO-engineering-manager",
+    "response_url": "https://web.archive.org/web/20251107124449id_/https://www.ycombinator.com/companies/replicate/jobs/shoNthO-engineering-manager",
+    "observed_at": "2026-11-21T11:52:47.544240+00:00",
+    "snapshot_at": "2025-11-07T12:44:49Z",
+    "memento_datetime": "Fri, 07 Nov 2025 12:44:49 GMT",
+    "capture_verified": true,
+    "file": "sources/replicate-yc-20251107124449.html",
+    "sha256": "077c2db60dd360ba26ec83db20dbb672f9f04e6b51454e17ce6521cf92d5a6a9"
+  }
+]

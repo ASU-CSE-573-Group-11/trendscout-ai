@@ -1,0 +1,39 @@
+{
+  "checked_at": "2026-11-21T07:35:27Z",
+  "scope": "Project contributor-account attribution; not participant measurements or independent annotation.",
+  "team_confirmation": "Explicit project-session confirmation that all four name/account mappings are correct.",
+  "mappings": [
+    {
+      "member": "Sueda Sen",
+      "account": "SuedaSen",
+      "commit": "31788329649adb671daa3e5ca6e39e5f767afb38",
+      "git_author": "Süeda",
+      "github_commit_account_verified": true,
+      "team_mapping_confirmed": true
+    },
+    {
+      "member": "Mehmet Aksit",
+      "account": "mcaksit",
+      "commit": "b3e2dd33aa42c1bcd3304f076c01b5c41b9ae1bd",
+      "git_author": "M Cevat Aksit",
+      "github_commit_account_verified": true,
+      "team_mapping_confirmed": true
+    },
+    {
+      "member": "Vidya Sagar Dudekula",
+      "account": "VidyasagarDudekula",
+      "commit": "5c409375a90326fbd226a4c80c713fc24d9695ee",
+      "git_author": "Vidya Sagar",
+      "github_commit_account_verified": true,
+      "team_mapping_confirmed": true
+    },
+    {
+      "member": "Faisal Barkat Khorasi",
+      "account": "EroNinja",
+      "commit": "04d52cf52b609dfe09ad91a38cf955d1179a2b3b",
+      "git_author": "Faisal Khorasi",
+      "github_commit_account_verified": true,
+      "team_mapping_confirmed": true
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "recorded_at": "2026-11-21T08:13:43Z",
+  "status": "approved",
+  "method": "explicit_project_session_statement",
+  "reported_by": "Mehmet Aksit (self-identification in project session)",
+  "members": [
+    {
+      "name": "Sueda Sen",
+      "github_account": "SuedaSen"
+    },
+    {
+      "name": "Mehmet Aksit",
+      "github_account": "mcaksit"
+    },
+    {
+      "name": "Vidya Sagar Dudekula",
+      "github_account": "VidyasagarDudekula"
+    },
+    {
+      "name": "Faisal Barkat Khorasi",
+      "github_account": "EroNinja"
+    }
+  ],
+  "authorized_scope": "Enter and maintain team-member project information on each other's behalf; assist with assigned project work.",
+  "source_statement": "The user reports that the full team is together, all approve entries on each other's behalf, and identifies as Mehmet.",
+  "measurement_scope": "This records authorization. No specific annotation decisions, independent-review completion, task responses, confidence ratings or measured durations were supplied in this statement."
+}

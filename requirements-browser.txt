@@ -1,0 +1,2 @@
+# Optional current-page rendering. Core collection/replay does not require Selenium.
+selenium>=4.26,<5

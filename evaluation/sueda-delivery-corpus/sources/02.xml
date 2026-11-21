@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>langchain | TechCrunch</title>
+	<atom:link href="https://techcrunch.com/tag/langchain/feed/" rel="self" type="application/rss+xml" />
+	<link>https://techcrunch.com/tag/langchain/</link>
+	<description>Startup and Technology News</description>
+	<lastBuildDate>Fri, 13 Nov 2026 20:08:36 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.9.12</generator>
+
+<image>
+	<url>https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=32</url>
+	<title>langchain | TechCrunch</title>
+	<link>https://techcrunch.com/tag/langchain/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>AI agent startup LangChain hits $3B valuation</title>
+		<link>https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/</link>
+		
+		<dc:creator><![CDATA[Julie Bort]]></dc:creator>
+		<pubDate>Fri, 13 Nov 2026 19:37:57 +0000</pubDate>
+				<category><![CDATA[AI]]></category>
+		<category><![CDATA[Fundraising]]></category>
+		<category><![CDATA[Startups]]></category>
+		<category><![CDATA[agent]]></category>
+		<category><![CDATA[In Brief]]></category>
+		<category><![CDATA[langchain]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=3188474</guid>
+
+					<description><![CDATA[LangChain now claims 7,000 customers of its model and platform agnostic agent management tool LangSmith. ]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Open source agentic startup LangChain hits $1.25B valuation</title>
+		<link>https://techcrunch.com/2025/10/21/open-source-agentic-startup-langchain-hits-1-25b-valuation/</link>
+		
+		<dc:creator><![CDATA[Julie Bort]]></dc:creator>
+		<pubDate>Tue, 21 Oct 2025 22:12:46 +0000</pubDate>
+				<category><![CDATA[Startups]]></category>
+		<category><![CDATA[AI]]></category>
+		<category><![CDATA[unicorn startups]]></category>
+		<category><![CDATA[In Brief]]></category>
+		<category><![CDATA[langchain]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=3060418</guid>
+
+					<description><![CDATA[As TechCrunch previously reported, the maker of a popular open source framework for building AI agents has officially become a unicorn.]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Hugging Face&#8217;s new robot is the Seinfeld of AI devices</title>
+		<link>https://techcrunch.com/podcast/hugging-faces-new-robot-is-the-seinfeld-of-ai-devices/</link>
+		
+		<dc:creator><![CDATA[Kirsten Korosec, Maxwell Zeff, Anthony Ha, Theresa Loconsolo]]></dc:creator>
+		<pubDate>Fri, 11 Jul 2025 18:15:01 +0000</pubDate>
+				<category><![CDATA[Startups]]></category>
+		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Gadgets]]></category>
+		<category><![CDATA[Elon Musk]]></category>
+		<category><![CDATA[xAI]]></category>
+		<category><![CDATA[Hugging Face]]></category>
+		<category><![CDATA[Equity podcast]]></category>
+		<category><![CDATA[Rivian]]></category>
+		<category><![CDATA[linda yaccarino]]></category>
+		<category><![CDATA[langchain]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?post_type=tc_podcast&#038;p=3027042</guid>
+
+					<description><![CDATA[Hugging Face’s new programmable Reachy Mini bots launched this week. The AI robots are open source, Raspberry Pi-powered, and come with cartoonish antennae and big googly eyes. They don’t do much out of the box. And that’s kind of the point. Today, on TechCrunch’s Equity podcast, hosts Kirsten Korosec, Max Zeff, and Anthony Ha dig [&#8230;]]]></description>
+		
+		
+		
+			</item>
+	</channel>
+</rss>

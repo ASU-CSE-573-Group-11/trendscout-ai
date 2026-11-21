@@ -16,6 +16,7 @@ from __future__ import annotations
 
 from dataclasses import dataclass, field
 from datetime import datetime
+import re
 from typing import Any, Iterable, Mapping
 
 from collectors.records import validate_record
@@ -346,12 +347,29 @@ def job_observation(record: Mapping[str, Any], *, validate: bool = True) -> JobO
     # which is what makes "new this week" meaningful rather than a re-listing.
     posting_id = metadata.get(JOB_FIELDS["source_record_id"]) or record["record_id"]
 
+    # A verified archive capture can establish when a board was observed.
+    # Keep the record's observed_at as today's retrieval clock; use the distinct
+    # source snapshot clock only for time-series placement.
+    snapshot_at = parse_instant(record['observed_at'])
+    source_clock = metadata.get('source_snapshot_at')
+    if source_clock:
+        candidate = parse_instant(source_clock)
+        if candidate > snapshot_at:
+            raise AdapterError('source snapshot time cannot be after retrieval')
+        if candidate < snapshot_at:
+            capture = metadata.get('archive_capture') or {}
+            if (capture.get('verified') is not True or capture.get('captured_at') != source_clock
+                    or not str(capture.get('url', '')).startswith('https://web.archive.org/web/')
+                    or not re.fullmatch(r'[0-9a-f]{64}', str(capture.get('payload_sha256', '')))):
+                raise AdapterError('historical source snapshot requires verified archive provenance')
+        snapshot_at = candidate
+
     return JobObservation(
         record_id=record["record_id"],
         company_id=company_id,
         origin_cluster_id=record["origin_cluster_id"],
         content_hash=record["content_hash"],
-        observed_at=parse_instant(record["observed_at"]),
+        observed_at=snapshot_at,
         posting_id=str(posting_id),
         title=title.strip(),
         role_normalized=" ".join(role_normalized.casefold().split()),

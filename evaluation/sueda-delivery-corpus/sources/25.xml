@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Sourcegraph Blog</title>
+    <link>https://sourcegraph.com/blog</link>
+    <description>Engineering posts, product updates, and announcements from Sourcegraph.</description>
+    <item>
+      <title>Ruby2Shell (CVE-2026-132825): find vulnerable Ruby across your repos before the proof of concept lands</title>
+      <link>https://sourcegraph.com/blog/ruby2shell-cve-2026-132825-find-vulnerable-ruby</link>
+      <description>Researchers report that default Rails and classic Sinatra apps reach Ruby2Shell (CVE-2026-132825) without authentication. Find affected Ruby runtimes in your code and upgrade to 3.3.14, 3.4.13, or 4.0.10.</description>
+      <author>Justin Dorfman</author>
+      <pubDate>Fri, 20 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>We’re lowering credit costs: The same credits get you 40% more Deep Search and 3.5X as many Code Finder calls</title>
+      <link>https://sourcegraph.com/blog/credit-pricing-update</link>
+      <description>Sourcegraph is lowering credit costs: Deep Search drops to 50 credits, Code Finder via MCP to 3 credits, and Smart Hovers become free, starting November 19.</description>
+      <author>Dan Adler</author>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Java4Shell (CVE-2026-114938): how to find every vulnerable JDK across your repos and servers</title>
+      <link>https://sourcegraph.com/blog/java4shell-cve-2026-114938-find-vulnerable-jdk</link>
+      <description>Java4Shell only hits Java 17+ on AVX-512 x86 CPUs. Here’s how to find every exposed JDK in your code and infrastructure, and ship the fix without breaking ARM.</description>
+      <author>Justin Dorfman</author>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Why large monorepos need code search, especially with AI coding agents</title>
+      <link>https://sourcegraph.com/blog/monorepo-code-search-ai-coding-agents</link>
+      <description>Monorepos put all your code in one place, but local tools, sparse checkouts, and AI coding agents only see a slice of it. Here is why large monorepos need code search and precise navigation.</description>
+      <author>Bob Madey</author>
+      <pubDate>Tue, 17 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>AI writes the code. Engineers still have to understand it.</title>
+      <link>https://sourcegraph.com/blog/big-code-report-2026</link>
+      <description>Sourcegraph's 2026 Big Code report surveyed 1,028 people responsible for software development on how teams understand, review and change large codebases as AI writes more of the code.</description>
+      <author>Stephanie Jarmak</author>
+      <pubDate>Mon, 16 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Keeping code moving with clearer review expectations</title>
+      <link>https://sourcegraph.com/blog/what-we-learned-building-a-pr-approval-bot</link>
+      <description>As agents help us produce more code, review becomes more of a bottleneck. We built a bot to reduce approval chasing and make review expectations explicit.</description>
+      <author>Constantin Nicolae</author>
+      <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Sunsetting Sourcegraph Cody and building the future of code intelligence</title>
+      <link>https://sourcegraph.com/blog/sunsetting-cody-future-of-code-intelligence</link>
+      <description>Sourcegraph Cody reaches end of life on January 31, 2027. Here is why, what Sourcegraph is building next for developers and coding agents, and how Cody customers can plan their transition.</description>
+      <author>Dan Adler</author>
+      <pubDate>Mon, 09 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>php2shell: patching PHP is easy, finding it is the hard part</title>
+      <link>https://sourcegraph.com/blog/php2shell-patching-php-is-easy-finding-it-is-the-hard-part</link>
+      <description>PHP patched two critical unauthenticated RCE bugs, CVE-2026-109618 and CVE-2026-109619. Find every PHP runtime in your code with Deep Search, then bump them all with Agentic Batch Changes.</description>
+      <author>Justin Dorfman</author>
+      <author>Dan Adler</author>
+      <pubDate>Wed, 21 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>The runbook is out of date and the code shipped an hour ago</title>
+      <link>https://sourcegraph.com/blog/sre-runbooks-ai-driven-development</link>
+      <description>Runbooks already lagged behind code, and AI-assisted development is widening the gap. A former SRE explains how Code Search, Deep Search, and MCP ground incident response in the code itself.</description>
+      <author>Jon Galindo</author>
+      <pubDate>Mon, 19 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>The autonomous codebase</title>
+      <link>https://sourcegraph.com/blog/the-autonomous-codebase</link>
+      <description>What's left for us to build?</description>
+      <author>Dan Adler</author>
+      <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Coding agents usually can't price on outcomes. Ours can.</title>
+      <link>https://sourcegraph.com/blog/agentic-batch-changes-pricing</link>
+      <description>Agentic Batch Changes is now available, and we price it on outcomes: you only pay for changesets that merge.</description>
+      <author>Dan Adler</author>
+      <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Introducing Agentic Batch Changes: the frontier agent for code change at scale</title>
+      <link>https://sourcegraph.com/blog/introducing-agentic-batch-changes</link>
+      <description>Codebase-wide changes across hundreds or thousands of repositories can now be run by one engineer.</description>
+      <author>Lauren Preston</author>
+      <pubDate>Mon, 14 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>A smarter way to run code migrations with less LLM context</title>
+      <link>https://sourcegraph.com/blog/a-smarter-way-to-run-code-migrations-with-less-llm-context</link>
+      <description>Deep Search runs scripts in a sandbox around Sourcegraph search APIs, so a migration audit returns a CSV checklist instead of thousands of files worth of tokens.</description>
+      <author>Kalan Chan</author>
+      <pubDate>Fri, 28 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>How to evaluate Sourcegraph on your own codebase</title>
+      <link>https://sourcegraph.com/blog/how-to-evaluate-sourcegraph-on-your-own-codebase</link>
+      <description>Better code retrieval does not automatically mean better task completion. Here is how to measure retrieval, agent performance, and cost without confusing one for another.</description>
+      <author>Stephanie Jarmak</author>
+      <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Compliance-first AI: proving agent provenance for regulated engineering teams</title>
+      <link>https://sourcegraph.com/blog/compliance-first-ai-proving-agent-provenance</link>
+      <description>Regulated engineering teams must prove which files an AI agent read before it shipped a change. How scoped retrieval turns agent context into an audit trail.</description>
+      <author>Justin Dorfman</author>
+      <pubDate>Mon, 27 Jul 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Code Finder: fast, efficient code search for coding agents</title>
+      <link>https://sourcegraph.com/blog/code-finder-fast-code-search-for-agents</link>
+      <description>Code Finder runs its own search loop and hands your coding agent the exact files and line ranges, faster and cheaper than the agent searching on its own.</description>
+      <author>Stephanie Jarmak</author>
+      <author>Jan Hartman</author>
+      <pubDate>Thu, 23 Jul 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Three places enterprise security breaks down at codebase scale (and why your current tools don't cover them)</title>
+      <link>https://sourcegraph.com/blog/vulnerability-remediation-at-codebase-scale</link>
+      <description>Vulnerability remediation breaks down at codebase scale: AI code without context, detection coverage gaps, and fixes that take weeks across 10,000 repos.</description>
+      <author>Matt Tanner</author>
+      <pubDate>Mon, 13 Jul 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Detection in one repo isn't a security posture</title>
+      <link>https://sourcegraph.com/blog/detection-in-one-repo-isnt-a-security-posture</link>
+      <description>A finding in one repo is a fact. A security posture means knowing whether that same problem exists everywhere else, and fixing it before it spreads.</description>
+      <author>Justin Dorfman</author>
+      <pubDate>Fri, 10 Jul 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Agentic Batch Changes is now in public beta</title>
+      <link>https://sourcegraph.com/blog/agentic-batch-changes-public-beta</link>
+      <description>Agentic Batch Changes is now in public beta: an AI agent that scopes, executes, and ships large-scale code migrations across hundreds of repositories until every PR is mergeable.</description>
+      <author>Graham McBain</author>
+      <pubDate>Tue, 30 Jun 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>On owning a codebase, and why it may be the hardest job in software</title>
+      <link>https://sourcegraph.com/blog/owning-a-codebase</link>
+      <description>AI coding agents are producing more code than ever, but the world still runs on massive, decades-old codebases. Why owning and understanding them may be the hardest job in software.</description>
+      <author>Dan Adler</author>
+      <pubDate>Fri, 26 Jun 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Why your migration tools are failing your engineers</title>
+      <link>https://sourcegraph.com/blog/why-your-migration-tools-are-failing-your-engineers</link>
+      <description>The bottleneck in most large-scale migrations is not the engineers or the plan. It is that the tools cannot see the whole codebase.</description>
+      <author>Graham McBain</author>
+      <pubDate>Wed, 24 Jun 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Sourcegraph MCP server and a cheaper model beat a Mythos-class model alone</title>
+      <link>https://sourcegraph.com/blog/sourcegraph-mcp-and-a-cheaper-model-beat-a-mythos-class-model-alone</link>
+      <description>On nine CodeScaleBench tasks designed to evaluate agent effectiveness in large codebases, Claude Sonnet 4.6 with the Sourcegraph MCP server outscored Fable 5, winning six of nine at roughly half the cost for each point of quality.</description>
+      <author>Stephanie Jarmak</author>
+      <pubDate>Tue, 16 Jun 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>The hidden cost of code that nobody touches</title>
+      <link>https://sourcegraph.com/blog/the-hidden-cost-of-code-that-nobody-touches</link>
+      <description>Every engineering org has the files nobody wants to open. Here's what that actually costs.</description>
+      <author>Graham McBain</author>
+      <pubDate>Tue, 16 Jun 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Automating Security Triage with HackerOne and Deep Search</title>
+      <link>https://sourcegraph.com/blog/automating-security-triage-hackerone-deep-search</link>
+      <description>How Sourcegraph uses HackerOne webhooks and Deep Search to automatically validate, triage, and investigate vulnerability reports before engineers start their day.</description>
+      <author>Carter Brainerd</author>
+      <pubDate>Fri, 05 Jun 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Security Automation Evolved: From SlackOps to Programmatic SIEM Triage (Part 1/2)</title>
+      <link>https://sourcegraph.com/blog/from-slack-ops-to-programmatic-siem-triage</link>
+      <description>How Sourcegraph's security team evolved from a Slack-based triage bot to programmatic SIEM detection with expression-based auto-close rules.</description>
+      <author>Vincent Ruijter</author>
+      <pubDate>Thu, 28 May 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Dependency prefixes are a supply chain risk: let's fix them</title>
+      <link>https://sourcegraph.com/blog/dependency-prefix-supply-chain-risk</link>
+      <description>Dependency prefixes like ^ and ~ make updates easy, but the version ranges they create widen the path a compromised package can take into production.</description>
+      <author>Justin Dorfman</author>
+      <pubDate>Fri, 22 May 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>How we're using Sourcegraph and a Slack bot to detect vulnerabilities and react quickly</title>
+      <link>https://sourcegraph.com/blog/slack-bot-supply-chain-incident-response</link>
+      <description>A Slack bot triages every GitHub advisory, posts a rocket-to-trigger ask in the channel, and on one human reaction runs the full content pipeline: detection queries, blog scaffold, social drafts, a 35-second auto-cut demo. The operator's remaining job is to read the drafts and decide whether they're honest.</description>
+      <author>Stephanie Jarmak</author>
+      <pubDate>Wed, 13 May 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Why coding agents fail in large codebases (and what to do about it)</title>
+      <link>https://sourcegraph.com/blog/why-coding-agents-fail-large-codebases</link>
+      <description>Data from 1,281 agent runs across 40+ large open source repos reveals five repeatable failure patterns in coding agents, and the infrastructure fixes for each.</description>
+      <author>Stephanie Jarmak</author>
+      <pubDate>Fri, 08 May 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Lessons on UX, security, and scale when building an enterprise-grade Slack agent</title>
+      <link>https://sourcegraph.com/blog/deep-search-slack-agent-lessons</link>
+      <description>We built a Deep Search Slack agent for large companies. Here is what we learned about user experience, enterprise security, and Redis-backed rate limiting.</description>
+      <author>Julia Xu</author>
+      <author>Jason Harris</author>
+      <author>Emi</author>
+      <pubDate>Mon, 04 May 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Code Search, Deep Search, or MCP: When to Use Each</title>
+      <link>https://sourcegraph.com/blog/the-right-tool-at-the-right-time-using-sourcegraph-search-effectively</link>
+      <description>AI added new ways to search code, but not all of them apply to every problem. Here’s how to choose between Code Search, Deep Search, and MCP.</description>
+      <author>Jon Galindo</author>
+      <pubDate>Wed, 22 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+  </channel>
+</rss>

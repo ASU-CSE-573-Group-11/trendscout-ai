@@ -1,0 +1,425 @@
+{
+  "companies": [
+    {
+      "company_id": "langchain",
+      "boards": [
+        {
+          "type": "ashby",
+          "slug": "langchain",
+          "link_evidence": "https://jobs.ashbyhq.com/langchain/embed",
+          "api_url": "https://api.ashbyhq.com/posting-api/job-board/langchain",
+          "observations": [
+            {
+              "file": "sources/langchain-0-current.json",
+              "source_url": "https://api.ashbyhq.com/posting-api/job-board/langchain",
+              "snapshot_at": "2026-11-21T08:03:09.568201+00:00",
+              "observed_at": "2026-11-21T08:03:09.568201+00:00",
+              "count": 102
+            },
+            {
+              "file": "sources/langchain-0-20261021163607.json",
+              "source_url": "https://web.archive.org/web/20261021163607id_/https://api.ashbyhq.com/posting-api/job-board/langchain",
+              "snapshot_at": "2026-10-21T16:36:07Z",
+              "observed_at": "2026-11-21T08:05:42Z",
+              "archive_capture": {
+                "verified": true,
+                "captured_at": "2026-10-21T16:36:07Z",
+                "url": "https://web.archive.org/web/20261021163607id_/https://api.ashbyhq.com/posting-api/job-board/langchain",
+                "payload_sha256": "e8b9a9afdcdf7fbe84a4bc4e1a7230c83acdf0651f2d71abd870c950d3c74583",
+                "verification": "CDX timestamp equals Memento-Datetime; payload retained and hashed."
+              },
+              "count": 104,
+              "memento_datetime": "Wed, 21 Oct 2026 16:36:07 GMT",
+              "cdx_timestamp": "20261021163607",
+              "provenance_rechecked_at": "2026-11-21T08:08:16.344845+00:00"
+            }
+          ],
+          "out_of_window_captures": [],
+          "archive_lookup_status": "completed",
+          "comparisons": [
+            {
+              "baseline_at": "2026-10-21T16:36:07Z",
+              "latest_at": "2026-11-21T08:03:09.568201+00:00",
+              "baseline_listed": 104,
+              "latest_listed": 102,
+              "net_posting_change": -2,
+              "newly_observed": 26,
+              "no_longer_observed": 28,
+              "retained": 76
+            }
+          ],
+          "status": "historical_comparison_available"
+        }
+      ],
+      "current_listed": 102,
+      "historical_in_window": true
+    },
+    {
+      "company_id": "llamaindex",
+      "boards": [],
+      "current_listed": null,
+      "historical_in_window": false
+    },
+    {
+      "company_id": "crewai",
+      "boards": [],
+      "current_listed": null,
+      "historical_in_window": false
+    },
+    {
+      "company_id": "e2b",
+      "boards": [
+        {
+          "type": "ashby",
+          "slug": "e2b",
+          "link_evidence": "https://jobs.ashbyhq.com/e2b/23043e12-632c-463b-857e-9e18cc223ef6",
+          "api_url": "https://api.ashbyhq.com/posting-api/job-board/e2b",
+          "observations": [
+            {
+              "file": "sources/e2b-0-current.json",
+              "source_url": "https://api.ashbyhq.com/posting-api/job-board/e2b",
+              "snapshot_at": "2026-11-21T08:03:09.600576+00:00",
+              "observed_at": "2026-11-21T08:03:09.600576+00:00",
+              "count": 14
+            }
+          ],
+          "out_of_window_captures": [],
+          "archive_lookup_status": "completed",
+          "status": "current_only"
+        }
+      ],
+      "current_listed": 14,
+      "historical_in_window": false
+    },
+    {
+      "company_id": "browserbase",
+      "boards": [
+        {
+          "type": "greenhouse",
+          "slug": "browserbaseinc",
+          "link_evidence": "https://job-boards.greenhouse.io/browserbaseinc/jobs/4425079009",
+          "api_url": "https://boards-api.greenhouse.io/v1/boards/browserbaseinc/jobs",
+          "observations": [
+            {
+              "file": "sources/browserbase-0-current.json",
+              "source_url": "https://boards-api.greenhouse.io/v1/boards/browserbaseinc/jobs",
+              "snapshot_at": "2026-11-21T08:03:09.609573+00:00",
+              "observed_at": "2026-11-21T08:03:09.609573+00:00",
+              "count": 16
+            }
+          ],
+          "out_of_window_captures": [],
+          "archive_lookup_status": "completed",
+          "status": "current_only"
+        }
+      ],
+      "current_listed": 16,
+      "historical_in_window": false
+    },
+    {
+      "company_id": "composio",
+      "boards": [
+        {
+          "type": "ashby",
+          "slug": "composio",
+          "link_evidence": "https://jobs.ashbyhq.com/composio",
+          "api_url": "https://api.ashbyhq.com/posting-api/job-board/composio",
+          "observations": [
+            {
+              "file": "sources/composio-0-current.json",
+              "source_url": "https://api.ashbyhq.com/posting-api/job-board/composio",
+              "snapshot_at": "2026-11-21T08:03:09.610906+00:00",
+              "observed_at": "2026-11-21T08:03:09.610906+00:00",
+              "count": 30
+            }
+          ],
+          "out_of_window_captures": [],
+          "archive_lookup_status": "completed",
+          "status": "current_only"
+        }
+      ],
+      "current_listed": 30,
+      "historical_in_window": false
+    },
+    {
+      "company_id": "letta",
+      "boards": [
+        {
+          "type": "ashby",
+          "slug": "letta",
+          "link_evidence": "https://jobs.ashbyhq.com/letta/",
+          "api_url": "https://api.ashbyhq.com/posting-api/job-board/letta",
+          "observations": [
+            {
+              "file": "sources/letta-0-current.json",
+              "source_url": "https://api.ashbyhq.com/posting-api/job-board/letta",
+              "snapshot_at": "2026-11-21T08:03:10.522630+00:00",
+              "observed_at": "2026-11-21T08:03:10.522630+00:00",
+              "count": 4
+            }
+          ],
+          "out_of_window_captures": [],
+          "archive_lookup_status": "completed",
+          "status": "current_only"
+        }
+      ],
+      "current_listed": 4,
+      "historical_in_window": false
+    },
+    {
+      "company_id": "langfuse",
+      "boards": [],
+      "current_listed": null,
+      "historical_in_window": false
+    },
+    {
+      "company_id": "deepset",
+      "boards": [
+        {
+          "type": "ashby",
+          "slug": "deepsetai",
+          "link_evidence": "https://jobs.ashbyhq.com/deepsetai",
+          "api_url": "https://api.ashbyhq.com/posting-api/job-board/deepsetai",
+          "observations": [
+            {
+              "file": "sources/deepset-0-current.json",
+              "source_url": "https://api.ashbyhq.com/posting-api/job-board/deepsetai",
+              "snapshot_at": "2026-11-21T08:03:10.527557+00:00",
+              "observed_at": "2026-11-21T08:03:10.527557+00:00",
+              "count": 4
+            }
+          ],
+          "out_of_window_captures": [],
+          "archive_lookup_status": "completed",
+          "status": "current_only"
+        }
+      ],
+      "current_listed": 4,
+      "historical_in_window": false
+    },
+    {
+      "company_id": "continue",
+      "boards": [],
+      "current_listed": null,
+      "historical_in_window": false
+    },
+    {
+      "company_id": "sourcegraph",
+      "boards": [
+        {
+          "type": "greenhouse",
+          "slug": "sourcegraph91",
+          "link_evidence": "https://job-boards.greenhouse.io/sourcegraph91/jobs/4621149004",
+          "api_url": "https://boards-api.greenhouse.io/v1/boards/sourcegraph91/jobs",
+          "observations": [
+            {
+              "file": "sources/sourcegraph-0-current.json",
+              "source_url": "https://boards-api.greenhouse.io/v1/boards/sourcegraph91/jobs",
+              "snapshot_at": "2026-11-21T08:03:10.531780+00:00",
+              "observed_at": "2026-11-21T08:03:10.531780+00:00",
+              "count": 8
+            }
+          ],
+          "out_of_window_captures": [
+            "20250701221218",
+            "20250918215511"
+          ],
+          "archive_lookup_status": "completed",
+          "status": "current_only"
+        }
+      ],
+      "current_listed": 8,
+      "historical_in_window": false
+    },
+    {
+      "company_id": "modal",
+      "boards": [
+        {
+          "type": "ashby",
+          "slug": "modal",
+          "link_evidence": "https://jobs.ashbyhq.com/modal",
+          "api_url": "https://api.ashbyhq.com/posting-api/job-board/modal",
+          "observations": [
+            {
+              "file": "sources/modal-0-current.json",
+              "source_url": "https://api.ashbyhq.com/posting-api/job-board/modal",
+              "snapshot_at": "2026-11-21T08:03:10.926230+00:00",
+              "observed_at": "2026-11-21T08:03:10.926230+00:00",
+              "count": 52
+            },
+            {
+              "file": "sources/modal-0-20261120090312.json",
+              "source_url": "https://web.archive.org/web/20261120090312id_/https://api.ashbyhq.com/posting-api/job-board/modal",
+              "snapshot_at": "2026-11-20T09:03:12Z",
+              "observed_at": "2026-11-21T08:05:44Z",
+              "archive_capture": {
+                "verified": true,
+                "captured_at": "2026-11-20T09:03:12Z",
+                "url": "https://web.archive.org/web/20261120090312id_/https://api.ashbyhq.com/posting-api/job-board/modal",
+                "payload_sha256": "d6cfaf9939e66972d30314f3066cf4784212ce4e168f8d78e3ec56a879f08856",
+                "verification": "CDX timestamp equals Memento-Datetime; payload retained and hashed."
+              },
+              "count": 51,
+              "memento_datetime": "Fri, 20 Nov 2026 09:03:12 GMT",
+              "cdx_timestamp": "20261120090312",
+              "provenance_rechecked_at": "2026-11-21T08:08:17.931524+00:00"
+            }
+          ],
+          "out_of_window_captures": [],
+          "archive_lookup_status": "completed",
+          "comparisons": [
+            {
+              "baseline_at": "2026-11-20T09:03:12Z",
+              "latest_at": "2026-11-21T08:03:10.926230+00:00",
+              "baseline_listed": 51,
+              "latest_listed": 52,
+              "net_posting_change": 1,
+              "newly_observed": 1,
+              "no_longer_observed": 0,
+              "retained": 51
+            }
+          ],
+          "status": "historical_comparison_available"
+        }
+      ],
+      "current_listed": 52,
+      "historical_in_window": true
+    },
+    {
+      "company_id": "replicate",
+      "boards": [],
+      "current_listed": null,
+      "historical_in_window": false
+    },
+    {
+      "company_id": "wandb",
+      "boards": [],
+      "current_listed": null,
+      "historical_in_window": false
+    },
+    {
+      "company_id": "pinecone",
+      "boards": [
+        {
+          "type": "ashby",
+          "slug": "pinecone",
+          "link_evidence": "https://jobs.ashbyhq.com/pinecone/08760530-e6c3-4167-9272-923d85a2388d",
+          "api_url": "https://api.ashbyhq.com/posting-api/job-board/pinecone",
+          "observations": [
+            {
+              "file": "sources/pinecone-0-current.json",
+              "source_url": "https://api.ashbyhq.com/posting-api/job-board/pinecone",
+              "snapshot_at": "2026-11-21T08:03:11.679241+00:00",
+              "observed_at": "2026-11-21T08:03:11.679241+00:00",
+              "count": 8
+            }
+          ],
+          "out_of_window_captures": [],
+          "archive_lookup_status": "completed",
+          "status": "current_only"
+        }
+      ],
+      "current_listed": 8,
+      "historical_in_window": false
+    },
+    {
+      "company_id": "weaviate",
+      "boards": [],
+      "current_listed": null,
+      "historical_in_window": false
+    },
+    {
+      "company_id": "chroma",
+      "boards": [],
+      "current_listed": null,
+      "historical_in_window": false
+    },
+    {
+      "company_id": "arize",
+      "boards": [],
+      "current_listed": null,
+      "historical_in_window": false
+    }
+  ],
+  "sources": [
+    {
+      "file": "sources/langchain-0-current.json",
+      "sha256": "6ca6a5341071ad6dd0e42edf4395fdf497fe30a66cf2b0c43e876cdb521e9a3c",
+      "source_url": "https://api.ashbyhq.com/posting-api/job-board/langchain"
+    },
+    {
+      "file": "sources/langchain-0-20261021163607.json",
+      "sha256": "e8b9a9afdcdf7fbe84a4bc4e1a7230c83acdf0651f2d71abd870c950d3c74583",
+      "source_url": "https://web.archive.org/web/20261021163607id_/https://api.ashbyhq.com/posting-api/job-board/langchain"
+    },
+    {
+      "file": "sources/e2b-0-current.json",
+      "sha256": "80ef4ad1b598281cdec8fc62f2ca8653631dfb7f8ef718015eff585fb0acce5e",
+      "source_url": "https://api.ashbyhq.com/posting-api/job-board/e2b"
+    },
+    {
+      "file": "sources/browserbase-0-current.json",
+      "sha256": "f4ac281a788a3013245803027f260779d0728eb2c5c2cd90d0caada939ac1c5f",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/browserbaseinc/jobs"
+    },
+    {
+      "file": "sources/composio-0-current.json",
+      "sha256": "be3cb2081ffcebbf1155d56c991bc2a79a0e2c79952dec1aec11703128697211",
+      "source_url": "https://api.ashbyhq.com/posting-api/job-board/composio"
+    },
+    {
+      "file": "sources/letta-0-current.json",
+      "sha256": "d6bb0d975a56b6d8279bebab2842613be0011925f0843ae2b1a0cc2db36cfae3",
+      "source_url": "https://api.ashbyhq.com/posting-api/job-board/letta"
+    },
+    {
+      "file": "sources/deepset-0-current.json",
+      "sha256": "45a10ea32b5882b2cd0132421bbeeb6d0a4de8978d74fd06b9e7be307f6a5d97",
+      "source_url": "https://api.ashbyhq.com/posting-api/job-board/deepsetai"
+    },
+    {
+      "file": "sources/sourcegraph-0-current.json",
+      "sha256": "b2d889510da04094591d79cdb51141affa758128b38e99299d9aa67e7e82258d",
+      "source_url": "https://boards-api.greenhouse.io/v1/boards/sourcegraph91/jobs"
+    },
+    {
+      "file": "sources/modal-0-current.json",
+      "sha256": "1165323aabfd59842048c5b9bd45e764922daee5916236af6af9b2ffa02dd39d",
+      "source_url": "https://api.ashbyhq.com/posting-api/job-board/modal"
+    },
+    {
+      "file": "sources/modal-0-20261120090312.json",
+      "sha256": "d6cfaf9939e66972d30314f3066cf4784212ce4e168f8d78e3ec56a879f08856",
+      "source_url": "https://web.archive.org/web/20261120090312id_/https://api.ashbyhq.com/posting-api/job-board/modal"
+    },
+    {
+      "file": "sources/pinecone-0-current.json",
+      "sha256": "9722b33ebe3a179cb0008c3e113ef2fb10a139bef13a5c3d0c9219e24cac576e",
+      "source_url": "https://api.ashbyhq.com/posting-api/job-board/pinecone"
+    }
+  ],
+  "cohort_sha256": "aeea40f116f7bc3dd31eb97150df11b55fee6a06a534d170a743a88b996978a9",
+  "study_window": {
+    "start": "2025-11-01",
+    "end": "2026-11-21"
+  },
+  "audit_directory": "evaluation/cohort-source-audit",
+  "audit_sha256": {
+    "careers-discovery.json": "0df034d53b21344171b4fb375c51f9bf5e04a2a1ad7f642fd25d489ec3d09061",
+    "board-audit.json": "633a97cb4955f49840d8dbe00b6aeb74e70523e4f73176ebbf923482ef8456de"
+  },
+  "record_count": 393,
+  "output_sha256": {
+    "records.jsonl": "233b034a45a008f03ab72c108660fee6308645b63a9c1539ad396661caf15543",
+    "signals/coverage.json": "622df5b8e6d4c508e786fc69616e206a508bfa0bd480ab8fecaa1454a4eb89c3",
+    "signals/series.json": "65e08592e1892090877e55ffe1a9c3ba54bb7bd1f80286f521d7408d3d524926",
+    "signals/trend_signals.jsonl": "7eed4372547769f1294447f7c58e076c7c9ef92863a9c0a97aae02153fc3e5d8"
+  },
+  "limits": [
+    "A missing board mapping/capture means unknown coverage, not zero postings.",
+    "Parent-company boards are not attributed wholesale to a cohort subsidiary.",
+    "Publication dates do not establish historical listing stock or completed hires.",
+    "Two captured observations do not establish a weekly hiring trajectory.",
+    "Official board-link discovery is separate from career-page or corporate-identity verification."
+  ]
+}

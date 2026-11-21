@@ -1,0 +1,106 @@
+[
+  {
+    "company_id": "llamaindex",
+    "requested_url": "https://web.archive.org/web/20260921044200id_/https://www.llamaindex.ai/careers",
+    "timestamp": "20260921044200",
+    "original_url": "https://www.llamaindex.ai/careers",
+    "observed_at": "2026-11-21T09:59:29.407115+00:00",
+    "http_status": 200,
+    "response_url": "https://web.archive.org/web/20260921044200id_/https://www.llamaindex.ai/careers",
+    "file": "sources/llamaindex-20260921044200.html",
+    "sha256": "71db1c90911abcdafde067e978e727a12da2b052a699477abab26ce25b900b27",
+    "memento_datetime": "Mon, 21 Sep 2026 04:42:00 GMT",
+    "capture_verified": true,
+    "snapshot_at": "2026-09-21T04:42:00Z"
+  },
+  {
+    "company_id": "llamaindex",
+    "requested_url": "https://web.archive.org/web/20261001162204id_/https://www.llamaindex.ai/careers",
+    "timestamp": "20261001162204",
+    "original_url": "https://www.llamaindex.ai/careers",
+    "observed_at": "2026-11-21T09:59:29.407522+00:00",
+    "http_status": 200,
+    "response_url": "https://web.archive.org/web/20261001162204id_/https://www.llamaindex.ai/careers",
+    "file": "sources/llamaindex-20261001162204.html",
+    "sha256": "0e6a392551eae814e2304456a08d96c0009c70b2c345761888f203228f453aad",
+    "memento_datetime": "Thu, 01 Oct 2026 16:22:04 GMT",
+    "capture_verified": true,
+    "snapshot_at": "2026-10-01T16:22:04Z"
+  },
+  {
+    "company_id": "crewai",
+    "requested_url": "https://web.archive.org/web/20260928193610id_/https://apply.workable.com/crewai/",
+    "timestamp": "20260928193610",
+    "original_url": "https://apply.workable.com/crewai/",
+    "observed_at": "2026-11-21T09:59:29.407656+00:00",
+    "http_status": 200,
+    "response_url": "https://web.archive.org/web/20260928193610id_/https://apply.workable.com/crewai/",
+    "file": "sources/crewai-20260928193610.html",
+    "sha256": "beaf6a00d608619d76e8b422389f514d6e512057c1fb96dd30916ec52b202f09",
+    "memento_datetime": "Mon, 28 Sep 2026 19:36:10 GMT",
+    "capture_verified": true,
+    "snapshot_at": "2026-09-28T19:36:10Z"
+  },
+  {
+    "company_id": "crewai",
+    "requested_url": "https://web.archive.org/web/20261016004928id_/https://apply.workable.com/crewai",
+    "timestamp": "20261016004928",
+    "original_url": "https://apply.workable.com/crewai",
+    "observed_at": "2026-11-21T09:59:29.407746+00:00",
+    "http_status": 200,
+    "response_url": "https://web.archive.org/web/20261016004928id_/https://apply.workable.com/crewai",
+    "file": "sources/crewai-20261016004928.html",
+    "sha256": "723825413fa27706e911a2f9ceffcde168f322d3980a5fc8db5a6431469b737b",
+    "memento_datetime": "Fri, 16 Oct 2026 00:49:28 GMT",
+    "capture_verified": true,
+    "snapshot_at": "2026-10-16T00:49:28Z"
+  },
+  {
+    "company_id": "weaviate",
+    "requested_url": "https://web.archive.org/web/20261003090543id_/https://weaviate.io/company/careers",
+    "timestamp": "20261003090543",
+    "original_url": "https://weaviate.io/company/careers",
+    "observed_at": "2026-11-21T09:59:29.407843+00:00",
+    "error": "ConnectionError"
+  },
+  {
+    "company_id": "weaviate",
+    "requested_url": "https://web.archive.org/web/20261104073426id_/https://weaviate.io/company/careers",
+    "timestamp": "20261104073426",
+    "original_url": "https://weaviate.io/company/careers",
+    "observed_at": "2026-11-21T09:59:29.464075+00:00",
+    "error": "ConnectionError"
+  },
+  {
+    "company_id": "chroma",
+    "requested_url": "https://web.archive.org/web/20261003182939id_/https://www.trychroma.com/careers",
+    "timestamp": "20261003182939",
+    "original_url": "https://www.trychroma.com/careers",
+    "observed_at": "2026-11-21T09:59:29.513619+00:00",
+    "error": "ConnectionError"
+  },
+  {
+    "company_id": "chroma",
+    "requested_url": "https://web.archive.org/web/20261102064608id_/https://www.trychroma.com/careers",
+    "timestamp": "20261102064608",
+    "original_url": "https://www.trychroma.com/careers",
+    "observed_at": "2026-11-21T09:59:29.566159+00:00",
+    "error": "ConnectionError"
+  },
+  {
+    "company_id": "arize",
+    "requested_url": "https://web.archive.org/web/20261002062017id_/https://arize.com/careers/",
+    "timestamp": "20261002062017",
+    "original_url": "https://arize.com/careers/",
+    "observed_at": "2026-11-21T09:59:29.603608+00:00",
+    "error": "ConnectionError"
+  },
+  {
+    "company_id": "arize",
+    "requested_url": "https://web.archive.org/web/20261102145217id_/https://arize.com/careers/",
+    "timestamp": "20261102145217",
+    "original_url": "https://arize.com/careers/",
+    "observed_at": "2026-11-21T09:59:29.653361+00:00",
+    "error": "ConnectionError"
+  }
+]

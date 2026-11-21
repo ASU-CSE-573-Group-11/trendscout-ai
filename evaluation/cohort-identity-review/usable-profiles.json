@@ -1,0 +1,210 @@
+{
+  "scope": "Current usable YC identity evidence; does not change cohort membership or earlier frozen assertions.",
+  "cohort_sha256": "58c541d499cdd480d1b7c40a2915cef032a3f8aaa816dac4e2e86b57d821fe47",
+  "companies": [
+    {
+      "company_id": "langchain",
+      "name": "LangChain",
+      "official_domain": "langchain.com",
+      "frozen_registry_yc_url": "https://www.ycombinator.com/companies/langchain",
+      "usable_yc_url": null,
+      "disposition": "unavailable_or_unverified_profile",
+      "observed_at": "2026-11-21T09:37:45Z",
+      "source_sha256": "2498fa237a2867b91efa317b2eddc9018ef943542843dbd976762d2e3e57fac4",
+      "reason": "profile_not_found"
+    },
+    {
+      "company_id": "llamaindex",
+      "name": "LlamaIndex",
+      "official_domain": "llamaindex.ai",
+      "frozen_registry_yc_url": "https://www.ycombinator.com/companies/llamaindex",
+      "usable_yc_url": null,
+      "disposition": "unavailable_or_unverified_profile",
+      "observed_at": "2026-11-21T09:37:45Z",
+      "source_sha256": "2498fa237a2867b91efa317b2eddc9018ef943542843dbd976762d2e3e57fac4",
+      "reason": "profile_not_found"
+    },
+    {
+      "company_id": "crewai",
+      "name": "CrewAI",
+      "official_domain": "crewai.com",
+      "frozen_registry_yc_url": null,
+      "usable_yc_url": null,
+      "disposition": "no_membership_assertion",
+      "observed_at": "2026-11-21T09:37:46Z",
+      "source_sha256": null,
+      "reason": "no_yc_assertion_configured"
+    },
+    {
+      "company_id": "e2b",
+      "name": "E2B",
+      "official_domain": "e2b.dev",
+      "frozen_registry_yc_url": "https://www.ycombinator.com/companies/e2b",
+      "usable_yc_url": null,
+      "disposition": "unavailable_or_unverified_profile",
+      "observed_at": "2026-11-21T09:37:46Z",
+      "source_sha256": "2498fa237a2867b91efa317b2eddc9018ef943542843dbd976762d2e3e57fac4",
+      "reason": "profile_not_found"
+    },
+    {
+      "company_id": "browserbase",
+      "name": "Browserbase",
+      "official_domain": "browserbase.com",
+      "frozen_registry_yc_url": "https://www.ycombinator.com/companies/browserbase",
+      "usable_yc_url": null,
+      "disposition": "unavailable_or_unverified_profile",
+      "observed_at": "2026-11-21T09:37:46Z",
+      "source_sha256": "2498fa237a2867b91efa317b2eddc9018ef943542843dbd976762d2e3e57fac4",
+      "reason": "profile_not_found"
+    },
+    {
+      "company_id": "composio",
+      "name": "Composio",
+      "official_domain": "composio.dev",
+      "frozen_registry_yc_url": "https://www.ycombinator.com/companies/composio",
+      "usable_yc_url": null,
+      "disposition": "unavailable_or_unverified_profile",
+      "observed_at": "2026-11-21T09:37:46Z",
+      "source_sha256": "2498fa237a2867b91efa317b2eddc9018ef943542843dbd976762d2e3e57fac4",
+      "reason": "profile_not_found"
+    },
+    {
+      "company_id": "letta",
+      "name": "Letta",
+      "official_domain": "letta.com",
+      "frozen_registry_yc_url": "https://www.ycombinator.com/companies/letta",
+      "usable_yc_url": null,
+      "disposition": "unavailable_or_unverified_profile",
+      "observed_at": "2026-11-21T09:37:47Z",
+      "source_sha256": "2498fa237a2867b91efa317b2eddc9018ef943542843dbd976762d2e3e57fac4",
+      "reason": "profile_not_found"
+    },
+    {
+      "company_id": "langfuse",
+      "name": "Langfuse",
+      "official_domain": "langfuse.com",
+      "frozen_registry_yc_url": "https://www.ycombinator.com/companies/langfuse",
+      "usable_yc_url": "https://www.ycombinator.com/companies/langfuse",
+      "disposition": "use_current_profile",
+      "observed_at": "2026-11-21T09:37:47Z",
+      "source_sha256": "bfef189ac8e41693c6a620a2905dbe40c085800a0e35b39de482e4f936bda367",
+      "reason": "current_profile_supported"
+    },
+    {
+      "company_id": "deepset",
+      "name": "deepset",
+      "official_domain": "deepset.ai",
+      "frozen_registry_yc_url": null,
+      "usable_yc_url": null,
+      "disposition": "no_membership_assertion",
+      "observed_at": "2026-11-21T09:37:47Z",
+      "source_sha256": null,
+      "reason": "no_yc_assertion_configured"
+    },
+    {
+      "company_id": "continue",
+      "name": "Continue",
+      "official_domain": "continue.dev",
+      "frozen_registry_yc_url": "https://www.ycombinator.com/companies/continue",
+      "usable_yc_url": "https://www.ycombinator.com/companies/continue",
+      "disposition": "use_current_profile",
+      "observed_at": "2026-11-21T09:37:47Z",
+      "source_sha256": "f5fbf16f2b73316b34d4d1164badab294624634437f10b5713147edf80929093",
+      "reason": "current_profile_supported"
+    },
+    {
+      "company_id": "sourcegraph",
+      "name": "Sourcegraph",
+      "official_domain": "sourcegraph.com",
+      "frozen_registry_yc_url": null,
+      "usable_yc_url": null,
+      "disposition": "no_membership_assertion",
+      "observed_at": "2026-11-21T09:37:47Z",
+      "source_sha256": null,
+      "reason": "no_yc_assertion_configured"
+    },
+    {
+      "company_id": "modal",
+      "name": "Modal",
+      "official_domain": "modal.com",
+      "frozen_registry_yc_url": "https://www.ycombinator.com/companies/modal",
+      "usable_yc_url": null,
+      "disposition": "exclude_mismatched_profile",
+      "observed_at": "2026-11-21T09:37:47Z",
+      "source_sha256": "3eef20a2164edac8df458e33e717d9d315e6da09a4ef097c0395f75264c5fa1c",
+      "reason": "The fetched YC profile describes an auto-commerce company formerly Drive Motors and refers to modalup.com. The frozen cohort Modal is the serverless AI compute company at modal.com. This directory profile is not identity evidence for that cohort company."
+    },
+    {
+      "company_id": "replicate",
+      "name": "Replicate",
+      "official_domain": "replicate.com",
+      "frozen_registry_yc_url": "https://www.ycombinator.com/companies/replicate",
+      "usable_yc_url": "https://www.ycombinator.com/companies/replicate",
+      "disposition": "use_current_profile",
+      "observed_at": "2026-11-21T09:37:47Z",
+      "source_sha256": "93f8ee0e87fa432e92640586c050df9f385fb382c683b985f14a346d423618dc",
+      "reason": "current_profile_supported"
+    },
+    {
+      "company_id": "wandb",
+      "name": "Weights & Biases",
+      "official_domain": "wandb.ai",
+      "frozen_registry_yc_url": null,
+      "usable_yc_url": null,
+      "disposition": "no_membership_assertion",
+      "observed_at": "2026-11-21T09:37:48Z",
+      "source_sha256": null,
+      "reason": "no_yc_assertion_configured"
+    },
+    {
+      "company_id": "pinecone",
+      "name": "Pinecone",
+      "official_domain": "pinecone.io",
+      "frozen_registry_yc_url": null,
+      "usable_yc_url": null,
+      "disposition": "no_membership_assertion",
+      "observed_at": "2026-11-21T09:37:48Z",
+      "source_sha256": null,
+      "reason": "no_yc_assertion_configured"
+    },
+    {
+      "company_id": "weaviate",
+      "name": "Weaviate",
+      "official_domain": "weaviate.io",
+      "frozen_registry_yc_url": null,
+      "usable_yc_url": null,
+      "disposition": "no_membership_assertion",
+      "observed_at": "2026-11-21T09:37:48Z",
+      "source_sha256": null,
+      "reason": "no_yc_assertion_configured"
+    },
+    {
+      "company_id": "chroma",
+      "name": "Chroma",
+      "official_domain": "trychroma.com",
+      "frozen_registry_yc_url": "https://www.ycombinator.com/companies/chroma",
+      "usable_yc_url": null,
+      "disposition": "unavailable_or_unverified_profile",
+      "observed_at": "2026-11-21T09:37:48Z",
+      "source_sha256": "2498fa237a2867b91efa317b2eddc9018ef943542843dbd976762d2e3e57fac4",
+      "reason": "profile_not_found"
+    },
+    {
+      "company_id": "arize",
+      "name": "Arize",
+      "official_domain": "arize.com",
+      "frozen_registry_yc_url": null,
+      "usable_yc_url": null,
+      "disposition": "no_membership_assertion",
+      "observed_at": "2026-11-21T09:37:48Z",
+      "source_sha256": null,
+      "reason": "no_yc_assertion_configured"
+    }
+  ],
+  "counts": {
+    "unavailable_or_unverified_profile": 7,
+    "no_membership_assertion": 7,
+    "use_current_profile": 3,
+    "exclude_mismatched_profile": 1
+  }
+}

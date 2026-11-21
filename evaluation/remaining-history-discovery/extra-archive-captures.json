@@ -1,0 +1,54 @@
+[
+  {
+    "source_id": "langfuse-parent-board",
+    "timestamp": "20260730113856",
+    "original_url": "https://jobs.ashbyhq.com/clickhouse",
+    "observed_at": "2026-11-21T11:48:42.123873+00:00",
+    "http_status": 200,
+    "response_url": "https://web.archive.org/web/20260730113856id_/https://jobs.ashbyhq.com/clickhouse",
+    "file": "sources/langfuse-parent-board-20260730113856.html",
+    "sha256": "4aafe1e2ec8e3d49699946a4541567f2084536b4112f4d14e878260786b4d01c",
+    "memento_datetime": "Thu, 30 Jul 2026 11:38:56 GMT",
+    "capture_verified": true,
+    "snapshot_at": "2026-07-30T11:38:56Z"
+  },
+  {
+    "source_id": "langfuse-parent-board",
+    "timestamp": "20261017125202",
+    "original_url": "https://jobs.ashbyhq.com/clickhouse",
+    "observed_at": "2026-11-21T11:48:42.124178+00:00",
+    "http_status": 200,
+    "response_url": "https://web.archive.org/web/20261017125202id_/https://jobs.ashbyhq.com/clickhouse",
+    "file": "sources/langfuse-parent-board-20261017125202.html",
+    "sha256": "cc5bfa897ec4e561782ac95bdb53aba7f823608fd4006610177dd16a52884a09",
+    "memento_datetime": "Sat, 17 Oct 2026 12:52:02 GMT",
+    "capture_verified": true,
+    "snapshot_at": "2026-10-17T12:52:02Z"
+  },
+  {
+    "source_id": "crewai-individual-role",
+    "timestamp": "20260715044625",
+    "original_url": "https://apply.workable.com/crewai/j/3862836931/",
+    "observed_at": "2026-11-21T11:48:42.124272+00:00",
+    "http_status": 200,
+    "response_url": "https://web.archive.org/web/20260715044625id_/https://apply.workable.com/crewai/j/3862836931/",
+    "file": "sources/crewai-individual-role-20260715044625.html",
+    "sha256": "52fdb7ba7f7289b769c698fc51edcd41de59e0f5e1f574585e19efd2dd98b8d7",
+    "memento_datetime": "Wed, 15 Jul 2026 04:46:25 GMT",
+    "capture_verified": true,
+    "snapshot_at": "2026-07-15T04:46:25Z"
+  },
+  {
+    "source_id": "crewai-individual-role",
+    "timestamp": "20260928193610",
+    "original_url": "https://apply.workable.com/crewai/j/201DADAE3F/",
+    "observed_at": "2026-11-21T11:48:42.124379+00:00",
+    "http_status": 200,
+    "response_url": "https://web.archive.org/web/20260928193610id_/https://apply.workable.com/crewai/j/201DADAE3F/",
+    "file": "sources/crewai-individual-role-20260928193610.html",
+    "sha256": "e0f62f74bfd17f47475df5bb4ef8fa7bc077012fbabe9060e88f42614455a18b",
+    "memento_datetime": "Mon, 28 Sep 2026 19:36:10 GMT",
+    "capture_verified": true,
+    "snapshot_at": "2026-09-28T19:36:10Z"
+  }
+]

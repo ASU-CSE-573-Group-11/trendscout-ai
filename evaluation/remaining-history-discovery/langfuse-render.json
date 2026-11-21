@@ -1,0 +1,11 @@
+{
+  "source_id": "langfuse-parent-render",
+  "url": "https://clickhouse.com/company/careers?search=langfuse",
+  "observed_at": "2026-11-21T11:45:51.281262+00:00",
+  "file": "sources/langfuse-parent-rendered.html",
+  "sha256": "334a2ac2a1d2f6bd34292ef6973954205d0e24b87465103093a143681228ebdd",
+  "response_url": "https://clickhouse.com/company/careers?search=langfuse",
+  "job_data_urls": [
+    "https://api.ashbyhq.com/posting-api/job-board/clickhouse"
+  ]
+}

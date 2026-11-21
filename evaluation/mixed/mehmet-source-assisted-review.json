@@ -1,0 +1,10 @@
+{
+  "reviewer": "Mehmet Aksit",
+  "round": "mixed",
+  "source_assisted_entities": 276,
+  "source_assisted_relations": 108,
+  "accepted_entities": 118,
+  "accepted_relations": 33,
+  "independent_human_attestation": false,
+  "kappa_eligible": false
+}

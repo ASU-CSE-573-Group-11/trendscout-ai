@@ -1,0 +1,2991 @@
+{
+  "status": "scored",
+  "ranking_unit": "Raw retriever top-5, distinct documentary origins",
+  "snapshot_sha256": "587d3128ef445f1b17d6ac711be64f5491679e41494ac0506114b1cf53b40d30",
+  "questions_sha256": "074714a2e99eeedda910cd986925a2aa2414e84b78d1e5e51f7fef2feb00efd4",
+  "qrels_sha256": "58a2e01670f4506d6ddbd1edfcbf062ab84a8b059c56d5fe3f37477ff85fa667",
+  "judged_by": "Source review",
+  "human_adjudicated": false,
+  "encoder": "hashing",
+  "conditions": [
+    {
+      "condition": "bm25",
+      "questions": 28,
+      "questions_with_positive_documents": 28,
+      "precision_at_5": 0.192857,
+      "recall_at_5": 0.964286,
+      "mrr_at_5": 0.882143,
+      "ndcg_at_5": 0.902844,
+      "per_question": [
+        {
+          "question_id": "release-01",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "5274d70d-8f3f-5c60-9d2a-3e3384f85e53",
+              "score": 0.01639344262295082
+            },
+            {
+              "rank": 2,
+              "record_id": "359a37d1-8e4d-577c-b970-6ce59f8e9b0a",
+              "score": 0.016129032258064516
+            },
+            {
+              "rank": 3,
+              "record_id": "10cffd6e-20f7-5519-9263-25508f533184",
+              "score": 0.015873015873015872
+            },
+            {
+              "rank": 4,
+              "record_id": "c6bceff4-e88c-5177-b658-729e66180a0f",
+              "score": 0.015625
+            },
+            {
+              "rank": 5,
+              "record_id": "8ceab846-104a-5282-b9ef-1e9fa75731bf",
+              "score": 0.015384615384615385
+            }
+          ],
+          "positive_documents": 1,
+          "precision_at_5": 0.2,
+          "recall_at_5": 1.0,
+          "reciprocal_rank_at_5": 1.0,
+          "ndcg_at_5": 1.0
+        },
+        {
+          "question_id": "release-02",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "d6b497d9-e44a-5161-96e9-9bb5503a7827",
+              "score": 0.01639344262295082
+            },
+            {
+              "rank": 2,
+              "record_id": "68af97eb-0abe-5d6c-b6dc-6a561d82f90a",
+              "score": 0.016129032258064516
+            },
+            {
+              "rank": 3,
+              "record_id": "10cffd6e-20f7-5519-9263-25508f533184",
+              "score": 0.015873015873015872
+            },
+            {
+              "rank": 4,
+              "record_id": "98a53812-6211-5c81-b40e-b1c7fa7f34a3",
+              "score": 0.015625
+            },
+            {
+              "rank": 5,
+              "record_id": "9672dbbf-6dd0-50d0-9049-dfda78d2e1de",
+              "score": 0.015384615384615385
+            }
+          ],
+          "positive_documents": 1,
+          "precision_at_5": 0.2,
+          "recall_at_5": 1.0,
+          "reciprocal_rank_at_5": 1.0,
+          "ndcg_at_5": 1.0
+        },
+        {
+          "question_id": "release-03",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "0e4644f4-1116-5218-80e4-86a44e1e4b34",
+              "score": 0.01639344262295082
+            },
+            {
+              "rank": 2,
+              "record_id": "67f2f085-5b62-590c-820a-711aa625c0f1",
+              "score": 0.016129032258064516
+            },
+            {
+              "rank": 3,
+              "record_id": "68af97eb-0abe-5d6c-b6dc-6a561d82f90a",
+              "score": 0.015873015873015872
+            },
+            {
+              "rank": 4,
+              "record_id": "c6bceff4-e88c-5177-b658-729e66180a0f",
+              "score": 0.015625
+            },
+            {
+              "rank": 5,
+              "record_id": "9672dbbf-6dd0-50d0-9049-dfda78d2e1de",
+              "score": 0.015384615384615385
+            }
+          ],
+          "positive_documents": 1,
+          "precision_at_5": 0.2,
+          "recall_at_5": 1.0,
+          "reciprocal_rank_at_5": 1.0,
+          "ndcg_at_5": 1.0
+        },
+        {
+          "question_id": "release-04",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "8ceab846-104a-5282-b9ef-1e9fa75731bf",
+              "score": 0.01639344262295082
+            },
+            {
+              "rank": 2,
+              "record_id": "2d7dbc2f-d371-5219-9719-abf91bca8979",
+              "score": 0.016129032258064516
+            },
+            {
+              "rank": 3,
+              "record_id": "069611a3-38bc-5c01-aeb3-0b1b2e0fde76",
+              "score": 0.015873015873015872
+            },
+            {
+              "rank": 4,
+              "record_id": "c6bceff4-e88c-5177-b658-729e66180a0f",
+              "score": 0.015625
+            },
+            {
+              "rank": 5,
+              "record_id": "06472cb8-466e-55fe-a85a-f421fe1d9706",
+              "score": 0.015384615384615385
+            }
+          ],
+          "positive_documents": 1,
+          "precision_at_5": 0.2,
+          "recall_at_5": 1.0,
+          "reciprocal_rank_at_5": 0.5,
+          "ndcg_at_5": 0.6309297535714574
+        },
+        {
+          "question_id": "release-05",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "1186bdde-ddac-5532-808c-861449b09a72",
+              "score": 0.01639344262295082
+            },
+            {
+              "rank": 2,
+              "record_id": "10cffd6e-20f7-5519-9263-25508f533184",
+              "score": 0.016129032258064516
+            },
+            {
+              "rank": 3,
+              "record_id": "9672dbbf-6dd0-50d0-9049-dfda78d2e1de",
+              "score": 0.015873015873015872
+            },
+            {
+              "rank": 4,
+              "record_id": "0c11509e-28a4-5b8d-8bd4-842c5907f911",
+              "score": 0.015625
+            },
+            {
+              "rank": 5,
+              "record_id": "8ceab846-104a-5282-b9ef-1e9fa75731bf",
+              "score": 0.015384615384615385
+            }
+          ],
+          "positive_documents": 1,
+          "precision_at_5": 0.2,
+          "recall_at_5": 1.0,
+          "reciprocal_rank_at_5": 1.0,
+          "ndcg_at_5": 1.0
+        },
+        {
+          "question_id": "release-06",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "31941a88-ab26-582c-838c-bee39145a9e7",
+              "score": 0.01639344262295082
+            },
+            {
+              "rank": 2,
+              "record_id": "cc8332cd-b213-5c30-abd4-313c438b8ad2",
+              "score": 0.016129032258064516
+            },
+            {
+              "rank": 3,
+              "record_id": "cf2b2aad-925a-5680-89b2-bf6b65d503c8",
+              "score": 0.015873015873015872
+            },
+            {
+              "rank": 4,
+              "record_id": "b51ec1c2-3d9e-5401-bc1c-f129b8257c50",
+              "score": 0.015625
+            },
+            {
+              "rank": 5,
+              "record_id": "67f2f085-5b62-590c-820a-711aa625c0f1",
+              "score": 0.015384615384615385
+            }
+          ],
+          "positive_documents": 1,
+          "precision_at_5": 0.2,
+          "recall_at_5": 1.0,
+          "reciprocal_rank_at_5": 1.0,
+          "ndcg_at_5": 1.0
+        },
+        {
+          "question_id": "release-07",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "8ceab846-104a-5282-b9ef-1e9fa75731bf",
+              "score": 0.01639344262295082
+            },
+            {
+              "rank": 2,
+              "record_id": "0c11509e-28a4-5b8d-8bd4-842c5907f911",
+              "score": 0.016129032258064516
+            },
+            {
+              "rank": 3,
+              "record_id": "6f2b2117-f389-5e97-ad69-49d54d3ef435",
+              "score": 0.015873015873015872
+            },
+            {
+              "rank": 4,
+              "record_id": "5d8203fd-9f9e-5fdb-8544-9af83cc9ee5f",
+              "score": 0.015625
+            },
+            {
+              "rank": 5,
+              "record_id": "2e151bf6-be06-5902-9cf5-578baf90e40c",
+              "score": 0.015384615384615385
+            }
+          ],
+          "positive_documents": 1,
+          "precision_at_5": 0.2,
+          "recall_at_5": 1.0,
+          "reciprocal_rank_at_5": 0.5,
+          "ndcg_at_5": 0.6309297535714574
+        },
+        {
+          "question_id": "release-08",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "cc8332cd-b213-5c30-abd4-313c438b8ad2",
+              "score": 0.01639344262295082
+            },
+            {
+              "rank": 2,
+              "record_id": "0c11509e-28a4-5b8d-8bd4-842c5907f911",
+              "score": 0.016129032258064516
+            },
+            {
+              "rank": 3,
+              "record_id": "67f2f085-5b62-590c-820a-711aa625c0f1",
+              "score": 0.015873015873015872
+            },
+            {
+              "rank": 4,
+              "record_id": "68af97eb-0abe-5d6c-b6dc-6a561d82f90a",
+              "score": 0.015625
+            },
+            {
+              "rank": 5,
+              "record_id": "5d8203fd-9f9e-5fdb-8544-9af83cc9ee5f",
+              "score": 0.015384615384615385
+            }
+          ],
+          "positive_documents": 1,
+          "precision_at_5": 0.2,
+          "recall_at_5": 1.0,
+          "reciprocal_rank_at_5": 1.0,
+          "ndcg_at_5": 1.0
+        },
+        {
+          "question_id": "release-09",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "9cb7f091-5692-57c6-8bec-baa4198eb810",
+              "score": 0.01639344262295082
+            },
+            {
+              "rank": 2,
+              "record_id": "c6bceff4-e88c-5177-b658-729e66180a0f",
+              "score": 0.016129032258064516
+            },
+            {
+              "rank": 3,
+              "record_id": "a3916713-c8c1-53fe-96aa-bae219e1d05a",
+              "score": 0.015873015873015872
+            },
+            {
+              "rank": 4,
+              "record_id": "8ceab846-104a-5282-b9ef-1e9fa75731bf",
+              "score": 0.015625
+            },
+            {
+              "rank": 5,
+              "record_id": "359a37d1-8e4d-577c-b970-6ce59f8e9b0a",
+              "score": 0.015384615384615385
+            }
+          ],
+          "positive_documents": 1,
+          "precision_at_5": 0.2,
+          "recall_at_5": 1.0,
+          "reciprocal_rank_at_5": 1.0,
+          "ndcg_at_5": 1.0
+        },
+        {
+          "question_id": "release-10",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "359a37d1-8e4d-577c-b970-6ce59f8e9b0a",
+              "score": 0.01639344262295082
+            },
+            {
+              "rank": 2,
+              "record_id": "5274d70d-8f3f-5c60-9d2a-3e3384f85e53",
+              "score": 0.016129032258064516
+            },
+            {
+              "rank": 3,
+              "record_id": "10cffd6e-20f7-5519-9263-25508f533184",
+              "score": 0.015873015873015872
+            },
+            {
+              "rank": 4,
+              "record_id": "c6bceff4-e88c-5177-b658-729e66180a0f",
+              "score": 0.015625
+            },
+            {
+              "rank": 5,
+              "record_id": "6f2b2117-f389-5e97-ad69-49d54d3ef435",
+              "score": 0.015384615384615385
+            }
+          ],
+          "positive_documents": 1,
+          "precision_at_5": 0.2,
+          "recall_at_5": 1.0,
+          "reciprocal_rank_at_5": 1.0,
+          "ndcg_at_5": 1.0
+        },
+        {
+          "question_id": "release-11",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "10cffd6e-20f7-5519-9263-25508f533184",
+              "score": 0.01639344262295082
+            },
+            {
+              "rank": 2,
+              "record_id": "069611a3-38bc-5c01-aeb3-0b1b2e0fde76",
+              "score": 0.016129032258064516
+            },
+            {
+              "rank": 3,
+              "record_id": "a3916713-c8c1-53fe-96aa-bae219e1d05a",
+              "score": 0.015873015873015872
+            },
+            {
+              "rank": 4,
+              "record_id": "68eaa344-0169-5ea2-a823-9e615fa65b55",
+              "score": 0.015625
+            },
+            {
+              "rank": 5,
+              "record_id": "6ccae4f9-2162-5db7-b978-21e9b36546ba",
+              "score": 0.015384615384615385
+            }
+          ],
+          "positive_documents": 1,
+          "precision_at_5": 0.2,
+          "recall_at_5": 1.0,
+          "reciprocal_rank_at_5": 1.0,
+          "ndcg_at_5": 1.0
+        },
+        {
+          "question_id": "release-12",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "10cffd6e-20f7-5519-9263-25508f533184",
+              "score": 0.01639344262295082
+            },
+            {
+              "rank": 2,
+              "record_id": "68eaa344-0169-5ea2-a823-9e615fa65b55",
+              "score": 0.016129032258064516
+            },
+            {
+              "rank": 3,
+              "record_id": "9672dbbf-6dd0-50d0-9049-dfda78d2e1de",
+              "score": 0.015873015873015872
+            },
+            {
+              "rank": 4,
+              "record_id": "8ceab846-104a-5282-b9ef-1e9fa75731bf",
+              "score": 0.015625
+            },
+            {
+              "rank": 5,
+              "record_id": "22bb8ed5-a41a-577c-8c5a-bfc389927a71",
+              "score": 0.015384615384615385
+            }
+          ],
+          "positive_documents": 1,
+          "precision_at_5": 0.2,
+          "recall_at_5": 1.0,
+          "reciprocal_rank_at_5": 0.2,
+          "ndcg_at_5": 0.38685280723454163
+        },
+        {
+          "question_id": "release-13",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "68eaa344-0169-5ea2-a823-9e615fa65b55",
+              "score": 0.01639344262295082
+            },
+            {
+              "rank": 2,
+              "record_id": "ca3ae103-51b3-5fe9-9112-271277458093",
+              "score": 0.016129032258064516
+            },
+            {
+              "rank": 3,
+              "record_id": "68af97eb-0abe-5d6c-b6dc-6a561d82f90a",
+              "score": 0.015873015873015872
+            },
+            {
+              "rank": 4,
+              "record_id": "9cb7f091-5692-57c6-8bec-baa4198eb810",
+              "score": 0.015625
+            },
+            {
+              "rank": 5,
+              "record_id": "10cffd6e-20f7-5519-9263-25508f533184",
+              "score": 0.015384615384615385
+            }
+          ],
+          "positive_documents": 1,
+          "precision_at_5": 0.2,
+          "recall_at_5": 1.0,
+          "reciprocal_rank_at_5": 0.5,
+          "ndcg_at_5": 0.6309297535714574
+        },
+        {
+          "question_id": "release-14",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "c6bceff4-e88c-5177-b658-729e66180a0f",
+              "score": 0.01639344262295082
+            },
+            {
+              "rank": 2,
+              "record_id": "9f8061b3-ab1b-5db0-a99c-b61041b121f9",
+              "score": 0.016129032258064516
+            },
+            {
+              "rank": 3,
+              "record_id": "9672dbbf-6dd0-50d0-9049-dfda78d2e1de",
+              "score": 0.015873015873015872
+            },
+            {
+              "rank": 4,
+              "record_id": "68eaa344-0169-5ea2-a823-9e615fa65b55",
+              "score": 0.015625
+            },
+            {
+              "rank": 5,
+              "record_id": "6f2b2117-f389-5e97-ad69-49d54d3ef435",
+              "score": 0.015384615384615385
+            }
+          ],
+          "positive_documents": 1,
+          "precision_at_5": 0.0,
+          "recall_at_5": 0.0,
+          "reciprocal_rank_at_5": 0.0,
+          "ndcg_at_5": 0.0
+        },
+        {
+          "question_id": "release-15",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "6f2b2117-f389-5e97-ad69-49d54d3ef435",
+              "score": 0.01639344262295082
+            },
+            {
+              "rank": 2,
+              "record_id": "8ceab846-104a-5282-b9ef-1e9fa75731bf",
+              "score": 0.016129032258064516
+            },
+            {
+              "rank": 3,
+              "record_id": "68eaa344-0169-5ea2-a823-9e615fa65b55",
+              "score": 0.015873015873015872
+            },
+            {
+              "rank": 4,
+              "record_id": "e60671f0-2b73-528c-aa88-1cc5440a916d",
+              "score": 0.015625
+            },
+            {
+              "rank": 5,
+              "record_id": "10cffd6e-20f7-5519-9263-25508f533184",
+              "score": 0.015384615384615385
+            }
+          ],
+          "positive_documents": 1,
+          "precision_at_5": 0.2,
+          "recall_at_5": 1.0,
+          "reciprocal_rank_at_5": 1.0,
+          "ndcg_at_5": 1.0
+        },
+        {
+          "question_id": "release-16",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "68eaa344-0169-5ea2-a823-9e615fa65b55",
+              "score": 0.01639344262295082
+            },
+            {
+              "rank": 2,
+              "record_id": "9f8061b3-ab1b-5db0-a99c-b61041b121f9",
+              "score": 0.016129032258064516
+            },
+            {
+              "rank": 3,
+              "record_id": "e60671f0-2b73-528c-aa88-1cc5440a916d",
+              "score": 0.015873015873015872
+            },
+            {
+              "rank": 4,
+              "record_id": "cf2b2aad-925a-5680-89b2-bf6b65d503c8",
+              "score": 0.015625
+            },
+            {
+              "rank": 5,
+              "record_id": "8ceab846-104a-5282-b9ef-1e9fa75731bf",
+              "score": 0.015384615384615385
+            }
+          ],
+          "positive_documents": 1,
+          "precision_at_5": 0.2,
+          "recall_at_5": 1.0,
+          "reciprocal_rank_at_5": 1.0,
+          "ndcg_at_5": 1.0
+        },
+        {
+          "question_id": "release-17",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "9672dbbf-6dd0-50d0-9049-dfda78d2e1de",
+              "score": 0.01639344262295082
+            },
+            {
+              "rank": 2,
+              "record_id": "8ceab846-104a-5282-b9ef-1e9fa75731bf",
+              "score": 0.016129032258064516
+            },
+            {
+              "rank": 3,
+              "record_id": "68eaa344-0169-5ea2-a823-9e615fa65b55",
+              "score": 0.015873015873015872
+            },
+            {
+              "rank": 4,
+              "record_id": "98a53812-6211-5c81-b40e-b1c7fa7f34a3",
+              "score": 0.015625
+            },
+            {
+              "rank": 5,
+              "record_id": "362249ee-276b-54ad-bc59-4deaf7a50780",
+              "score": 0.015384615384615385
+            }
+          ],
+          "positive_documents": 1,
+          "precision_at_5": 0.2,
+          "recall_at_5": 1.0,
+          "reciprocal_rank_at_5": 1.0,
+          "ndcg_at_5": 1.0
+        },
+        {
+          "question_id": "release-18",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "8ceab846-104a-5282-b9ef-1e9fa75731bf",
+              "score": 0.01639344262295082
+            },
+            {
+              "rank": 2,
+              "record_id": "68eaa344-0169-5ea2-a823-9e615fa65b55",
+              "score": 0.016129032258064516
+            },
+            {
+              "rank": 3,
+              "record_id": "9f8061b3-ab1b-5db0-a99c-b61041b121f9",
+              "score": 0.015873015873015872
+            },
+            {
+              "rank": 4,
+              "record_id": "362249ee-276b-54ad-bc59-4deaf7a50780",
+              "score": 0.015625
+            },
+            {
+              "rank": 5,
+              "record_id": "10cffd6e-20f7-5519-9263-25508f533184",
+              "score": 0.015384615384615385
+            }
+          ],
+          "positive_documents": 1,
+          "precision_at_5": 0.2,
+          "recall_at_5": 1.0,
+          "reciprocal_rank_at_5": 1.0,
+          "ndcg_at_5": 1.0
+        },
+        {
+          "question_id": "release-19",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "362249ee-276b-54ad-bc59-4deaf7a50780",
+              "score": 0.01639344262295082
+            },
+            {
+              "rank": 2,
+              "record_id": "8ceab846-104a-5282-b9ef-1e9fa75731bf",
+              "score": 0.016129032258064516
+            },
+            {
+              "rank": 3,
+              "record_id": "68eaa344-0169-5ea2-a823-9e615fa65b55",
+              "score": 0.015873015873015872
+            },
+            {
+              "rank": 4,
+              "record_id": "069611a3-38bc-5c01-aeb3-0b1b2e0fde76",
+              "score": 0.015625
+            },
+            {
+              "rank": 5,
+              "record_id": "9672dbbf-6dd0-50d0-9049-dfda78d2e1de",
+              "score": 0.015384615384615385
+            }
+          ],
+          "positive_documents": 1,
+          "precision_at_5": 0.2,
+          "recall_at_5": 1.0,
+          "reciprocal_rank_at_5": 1.0,
+          "ndcg_at_5": 1.0
+        },
+        {
+          "question_id": "release-20",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "87d4550d-3cf2-5b74-82e0-d77a8fe78507",
+              "score": 0.01639344262295082
+            },
+            {
+              "rank": 2,
+              "record_id": "06472cb8-466e-55fe-a85a-f421fe1d9706",
+              "score": 0.016129032258064516
+            },
+            {
+              "rank": 3,
+              "record_id": "ca3ae103-51b3-5fe9-9112-271277458093",
+              "score": 0.015873015873015872
+            },
+            {
+              "rank": 4,
+              "record_id": "f1f8b271-468a-55e6-a47c-40586a2164c2",
+              "score": 0.015625
+            },
+            {
+              "rank": 5,
+              "record_id": "68af97eb-0abe-5d6c-b6dc-6a561d82f90a",
+              "score": 0.015384615384615385
+            }
+          ],
+          "positive_documents": 1,
+          "precision_at_5": 0.2,
+          "recall_at_5": 1.0,
+          "reciprocal_rank_at_5": 1.0,
+          "ndcg_at_5": 1.0
+        },
+        {
+          "question_id": "release-21",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "eeb00e92-27aa-5c6b-9da9-408e2480b3cd",
+              "score": 0.01639344262295082
+            },
+            {
+              "rank": 2,
+              "record_id": "cf2b2aad-925a-5680-89b2-bf6b65d503c8",
+              "score": 0.016129032258064516
+            },
+            {
+              "rank": 3,
+              "record_id": "1c4c310c-0a70-559e-9f57-32cc804766dc",
+              "score": 0.015873015873015872
+            },
+            {
+              "rank": 4,
+              "record_id": "68eaa344-0169-5ea2-a823-9e615fa65b55",
+              "score": 0.015625
+            },
+            {
+              "rank": 5,
+              "record_id": "06472cb8-466e-55fe-a85a-f421fe1d9706",
+              "score": 0.015384615384615385
+            }
+          ],
+          "positive_documents": 1,
+          "precision_at_5": 0.2,
+          "recall_at_5": 1.0,
+          "reciprocal_rank_at_5": 1.0,
+          "ndcg_at_5": 1.0
+        },
+        {
+          "question_id": "release-22",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "c11aa0d5-6b5b-56d2-b742-f10d4b65d72d",
+              "score": 0.01639344262295082
+            },
+            {
+              "rank": 2,
+              "record_id": "b51ec1c2-3d9e-5401-bc1c-f129b8257c50",
+              "score": 0.016129032258064516
+            },
+            {
+              "rank": 3,
+              "record_id": "cf2b2aad-925a-5680-89b2-bf6b65d503c8",
+              "score": 0.015873015873015872
+            },
+            {
+              "rank": 4,
+              "record_id": "eeb00e92-27aa-5c6b-9da9-408e2480b3cd",
+              "score": 0.015625
+            },
+            {
+              "rank": 5,
+              "record_id": "e60671f0-2b73-528c-aa88-1cc5440a916d",
+              "score": 0.015384615384615385
+            }
+          ],
+          "positive_documents": 1,
+          "precision_at_5": 0.2,
+          "recall_at_5": 1.0,
+          "reciprocal_rank_at_5": 1.0,
+          "ndcg_at_5": 1.0
+        },
+        {
+          "question_id": "release-23",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "0237b72c-c6e8-572b-b9ed-787658d33906",
+              "score": 0.01639344262295082
+            },
+            {
+              "rank": 2,
+              "record_id": "9e1881d9-efdf-56cb-9b2f-c549f4700493",
+              "score": 0.016129032258064516
+            },
+            {
+              "rank": 3,
+              "record_id": "68af97eb-0abe-5d6c-b6dc-6a561d82f90a",
+              "score": 0.015873015873015872
+            },
+            {
+              "rank": 4,
+              "record_id": "87d4550d-3cf2-5b74-82e0-d77a8fe78507",
+              "score": 0.015625
+            },
+            {
+              "rank": 5,
+              "record_id": "f1f8b271-468a-55e6-a47c-40586a2164c2",
+              "score": 0.015384615384615385
+            }
+          ],
+          "positive_documents": 1,
+          "precision_at_5": 0.2,
+          "recall_at_5": 1.0,
+          "reciprocal_rank_at_5": 1.0,
+          "ndcg_at_5": 1.0
+        },
+        {
+          "question_id": "release-24",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "e60671f0-2b73-528c-aa88-1cc5440a916d",
+              "score": 0.01639344262295082
+            },
+            {
+              "rank": 2,
+              "record_id": "06472cb8-466e-55fe-a85a-f421fe1d9706",
+              "score": 0.016129032258064516
+            },
+            {
+              "rank": 3,
+              "record_id": "87d4550d-3cf2-5b74-82e0-d77a8fe78507",
+              "score": 0.015873015873015872
+            },
+            {
+              "rank": 4,
+              "record_id": "1e019eee-8a64-550c-8be9-909aa92dfecc",
+              "score": 0.015625
+            },
+            {
+              "rank": 5,
+              "record_id": "c11aa0d5-6b5b-56d2-b742-f10d4b65d72d",
+              "score": 0.015384615384615385
+            }
+          ],
+          "positive_documents": 1,
+          "precision_at_5": 0.2,
+          "recall_at_5": 1.0,
+          "reciprocal_rank_at_5": 1.0,
+          "ndcg_at_5": 1.0
+        },
+        {
+          "question_id": "release-25",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "cf2b2aad-925a-5680-89b2-bf6b65d503c8",
+              "score": 0.01639344262295082
+            },
+            {
+              "rank": 2,
+              "record_id": "06472cb8-466e-55fe-a85a-f421fe1d9706",
+              "score": 0.016129032258064516
+            },
+            {
+              "rank": 3,
+              "record_id": "98a53812-6211-5c81-b40e-b1c7fa7f34a3",
+              "score": 0.015873015873015872
+            },
+            {
+              "rank": 4,
+              "record_id": "c11aa0d5-6b5b-56d2-b742-f10d4b65d72d",
+              "score": 0.015625
+            },
+            {
+              "rank": 5,
+              "record_id": "e60671f0-2b73-528c-aa88-1cc5440a916d",
+              "score": 0.015384615384615385
+            }
+          ],
+          "positive_documents": 1,
+          "precision_at_5": 0.2,
+          "recall_at_5": 1.0,
+          "reciprocal_rank_at_5": 1.0,
+          "ndcg_at_5": 1.0
+        },
+        {
+          "question_id": "release-26",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "8ab688ad-bcee-56c8-994d-48cb4fb2d8bc",
+              "score": 0.01639344262295082
+            },
+            {
+              "rank": 2,
+              "record_id": "cf2b2aad-925a-5680-89b2-bf6b65d503c8",
+              "score": 0.016129032258064516
+            },
+            {
+              "rank": 3,
+              "record_id": "8ceab846-104a-5282-b9ef-1e9fa75731bf",
+              "score": 0.015873015873015872
+            },
+            {
+              "rank": 4,
+              "record_id": "06472cb8-466e-55fe-a85a-f421fe1d9706",
+              "score": 0.015625
+            },
+            {
+              "rank": 5,
+              "record_id": "c11aa0d5-6b5b-56d2-b742-f10d4b65d72d",
+              "score": 0.015384615384615385
+            }
+          ],
+          "positive_documents": 1,
+          "precision_at_5": 0.2,
+          "recall_at_5": 1.0,
+          "reciprocal_rank_at_5": 1.0,
+          "ndcg_at_5": 1.0
+        },
+        {
+          "question_id": "release-27",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "f1f8b271-468a-55e6-a47c-40586a2164c2",
+              "score": 0.01639344262295082
+            },
+            {
+              "rank": 2,
+              "record_id": "1e019eee-8a64-550c-8be9-909aa92dfecc",
+              "score": 0.016129032258064516
+            },
+            {
+              "rank": 3,
+              "record_id": "06472cb8-466e-55fe-a85a-f421fe1d9706",
+              "score": 0.015873015873015872
+            },
+            {
+              "rank": 4,
+              "record_id": "87d4550d-3cf2-5b74-82e0-d77a8fe78507",
+              "score": 0.015625
+            },
+            {
+              "rank": 5,
+              "record_id": "9e1881d9-efdf-56cb-9b2f-c549f4700493",
+              "score": 0.015384615384615385
+            }
+          ],
+          "positive_documents": 1,
+          "precision_at_5": 0.2,
+          "recall_at_5": 1.0,
+          "reciprocal_rank_at_5": 1.0,
+          "ndcg_at_5": 1.0
+        },
+        {
+          "question_id": "release-28",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "1e019eee-8a64-550c-8be9-909aa92dfecc",
+              "score": 0.01639344262295082
+            },
+            {
+              "rank": 2,
+              "record_id": "f1f8b271-468a-55e6-a47c-40586a2164c2",
+              "score": 0.016129032258064516
+            },
+            {
+              "rank": 3,
+              "record_id": "8ceab846-104a-5282-b9ef-1e9fa75731bf",
+              "score": 0.015873015873015872
+            },
+            {
+              "rank": 4,
+              "record_id": "68af97eb-0abe-5d6c-b6dc-6a561d82f90a",
+              "score": 0.015625
+            },
+            {
+              "rank": 5,
+              "record_id": "9e1881d9-efdf-56cb-9b2f-c549f4700493",
+              "score": 0.015384615384615385
+            }
+          ],
+          "positive_documents": 1,
+          "precision_at_5": 0.2,
+          "recall_at_5": 1.0,
+          "reciprocal_rank_at_5": 1.0,
+          "ndcg_at_5": 1.0
+        }
+      ]
+    },
+    {
+      "condition": "dense",
+      "questions": 28,
+      "questions_with_positive_documents": 28,
+      "precision_at_5": 0.164286,
+      "recall_at_5": 0.821429,
+      "mrr_at_5": 0.652976,
+      "ndcg_at_5": 0.695435,
+      "per_question": [
+        {
+          "question_id": "release-01",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "359a37d1-8e4d-577c-b970-6ce59f8e9b0a",
+              "score": 0.01639344262295082
+            },
+            {
+              "rank": 2,
+              "record_id": "31941a88-ab26-582c-838c-bee39145a9e7",
+              "score": 0.016129032258064516
+            },
+            {
+              "rank": 3,
+              "record_id": "0e4644f4-1116-5218-80e4-86a44e1e4b34",
+              "score": 0.015873015873015872
+            },
+            {
+              "rank": 4,
+              "record_id": "2d7dbc2f-d371-5219-9719-abf91bca8979",
+              "score": 0.015625
+            },
+            {
+              "rank": 5,
+              "record_id": "5274d70d-8f3f-5c60-9d2a-3e3384f85e53",
+              "score": 0.015384615384615385
+            }
+          ],
+          "positive_documents": 1,
+          "precision_at_5": 0.2,
+          "recall_at_5": 1.0,
+          "reciprocal_rank_at_5": 0.2,
+          "ndcg_at_5": 0.38685280723454163
+        },
+        {
+          "question_id": "release-02",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "d6b497d9-e44a-5161-96e9-9bb5503a7827",
+              "score": 0.01639344262295082
+            },
+            {
+              "rank": 2,
+              "record_id": "0e4644f4-1116-5218-80e4-86a44e1e4b34",
+              "score": 0.016129032258064516
+            },
+            {
+              "rank": 3,
+              "record_id": "0c11509e-28a4-5b8d-8bd4-842c5907f911",
+              "score": 0.015873015873015872
+            },
+            {
+              "rank": 4,
+              "record_id": "cc8332cd-b213-5c30-abd4-313c438b8ad2",
+              "score": 0.015625
+            },
+            {
+              "rank": 5,
+              "record_id": "2d7dbc2f-d371-5219-9719-abf91bca8979",
+              "score": 0.015384615384615385
+            }
+          ],
+          "positive_documents": 1,
+          "precision_at_5": 0.2,
+          "recall_at_5": 1.0,
+          "reciprocal_rank_at_5": 1.0,
+          "ndcg_at_5": 1.0
+        },
+        {
+          "question_id": "release-03",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "0e4644f4-1116-5218-80e4-86a44e1e4b34",
+              "score": 0.01639344262295082
+            },
+            {
+              "rank": 2,
+              "record_id": "d6b497d9-e44a-5161-96e9-9bb5503a7827",
+              "score": 0.016129032258064516
+            },
+            {
+              "rank": 3,
+              "record_id": "cc8332cd-b213-5c30-abd4-313c438b8ad2",
+              "score": 0.015873015873015872
+            },
+            {
+              "rank": 4,
+              "record_id": "0c11509e-28a4-5b8d-8bd4-842c5907f911",
+              "score": 0.015625
+            },
+            {
+              "rank": 5,
+              "record_id": "31941a88-ab26-582c-838c-bee39145a9e7",
+              "score": 0.015384615384615385
+            }
+          ],
+          "positive_documents": 1,
+          "precision_at_5": 0.2,
+          "recall_at_5": 1.0,
+          "reciprocal_rank_at_5": 1.0,
+          "ndcg_at_5": 1.0
+        },
+        {
+          "question_id": "release-04",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "2d7dbc2f-d371-5219-9719-abf91bca8979",
+              "score": 0.01639344262295082
+            },
+            {
+              "rank": 2,
+              "record_id": "0e4644f4-1116-5218-80e4-86a44e1e4b34",
+              "score": 0.016129032258064516
+            },
+            {
+              "rank": 3,
+              "record_id": "cc8332cd-b213-5c30-abd4-313c438b8ad2",
+              "score": 0.015873015873015872
+            },
+            {
+              "rank": 4,
+              "record_id": "31941a88-ab26-582c-838c-bee39145a9e7",
+              "score": 0.015625
+            },
+            {
+              "rank": 5,
+              "record_id": "5d8203fd-9f9e-5fdb-8544-9af83cc9ee5f",
+              "score": 0.015384615384615385
+            }
+          ],
+          "positive_documents": 1,
+          "precision_at_5": 0.2,
+          "recall_at_5": 1.0,
+          "reciprocal_rank_at_5": 1.0,
+          "ndcg_at_5": 1.0
+        },
+        {
+          "question_id": "release-05",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "1186bdde-ddac-5532-808c-861449b09a72",
+              "score": 0.01639344262295082
+            },
+            {
+              "rank": 2,
+              "record_id": "0c11509e-28a4-5b8d-8bd4-842c5907f911",
+              "score": 0.016129032258064516
+            },
+            {
+              "rank": 3,
+              "record_id": "67f2f085-5b62-590c-820a-711aa625c0f1",
+              "score": 0.015873015873015872
+            },
+            {
+              "rank": 4,
+              "record_id": "2d7dbc2f-d371-5219-9719-abf91bca8979",
+              "score": 0.015625
+            },
+            {
+              "rank": 5,
+              "record_id": "cc8332cd-b213-5c30-abd4-313c438b8ad2",
+              "score": 0.015384615384615385
+            }
+          ],
+          "positive_documents": 1,
+          "precision_at_5": 0.2,
+          "recall_at_5": 1.0,
+          "reciprocal_rank_at_5": 1.0,
+          "ndcg_at_5": 1.0
+        },
+        {
+          "question_id": "release-06",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "31941a88-ab26-582c-838c-bee39145a9e7",
+              "score": 0.01639344262295082
+            },
+            {
+              "rank": 2,
+              "record_id": "cc8332cd-b213-5c30-abd4-313c438b8ad2",
+              "score": 0.016129032258064516
+            },
+            {
+              "rank": 3,
+              "record_id": "0e4644f4-1116-5218-80e4-86a44e1e4b34",
+              "score": 0.015873015873015872
+            },
+            {
+              "rank": 4,
+              "record_id": "b6675a64-6fe5-577b-b30b-748d0d4fd8ee",
+              "score": 0.015625
+            },
+            {
+              "rank": 5,
+              "record_id": "1186bdde-ddac-5532-808c-861449b09a72",
+              "score": 0.015384615384615385
+            }
+          ],
+          "positive_documents": 1,
+          "precision_at_5": 0.2,
+          "recall_at_5": 1.0,
+          "reciprocal_rank_at_5": 1.0,
+          "ndcg_at_5": 1.0
+        },
+        {
+          "question_id": "release-07",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "0c11509e-28a4-5b8d-8bd4-842c5907f911",
+              "score": 0.01639344262295082
+            },
+            {
+              "rank": 2,
+              "record_id": "0e4644f4-1116-5218-80e4-86a44e1e4b34",
+              "score": 0.016129032258064516
+            },
+            {
+              "rank": 3,
+              "record_id": "d6b497d9-e44a-5161-96e9-9bb5503a7827",
+              "score": 0.015873015873015872
+            },
+            {
+              "rank": 4,
+              "record_id": "cc8332cd-b213-5c30-abd4-313c438b8ad2",
+              "score": 0.015625
+            },
+            {
+              "rank": 5,
+              "record_id": "359a37d1-8e4d-577c-b970-6ce59f8e9b0a",
+              "score": 0.015384615384615385
+            }
+          ],
+          "positive_documents": 1,
+          "precision_at_5": 0.2,
+          "recall_at_5": 1.0,
+          "reciprocal_rank_at_5": 1.0,
+          "ndcg_at_5": 1.0
+        },
+        {
+          "question_id": "release-08",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "cc8332cd-b213-5c30-abd4-313c438b8ad2",
+              "score": 0.01639344262295082
+            },
+            {
+              "rank": 2,
+              "record_id": "0c11509e-28a4-5b8d-8bd4-842c5907f911",
+              "score": 0.016129032258064516
+            },
+            {
+              "rank": 3,
+              "record_id": "5d8203fd-9f9e-5fdb-8544-9af83cc9ee5f",
+              "score": 0.015873015873015872
+            },
+            {
+              "rank": 4,
+              "record_id": "0e4644f4-1116-5218-80e4-86a44e1e4b34",
+              "score": 0.015625
+            },
+            {
+              "rank": 5,
+              "record_id": "2d7dbc2f-d371-5219-9719-abf91bca8979",
+              "score": 0.015384615384615385
+            }
+          ],
+          "positive_documents": 1,
+          "precision_at_5": 0.2,
+          "recall_at_5": 1.0,
+          "reciprocal_rank_at_5": 1.0,
+          "ndcg_at_5": 1.0
+        },
+        {
+          "question_id": "release-09",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "cc8332cd-b213-5c30-abd4-313c438b8ad2",
+              "score": 0.01639344262295082
+            },
+            {
+              "rank": 2,
+              "record_id": "5d8203fd-9f9e-5fdb-8544-9af83cc9ee5f",
+              "score": 0.016129032258064516
+            },
+            {
+              "rank": 3,
+              "record_id": "0e4644f4-1116-5218-80e4-86a44e1e4b34",
+              "score": 0.015873015873015872
+            },
+            {
+              "rank": 4,
+              "record_id": "0c11509e-28a4-5b8d-8bd4-842c5907f911",
+              "score": 0.015625
+            },
+            {
+              "rank": 5,
+              "record_id": "31941a88-ab26-582c-838c-bee39145a9e7",
+              "score": 0.015384615384615385
+            }
+          ],
+          "positive_documents": 1,
+          "precision_at_5": 0.0,
+          "recall_at_5": 0.0,
+          "reciprocal_rank_at_5": 0.0,
+          "ndcg_at_5": 0.0
+        },
+        {
+          "question_id": "release-10",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "359a37d1-8e4d-577c-b970-6ce59f8e9b0a",
+              "score": 0.01639344262295082
+            },
+            {
+              "rank": 2,
+              "record_id": "0e4644f4-1116-5218-80e4-86a44e1e4b34",
+              "score": 0.016129032258064516
+            },
+            {
+              "rank": 3,
+              "record_id": "0c11509e-28a4-5b8d-8bd4-842c5907f911",
+              "score": 0.015873015873015872
+            },
+            {
+              "rank": 4,
+              "record_id": "d6b497d9-e44a-5161-96e9-9bb5503a7827",
+              "score": 0.015625
+            },
+            {
+              "rank": 5,
+              "record_id": "cc8332cd-b213-5c30-abd4-313c438b8ad2",
+              "score": 0.015384615384615385
+            }
+          ],
+          "positive_documents": 1,
+          "precision_at_5": 0.2,
+          "recall_at_5": 1.0,
+          "reciprocal_rank_at_5": 1.0,
+          "ndcg_at_5": 1.0
+        },
+        {
+          "question_id": "release-11",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "8ceab846-104a-5282-b9ef-1e9fa75731bf",
+              "score": 0.01639344262295082
+            },
+            {
+              "rank": 2,
+              "record_id": "0237b72c-c6e8-572b-b9ed-787658d33906",
+              "score": 0.016129032258064516
+            },
+            {
+              "rank": 3,
+              "record_id": "10cffd6e-20f7-5519-9263-25508f533184",
+              "score": 0.015873015873015872
+            },
+            {
+              "rank": 4,
+              "record_id": "68eaa344-0169-5ea2-a823-9e615fa65b55",
+              "score": 0.015625
+            },
+            {
+              "rank": 5,
+              "record_id": "362249ee-276b-54ad-bc59-4deaf7a50780",
+              "score": 0.015384615384615385
+            }
+          ],
+          "positive_documents": 1,
+          "precision_at_5": 0.2,
+          "recall_at_5": 1.0,
+          "reciprocal_rank_at_5": 0.3333333333333333,
+          "ndcg_at_5": 0.5
+        },
+        {
+          "question_id": "release-12",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "362249ee-276b-54ad-bc59-4deaf7a50780",
+              "score": 0.01639344262295082
+            },
+            {
+              "rank": 2,
+              "record_id": "1e019eee-8a64-550c-8be9-909aa92dfecc",
+              "score": 0.016129032258064516
+            },
+            {
+              "rank": 3,
+              "record_id": "68eaa344-0169-5ea2-a823-9e615fa65b55",
+              "score": 0.015873015873015872
+            },
+            {
+              "rank": 4,
+              "record_id": "10cffd6e-20f7-5519-9263-25508f533184",
+              "score": 0.015625
+            },
+            {
+              "rank": 5,
+              "record_id": "8ceab846-104a-5282-b9ef-1e9fa75731bf",
+              "score": 0.015384615384615385
+            }
+          ],
+          "positive_documents": 1,
+          "precision_at_5": 0.0,
+          "recall_at_5": 0.0,
+          "reciprocal_rank_at_5": 0.0,
+          "ndcg_at_5": 0.0
+        },
+        {
+          "question_id": "release-13",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "8ceab846-104a-5282-b9ef-1e9fa75731bf",
+              "score": 0.01639344262295082
+            },
+            {
+              "rank": 2,
+              "record_id": "362249ee-276b-54ad-bc59-4deaf7a50780",
+              "score": 0.016129032258064516
+            },
+            {
+              "rank": 3,
+              "record_id": "0237b72c-c6e8-572b-b9ed-787658d33906",
+              "score": 0.015873015873015872
+            },
+            {
+              "rank": 4,
+              "record_id": "68eaa344-0169-5ea2-a823-9e615fa65b55",
+              "score": 0.015625
+            },
+            {
+              "rank": 5,
+              "record_id": "87d4550d-3cf2-5b74-82e0-d77a8fe78507",
+              "score": 0.015384615384615385
+            }
+          ],
+          "positive_documents": 1,
+          "precision_at_5": 0.0,
+          "recall_at_5": 0.0,
+          "reciprocal_rank_at_5": 0.0,
+          "ndcg_at_5": 0.0
+        },
+        {
+          "question_id": "release-14",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "9f8061b3-ab1b-5db0-a99c-b61041b121f9",
+              "score": 0.01639344262295082
+            },
+            {
+              "rank": 2,
+              "record_id": "c6bceff4-e88c-5177-b658-729e66180a0f",
+              "score": 0.016129032258064516
+            },
+            {
+              "rank": 3,
+              "record_id": "362249ee-276b-54ad-bc59-4deaf7a50780",
+              "score": 0.015873015873015872
+            },
+            {
+              "rank": 4,
+              "record_id": "9672dbbf-6dd0-50d0-9049-dfda78d2e1de",
+              "score": 0.015625
+            },
+            {
+              "rank": 5,
+              "record_id": "68eaa344-0169-5ea2-a823-9e615fa65b55",
+              "score": 0.015384615384615385
+            }
+          ],
+          "positive_documents": 1,
+          "precision_at_5": 0.0,
+          "recall_at_5": 0.0,
+          "reciprocal_rank_at_5": 0.0,
+          "ndcg_at_5": 0.0
+        },
+        {
+          "question_id": "release-15",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "0237b72c-c6e8-572b-b9ed-787658d33906",
+              "score": 0.01639344262295082
+            },
+            {
+              "rank": 2,
+              "record_id": "8ceab846-104a-5282-b9ef-1e9fa75731bf",
+              "score": 0.016129032258064516
+            },
+            {
+              "rank": 3,
+              "record_id": "f1f8b271-468a-55e6-a47c-40586a2164c2",
+              "score": 0.015873015873015872
+            },
+            {
+              "rank": 4,
+              "record_id": "e60671f0-2b73-528c-aa88-1cc5440a916d",
+              "score": 0.015625
+            },
+            {
+              "rank": 5,
+              "record_id": "68eaa344-0169-5ea2-a823-9e615fa65b55",
+              "score": 0.015384615384615385
+            }
+          ],
+          "positive_documents": 1,
+          "precision_at_5": 0.0,
+          "recall_at_5": 0.0,
+          "reciprocal_rank_at_5": 0.0,
+          "ndcg_at_5": 0.0
+        },
+        {
+          "question_id": "release-16",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "9f8061b3-ab1b-5db0-a99c-b61041b121f9",
+              "score": 0.01639344262295082
+            },
+            {
+              "rank": 2,
+              "record_id": "68eaa344-0169-5ea2-a823-9e615fa65b55",
+              "score": 0.016129032258064516
+            },
+            {
+              "rank": 3,
+              "record_id": "362249ee-276b-54ad-bc59-4deaf7a50780",
+              "score": 0.015873015873015872
+            },
+            {
+              "rank": 4,
+              "record_id": "c6bceff4-e88c-5177-b658-729e66180a0f",
+              "score": 0.015625
+            },
+            {
+              "rank": 5,
+              "record_id": "8ceab846-104a-5282-b9ef-1e9fa75731bf",
+              "score": 0.015384615384615385
+            }
+          ],
+          "positive_documents": 1,
+          "precision_at_5": 0.2,
+          "recall_at_5": 1.0,
+          "reciprocal_rank_at_5": 0.5,
+          "ndcg_at_5": 0.6309297535714574
+        },
+        {
+          "question_id": "release-17",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "362249ee-276b-54ad-bc59-4deaf7a50780",
+              "score": 0.01639344262295082
+            },
+            {
+              "rank": 2,
+              "record_id": "8ceab846-104a-5282-b9ef-1e9fa75731bf",
+              "score": 0.016129032258064516
+            },
+            {
+              "rank": 3,
+              "record_id": "87d4550d-3cf2-5b74-82e0-d77a8fe78507",
+              "score": 0.015873015873015872
+            },
+            {
+              "rank": 4,
+              "record_id": "9672dbbf-6dd0-50d0-9049-dfda78d2e1de",
+              "score": 0.015625
+            },
+            {
+              "rank": 5,
+              "record_id": "68eaa344-0169-5ea2-a823-9e615fa65b55",
+              "score": 0.015384615384615385
+            }
+          ],
+          "positive_documents": 1,
+          "precision_at_5": 0.2,
+          "recall_at_5": 1.0,
+          "reciprocal_rank_at_5": 0.25,
+          "ndcg_at_5": 0.4306765580733931
+        },
+        {
+          "question_id": "release-18",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "8ceab846-104a-5282-b9ef-1e9fa75731bf",
+              "score": 0.01639344262295082
+            },
+            {
+              "rank": 2,
+              "record_id": "362249ee-276b-54ad-bc59-4deaf7a50780",
+              "score": 0.016129032258064516
+            },
+            {
+              "rank": 3,
+              "record_id": "9f8061b3-ab1b-5db0-a99c-b61041b121f9",
+              "score": 0.015873015873015872
+            },
+            {
+              "rank": 4,
+              "record_id": "9e1881d9-efdf-56cb-9b2f-c549f4700493",
+              "score": 0.015625
+            },
+            {
+              "rank": 5,
+              "record_id": "cf2b2aad-925a-5680-89b2-bf6b65d503c8",
+              "score": 0.015384615384615385
+            }
+          ],
+          "positive_documents": 1,
+          "precision_at_5": 0.2,
+          "recall_at_5": 1.0,
+          "reciprocal_rank_at_5": 1.0,
+          "ndcg_at_5": 1.0
+        },
+        {
+          "question_id": "release-19",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "362249ee-276b-54ad-bc59-4deaf7a50780",
+              "score": 0.01639344262295082
+            },
+            {
+              "rank": 2,
+              "record_id": "8ceab846-104a-5282-b9ef-1e9fa75731bf",
+              "score": 0.016129032258064516
+            },
+            {
+              "rank": 3,
+              "record_id": "c6bceff4-e88c-5177-b658-729e66180a0f",
+              "score": 0.015873015873015872
+            },
+            {
+              "rank": 4,
+              "record_id": "9f8061b3-ab1b-5db0-a99c-b61041b121f9",
+              "score": 0.015625
+            },
+            {
+              "rank": 5,
+              "record_id": "10cffd6e-20f7-5519-9263-25508f533184",
+              "score": 0.015384615384615385
+            }
+          ],
+          "positive_documents": 1,
+          "precision_at_5": 0.2,
+          "recall_at_5": 1.0,
+          "reciprocal_rank_at_5": 1.0,
+          "ndcg_at_5": 1.0
+        },
+        {
+          "question_id": "release-20",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "9e1881d9-efdf-56cb-9b2f-c549f4700493",
+              "score": 0.01639344262295082
+            },
+            {
+              "rank": 2,
+              "record_id": "87d4550d-3cf2-5b74-82e0-d77a8fe78507",
+              "score": 0.016129032258064516
+            },
+            {
+              "rank": 3,
+              "record_id": "06472cb8-466e-55fe-a85a-f421fe1d9706",
+              "score": 0.015873015873015872
+            },
+            {
+              "rank": 4,
+              "record_id": "8ab688ad-bcee-56c8-994d-48cb4fb2d8bc",
+              "score": 0.015625
+            },
+            {
+              "rank": 5,
+              "record_id": "8ceab846-104a-5282-b9ef-1e9fa75731bf",
+              "score": 0.015384615384615385
+            }
+          ],
+          "positive_documents": 1,
+          "precision_at_5": 0.2,
+          "recall_at_5": 1.0,
+          "reciprocal_rank_at_5": 0.5,
+          "ndcg_at_5": 0.6309297535714574
+        },
+        {
+          "question_id": "release-21",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "eeb00e92-27aa-5c6b-9da9-408e2480b3cd",
+              "score": 0.01639344262295082
+            },
+            {
+              "rank": 2,
+              "record_id": "1e019eee-8a64-550c-8be9-909aa92dfecc",
+              "score": 0.016129032258064516
+            },
+            {
+              "rank": 3,
+              "record_id": "8ab688ad-bcee-56c8-994d-48cb4fb2d8bc",
+              "score": 0.015873015873015872
+            },
+            {
+              "rank": 4,
+              "record_id": "cf2b2aad-925a-5680-89b2-bf6b65d503c8",
+              "score": 0.015625
+            },
+            {
+              "rank": 5,
+              "record_id": "06472cb8-466e-55fe-a85a-f421fe1d9706",
+              "score": 0.015384615384615385
+            }
+          ],
+          "positive_documents": 1,
+          "precision_at_5": 0.2,
+          "recall_at_5": 1.0,
+          "reciprocal_rank_at_5": 1.0,
+          "ndcg_at_5": 1.0
+        },
+        {
+          "question_id": "release-22",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "0e4644f4-1116-5218-80e4-86a44e1e4b34",
+              "score": 0.01639344262295082
+            },
+            {
+              "rank": 2,
+              "record_id": "c11aa0d5-6b5b-56d2-b742-f10d4b65d72d",
+              "score": 0.016129032258064516
+            },
+            {
+              "rank": 3,
+              "record_id": "cc8332cd-b213-5c30-abd4-313c438b8ad2",
+              "score": 0.015873015873015872
+            },
+            {
+              "rank": 4,
+              "record_id": "68af97eb-0abe-5d6c-b6dc-6a561d82f90a",
+              "score": 0.015625
+            },
+            {
+              "rank": 5,
+              "record_id": "cf2b2aad-925a-5680-89b2-bf6b65d503c8",
+              "score": 0.015384615384615385
+            }
+          ],
+          "positive_documents": 1,
+          "precision_at_5": 0.2,
+          "recall_at_5": 1.0,
+          "reciprocal_rank_at_5": 0.5,
+          "ndcg_at_5": 0.6309297535714574
+        },
+        {
+          "question_id": "release-23",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "8ab688ad-bcee-56c8-994d-48cb4fb2d8bc",
+              "score": 0.01639344262295082
+            },
+            {
+              "rank": 2,
+              "record_id": "0237b72c-c6e8-572b-b9ed-787658d33906",
+              "score": 0.016129032258064516
+            },
+            {
+              "rank": 3,
+              "record_id": "1e019eee-8a64-550c-8be9-909aa92dfecc",
+              "score": 0.015873015873015872
+            },
+            {
+              "rank": 4,
+              "record_id": "cf2b2aad-925a-5680-89b2-bf6b65d503c8",
+              "score": 0.015625
+            },
+            {
+              "rank": 5,
+              "record_id": "c11aa0d5-6b5b-56d2-b742-f10d4b65d72d",
+              "score": 0.015384615384615385
+            }
+          ],
+          "positive_documents": 1,
+          "precision_at_5": 0.2,
+          "recall_at_5": 1.0,
+          "reciprocal_rank_at_5": 0.5,
+          "ndcg_at_5": 0.6309297535714574
+        },
+        {
+          "question_id": "release-24",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "06472cb8-466e-55fe-a85a-f421fe1d9706",
+              "score": 0.01639344262295082
+            },
+            {
+              "rank": 2,
+              "record_id": "e60671f0-2b73-528c-aa88-1cc5440a916d",
+              "score": 0.016129032258064516
+            },
+            {
+              "rank": 3,
+              "record_id": "ca3ae103-51b3-5fe9-9112-271277458093",
+              "score": 0.015873015873015872
+            },
+            {
+              "rank": 4,
+              "record_id": "8ceab846-104a-5282-b9ef-1e9fa75731bf",
+              "score": 0.015625
+            },
+            {
+              "rank": 5,
+              "record_id": "6f2b2117-f389-5e97-ad69-49d54d3ef435",
+              "score": 0.015384615384615385
+            }
+          ],
+          "positive_documents": 1,
+          "precision_at_5": 0.2,
+          "recall_at_5": 1.0,
+          "reciprocal_rank_at_5": 0.5,
+          "ndcg_at_5": 0.6309297535714574
+        },
+        {
+          "question_id": "release-25",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "cf2b2aad-925a-5680-89b2-bf6b65d503c8",
+              "score": 0.01639344262295082
+            },
+            {
+              "rank": 2,
+              "record_id": "f1f8b271-468a-55e6-a47c-40586a2164c2",
+              "score": 0.016129032258064516
+            },
+            {
+              "rank": 3,
+              "record_id": "9e1881d9-efdf-56cb-9b2f-c549f4700493",
+              "score": 0.015873015873015872
+            },
+            {
+              "rank": 4,
+              "record_id": "cc8332cd-b213-5c30-abd4-313c438b8ad2",
+              "score": 0.015625
+            },
+            {
+              "rank": 5,
+              "record_id": "06472cb8-466e-55fe-a85a-f421fe1d9706",
+              "score": 0.015384615384615385
+            }
+          ],
+          "positive_documents": 1,
+          "precision_at_5": 0.2,
+          "recall_at_5": 1.0,
+          "reciprocal_rank_at_5": 1.0,
+          "ndcg_at_5": 1.0
+        },
+        {
+          "question_id": "release-26",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "8ab688ad-bcee-56c8-994d-48cb4fb2d8bc",
+              "score": 0.01639344262295082
+            },
+            {
+              "rank": 2,
+              "record_id": "cf2b2aad-925a-5680-89b2-bf6b65d503c8",
+              "score": 0.016129032258064516
+            },
+            {
+              "rank": 3,
+              "record_id": "f1f8b271-468a-55e6-a47c-40586a2164c2",
+              "score": 0.015873015873015872
+            },
+            {
+              "rank": 4,
+              "record_id": "9e1881d9-efdf-56cb-9b2f-c549f4700493",
+              "score": 0.015625
+            },
+            {
+              "rank": 5,
+              "record_id": "87d4550d-3cf2-5b74-82e0-d77a8fe78507",
+              "score": 0.015384615384615385
+            }
+          ],
+          "positive_documents": 1,
+          "precision_at_5": 0.2,
+          "recall_at_5": 1.0,
+          "reciprocal_rank_at_5": 1.0,
+          "ndcg_at_5": 1.0
+        },
+        {
+          "question_id": "release-27",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "f1f8b271-468a-55e6-a47c-40586a2164c2",
+              "score": 0.01639344262295082
+            },
+            {
+              "rank": 2,
+              "record_id": "8ab688ad-bcee-56c8-994d-48cb4fb2d8bc",
+              "score": 0.016129032258064516
+            },
+            {
+              "rank": 3,
+              "record_id": "1e019eee-8a64-550c-8be9-909aa92dfecc",
+              "score": 0.015873015873015872
+            },
+            {
+              "rank": 4,
+              "record_id": "98a53812-6211-5c81-b40e-b1c7fa7f34a3",
+              "score": 0.015625
+            },
+            {
+              "rank": 5,
+              "record_id": "06472cb8-466e-55fe-a85a-f421fe1d9706",
+              "score": 0.015384615384615385
+            }
+          ],
+          "positive_documents": 1,
+          "precision_at_5": 0.2,
+          "recall_at_5": 1.0,
+          "reciprocal_rank_at_5": 1.0,
+          "ndcg_at_5": 1.0
+        },
+        {
+          "question_id": "release-28",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "1e019eee-8a64-550c-8be9-909aa92dfecc",
+              "score": 0.01639344262295082
+            },
+            {
+              "rank": 2,
+              "record_id": "8ab688ad-bcee-56c8-994d-48cb4fb2d8bc",
+              "score": 0.016129032258064516
+            },
+            {
+              "rank": 3,
+              "record_id": "0237b72c-c6e8-572b-b9ed-787658d33906",
+              "score": 0.015873015873015872
+            },
+            {
+              "rank": 4,
+              "record_id": "06472cb8-466e-55fe-a85a-f421fe1d9706",
+              "score": 0.015625
+            },
+            {
+              "rank": 5,
+              "record_id": "f1f8b271-468a-55e6-a47c-40586a2164c2",
+              "score": 0.015384615384615385
+            }
+          ],
+          "positive_documents": 1,
+          "precision_at_5": 0.2,
+          "recall_at_5": 1.0,
+          "reciprocal_rank_at_5": 1.0,
+          "ndcg_at_5": 1.0
+        }
+      ]
+    },
+    {
+      "condition": "hybrid",
+      "questions": 28,
+      "questions_with_positive_documents": 28,
+      "precision_at_5": 0.192857,
+      "recall_at_5": 0.964286,
+      "mrr_at_5": 0.819643,
+      "ndcg_at_5": 0.856149,
+      "per_question": [
+        {
+          "question_id": "release-01",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "359a37d1-8e4d-577c-b970-6ce59f8e9b0a",
+              "score": 0.03252247488101534
+            },
+            {
+              "rank": 2,
+              "record_id": "5274d70d-8f3f-5c60-9d2a-3e3384f85e53",
+              "score": 0.03177805800756621
+            },
+            {
+              "rank": 3,
+              "record_id": "9f8061b3-ab1b-5db0-a99c-b61041b121f9",
+              "score": 0.029850746268656716
+            },
+            {
+              "rank": 4,
+              "record_id": "10cffd6e-20f7-5519-9263-25508f533184",
+              "score": 0.02976190476190476
+            },
+            {
+              "rank": 5,
+              "record_id": "9672dbbf-6dd0-50d0-9049-dfda78d2e1de",
+              "score": 0.028577260665441927
+            }
+          ],
+          "positive_documents": 1,
+          "precision_at_5": 0.2,
+          "recall_at_5": 1.0,
+          "reciprocal_rank_at_5": 0.5,
+          "ndcg_at_5": 0.6309297535714574
+        },
+        {
+          "question_id": "release-02",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "d6b497d9-e44a-5161-96e9-9bb5503a7827",
+              "score": 0.03278688524590164
+            },
+            {
+              "rank": 2,
+              "record_id": "6f2b2117-f389-5e97-ad69-49d54d3ef435",
+              "score": 0.029437229437229435
+            },
+            {
+              "rank": 3,
+              "record_id": "0e4644f4-1116-5218-80e4-86a44e1e4b34",
+              "score": 0.02928692699490662
+            },
+            {
+              "rank": 4,
+              "record_id": "10cffd6e-20f7-5519-9263-25508f533184",
+              "score": 0.028373015873015873
+            },
+            {
+              "rank": 5,
+              "record_id": "9672dbbf-6dd0-50d0-9049-dfda78d2e1de",
+              "score": 0.028371628371628373
+            }
+          ],
+          "positive_documents": 1,
+          "precision_at_5": 0.2,
+          "recall_at_5": 1.0,
+          "reciprocal_rank_at_5": 1.0,
+          "ndcg_at_5": 1.0
+        },
+        {
+          "question_id": "release-03",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "0e4644f4-1116-5218-80e4-86a44e1e4b34",
+              "score": 0.03278688524590164
+            },
+            {
+              "rank": 2,
+              "record_id": "67f2f085-5b62-590c-820a-711aa625c0f1",
+              "score": 0.030621785881252923
+            },
+            {
+              "rank": 3,
+              "record_id": "d6b497d9-e44a-5161-96e9-9bb5503a7827",
+              "score": 0.03021353930031804
+            },
+            {
+              "rank": 4,
+              "record_id": "359a37d1-8e4d-577c-b970-6ce59f8e9b0a",
+              "score": 0.029857397504456328
+            },
+            {
+              "rank": 5,
+              "record_id": "68af97eb-0abe-5d6c-b6dc-6a561d82f90a",
+              "score": 0.029386529386529386
+            }
+          ],
+          "positive_documents": 1,
+          "precision_at_5": 0.2,
+          "recall_at_5": 1.0,
+          "reciprocal_rank_at_5": 1.0,
+          "ndcg_at_5": 1.0
+        },
+        {
+          "question_id": "release-04",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "2d7dbc2f-d371-5219-9719-abf91bca8979",
+              "score": 0.03252247488101534
+            },
+            {
+              "rank": 2,
+              "record_id": "5d8203fd-9f9e-5fdb-8544-9af83cc9ee5f",
+              "score": 0.030536130536130537
+            },
+            {
+              "rank": 3,
+              "record_id": "06472cb8-466e-55fe-a85a-f421fe1d9706",
+              "score": 0.029877369007803793
+            },
+            {
+              "rank": 4,
+              "record_id": "c6bceff4-e88c-5177-b658-729e66180a0f",
+              "score": 0.029709507042253523
+            },
+            {
+              "rank": 5,
+              "record_id": "8ceab846-104a-5282-b9ef-1e9fa75731bf",
+              "score": 0.029551337359792925
+            }
+          ],
+          "positive_documents": 1,
+          "precision_at_5": 0.2,
+          "recall_at_5": 1.0,
+          "reciprocal_rank_at_5": 1.0,
+          "ndcg_at_5": 1.0
+        },
+        {
+          "question_id": "release-05",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "1186bdde-ddac-5532-808c-861449b09a72",
+              "score": 0.03278688524590164
+            },
+            {
+              "rank": 2,
+              "record_id": "0c11509e-28a4-5b8d-8bd4-842c5907f911",
+              "score": 0.031754032258064516
+            },
+            {
+              "rank": 3,
+              "record_id": "67f2f085-5b62-590c-820a-711aa625c0f1",
+              "score": 0.031024531024531024
+            },
+            {
+              "rank": 4,
+              "record_id": "10cffd6e-20f7-5519-9263-25508f533184",
+              "score": 0.0304147465437788
+            },
+            {
+              "rank": 5,
+              "record_id": "8ceab846-104a-5282-b9ef-1e9fa75731bf",
+              "score": 0.029877369007803793
+            }
+          ],
+          "positive_documents": 1,
+          "precision_at_5": 0.2,
+          "recall_at_5": 1.0,
+          "reciprocal_rank_at_5": 1.0,
+          "ndcg_at_5": 1.0
+        },
+        {
+          "question_id": "release-06",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "31941a88-ab26-582c-838c-bee39145a9e7",
+              "score": 0.03278688524590164
+            },
+            {
+              "rank": 2,
+              "record_id": "cc8332cd-b213-5c30-abd4-313c438b8ad2",
+              "score": 0.03225806451612903
+            },
+            {
+              "rank": 3,
+              "record_id": "67f2f085-5b62-590c-820a-711aa625c0f1",
+              "score": 0.02946912242686891
+            },
+            {
+              "rank": 4,
+              "record_id": "b6675a64-6fe5-577b-b30b-748d0d4fd8ee",
+              "score": 0.028612012987012988
+            },
+            {
+              "rank": 5,
+              "record_id": "1e019eee-8a64-550c-8be9-909aa92dfecc",
+              "score": 0.028309409888357256
+            }
+          ],
+          "positive_documents": 1,
+          "precision_at_5": 0.2,
+          "recall_at_5": 1.0,
+          "reciprocal_rank_at_5": 1.0,
+          "ndcg_at_5": 1.0
+        },
+        {
+          "question_id": "release-07",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "0c11509e-28a4-5b8d-8bd4-842c5907f911",
+              "score": 0.03252247488101534
+            },
+            {
+              "rank": 2,
+              "record_id": "5d8203fd-9f9e-5fdb-8544-9af83cc9ee5f",
+              "score": 0.03055037313432836
+            },
+            {
+              "rank": 3,
+              "record_id": "8ceab846-104a-5282-b9ef-1e9fa75731bf",
+              "score": 0.029906956136464335
+            },
+            {
+              "rank": 4,
+              "record_id": "0e4644f4-1116-5218-80e4-86a44e1e4b34",
+              "score": 0.029827662395050816
+            },
+            {
+              "rank": 5,
+              "record_id": "cc8332cd-b213-5c30-abd4-313c438b8ad2",
+              "score": 0.029709507042253523
+            }
+          ],
+          "positive_documents": 1,
+          "precision_at_5": 0.2,
+          "recall_at_5": 1.0,
+          "reciprocal_rank_at_5": 1.0,
+          "ndcg_at_5": 1.0
+        },
+        {
+          "question_id": "release-08",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "cc8332cd-b213-5c30-abd4-313c438b8ad2",
+              "score": 0.03278688524590164
+            },
+            {
+              "rank": 2,
+              "record_id": "0c11509e-28a4-5b8d-8bd4-842c5907f911",
+              "score": 0.03225806451612903
+            },
+            {
+              "rank": 3,
+              "record_id": "5d8203fd-9f9e-5fdb-8544-9af83cc9ee5f",
+              "score": 0.03125763125763126
+            },
+            {
+              "rank": 4,
+              "record_id": "67f2f085-5b62-590c-820a-711aa625c0f1",
+              "score": 0.030798389007344232
+            },
+            {
+              "rank": 5,
+              "record_id": "84918f27-a770-5a72-8843-ffb3d1efc07f",
+              "score": 0.02877846790890269
+            }
+          ],
+          "positive_documents": 1,
+          "precision_at_5": 0.2,
+          "recall_at_5": 1.0,
+          "reciprocal_rank_at_5": 1.0,
+          "ndcg_at_5": 1.0
+        },
+        {
+          "question_id": "release-09",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "5d8203fd-9f9e-5fdb-8544-9af83cc9ee5f",
+              "score": 0.03128054740957967
+            },
+            {
+              "rank": 2,
+              "record_id": "9cb7f091-5692-57c6-8bec-baa4198eb810",
+              "score": 0.031099324975891997
+            },
+            {
+              "rank": 3,
+              "record_id": "359a37d1-8e4d-577c-b970-6ce59f8e9b0a",
+              "score": 0.030536130536130537
+            },
+            {
+              "rank": 4,
+              "record_id": "cc8332cd-b213-5c30-abd4-313c438b8ad2",
+              "score": 0.03047794966520434
+            },
+            {
+              "rank": 5,
+              "record_id": "c6bceff4-e88c-5177-b658-729e66180a0f",
+              "score": 0.02964254577157803
+            }
+          ],
+          "positive_documents": 1,
+          "precision_at_5": 0.2,
+          "recall_at_5": 1.0,
+          "reciprocal_rank_at_5": 0.5,
+          "ndcg_at_5": 0.6309297535714574
+        },
+        {
+          "question_id": "release-10",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "359a37d1-8e4d-577c-b970-6ce59f8e9b0a",
+              "score": 0.03278688524590164
+            },
+            {
+              "rank": 2,
+              "record_id": "d6b497d9-e44a-5161-96e9-9bb5503a7827",
+              "score": 0.030117753623188408
+            },
+            {
+              "rank": 3,
+              "record_id": "5274d70d-8f3f-5c60-9d2a-3e3384f85e53",
+              "score": 0.029827662395050816
+            },
+            {
+              "rank": 4,
+              "record_id": "0e4644f4-1116-5218-80e4-86a44e1e4b34",
+              "score": 0.02964254577157803
+            },
+            {
+              "rank": 5,
+              "record_id": "6f2b2117-f389-5e97-ad69-49d54d3ef435",
+              "score": 0.029273504273504274
+            }
+          ],
+          "positive_documents": 1,
+          "precision_at_5": 0.2,
+          "recall_at_5": 1.0,
+          "reciprocal_rank_at_5": 1.0,
+          "ndcg_at_5": 1.0
+        },
+        {
+          "question_id": "release-11",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "10cffd6e-20f7-5519-9263-25508f533184",
+              "score": 0.032266458495966696
+            },
+            {
+              "rank": 2,
+              "record_id": "8ceab846-104a-5282-b9ef-1e9fa75731bf",
+              "score": 0.031544957774465976
+            },
+            {
+              "rank": 3,
+              "record_id": "68eaa344-0169-5ea2-a823-9e615fa65b55",
+              "score": 0.03125
+            },
+            {
+              "rank": 4,
+              "record_id": "069611a3-38bc-5c01-aeb3-0b1b2e0fde76",
+              "score": 0.030621785881252923
+            },
+            {
+              "rank": 5,
+              "record_id": "9672dbbf-6dd0-50d0-9049-dfda78d2e1de",
+              "score": 0.03007688828584351
+            }
+          ],
+          "positive_documents": 1,
+          "precision_at_5": 0.2,
+          "recall_at_5": 1.0,
+          "reciprocal_rank_at_5": 1.0,
+          "ndcg_at_5": 1.0
+        },
+        {
+          "question_id": "release-12",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "10cffd6e-20f7-5519-9263-25508f533184",
+              "score": 0.032018442622950824
+            },
+            {
+              "rank": 2,
+              "record_id": "68eaa344-0169-5ea2-a823-9e615fa65b55",
+              "score": 0.03200204813108039
+            },
+            {
+              "rank": 3,
+              "record_id": "8ceab846-104a-5282-b9ef-1e9fa75731bf",
+              "score": 0.031009615384615385
+            },
+            {
+              "rank": 4,
+              "record_id": "9672dbbf-6dd0-50d0-9049-dfda78d2e1de",
+              "score": 0.030798389007344232
+            },
+            {
+              "rank": 5,
+              "record_id": "22bb8ed5-a41a-577c-8c5a-bfc389927a71",
+              "score": 0.029877369007803793
+            }
+          ],
+          "positive_documents": 1,
+          "precision_at_5": 0.2,
+          "recall_at_5": 1.0,
+          "reciprocal_rank_at_5": 0.2,
+          "ndcg_at_5": 0.38685280723454163
+        },
+        {
+          "question_id": "release-13",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "68eaa344-0169-5ea2-a823-9e615fa65b55",
+              "score": 0.032018442622950824
+            },
+            {
+              "rank": 2,
+              "record_id": "ca3ae103-51b3-5fe9-9112-271277458093",
+              "score": 0.031054405392392875
+            },
+            {
+              "rank": 3,
+              "record_id": "10cffd6e-20f7-5519-9263-25508f533184",
+              "score": 0.030536130536130537
+            },
+            {
+              "rank": 4,
+              "record_id": "362249ee-276b-54ad-bc59-4deaf7a50780",
+              "score": 0.03021353930031804
+            },
+            {
+              "rank": 5,
+              "record_id": "8ceab846-104a-5282-b9ef-1e9fa75731bf",
+              "score": 0.02938045560996381
+            }
+          ],
+          "positive_documents": 1,
+          "precision_at_5": 0.2,
+          "recall_at_5": 1.0,
+          "reciprocal_rank_at_5": 0.5,
+          "ndcg_at_5": 0.6309297535714574
+        },
+        {
+          "question_id": "release-14",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "9f8061b3-ab1b-5db0-a99c-b61041b121f9",
+              "score": 0.03252247488101534
+            },
+            {
+              "rank": 2,
+              "record_id": "c6bceff4-e88c-5177-b658-729e66180a0f",
+              "score": 0.03252247488101534
+            },
+            {
+              "rank": 3,
+              "record_id": "9672dbbf-6dd0-50d0-9049-dfda78d2e1de",
+              "score": 0.03149801587301587
+            },
+            {
+              "rank": 4,
+              "record_id": "68eaa344-0169-5ea2-a823-9e615fa65b55",
+              "score": 0.031009615384615385
+            },
+            {
+              "rank": 5,
+              "record_id": "069611a3-38bc-5c01-aeb3-0b1b2e0fde76",
+              "score": 0.02964426877470356
+            }
+          ],
+          "positive_documents": 1,
+          "precision_at_5": 0.0,
+          "recall_at_5": 0.0,
+          "reciprocal_rank_at_5": 0.0,
+          "ndcg_at_5": 0.0
+        },
+        {
+          "question_id": "release-15",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "8ceab846-104a-5282-b9ef-1e9fa75731bf",
+              "score": 0.03225806451612903
+            },
+            {
+              "rank": 2,
+              "record_id": "68eaa344-0169-5ea2-a823-9e615fa65b55",
+              "score": 0.03125763125763126
+            },
+            {
+              "rank": 3,
+              "record_id": "e60671f0-2b73-528c-aa88-1cc5440a916d",
+              "score": 0.03125
+            },
+            {
+              "rank": 4,
+              "record_id": "6f2b2117-f389-5e97-ad69-49d54d3ef435",
+              "score": 0.03028233151183971
+            },
+            {
+              "rank": 5,
+              "record_id": "362249ee-276b-54ad-bc59-4deaf7a50780",
+              "score": 0.029437229437229435
+            }
+          ],
+          "positive_documents": 1,
+          "precision_at_5": 0.2,
+          "recall_at_5": 1.0,
+          "reciprocal_rank_at_5": 0.25,
+          "ndcg_at_5": 0.4306765580733931
+        },
+        {
+          "question_id": "release-16",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "68eaa344-0169-5ea2-a823-9e615fa65b55",
+              "score": 0.03252247488101534
+            },
+            {
+              "rank": 2,
+              "record_id": "9f8061b3-ab1b-5db0-a99c-b61041b121f9",
+              "score": 0.03252247488101534
+            },
+            {
+              "rank": 3,
+              "record_id": "362249ee-276b-54ad-bc59-4deaf7a50780",
+              "score": 0.030798389007344232
+            },
+            {
+              "rank": 4,
+              "record_id": "8ceab846-104a-5282-b9ef-1e9fa75731bf",
+              "score": 0.03076923076923077
+            },
+            {
+              "rank": 5,
+              "record_id": "cf2b2aad-925a-5680-89b2-bf6b65d503c8",
+              "score": 0.03055037313432836
+            }
+          ],
+          "positive_documents": 1,
+          "precision_at_5": 0.2,
+          "recall_at_5": 1.0,
+          "reciprocal_rank_at_5": 1.0,
+          "ndcg_at_5": 1.0
+        },
+        {
+          "question_id": "release-17",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "8ceab846-104a-5282-b9ef-1e9fa75731bf",
+              "score": 0.03225806451612903
+            },
+            {
+              "rank": 2,
+              "record_id": "9672dbbf-6dd0-50d0-9049-dfda78d2e1de",
+              "score": 0.032018442622950824
+            },
+            {
+              "rank": 3,
+              "record_id": "362249ee-276b-54ad-bc59-4deaf7a50780",
+              "score": 0.03177805800756621
+            },
+            {
+              "rank": 4,
+              "record_id": "68eaa344-0169-5ea2-a823-9e615fa65b55",
+              "score": 0.03125763125763126
+            },
+            {
+              "rank": 5,
+              "record_id": "2b2e01ab-3caa-5c24-8f11-a25f81266c38",
+              "score": 0.029236022193768675
+            }
+          ],
+          "positive_documents": 1,
+          "precision_at_5": 0.2,
+          "recall_at_5": 1.0,
+          "reciprocal_rank_at_5": 0.5,
+          "ndcg_at_5": 0.6309297535714574
+        },
+        {
+          "question_id": "release-18",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "8ceab846-104a-5282-b9ef-1e9fa75731bf",
+              "score": 0.03278688524590164
+            },
+            {
+              "rank": 2,
+              "record_id": "362249ee-276b-54ad-bc59-4deaf7a50780",
+              "score": 0.031754032258064516
+            },
+            {
+              "rank": 3,
+              "record_id": "9f8061b3-ab1b-5db0-a99c-b61041b121f9",
+              "score": 0.031746031746031744
+            },
+            {
+              "rank": 4,
+              "record_id": "68eaa344-0169-5ea2-a823-9e615fa65b55",
+              "score": 0.03128054740957967
+            },
+            {
+              "rank": 5,
+              "record_id": "10cffd6e-20f7-5519-9263-25508f533184",
+              "score": 0.029877369007803793
+            }
+          ],
+          "positive_documents": 1,
+          "precision_at_5": 0.2,
+          "recall_at_5": 1.0,
+          "reciprocal_rank_at_5": 1.0,
+          "ndcg_at_5": 1.0
+        },
+        {
+          "question_id": "release-19",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "362249ee-276b-54ad-bc59-4deaf7a50780",
+              "score": 0.03278688524590164
+            },
+            {
+              "rank": 2,
+              "record_id": "8ceab846-104a-5282-b9ef-1e9fa75731bf",
+              "score": 0.03225806451612903
+            },
+            {
+              "rank": 3,
+              "record_id": "68eaa344-0169-5ea2-a823-9e615fa65b55",
+              "score": 0.031024531024531024
+            },
+            {
+              "rank": 4,
+              "record_id": "c6bceff4-e88c-5177-b658-729e66180a0f",
+              "score": 0.030798389007344232
+            },
+            {
+              "rank": 5,
+              "record_id": "10cffd6e-20f7-5519-9263-25508f533184",
+              "score": 0.030536130536130537
+            }
+          ],
+          "positive_documents": 1,
+          "precision_at_5": 0.2,
+          "recall_at_5": 1.0,
+          "reciprocal_rank_at_5": 1.0,
+          "ndcg_at_5": 1.0
+        },
+        {
+          "question_id": "release-20",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "87d4550d-3cf2-5b74-82e0-d77a8fe78507",
+              "score": 0.03252247488101534
+            },
+            {
+              "rank": 2,
+              "record_id": "06472cb8-466e-55fe-a85a-f421fe1d9706",
+              "score": 0.03200204813108039
+            },
+            {
+              "rank": 3,
+              "record_id": "9e1881d9-efdf-56cb-9b2f-c549f4700493",
+              "score": 0.031544957774465976
+            },
+            {
+              "rank": 4,
+              "record_id": "f1f8b271-468a-55e6-a47c-40586a2164c2",
+              "score": 0.030776515151515152
+            },
+            {
+              "rank": 5,
+              "record_id": "8ab688ad-bcee-56c8-994d-48cb4fb2d8bc",
+              "score": 0.030117753623188408
+            }
+          ],
+          "positive_documents": 1,
+          "precision_at_5": 0.2,
+          "recall_at_5": 1.0,
+          "reciprocal_rank_at_5": 1.0,
+          "ndcg_at_5": 1.0
+        },
+        {
+          "question_id": "release-21",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "eeb00e92-27aa-5c6b-9da9-408e2480b3cd",
+              "score": 0.03278688524590164
+            },
+            {
+              "rank": 2,
+              "record_id": "cf2b2aad-925a-5680-89b2-bf6b65d503c8",
+              "score": 0.031754032258064516
+            },
+            {
+              "rank": 3,
+              "record_id": "1e019eee-8a64-550c-8be9-909aa92dfecc",
+              "score": 0.03128054740957967
+            },
+            {
+              "rank": 4,
+              "record_id": "06472cb8-466e-55fe-a85a-f421fe1d9706",
+              "score": 0.03076923076923077
+            },
+            {
+              "rank": 5,
+              "record_id": "68eaa344-0169-5ea2-a823-9e615fa65b55",
+              "score": 0.03055037313432836
+            }
+          ],
+          "positive_documents": 1,
+          "precision_at_5": 0.2,
+          "recall_at_5": 1.0,
+          "reciprocal_rank_at_5": 1.0,
+          "ndcg_at_5": 1.0
+        },
+        {
+          "question_id": "release-22",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "c11aa0d5-6b5b-56d2-b742-f10d4b65d72d",
+              "score": 0.03252247488101534
+            },
+            {
+              "rank": 2,
+              "record_id": "cf2b2aad-925a-5680-89b2-bf6b65d503c8",
+              "score": 0.03125763125763126
+            },
+            {
+              "rank": 3,
+              "record_id": "68af97eb-0abe-5d6c-b6dc-6a561d82f90a",
+              "score": 0.030330882352941176
+            },
+            {
+              "rank": 4,
+              "record_id": "e60671f0-2b73-528c-aa88-1cc5440a916d",
+              "score": 0.02946912242686891
+            },
+            {
+              "rank": 5,
+              "record_id": "9e1881d9-efdf-56cb-9b2f-c549f4700493",
+              "score": 0.029418126757516764
+            }
+          ],
+          "positive_documents": 1,
+          "precision_at_5": 0.2,
+          "recall_at_5": 1.0,
+          "reciprocal_rank_at_5": 1.0,
+          "ndcg_at_5": 1.0
+        },
+        {
+          "question_id": "release-23",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "0237b72c-c6e8-572b-b9ed-787658d33906",
+              "score": 0.03252247488101534
+            },
+            {
+              "rank": 2,
+              "record_id": "1e019eee-8a64-550c-8be9-909aa92dfecc",
+              "score": 0.031024531024531024
+            },
+            {
+              "rank": 3,
+              "record_id": "9e1881d9-efdf-56cb-9b2f-c549f4700493",
+              "score": 0.0304147465437788
+            },
+            {
+              "rank": 4,
+              "record_id": "87d4550d-3cf2-5b74-82e0-d77a8fe78507",
+              "score": 0.030330882352941176
+            },
+            {
+              "rank": 5,
+              "record_id": "8ab688ad-bcee-56c8-994d-48cb4fb2d8bc",
+              "score": 0.03028233151183971
+            }
+          ],
+          "positive_documents": 1,
+          "precision_at_5": 0.2,
+          "recall_at_5": 1.0,
+          "reciprocal_rank_at_5": 1.0,
+          "ndcg_at_5": 1.0
+        },
+        {
+          "question_id": "release-24",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "06472cb8-466e-55fe-a85a-f421fe1d9706",
+              "score": 0.03252247488101534
+            },
+            {
+              "rank": 2,
+              "record_id": "e60671f0-2b73-528c-aa88-1cc5440a916d",
+              "score": 0.03252247488101534
+            },
+            {
+              "rank": 3,
+              "record_id": "87d4550d-3cf2-5b74-82e0-d77a8fe78507",
+              "score": 0.030798389007344232
+            },
+            {
+              "rank": 4,
+              "record_id": "f1f8b271-468a-55e6-a47c-40586a2164c2",
+              "score": 0.03007688828584351
+            },
+            {
+              "rank": 5,
+              "record_id": "1e019eee-8a64-550c-8be9-909aa92dfecc",
+              "score": 0.0293236301369863
+            }
+          ],
+          "positive_documents": 1,
+          "precision_at_5": 0.2,
+          "recall_at_5": 1.0,
+          "reciprocal_rank_at_5": 0.5,
+          "ndcg_at_5": 0.6309297535714574
+        },
+        {
+          "question_id": "release-25",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "cf2b2aad-925a-5680-89b2-bf6b65d503c8",
+              "score": 0.03278688524590164
+            },
+            {
+              "rank": 2,
+              "record_id": "06472cb8-466e-55fe-a85a-f421fe1d9706",
+              "score": 0.0315136476426799
+            },
+            {
+              "rank": 3,
+              "record_id": "f1f8b271-468a-55e6-a47c-40586a2164c2",
+              "score": 0.03128054740957967
+            },
+            {
+              "rank": 4,
+              "record_id": "98a53812-6211-5c81-b40e-b1c7fa7f34a3",
+              "score": 0.03057889822595705
+            },
+            {
+              "rank": 5,
+              "record_id": "9e1881d9-efdf-56cb-9b2f-c549f4700493",
+              "score": 0.03057889822595705
+            }
+          ],
+          "positive_documents": 1,
+          "precision_at_5": 0.2,
+          "recall_at_5": 1.0,
+          "reciprocal_rank_at_5": 1.0,
+          "ndcg_at_5": 1.0
+        },
+        {
+          "question_id": "release-26",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "8ab688ad-bcee-56c8-994d-48cb4fb2d8bc",
+              "score": 0.03278688524590164
+            },
+            {
+              "rank": 2,
+              "record_id": "cf2b2aad-925a-5680-89b2-bf6b65d503c8",
+              "score": 0.03225806451612903
+            },
+            {
+              "rank": 3,
+              "record_id": "f1f8b271-468a-55e6-a47c-40586a2164c2",
+              "score": 0.030798389007344232
+            },
+            {
+              "rank": 4,
+              "record_id": "8ceab846-104a-5282-b9ef-1e9fa75731bf",
+              "score": 0.03057889822595705
+            },
+            {
+              "rank": 5,
+              "record_id": "9e1881d9-efdf-56cb-9b2f-c549f4700493",
+              "score": 0.029910714285714284
+            }
+          ],
+          "positive_documents": 1,
+          "precision_at_5": 0.2,
+          "recall_at_5": 1.0,
+          "reciprocal_rank_at_5": 1.0,
+          "ndcg_at_5": 1.0
+        },
+        {
+          "question_id": "release-27",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "f1f8b271-468a-55e6-a47c-40586a2164c2",
+              "score": 0.03278688524590164
+            },
+            {
+              "rank": 2,
+              "record_id": "1e019eee-8a64-550c-8be9-909aa92dfecc",
+              "score": 0.03200204813108039
+            },
+            {
+              "rank": 3,
+              "record_id": "06472cb8-466e-55fe-a85a-f421fe1d9706",
+              "score": 0.03125763125763126
+            },
+            {
+              "rank": 4,
+              "record_id": "8ab688ad-bcee-56c8-994d-48cb4fb2d8bc",
+              "score": 0.030621785881252923
+            },
+            {
+              "rank": 5,
+              "record_id": "9e1881d9-efdf-56cb-9b2f-c549f4700493",
+              "score": 0.030536130536130537
+            }
+          ],
+          "positive_documents": 1,
+          "precision_at_5": 0.2,
+          "recall_at_5": 1.0,
+          "reciprocal_rank_at_5": 1.0,
+          "ndcg_at_5": 1.0
+        },
+        {
+          "question_id": "release-28",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "1e019eee-8a64-550c-8be9-909aa92dfecc",
+              "score": 0.03278688524590164
+            },
+            {
+              "rank": 2,
+              "record_id": "f1f8b271-468a-55e6-a47c-40586a2164c2",
+              "score": 0.0315136476426799
+            },
+            {
+              "rank": 3,
+              "record_id": "06472cb8-466e-55fe-a85a-f421fe1d9706",
+              "score": 0.030776515151515152
+            },
+            {
+              "rank": 4,
+              "record_id": "9e1881d9-efdf-56cb-9b2f-c549f4700493",
+              "score": 0.030309988518943745
+            },
+            {
+              "rank": 5,
+              "record_id": "8ab688ad-bcee-56c8-994d-48cb4fb2d8bc",
+              "score": 0.03021353930031804
+            }
+          ],
+          "positive_documents": 1,
+          "precision_at_5": 0.2,
+          "recall_at_5": 1.0,
+          "reciprocal_rank_at_5": 1.0,
+          "ndcg_at_5": 1.0
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "The dense condition is a hashing lexical baseline, not semantic embeddings.",
+    "Raw retrieval over all frozen documents; no answer-stage filtering or generation.",
+    "Graph-only produces structured query results and is evaluated separately in answer bundles.",
+    "Recall/nDCG are undefined on zero-positive questions; report their count."
+  ]
+}

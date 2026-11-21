@@ -5,6 +5,42 @@ from typing import Any, Iterable
 from collectors.records import validate_record
 
 
+def merge_graph_payloads(*payloads: dict[str, list[dict[str, Any]]]) -> dict[str, list[dict[str, Any]]]:
+    """Merge deterministic graph payloads and reject conflicting or dangling data."""
+    nodes: dict[str, dict[str, Any]] = {}
+    edges: set[tuple[str, str, str]] = set()
+    for payload in payloads:
+        if set(payload) != {"nodes", "edges"}:
+            raise ValueError("graph payload must contain exactly nodes and edges")
+        for node in payload["nodes"]:
+            if set(node) != {"id", "label", "properties"}:
+                raise ValueError("graph node must contain id, label, and properties")
+            if not node["id"] or not node["label"] or not isinstance(node["properties"], dict):
+                raise ValueError("graph node id, label, and properties must be valid")
+            existing = nodes.get(node["id"])
+            if existing is not None and existing != node:
+                raise ValueError(f"conflicting graph node properties for {node['id']}")
+            nodes[node["id"]] = node
+        for edge in payload["edges"]:
+            if set(edge) != {"from", "type", "to"}:
+                raise ValueError("graph edge must contain from, type, and to")
+            edges.add((edge["from"], edge["type"], edge["to"]))
+    dangling = sorted(
+        (source, relation, target)
+        for source, relation, target in edges
+        if source not in nodes or target not in nodes
+    )
+    if dangling:
+        raise ValueError(f"graph payload contains dangling edges: {dangling[:3]}")
+    return {
+        "nodes": [nodes[node_id] for node_id in sorted(nodes)],
+        "edges": [
+            {"from": source, "type": relation, "to": target}
+            for source, relation, target in sorted(edges)
+        ],
+    }
+
+
 def _node(node_id: str, label: str, **properties: Any) -> dict[str, Any]:
     return {"id": node_id, "label": label, "properties": properties}
 
@@ -57,21 +93,4 @@ def record_to_graph(record: dict[str, Any]) -> dict[str, Any]:
 
 def records_to_graph(records: Iterable[dict[str, Any]]) -> dict[str, list[dict[str, Any]]]:
     """Build a deterministic graph payload, merging shared nodes and edges."""
-    nodes: dict[str, dict[str, Any]] = {}
-    edges: set[tuple[str, str, str]] = set()
-    for record in records:
-        payload = record_to_graph(record)
-        for node in payload["nodes"]:
-            existing = nodes.get(node["id"])
-            if existing is not None and existing != node:
-                raise ValueError(f"conflicting graph node properties for {node['id']}")
-            nodes[node["id"]] = node
-        for edge in payload["edges"]:
-            edges.add((edge["from"], edge["type"], edge["to"]))
-    return {
-        "nodes": [nodes[node_id] for node_id in sorted(nodes)],
-        "edges": [
-            {"from": source, "type": relation, "to": target}
-            for source, relation, target in sorted(edges)
-        ],
-    }
+    return merge_graph_payloads(*(record_to_graph(record) for record in records))

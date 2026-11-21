@@ -1,4 +1,4 @@
-from graph.cypher import build_import_payload, import_statements
+from graph.cypher import build_graph_import_payload, build_import_payload, graph_import_statements, import_statements
 from graph.neo4j import split_cypher
 from collectors.records import make_record
 
@@ -52,3 +52,24 @@ def test_import_statements_are_parameterized_and_deterministic():
     assert first[-1][0].startswith("MATCH (source")
     assert first[0][1]["properties"]
     assert first[-1][1]["source_id"]
+
+
+def test_complete_graph_payload_supports_semantic_node_labels():
+    payload = {
+        "nodes": [
+            {"id": "startup:example", "label": "Startup", "properties": {"company_id": "example"}},
+            {"id": "investor:example", "label": "Investor", "properties": {"name": "Example"}},
+        ],
+        "edges": [
+            {"from": "investor:example", "type": "BACKS", "to": "startup:example"}
+        ],
+    }
+    imported = build_graph_import_payload(payload)
+    statements = graph_import_statements(payload)
+    assert imported["nodes"][0]["properties"]["id"]
+    assert len(statements) == 3
+    assert any("MERGE (node:Investor" in query for query, _ in statements)
+    assert statements[-1][1] == {
+        "source_id": "investor:example",
+        "target_id": "startup:example",
+    }

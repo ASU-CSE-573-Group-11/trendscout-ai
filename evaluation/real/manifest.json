@@ -1,0 +1,89 @@
+{
+  "status": "frozen_real_sources_pending_human_review",
+  "synthetic_fixture": false,
+  "document_count": 45,
+  "observed_at": "2026-11-21T06:14:33Z",
+  "snapshot_sha256": "587d3128ef445f1b17d6ac711be64f5491679e41494ac0506114b1cf53b40d30",
+  "sources": [
+    {
+      "api_url": "https://api.github.com/repos/langchain-ai/langchain/releases?per_page=100",
+      "response_url": "https://api.github.com/repos/langchain-ai/langchain/releases?per_page=100",
+      "file": "sources/langchain-releases.json",
+      "sha256": "ca8e217e1b8c54fbb419b00f285017778ffc6bbfd6d91680eea37475a4457bb9",
+      "observed_at": "2026-11-21T06:14:33Z",
+      "selected_release_ids": [
+        451505049,
+        452048967,
+        451958398,
+        452014274,
+        452037029,
+        450201481,
+        450284543,
+        450169202,
+        449288969,
+        446383553,
+        446419000,
+        446391603,
+        446383216,
+        446136297,
+        444481766
+      ]
+    },
+    {
+      "api_url": "https://api.github.com/repos/run-llama/llama_index/releases?per_page=100",
+      "response_url": "https://api.github.com/repos/run-llama/llama_index/releases?per_page=100",
+      "file": "sources/llamaindex-releases.json",
+      "sha256": "607e259216d0546d42e5cb7791728b2af036291734130ddad6f12e3c745a4378",
+      "observed_at": "2026-11-21T06:14:33Z",
+      "selected_release_ids": [
+        444810597,
+        393113822,
+        373275597,
+        344328533,
+        322798710,
+        311472714,
+        305142601,
+        301442001,
+        297643199,
+        295331847,
+        287829122,
+        285038911,
+        278780918,
+        273313070,
+        267562449
+      ]
+    },
+    {
+      "api_url": "https://api.github.com/repos/crewAIInc/crewAI/releases?per_page=100",
+      "response_url": "https://api.github.com/repos/crewAIInc/crewAI/releases?per_page=100",
+      "file": "sources/crewai-releases.json",
+      "sha256": "59d2f3bcb030980d6fc62d6b26a6a34887b6a64384463ccdb2823528b2db5e68",
+      "observed_at": "2026-11-21T06:14:33Z",
+      "selected_release_ids": [
+        451720748,
+        450869458,
+        450266811,
+        443366386,
+        442251375,
+        438475091,
+        437262924,
+        436105734,
+        430865691,
+        427574850,
+        426011239,
+        422454903,
+        422132144,
+        412346268,
+        408399012
+      ]
+    }
+  ],
+  "selection": "15 latest non-prerelease releases with body >=200 characters per repository",
+  "study_revision": "Separate release-document evaluation round; original cohort and 28 questions unchanged.",
+  "limitations": [
+    "Three cohort companies; release documents only.",
+    "Cannot establish funding, hiring, trend growth, or independent corroboration.",
+    "Human inclusion review and relevance judgments remain required."
+  ],
+  "record_type_note": "Public first-party release documents use company source_type; github source_type is reserved for activity-window records in the signal pipeline."
+}

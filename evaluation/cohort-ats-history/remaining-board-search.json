@@ -1,0 +1,1242 @@
+[
+  {
+    "company_id": "browserbase",
+    "target_url": "https://job-boards.greenhouse.io/browserbaseinc*",
+    "observed_at": "2026-11-21T10:12:48.498695+00:00",
+    "http_status": 200,
+    "response_url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fjob-boards.greenhouse.io%2Fbrowserbaseinc%2A&output=json&filter=statuscode%3A200&collapse=timestamp%3A6&from=20251101&to=20261121&limit=250",
+    "file": "sources/browserbase-alternate-cdx.json",
+    "sha256": "9f00923bd8f4605a1fe6ca4a7785f86e5f9aa9fdc37360de80527baaeb57c575",
+    "captures": [
+      {
+        "urlkey": "io,greenhouse,job-boards)/browserbaseinc",
+        "timestamp": "20261112191137",
+        "original": "https://job-boards.greenhouse.io/browserbaseinc",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "IYGMEZBQMDICIGUBIALLX3VKDXK7ODGY",
+        "length": "12943"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/browserbaseinc/jobs/4425079009",
+        "timestamp": "20261026144243",
+        "original": "https://job-boards.greenhouse.io/browserbaseinc/jobs/4425079009",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "DCOQQIXQ6WVTBFUY5L6PRXCFKZC6E6T6",
+        "length": "22937"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/browserbaseinc/jobs/4438063009",
+        "timestamp": "20261112191138",
+        "original": "https://job-boards.greenhouse.io/browserbaseinc/jobs/4438063009",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "ZSUXTC354YKHSWOKLXHB5RWH2CHNSEXZ",
+        "length": "22568"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/browserbaseinc/jobs/4452456009",
+        "timestamp": "20261026144243",
+        "original": "https://job-boards.greenhouse.io/browserbaseinc/jobs/4452456009",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "LK7QFOXUZBPXS5KGYAWC2KURQIEQEDNH",
+        "length": "24362"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/browserbaseinc/jobs/4466643009",
+        "timestamp": "20261112191137",
+        "original": "https://job-boards.greenhouse.io/browserbaseinc/jobs/4466643009",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "5U7LK4QFNP3OL3SS24P7UPIXRC2T2NUZ",
+        "length": "23212"
+      }
+    ]
+  },
+  {
+    "company_id": "sourcegraph",
+    "target_url": "https://job-boards.greenhouse.io/sourcegraph91*",
+    "observed_at": "2026-11-21T10:12:48.498986+00:00",
+    "http_status": 200,
+    "response_url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fjob-boards.greenhouse.io%2Fsourcegraph91%2A&output=json&filter=statuscode%3A200&collapse=timestamp%3A6&from=20251101&to=20261121&limit=250",
+    "file": "sources/sourcegraph-alternate-cdx.json",
+    "sha256": "149bea78b3c66d320ec7899dfeb9e618f0045fd7f5eb119438c387c6eba5a9aa",
+    "captures": [
+      {
+        "urlkey": "io,greenhouse,job-boards)/sourcegraph91",
+        "timestamp": "20251106204036",
+        "original": "https://job-boards.greenhouse.io/sourcegraph91",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "NMWXZSNALQMPRTBXBFKHENHP2JORH6IE",
+        "length": "26736"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/sourcegraph91",
+        "timestamp": "20251203073557",
+        "original": "https://job-boards.greenhouse.io/sourcegraph91",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "23ER2OYL4VJEA2NJQEY2BNSMETYR3O46",
+        "length": "23299"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/sourcegraph91",
+        "timestamp": "20260227121214",
+        "original": "https://job-boards.greenhouse.io/sourcegraph91",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "DC6QPUVREHUBY6X6QDPWRXPHOFTDRAOJ",
+        "length": "23910"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/sourcegraph91",
+        "timestamp": "20260305212412",
+        "original": "https://job-boards.greenhouse.io/sourcegraph91",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "DSYQG52AKTRVESFSE5W523JJYYTVDZYN",
+        "length": "20807"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/sourcegraph91",
+        "timestamp": "20260407161842",
+        "original": "https://job-boards.greenhouse.io/sourcegraph91",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "Z72IOC6ZUKWSWZO2EP3TVXXCYUUFWEHC",
+        "length": "12706"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/sourcegraph91",
+        "timestamp": "20260703084637",
+        "original": "https://job-boards.greenhouse.io/sourcegraph91",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "6KIZJ2JH2R6X7MMRV7YTHF4GTL6O2QES",
+        "length": "12729"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/sourcegraph91",
+        "timestamp": "20260805091450",
+        "original": "https://job-boards.greenhouse.io/sourcegraph91",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "THUWIVGD4MO3S332EYRIWQ7PUSU433X5",
+        "length": "13286"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/sourcegraph91",
+        "timestamp": "20260924212320",
+        "original": "https://job-boards.greenhouse.io/sourcegraph91",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "TSAL3NPIZAY2BCLGWWVEQQ4EGVKGOMIH",
+        "length": "13129"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/sourcegraph91",
+        "timestamp": "20261004115737",
+        "original": "https://job-boards.greenhouse.io/sourcegraph91",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "YEAKYBNRE45YODT3CKU3ULJXF67O5XMI",
+        "length": "13651"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/sourcegraph91/jobs/4621149004",
+        "timestamp": "20251216034531",
+        "original": "https://job-boards.greenhouse.io/sourcegraph91/jobs/4621149004",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "POHB6SHAKB3PLXJCGGPVCSSJUYE5MGS4",
+        "length": "13745"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/sourcegraph91/jobs/4621149004",
+        "timestamp": "20260227121215",
+        "original": "https://job-boards.greenhouse.io/sourcegraph91/jobs/4621149004",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "NPNJYE3CWKYEKCMFJSAQS4YCANW3YDU4",
+        "length": "19931"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/sourcegraph91/jobs/4621149004",
+        "timestamp": "20260512133302",
+        "original": "https://job-boards.greenhouse.io/sourcegraph91/jobs/4621149004",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "YLVTPAMCVM6FLSCKAVLQMA7SBYKRJLOY",
+        "length": "13638"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/sourcegraph91/jobs/4621149004",
+        "timestamp": "20260703084638",
+        "original": "https://job-boards.greenhouse.io/sourcegraph91/jobs/4621149004",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "OU7DJPTQTVCFO7LSTMDQF6VU4UVBD3H3",
+        "length": "20011"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/sourcegraph91/jobs/4621149004",
+        "timestamp": "20260805091450",
+        "original": "https://job-boards.greenhouse.io/sourcegraph91/jobs/4621149004",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "S2ND5KMZ3AOHHTHUS4USEBPT6BQMZ3YA",
+        "length": "19512"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/sourcegraph91/jobs/4621149004",
+        "timestamp": "20260915052010",
+        "original": "https://job-boards.greenhouse.io/sourcegraph91/jobs/4621149004",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "M6HKZ2VUAY23VQICDZTLAKFNQZAKNIGX",
+        "length": "20482"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/sourcegraph91/jobs/4621149004",
+        "timestamp": "20261023190745",
+        "original": "https://job-boards.greenhouse.io/sourcegraph91/jobs/4621149004",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "5KKOE4ZPX2OPFRL2A2LO4YDOH6UCZOFN",
+        "length": "20573"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/sourcegraph91/jobs/4621149004?gh_src=0572f98b4us",
+        "timestamp": "20260805091449",
+        "original": "https://job-boards.greenhouse.io/sourcegraph91/jobs/4621149004?gh_src=0572f98b4us",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "2POJSQEJEZAYFV3CXW3AAMLQKLH6EVS3",
+        "length": "19645"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/sourcegraph91/jobs/4621149004?gh_src=0572f98b4us",
+        "timestamp": "20260902110049",
+        "original": "https://job-boards.greenhouse.io/sourcegraph91/jobs/4621149004?gh_src=0572f98b4us",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "AUUSA6Y52Z7762KFIC27BFJP3VYZ4KIX",
+        "length": "19597"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/sourcegraph91/jobs/4621149004?gh_src=c685479c4us",
+        "timestamp": "20260305151056",
+        "original": "https://job-boards.greenhouse.io/sourcegraph91/jobs/4621149004?gh_src=c685479c4us",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "QDNCVCB622VMWYVMCFDSUR7YMSBF6CHQ",
+        "length": "13649"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/sourcegraph91/jobs/4621149004?gh_src=coatue+management+job+board",
+        "timestamp": "20260419055256",
+        "original": "https://job-boards.greenhouse.io/sourcegraph91/jobs/4621149004?gh_src=Coatue+Management+job+board",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "3KIL77E543UZTDTGVJAF47S7JFM5QCGS",
+        "length": "13668"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/sourcegraph91/jobs/4621149004?gh_src=sway+ventures+job+board&utm_medium=getro.com&utm_source=sway+ventures+job+board",
+        "timestamp": "20251207212113",
+        "original": "https://job-boards.greenhouse.io/sourcegraph91/jobs/4621149004?utm_source=Sway+Ventures+job+board&utm_medium=getro.com&gh_src=Sway+Ventures+job+board",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "HOGBNC7FSC3ASFUUO3FM3SPP2TZVKKLH",
+        "length": "13785"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/sourcegraph91/jobs/4621149004?t=c685479c4us&utm_campaign=sourcegraph-53th-issue&utm_medium=referral&utm_source=remoteprofile.beehiiv.com",
+        "timestamp": "20251118223412",
+        "original": "https://job-boards.greenhouse.io/sourcegraph91/jobs/4621149004?t=c685479c4us&utm_source=remoteprofile.beehiiv.com&utm_medium=referral&utm_campaign=sourcegraph-53th-issue",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "Y7OLBUWI7CXENKUDPVLYMYVBEUPITKZW",
+        "length": "14197"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/sourcegraph91/jobs/5650890004",
+        "timestamp": "20251206180607",
+        "original": "https://job-boards.greenhouse.io/sourcegraph91/jobs/5650890004",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "JCXNVJKZ3BWQ6SY3DFES4SEZECFJHXZT",
+        "length": "24091"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/sourcegraph91/jobs/5650890004?gh_src=redpoint+ventures+job+board&utm_medium=getro.com&utm_source=redpoint+ventures+job+board",
+        "timestamp": "20251109075053",
+        "original": "https://job-boards.greenhouse.io/sourcegraph91/jobs/5650890004?utm_source=Redpoint+Ventures+job+board&utm_medium=getro.com&gh_src=Redpoint+Ventures+job+board",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "OK7EW24VSYSMTYNZ6NFZ37URWVNW4JMB",
+        "length": "24662"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/sourcegraph91/jobs/5657017004",
+        "timestamp": "20251206194614",
+        "original": "https://job-boards.greenhouse.io/sourcegraph91/jobs/5657017004",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "ILGOEKITIAA735PFOKMBADUX6B6ET5MB",
+        "length": "24138"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/sourcegraph91/jobs/5657017004?gh_src=sway+ventures+job+board&utm_medium=getro.com&utm_source=sway+ventures+job+board",
+        "timestamp": "20251106214521",
+        "original": "https://job-boards.greenhouse.io/sourcegraph91/jobs/5657017004?utm_source=Sway+Ventures+job+board&utm_medium=getro.com&gh_src=Sway+Ventures+job+board",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "ORQ24OVF5QEQSACR5NBSSFA4ZUDHR4IN",
+        "length": "24923"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/sourcegraph91/jobs/5657722004",
+        "timestamp": "20251214140453",
+        "original": "https://job-boards.greenhouse.io/sourcegraph91/jobs/5657722004",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "2V46C5LS4TPSNS4T4NHO36SHFXAUZJ3C",
+        "length": "25109"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/sourcegraph91/jobs/5657722004?gh_src=redpoint+ventures+job+board&utm_medium=getro.com&utm_source=redpoint+ventures+job+board",
+        "timestamp": "20251109064536",
+        "original": "https://job-boards.greenhouse.io/sourcegraph91/jobs/5657722004?utm_source=Redpoint+Ventures+job+board&utm_medium=getro.com&gh_src=Redpoint+Ventures+job+board",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "HX53RSODT65KAENCMOI3CT2ETRLZGLAN",
+        "length": "25430"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/sourcegraph91/jobs/5657722004?gh_src=redpoint+ventures+job+board&utm_medium=getro.com&utm_source=redpoint+ventures+job+board",
+        "timestamp": "20251217131943",
+        "original": "https://job-boards.greenhouse.io/sourcegraph91/jobs/5657722004?utm_source=Redpoint+Ventures+job+board&utm_medium=getro.com&gh_src=Redpoint+Ventures+job+board",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "2HPT6HOR4XNUKSZPCPUW7KC6LZX6YTK3",
+        "length": "25229"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/sourcegraph91/jobs/5657722004?gh_src=sway+ventures+job+board&utm_medium=getro.com&utm_source=sway+ventures+job+board",
+        "timestamp": "20251106220122",
+        "original": "https://job-boards.greenhouse.io/sourcegraph91/jobs/5657722004?utm_source=Sway+Ventures+job+board&utm_medium=getro.com&gh_src=Sway+Ventures+job+board",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "AFG7ILPVE4JJ734Y7L7FPWZL2GMGDUGQ",
+        "length": "25436"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/sourcegraph91/jobs/5657722004?gh_src=sway+ventures+job+board&utm_medium=getro.com&utm_source=sway+ventures+job+board",
+        "timestamp": "20251217000128",
+        "original": "https://job-boards.greenhouse.io/sourcegraph91/jobs/5657722004?utm_source=Sway+Ventures+job+board&utm_medium=getro.com&gh_src=Sway+Ventures+job+board",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "MYXAFKXDW4CAERU3YZD4L4SPHXMXMTVQ",
+        "length": "25231"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/sourcegraph91/jobs/5704700004",
+        "timestamp": "20251113134146",
+        "original": "https://job-boards.greenhouse.io/sourcegraph91/jobs/5704700004",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "J3KT3TKBVHYAMEMWLLCHUVH4WTGJ6YTF",
+        "length": "33523"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/sourcegraph91/jobs/5704700004",
+        "timestamp": "20251215151018",
+        "original": "https://job-boards.greenhouse.io/sourcegraph91/jobs/5704700004",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "X7CXUPC44CYFB4D7OU6FKLVMK6AJAXAJ",
+        "length": "23077"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/sourcegraph91/jobs/5738295004",
+        "timestamp": "20260117200928",
+        "original": "https://job-boards.greenhouse.io/sourcegraph91/jobs/5738295004",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "SFBFZMVBWAEN4VNIE5QJGQ3BWGV62NX3",
+        "length": "24494"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/sourcegraph91/jobs/5738295004",
+        "timestamp": "20260227121214",
+        "original": "https://job-boards.greenhouse.io/sourcegraph91/jobs/5738295004",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "NKHPX52FVEFIHDSFY3TNLEOATOLXQJZQ",
+        "length": "37499"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/sourcegraph91/jobs/5738673004",
+        "timestamp": "20260117203913",
+        "original": "https://job-boards.greenhouse.io/sourcegraph91/jobs/5738673004",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "4X4Q2PYD7YR7GLHOYGP6AYBDOJFOVMLS",
+        "length": "24498"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/sourcegraph91/jobs/5754886004",
+        "timestamp": "20260227121214",
+        "original": "https://job-boards.greenhouse.io/sourcegraph91/jobs/5754886004",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "IYLSOTC4DZMF3JNMQ46V3TBEG4B5UVXQ",
+        "length": "36414"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/sourcegraph91/jobs/5763356004",
+        "timestamp": "20260116015556",
+        "original": "https://job-boards.greenhouse.io/sourcegraph91/jobs/5763356004",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "QHRXZARSL7CM36NTI4WGDPYBPAL2ZDUO",
+        "length": "17841"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/sourcegraph91/jobs/5763356004",
+        "timestamp": "20260215114514",
+        "original": "https://job-boards.greenhouse.io/sourcegraph91/jobs/5763356004",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "HWXWPQPRVNRMC45ZHDOW4WACSUFI5TB6",
+        "length": "23186"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/sourcegraph91/jobs/5793604004",
+        "timestamp": "20260314205441",
+        "original": "https://job-boards.greenhouse.io/sourcegraph91/jobs/5793604004",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "HT2TYN4ANREZ6T3TTXUDSV6IXBSJX5OD",
+        "length": "24032"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/sourcegraph91/jobs/5817319004",
+        "timestamp": "20260414155728",
+        "original": "https://job-boards.greenhouse.io/sourcegraph91/jobs/5817319004",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "KO5VLK2XGUJRP5YKNAOJXIQRHSGT4L2B",
+        "length": "37215"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/sourcegraph91/jobs/5822678004",
+        "timestamp": "20260311083346",
+        "original": "https://job-boards.greenhouse.io/sourcegraph91/jobs/5822678004",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "PC7MUEPH66SLAVPDRHPHMPPSWAZAVD26",
+        "length": "18055"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/sourcegraph91/jobs/5822678004",
+        "timestamp": "20260414155728",
+        "original": "https://job-boards.greenhouse.io/sourcegraph91/jobs/5822678004",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "T2536LAKKYGKIMVQ3LOWBSEPEMPP23MU",
+        "length": "37261"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/sourcegraph91/jobs/5823076004",
+        "timestamp": "20260312031327",
+        "original": "https://job-boards.greenhouse.io/sourcegraph91/jobs/5823076004",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "QYNWQR5X6VJEQZVRFWCYOUQKKTNXKQ2B",
+        "length": "37207"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/sourcegraph91/jobs/5823076004",
+        "timestamp": "20260414155728",
+        "original": "https://job-boards.greenhouse.io/sourcegraph91/jobs/5823076004",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "YADKHEQAV7YF36SUXERXWGRORGOKXQGD",
+        "length": "37115"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/sourcegraph91/jobs/5823076004?gh_src=redpoint+ventures+job+board&utm_medium=getro.com&utm_source=redpoint+ventures+job+board",
+        "timestamp": "20260520075915",
+        "original": "https://job-boards.greenhouse.io/sourcegraph91/jobs/5823076004?utm_source=Redpoint+Ventures+job+board&utm_medium=getro.com&gh_src=Redpoint+Ventures+job+board",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "IJEOSW7XB4UHZEAOHXXASNH3KJUVLTEB",
+        "length": "23235"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/sourcegraph91/jobs/5855148004",
+        "timestamp": "20260410184103",
+        "original": "https://job-boards.greenhouse.io/sourcegraph91/jobs/5855148004",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "VHFLD2ATZ2GLUXSCDM5TI7QY2EKXSLKT",
+        "length": "37686"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/sourcegraph91/jobs/5855148004",
+        "timestamp": "20260520094943",
+        "original": "https://job-boards.greenhouse.io/sourcegraph91/jobs/5855148004",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "35HD6ZTZGRRE3NNVZQB33VTLON5JWROT",
+        "length": "24274"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/sourcegraph91/jobs/5855148004",
+        "timestamp": "20260605013724",
+        "original": "https://job-boards.greenhouse.io/sourcegraph91/jobs/5855148004",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "JUNUL45EEZYQF34RTDBXQZAOE6LEDGSU",
+        "length": "37656"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/sourcegraph91/jobs/5855148004?gh_src=bv29pk6p4us",
+        "timestamp": "20260410181047",
+        "original": "https://job-boards.greenhouse.io/sourcegraph91/jobs/5855148004?gh_src=bv29pk6p4us",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "NQBM5RBD6WIYGPG3N2HAQUSQP7FXONYY",
+        "length": "18083"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/sourcegraph91/jobs/5855148004?gh_src=c685479c4us",
+        "timestamp": "20260611234738",
+        "original": "https://job-boards.greenhouse.io/sourcegraph91/jobs/5855148004?gh_src=c685479c4us",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "V2WJ5F5ZZPTOHKS5P2BOWZYT3CO7U2OO",
+        "length": "24305"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/sourcegraph91/jobs/5973064004",
+        "timestamp": "20260520101217",
+        "original": "https://job-boards.greenhouse.io/sourcegraph91/jobs/5973064004",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "VA5SXDWEG7BKMNSHNHTEZMXBUNU6V7UM",
+        "length": "23177"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/sourcegraph91/jobs/5973064004",
+        "timestamp": "20260605013724",
+        "original": "https://job-boards.greenhouse.io/sourcegraph91/jobs/5973064004",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "SBND4RWTUKUEAOLIGGV434YDGHSCSHPW",
+        "length": "38132"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/sourcegraph91/jobs/5973079004",
+        "timestamp": "20260520094517",
+        "original": "https://job-boards.greenhouse.io/sourcegraph91/jobs/5973079004",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "NAF4332RX72TUPMODU5NKXTHWUHRCJ4X",
+        "length": "25426"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/sourcegraph91/jobs/5989776004",
+        "timestamp": "20260605013724",
+        "original": "https://job-boards.greenhouse.io/sourcegraph91/jobs/5989776004",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "W4JBLTICDX3J6LEXWQXFW53WLZC4B76D",
+        "length": "41394"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/sourcegraph91/jobs/5989776004",
+        "timestamp": "20260708114103",
+        "original": "https://job-boards.greenhouse.io/sourcegraph91/jobs/5989776004",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "4IAA2LKU4VT7NNCICCO6MZMZVRYDCQJI",
+        "length": "41408"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/sourcegraph91/jobs/5996434004",
+        "timestamp": "20260605013724",
+        "original": "https://job-boards.greenhouse.io/sourcegraph91/jobs/5996434004",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "LXXDDXONPU5VCF5AS76USCSLP4Y7ZQ2N",
+        "length": "36924"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/sourcegraph91/jobs/5996434004",
+        "timestamp": "20260708114103",
+        "original": "https://job-boards.greenhouse.io/sourcegraph91/jobs/5996434004",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "6DR4DP5STFL562UV3UX5725WA6S2P3LJ",
+        "length": "37036"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/sourcegraph91/jobs/5996694004",
+        "timestamp": "20260605013724",
+        "original": "https://job-boards.greenhouse.io/sourcegraph91/jobs/5996694004",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "JQHBASIW3U6H7NLG6XQ7B6R65CRG4WDC",
+        "length": "36962"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/sourcegraph91/jobs/5996694004",
+        "timestamp": "20260708114103",
+        "original": "https://job-boards.greenhouse.io/sourcegraph91/jobs/5996694004",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "PJ2UHAHKAUBGTDWFMPND56QSVX3O4TKV",
+        "length": "36838"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/sourcegraph91/jobs/6007621004",
+        "timestamp": "20260805091452",
+        "original": "https://job-boards.greenhouse.io/sourcegraph91/jobs/6007621004",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "IKRT57EYINP3GTWNCJLQNFVIMBTJXMQI",
+        "length": "37113"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/sourcegraph91/jobs/6007621004",
+        "timestamp": "20260915052009",
+        "original": "https://job-boards.greenhouse.io/sourcegraph91/jobs/6007621004",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "RPINBJRHSU7POFVAZRXAZA4YMMHBZXQ5",
+        "length": "38234"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/sourcegraph91/jobs/6007621004?gh_src=0572f98b4us",
+        "timestamp": "20260805091449",
+        "original": "https://job-boards.greenhouse.io/sourcegraph91/jobs/6007621004?gh_src=0572f98b4us",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "2UYFCOXD6CFVDIVKEBW7H3DLZC4OQPR4",
+        "length": "37141"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/sourcegraph91/jobs/6007621004?gh_src=0572f98b4us",
+        "timestamp": "20260902110051",
+        "original": "https://job-boards.greenhouse.io/sourcegraph91/jobs/6007621004?gh_src=0572f98b4us",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "PYMC3IZXDQM6NI2EHPBKOJ37QDRHL27C",
+        "length": "35891"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/sourcegraph91/jobs/6007621004?gh_src=c685479c4us",
+        "timestamp": "20260811074736",
+        "original": "https://job-boards.greenhouse.io/sourcegraph91/jobs/6007621004?gh_src=c685479c4us",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "2PMGV4235ZTC26YC2SYWEHQNXUP2GSZW",
+        "length": "23397"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/sourcegraph91/jobs/6007967004",
+        "timestamp": "20260605013724",
+        "original": "https://job-boards.greenhouse.io/sourcegraph91/jobs/6007967004",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "Y6ECF3C6RQ2RSBSRYFLG4WRCJCWHUZSF",
+        "length": "37571"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/sourcegraph91/jobs/6007967004",
+        "timestamp": "20260708114103",
+        "original": "https://job-boards.greenhouse.io/sourcegraph91/jobs/6007967004",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "EJ3I3Q5TDETE7ROGTMGJ2DTVPZLFIHNE",
+        "length": "37582"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/sourcegraph91/jobs/6007967004",
+        "timestamp": "20260805092918",
+        "original": "https://job-boards.greenhouse.io/sourcegraph91/jobs/6007967004",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "4FN66JVIILC2ZJX4ALYQXNX4JWT3OCSV",
+        "length": "36473"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/sourcegraph91/jobs/6007967004?gh_src=0572f98b4us",
+        "timestamp": "20260902110046",
+        "original": "https://job-boards.greenhouse.io/sourcegraph91/jobs/6007967004?gh_src=0572f98b4us",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "KFBCMSR4UGRVGF6N5HHACYSHEU6IDDUU",
+        "length": "36814"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/sourcegraph91/jobs/6103566004",
+        "timestamp": "20260708114103",
+        "original": "https://job-boards.greenhouse.io/sourcegraph91/jobs/6103566004",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "BUFENG2MVEPRROZQP6FQS3L5NAVK5LO2",
+        "length": "40164"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/sourcegraph91/jobs/6103567004",
+        "timestamp": "20260805091450",
+        "original": "https://job-boards.greenhouse.io/sourcegraph91/jobs/6103567004",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "F3OO2KSQS53UQQBGLLVNZGP3CVSZAUTW",
+        "length": "42797"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/sourcegraph91/jobs/6103567004?gh_src=0572f98b4us",
+        "timestamp": "20260902110036",
+        "original": "https://job-boards.greenhouse.io/sourcegraph91/jobs/6103567004?gh_src=0572f98b4us",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "QZUVS5QUJ6NN6XZE5BI5757E5QHKNEUG",
+        "length": "41427"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/sourcegraph91/jobs/6103568004",
+        "timestamp": "20260708114103",
+        "original": "https://job-boards.greenhouse.io/sourcegraph91/jobs/6103568004",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "K3FNN6JBUCKEYNNWOBS5VBLG5JR6PNLT",
+        "length": "40265"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/sourcegraph91/jobs/6103568004",
+        "timestamp": "20260812100329",
+        "original": "https://job-boards.greenhouse.io/sourcegraph91/jobs/6103568004",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "4B6PSNAFNDWVIMHM3UD36U5R64AOHII2",
+        "length": "40624"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/sourcegraph91/jobs/6103568004",
+        "timestamp": "20260915052010",
+        "original": "https://job-boards.greenhouse.io/sourcegraph91/jobs/6103568004",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "AP7CFT4RGLAQCHUOVIVVZGXMS5X4VYQR",
+        "length": "41943"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/sourcegraph91/jobs/6103568004?gh_src=0572f98b4us",
+        "timestamp": "20260805091449",
+        "original": "https://job-boards.greenhouse.io/sourcegraph91/jobs/6103568004?gh_src=0572f98b4us",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "N4TIGAG7EQTGXN7IEVOSZNVJ3L5I7LX7",
+        "length": "40653"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/sourcegraph91/jobs/6103568004?gh_src=0572f98b4us",
+        "timestamp": "20260902110130",
+        "original": "https://job-boards.greenhouse.io/sourcegraph91/jobs/6103568004?gh_src=0572f98b4us",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "M4B6ITU34TAERXQEBK7LVFETAZLDQG2A",
+        "length": "39670"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/sourcegraph91/jobs/6103568004?utm_source=otta",
+        "timestamp": "20260720144248",
+        "original": "https://job-boards.greenhouse.io/sourcegraph91/jobs/6103568004?utm_source=Otta",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "7RAPGCNYYLAVDM2NZTTCYE2DXRLYSQGL",
+        "length": "40626"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/sourcegraph91/jobs/6103628004",
+        "timestamp": "20260805091450",
+        "original": "https://job-boards.greenhouse.io/sourcegraph91/jobs/6103628004",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "EUG4XMLT4WN6RS2GD7F6EKWDPMF2P5S2",
+        "length": "37971"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/sourcegraph91/jobs/6103628004",
+        "timestamp": "20260915052010",
+        "original": "https://job-boards.greenhouse.io/sourcegraph91/jobs/6103628004",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "KEQW5LYIRQW7MMH4JAUNM7TTNKKUYC66",
+        "length": "39128"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/sourcegraph91/jobs/6103628004",
+        "timestamp": "20261004115714",
+        "original": "https://job-boards.greenhouse.io/sourcegraph91/jobs/6103628004",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "6JVM7I2ALQGF23IWQDSXUU3X5DCJ7W2L",
+        "length": "37490"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/sourcegraph91/jobs/6103628004?gh_src=0572f98b4us",
+        "timestamp": "20260805091449",
+        "original": "https://job-boards.greenhouse.io/sourcegraph91/jobs/6103628004?gh_src=0572f98b4us",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "UGZ7DE3KBNUTHZJQP4LF25RDA4NECTWM",
+        "length": "38097"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/sourcegraph91/jobs/6103628004?gh_src=0572f98b4us",
+        "timestamp": "20260902110152",
+        "original": "https://job-boards.greenhouse.io/sourcegraph91/jobs/6103628004?gh_src=0572f98b4us",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "XC7EHVITZ7SYH5B4QAD2IQYG5EJK3OM4",
+        "length": "36778"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/sourcegraph91/jobs/6103628004?gh_src=0572f98b4us",
+        "timestamp": "20261002165929",
+        "original": "https://job-boards.greenhouse.io/sourcegraph91/jobs/6103628004?gh_src=0572f98b4us",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "IU64JP3LMPPFO3B2Y2GAFYZDAUJNUQTC",
+        "length": "37539"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/sourcegraph91/jobs/6103628004?gh_src=0cd0575f4us",
+        "timestamp": "20260805184131",
+        "original": "https://job-boards.greenhouse.io/sourcegraph91/jobs/6103628004?gh_src=0cd0575f4us",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "DYRQ25VSQA5PMDBJEZXJO6TOCC7H7EGT",
+        "length": "36692"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/sourcegraph91/jobs/6113147004",
+        "timestamp": "20260915052010",
+        "original": "https://job-boards.greenhouse.io/sourcegraph91/jobs/6113147004",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "HKKGTPJ3WBBBJHLE5GAMBOOPVDOAU3VD",
+        "length": "41235"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/sourcegraph91/jobs/6113147004",
+        "timestamp": "20261023190745",
+        "original": "https://job-boards.greenhouse.io/sourcegraph91/jobs/6113147004",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "DLNFX3XRBM6XIL4YPZABG3RGR5OAKESV",
+        "length": "41348"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/sourcegraph91/jobs/6113147004?gh_src=0572f98b4us",
+        "timestamp": "20260805091449",
+        "original": "https://job-boards.greenhouse.io/sourcegraph91/jobs/6113147004?gh_src=0572f98b4us",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "OOHVSGR74NO7SM7A4OAZW57JOBQ7G2KR",
+        "length": "40380"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/sourcegraph91/jobs/6113147004?gh_src=0572f98b4us",
+        "timestamp": "20260902110049",
+        "original": "https://job-boards.greenhouse.io/sourcegraph91/jobs/6113147004?gh_src=0572f98b4us",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "I7WP35ECP7BB7UYDIQG2QOGLMKNJBWNJ",
+        "length": "38911"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/sourcegraph91/jobs/6113147004?gh_src=0572f98b4us",
+        "timestamp": "20261002170018",
+        "original": "https://job-boards.greenhouse.io/sourcegraph91/jobs/6113147004?gh_src=0572f98b4us",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "R6TN6DNOEXT3GSWWWKRKR5KAI47XMVDP",
+        "length": "39679"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/sourcegraph91/jobs/6132206004",
+        "timestamp": "20260805091450",
+        "original": "https://job-boards.greenhouse.io/sourcegraph91/jobs/6132206004",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "M3IJRGKV2BZRIWYMREQGWBUOOGD6BYT7",
+        "length": "39681"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/sourcegraph91/jobs/6132206004",
+        "timestamp": "20260915052010",
+        "original": "https://job-boards.greenhouse.io/sourcegraph91/jobs/6132206004",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "WUD2ND2PVNH76U7EWLNV2AGL3QLLQ6JD",
+        "length": "40347"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/sourcegraph91/jobs/6132206004",
+        "timestamp": "20261023190745",
+        "original": "https://job-boards.greenhouse.io/sourcegraph91/jobs/6132206004",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "QJRAEW3V2I3ZCFG6NNMAR6L7SIESWVLH",
+        "length": "40288"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/sourcegraph91/jobs/6132206004?gh_src=0572f98b4us",
+        "timestamp": "20260805091449",
+        "original": "https://job-boards.greenhouse.io/sourcegraph91/jobs/6132206004?gh_src=0572f98b4us",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "3QVZPDIA7RBA5YS23TG2WI6YU5IF5GKF",
+        "length": "39624"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/sourcegraph91/jobs/6132206004?gh_src=0572f98b4us",
+        "timestamp": "20260902110037",
+        "original": "https://job-boards.greenhouse.io/sourcegraph91/jobs/6132206004?gh_src=0572f98b4us",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "PTZX53WYSP46XFIDS4PSF4C3ZQC2B6OD",
+        "length": "38032"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/sourcegraph91/jobs/6132206004?gh_src=0572f98b4us",
+        "timestamp": "20261002165919",
+        "original": "https://job-boards.greenhouse.io/sourcegraph91/jobs/6132206004?gh_src=0572f98b4us",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "W36LAEUVRZS6V53LR7Y5735AOO35VILC",
+        "length": "38742"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/sourcegraph91/jobs/6146485004",
+        "timestamp": "20260915052010",
+        "original": "https://job-boards.greenhouse.io/sourcegraph91/jobs/6146485004",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "HXJV3WC5BDLQYLQURAGNMC4JX7RUVZIR",
+        "length": "41553"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/sourcegraph91/jobs/6146485004?gh_src=0572f98b4us",
+        "timestamp": "20261002165927",
+        "original": "https://job-boards.greenhouse.io/sourcegraph91/jobs/6146485004?gh_src=0572f98b4us",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "XRAUIGS7BLH5XBTWGCWB5DFWVAMC3RTV",
+        "length": "40003"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/sourcegraph91/jobs/6185008004",
+        "timestamp": "20260915052009",
+        "original": "https://job-boards.greenhouse.io/sourcegraph91/jobs/6185008004",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "ICY3XM6THNR7VURRRZ2HFXA3MK6VLO7W",
+        "length": "44190"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/sourcegraph91/jobs/6185008004",
+        "timestamp": "20261012174925",
+        "original": "https://job-boards.greenhouse.io/sourcegraph91/jobs/6185008004",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "T4J33KQSDXYVQHERKH45XDIFIJRSTUFV",
+        "length": "44530"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/sourcegraph91/jobs/6194803004",
+        "timestamp": "20260924212320",
+        "original": "https://job-boards.greenhouse.io/sourcegraph91/jobs/6194803004",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "PVZEKS6GSSLWWWYRZ6FXTOEQS4QJHOJP",
+        "length": "42958"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/sourcegraph91/jobs/6194803004?gh_src=0572f98b4us",
+        "timestamp": "20261002165931",
+        "original": "https://job-boards.greenhouse.io/sourcegraph91/jobs/6194803004?gh_src=0572f98b4us",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "PKT7D6MATBXY4UMH5AN46RWNGHXNUS26",
+        "length": "41476"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/sourcegraph91/jobs/6195145004",
+        "timestamp": "20261104162826",
+        "original": "https://job-boards.greenhouse.io/sourcegraph91/jobs/6195145004",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "ZBWUKWO3AF4WX5GQT3AZBRQTOQC6F6V7",
+        "length": "40505"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/sourcegraph91/jobs/6207297004",
+        "timestamp": "20261004115738",
+        "original": "https://job-boards.greenhouse.io/sourcegraph91/jobs/6207297004",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "4REYZM2WOEHCI7LGZTTLCIUAYZKLAU7W",
+        "length": "34683"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/sourcegraph91?error=true",
+        "timestamp": "20251108034532",
+        "original": "https://job-boards.greenhouse.io/sourcegraph91?error=true",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "DFZFU7CRWRH7X5LHZYK2IPT4RYXQLLIX",
+        "length": "26749"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/sourcegraph91?error=true",
+        "timestamp": "20251203235040",
+        "original": "https://job-boards.greenhouse.io/sourcegraph91?error=true",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "PBHWEA7VCLULTXCOKFW77ECT3SY6ZTCW",
+        "length": "23270"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/sourcegraph91?error=true",
+        "timestamp": "20260113004238",
+        "original": "https://job-boards.greenhouse.io/sourcegraph91?error=true",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "7CLRPNVQZXPBP2ECIXUNLSN5DSHODKM3",
+        "length": "15436"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/sourcegraph91?error=true",
+        "timestamp": "20260202182958",
+        "original": "https://job-boards.greenhouse.io/sourcegraph91?error=true",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "CX7CJUQFYCFRFCUISPEV5JOBUFJL3NNR",
+        "length": "21718"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/sourcegraph91?error=true",
+        "timestamp": "20260306143424",
+        "original": "https://job-boards.greenhouse.io/sourcegraph91?error=true",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "YLCBHCVF2VBSBDQ7XTC2NUT5HLWUDCQF",
+        "length": "20818"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/sourcegraph91?error=true",
+        "timestamp": "20260410101852",
+        "original": "https://job-boards.greenhouse.io/sourcegraph91?error=true",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "HUCFS3YC2OVRRLSCUN6IEUMDT55LVULS",
+        "length": "8888"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/sourcegraph91?error=true",
+        "timestamp": "20260511111021",
+        "original": "https://job-boards.greenhouse.io/sourcegraph91?error=true",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "YGF3DRIYNZXHNML5TGNKWB4RBIHIEXSZ",
+        "length": "9003"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/sourcegraph91?error=true",
+        "timestamp": "20260607232757",
+        "original": "https://job-boards.greenhouse.io/sourcegraph91?error=true",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "77746Z6QIYE4ZRUWWQEZSEWQSN76WWZO",
+        "length": "9124"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/sourcegraph91?error=true",
+        "timestamp": "20260714033109",
+        "original": "https://job-boards.greenhouse.io/sourcegraph91?error=true",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "7YNLXYTYOU47FH2KUXTPOI64BCF4Q4LR",
+        "length": "9247"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/sourcegraph91?error=true",
+        "timestamp": "20260810010257",
+        "original": "https://job-boards.greenhouse.io/sourcegraph91?error=true",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "JUAE7QO5ENOBJSD7HX36P5COHZSCSGAE",
+        "length": "9228"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/sourcegraph91?error=true",
+        "timestamp": "20261006015506",
+        "original": "https://job-boards.greenhouse.io/sourcegraph91?error=true",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "VVJEZIIIBBUABYOYSGMCHKOVH76UTSJA",
+        "length": "8284"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/sourcegraph91?gh_src=0572f98b4us",
+        "timestamp": "20260805091438",
+        "original": "https://job-boards.greenhouse.io/sourcegraph91?gh_src=0572f98b4us",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "Y4TIHD2PATSLWCIWQ4HS4F3CZ4QXTLS7",
+        "length": "13340"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/sourcegraph91?gh_src=0572f98b4us",
+        "timestamp": "20260902110020",
+        "original": "https://job-boards.greenhouse.io/sourcegraph91?gh_src=0572f98b4us",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "M6VQFJDAAV5MUNBTI63GLAR5URY3O746",
+        "length": "13364"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/sourcegraph91?gh_src=0572f98b4us",
+        "timestamp": "20261002165904",
+        "original": "https://job-boards.greenhouse.io/sourcegraph91?gh_src=0572f98b4us",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "GPPCK2S46JJEAIRSUPZSGUILV2VJB7RR",
+        "length": "13519"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/sourcegraph91?gh_src=0cd0575f4us",
+        "timestamp": "20260805184143",
+        "original": "https://job-boards.greenhouse.io/sourcegraph91?gh_src=0cd0575f4us",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "A553LNPWGLHNZNWKX6YBUIMP6BBWBYXJ",
+        "length": "13447"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/sourcegraph91?gh_src=coatue+management+job+board",
+        "timestamp": "20251209180340",
+        "original": "https://job-boards.greenhouse.io/sourcegraph91?gh_src=Coatue+Management+job+board",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "L5QHJABEWYERVQ6JI2QQDFN75ZOJRPIR",
+        "length": "20737"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/sourcegraph91?gh_src=redpoint+ventures+job+board",
+        "timestamp": "20260609025341",
+        "original": "https://job-boards.greenhouse.io/sourcegraph91?gh_src=Redpoint+Ventures+job+board",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "I3HBJC6GUAUGFX27QAP5D776IZS7RAEA",
+        "length": "9194"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/sourcegraph91?gh_src=sway+ventures+job+board",
+        "timestamp": "20251213014055",
+        "original": "https://job-boards.greenhouse.io/sourcegraph91?gh_src=Sway+Ventures+job+board",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "J6OKNRFJ55QUL3NVPPGWO3OCBN2Z435C",
+        "length": "16180"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/sourcegraph91\\",
+        "timestamp": "20260227121214",
+        "original": "https://job-boards.greenhouse.io/sourcegraph91%5C",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "QDMPOM4CJ5WBLCJVPQVMCS5JPI7LWUWD",
+        "length": "23948"
+      }
+    ]
+  },
+  {
+    "company_id": "deepset",
+    "target_url": "https://jobs.ashbyhq.com/deepsetai/*",
+    "observed_at": "2026-11-21T10:12:48.499087+00:00",
+    "http_status": 200,
+    "response_url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fjobs.ashbyhq.com%2Fdeepsetai%2F%2A&output=json&filter=statuscode%3A200&collapse=timestamp%3A6&from=20251101&to=20261121&limit=250",
+    "file": "sources/deepset-alternate-cdx.json",
+    "sha256": "faa9125b5d196f33703a5e4e0947d63dbe14718e0c6da59a5a4c2d0ff3a2249d",
+    "captures": [
+      {
+        "urlkey": "com,ashbyhq,jobs)/deepsetai",
+        "timestamp": "20260722013843",
+        "original": "https://jobs.ashbyhq.com/deepsetai",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "H4Y6IHOVNOWDJAKVY7OA5G3Y72OUNCZH",
+        "length": "5342"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/deepsetai/0b4ad7b5-81b0-4731-8912-2af24876b407",
+        "timestamp": "20261117192101",
+        "original": "https://jobs.ashbyhq.com/deepsetai/0b4ad7b5-81b0-4731-8912-2af24876b407",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "GXFXN7NQPKYSAYDPKGI5M2OC53VRRMVL",
+        "length": "8585"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/deepsetai/259a197f-0fb1-4ac2-bb6c-764a0484c508",
+        "timestamp": "20260819115601",
+        "original": "https://jobs.ashbyhq.com/deepsetai/259a197f-0fb1-4ac2-bb6c-764a0484c508",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "2KTDKMCNGXRLLZLONZHAC4GU5FFTCG6C",
+        "length": "8428"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/deepsetai/4b3ac2c7-f963-42eb-8b0a-548eed9c82f3",
+        "timestamp": "20261008172746",
+        "original": "https://jobs.ashbyhq.com/deepsetai/4b3ac2c7-f963-42eb-8b0a-548eed9c82f3",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "NBOXY3YNGXMQMH77WTYY4YA3IC4HVHI5",
+        "length": "6783"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/deepsetai/64ae158e-76ed-43b9-8f19-d709bd2231ee",
+        "timestamp": "20260819115601",
+        "original": "https://jobs.ashbyhq.com/deepsetai/64ae158e-76ed-43b9-8f19-d709bd2231ee",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "B44S27POLCXMSZOROHX7NDFLMN6MSVST",
+        "length": "9639"
+      }
+    ]
+  },
+  {
+    "company_id": "crewai",
+    "target_url": "https://apply.workable.com/api/v1/widget/accounts/crewai*",
+    "observed_at": "2026-11-21T10:12:48.499165+00:00",
+    "http_status": 200,
+    "response_url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fapply.workable.com%2Fapi%2Fv1%2Fwidget%2Faccounts%2Fcrewai%2A&output=json&filter=statuscode%3A200&collapse=timestamp%3A6&from=20251101&to=20261121&limit=250",
+    "file": "sources/crewai-alternate-cdx.json",
+    "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "captures": []
+  }
+]

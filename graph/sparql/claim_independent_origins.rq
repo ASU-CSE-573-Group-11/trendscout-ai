@@ -1,0 +1,17 @@
+PREFIX ts: <https://example.org/trendscout/>
+
+# Bind ?companyId, ?state, and ?minimumOrigins at execution time.
+SELECT ?claim (COUNT(DISTINCT ?originClusterId) AS ?independentOrigins)
+WHERE {
+  ?record a ts:SourceRecord ;
+          ts:about ?startup ;
+          ts:supports ?claim ;
+          ts:originClusterId ?originClusterId .
+  ?startup a ts:Startup ;
+           ts:companyId ?companyId .
+  ?claim a ts:Claim ;
+         ts:state ?state .
+}
+GROUP BY ?claim
+HAVING (COUNT(DISTINCT ?originClusterId) >= ?minimumOrigins)
+ORDER BY ?claim

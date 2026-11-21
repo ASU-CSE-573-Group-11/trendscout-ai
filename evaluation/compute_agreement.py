@@ -32,7 +32,9 @@ def cohen_kappa(first: Mapping[str, str], second: Mapping[str, str]) -> tuple[fl
         (first_counts[label] / n) * (second_counts[label] / n)
         for label in labels
     )
-    kappa = 1.0 if chance_agreement == 1.0 else (observed_agreement - chance_agreement) / (1.0 - chance_agreement)
+    if chance_agreement == 1.0:
+        raise ValueError("Cohen's kappa is undefined for a single shared category")
+    kappa = (observed_agreement - chance_agreement) / (1.0 - chance_agreement)
     return kappa, n
 
 
@@ -40,11 +42,16 @@ def load_annotations(path: Path) -> Mapping[str, str]:
     if not path.exists():
         raise ValueError(f"annotator file not found: {path}")
     payload = json.loads(path.read_text(encoding="utf-8"))
+    if (payload.get("not_human_annotation") is True
+            or payload.get("independent_human_kappa_eligible") is False):
+        raise ValueError(f"{path} is explicitly marked ineligible for independent human agreement")
     if payload.get("status") != "complete":
         raise ValueError(f"{path} is not marked complete")
     annotations = payload.get("annotations")
     if not isinstance(annotations, dict):
         raise ValueError(f"{path} must contain an 'annotations' object")
+    if any(not isinstance(label, str) or not label.strip() for label in annotations.values()):
+        raise ValueError(f"{path} contains empty or invalid labels")
     return {str(item): str(label) for item, label in annotations.items()}
 
 
@@ -58,7 +65,10 @@ def build_parser() -> argparse.ArgumentParser:
 def main(argv: Sequence[str] | None = None) -> int:
     args = build_parser().parse_args(argv)
     try:
-        kappa, count = cohen_kappa(load_annotations(args.first), load_annotations(args.second))
+        first, second = load_annotations(args.first), load_annotations(args.second)
+        if set(first) != set(second) or len(first) < 100:
+            raise ValueError("100+ shared items with identical item sets are required")
+        kappa, count = cohen_kappa(first, second)
     except ValueError as exc:
         print(f"Cannot compute Cohen's kappa: {exc}")
         print("Fill both annotator JSON files with the same item_id keys, then rerun.")

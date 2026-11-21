@@ -1,0 +1,9 @@
+{
+  "modal": {
+    "github_repos": ["https://github.com/modal-labs/modal-client"],
+    "previous_repository": "https://github.com/modal-labs/modal",
+    "reason": "The frozen repository was unavailable. The company's own SDK documentation identifies modal-client as its SDK repository. This source revision preserves the frozen company cohort and does not modify earlier studies.",
+    "source_url": "https://modal.com/docs/sdk/go/latest/intro",
+    "reviewed_on": "2026-11-21"
+  }
+}

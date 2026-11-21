@@ -1,0 +1,32 @@
+{
+  "checked_at": "2026-11-21T07:24:18Z",
+  "repository": "ASU-CSE-573-Group-11/trendscout-ai",
+  "visibility": "private",
+  "default_branch": "main",
+  "method": "Read-only authenticated GitHub CLI API calls",
+  "collaborators": [
+    {
+      "login": "VidyasagarDudekula",
+      "role": "write"
+    },
+    {
+      "login": "SuedaSen",
+      "role": "admin"
+    },
+    {
+      "login": "mcaksit",
+      "role": "admin"
+    },
+    {
+      "login": "EroNinja",
+      "role": "write"
+    }
+  ],
+  "branch_protection": {
+    "http_status": 403,
+    "api_message": "Upgrade to GitHub Pro or make this repository public to enable this feature.",
+    "enforcement_verified": false
+  },
+  "changes_made_to_github": false,
+  "scope": "Visibility, collaborator roles and branch-protection API response. Organization-owner implicit access was not audited."
+}

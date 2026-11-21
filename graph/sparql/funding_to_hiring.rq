@@ -1,0 +1,22 @@
+PREFIX ts: <https://example.org/trendscout/>
+
+# Bind ?companyId, ?fundedFrom, ?fundedTo, ?jobObservedFrom, and
+# ?jobObservedTo at execution time. This returns observations, not completed
+# hires or a causal effect of funding.
+SELECT ?investor ?round ?fundedAt ?posting ?jobObservedAt
+WHERE {
+  ?startup a ts:Startup ;
+           ts:companyId ?companyId ;
+           ts:hasJobPosting ?posting .
+  ?round a ts:FundingRound ;
+         ts:fundingOf ?startup ;
+         ts:eventAt ?fundedAt .
+  ?investor a ts:Investor ;
+            ts:participatedIn ?round .
+  ?posting a ts:JobPosting ;
+           ts:observedAt ?jobObservedAt .
+  FILTER (?fundedAt >= ?fundedFrom && ?fundedAt < ?fundedTo)
+  FILTER (?jobObservedAt >= ?jobObservedFrom && ?jobObservedAt < ?jobObservedTo)
+  FILTER (?jobObservedAt >= ?fundedAt)
+}
+ORDER BY ?fundedAt ?jobObservedAt ?investor ?posting

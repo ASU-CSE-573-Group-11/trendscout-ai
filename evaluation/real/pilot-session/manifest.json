@@ -1,0 +1,9 @@
+{
+  "prepared_at": "2026-11-21T07:19:56Z",
+  "protocol_sha256": "17de0d90dd120a310e36dad63a4aae058ae2c40a1366f13b616135820b84c3b1",
+  "answers_sha256": "3ac1895a9e761afe8d67d3c1364f1df80318b28dba16bf5a8b0f1837fa2931bd",
+  "assignments_sha256": "2f70ea8dbf874771c5acf322017200b8942a6fa65bee937d94cf13e0175970e8",
+  "stimuli_sha256": "d4afc9f818abfd728ff8ef691eac1197c8eef3b912790fb169721bb584b9d0cc",
+  "participants_planned": 5,
+  "randomization_scope": "Condition blocks and task order only."
+}

@@ -1,0 +1,29 @@
+{
+  "checked_at": "2026-11-21T20:26:22Z",
+  "command": ".venv/bin/python -m pytest -q --junitxml=artifacts/submission-tests-real-graph-demo.xml",
+  "counts": {
+    "tests": 497,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 1
+  },
+  "passed": 496,
+  "scope": "Software tests. Final pilot scores assess only observed fields.",
+  "browser_smoke_check": {
+    "status": "passed",
+    "evidence": "evaluation/browser-observations/llamaindex-2026-11-21/manifest.json",
+    "scope": "Actual isolated headless Chrome collection; three rendered listing entries match current raw official HTML."
+  },
+  "review_ui_browser_check": {
+    "status": "passed_read_only",
+    "evidence": "artifacts/independent-review-console.png",
+    "study_decisions_submitted": 0,
+    "verified": "Source visible, readable candidate, no label preselection, personal confirmation unchecked."
+  },
+  "latest_targeted_check": {
+    "command": ".venv/bin/python -m pytest tests/test_real_graph_demo.py tests/test_real_graph_integration.py tests/test_cypher.py -q",
+    "passed": 11,
+    "failed": 0,
+    "scope": "Offline graph demo summaries, live/offline parity artifact, real semantic projection replay and complete-payload Cypher generation."
+  }
+}

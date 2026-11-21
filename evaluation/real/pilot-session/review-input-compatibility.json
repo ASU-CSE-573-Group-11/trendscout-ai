@@ -1,0 +1,11 @@
+{
+  "status": "metadata_only_change_verified",
+  "verified_at": "2026-11-21T09:24:36Z",
+  "reviewed_responses_sha256": "fad841d05b3383a9962e6c9ecb25e029a6f43dfca1f00fca5a788a410c66d4e2",
+  "current_responses_sha256": "84eb5d91585943106b346c3597b3bbe54df7652ac779cf533b062c409d32de8e",
+  "changed_fields": [
+    "grading_status"
+  ],
+  "participant_answers_and_measurements_identical": true,
+  "reviewed_snapshot": "reviewed-responses.snapshot.json"
+}

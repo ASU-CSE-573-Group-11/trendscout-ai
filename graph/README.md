@@ -31,6 +31,13 @@ The constraints must be applied before loading records. SHACL validation remains
 an explicit step after RDF export; the repository does not require a live
 Neo4j server or SHACL engine for its unit tests.
 
+The expanded ontology declares startup, investor, funding-round, public-voice,
+product, technology, skill, job-posting, and repository concepts with explicit
+property domains and ranges. Five independently executable SPARQL 1.1
+competency queries are in [`sparql/`](./sparql/README.md). Tests parse every
+query and execute representative provenance, funding-to-listing, and
+technology/skill paths against an in-memory RDF graph.
+
 ## Live Neo4j loader
 
 Start the local Community Edition database:
@@ -52,6 +59,31 @@ To load claim/evidence projections too:
 python -m graph.neo4j artifacts/collectors/RUN_ID/records.jsonl \
   --evidence artifacts/evidence.jsonl
 ```
+
+To load the complete real semantic graph (claims, investors, funding rounds,
+public job listings, repositories, skills, and technologies):
+
+```bash
+python -m graph.neo4j \
+  --graph-payload evaluation/mixed/real-graph-integration/graph.json
+```
+
+The complete-payload loader applies the same constraints, uses parameterized
+Cypher for every node and edge, and reports database label counts after import.
+The checked-in payload is independently replayed from the frozen mixed records
+with `python -m evaluation.real_graph_integration check`.
+
+Run the deterministic demo offline, or compare it with the exact payload stored
+in the local Neo4j database:
+
+```bash
+python -m evaluation.real_graph_demo
+python -m evaluation.real_graph_demo --live
+```
+
+The demo reports per-company observed claims, funding announcements, public job
+postings, repositories, skills, and technologies. Its output explicitly avoids
+converting listings into hires or temporal co-occurrence into causality.
 
 The loader applies `constraints.cypher`, executes the parameterized import
 statements, and verifies the `SourceRecord` node count. Override the local

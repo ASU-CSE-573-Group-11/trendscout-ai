@@ -1,0 +1,966 @@
+[
+  {
+    "company_id": "arize",
+    "observed_at": "2026-11-21T10:18:38.231361+00:00",
+    "url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fjob-boards.greenhouse.io%2Farizeai%2A&output=json&filter=statuscode%3A200&collapse=timestamp%3A6&from=20251101&to=20261121&limit=250",
+    "http_status": 200,
+    "file": "sources/arize-cdx.json",
+    "sha256": "e0b1ddcd967539149546cbfe71e9be5de1fea8b927e78c60d6e13b22fdf44abe",
+    "captures": [
+      {
+        "urlkey": "io,greenhouse,job-boards)/arizeai",
+        "timestamp": "20260214194141",
+        "original": "https://job-boards.greenhouse.io/arizeai",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "VU2YJOV4XAZDZURPC2RKIL3HCMJHHE2Y",
+        "length": "44967"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/arizeai",
+        "timestamp": "20260508091032",
+        "original": "https://job-boards.greenhouse.io/arizeai",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "6KFRULT35E5QUANQ4J75S7ZKTL5E3JF2",
+        "length": "18241"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/arizeai",
+        "timestamp": "20261004134326",
+        "original": "https://job-boards.greenhouse.io/arizeai",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "WYWXURXKFMBCEWRDWN6576IE4QOFWQTF",
+        "length": "17099"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/arizeai/jobs/4123902004",
+        "timestamp": "20251213164506",
+        "original": "https://job-boards.greenhouse.io/arizeai/jobs/4123902004",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "T2K6YSMM74CSKMWEI6HMADDIYEX7ZW72",
+        "length": "23346"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/arizeai/jobs/5396396004",
+        "timestamp": "20260716044126",
+        "original": "https://job-boards.greenhouse.io/arizeai/jobs/5396396004",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "XM6ICO4YKJ4W7VZZOFMEG2O2UO73ZVEB",
+        "length": "22693"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/arizeai/jobs/5396396004",
+        "timestamp": "20261004134326",
+        "original": "https://job-boards.greenhouse.io/arizeai/jobs/5396396004",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "UZIPW5UPDBK2CJCOSKNB7UWL5JTK44OB",
+        "length": "32279"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/arizeai/jobs/5396396004?gh_src=trinity+ventures+job+board&utm_medium=getro.com&utm_source=trinity+ventures+job+board",
+        "timestamp": "20251213160943",
+        "original": "https://job-boards.greenhouse.io/arizeai/jobs/5396396004?utm_source=Trinity+Ventures+job+board&utm_medium=getro.com&gh_src=Trinity+Ventures+job+board",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "5764YBQ742EH47BQJJMWK3RCQTTOFNKP",
+        "length": "22570"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/arizeai/jobs/5396420004",
+        "timestamp": "20260119215412",
+        "original": "https://job-boards.greenhouse.io/arizeai/jobs/5396420004",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "JA7UQJ6YC6K7GTEFV2766SIRV6UWUPP7",
+        "length": "22904"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/arizeai/jobs/5396420004",
+        "timestamp": "20260717153003",
+        "original": "https://job-boards.greenhouse.io/arizeai/jobs/5396420004",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "VO725ZREB7WIKTNKX4CKFAVIFQXFQTJF",
+        "length": "23560"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/arizeai/jobs/5396420004",
+        "timestamp": "20261004134326",
+        "original": "https://job-boards.greenhouse.io/arizeai/jobs/5396420004",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "WVHOC4KLAGR5IPHX25MBR6ZXDPP3DJBW",
+        "length": "32818"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/arizeai/jobs/5396420004?gh_src=foundation+capital+job+board&utm_medium=getro.com&utm_source=foundation+capital+job+board",
+        "timestamp": "20251110144853",
+        "original": "https://job-boards.greenhouse.io/arizeai/jobs/5396420004?utm_source=Foundation+Capital+job+board&utm_medium=getro.com&gh_src=Foundation+Capital+job+board",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "GVKSOMR3L433FVTLZKYNPQCSHX6QIZNZ",
+        "length": "22926"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/arizeai/jobs/5396420004?gh_src=trinity+ventures+job+board&utm_medium=getro.com&utm_source=trinity+ventures+job+board",
+        "timestamp": "20251213155648",
+        "original": "https://job-boards.greenhouse.io/arizeai/jobs/5396420004?utm_source=Trinity+Ventures+job+board&utm_medium=getro.com&gh_src=Trinity+Ventures+job+board",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "OMNJ37F5FGTCYJ4O5FQQ6IRVJHZYYQQW",
+        "length": "23136"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/arizeai/jobs/5396470004",
+        "timestamp": "20251106221854",
+        "original": "https://job-boards.greenhouse.io/arizeai/jobs/5396470004",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "XHUVN6JNT3I42ECYKDYPQUQK45QGYOOO",
+        "length": "21758"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/arizeai/jobs/5469774004?gh_src=trinity+ventures+job+board&utm_medium=getro.com&utm_source=trinity+ventures+job+board",
+        "timestamp": "20251205214444",
+        "original": "https://job-boards.greenhouse.io/arizeai/jobs/5469774004?utm_source=Trinity+Ventures+job+board&utm_medium=getro.com&gh_src=Trinity+Ventures+job+board",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "AGHFVOLQBTHWXSGVCYYLRIFBYUFO45XN",
+        "length": "20489"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/arizeai/jobs/5600786004",
+        "timestamp": "20251109065229",
+        "original": "https://job-boards.greenhouse.io/arizeai/jobs/5600786004",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "K5WHVN4SH6RG3RBJKDEW566BGVRIPKXX",
+        "length": "22628"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/arizeai/jobs/5652818004",
+        "timestamp": "20251203115916",
+        "original": "https://job-boards.greenhouse.io/arizeai/jobs/5652818004",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "MQEGBLJPRKIDMPM2SVRYYQ5X6UNHU4ER",
+        "length": "17734"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/arizeai/jobs/5652818004?ref=thehomebase&utm_source=thehomebase",
+        "timestamp": "20251109040727",
+        "original": "https://job-boards.greenhouse.io/arizeai/jobs/5652818004?utm_source=thehomebase&ref=thehomebase",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "TZVLKNVXK3PZQ5H6V2EZSXFEFTTRTXMW",
+        "length": "22749"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/arizeai/jobs/5662525004?gh_src=trinity+ventures+job+board&utm_medium=getro.com&utm_source=trinity+ventures+job+board",
+        "timestamp": "20251213064934",
+        "original": "https://job-boards.greenhouse.io/arizeai/jobs/5662525004?utm_source=Trinity+Ventures+job+board&utm_medium=getro.com&gh_src=Trinity+Ventures+job+board",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "L7ND36FJ6AW36LYGM7ZTDQ3CJAVCKQCX",
+        "length": "16097"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/arizeai/jobs/5668878004",
+        "timestamp": "20251117015214",
+        "original": "https://job-boards.greenhouse.io/arizeai/jobs/5668878004",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "4KMUYTJ7SXSZ5QXLDABXY6JWHGLB3FDE",
+        "length": "20478"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/arizeai/jobs/5668878004",
+        "timestamp": "20251203110307",
+        "original": "https://job-boards.greenhouse.io/arizeai/jobs/5668878004",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "CM536ESWB4EBVYMBRV5XB4E24LUTZIQR",
+        "length": "16864"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/arizeai/jobs/5668878004?utm_id=6125730&utm_source=remote+queer+jobs",
+        "timestamp": "20260124063245",
+        "original": "https://job-boards.greenhouse.io/arizeai/jobs/5668878004?utm_id=6125730&utm_source=Remote+Queer+Jobs",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "HDHHUM4STQY2GDK54ADVJGF3KEQAC7MV",
+        "length": "20634"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/arizeai/jobs/5693219004",
+        "timestamp": "20251211051154",
+        "original": "https://job-boards.greenhouse.io/arizeai/jobs/5693219004",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "QF6GCDUL6NUENWM7UGZUFIAYRWPF267X",
+        "length": "21041"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/arizeai/jobs/5693219004",
+        "timestamp": "20260417052106",
+        "original": "https://job-boards.greenhouse.io/arizeai/jobs/5693219004",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "G2U2VGY6G3QBNDC5FXNQXYRAQ25YYHHG",
+        "length": "21410"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/arizeai/jobs/5693219004?gh_src=trinity+ventures+job+board&utm_medium=getro.com&utm_source=trinity+ventures+job+board",
+        "timestamp": "20251213063739",
+        "original": "https://job-boards.greenhouse.io/arizeai/jobs/5693219004?utm_source=Trinity+Ventures+job+board&utm_medium=getro.com&gh_src=Trinity+Ventures+job+board",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "NACHP3TTMQ2HACYX2CRP4I3JBL3VPR7R",
+        "length": "21166"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/arizeai/jobs/5704417004",
+        "timestamp": "20260508152631",
+        "original": "https://job-boards.greenhouse.io/arizeai/jobs/5704417004",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "TP3FWGUMREUXU72IVV76DZL46AKCSXUH",
+        "length": "23266"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/arizeai/jobs/5704417004?gh_src=trinity+ventures+job+board&utm_medium=getro.com&utm_source=trinity+ventures+job+board",
+        "timestamp": "20260417052839",
+        "original": "https://job-boards.greenhouse.io/arizeai/jobs/5704417004?utm_source=Trinity+Ventures+job+board&utm_medium=getro.com&gh_src=Trinity+Ventures+job+board",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "MACVNGBH2QON4UZMYRY6I7R3CR2COU3Q",
+        "length": "23447"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/arizeai/jobs/5704417004?ref=thehomebase&utm_source=thehomebase",
+        "timestamp": "20260215180322",
+        "original": "https://job-boards.greenhouse.io/arizeai/jobs/5704417004?utm_source=thehomebase&ref=thehomebase",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "4XXDTUGT7RIKJBOS6AWPP2W2TMXSHADQ",
+        "length": "22742"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/arizeai/jobs/5704428004",
+        "timestamp": "20251208074844",
+        "original": "https://job-boards.greenhouse.io/arizeai/jobs/5704428004",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "DNHL2SERUQOJTKI6QGZL2MSBITQH76SQ",
+        "length": "18263"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/arizeai/jobs/5704428004?gh_src=trinity+ventures+job+board&utm_medium=getro.com&utm_source=trinity+ventures+job+board",
+        "timestamp": "20260418194135",
+        "original": "https://job-boards.greenhouse.io/arizeai/jobs/5704428004?utm_source=Trinity+Ventures+job+board&utm_medium=getro.com&gh_src=Trinity+Ventures+job+board",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "UYVACYTXRBPEQUZSZ3IUK2WG6D2D36AZ",
+        "length": "18662"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/arizeai/jobs/5704429004",
+        "timestamp": "20251207015827",
+        "original": "https://job-boards.greenhouse.io/arizeai/jobs/5704429004",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "RYV3BH677M6XY6PHJAAONSR7B3FIRW5G",
+        "length": "22239"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/arizeai/jobs/5730389004",
+        "timestamp": "20261004134330",
+        "original": "https://job-boards.greenhouse.io/arizeai/jobs/5730389004",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "Y55NF32PB5ATLFQ3OXQNLPXLAYRVTXSZ",
+        "length": "33351"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/arizeai/jobs/5739165004",
+        "timestamp": "20260213034849",
+        "original": "https://job-boards.greenhouse.io/arizeai/jobs/5739165004",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "KYXBC2HEN5D74HXZ4X556YRLFHG53SCK",
+        "length": "17479"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/arizeai/jobs/5755137004?utm_campaign=the-future-of-crm-might-not-live-inside-crm-at-all&utm_medium=referral&utm_source=www.revenuecreator.com",
+        "timestamp": "20260413184040",
+        "original": "https://job-boards.greenhouse.io/arizeai/jobs/5755137004?utm_source=www.revenuecreator.com&utm_medium=referral&utm_campaign=the-future-of-crm-might-not-live-inside-crm-at-all",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "36YCXMFKFZMQ3NWVWJBPPSUWJTB2FYZG",
+        "length": "19674"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/arizeai/jobs/5766677004",
+        "timestamp": "20260210205626",
+        "original": "https://job-boards.greenhouse.io/arizeai/jobs/5766677004",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "CSRVCKF5FW4P32L77QC4SJ6ICKRR64ZL",
+        "length": "15250"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/arizeai/jobs/5778086004",
+        "timestamp": "20260807104406",
+        "original": "https://job-boards.greenhouse.io/arizeai/jobs/5778086004",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "4JH7QY6OYYOWOWT4GQ7OJ6KYVDVAGC5M",
+        "length": "21628"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/arizeai/jobs/5778086004",
+        "timestamp": "20261004134326",
+        "original": "https://job-boards.greenhouse.io/arizeai/jobs/5778086004",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "M2JCUZPU5HT4FBCYIOVIJEGM5R543DUV",
+        "length": "31965"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/arizeai/jobs/5778086004?gh_src=trinity+ventures+job+board&utm_medium=getro.com&utm_source=trinity+ventures+job+board",
+        "timestamp": "20260520202605",
+        "original": "https://job-boards.greenhouse.io/arizeai/jobs/5778086004?utm_source=Trinity+Ventures+job+board&utm_medium=getro.com&gh_src=Trinity+Ventures+job+board",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "4HMJIB43OYAJTJBRB5GG4ZPFBABRGR3S",
+        "length": "22485"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/arizeai/jobs/5781408004",
+        "timestamp": "20260311160635",
+        "original": "https://job-boards.greenhouse.io/arizeai/jobs/5781408004",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "5TZNKC6Y6742SNQNRM64VRWYIDZDEK4G",
+        "length": "24243"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/arizeai/jobs/5783026004",
+        "timestamp": "20260511040556",
+        "original": "https://job-boards.greenhouse.io/arizeai/jobs/5783026004",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "Q6TMVMAKEKBFIFP4IXQH6Y77HTSGMCSM",
+        "length": "36933"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/arizeai/jobs/5783026004",
+        "timestamp": "20261004134334",
+        "original": "https://job-boards.greenhouse.io/arizeai/jobs/5783026004",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "NRFKO6P67ATOMD2JBXXXJRX73KYXFIBB",
+        "length": "33433"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/arizeai/jobs/5783026004?gh_src=trinity+ventures+job+board&utm_medium=getro.com&utm_source=trinity+ventures+job+board",
+        "timestamp": "20260616185213",
+        "original": "https://job-boards.greenhouse.io/arizeai/jobs/5783026004?utm_source=Trinity+Ventures+job+board&utm_medium=getro.com&gh_src=Trinity+Ventures+job+board",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "BZATFPWJHIY4EBUTEW4DBBFKQDUQ7WAD",
+        "length": "24434"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/arizeai/jobs/5783026004?ref=thehomebase&utm_source=thehomebase",
+        "timestamp": "20260309191307",
+        "original": "https://job-boards.greenhouse.io/arizeai/jobs/5783026004?utm_source=thehomebase&ref=thehomebase",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "GJF54YPTCTLBELI7TSLMGEFHNOEXUUX7",
+        "length": "22828"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/arizeai/jobs/5790042004",
+        "timestamp": "20261004134328",
+        "original": "https://job-boards.greenhouse.io/arizeai/jobs/5790042004",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "WKKTLUCUUPDSL3THCKTOW2IWT6RJBMUA",
+        "length": "31960"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/arizeai/jobs/5792327004",
+        "timestamp": "20260311170846",
+        "original": "https://job-boards.greenhouse.io/arizeai/jobs/5792327004",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "AQO3D2FRELVEL4SMEDIFPAWH45THXUVO",
+        "length": "23385"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/arizeai/jobs/5792327004",
+        "timestamp": "20261004134332",
+        "original": "https://job-boards.greenhouse.io/arizeai/jobs/5792327004",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "DLWYFM66FWIHMAYIUCFWQOS6KW2TTUF6",
+        "length": "33384"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/arizeai/jobs/5793354004",
+        "timestamp": "20260311165828",
+        "original": "https://job-boards.greenhouse.io/arizeai/jobs/5793354004",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "J2TBBUUN2H5FWK2CZ2FZIZ4P22WFXDNS",
+        "length": "23385"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/arizeai/jobs/5793354004",
+        "timestamp": "20260810144150",
+        "original": "https://job-boards.greenhouse.io/arizeai/jobs/5793354004",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "7YTPLIHLKXB3A2T7YQSMAERXS77FU2IQ",
+        "length": "21437"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/arizeai/jobs/5793354004",
+        "timestamp": "20261004134331",
+        "original": "https://job-boards.greenhouse.io/arizeai/jobs/5793354004",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "6W3WRCKGLAFFETKXIEVL7I3WO7K6IIBI",
+        "length": "32854"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/arizeai/jobs/5797408004",
+        "timestamp": "20260311171326",
+        "original": "https://job-boards.greenhouse.io/arizeai/jobs/5797408004",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "EY6TGST5RV6B2GCV5SSHOOISCAY4D775",
+        "length": "24294"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/arizeai/jobs/5803069004",
+        "timestamp": "20261004134329",
+        "original": "https://job-boards.greenhouse.io/arizeai/jobs/5803069004",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "UUQWDIC2UYBBAXYUFFSPVUXNL6EM52RG",
+        "length": "32362"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/arizeai/jobs/5803069004?gh_src=trinity+ventures+job+board&utm_medium=getro.com&utm_source=trinity+ventures+job+board",
+        "timestamp": "20260719062230",
+        "original": "https://job-boards.greenhouse.io/arizeai/jobs/5803069004?utm_source=Trinity+Ventures+job+board&utm_medium=getro.com&gh_src=Trinity+Ventures+job+board",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "KDQETMKUWTLEAIQ3LTKGS3AOTHDCLFPK",
+        "length": "23744"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/arizeai/jobs/5810147004?gh_src=trinity+ventures+job+board&utm_medium=getro.com&utm_source=trinity+ventures+job+board",
+        "timestamp": "20260417064334",
+        "original": "https://job-boards.greenhouse.io/arizeai/jobs/5810147004?utm_source=Trinity+Ventures+job+board&utm_medium=getro.com&gh_src=Trinity+Ventures+job+board",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "MKODBXDI22IPEF3ZQDWSKKBBPMGCFPAR",
+        "length": "23461"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/arizeai/jobs/5814833004",
+        "timestamp": "20260228082645",
+        "original": "https://job-boards.greenhouse.io/arizeai/jobs/5814833004",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "VEWH32JXNM75HBDYK7J6CJ7R2CAHBQ3P",
+        "length": "17422"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/arizeai/jobs/5814833004",
+        "timestamp": "20260303154041",
+        "original": "https://job-boards.greenhouse.io/arizeai/jobs/5814833004",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "LW2MONYHNTDJJI34CTFTSF5V33H6CSEX",
+        "length": "35345"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/arizeai/jobs/5818051004",
+        "timestamp": "20260421220413",
+        "original": "https://job-boards.greenhouse.io/arizeai/jobs/5818051004",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "TPAO2WKCB55UFZK7P5WR2LMY237LFGLF",
+        "length": "17732"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/arizeai/jobs/5818115004",
+        "timestamp": "20260517034036",
+        "original": "https://job-boards.greenhouse.io/arizeai/jobs/5818115004",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "4MUNVUKTRBUFWNY2FYNUITD3RZI6DYNC",
+        "length": "22261"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/arizeai/jobs/5818115004",
+        "timestamp": "20261004134326",
+        "original": "https://job-boards.greenhouse.io/arizeai/jobs/5818115004",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "XXIXORV3QJSZEW2LUYMXAUG4X7FDL2CU",
+        "length": "32232"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/arizeai/jobs/5826216004",
+        "timestamp": "20260415105411",
+        "original": "https://job-boards.greenhouse.io/arizeai/jobs/5826216004",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "2MSTSDHHWZAKDYKT7IDYTOYWJPNPMNWI",
+        "length": "23446"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/arizeai/jobs/5829145004",
+        "timestamp": "20260517024353",
+        "original": "https://job-boards.greenhouse.io/arizeai/jobs/5829145004",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "SGV25HRZR7544N2TQIKON6LB6ZJSTFCL",
+        "length": "22663"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/arizeai/jobs/5830266004",
+        "timestamp": "20260317211524",
+        "original": "https://job-boards.greenhouse.io/arizeai/jobs/5830266004",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "TUQI3XIULV3O4ZLSL2BQMHG64DYJ6VCM",
+        "length": "36066"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/arizeai/jobs/5830266004",
+        "timestamp": "20260517034450",
+        "original": "https://job-boards.greenhouse.io/arizeai/jobs/5830266004",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "RISSHSPUFK5KUCCH7BIOYPPPFJUB7PKP",
+        "length": "24205"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/arizeai/jobs/5844416004",
+        "timestamp": "20260413114735",
+        "original": "https://job-boards.greenhouse.io/arizeai/jobs/5844416004",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "ZEUN5X6IQ6GMNCVZGUOSDD2J5LVTEW7C",
+        "length": "16150"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/arizeai/jobs/5871524004",
+        "timestamp": "20260517034229",
+        "original": "https://job-boards.greenhouse.io/arizeai/jobs/5871524004",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "5A4VZC6VS4IRWLFPCWR52OEADJZQXLV7",
+        "length": "21635"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/arizeai/jobs/5871524004?utm_medium=job_listing&utm_source=remotech",
+        "timestamp": "20260608120128",
+        "original": "https://job-boards.greenhouse.io/arizeai/jobs/5871524004?utm_source=remotech&utm_medium=job_listing",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "7NXTNN2NVXEZOFA6POGEMYG26HUE7GNB",
+        "length": "21639"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/arizeai/jobs/5875970004",
+        "timestamp": "20260409053539",
+        "original": "https://job-boards.greenhouse.io/arizeai/jobs/5875970004",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "DLOA3WCMMSXRDMAEVG4HJ7EQBHRUKMLO",
+        "length": "36962"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/arizeai/jobs/5875970004",
+        "timestamp": "20260517030952",
+        "original": "https://job-boards.greenhouse.io/arizeai/jobs/5875970004",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "R2TFQ2TV2YGCTR7J5JEGU6MPUHB3DRSH",
+        "length": "24199"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/arizeai/jobs/5970222004?gh_src=trinity+ventures+job+board&utm_medium=getro.com&utm_source=trinity+ventures+job+board",
+        "timestamp": "20260616182317",
+        "original": "https://job-boards.greenhouse.io/arizeai/jobs/5970222004?utm_source=Trinity+Ventures+job+board&utm_medium=getro.com&gh_src=Trinity+Ventures+job+board",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "W75CU2WOEKMMZESR2F644OSQT7K4MEB7",
+        "length": "17490"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/arizeai/jobs/5982591004",
+        "timestamp": "20260512023230",
+        "original": "https://job-boards.greenhouse.io/arizeai/jobs/5982591004",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "KSYUJ3JLNV7I4PQIZLLIYM7CERHDS5Q2",
+        "length": "14483"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/arizeai/jobs/5986448004",
+        "timestamp": "20260613022735",
+        "original": "https://job-boards.greenhouse.io/arizeai/jobs/5986448004",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "FUKCUXVG6ATN7XM4GGO72QUPQJIH34T4",
+        "length": "22709"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/arizeai/jobs/5986826004",
+        "timestamp": "20261004134331",
+        "original": "https://job-boards.greenhouse.io/arizeai/jobs/5986826004",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "RFCKDOFX77HUGFMMXAWSNSSKYOWYHRJR",
+        "length": "32606"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/arizeai/jobs/5986827004",
+        "timestamp": "20260606165808",
+        "original": "https://job-boards.greenhouse.io/arizeai/jobs/5986827004",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "YNJBNVVCOXNSCTCBQ5BYXOB766RU2MBD",
+        "length": "22668"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/arizeai/jobs/5986827004",
+        "timestamp": "20261004134331",
+        "original": "https://job-boards.greenhouse.io/arizeai/jobs/5986827004",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "DCZKINSEGMTMXUMASP7XTT5BKWSTK2ZQ",
+        "length": "32517"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/arizeai/jobs/5987435004",
+        "timestamp": "20260611193537",
+        "original": "https://job-boards.greenhouse.io/arizeai/jobs/5987435004",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "CXR2O5TKEJX6KWXV5VXQ7523XS4VXAAB",
+        "length": "23366"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/arizeai/jobs/5988893004",
+        "timestamp": "20260506060223",
+        "original": "https://job-boards.greenhouse.io/arizeai/jobs/5988893004",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "5MXZH7L2CPJ5OSRGZLONDVCHDRJEBKVQ",
+        "length": "18258"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/arizeai/jobs/5989503004",
+        "timestamp": "20260611203252",
+        "original": "https://job-boards.greenhouse.io/arizeai/jobs/5989503004",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "EIC4AVV45YVX2M2HPY25LNXZ6MS55XPK",
+        "length": "22836"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/arizeai/jobs/5989510004",
+        "timestamp": "20260518092909",
+        "original": "https://job-boards.greenhouse.io/arizeai/jobs/5989510004",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "IQCFB2LJUDDR7QLDDUNZ7KHXPWR5WZT3",
+        "length": "22690"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/arizeai/jobs/5989512004",
+        "timestamp": "20260611200607",
+        "original": "https://job-boards.greenhouse.io/arizeai/jobs/5989512004",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "G5ROBCDHWI3BSKF2HT7JVCRQ2ZHWHGSN",
+        "length": "20643"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/arizeai/jobs/5989512004",
+        "timestamp": "20261004134333",
+        "original": "https://job-boards.greenhouse.io/arizeai/jobs/5989512004",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "WK76VBOGT64WPVJERXEAX3B5PKFZP3OA",
+        "length": "24476"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/arizeai/jobs/5990037004",
+        "timestamp": "20260518101957",
+        "original": "https://job-boards.greenhouse.io/arizeai/jobs/5990037004",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "RVWADM77CKH7O5XUUSKEQ6WY66Y26OID",
+        "length": "16102"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/arizeai/jobs/5993317004",
+        "timestamp": "20260616034517",
+        "original": "https://job-boards.greenhouse.io/arizeai/jobs/5993317004",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "UQMN7RJVWLUXVVV34M674HBV52WGGWKQ",
+        "length": "21476"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/arizeai/jobs/5993317004?gh_src=trinity+ventures+job+board&utm_medium=getro.com&utm_source=trinity+ventures+job+board",
+        "timestamp": "20260719070206",
+        "original": "https://job-boards.greenhouse.io/arizeai/jobs/5993317004?utm_source=Trinity+Ventures+job+board&utm_medium=getro.com&gh_src=Trinity+Ventures+job+board",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "MUR3IJG5HTUTKH5LL5OJ4DCS3MGEDAQQ",
+        "length": "21566"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/arizeai/jobs/5993755004",
+        "timestamp": "20260616033707",
+        "original": "https://job-boards.greenhouse.io/arizeai/jobs/5993755004",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "74PYJXLWC6TK6ZVH3HSBNLNEVWSSRSWC",
+        "length": "22810"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/arizeai/jobs/5993755004?ref=aichoppingblock&utm_source=aichoppingblock",
+        "timestamp": "20260714221354",
+        "original": "https://job-boards.greenhouse.io/arizeai/jobs/5993755004?utm_source=aichoppingblock&ref=aichoppingblock",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "YFNGBDT6O6QKOXNTGWBQBDJML3OCT72M",
+        "length": "22836"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/arizeai/jobs/5995824004",
+        "timestamp": "20260616033909",
+        "original": "https://job-boards.greenhouse.io/arizeai/jobs/5995824004",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "K7OFMWVNFLVAKKFUQD25JA3JOR55ADCP",
+        "length": "24218"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/arizeai/jobs/6006280004",
+        "timestamp": "20260710112347",
+        "original": "https://job-boards.greenhouse.io/arizeai/jobs/6006280004",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "URMNI5KUQORNB3GAEYDQZL2CARLS3QID",
+        "length": "21032"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/arizeai/jobs/6030902004",
+        "timestamp": "20261004134334",
+        "original": "https://job-boards.greenhouse.io/arizeai/jobs/6030902004",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "Z5GFV66YKUSUD4CND5CJGMFZTN7QCFIW",
+        "length": "33455"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/arizeai/jobs/6030903004?gh_src=my.greenhouse.search",
+        "timestamp": "20260712004055",
+        "original": "https://job-boards.greenhouse.io/arizeai/jobs/6030903004?gh_src=my.greenhouse.search",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "4L3347BVXBXLO6CNMHJP7TQKAO5IT42Q",
+        "length": "23655"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/arizeai/jobs/6030953004",
+        "timestamp": "20261004134335",
+        "original": "https://job-boards.greenhouse.io/arizeai/jobs/6030953004",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "4WXFSSZPEAFKIAYEMEWCVFUA6KCASM7P",
+        "length": "33472"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/arizeai/jobs/6098773004",
+        "timestamp": "20260810023507",
+        "original": "https://job-boards.greenhouse.io/arizeai/jobs/6098773004",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "4UAMBZV67Z6SFCWLROQXV5LOJW3JOPMA",
+        "length": "22977"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/arizeai/jobs/6098773004",
+        "timestamp": "20261004134330",
+        "original": "https://job-boards.greenhouse.io/arizeai/jobs/6098773004",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "FWE7KQ5KCGORT4XTEC5DI6X52AFQCEM3",
+        "length": "33334"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/arizeai/jobs/6098790004",
+        "timestamp": "20260810022751",
+        "original": "https://job-boards.greenhouse.io/arizeai/jobs/6098790004",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "X4XYGKE4AC666T7RKEQDQDHBYTXVU74J",
+        "length": "22672"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/arizeai/jobs/6115096004",
+        "timestamp": "20261004134335",
+        "original": "https://job-boards.greenhouse.io/arizeai/jobs/6115096004",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "WGWMMVCFOFUPLQFSEVLL5GMMU6QFD2XY",
+        "length": "30759"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/arizeai/jobs/6242516004",
+        "timestamp": "20261104211533",
+        "original": "https://job-boards.greenhouse.io/arizeai/jobs/6242516004",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "WGYQN5C4KT3VRQFCS2JDBBM2DL7KTXTW",
+        "length": "32777"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/arizeai?error=true",
+        "timestamp": "20251106204423",
+        "original": "https://job-boards.greenhouse.io/arizeai?error=true",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "REWGVGJWWSW3QVX36UYP36JQDES25INN",
+        "length": "45378"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/arizeai?error=true",
+        "timestamp": "20251203113635",
+        "original": "https://job-boards.greenhouse.io/arizeai?error=true",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "C3LPGBZTEPHFMDWHDKJFLPJMD3NQE5O2",
+        "length": "32019"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/arizeai?error=true",
+        "timestamp": "20260117173426",
+        "original": "https://job-boards.greenhouse.io/arizeai?error=true",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "VFO5GFMDAJFDMYL5ZZTGOSS5I7IQFEUO",
+        "length": "45316"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/arizeai?error=true",
+        "timestamp": "20260206184458",
+        "original": "https://job-boards.greenhouse.io/arizeai?error=true",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "LVFWL2AUJK24CP42HWCVZHYXXKIM72S4",
+        "length": "46547"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/arizeai?error=true",
+        "timestamp": "20260306093515",
+        "original": "https://job-boards.greenhouse.io/arizeai?error=true",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "P7IBM7EEJGLIDTUNV7EZCTKWPFGRFCFZ",
+        "length": "49367"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/arizeai?error=true",
+        "timestamp": "20260412171003",
+        "original": "https://job-boards.greenhouse.io/arizeai?error=true",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "LSJD5TQ7LASOIBHHDW7JLJIO2DB6CUMQ",
+        "length": "17506"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/arizeai?error=true",
+        "timestamp": "20260504055109",
+        "original": "https://job-boards.greenhouse.io/arizeai?error=true",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "GMKQ6DHD2YH56L65JAL7OEVW2BJ4EMX7",
+        "length": "14308"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/arizeai?error=true",
+        "timestamp": "20260605233010",
+        "original": "https://job-boards.greenhouse.io/arizeai?error=true",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "HZ3T4KPABGIRSIJU47WXVQODMIXQHPUG",
+        "length": "17989"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/arizeai?error=true",
+        "timestamp": "20260712155145",
+        "original": "https://job-boards.greenhouse.io/arizeai?error=true",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "PBIYCYLY4RHS6RLGVNOIPWAFOSW5F5SQ",
+        "length": "12755"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/arizeai?error=true",
+        "timestamp": "20260819145041",
+        "original": "https://job-boards.greenhouse.io/arizeai?error=true",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "AM5AG6BX3KJTD3HV3ZPFPQK7AYD3V5G6",
+        "length": "17925"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/arizeai?error=true",
+        "timestamp": "20261004134324",
+        "original": "https://job-boards.greenhouse.io/arizeai?error=true",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "DRZLPKLM4JJXT6FVPF2ZZEKP3Q3HLY6Z",
+        "length": "17120"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/arizeai?gh_src=foundation+capital+job+board",
+        "timestamp": "20251111000212",
+        "original": "https://job-boards.greenhouse.io/arizeai?gh_src=Foundation+Capital+job+board",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "FZYN54AXQ7KRNOH62DOO2LTSGY44CI6U",
+        "length": "47256"
+      },
+      {
+        "urlkey": "io,greenhouse,job-boards)/arizeai?gh_src=remotework.fyi",
+        "timestamp": "20260810103045",
+        "original": "https://job-boards.greenhouse.io/arizeai?gh_src=remotework.FYI",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "MDMBOJDSUZUEZUUIV4YHVADAV2PEOW6N",
+        "length": "12321"
+      }
+    ]
+  }
+]

@@ -1,0 +1,66 @@
+{
+  "status": "frozen_mixed_sources",
+  "synthetic_fixture": false,
+  "document_count": 45,
+  "observed_at": "2026-11-21T06:41:31Z",
+  "sources": [
+    {
+      "file": "sources/langchain-funding.html",
+      "api_url": "https://www.langchain.com/blog/series-c",
+      "observed_at": "2026-11-21T06:41:31Z",
+      "sha256": "4bf58ef0f8f44ef3cc49301e12ccc26be92f624c5f1351b82d6ed571ea19fc38"
+    },
+    {
+      "file": "sources/llamaindex-funding.html",
+      "api_url": "https://www.llamaindex.ai/blog/announcing-our-series-a-and-llamacloud-general-availability",
+      "observed_at": "2026-11-21T06:41:31Z",
+      "sha256": "ce70b36fc21833fa2607a7640b35e3a76b4cd65d369da40444cb34dc2b0e150e"
+    },
+    {
+      "file": "sources/browserbase-funding.html",
+      "api_url": "https://www.browserbase.com/blog/series-b-and-beyond",
+      "observed_at": "2026-11-21T06:41:31Z",
+      "sha256": "6dc603c303049cc846d109ebe7bdde6576e23db58c3d6a60d5d46202e0eaab14"
+    },
+    {
+      "file": "sources/langchain-jobs.json",
+      "api_url": "https://api.ashbyhq.com/posting-api/job-board/langchain",
+      "observed_at": "2026-11-21T06:41:31Z",
+      "sha256": "6ca6a5341071ad6dd0e42edf4395fdf497fe30a66cf2b0c43e876cdb521e9a3c"
+    },
+    {
+      "file": "sources/llamaindex-jobs.json",
+      "api_url": "https://api.ashbyhq.com/posting-api/job-board/llamaindex",
+      "observed_at": "2026-11-21T06:41:31Z",
+      "sha256": "4248dc50ec8fa9414d5721227e0a818cd6bbf859268a6e0c8a5037b2d211df0a"
+    },
+    {
+      "file": "sources/langchain-commits.json",
+      "api_url": "https://api.github.com/repos/langchain-ai/langchain/commits",
+      "observed_at": "2026-11-21T06:41:31Z",
+      "sha256": "4c4fc328f125e6e06e5fd797243d249f40f033612974d6ad5834ab98e3b27f70"
+    },
+    {
+      "file": "sources/crewai-commits.json",
+      "api_url": "https://api.github.com/repos/crewAIInc/crewAI/commits",
+      "observed_at": "2026-11-21T06:41:31Z",
+      "sha256": "eb041aeefdd53fba5f1aa90948375d735714b1d528341ee8f3910da466d41f0d"
+    },
+    {
+      "file": "sources/langfuse-commits.json",
+      "api_url": "https://api.github.com/repos/langfuse/langfuse/commits",
+      "observed_at": "2026-11-21T06:41:31Z",
+      "sha256": "f084265c06ecc02443a136aa112008774cfbf9c0ebcad936f3ba5577f8e86566"
+    }
+  ],
+  "snapshot_sha256": "2e8db87daa901109a18cb7ea590ee4c22b9357bea1e13104964bbfc4badfedc3",
+  "selection": "3 primary funding documents, 18 skill-prioritized listed jobs, 8 complete ISO weeks for 3 repositories",
+  "study_revision": "Mixed-source follow-up; original 18-company cohort and 28 question texts preserved. Observation window extends beyond original 2026-10-30 freeze.",
+  "limitations": [
+    "Historical GitHub activity is reconstructed from default-branch commits available at observation time.",
+    "Current job-board publications do not establish hiring growth; closed historical jobs are unavailable.",
+    "Funding announcement publication is not automatically the funding event date.",
+    "No public-voice coverage; no causal funding-to-hiring claim.",
+    "45 source records include 24 weekly observations, not 45 independent documentary origins."
+  ]
+}

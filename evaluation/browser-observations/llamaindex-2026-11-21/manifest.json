@@ -1,0 +1,20 @@
+{
+  "company_id": "llamaindex",
+  "requested_url": "https://www.llamaindex.ai/careers",
+  "response_url": "https://www.llamaindex.ai/careers",
+  "observed_at": "2026-11-21T10:02:19Z",
+  "source_snapshot_at": "2026-11-21T10:02:19Z",
+  "source_clock": "Current browser observation only; not an event or publication date.",
+  "method": "selenium_current_render",
+  "readiness_selector": "ul.RoleList a",
+  "matched_elements": 3,
+  "browser_version": "157.0.8103.80",
+  "webdriver_version": "157.0.8103.78 (4b3d0dabb8250b6f152d2d85d79e7706e309d087-refs/branch-heads/8103@{#1573})",
+  "sha256": "975e19285223ec0d8218a7d66958f65ca9bc90426b25b2a449cf56a31717d4f8",
+  "verified_complete_board": false,
+  "limits": [
+    "Selector presence is not proof of board completeness; a reviewed site parser is required.",
+    "Iframe content is not included in the parent DOM; parse its official API or capture it separately.",
+    "Browser observation time cannot establish historical posting stock or participant decisions."
+  ]
+}

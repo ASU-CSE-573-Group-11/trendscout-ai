@@ -1,0 +1,18 @@
+{
+  "method": "project_source_review",
+  "prepared_for": "Sueda Sen",
+  "independent_personal_annotation": false,
+  "decisions": [
+    {
+      "company_id": "modal",
+      "decision": "exclude_mismatched_profile",
+      "source_sha256": "3eef20a2164edac8df458e33e717d9d315e6da09a4ef097c0395f75264c5fa1c",
+      "source_passages": [
+        "digital commerce for the world’s largest auto retailers and brands.",
+        "Modal, formerly Drive Motors",
+        "www.modalup.com"
+      ],
+      "reason": "The fetched YC profile describes an auto-commerce company formerly Drive Motors and refers to modalup.com. The frozen cohort Modal is the serverless AI compute company at modal.com. This directory profile is not identity evidence for that cohort company."
+    }
+  ]
+}

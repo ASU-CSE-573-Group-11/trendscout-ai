@@ -1,0 +1,440 @@
+{
+  "conditions": [
+    {
+      "abstention": {
+        "abstained": 6,
+        "accuracy": 0.9643,
+        "correct_abstentions": 5,
+        "false_abstentions": [
+          "q-missing-funding-langsmith"
+        ],
+        "missed_abstentions": [],
+        "should_abstain": 5
+      },
+      "answer_quality": {
+        "citation_precision": 0.2182,
+        "claim_support_rate": 1.0,
+        "claims": 97,
+        "unsupported_claim_rate": 0.0
+      },
+      "condition": "hybrid+no-corroboration",
+      "judged_questions": 28,
+      "latency": {
+        "max_ms": 9.621,
+        "median_ms": 4.377,
+        "p90_ms": 8.697
+      },
+      "notes": [],
+      "per_question": [
+        {
+          "abstained": false,
+          "claims": 4,
+          "expected_behavior": "answer_if_both_signals_else_qualify",
+          "latency_ms": 4.817,
+          "ndcg_at_5": 0.0,
+          "precision_at_5": 0.0,
+          "question_id": "q-pilot-github-mlops",
+          "recall_at_5": 0.0,
+          "reciprocal_rank": 0.0,
+          "retrieved": 5,
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": false,
+          "claims": 4,
+          "expected_behavior": "answer_with_valid_time_path",
+          "latency_ms": 3.461,
+          "ndcg_at_5": 1.0,
+          "precision_at_5": 1.0,
+          "question_id": "q-investors-later-hiring",
+          "recall_at_5": 0.2632,
+          "reciprocal_rank": 1.0,
+          "retrieved": 5,
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": false,
+          "claims": 4,
+          "expected_behavior": "require_independent_origins_plus_jobs_or_github",
+          "latency_ms": 3.017,
+          "ndcg_at_5": null,
+          "precision_at_5": 0.0,
+          "question_id": "q-sector-attention",
+          "recall_at_5": null,
+          "reciprocal_rank": 0.0,
+          "retrieved": 5,
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": false,
+          "claims": 5,
+          "expected_behavior": "explain_ledger_state",
+          "latency_ms": 8.3,
+          "ndcg_at_5": null,
+          "precision_at_5": 0.0,
+          "question_id": "q-why-emerging",
+          "recall_at_5": null,
+          "reciprocal_rank": 0.0,
+          "retrieved": 5,
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": true,
+          "claims": 0,
+          "expected_behavior": "abstain",
+          "latency_ms": 0.303,
+          "ndcg_at_5": null,
+          "precision_at_5": 0.0,
+          "question_id": "q-unsupported-acquisition",
+          "recall_at_5": null,
+          "reciprocal_rank": 0.0,
+          "retrieved": 0,
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": true,
+          "claims": 0,
+          "expected_behavior": "abstain",
+          "latency_ms": 0.315,
+          "ndcg_at_5": null,
+          "precision_at_5": 0.0,
+          "question_id": "q-future-performance",
+          "recall_at_5": null,
+          "reciprocal_rank": 0.0,
+          "retrieved": 0,
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": false,
+          "claims": 4,
+          "expected_behavior": "answer_if_both_signals_else_qualify",
+          "latency_ms": 4.008,
+          "ndcg_at_5": 0.786,
+          "precision_at_5": 0.8,
+          "question_id": "q-langchain-github-since-september",
+          "recall_at_5": 0.1739,
+          "reciprocal_rank": 1.0,
+          "retrieved": 5,
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": false,
+          "claims": 4,
+          "expected_behavior": "answer_with_valid_time",
+          "latency_ms": 3.721,
+          "ndcg_at_5": 0.3392,
+          "precision_at_5": 0.2,
+          "question_id": "q-crewai-activity-eight-weeks",
+          "recall_at_5": 0.125,
+          "reciprocal_rank": 1.0,
+          "retrieved": 5,
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": false,
+          "claims": 4,
+          "expected_behavior": "answer_if_both_signals_else_qualify",
+          "latency_ms": 4.828,
+          "ndcg_at_5": 1.0,
+          "precision_at_5": 1.0,
+          "question_id": "q-startups-multi-signal-ten-weeks",
+          "recall_at_5": 0.119,
+          "reciprocal_rank": 1.0,
+          "retrieved": 5,
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": false,
+          "claims": 4,
+          "expected_behavior": "answer_with_valid_time_path",
+          "latency_ms": 3.992,
+          "ndcg_at_5": 1.0,
+          "precision_at_5": 1.0,
+          "question_id": "q-funding-after-hiring",
+          "recall_at_5": 0.2632,
+          "reciprocal_rank": 1.0,
+          "retrieved": 5,
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": false,
+          "claims": 4,
+          "expected_behavior": "require_independent_origins",
+          "latency_ms": 4.753,
+          "ndcg_at_5": null,
+          "precision_at_5": 0.0,
+          "question_id": "q-sector-multi-origin",
+          "recall_at_5": null,
+          "reciprocal_rank": 0.0,
+          "retrieved": 5,
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": false,
+          "claims": 4,
+          "expected_behavior": "answer_with_valid_time",
+          "latency_ms": 4.745,
+          "ndcg_at_5": 0.0,
+          "precision_at_5": 0.0,
+          "question_id": "q-company-slowed-commits",
+          "recall_at_5": 0.0,
+          "reciprocal_rank": 0.0,
+          "retrieved": 5,
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": false,
+          "claims": 4,
+          "expected_behavior": "answer_if_supported_else_qualify",
+          "latency_ms": 3.259,
+          "ndcg_at_5": 0.6309,
+          "precision_at_5": 0.2,
+          "question_id": "q-llamaindex-retrieval-postings",
+          "recall_at_5": 1.0,
+          "reciprocal_rank": 0.5,
+          "retrieved": 5,
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": false,
+          "claims": 4,
+          "expected_behavior": "answer_with_valid_time",
+          "latency_ms": 4.795,
+          "ndcg_at_5": null,
+          "precision_at_5": 0.0,
+          "question_id": "q-e2b-sandbox-coverage",
+          "recall_at_5": null,
+          "reciprocal_rank": 0.0,
+          "retrieved": 5,
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": false,
+          "claims": 4,
+          "expected_behavior": "answer_if_both_signals_else_qualify",
+          "latency_ms": 4.329,
+          "ndcg_at_5": null,
+          "precision_at_5": 0.0,
+          "question_id": "q-browserbase-agent-activity",
+          "recall_at_5": null,
+          "reciprocal_rank": 0.0,
+          "retrieved": 5,
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": false,
+          "claims": 4,
+          "expected_behavior": "answer_if_supported_else_qualify",
+          "latency_ms": 4.626,
+          "ndcg_at_5": null,
+          "precision_at_5": 0.0,
+          "question_id": "q-composio-tool-postings",
+          "recall_at_5": null,
+          "reciprocal_rank": 0.0,
+          "retrieved": 5,
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": false,
+          "claims": 5,
+          "expected_behavior": "explain_ledger_state",
+          "latency_ms": 8.289,
+          "ndcg_at_5": null,
+          "precision_at_5": 0.0,
+          "question_id": "q-letta-memory-coverage",
+          "recall_at_5": null,
+          "reciprocal_rank": 0.0,
+          "retrieved": 5,
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": false,
+          "claims": 4,
+          "expected_behavior": "answer_if_both_signals_else_qualify",
+          "latency_ms": 4.424,
+          "ndcg_at_5": 0.0,
+          "precision_at_5": 0.0,
+          "question_id": "q-langfuse-observability-signals",
+          "recall_at_5": 0.0,
+          "reciprocal_rank": 0.0,
+          "retrieved": 5,
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": false,
+          "claims": 4,
+          "expected_behavior": "answer_if_supported_else_qualify",
+          "latency_ms": 3.998,
+          "ndcg_at_5": null,
+          "precision_at_5": 0.0,
+          "question_id": "q-haystack-rag-hiring",
+          "recall_at_5": null,
+          "reciprocal_rank": 0.0,
+          "retrieved": 5,
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": false,
+          "claims": 4,
+          "expected_behavior": "answer_with_valid_time_path",
+          "latency_ms": 4.709,
+          "ndcg_at_5": 0.6844,
+          "precision_at_5": 0.6,
+          "question_id": "q-funding-before-github-growth",
+          "recall_at_5": 0.1111,
+          "reciprocal_rank": 1.0,
+          "retrieved": 5,
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": true,
+          "claims": 0,
+          "expected_behavior": "abstain_if_not_in_snapshot",
+          "latency_ms": 0.356,
+          "ndcg_at_5": null,
+          "precision_at_5": 0.0,
+          "question_id": "q-missing-funding-langsmith",
+          "recall_at_5": null,
+          "reciprocal_rank": 0.0,
+          "retrieved": 0,
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": true,
+          "claims": 0,
+          "expected_behavior": "abstain",
+          "latency_ms": 0.37,
+          "ndcg_at_5": null,
+          "precision_at_5": 0.0,
+          "question_id": "q-outside-collection-window",
+          "recall_at_5": null,
+          "reciprocal_rank": 0.0,
+          "retrieved": 0,
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": true,
+          "claims": 0,
+          "expected_behavior": "abstain",
+          "latency_ms": 0.298,
+          "ndcg_at_5": null,
+          "precision_at_5": 0.0,
+          "question_id": "q-future-acquisition",
+          "recall_at_5": null,
+          "reciprocal_rank": 0.0,
+          "retrieved": 0,
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": true,
+          "claims": 0,
+          "expected_behavior": "abstain",
+          "latency_ms": 0.356,
+          "ndcg_at_5": null,
+          "precision_at_5": 0.0,
+          "question_id": "q-undocumented-private-metrics",
+          "recall_at_5": null,
+          "reciprocal_rank": 0.0,
+          "retrieved": 0,
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": false,
+          "claims": 6,
+          "expected_behavior": "explain_ledger_state",
+          "latency_ms": 9.29,
+          "ndcg_at_5": null,
+          "precision_at_5": 0.0,
+          "question_id": "q-emerging-change-label",
+          "recall_at_5": null,
+          "reciprocal_rank": 0.0,
+          "retrieved": 5,
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": false,
+          "claims": 5,
+          "expected_behavior": "explain_ledger_state",
+          "latency_ms": 9.621,
+          "ndcg_at_5": null,
+          "precision_at_5": 0.0,
+          "question_id": "q-disputed-technical-claim",
+          "recall_at_5": null,
+          "reciprocal_rank": 0.0,
+          "retrieved": 5,
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": false,
+          "claims": 6,
+          "expected_behavior": "explain_ledger_state",
+          "latency_ms": 8.697,
+          "ndcg_at_5": null,
+          "precision_at_5": 0.0,
+          "question_id": "q-stale-source-label",
+          "recall_at_5": null,
+          "reciprocal_rank": 0.0,
+          "retrieved": 5,
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": false,
+          "claims": 6,
+          "expected_behavior": "explain_origin_rule",
+          "latency_ms": 8.778,
+          "ndcg_at_5": null,
+          "precision_at_5": 0.0,
+          "question_id": "q-independent-origin-definition",
+          "recall_at_5": null,
+          "reciprocal_rank": 0.0,
+          "retrieved": 5,
+          "unsupported_claims": 0
+        }
+      ],
+      "questions": 28,
+      "retrieval": {
+        "mrr": 0.2321,
+        "ndcg_at_5": 0.544,
+        "precision_at_5": 0.1714,
+        "recall_at_5": 0.2055
+      }
+    }
+  ],
+  "judged_questions_available": 28,
+  "k": 5,
+  "match": "record",
+  "qrels_illustrative": false,
+  "qrels_supplied": true,
+  "qrels_warning": null,
+  "threshold_checks": {
+    "hybrid+no-corroboration": [
+      {
+        "comparison": "max",
+        "metric": "unsupported_claim_rate",
+        "passed": true,
+        "threshold": 0.1,
+        "value": 0.0
+      },
+      {
+        "comparison": "min",
+        "metric": "claim_support_rate",
+        "passed": true,
+        "threshold": 0.9,
+        "value": 1.0
+      },
+      {
+        "comparison": "max",
+        "metric": "median_latency_seconds",
+        "passed": true,
+        "threshold": 8,
+        "value": 0.0044
+      }
+    ]
+  },
+  "thresholds": {
+    "factual_claims_with_valid_evidence_min": 0.9,
+    "median_latency_seconds_max": 8,
+    "trend_p_at_5_min": 0.7,
+    "unsupported_claims_max": 0.1
+  }
+}

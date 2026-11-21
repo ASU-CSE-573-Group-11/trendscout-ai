@@ -1,0 +1,203 @@
+{
+  "checked_at": "2026-11-21T09:57:05Z",
+  "study_index": "evaluation/study-index.json",
+  "pilot": {
+    "consent_reports": 5,
+    "consent_methods": {
+      "group_approval_reported_by_P05": 4,
+      "self_report_in_project_session": 1
+    },
+    "planned_tasks": 30,
+    "submitted_responses": 30,
+    "scored_task_results": 30,
+    "participants": [
+      {
+        "participant_id": "P01",
+        "planned_tasks": 6,
+        "submitted_responses": 6,
+        "missing_question_ids": []
+      },
+      {
+        "participant_id": "P02",
+        "planned_tasks": 6,
+        "submitted_responses": 6,
+        "missing_question_ids": []
+      },
+      {
+        "participant_id": "P03",
+        "planned_tasks": 6,
+        "submitted_responses": 6,
+        "missing_question_ids": []
+      },
+      {
+        "participant_id": "P04",
+        "planned_tasks": 6,
+        "submitted_responses": 6,
+        "missing_question_ids": []
+      },
+      {
+        "participant_id": "P05",
+        "planned_tasks": 6,
+        "submitted_responses": 6,
+        "missing_question_ids": []
+      }
+    ],
+    "task_key_content_complete": true,
+    "task_key_review_method": "team_source_assisted_adjudication_after_blind_second_review",
+    "second_task_key_review": {
+      "status": "blind_second_review_complete",
+      "reviewer": "Sueda Sen",
+      "recorded_decisions": 6,
+      "state_differences_from_initial_key": [
+        {
+          "question_id": "q-pilot-github-mlops",
+          "initial_state": "insufficient",
+          "second_state": "corroborated"
+        },
+        {
+          "question_id": "q-investors-later-hiring",
+          "initial_state": "insufficient",
+          "second_state": "corroborated"
+        },
+        {
+          "question_id": "q-sector-attention",
+          "initial_state": "insufficient",
+          "second_state": "corroborated"
+        },
+        {
+          "question_id": "q-why-emerging",
+          "initial_state": "emerging",
+          "second_state": "corroborated"
+        },
+        {
+          "question_id": "q-unsupported-acquisition",
+          "initial_state": "insufficient",
+          "second_state": "disputed"
+        },
+        {
+          "question_id": "q-future-performance",
+          "initial_state": "insufficient",
+          "second_state": "corroborated"
+        }
+      ],
+      "final_adjudication_complete": true,
+      "scope": "Compare and adjudicate before final grading; this is not entity/relation agreement."
+    },
+    "task_key_adjudication_complete": true,
+    "final_grading": {
+      "status": "finalized_for_observed_fields",
+      "adjudication_complete": true,
+      "adjudication_method": "team_source_assisted_adjudication_after_blind_second_review",
+      "responses": 30,
+      "metrics": {
+        "status_correct": {
+          "correct": 1,
+          "assessed": 30,
+          "not_assessed": 0,
+          "accuracy": 0.03333333333333333
+        },
+        "evidence_correct": {
+          "correct": 0,
+          "assessed": 0,
+          "not_assessed": 30,
+          "accuracy": null
+        },
+        "abstention_correct": {
+          "correct": 1,
+          "assessed": 17,
+          "not_assessed": 13,
+          "accuracy": 0.058823529411764705
+        }
+      },
+      "full_protocol_measurement_complete": false,
+      "external_independent_assessor": false,
+      "legacy_pilot_container_matches_final_grading": true
+    },
+    "task_key_independently_adjudicated": false
+  },
+  "annotation_rounds": [
+    {
+      "directory": "evaluation/real",
+      "reviewers": {
+        "sueda": {
+          "entity_labels": 418,
+          "entity_candidates": 418,
+          "relation_labels": 126,
+          "relation_candidates": 126,
+          "attestation_status": "source_review_complete",
+          "independent_human_attested": false
+        },
+        "mehmet": {
+          "entity_labels": 0,
+          "entity_candidates": 418,
+          "relation_labels": 0,
+          "relation_candidates": 126,
+          "attestation_status": "team_authorization_confirmed",
+          "independent_human_attested": false
+        }
+      },
+      "corpus_documents": 45,
+      "corpus_decisions": {
+        "sueda_include": 45,
+        "mehmet_include": 45,
+        "final_include": 45,
+        "adjudicator": 45
+      },
+      "qrels_pairs": 1260,
+      "qrels_fields": {
+        "sueda_grade": 1260,
+        "mehmet_grade": 0,
+        "final_grade": 0,
+        "adjudicator": 0
+      }
+    },
+    {
+      "directory": "evaluation/mixed",
+      "reviewers": {
+        "sueda": {
+          "entity_labels": 276,
+          "entity_candidates": 276,
+          "relation_labels": 108,
+          "relation_candidates": 108,
+          "attestation_status": "source_review_complete",
+          "independent_human_attested": false
+        },
+        "mehmet": {
+          "entity_labels": 0,
+          "entity_candidates": 276,
+          "relation_labels": 0,
+          "relation_candidates": 108,
+          "attestation_status": "team_authorization_confirmed",
+          "independent_human_attested": false
+        }
+      },
+      "corpus_documents": 45,
+      "corpus_decisions": {
+        "sueda_include": 45,
+        "mehmet_include": 0,
+        "final_include": 0,
+        "adjudicator": 0
+      },
+      "qrels_pairs": 1260,
+      "qrels_fields": {
+        "sueda_grade": 1260,
+        "mehmet_grade": 0,
+        "final_grade": 0,
+        "adjudicator": 0
+      }
+    }
+  ],
+  "contributor_identities": {
+    "project_account_mappings_confirmed": 4,
+    "total_members": 4,
+    "scope": "GitHub account authorship plus team-confirmed name mapping; not independent annotation or pilot measurement."
+  },
+  "remaining_actual_inputs": [
+    "Independent annotation attestations and second-review labels",
+    "Final corpus/relevance adjudication"
+  ],
+  "measurement_limitations": [
+    "Free-text evidence and qualifying/policy explanations were not collected; unassessable criteria remain explicitly unmeasured."
+  ],
+  "complete_research_submission": false
+}

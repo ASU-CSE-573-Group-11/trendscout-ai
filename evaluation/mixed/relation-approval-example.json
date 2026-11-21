@@ -1,0 +1,13 @@
+{
+  "record_type": "example_only_not_an_actual_review",
+  "exclude_from_evaluation": true,
+  "target_location": "reviewers.sueda.decisions[0]",
+  "instruction": "Use these values only after personally reviewing and accepting this proposal. Replace confirmed_at with the actual confirmation time. This file is not a completed review.",
+  "example": {
+    "item_id": "relation:eb174b5a-a28e-5260-a99a-aeb84f1e4be8:0",
+    "proposed_label": "MENTIONS",
+    "reviewer_decision": "MENTIONS",
+    "reviewer_confirmed": true,
+    "confirmed_at": "<actual confirmation time in ISO 8601 format>"
+  }
+}

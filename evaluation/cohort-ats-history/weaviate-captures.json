@@ -1,0 +1,16 @@
+[
+  {
+    "company_id": "weaviate",
+    "timestamp": "20260527195945",
+    "original_url": "https://jobs.ashbyhq.com/weaviate",
+    "requested_url": "https://web.archive.org/web/20260527195945id_/https://jobs.ashbyhq.com/weaviate",
+    "observed_at": "2026-11-21T10:10:56.004362+00:00",
+    "http_status": 200,
+    "response_url": "https://web.archive.org/web/20260527195945id_/https://jobs.ashbyhq.com/weaviate",
+    "file": "sources/weaviate-20260527195945.html",
+    "sha256": "cd1cba28c4f4fe9cafe30cf4d329ada06855f1f0a8b301103a78633d5a91c356",
+    "memento_datetime": "Wed, 27 May 2026 19:59:45 GMT",
+    "capture_verified": true,
+    "snapshot_at": "2026-05-27T19:59:45Z"
+  }
+]

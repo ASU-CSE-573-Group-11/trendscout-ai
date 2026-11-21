@@ -1,0 +1,7 @@
+{
+  "scope": "Exact collection scripts used for this freeze, retained for provenance. Discovery refuses an existing output directory; offline replay uses the frozen raw sources.",
+  "files": {
+    "audit-archives.py": "8c18275f445c7961cab46113d3c62ffb0bc0d2664956b087fe789a520493f180",
+    "discover-careers.py": "8356bdcb64f83f6d2b193aa5da5e147cc458bd174cfdb8be8ed35aa95977c83c"
+  }
+}

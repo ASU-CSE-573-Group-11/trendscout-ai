@@ -1,0 +1,167 @@
+{
+  "status": "source_based_adjudication_proposal",
+  "second_review": {
+    "status": "blind_second_review_complete",
+    "reviewer": "Sueda Sen",
+    "recorded_decisions": 6,
+    "state_differences_from_initial_key": [
+      {
+        "question_id": "q-pilot-github-mlops",
+        "initial_state": "insufficient",
+        "second_state": "corroborated"
+      },
+      {
+        "question_id": "q-investors-later-hiring",
+        "initial_state": "insufficient",
+        "second_state": "corroborated"
+      },
+      {
+        "question_id": "q-sector-attention",
+        "initial_state": "insufficient",
+        "second_state": "corroborated"
+      },
+      {
+        "question_id": "q-why-emerging",
+        "initial_state": "emerging",
+        "second_state": "corroborated"
+      },
+      {
+        "question_id": "q-unsupported-acquisition",
+        "initial_state": "insufficient",
+        "second_state": "disputed"
+      },
+      {
+        "question_id": "q-future-performance",
+        "initial_state": "insufficient",
+        "second_state": "corroborated"
+      }
+    ],
+    "final_adjudication_complete": false,
+    "scope": "Compare and adjudicate before final grading; this is not entity/relation agreement."
+  },
+  "source_inventory": {
+    "records": 45,
+    "source_types": {
+      "company": 45
+    },
+    "event_types": {
+      "software_release": 45
+    }
+  },
+  "proposals": [
+    {
+      "question_id": "q-pilot-github-mlops",
+      "initial_state": "insufficient",
+      "recorded_second_review_state": "corroborated",
+      "recorded_second_review_rationale": "Excellent",
+      "source_based_proposed_state": "insufficient",
+      "source_based_reason": "The frozen pilot corpus contains software releases, not dated commit-count windows and MLOps job-board observations. It cannot establish joint activity and hiring growth.",
+      "sources": [
+        "manifest.json",
+        "records.jsonl",
+        "sueda-review/pilot-evidence-policy.md"
+      ],
+      "review_issue": "The supplied rationale does not identify task-specific source support.",
+      "measurement_limit": "Any missing-evidence explanation must not be inferred from the action selection."
+    },
+    {
+      "question_id": "q-investors-later-hiring",
+      "initial_state": "insufficient",
+      "recorded_second_review_state": "corroborated",
+      "recorded_second_review_rationale": "Excellent",
+      "source_based_proposed_state": "insufficient",
+      "source_based_reason": "The frozen pilot corpus has no funding-round and subsequent hiring-stock evidence needed to link investors to later retrieval/evaluation hiring growth.",
+      "sources": [
+        "manifest.json",
+        "records.jsonl",
+        "sueda-review/pilot-evidence-policy.md"
+      ],
+      "review_issue": "The supplied rationale does not identify task-specific source support.",
+      "measurement_limit": "Any missing-evidence explanation must not be inferred from the action selection."
+    },
+    {
+      "question_id": "q-sector-attention",
+      "initial_state": "insufficient",
+      "recorded_second_review_state": "corroborated",
+      "recorded_second_review_rationale": "Excellent",
+      "source_based_proposed_state": "insufficient",
+      "source_based_reason": "Company release notes do not supply the required independent public-voice coverage. The shared evidence policy does not supply those missing observations.",
+      "sources": [
+        "manifest.json",
+        "records.jsonl",
+        "sueda-review/pilot-evidence-policy.md"
+      ],
+      "review_issue": "The supplied rationale does not identify task-specific source support.",
+      "measurement_limit": "Any missing-evidence explanation must not be inferred from the action selection."
+    },
+    {
+      "question_id": "q-why-emerging",
+      "initial_state": "emerging",
+      "recorded_second_review_state": "corroborated",
+      "recorded_second_review_rationale": "Excellent",
+      "source_based_proposed_state": "emerging",
+      "source_based_reason": "The question asks why the emerging label applies and how it can change. The shared policy defines emerging as one independent document/operational signal. Explaining that rule is distinct from establishing a particular company's factual state.",
+      "sources": [
+        "manifest.json",
+        "records.jsonl",
+        "sueda-review/pilot-evidence-policy.md"
+      ],
+      "review_issue": "The supplied rationale does not identify task-specific source support.",
+      "measurement_limit": "A policy explanation was not collected in the categorical response form."
+    },
+    {
+      "question_id": "q-unsupported-acquisition",
+      "initial_state": "insufficient",
+      "recorded_second_review_state": "disputed",
+      "recorded_second_review_rationale": "Excellent",
+      "source_based_proposed_state": "insufficient",
+      "source_based_reason": "No acquisition evidence is present in the frozen release corpus. Under the policy, disputed requires credible conflicting evidence; missing support alone means insufficient.",
+      "sources": [
+        "manifest.json",
+        "records.jsonl",
+        "sueda-review/pilot-evidence-policy.md"
+      ],
+      "review_issue": "The supplied rationale does not identify task-specific source support.",
+      "measurement_limit": "Any missing-evidence explanation must not be inferred from the action selection."
+    },
+    {
+      "question_id": "q-future-performance",
+      "initial_state": "insufficient",
+      "recorded_second_review_state": "corroborated",
+      "recorded_second_review_rationale": "Excellent",
+      "source_based_proposed_state": "insufficient",
+      "source_based_reason": "The frozen sources cannot establish which company will have the highest valuation in 2027. The policy forbids converting trend scores into objective future-performance claims.",
+      "sources": [
+        "manifest.json",
+        "records.jsonl",
+        "sueda-review/pilot-evidence-policy.md"
+      ],
+      "review_issue": "The supplied rationale does not identify task-specific source support.",
+      "measurement_limit": "Any missing-evidence explanation must not be inferred from the action selection."
+    }
+  ],
+  "state_match_sensitivity": {
+    "initial_source_key": {
+      "state_label_matches": 1,
+      "responses": 30,
+      "match_fraction": 0.03333333333333333,
+      "scope": "Sensitivity to the proposed key, not final adjudicated accuracy."
+    },
+    "recorded_second_review": {
+      "state_label_matches": 17,
+      "responses": 30,
+      "match_fraction": 0.5666666666666667,
+      "scope": "Sensitivity to the proposed key, not final adjudicated accuracy."
+    }
+  },
+  "human_review_preserved": true,
+  "final_adjudication_complete": false,
+  "independent_entity_relation_agreement_established": false,
+  "input_sha256": {
+    "pilot-session/task-key-second-review.json": "fd69dd0fde282c9693616088c5242e2e3b5b8ae113cf8a8339f4f06cd8bbe1fa",
+    "sueda-review/pilot-evidence-policy.md": "517bfa30134f13e9f5a3245d017959d66f0629d78b2c8cab8d9b3c2eb2e094f1",
+    "records.jsonl": "587d3128ef445f1b17d6ac711be64f5491679e41494ac0506114b1cf53b40d30",
+    "pilot-session/protocol.json": "a60f5c19f735a38e9446b568754d0ebcbfceb8a35b20c1fdb9a579e0348afb36",
+    "pilot-session/responses.json": "84eb5d91585943106b346c3597b3bbe54df7652ac779cf533b062c409d32de8e"
+  }
+}

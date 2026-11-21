@@ -1,0 +1,27 @@
+{
+  "checked_at": "2026-11-21T20:18:15Z",
+  "status": "success",
+  "method": "graph.neo4j complete-payload loader against local trendscout-neo4j",
+  "graph_sha256": "010bb2a0381a3b46f98f002ae2838bf45f636e0c050d791f9a03fd67e694ab5f",
+  "payload_node_count": 170,
+  "payload_edge_count": 466,
+  "payload_node_matches": 170,
+  "payload_edge_matches": 466,
+  "payload_verified": true,
+  "database": "neo4j",
+  "uri": "bolt://localhost:7687",
+  "database_label_counts_after_import": {
+    "Claim": 51,
+    "FundingRound": 3,
+    "Investor": 4,
+    "JobPosting": 18,
+    "OriginCluster": 41,
+    "Publisher": 10,
+    "Repository": 3,
+    "Skill": 10,
+    "SourceRecord": 139,
+    "Startup": 5,
+    "Technology": 8
+  },
+  "scope": "Payload-specific ID and relationship acceptance. Database totals include nodes retained from earlier local fixture and source-record checks."
+}

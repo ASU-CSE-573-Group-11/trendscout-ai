@@ -1,0 +1,201 @@
+{
+  "checked_at": "2026-11-21T12:18:04Z",
+  "members": [
+    {
+      "name": "Sueda Sen",
+      "commits": [
+        {
+          "commit": "31788329649adb671daa3e5ca6e39e5f767afb38",
+          "recorded_author": "Süeda",
+          "subject": "Expand frozen evaluation set and annotation tooling (#6)",
+          "claimed_paths_verified": true,
+          "unmatched_paths": []
+        },
+        {
+          "commit": "e1ca52f8efea49cc306d51b1651e2c7586a49a78",
+          "recorded_author": "SuedaSen",
+          "subject": "Implement Sueda source collectors",
+          "claimed_paths_verified": true,
+          "unmatched_paths": []
+        }
+      ],
+      "prepared_artifacts": [
+        {
+          "path": "evaluation/sueda-delivery-corpus/manifest.json",
+          "hash_matches": true
+        },
+        {
+          "path": "evaluation/real/sueda-review/candidate-review-v2/manifest.json",
+          "hash_matches": true
+        },
+        {
+          "path": "evaluation/verify_sueda_delivery.py",
+          "hash_matches": true
+        },
+        {
+          "path": "evaluation/submission/sueda-completion.json",
+          "hash_matches": true
+        },
+        {
+          "path": "evaluation/cohort-history-v2/manifest.json",
+          "hash_matches": true
+        },
+        {
+          "path": "evaluation/cohort-job-history/manifest.json",
+          "hash_matches": true
+        },
+        {
+          "path": "evaluation/mixed/sueda-source-review/summary.json",
+          "hash_matches": true
+        },
+        {
+          "path": "evaluation/cohort-archive-followup/manifest.json",
+          "hash_matches": true
+        },
+        {
+          "path": "evaluation/real/pilot-session/task-key-adjudication.json",
+          "hash_matches": true
+        },
+        {
+          "path": "evaluation/real/pilot-session/final-grading.json",
+          "hash_matches": true
+        },
+        {
+          "path": "evaluation/cohort-identity-review/manifest.json",
+          "hash_matches": true
+        },
+        {
+          "path": "evaluation/cohort-identity-review/usable-profiles.json",
+          "hash_matches": true
+        },
+        {
+          "path": "evaluation/submission/question-coverage.json",
+          "hash_matches": true
+        },
+        {
+          "path": "evaluation/submission/funding-source-review.json",
+          "hash_matches": true
+        },
+        {
+          "path": "evaluation/cohort-history-followup/review.json",
+          "hash_matches": true
+        },
+        {
+          "path": "evaluation/browser-observations/llamaindex-2026-11-21/manifest.json",
+          "hash_matches": true
+        },
+        {
+          "path": "collectors/browser_snapshot.py",
+          "hash_matches": true
+        },
+        {
+          "path": "evaluation/cohort-ats-history/review.json",
+          "hash_matches": true
+        },
+        {
+          "path": "evaluation/independent_review.py",
+          "hash_matches": true
+        },
+        {
+          "path": "evaluation/real/sueda-review/relation-extension/manifest.json",
+          "hash_matches": true
+        },
+        {
+          "path": "evaluation/mixed/relation-reconciliation.json",
+          "hash_matches": true
+        },
+        {
+          "path": "evaluation/submission/sueda-entity-source-check.json",
+          "hash_matches": true
+        },
+        {
+          "path": "evaluation/remaining-history-discovery/review.json",
+          "hash_matches": true
+        },
+        {
+          "path": "collectors/archive_browser.py",
+          "hash_matches": true
+        }
+      ],
+      "project_account_identity": {
+        "status": "project_account_mapping_confirmed",
+        "github_account": "SuedaSen",
+        "evidence": "evaluation/submission/contributor-identities.json",
+        "method": "Authenticated GitHub commit-account response plus explicit team confirmation."
+      },
+      "ownership_basis": "docs/project-plan.md",
+      "personal_annotation_and_pilot_participation": "Requires actual study records; not inferred from code authorship."
+    },
+    {
+      "name": "Mehmet Aksit",
+      "commits": [
+        {
+          "commit": "b3e2dd33aa42c1bcd3304f076c01b5c41b9ae1bd",
+          "recorded_author": "M Cevat Aksit",
+          "subject": "Add live Neo4j loader and graph constraints",
+          "claimed_paths_verified": true,
+          "unmatched_paths": []
+        },
+        {
+          "commit": "ee98502e69e4767f1bc50f9e398d5b286c24bc32",
+          "recorded_author": "M Cevat Aksit",
+          "subject": "Document live Neo4j setup and evidence loading",
+          "claimed_paths_verified": true,
+          "unmatched_paths": []
+        }
+      ],
+      "prepared_artifacts": [],
+      "project_account_identity": {
+        "status": "project_account_mapping_confirmed",
+        "github_account": "mcaksit",
+        "evidence": "evaluation/submission/contributor-identities.json",
+        "method": "Authenticated GitHub commit-account response plus explicit team confirmation."
+      },
+      "ownership_basis": "docs/project-plan.md",
+      "personal_annotation_and_pilot_participation": "Requires actual study records; not inferred from code authorship."
+    },
+    {
+      "name": "Vidya Sagar Dudekula",
+      "commits": [
+        {
+          "commit": "5c409375a90326fbd226a4c80c713fc24d9695ee",
+          "recorded_author": "Vidya Sagar",
+          "subject": "Add Greenhouse, Lever, and GitHub API collectors (#3)",
+          "claimed_paths_verified": true,
+          "unmatched_paths": []
+        }
+      ],
+      "prepared_artifacts": [],
+      "project_account_identity": {
+        "status": "project_account_mapping_confirmed",
+        "github_account": "VidyasagarDudekula",
+        "evidence": "evaluation/submission/contributor-identities.json",
+        "method": "Authenticated GitHub commit-account response plus explicit team confirmation."
+      },
+      "ownership_basis": "docs/project-plan.md",
+      "personal_annotation_and_pilot_participation": "Requires actual study records; not inferred from code authorship."
+    },
+    {
+      "name": "Faisal Barkat Khorasi",
+      "commits": [
+        {
+          "commit": "04d52cf52b609dfe09ad91a38cf955d1179a2b3b",
+          "recorded_author": "Faisal Khorasi",
+          "subject": "Add weekly activity features, EWMA trend baseline, dense retrieval, and the conversational interface (#4)",
+          "claimed_paths_verified": true,
+          "unmatched_paths": []
+        }
+      ],
+      "prepared_artifacts": [],
+      "project_account_identity": {
+        "status": "project_account_mapping_confirmed",
+        "github_account": "EroNinja",
+        "evidence": "evaluation/submission/contributor-identities.json",
+        "method": "Authenticated GitHub commit-account response plus explicit team confirmation."
+      },
+      "ownership_basis": "docs/project-plan.md",
+      "personal_annotation_and_pilot_participation": "Requires actual study records; not inferred from code authorship."
+    }
+  ],
+  "scope": "Local commit objects, recorded authors, changed paths, and artifact hashes. Identity aliases are not inferred."
+}

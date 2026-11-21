@@ -1,0 +1,12 @@
+{
+  "annotator": "Sueda Sen",
+  "candidates": 418,
+  "accepted_entities": 200,
+  "rejected_entities": 218,
+  "target": "200+",
+  "target_met": true,
+  "method": "source_reviewed_exact_candidate_preparation",
+  "independent_human_attestation": false,
+  "independent_kappa_eligible": false,
+  "status": "source_review_complete_independent_pass_pending"
+}

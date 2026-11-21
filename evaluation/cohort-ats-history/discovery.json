@@ -1,0 +1,2257 @@
+[
+  {
+    "company_id": "e2b",
+    "board_type": "ashby",
+    "board_url": "https://jobs.ashbyhq.com/e2b",
+    "observed_at": "2026-11-21T10:09:20.414853+00:00",
+    "http_status": 200,
+    "url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fjobs.ashbyhq.com%2Fe2b%2A&output=json&filter=statuscode%3A200&collapse=timestamp%3A6&from=20251101&to=20261121&limit=250",
+    "file": "sources/e2b-cdx.json",
+    "sha256": "25eda8d24dba70e1b9955888dcc5095a092cd2328e9b0d3cca2defd49c9ffff6",
+    "captures": [
+      {
+        "urlkey": "com,ashbyhq,jobs)/e2b",
+        "timestamp": "20261117065251",
+        "original": "https://jobs.ashbyhq.com/e2b",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "ZIJW4W4HDKIIWSO7GALDMXE565CC4DWP",
+        "length": "6874"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/e2b/2b11e895-3cd7-4666-ae53-64f509cc96a8/application",
+        "timestamp": "20260928185151",
+        "original": "https://jobs.ashbyhq.com/e2b/2b11e895-3cd7-4666-ae53-64f509cc96a8/application",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "3QG34MMXZOQ363DEXGUAT3NVBBG2ZEAT",
+        "length": "9500"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/e2b/2b11e895-3cd7-4666-ae53-64f509cc96a8/application",
+        "timestamp": "20261103005431",
+        "original": "https://jobs.ashbyhq.com/e2b/2b11e895-3cd7-4666-ae53-64f509cc96a8/application",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "W4HDKLKAD3S53LX7G2MSGEA3F5ITFCDC",
+        "length": "9546"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/e2b/3d945fd2-5100-41bb-8720-e105563dfaaa/application",
+        "timestamp": "20260928185149",
+        "original": "https://jobs.ashbyhq.com/e2b/3d945fd2-5100-41bb-8720-e105563dfaaa/application",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "QRZII76Y3ILOVQQD5Q3JCXQEXSMLRHIL",
+        "length": "8507"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/e2b/3d945fd2-5100-41bb-8720-e105563dfaaa/application",
+        "timestamp": "20261103005430",
+        "original": "https://jobs.ashbyhq.com/e2b/3d945fd2-5100-41bb-8720-e105563dfaaa/application",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "KGETFMEF5J2EQ5Z6TNJXM6I2FCBZJ4OF",
+        "length": "8559"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/e2b/49a87668-9f2a-40dc-bfc3-b262aca62b39/application",
+        "timestamp": "20260928185151",
+        "original": "https://jobs.ashbyhq.com/e2b/49a87668-9f2a-40dc-bfc3-b262aca62b39/application",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "AZMXCNYRZWVBLTQSOVWDP6DSWLTCIJ2N",
+        "length": "9188"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/e2b/49a87668-9f2a-40dc-bfc3-b262aca62b39/application",
+        "timestamp": "20261103005431",
+        "original": "https://jobs.ashbyhq.com/e2b/49a87668-9f2a-40dc-bfc3-b262aca62b39/application",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "5QSHJXAYNHTAIP7ZNYXPNCOS26GUF4BC",
+        "length": "9337"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/e2b/648efda2-d209-41eb-83fc-e6d1370fba71/application",
+        "timestamp": "20260928185151",
+        "original": "https://jobs.ashbyhq.com/e2b/648efda2-d209-41eb-83fc-e6d1370fba71/application",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "BWU3GURLTVLEBG722IBFLP4UJUQXDTO6",
+        "length": "8783"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/e2b/648efda2-d209-41eb-83fc-e6d1370fba71/application",
+        "timestamp": "20261103005431",
+        "original": "https://jobs.ashbyhq.com/e2b/648efda2-d209-41eb-83fc-e6d1370fba71/application",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "6EDIGF7OHJKYUOP5SOK7OLFWCIVCNVW6",
+        "length": "8828"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/e2b/65435b53-aac8-4b31-8fcd-4fe111bbf6cf",
+        "timestamp": "20260419112030",
+        "original": "https://jobs.ashbyhq.com/e2b/65435b53-aac8-4b31-8fcd-4fe111bbf6cf",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "OKR5QJ3C63ND3AOYFZ7FBVX6M4VZ65NN",
+        "length": "3165"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/e2b/65435b53-aac8-4b31-8fcd-4fe111bbf6cf/application?ref=thehomebase&utm_source=thehomebase",
+        "timestamp": "20260217234501",
+        "original": "https://jobs.ashbyhq.com/e2b/65435b53-aac8-4b31-8fcd-4fe111bbf6cf/application?utm_source=thehomebase&ref=thehomebase",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "PJKSJL4YEHPTXOHTWRHMOV3SMCESWVFL",
+        "length": "3194"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/e2b/65435b53-aac8-4b31-8fcd-4fe111bbf6cf?gh_src=susa+ventures+job+board&utm_medium=getro.com&utm_source=susa+ventures+job+board",
+        "timestamp": "20260712060249",
+        "original": "https://jobs.ashbyhq.com/e2b/65435b53-aac8-4b31-8fcd-4fe111bbf6cf?utm_source=Susa+Ventures+job+board&utm_medium=getro.com&gh_src=Susa+Ventures+job+board",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "KRFOGT27AO5LKFQJDLI43LXPDNX2LCQP",
+        "length": "3472"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/e2b/657ce888-be70-46cf-975f-ca7788694fdc",
+        "timestamp": "20261117070220",
+        "original": "https://jobs.ashbyhq.com/e2b/657ce888-be70-46cf-975f-ca7788694fdc",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "LOFKXYCEVDQUPM5WEO2M77EOWY4PR7ZN",
+        "length": "8837"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/e2b/7a519242-1a05-40e7-abd4-b8813b804a00/application?ref=thehomebase&utm_source=thehomebase",
+        "timestamp": "20260317033218",
+        "original": "https://jobs.ashbyhq.com/e2b/7a519242-1a05-40e7-abd4-b8813b804a00/application?utm_source=thehomebase&ref=thehomebase",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "THVYQ7KQIVCV2TNMNTAKRJMGHHHXPMSG",
+        "length": "12810"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/e2b/7a519242-1a05-40e7-abd4-b8813b804a00?gh_src=susa+ventures+job+board&utm_medium=getro.com&utm_source=susa+ventures+job+board",
+        "timestamp": "20251206010922",
+        "original": "https://jobs.ashbyhq.com/e2b/7a519242-1a05-40e7-abd4-b8813b804a00?utm_source=Susa+Ventures+job+board&utm_medium=getro.com&gh_src=Susa+Ventures+job+board",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "WJM4GPHAUHQ5ZVW3FVDX3CMJFPKWVQ7B",
+        "length": "12360"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/e2b/7a519242-1a05-40e7-abd4-b8813b804a00?gh_src=susa+ventures+job+board&utm_medium=getro.com&utm_source=susa+ventures+job+board",
+        "timestamp": "20260411184317",
+        "original": "https://jobs.ashbyhq.com/e2b/7a519242-1a05-40e7-abd4-b8813b804a00?utm_source=Susa+Ventures+job+board&utm_medium=getro.com&gh_src=Susa+Ventures+job+board",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "XWTP7N4TGWA55QVHJCEPEL4GI6XOYCWO",
+        "length": "13211"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/e2b/7dcdd500-b22f-4b81-9014-a8b2a7e0f56d/application?ref=thehomebase&utm_source=thehomebase",
+        "timestamp": "20260616063902",
+        "original": "https://jobs.ashbyhq.com/e2b/7dcdd500-b22f-4b81-9014-a8b2a7e0f56d/application?utm_source=thehomebase&ref=thehomebase",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "GPKTCF2JYIMY63PO3AQUZBFMPC4GTGTC",
+        "length": "13035"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/e2b/8807b7c1-3dc4-4f4c-bb20-634fcef4634c/application",
+        "timestamp": "20260928185152",
+        "original": "https://jobs.ashbyhq.com/e2b/8807b7c1-3dc4-4f4c-bb20-634fcef4634c/application",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "7K7MLYZKAN663QCOPLEJS4YOV4A5UT22",
+        "length": "8576"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/e2b/8807b7c1-3dc4-4f4c-bb20-634fcef4634c/application",
+        "timestamp": "20261103005431",
+        "original": "https://jobs.ashbyhq.com/e2b/8807b7c1-3dc4-4f4c-bb20-634fcef4634c/application",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "GDO3KBCEOYXG7Y5UUYVCE7PKUGNIQFDU",
+        "length": "8642"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/e2b/977d9b9b-f781-468a-8cf0-58bcd5e39975",
+        "timestamp": "20260809142143",
+        "original": "https://jobs.ashbyhq.com/e2b/977d9b9b-f781-468a-8cf0-58bcd5e39975",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "ZKLMBS5G5XZC547CFRNGWJVPPMEJTA54",
+        "length": "3428"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/e2b/977d9b9b-f781-468a-8cf0-58bcd5e39975/application?ref=thehomebase&utm_source=thehomebase",
+        "timestamp": "20260612111838",
+        "original": "https://jobs.ashbyhq.com/e2b/977d9b9b-f781-468a-8cf0-58bcd5e39975/application?utm_source=thehomebase&ref=thehomebase",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "2SPNGRTYB3UK2M6UBZ22F2Y3LICO27OL",
+        "length": "12238"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/e2b/977d9b9b-f781-468a-8cf0-58bcd5e39975?gh_src=susa+ventures+job+board&utm_medium=getro.com&utm_source=susa+ventures+job+board",
+        "timestamp": "20260718122128",
+        "original": "https://jobs.ashbyhq.com/e2b/977d9b9b-f781-468a-8cf0-58bcd5e39975?utm_source=Susa+Ventures+job+board&utm_medium=getro.com&gh_src=Susa+Ventures+job+board",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "52BTZ7SZBGBMTESZ2P4KFEOYK5HFNUKB",
+        "length": "6401"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/e2b/a19a52aa-5a5b-48ed-9b88-40414f5b29a8",
+        "timestamp": "20261117071324",
+        "original": "https://jobs.ashbyhq.com/e2b/a19a52aa-5a5b-48ed-9b88-40414f5b29a8",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "MO5E4CXBHAOAWITJUJS5LZPAAMJPSEG4",
+        "length": "8012"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/e2b/a19a52aa-5a5b-48ed-9b88-40414f5b29a8/application",
+        "timestamp": "20260928185150",
+        "original": "https://jobs.ashbyhq.com/e2b/a19a52aa-5a5b-48ed-9b88-40414f5b29a8/application",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "7XNEKET62DHA6WVWFSLKVNUOSTWKQT7O",
+        "length": "8167"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/e2b/a19a52aa-5a5b-48ed-9b88-40414f5b29a8/application",
+        "timestamp": "20261103005430",
+        "original": "https://jobs.ashbyhq.com/e2b/a19a52aa-5a5b-48ed-9b88-40414f5b29a8/application",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "JPT6HWDGHFL43TCXCSNCQPEXED2GOBNH",
+        "length": "8183"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/e2b/a19a52aa-5a5b-48ed-9b88-40414f5b29a8/application?utm_id=9143497&utm_source=san+francisco+job+board",
+        "timestamp": "20260520012227",
+        "original": "https://jobs.ashbyhq.com/e2b/a19a52aa-5a5b-48ed-9b88-40414f5b29a8/application?utm_id=9143497&utm_source=San+Francisco+Job+Board",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "RAVC2ILMG7DX4OKGKRV2G5QF7UDQLHYA",
+        "length": "3204"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/e2b/ad6febd3-7e17-403a-9449-fef78a8bb163",
+        "timestamp": "20261117071437",
+        "original": "https://jobs.ashbyhq.com/e2b/ad6febd3-7e17-403a-9449-fef78a8bb163",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "U65ZCZS7WSGTTQWI25JUZGDTH5WXJNLZ",
+        "length": "8846"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/e2b/b7c09065-cbfb-405f-95be-b37c062b5eb6",
+        "timestamp": "20261006033543",
+        "original": "https://jobs.ashbyhq.com/e2b/b7c09065-cbfb-405f-95be-b37c062b5eb6",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "N7TJCBTUQ2IQIFD4L4RJAOVDPB6XEMA6",
+        "length": "9596"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/e2b/b7c09065-cbfb-405f-95be-b37c062b5eb6/application",
+        "timestamp": "20260928185150",
+        "original": "https://jobs.ashbyhq.com/e2b/b7c09065-cbfb-405f-95be-b37c062b5eb6/application",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "HODRC3ITQA3NDL6PI3FKXAINAFC7PAFY",
+        "length": "9566"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/e2b/b7c09065-cbfb-405f-95be-b37c062b5eb6/application",
+        "timestamp": "20261103005430",
+        "original": "https://jobs.ashbyhq.com/e2b/b7c09065-cbfb-405f-95be-b37c062b5eb6/application",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "4WX3MLMGKDSJKBVBMWFETQSQA6CCSCEI",
+        "length": "9587"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/e2b/b8d635e7-75b0-443a-be65-024cc1c0d50b",
+        "timestamp": "20260521080724",
+        "original": "https://jobs.ashbyhq.com/e2b/b8d635e7-75b0-443a-be65-024cc1c0d50b",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "2D7MFGPUYVWXBXOQRXVKU3PL5XMTXSMY",
+        "length": "11956"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/e2b/bce7c8c9-188b-4564-acb4-f19f7383abdd",
+        "timestamp": "20260719124309",
+        "original": "https://jobs.ashbyhq.com/e2b/bce7c8c9-188b-4564-acb4-f19f7383abdd",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "KYOPO4Q74ZKSJX3XZQV7RAYKWFGFYDK4",
+        "length": "8023"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/e2b/c47133ad-9b6d-41cf-80c8-3efa2f502dda",
+        "timestamp": "20260521081248",
+        "original": "https://jobs.ashbyhq.com/e2b/c47133ad-9b6d-41cf-80c8-3efa2f502dda",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "LMITPUCYFWGOI36J6FPK5T55O5DPNB4T",
+        "length": "3099"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/e2b/c8c15520-cfd9-4b04-a902-e60a098aa96c/application",
+        "timestamp": "20260928185149",
+        "original": "https://jobs.ashbyhq.com/e2b/c8c15520-cfd9-4b04-a902-e60a098aa96c/application",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "4XRMCLTGESXKLCQJRMWSNOUMTK32ATKM",
+        "length": "8985"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/e2b/c8c15520-cfd9-4b04-a902-e60a098aa96c/application",
+        "timestamp": "20261103005430",
+        "original": "https://jobs.ashbyhq.com/e2b/c8c15520-cfd9-4b04-a902-e60a098aa96c/application",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "NBBDJ6FGHV55ZVWLVCMQVGXQZDTG7JOU",
+        "length": "9042"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/e2b/d07e3421-9d5f-4145-8b54-cf6f4ac2cb45",
+        "timestamp": "20261026143407",
+        "original": "https://jobs.ashbyhq.com/e2b/d07e3421-9d5f-4145-8b54-cf6f4ac2cb45",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "T33RDJQW2GDNN2FULHMCED2ENXZ6WOHX",
+        "length": "9786"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/e2b/d07e3421-9d5f-4145-8b54-cf6f4ac2cb45/application",
+        "timestamp": "20260928185151",
+        "original": "https://jobs.ashbyhq.com/e2b/d07e3421-9d5f-4145-8b54-cf6f4ac2cb45/application",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "AWVPE66SMQZUIUARTA3JTL6P2H6QFQ2H",
+        "length": "9716"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/e2b/d07e3421-9d5f-4145-8b54-cf6f4ac2cb45/application",
+        "timestamp": "20261103005431",
+        "original": "https://jobs.ashbyhq.com/e2b/d07e3421-9d5f-4145-8b54-cf6f4ac2cb45/application",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "CPDZEMFTVTIATCTBEYNZU7ZR6KOVT64I",
+        "length": "9761"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/e2b/dea22a97-293e-41af-9fdb-c7e6e2c73b37/application",
+        "timestamp": "20260928185150",
+        "original": "https://jobs.ashbyhq.com/e2b/dea22a97-293e-41af-9fdb-c7e6e2c73b37/application",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "RYCSA6V32GGHKLK6AVTGIPCKN3CKBXUQ",
+        "length": "8857"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/e2b/dea22a97-293e-41af-9fdb-c7e6e2c73b37/application",
+        "timestamp": "20261103005431",
+        "original": "https://jobs.ashbyhq.com/e2b/dea22a97-293e-41af-9fdb-c7e6e2c73b37/application",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "BUXDWN5B2HU7PPSLL3JUA475Q6UF5FRP",
+        "length": "8898"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/e2b/e5f9f727-b02c-40cc-95b5-d036b38e7088",
+        "timestamp": "20260508083712",
+        "original": "https://jobs.ashbyhq.com/e2b/e5f9f727-b02c-40cc-95b5-d036b38e7088",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "NIZE5FQ7YEU7WEETGTI3IOACVDKX7EXQ",
+        "length": "12479"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/e2b/e5f9f727-b02c-40cc-95b5-d036b38e7088",
+        "timestamp": "20260812060753",
+        "original": "https://jobs.ashbyhq.com/e2b/e5f9f727-b02c-40cc-95b5-d036b38e7088",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "ZS3L6VR5RE7BMQ5VHOKDJL3WR26NTDHD",
+        "length": "3410"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/e2b/efc5fc81-83b7-40f6-8c00-a5a8bf508fe5/application",
+        "timestamp": "20260928185149",
+        "original": "https://jobs.ashbyhq.com/e2b/efc5fc81-83b7-40f6-8c00-a5a8bf508fe5/application",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "WNHBXDWOQBRAQXL2J44UQACX67FM4Z4H",
+        "length": "8394"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/e2b/efc5fc81-83b7-40f6-8c00-a5a8bf508fe5/application",
+        "timestamp": "20261103005430",
+        "original": "https://jobs.ashbyhq.com/e2b/efc5fc81-83b7-40f6-8c00-a5a8bf508fe5/application",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "2ZZ2HVD2C77PXB43ASWH5MBXKX4XL657",
+        "length": "8436"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/e2b/embed",
+        "timestamp": "20251113034736",
+        "original": "https://jobs.ashbyhq.com/e2b/embed",
+        "mimetype": "application/javascript",
+        "statuscode": "200",
+        "digest": "H6O32BB5BQXD3XV6SSEZK7CQHNO7QI2Y",
+        "length": "2732"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/e2b/embed",
+        "timestamp": "20260218003915",
+        "original": "https://jobs.ashbyhq.com/e2b/embed",
+        "mimetype": "application/javascript",
+        "statuscode": "200",
+        "digest": "VKKNW66VKEX4IC7J3XRVHEB4CO7FANID",
+        "length": "2745"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/e2b/embed",
+        "timestamp": "20260323151857",
+        "original": "https://jobs.ashbyhq.com/e2b/embed",
+        "mimetype": "application/javascript",
+        "statuscode": "200",
+        "digest": "LEWMXFYFCUBWJNXNO3MHSP5IVDM2EG6C",
+        "length": "2490"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/e2b/embed",
+        "timestamp": "20260528121618",
+        "original": "https://jobs.ashbyhq.com/e2b/embed",
+        "mimetype": "application/javascript",
+        "statuscode": "200",
+        "digest": "DIJQUSJ7VBT36VHRUMK7VLEYVZVJMDT2",
+        "length": "2529"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/e2b/embed",
+        "timestamp": "20260627200645",
+        "original": "https://jobs.ashbyhq.com/e2b/embed",
+        "mimetype": "application/javascript",
+        "statuscode": "200",
+        "digest": "LEWMXFYFCUBWJNXNO3MHSP5IVDM2EG6C",
+        "length": "2499"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/e2b/f59dfa81-5b38-44da-90f5-0319eb31b627/application",
+        "timestamp": "20260928185150",
+        "original": "https://jobs.ashbyhq.com/e2b/f59dfa81-5b38-44da-90f5-0319eb31b627/application",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "MLBKHPCP52SKVOX2B3OCXW4IKYEYYB34",
+        "length": "8903"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/e2b/f59dfa81-5b38-44da-90f5-0319eb31b627/application",
+        "timestamp": "20261103005431",
+        "original": "https://jobs.ashbyhq.com/e2b/f59dfa81-5b38-44da-90f5-0319eb31b627/application",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "LVTAKFF2REZYEFRADO626RSLDXK4UW5G",
+        "length": "8944"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/e2b/f7d21cb4-8521-4b29-a21b-48bd8d308505",
+        "timestamp": "20260718153059",
+        "original": "https://jobs.ashbyhq.com/e2b/f7d21cb4-8521-4b29-a21b-48bd8d308505",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "3VS5H3PADF54MMIK6ELRGIICS3RJ5JFC",
+        "length": "8413"
+      }
+    ]
+  },
+  {
+    "company_id": "browserbase",
+    "board_type": "greenhouse",
+    "board_url": "https://boards.greenhouse.io/browserbaseinc",
+    "observed_at": "2026-11-21T10:09:20.415294+00:00",
+    "http_status": 200,
+    "url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fboards.greenhouse.io%2Fbrowserbaseinc%2A&output=json&filter=statuscode%3A200&collapse=timestamp%3A6&from=20251101&to=20261121&limit=250",
+    "file": "sources/browserbase-cdx.json",
+    "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "captures": []
+  },
+  {
+    "company_id": "composio",
+    "board_type": "ashby",
+    "board_url": "https://jobs.ashbyhq.com/composio",
+    "observed_at": "2026-11-21T10:09:20.415487+00:00",
+    "http_status": 200,
+    "url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fjobs.ashbyhq.com%2Fcomposio%2A&output=json&filter=statuscode%3A200&collapse=timestamp%3A6&from=20251101&to=20261121&limit=250",
+    "file": "sources/composio-cdx.json",
+    "sha256": "6c9d22f456220bcf69246a70d50d349a759414ce049d19da435bd4feb641540e",
+    "captures": [
+      {
+        "urlkey": "com,ashbyhq,jobs)/composio",
+        "timestamp": "20260224214833",
+        "original": "https://jobs.ashbyhq.com/composio",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "5CQVSFI6YQYRV4BN7PS5Q7JQPOV3TWUO",
+        "length": "8693"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/composio",
+        "timestamp": "20260308065136",
+        "original": "https://jobs.ashbyhq.com/composio",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "LGO25OMHUAR73DB5B7EOYVXD4KE664DE",
+        "length": "9863"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/composio",
+        "timestamp": "20260406060357",
+        "original": "https://jobs.ashbyhq.com/composio",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "3XYGNTZLOZ4P5MZ6BV7T5QQ6V75MDJUC",
+        "length": "8618"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/composio",
+        "timestamp": "20260515010418",
+        "original": "https://jobs.ashbyhq.com/composio",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "RCVXIF2HC7GNZIMGQBDRXXE7J6HAYTLO",
+        "length": "10916"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/composio",
+        "timestamp": "20260626144526",
+        "original": "https://jobs.ashbyhq.com/composio",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "F5FZOFB5PKWY574I2RJR5GLU6QWXXWWJ",
+        "length": "13119"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/composio",
+        "timestamp": "20260710132538",
+        "original": "https://jobs.ashbyhq.com/composio",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "CYOA4BUW5K73INNXQJAMB4TKB4VAYJJY",
+        "length": "13169"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/composio",
+        "timestamp": "20260905071638",
+        "original": "https://jobs.ashbyhq.com/composio",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "XG726ERGCY4POYDEW4YMIOECZTLAMWXN",
+        "length": "7496"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/composio",
+        "timestamp": "20261013160541",
+        "original": "https://jobs.ashbyhq.com/composio",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "IOP2OZDHAQAFKCNKK6ZC5JQFMSONC6CM",
+        "length": "8336"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/composio",
+        "timestamp": "20261106005557",
+        "original": "https://jobs.ashbyhq.com/composio",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "BCH35CBU54K3XFJQKAUWYMEAREVO3AZQ",
+        "length": "8286"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/composio/0f9bd25c-adc5-49e4-bab4-49185111abfd",
+        "timestamp": "20260513191421",
+        "original": "https://jobs.ashbyhq.com/composio/0f9bd25c-adc5-49e4-bab4-49185111abfd",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "T64LWHHVVYSR65GD2PCD3DA6XBN44PCO",
+        "length": "10125"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/composio/0fb566df-a97a-407f-aac6-62433859b719",
+        "timestamp": "20261106005608",
+        "original": "https://jobs.ashbyhq.com/composio/0fb566df-a97a-407f-aac6-62433859b719",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "A3KO5IRX4VJEA5VZS3EERS7NIS4FZ7F7",
+        "length": "8446"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/composio/1752cc7c-7aae-403a-a319-9b2270cc4c56",
+        "timestamp": "20261004134338",
+        "original": "https://jobs.ashbyhq.com/composio/1752cc7c-7aae-403a-a319-9b2270cc4c56",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "FLWYHPFUU7EZS6JNSAICVY7HEDQHM5L6",
+        "length": "8231"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/composio/1752cc7c-7aae-403a-a319-9b2270cc4c56",
+        "timestamp": "20261105051113",
+        "original": "https://jobs.ashbyhq.com/composio/1752cc7c-7aae-403a-a319-9b2270cc4c56",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "7WJSNW5XQ3WZRV5DIDVBJCSPDSRRIUJC",
+        "length": "8193"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/composio/1752cc7c-7aae-403a-a319-9b2270cc4c56/application",
+        "timestamp": "20261004134333",
+        "original": "https://jobs.ashbyhq.com/composio/1752cc7c-7aae-403a-a319-9b2270cc4c56/application",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "OKNVAE4KSLC7ZDFAQGZNTBUPNFEVSVJR",
+        "length": "8239"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/composio/2c05146b-f700-4e08-ab32-82289c09fa21",
+        "timestamp": "20261106005608",
+        "original": "https://jobs.ashbyhq.com/composio/2c05146b-f700-4e08-ab32-82289c09fa21",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "YWQ7PDB57ANJLHB3CCELRBEEQQNSCAZG",
+        "length": "8550"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/composio/4d819015-0b9a-466f-9b41-8e1cc1e5b6d9",
+        "timestamp": "20260428011243",
+        "original": "https://jobs.ashbyhq.com/composio/4d819015-0b9a-466f-9b41-8e1cc1e5b6d9",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "KBAH2WQMTXTEJUX6RDXJO3WFEZH4OCV3",
+        "length": "10289"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/composio/4da7e4a4-e129-462c-ba0f-11d745f25537",
+        "timestamp": "20261106005607",
+        "original": "https://jobs.ashbyhq.com/composio/4da7e4a4-e129-462c-ba0f-11d745f25537",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "PZJRLB6W3I3SLEIVKSX6LETU6D3PL3JS",
+        "length": "7929"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/composio/519aef4c-7a15-4a62-8adf-e8150087aeca",
+        "timestamp": "20260318221032",
+        "original": "https://jobs.ashbyhq.com/composio/519aef4c-7a15-4a62-8adf-e8150087aeca",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "24X6WQUDL7ZHANVDZPWZS35XS3BBSRJ6",
+        "length": "9326"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/composio/519aef4c-7a15-4a62-8adf-e8150087aeca",
+        "timestamp": "20260422142532",
+        "original": "https://jobs.ashbyhq.com/composio/519aef4c-7a15-4a62-8adf-e8150087aeca",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "74HYVAG5GSONKVEKSWLTW63CLMS5YC52",
+        "length": "3096"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/composio/58cd02c6-31d4-4f61-9cdf-66f49b3dff0e",
+        "timestamp": "20261106005607",
+        "original": "https://jobs.ashbyhq.com/composio/58cd02c6-31d4-4f61-9cdf-66f49b3dff0e",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "KXCQMGFEXQR5WUQK7T2BHECPC2GZEUPZ",
+        "length": "8733"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/composio/65b76713-0b90-4c47-b07a-6ede334b926a",
+        "timestamp": "20260415093422",
+        "original": "https://jobs.ashbyhq.com/composio/65b76713-0b90-4c47-b07a-6ede334b926a",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "6DAZMQWPT54Y6TNQ2Q7GQLVUVXH3ZBL7",
+        "length": "11637"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/composio/68ca620e-2049-4fce-b034-afba79b5e5e4",
+        "timestamp": "20260711144030",
+        "original": "https://jobs.ashbyhq.com/composio/68ca620e-2049-4fce-b034-afba79b5e5e4",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "N3DM7KL7QTIHVG4ZS7DDMNTKFP43HUIM",
+        "length": "12298"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/composio/6b742321-a1e6-46d7-88d1-103bae44df23",
+        "timestamp": "20261106005607",
+        "original": "https://jobs.ashbyhq.com/composio/6b742321-a1e6-46d7-88d1-103bae44df23",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "IHDCCQKFCJUSHOEUF7AUVNIWO57EXWLL",
+        "length": "8013"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/composio/6b742321-a1e6-46d7-88d1-103bae44df23/application?embed=true",
+        "timestamp": "20260919212019",
+        "original": "https://jobs.ashbyhq.com/composio/6b742321-a1e6-46d7-88d1-103bae44df23/application?embed=true",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "AWNKUMNJT64JPECCS3AGEICQEY3LU5MG",
+        "length": "8012"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/composio/745e0c99-2f99-48d1-80a0-af333236b988",
+        "timestamp": "20261004134305",
+        "original": "https://jobs.ashbyhq.com/composio/745e0c99-2f99-48d1-80a0-af333236b988",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "KA7O26RLJK636BATCQQ6CCDXBLKBMVTF",
+        "length": "8064"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/composio/745e0c99-2f99-48d1-80a0-af333236b988",
+        "timestamp": "20261106005607",
+        "original": "https://jobs.ashbyhq.com/composio/745e0c99-2f99-48d1-80a0-af333236b988",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "KHEGX7KKLLONNI7SB3W5FBBPYHOJDIPC",
+        "length": "9187"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/composio/745e0c99-2f99-48d1-80a0-af333236b988/application",
+        "timestamp": "20261004134304",
+        "original": "https://jobs.ashbyhq.com/composio/745e0c99-2f99-48d1-80a0-af333236b988/application",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "UHNAZ4CFTB6MJBEBEFMNXS3LYH2PFY36",
+        "length": "8047"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/composio/74cf1b48-86e9-4454-8c4e-cb2038ed0049",
+        "timestamp": "20261106005607",
+        "original": "https://jobs.ashbyhq.com/composio/74cf1b48-86e9-4454-8c4e-cb2038ed0049",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "O2XNAYHPNM2QFN2YXXYKE7DFISX4KFRR",
+        "length": "8334"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/composio/8fdbf4ff-7585-4f5c-89dc-c1e3b891ac76",
+        "timestamp": "20260725031117",
+        "original": "https://jobs.ashbyhq.com/composio/8fdbf4ff-7585-4f5c-89dc-c1e3b891ac76",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "O3DO3COD7DTTCTXDZRUILCZHIRRABRUW",
+        "length": "9090"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/composio/947bab27-2cab-42aa-aba6-c5637c88eef8",
+        "timestamp": "20261106005607",
+        "original": "https://jobs.ashbyhq.com/composio/947bab27-2cab-42aa-aba6-c5637c88eef8",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "CNCWVYYM56ZKEIE3MOXOCWFQ2SUM3UVW",
+        "length": "8317"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/composio/a226d878-a807-4d65-8192-5de607a3dce9",
+        "timestamp": "20260415102717",
+        "original": "https://jobs.ashbyhq.com/composio/a226d878-a807-4d65-8192-5de607a3dce9",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "NT22WOCM64X2UMRW3JRKEDCVJ2LTHPU7",
+        "length": "11651"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/composio/a226d878-a807-4d65-8192-5de607a3dce9",
+        "timestamp": "20261106005608",
+        "original": "https://jobs.ashbyhq.com/composio/a226d878-a807-4d65-8192-5de607a3dce9",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "EBYAP5C6GAIPYI7ALG7AATRNU4DCXG45",
+        "length": "7904"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/composio/a536fbf3-29ea-4805-a134-733d8157a724",
+        "timestamp": "20260725031117",
+        "original": "https://jobs.ashbyhq.com/composio/a536fbf3-29ea-4805-a134-733d8157a724",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "UHA22XLBCJGFILJ2USSXRWQH342B3W53",
+        "length": "7381"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/composio/aaf139ec-fc60-4591-9f9a-64a8532dbc08",
+        "timestamp": "20260415103632",
+        "original": "https://jobs.ashbyhq.com/composio/aaf139ec-fc60-4591-9f9a-64a8532dbc08",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "XSXVKXY6ORZIB34G7OPU2DHOHRJITEL5",
+        "length": "11534"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/composio/aaf139ec-fc60-4591-9f9a-64a8532dbc08",
+        "timestamp": "20261106005607",
+        "original": "https://jobs.ashbyhq.com/composio/aaf139ec-fc60-4591-9f9a-64a8532dbc08",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "NK2GDVNZLCGQCHBQPABXV665CPNBEQW5",
+        "length": "7868"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/composio/ae0ef27a-d029-46fa-a0df-35a021d66ae7",
+        "timestamp": "20260415095220",
+        "original": "https://jobs.ashbyhq.com/composio/ae0ef27a-d029-46fa-a0df-35a021d66ae7",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "Z74PZBFAC2ZOPLK6DU6VHPGP4ZK7KJEF",
+        "length": "11698"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/composio/cceb9883-7967-45a9-8e37-ed72cec3deff",
+        "timestamp": "20261106005607",
+        "original": "https://jobs.ashbyhq.com/composio/cceb9883-7967-45a9-8e37-ed72cec3deff",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "32566UR5CHQ5ZTFZ7Y6HUGRNMEJRKFXW",
+        "length": "8686"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/composio/de7b7655-d154-4848-b393-11d22e6e049a",
+        "timestamp": "20260222084301",
+        "original": "https://jobs.ashbyhq.com/composio/de7b7655-d154-4848-b393-11d22e6e049a",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "DDMJT6MGU43NRLFEDNRHUAJTSUDUH627",
+        "length": "9518"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/composio/de7b7655-d154-4848-b393-11d22e6e049a",
+        "timestamp": "20260415094704",
+        "original": "https://jobs.ashbyhq.com/composio/de7b7655-d154-4848-b393-11d22e6e049a",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "VRQMLMPCDEGQQSFVBH63725YLFJOKEOZ",
+        "length": "11417"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/composio/eea3c0be-8589-4e3d-a684-de29a9eada0d/application?embed=true",
+        "timestamp": "20260919213234",
+        "original": "https://jobs.ashbyhq.com/composio/eea3c0be-8589-4e3d-a684-de29a9eada0d/application?embed=true",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "FRLQC652R36EZ4CSVQC2SLYGXI22M7UK",
+        "length": "8178"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/composio/f83a19a0-8188-4100-9dd5-b259efb342e6",
+        "timestamp": "20261106005607",
+        "original": "https://jobs.ashbyhq.com/composio/f83a19a0-8188-4100-9dd5-b259efb342e6",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "JBRYCXGUWHRZAXS3G6KZGJZQ223D3A5J",
+        "length": "7967"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/composio?departmentid=e970efc1-670c-4bcb-bda8-2243e5bb9531",
+        "timestamp": "20260505165700",
+        "original": "https://jobs.ashbyhq.com/composio?departmentId=e970efc1-670c-4bcb-bda8-2243e5bb9531",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "IFSDYUMOBLWGE2ZAOHZLMXUUXCEEL5NV",
+        "length": "9535"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/composio?trk=public_post_comment-text",
+        "timestamp": "20260424043347",
+        "original": "https://jobs.ashbyhq.com/composio?trk=public_post_comment-text",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "ZPVSKRSAZSDUSO4QFAJ54PSVJUODIRUZ",
+        "length": "8925"
+      }
+    ]
+  },
+  {
+    "company_id": "letta",
+    "board_type": "ashby",
+    "board_url": "https://jobs.ashbyhq.com/letta",
+    "observed_at": "2026-11-21T10:09:20.415585+00:00",
+    "http_status": 200,
+    "url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fjobs.ashbyhq.com%2Fletta%2A&output=json&filter=statuscode%3A200&collapse=timestamp%3A6&from=20251101&to=20261121&limit=250",
+    "file": "sources/letta-cdx.json",
+    "sha256": "bbd00416a6c29c622ac4f38c1effc677767c415c2227c4310d2d85b7d28d8076",
+    "captures": [
+      {
+        "urlkey": "com,ashbyhq,jobs)/letta",
+        "timestamp": "20251117000611",
+        "original": "https://jobs.ashbyhq.com/letta",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "6RREQYVUTRZGX3HIKECBT233ONOJAL2Y",
+        "length": "8655"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/letta",
+        "timestamp": "20260129122929",
+        "original": "https://jobs.ashbyhq.com/letta",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "JEODPYBGKW7BEPVWKZHTXDYN7KK6N6SC",
+        "length": "9470"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/letta",
+        "timestamp": "20260210081201",
+        "original": "https://jobs.ashbyhq.com/letta",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "X4KAFG6APSOO3YAZ42E75UFJ7BBS7CTV",
+        "length": "9129"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/letta",
+        "timestamp": "20260308232239",
+        "original": "https://jobs.ashbyhq.com/letta",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "YLPEHBDE5YWAYHGTWNOGV5YBZTCRZ753",
+        "length": "9150"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/letta",
+        "timestamp": "20260410222727",
+        "original": "https://jobs.ashbyhq.com/letta",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "G2VG6ULF7T7NTYZIPSOMZ4BHHF3P43OC",
+        "length": "9496"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/letta",
+        "timestamp": "20260509222913",
+        "original": "https://jobs.ashbyhq.com/letta",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "Z7MXRJ3LLHF5WSH2AX2G45SGYH5FFYF5",
+        "length": "9679"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/letta",
+        "timestamp": "20260618042117",
+        "original": "https://jobs.ashbyhq.com/letta",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "QKSF2AM6CGFUHLIVYBWRPDTOUAUEIEAV",
+        "length": "10314"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/letta",
+        "timestamp": "20260712052315",
+        "original": "https://jobs.ashbyhq.com/letta",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "HAQNFANJWSHGLPS64E2IVN5VQA2JBGIB",
+        "length": "10179"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/letta",
+        "timestamp": "20260808002915",
+        "original": "https://jobs.ashbyhq.com/letta",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "K6BXPLSGOLSQCM4DPRSP2UTLA4SDKU2O",
+        "length": "6043"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/letta",
+        "timestamp": "20261001135233",
+        "original": "https://jobs.ashbyhq.com/letta/",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "GZGWNPV6IEAGARC7UMNGP7I2M6DEP7WF",
+        "length": "7354"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/letta",
+        "timestamp": "20261102064305",
+        "original": "https://jobs.ashbyhq.com/letta/",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "ZXDABFJ7EL2SBUAJUFVQUOJNHJR5YU4P",
+        "length": "7407"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/letta/5375a3dc-c886-41c0-a2de-08d0412204d8",
+        "timestamp": "20260520171105",
+        "original": "https://jobs.ashbyhq.com/letta/5375a3dc-c886-41c0-a2de-08d0412204d8",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "AUMXSI2ILAZPXU5HU4AUGYWBNFR3PVUX",
+        "length": "13430"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/letta/5375a3dc-c886-41c0-a2de-08d0412204d8",
+        "timestamp": "20261004181205",
+        "original": "https://jobs.ashbyhq.com/letta/5375a3dc-c886-41c0-a2de-08d0412204d8",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "BR3FYKAVEL7YJSCW3MHK424TP7F2C2RK",
+        "length": "8935"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/letta/5375a3dc-c886-41c0-a2de-08d0412204d8?gh_src=essence+vc+job+board&utm_medium=getro.com&utm_source=essence+vc+job+board",
+        "timestamp": "20260415224505",
+        "original": "https://jobs.ashbyhq.com/letta/5375a3dc-c886-41c0-a2de-08d0412204d8?utm_source=Essence+VC+job+board&utm_medium=getro.com&gh_src=Essence+VC+job+board",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "MF2GPLX4SZWAV6BDER7GREM4J33VDMHW",
+        "length": "13198"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/letta/57165f1b-e99e-4f9e-bda2-8f220ba68af7",
+        "timestamp": "20251102215811",
+        "original": "https://jobs.ashbyhq.com/letta/57165f1b-e99e-4f9e-bda2-8f220ba68af7",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "X6PNLEMLOYKRZA7PGKUZKG7BRCOSJTCH",
+        "length": "10454"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/letta/57165f1b-e99e-4f9e-bda2-8f220ba68af7",
+        "timestamp": "20260617190829",
+        "original": "https://jobs.ashbyhq.com/letta/57165f1b-e99e-4f9e-bda2-8f220ba68af7",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "V6JCQNCFUTI3WUMPURTEQNZOOUDKHLVA",
+        "length": "14033"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/letta/57165f1b-e99e-4f9e-bda2-8f220ba68af7",
+        "timestamp": "20261004181205",
+        "original": "https://jobs.ashbyhq.com/letta/57165f1b-e99e-4f9e-bda2-8f220ba68af7",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "5RJRQWGFXKHW3UTXSYAUTBGV4J3Q2MAY",
+        "length": "9035"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/letta/57165f1b-e99e-4f9e-bda2-8f220ba68af7?gh_src=essence+vc+job+board&utm_medium=getro.com&utm_source=essence+vc+job+board",
+        "timestamp": "20260511152802",
+        "original": "https://jobs.ashbyhq.com/letta/57165f1b-e99e-4f9e-bda2-8f220ba68af7?utm_source=Essence+VC+job+board&utm_medium=getro.com&gh_src=Essence+VC+job+board",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "V23KCT6TQQTZRFG2C6RXB6V3JL24236F",
+        "length": "13503"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/letta/57165f1b-e99e-4f9e-bda2-8f220ba68af7?trk=public_post_comment-text",
+        "timestamp": "20251104160753",
+        "original": "https://jobs.ashbyhq.com/letta/57165f1b-e99e-4f9e-bda2-8f220ba68af7?trk=public_post_comment-text",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "4DQPFFBCSFYTE6AZ33KKQSTKQ73HTYWH",
+        "length": "10425"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/letta/57778da9-5d74-4b3a-abcc-ebc99a0c63b5?gh_src=felicis+ventures+job+board&utm_medium=getro.com&utm_source=felicis+ventures+job+board",
+        "timestamp": "20260309115906",
+        "original": "https://jobs.ashbyhq.com/letta/57778da9-5d74-4b3a-abcc-ebc99a0c63b5?utm_source=Felicis+Ventures+job+board&utm_medium=getro.com&gh_src=Felicis+Ventures+job+board",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "GFKXCQAVFGBUCJ2Z2UTNYOD7CEUC67MN",
+        "length": "3220"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/letta/8433f17d-e271-490e-967a-a628e727ff34",
+        "timestamp": "20260608173729",
+        "original": "https://jobs.ashbyhq.com/letta/8433f17d-e271-490e-967a-a628e727ff34",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "NAIVVY6R7STYOOX3QXP6N5RAZZ664DMK",
+        "length": "14795"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/letta/b3055112-d1d5-45ab-b260-bc0c7395380c?gh_src=essence+vc+job+board&utm_medium=getro.com&utm_source=essence+vc+job+board",
+        "timestamp": "20260511235947",
+        "original": "https://jobs.ashbyhq.com/letta/b3055112-d1d5-45ab-b260-bc0c7395380c?utm_source=Essence+VC+job+board&utm_medium=getro.com&gh_src=Essence+VC+job+board",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "2QCPDWI5BTXDLGOUCL2PYHDLA7TPOD7X",
+        "length": "3199"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/letta/bb8dc847-25f0-4d22-8ea2-3aab3ed47cb2",
+        "timestamp": "20260312010345",
+        "original": "https://jobs.ashbyhq.com/letta/bb8dc847-25f0-4d22-8ea2-3aab3ed47cb2",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "XRH7F3L3ECNNHEB4M36EGUR63QZHGLYG",
+        "length": "3098"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/letta/bb8dc847-25f0-4d22-8ea2-3aab3ed47cb2?gh_src=essence+vc+job+board&utm_medium=getro.com&utm_source=essence+vc+job+board",
+        "timestamp": "20260418232420",
+        "original": "https://jobs.ashbyhq.com/letta/bb8dc847-25f0-4d22-8ea2-3aab3ed47cb2?utm_source=Essence+VC+job+board&utm_medium=getro.com&gh_src=Essence+VC+job+board",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "TK3ZZTXTZY5GAM2RQ6WXV36K74UUAG3W",
+        "length": "3127"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/letta/bb8dc847-25f0-4d22-8ea2-3aab3ed47cb2?utm_campaign=new-ai-startup-jobs-week-ending-october-24th-2024&utm_medium=referral&utm_source=aistartup.jobs",
+        "timestamp": "20260215191227",
+        "original": "https://jobs.ashbyhq.com/letta/bb8dc847-25f0-4d22-8ea2-3aab3ed47cb2?utm_source=aistartup.jobs&utm_medium=referral&utm_campaign=new-ai-startup-jobs-week-ending-october-24th-2024",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "SPUMPKT74DKBGTUYL6QPLYIIJGYRMEP7",
+        "length": "3226"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/letta/bb8dc847-25f0-4d22-8ea2-3aab3ed47cb2?utm_campaign=new-ai-startup-jobs-week-ending-october-24th-2024&utm_medium=referral&utm_source=aistartup.jobs",
+        "timestamp": "20260614092640",
+        "original": "https://jobs.ashbyhq.com/letta/bb8dc847-25f0-4d22-8ea2-3aab3ed47cb2?utm_source=aistartup.jobs&utm_medium=referral&utm_campaign=new-ai-startup-jobs-week-ending-october-24th-2024",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "737U5OMKP6XVKNV7JYGKSRFJXCAVCCBS",
+        "length": "3217"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/letta/d95271e3-f1ae-4317-8ecd-f25a79a0165c",
+        "timestamp": "20261004181206",
+        "original": "https://jobs.ashbyhq.com/letta/d95271e3-f1ae-4317-8ecd-f25a79a0165c",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "SCYUGBKJ7DBRI2Q7CSYZVMTOKB44OUYT",
+        "length": "8929"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/letta/d95271e3-f1ae-4317-8ecd-f25a79a0165c?trk=public_post_comment-text",
+        "timestamp": "20251116064742",
+        "original": "https://jobs.ashbyhq.com/letta/d95271e3-f1ae-4317-8ecd-f25a79a0165c?trk=public_post_comment-text",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "SM45MPC55ZOM2MWV3YLMFN24ZUKGOHFY",
+        "length": "10287"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/letta/fc0ae0d3-bc03-4afd-ab79-299444885e88",
+        "timestamp": "20260608024727",
+        "original": "https://jobs.ashbyhq.com/letta/fc0ae0d3-bc03-4afd-ab79-299444885e88",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "QCYWTNQBYLCKVEQE4EU5AL3KSXSVCHDR",
+        "length": "13699"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/letta/fc0ae0d3-bc03-4afd-ab79-299444885e88",
+        "timestamp": "20261004181204",
+        "original": "https://jobs.ashbyhq.com/letta/fc0ae0d3-bc03-4afd-ab79-299444885e88",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "3OELMWUIREQ23U5UIUEZ44XTWGTF7OJK",
+        "length": "8938"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/letta?ref=startupjoblist",
+        "timestamp": "20260515201415",
+        "original": "https://jobs.ashbyhq.com/letta?ref=startupjoblist",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "QLDXWU7YYOYU6TZK7ZHUCZCP2SGOOPSH",
+        "length": "9875"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/letta?trk=public_post_comment-text",
+        "timestamp": "20251115081047",
+        "original": "https://jobs.ashbyhq.com/letta?trk=public_post_comment-text",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "ITXBWUCEFZQ3GXVT6CATFJC7N3AHM6C3",
+        "length": "7560"
+      }
+    ]
+  },
+  {
+    "company_id": "deepset",
+    "board_type": "ashby",
+    "board_url": "https://jobs.ashbyhq.com/deepsetai",
+    "observed_at": "2026-11-21T10:09:20.415800+00:00",
+    "error": "ConnectionError"
+  },
+  {
+    "company_id": "sourcegraph",
+    "board_type": "greenhouse",
+    "board_url": "https://boards.greenhouse.io/sourcegraph91",
+    "observed_at": "2026-11-21T10:09:20.466566+00:00",
+    "http_status": 200,
+    "url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fboards.greenhouse.io%2Fsourcegraph91%2A&output=json&filter=statuscode%3A200&collapse=timestamp%3A6&from=20251101&to=20261121&limit=250",
+    "file": "sources/sourcegraph-cdx.json",
+    "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "captures": []
+  },
+  {
+    "company_id": "pinecone",
+    "board_type": "ashby",
+    "board_url": "https://jobs.ashbyhq.com/pinecone",
+    "observed_at": "2026-11-21T10:09:20.925375+00:00",
+    "http_status": 200,
+    "url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fjobs.ashbyhq.com%2Fpinecone%2A&output=json&filter=statuscode%3A200&collapse=timestamp%3A6&from=20251101&to=20261121&limit=250",
+    "file": "sources/pinecone-cdx.json",
+    "sha256": "481c7786a0fe2385d1acd3caddc3a7c3b5378dc22dc767d66186cd6f8e927cb8",
+    "captures": [
+      {
+        "urlkey": "com,ashbyhq,jobs)/pinecone",
+        "timestamp": "20260216171915",
+        "original": "https://jobs.ashbyhq.com/pinecone",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "5TXPJERNMUWXRLZG4N5TQRIKJZXSRGCB",
+        "length": "9543"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/pinecone",
+        "timestamp": "20260418013037",
+        "original": "https://jobs.ashbyhq.com/pinecone/",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "GWN2GXAX23PGBOMZWTD5LK64ODNW34T7",
+        "length": "9611"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/pinecone",
+        "timestamp": "20260612203231",
+        "original": "https://jobs.ashbyhq.com/pinecone",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "GRRLMLJQUAUAUVARQE4DTNFDIJW3PGEP",
+        "length": "10049"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/pinecone",
+        "timestamp": "20261013160631",
+        "original": "https://jobs.ashbyhq.com/pinecone",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "36L46DDAONTBA3N2TH3QNMI3RIHLIAOV",
+        "length": "6558"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/pinecone/0fd0aaad-6140-44c4-bb52-928e19514751",
+        "timestamp": "20260410130546",
+        "original": "https://jobs.ashbyhq.com/pinecone/0fd0aaad-6140-44c4-bb52-928e19514751",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "FAU5Q2X2XD5NHPUOU3QNY6QSSN3M5LWL",
+        "length": "3095"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/pinecone/18b98ef0-0db3-42f7-98de-5048a177666f?utm_campaign=new-ai-startup-jobs-week-ending-july-11th-2024&utm_medium=referral&utm_source=aistartup.jobs",
+        "timestamp": "20260216110510",
+        "original": "https://jobs.ashbyhq.com/pinecone/18b98ef0-0db3-42f7-98de-5048a177666f?utm_source=aistartup.jobs&utm_medium=referral&utm_campaign=new-ai-startup-jobs-week-ending-july-11th-2024",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "DU3IAKDI47E63JLDCXLLMI6UZO2JIIA2",
+        "length": "3239"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/pinecone/18b98ef0-0db3-42f7-98de-5048a177666f?utm_campaign=new-ai-startup-jobs-week-ending-july-11th-2024&utm_medium=referral&utm_source=aistartup.jobs",
+        "timestamp": "20260807113007",
+        "original": "https://jobs.ashbyhq.com/pinecone/18b98ef0-0db3-42f7-98de-5048a177666f?utm_source=aistartup.jobs&utm_medium=referral&utm_campaign=new-ai-startup-jobs-week-ending-july-11th-2024",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "7K7RJAJA2GM6MVPSPKAQHD544AVB5VFV",
+        "length": "3491"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/pinecone/19def4a1-d307-43dd-ad4d-5034718f9927",
+        "timestamp": "20260218152205",
+        "original": "https://jobs.ashbyhq.com/pinecone/19def4a1-d307-43dd-ad4d-5034718f9927",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "Y447EG4HOYCHVATGPAPCIUZIDBTVQ2WD",
+        "length": "3101"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/pinecone/1afb1536-301c-4353-9bf1-78f0cb46b073?utm_campaign=new-ai-startup-jobs-week-ending-march-7th-2024&utm_medium=referral&utm_source=aistartup.jobs",
+        "timestamp": "20260722113109",
+        "original": "https://jobs.ashbyhq.com/pinecone/1afb1536-301c-4353-9bf1-78f0cb46b073?utm_source=aistartup.jobs&utm_medium=referral&utm_campaign=new-ai-startup-jobs-week-ending-march-7th-2024",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "CRT4I2GOPCNANVB4Z5LYTKW4DBDXEAHP",
+        "length": "3564"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/pinecone/23be2d11-9f6e-4653-be1c-8cc97246214c",
+        "timestamp": "20260211192645",
+        "original": "https://jobs.ashbyhq.com/pinecone/23be2d11-9f6e-4653-be1c-8cc97246214c",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "ZMK3ELD3GO426ZES4MO23YZUFTF47SPT",
+        "length": "3093"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/pinecone/23be2d11-9f6e-4653-be1c-8cc97246214c",
+        "timestamp": "20260520135830",
+        "original": "https://jobs.ashbyhq.com/pinecone/23be2d11-9f6e-4653-be1c-8cc97246214c",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "PUXW5QC5JMNJ2U24EGUR6JM4NEXYINDL",
+        "length": "3098"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/pinecone/23be2d11-9f6e-4653-be1c-8cc97246214c?utm_campaign=new-ai-startup-jobs-week-beginning-august-20th-2024&utm_medium=referral&utm_source=aistartup.jobs",
+        "timestamp": "20260411054429",
+        "original": "https://jobs.ashbyhq.com/pinecone/23be2d11-9f6e-4653-be1c-8cc97246214c?utm_source=aistartup.jobs&utm_medium=referral&utm_campaign=new-ai-startup-jobs-week-beginning-august-20th-2024",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "X7DVXJIO2US2OFLBISX2SWEBZOHK4OOB",
+        "length": "3239"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/pinecone/23be2d11-9f6e-4653-be1c-8cc97246214c?utm_campaign=new-ai-startup-jobs-week-ending-october-10th-2024&utm_medium=referral&utm_source=aistartup.jobs",
+        "timestamp": "20260218062114",
+        "original": "https://jobs.ashbyhq.com/pinecone/23be2d11-9f6e-4653-be1c-8cc97246214c?utm_source=aistartup.jobs&utm_medium=referral&utm_campaign=new-ai-startup-jobs-week-ending-october-10th-2024",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "AULDGFMKV4DQS75ATVG2K6MTVD2QX67F",
+        "length": "3238"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/pinecone/23be2d11-9f6e-4653-be1c-8cc97246214c?utm_campaign=new-ai-startup-jobs-week-ending-october-10th-2024&utm_medium=referral&utm_source=aistartup.jobs",
+        "timestamp": "20260713063456",
+        "original": "https://jobs.ashbyhq.com/pinecone/23be2d11-9f6e-4653-be1c-8cc97246214c?utm_source=aistartup.jobs&utm_medium=referral&utm_campaign=new-ai-startup-jobs-week-ending-october-10th-2024",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "MY4VOSCV5ZETFFMNPJMOEH34LRLMG6YM",
+        "length": "3565"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/pinecone/24178a86-5638-4289-87c3-6b7551d75c93",
+        "timestamp": "20260317154238",
+        "original": "https://jobs.ashbyhq.com/pinecone/24178a86-5638-4289-87c3-6b7551d75c93",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "BGYFCNENIUHXD52JTKCG47RT3NNSYMA3",
+        "length": "3185"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/pinecone/24178a86-5638-4289-87c3-6b7551d75c93/application",
+        "timestamp": "20251107154409",
+        "original": "https://jobs.ashbyhq.com/pinecone/24178a86-5638-4289-87c3-6b7551d75c93/application",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "RAHGRBN642D7USOHSRODSV6DCPPFOOXD",
+        "length": "3105"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/pinecone/24f9a4e3-472d-4e63-908c-2653c0d8b612",
+        "timestamp": "20260514141747",
+        "original": "https://jobs.ashbyhq.com/pinecone/24f9a4e3-472d-4e63-908c-2653c0d8b612",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "5BX4LFYA5ROSH3POAPJS6TJCVWW2IMTK",
+        "length": "2216"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/pinecone/24f9a4e3-472d-4e63-908c-2653c0d8b612?ref=jobsbyculture.com",
+        "timestamp": "20260325072705",
+        "original": "https://jobs.ashbyhq.com/pinecone/24f9a4e3-472d-4e63-908c-2653c0d8b612?ref=jobsbyculture.com",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "L4MKOMKXRZ2GH3QQC3N22VGYRIWZZTW4",
+        "length": "18035"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/pinecone/2844d2ce-d597-4dca-acf2-aaef308043b8",
+        "timestamp": "20260210000633",
+        "original": "https://jobs.ashbyhq.com/pinecone/2844d2ce-d597-4dca-acf2-aaef308043b8",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "IPE7F4Z2OVFIBAIBEW7XUIKHW4KJEKUC",
+        "length": "3181"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/pinecone/2894fc35-415c-4d13-99c7-e269b3d5508b",
+        "timestamp": "20251115030003",
+        "original": "https://jobs.ashbyhq.com/pinecone/2894fc35-415c-4d13-99c7-e269b3d5508b",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "LJRIC3VB5XWXIT3RKNIKDVJBNIH32MGT",
+        "length": "3097"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/pinecone/2894fc35-415c-4d13-99c7-e269b3d5508b?utm_campaign=new-ai-startup-jobs-week-ending-july-11th-2024&utm_medium=referral&utm_source=aistartup.jobs",
+        "timestamp": "20260207035927",
+        "original": "https://jobs.ashbyhq.com/pinecone/2894fc35-415c-4d13-99c7-e269b3d5508b?utm_source=aistartup.jobs&utm_medium=referral&utm_campaign=new-ai-startup-jobs-week-ending-july-11th-2024",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "RG7WSQ7N3K7ZGWYNCES5IGB2FIBBJRTP",
+        "length": "3164"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/pinecone/28c1bdb5-3656-424f-8312-39dd97527d95?utm_campaign=new-ai-startup-jobs-week-beginning-feb-13th-2024&utm_medium=referral&utm_source=aistartup.jobs",
+        "timestamp": "20251110135820",
+        "original": "https://jobs.ashbyhq.com/pinecone/28c1bdb5-3656-424f-8312-39dd97527d95?utm_source=aistartup.jobs&utm_medium=referral&utm_campaign=new-ai-startup-jobs-week-beginning-feb-13th-2024",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "D7OY3DXYG3VR2LEQJBHVBEUTGCEJRUYI",
+        "length": "3166"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/pinecone/3073b4dd-a97a-4305-8091-3a26093a14b9",
+        "timestamp": "20260513062402",
+        "original": "https://jobs.ashbyhq.com/pinecone/3073b4dd-a97a-4305-8091-3a26093a14b9",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "SVAAVYDEVEG2VMZPTUJMLWB36WBQZZZ3",
+        "length": "3086"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/pinecone/3073b4dd-a97a-4305-8091-3a26093a14b9/application",
+        "timestamp": "20260421081800",
+        "original": "https://jobs.ashbyhq.com/pinecone/3073b4dd-a97a-4305-8091-3a26093a14b9/application",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "IDQOOSAU45SMMINIPRASR32C3OGQRKKI",
+        "length": "3167"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/pinecone/34221621-f03e-4900-a1be-ee9f46d84e59",
+        "timestamp": "20260520035949",
+        "original": "https://jobs.ashbyhq.com/pinecone/34221621-f03e-4900-a1be-ee9f46d84e59",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "FYXD2TDHDYFA4FJCJFKSX2COVCWZH6HY",
+        "length": "3167"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/pinecone/35463b09-53e9-4306-b3f8-32bf4a1808e3?utm_campaign=new-ai-startup-jobs-week-ending-july-26th-2024&utm_medium=referral&utm_source=aistartup.jobs",
+        "timestamp": "20260609112247",
+        "original": "https://jobs.ashbyhq.com/pinecone/35463b09-53e9-4306-b3f8-32bf4a1808e3?utm_source=aistartup.jobs&utm_medium=referral&utm_campaign=new-ai-startup-jobs-week-ending-july-26th-2024",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "H23ZMKIS5TI36NSQMLCBH6YFGDZX34VJ",
+        "length": "3172"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/pinecone/3a4beb86-e9ce-4d77-8c18-1e4b7ed2cd4e",
+        "timestamp": "20260514005853",
+        "original": "https://jobs.ashbyhq.com/pinecone/3a4beb86-e9ce-4d77-8c18-1e4b7ed2cd4e",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "WEAH5CO3PQPNXOQAIREVH25HA5VAYPN3",
+        "length": "3089"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/pinecone/3a4beb86-e9ce-4d77-8c18-1e4b7ed2cd4e?utm_campaign=new-ai-startup-jobs-week-beginning-april-2nd-2024&utm_medium=referral&utm_source=aistartup.jobs",
+        "timestamp": "20260612045543",
+        "original": "https://jobs.ashbyhq.com/pinecone/3a4beb86-e9ce-4d77-8c18-1e4b7ed2cd4e?utm_source=aistartup.jobs&utm_medium=referral&utm_campaign=new-ai-startup-jobs-week-beginning-april-2nd-2024",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "XLE62ZZVGYTH37SN56LZ33JOIGAEN3JS",
+        "length": "3228"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/pinecone/3c21a44a-1ea8-4453-a419-eba20cc611e7/application",
+        "timestamp": "20260415132114",
+        "original": "https://jobs.ashbyhq.com/pinecone/3c21a44a-1ea8-4453-a419-eba20cc611e7/application",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "ZTQZMHRMLIKIZOB2VZQNLEQFBYMNTLOI",
+        "length": "3172"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/pinecone/3c21a44a-1ea8-4453-a419-eba20cc611e7?ref=jobsbyculture.com",
+        "timestamp": "20260325072705",
+        "original": "https://jobs.ashbyhq.com/pinecone/3c21a44a-1ea8-4453-a419-eba20cc611e7?ref=jobsbyculture.com",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "CLETHMMKHPMQY467BKPTQOSRZ5LT2PO4",
+        "length": "3534"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/pinecone/3d2a4732-6460-479f-b16b-12112c48ca5f?gh_src=menlo+ventures+job+board&utm_medium=getro.com&utm_source=menlo+ventures+job+board",
+        "timestamp": "20260512025415",
+        "original": "https://jobs.ashbyhq.com/pinecone/3d2a4732-6460-479f-b16b-12112c48ca5f?utm_source=Menlo+Ventures+job+board&utm_medium=getro.com&gh_src=Menlo+Ventures+job+board",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "ANAKCOIRE7QYVZJM7DTW4HQB36FT7IXG",
+        "length": "3142"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/pinecone/3d2a4732-6460-479f-b16b-12112c48ca5f?ref=jobsbyculture.com",
+        "timestamp": "20260325072705",
+        "original": "https://jobs.ashbyhq.com/pinecone/3d2a4732-6460-479f-b16b-12112c48ca5f?ref=jobsbyculture.com",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "METXB22KPMGUHVY5EQIIVOKWRIZXKUIQ",
+        "length": "18417"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/pinecone/41ae67e5-0789-4ffa-941a-293708d1f548?utm_campaign=new-ai-startup-jobs-week-ending-april-4th-2024&utm_medium=referral&utm_source=aistartup.jobs",
+        "timestamp": "20260719002058",
+        "original": "https://jobs.ashbyhq.com/pinecone/41ae67e5-0789-4ffa-941a-293708d1f548?utm_source=aistartup.jobs&utm_medium=referral&utm_campaign=new-ai-startup-jobs-week-ending-april-4th-2024",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "FMS6DRZMWFFX5F7CPZGRO2GCXT55DMJU",
+        "length": "3488"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/pinecone/42fa0a59-016a-4a06-9820-b5263fc8ff2f?gh_src=menlo+ventures+job+board&utm_medium=getro.com&utm_source=menlo+ventures+job+board",
+        "timestamp": "20260214125431",
+        "original": "https://jobs.ashbyhq.com/pinecone/42fa0a59-016a-4a06-9820-b5263fc8ff2f?utm_source=Menlo+Ventures+job+board&utm_medium=getro.com&gh_src=Menlo+Ventures+job+board",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "CS6RKKPGSGXEOLR5EMBBXO57XG5EYBMR",
+        "length": "3142"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/pinecone/4433b308-1ff4-4b5f-9184-810e5d9844f6",
+        "timestamp": "20260610092033",
+        "original": "https://jobs.ashbyhq.com/pinecone/4433b308-1ff4-4b5f-9184-810e5d9844f6",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "Q5X5ACTEDRBAZ7E26UEYF4LE4BGF4TSB",
+        "length": "19358"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/pinecone/4433b308-1ff4-4b5f-9184-810e5d9844f6?gh_src=menlo+ventures+job+board&utm_medium=getro.com&utm_source=menlo+ventures+job+board",
+        "timestamp": "20260212101816",
+        "original": "https://jobs.ashbyhq.com/pinecone/4433b308-1ff4-4b5f-9184-810e5d9844f6?utm_source=Menlo+Ventures+job+board&utm_medium=getro.com&gh_src=Menlo+Ventures+job+board",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "QSQX7MG2FEUWGVQZGT3MBJBCCYUXSKPA",
+        "length": "17944"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/pinecone/4433b308-1ff4-4b5f-9184-810e5d9844f6?ref=jobsbyculture.com",
+        "timestamp": "20260325072704",
+        "original": "https://jobs.ashbyhq.com/pinecone/4433b308-1ff4-4b5f-9184-810e5d9844f6?ref=jobsbyculture.com",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "YXR46MCOF24J573KKSCJ3F5YJRJMXHFP",
+        "length": "18725"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/pinecone/4433b308-1ff4-4b5f-9184-810e5d9844f6\\",
+        "timestamp": "20260113191412",
+        "original": "https://jobs.ashbyhq.com/pinecone/4433b308-1ff4-4b5f-9184-810e5d9844f6%5C",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "MA3DAL7SNBGSAIP5Z46GUFHOKN2FFWXN",
+        "length": "3432"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/pinecone/49019692-5006-4853-b4e5-924d3302d01e",
+        "timestamp": "20260314081408",
+        "original": "https://jobs.ashbyhq.com/pinecone/49019692-5006-4853-b4e5-924d3302d01e",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "X26FPQOYN4NXIWL33ENP5QQG7SXJM72Z",
+        "length": "3110"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/pinecone/499ce77a-7ed0-462e-9efb-3e7dad6cd5ad",
+        "timestamp": "20260612233748",
+        "original": "https://jobs.ashbyhq.com/pinecone/499ce77a-7ed0-462e-9efb-3e7dad6cd5ad",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "W2KI55D2TXFEYD7THRR7HTUF3HCE52NI",
+        "length": "14411"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/pinecone/4ef4269b-94c4-4c7c-93ee-15a882caa767",
+        "timestamp": "20260208051755",
+        "original": "https://jobs.ashbyhq.com/pinecone/4ef4269b-94c4-4c7c-93ee-15a882caa767",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "7T3S2BI3YPCDIVNN4KLH37LQQSL34HBK",
+        "length": "16868"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/pinecone/4ef4269b-94c4-4c7c-93ee-15a882caa767",
+        "timestamp": "20260614102735",
+        "original": "https://jobs.ashbyhq.com/pinecone/4ef4269b-94c4-4c7c-93ee-15a882caa767",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "DRNMZJZFXRFDSZRAFLVXGX6BL3LMOIHI",
+        "length": "3168"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/pinecone/4ef4269b-94c4-4c7c-93ee-15a882caa767",
+        "timestamp": "20261022200028",
+        "original": "https://jobs.ashbyhq.com/pinecone/4ef4269b-94c4-4c7c-93ee-15a882caa767",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "AAOIR2OQE6J4XH3XQD4E4WY6S2DEBPSR",
+        "length": "8629"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/pinecone/4ef4269b-94c4-4c7c-93ee-15a882caa767?gh_src=menlo+ventures+job+board&utm_medium=getro.com&utm_source=menlo+ventures+job+board",
+        "timestamp": "20260317123740",
+        "original": "https://jobs.ashbyhq.com/pinecone/4ef4269b-94c4-4c7c-93ee-15a882caa767?utm_source=Menlo+Ventures+job+board&utm_medium=getro.com&gh_src=Menlo+Ventures+job+board",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "ELSGN6I5B5QW76XJ26RP4VTX7I6NUG76",
+        "length": "17174"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/pinecone/4ef4269b-94c4-4c7c-93ee-15a882caa767?gh_src=menlo+ventures+job+board&utm_medium=getro.com&utm_source=menlo+ventures+job+board",
+        "timestamp": "20260807120952",
+        "original": "https://jobs.ashbyhq.com/pinecone/4ef4269b-94c4-4c7c-93ee-15a882caa767?utm_source=Menlo+Ventures+job+board&utm_medium=getro.com&gh_src=Menlo+Ventures+job+board",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "FKXGHTPFQIXBY5MRPAJGBJ3BTF7LQTNK",
+        "length": "7284"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/pinecone/4ef4269b-94c4-4c7c-93ee-15a882caa767?ref=jobsbyculture.com",
+        "timestamp": "20260325072704",
+        "original": "https://jobs.ashbyhq.com/pinecone/4ef4269b-94c4-4c7c-93ee-15a882caa767?ref=jobsbyculture.com",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "PZSD6G4TOEKWCAAGQGHPO6RWELE55XAL",
+        "length": "17902"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/pinecone/54015b8b-a7f2-4de0-a6c5-ddbd16e5a327",
+        "timestamp": "20260216170846",
+        "original": "https://jobs.ashbyhq.com/pinecone/54015b8b-a7f2-4de0-a6c5-ddbd16e5a327",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "2G4G2KAFSVLRYOKWGEJZY7S7DMW2QROL",
+        "length": "3179"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/pinecone/574874e6-9ab5-4aa2-a055-e9958efdc0da?utm_campaign=new-ai-startup-jobs-week-beginning-may-20th-2024&utm_medium=referral&utm_source=aistartup.jobs",
+        "timestamp": "20260607202113",
+        "original": "https://jobs.ashbyhq.com/pinecone/574874e6-9ab5-4aa2-a055-e9958efdc0da?utm_source=aistartup.jobs&utm_medium=referral&utm_campaign=new-ai-startup-jobs-week-beginning-may-20th-2024",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "QULCM5JGKGIWF4TLXTND5V2TI6CWDGKK",
+        "length": "3172"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/pinecone/574874e6-9ab5-4aa2-a055-e9958efdc0da?utm_campaign=new-ai-startup-jobs-week-ending-april-11th-2024&utm_medium=referral&utm_source=aistartup.jobs",
+        "timestamp": "20260719000924",
+        "original": "https://jobs.ashbyhq.com/pinecone/574874e6-9ab5-4aa2-a055-e9958efdc0da?utm_source=aistartup.jobs&utm_medium=referral&utm_campaign=new-ai-startup-jobs-week-ending-april-11th-2024",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "JCT2V52HLSRSWQV34RYEQJTQVDSR3CQR",
+        "length": "3490"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/pinecone/58967d0e-f6c8-4982-83e3-9fc239cad5fd",
+        "timestamp": "20260608045051",
+        "original": "https://jobs.ashbyhq.com/pinecone/58967d0e-f6c8-4982-83e3-9fc239cad5fd",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "RU64CIBNG5FOSKM3RK74EXR6WZQRBFYQ",
+        "length": "3113"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/pinecone/58967d0e-f6c8-4982-83e3-9fc239cad5fd?utm_campaign=new-ai-startup-jobs-week-ending-july-11th-2024&utm_medium=referral&utm_source=aistartup.jobs",
+        "timestamp": "20260312022035",
+        "original": "https://jobs.ashbyhq.com/pinecone/58967d0e-f6c8-4982-83e3-9fc239cad5fd?utm_source=aistartup.jobs&utm_medium=referral&utm_campaign=new-ai-startup-jobs-week-ending-july-11th-2024",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "OWOBUG35PIITYFA5IL2DRTELH6ODXZ2U",
+        "length": "3246"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/pinecone/597da2c0-56d2-40be-96a5-85ed5d756256?utm_campaign=new-ai-startup-jobs-week-beginning-august-20th-2024&utm_medium=referral&utm_source=aistartup.jobs",
+        "timestamp": "20260716022410",
+        "original": "https://jobs.ashbyhq.com/pinecone/597da2c0-56d2-40be-96a5-85ed5d756256?utm_source=aistartup.jobs&utm_medium=referral&utm_campaign=new-ai-startup-jobs-week-beginning-august-20th-2024",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "6JOXNHOK6GA2DLXXTNA7N3OEJYDHL67F",
+        "length": "3571"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/pinecone/597da2c0-56d2-40be-96a5-85ed5d756256?utm_campaign=new-ai-startup-jobs-week-ending-october-3rd-2024&utm_medium=referral&utm_source=aistartup.jobs",
+        "timestamp": "20260207103441",
+        "original": "https://jobs.ashbyhq.com/pinecone/597da2c0-56d2-40be-96a5-85ed5d756256?utm_source=aistartup.jobs&utm_medium=referral&utm_campaign=new-ai-startup-jobs-week-ending-october-3rd-2024",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "UUXMDD7SDDYQUTUDIG6ALWEZIUSE7KRE",
+        "length": "3239"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/pinecone/597da2c0-56d2-40be-96a5-85ed5d756256?utm_campaign=new-ai-startup-jobs-week-ending-october-3rd-2024&utm_medium=referral&utm_source=aistartup.jobs",
+        "timestamp": "20260606224710",
+        "original": "https://jobs.ashbyhq.com/pinecone/597da2c0-56d2-40be-96a5-85ed5d756256?utm_source=aistartup.jobs&utm_medium=referral&utm_campaign=new-ai-startup-jobs-week-ending-october-3rd-2024",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "3ZCQ255NLZAR7LXPFUEEFREJFWQK4M5L",
+        "length": "3251"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/pinecone/6beffcfe-51f7-42b9-8259-f525863be85b\\",
+        "timestamp": "20260113084806",
+        "original": "https://jobs.ashbyhq.com/pinecone/6beffcfe-51f7-42b9-8259-f525863be85b%5C",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "MQHP74JCKQLEIN4Y47TMKY2VVOEXDLWM",
+        "length": "3421"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/pinecone/6fd56943-7fbf-45b5-a49f-b494c6af503c",
+        "timestamp": "20260312113244",
+        "original": "https://jobs.ashbyhq.com/pinecone/6fd56943-7fbf-45b5-a49f-b494c6af503c",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "7BA5RFWW4NI4HYL4PJHUNYEVZK7OXFRC",
+        "length": "3187"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/pinecone/6fd56943-7fbf-45b5-a49f-b494c6af503c?utm_campaign=new-ai-startup-jobs-week-beginning-may-20th-2024&utm_medium=referral&utm_source=aistartup.jobs",
+        "timestamp": "20260720194207",
+        "original": "https://jobs.ashbyhq.com/pinecone/6fd56943-7fbf-45b5-a49f-b494c6af503c?utm_source=aistartup.jobs&utm_medium=referral&utm_campaign=new-ai-startup-jobs-week-beginning-may-20th-2024",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "UEFEJOQC56JSNJMKTBX35BRB777XLJM5",
+        "length": "3488"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/pinecone/71b61b1b-4585-4557-a614-9398860f80dd",
+        "timestamp": "20260214200328",
+        "original": "https://jobs.ashbyhq.com/pinecone/71b61b1b-4585-4557-a614-9398860f80dd",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "EGG2CEL4EBU5KEAAPPG46JZHLWNHNY7A",
+        "length": "3177"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/pinecone/71b61b1b-4585-4557-a614-9398860f80dd/application",
+        "timestamp": "20251117004912",
+        "original": "https://jobs.ashbyhq.com/pinecone/71b61b1b-4585-4557-a614-9398860f80dd/application",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "SOYLDHAEP3NPBZLLQ4SQIX2WA7QXFXZX",
+        "length": "3103"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/pinecone/7261adcb-026d-4552-8f89-7a46156c40c5",
+        "timestamp": "20260514132358",
+        "original": "https://jobs.ashbyhq.com/pinecone/7261adcb-026d-4552-8f89-7a46156c40c5",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "CRQYS5BRAEYX4YUJ6ROHSI5IUJPEC4HR",
+        "length": "14967"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/pinecone/7261adcb-026d-4552-8f89-7a46156c40c5",
+        "timestamp": "20260612231354",
+        "original": "https://jobs.ashbyhq.com/pinecone/7261adcb-026d-4552-8f89-7a46156c40c5",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "5ZOYZSQ3WDVZQ4CWUZZZSDM2GXG5NM3A",
+        "length": "18237"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/pinecone/7261adcb-026d-4552-8f89-7a46156c40c5?gh_src=menlo+ventures+job+board&utm_medium=getro.com&utm_source=menlo+ventures+job+board",
+        "timestamp": "20260420060714",
+        "original": "https://jobs.ashbyhq.com/pinecone/7261adcb-026d-4552-8f89-7a46156c40c5?utm_source=Menlo+Ventures+job+board&utm_medium=getro.com&gh_src=Menlo+Ventures+job+board",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "P5LI7QARFC7GOO4XLC4KI6R2TTMGAH5I",
+        "length": "17565"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/pinecone/7261adcb-026d-4552-8f89-7a46156c40c5?ref=jobsbyculture.com",
+        "timestamp": "20260325072704",
+        "original": "https://jobs.ashbyhq.com/pinecone/7261adcb-026d-4552-8f89-7a46156c40c5?ref=jobsbyculture.com",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "PZHK2PSIAAADFJBLXOGF67HYMPAVQRJV",
+        "length": "17829"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/pinecone/7261adcb-026d-4552-8f89-7a46156c40c5?ref=jobsbyculture.com",
+        "timestamp": "20260514130543",
+        "original": "https://jobs.ashbyhq.com/pinecone/7261adcb-026d-4552-8f89-7a46156c40c5?ref=jobsbyculture.com",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "R4LNQPFZNR26KYGYPGRQPEFCFQ4XKUO7",
+        "length": "17734"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/pinecone/7261adcb-026d-4552-8f89-7a46156c40c5\\",
+        "timestamp": "20260204130457",
+        "original": "https://jobs.ashbyhq.com/pinecone/7261adcb-026d-4552-8f89-7a46156c40c5%5C",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "JVN5WWQGOLGKQZARZ4CPD4DGBRV33I5A",
+        "length": "3520"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/pinecone/759dea4a-7c7e-4db0-a66e-a9e33ee3af29",
+        "timestamp": "20260611222211",
+        "original": "https://jobs.ashbyhq.com/pinecone/759dea4a-7c7e-4db0-a66e-a9e33ee3af29",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "TMXKQ2HVY7IXES36VPI2NSMU77N6VOTI",
+        "length": "3235"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/pinecone/759dea4a-7c7e-4db0-a66e-a9e33ee3af29?utm_campaign=new-ai-startup-jobs-week-ending-april-25th-2024&utm_medium=referral&utm_source=aistartup.jobs",
+        "timestamp": "20260208114037",
+        "original": "https://jobs.ashbyhq.com/pinecone/759dea4a-7c7e-4db0-a66e-a9e33ee3af29?utm_source=aistartup.jobs&utm_medium=referral&utm_campaign=new-ai-startup-jobs-week-ending-april-25th-2024",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "2SDTO45TDLN7MGC3D7CS62BVCUPKD4HZ",
+        "length": "3236"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/pinecone/773e953d-8f53-4313-93b4-35a553bad1cb",
+        "timestamp": "20260612231623",
+        "original": "https://jobs.ashbyhq.com/pinecone/773e953d-8f53-4313-93b4-35a553bad1cb",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "ABOOSABRO7KJCN7X6AAC4K5BOHBEBTRE",
+        "length": "19818"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/pinecone/773e953d-8f53-4313-93b4-35a553bad1cb/application",
+        "timestamp": "20260715172655",
+        "original": "https://jobs.ashbyhq.com/pinecone/773e953d-8f53-4313-93b4-35a553bad1cb/application",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "DGAC7LHXHCSTY2FTWMYGEX37DNCUJYAE",
+        "length": "8414"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/pinecone/773e953d-8f53-4313-93b4-35a553bad1cb?ref=jobsbyculture.com",
+        "timestamp": "20260325072705",
+        "original": "https://jobs.ashbyhq.com/pinecone/773e953d-8f53-4313-93b4-35a553bad1cb?ref=jobsbyculture.com",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "NVLXFHPT6GMSFNHVEGXE2XFGMVIGLDKH",
+        "length": "19339"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/pinecone/7d04ff39-b62e-4d9d-91c1-6b37d0f425da",
+        "timestamp": "20260417093142",
+        "original": "https://jobs.ashbyhq.com/pinecone/7d04ff39-b62e-4d9d-91c1-6b37d0f425da",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "RLQ7ZEINOE74FOG55PZ5EGUR752HNKFX",
+        "length": "3091"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/pinecone/7d59dce5-7141-49e2-86a6-2d6235e73cfc",
+        "timestamp": "20251110082612",
+        "original": "https://jobs.ashbyhq.com/pinecone/7d59dce5-7141-49e2-86a6-2d6235e73cfc",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "KUNVLB4MJLNQVKWEXJ6MG4LMJLGPPJMM",
+        "length": "3099"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/pinecone/7e7c824d-17a6-44ea-9485-6f04ceea5f29",
+        "timestamp": "20261012175909",
+        "original": "https://jobs.ashbyhq.com/pinecone/7e7c824d-17a6-44ea-9485-6f04ceea5f29",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "NXO22NYTGYQN4ITSP4DKNTZR57GHIOI2",
+        "length": "8948"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/pinecone/7ef089cb-a721-4ad8-a6d0-c390e64991d2",
+        "timestamp": "20260616022142",
+        "original": "https://jobs.ashbyhq.com/pinecone/7ef089cb-a721-4ad8-a6d0-c390e64991d2",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "LFFQK7GR6YY6PNDMYLXT2Q3KAQW7QLIA",
+        "length": "19529"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/pinecone/7ef089cb-a721-4ad8-a6d0-c390e64991d2",
+        "timestamp": "20261012174706",
+        "original": "https://jobs.ashbyhq.com/pinecone/7ef089cb-a721-4ad8-a6d0-c390e64991d2",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "U2A4LYW6EQF25R4KXEOVN35OYTI2KO7H",
+        "length": "9780"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/pinecone/7ef089cb-a721-4ad8-a6d0-c390e64991d2?ref=jobsbyculture.com",
+        "timestamp": "20260325072705",
+        "original": "https://jobs.ashbyhq.com/pinecone/7ef089cb-a721-4ad8-a6d0-c390e64991d2?ref=jobsbyculture.com",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "TVRYEPUZQCFI6OKSBAJOSHF35KMGHM36",
+        "length": "19026"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/pinecone/9ca6a83f-823b-45a5-be46-e4fd5bb9f68c",
+        "timestamp": "20260510135101",
+        "original": "https://jobs.ashbyhq.com/pinecone/9ca6a83f-823b-45a5-be46-e4fd5bb9f68c",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "NB6GJZYWYE5VQOTRQ2NJHAUW7KGJAHEM",
+        "length": "3098"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/pinecone/9ca6a83f-823b-45a5-be46-e4fd5bb9f68c?utm_campaign=new-ai-startup-jobs-week-beginning-october-28th-2024&utm_medium=referral&utm_source=aistartup.jobs",
+        "timestamp": "20260314132806",
+        "original": "https://jobs.ashbyhq.com/pinecone/9ca6a83f-823b-45a5-be46-e4fd5bb9f68c?utm_source=aistartup.jobs&utm_medium=referral&utm_campaign=new-ai-startup-jobs-week-beginning-october-28th-2024",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "IP3K4K4D4KQVJHKTGJIWROI4V7H7AHZV",
+        "length": "3243"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/pinecone/a6bcd0d6-9300-40fb-a443-6c010f983777",
+        "timestamp": "20260617033118",
+        "original": "https://jobs.ashbyhq.com/pinecone/a6bcd0d6-9300-40fb-a443-6c010f983777",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "RUSSZDDACGSXYWIATIYCTZKYPFB5NNJS",
+        "length": "3239"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/pinecone/a9699e08-d9e3-4432-b269-1827afd82d1d?utm_campaign=new-ai-startup-jobs-week-beginning-october-28th-2024&utm_medium=referral&utm_source=aistartup.jobs",
+        "timestamp": "20260314085231",
+        "original": "https://jobs.ashbyhq.com/pinecone/a9699e08-d9e3-4432-b269-1827afd82d1d?utm_source=aistartup.jobs&utm_medium=referral&utm_campaign=new-ai-startup-jobs-week-beginning-october-28th-2024",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "ZEUN7G5KLUUDJDAK4HDYOSVRN3WWXVZR",
+        "length": "3254"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/pinecone/a9699e08-d9e3-4432-b269-1827afd82d1d?utm_campaign=new-ai-startup-jobs-week-beginning-october-28th-2024&utm_medium=referral&utm_source=aistartup.jobs",
+        "timestamp": "20260808070153",
+        "original": "https://jobs.ashbyhq.com/pinecone/a9699e08-d9e3-4432-b269-1827afd82d1d?utm_source=aistartup.jobs&utm_medium=referral&utm_campaign=new-ai-startup-jobs-week-beginning-october-28th-2024",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "QIATFXRFCVUFZ7ZUZKIT6PBOMRXVVYXL",
+        "length": "3496"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/pinecone/b81a8c8a-8037-4e83-b7ee-96a36ccf9227?gh_src=menlo+ventures+job+board&utm_medium=getro.com&utm_source=menlo+ventures+job+board",
+        "timestamp": "20260317125611",
+        "original": "https://jobs.ashbyhq.com/pinecone/b81a8c8a-8037-4e83-b7ee-96a36ccf9227?utm_source=Menlo+Ventures+job+board&utm_medium=getro.com&gh_src=Menlo+Ventures+job+board",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "SK5AOJDAWMKRELQFDLTIQIXHNHB5FXBN",
+        "length": "3233"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/pinecone/be644011-44c4-453d-bcb5-5c0441296e4a",
+        "timestamp": "20260413011028",
+        "original": "https://jobs.ashbyhq.com/pinecone/be644011-44c4-453d-bcb5-5c0441296e4a",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "PSONNPSQJSPTAT4PABPHQAJX36F34MCI",
+        "length": "3168"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/pinecone/c654236b-a053-47d3-a7c8-9cdef5a299c4",
+        "timestamp": "20260716044127",
+        "original": "https://jobs.ashbyhq.com/pinecone/c654236b-a053-47d3-a7c8-9cdef5a299c4",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "DCUTPL7V33VAANBS755IGPDVD7SUMPEF",
+        "length": "3428"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/pinecone/cd3b545b-2639-4c42-8827-3627c0d796ca",
+        "timestamp": "20251111201212",
+        "original": "https://jobs.ashbyhq.com/pinecone/cd3b545b-2639-4c42-8827-3627c0d796ca",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "NOHJIOIJMNQTTZQENI37CBX5TIED4RAF",
+        "length": "3175"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/pinecone/d3c61395-a005-4df7-a5f9-4705e30a53cf?gh_src=cognitive+collective+job+board&utm_medium=getro.com&utm_source=cognitive+collective+job+board",
+        "timestamp": "20260521102232",
+        "original": "https://jobs.ashbyhq.com/pinecone/d3c61395-a005-4df7-a5f9-4705e30a53cf?utm_source=Cognitive+Collective+job+board&utm_medium=getro.com&gh_src=Cognitive+Collective+job+board",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "N4KDBW6K6OP2DSBP6ITQ4WXYQ5VKM5MC",
+        "length": "3232"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/pinecone/d6133a19-b65b-4536-96ac-cdb68eb39d83",
+        "timestamp": "20251107185327",
+        "original": "https://jobs.ashbyhq.com/pinecone/d6133a19-b65b-4536-96ac-cdb68eb39d83",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "MMCOZUVGGITTHNWKBYFH4PB2H7RR2IMA",
+        "length": "3175"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/pinecone/dacfca72-3ecf-45f6-9b07-9e40cb352f2f?ref=jobsbyculture.com",
+        "timestamp": "20260325072704",
+        "original": "https://jobs.ashbyhq.com/pinecone/dacfca72-3ecf-45f6-9b07-9e40cb352f2f?ref=jobsbyculture.com",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "GKJYXDR3TTSA3SXIGJLPZSSNK2BGKGB2",
+        "length": "3452"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/pinecone/dacfca72-3ecf-45f6-9b07-9e40cb352f2f\\",
+        "timestamp": "20260218060005",
+        "original": "https://jobs.ashbyhq.com/pinecone/dacfca72-3ecf-45f6-9b07-9e40cb352f2f%5C",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "MVUDP5JRPANGMZ47AKI3WR4UZ5CUWJNJ",
+        "length": "3517"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/pinecone/df53cf33-e824-48f8-9d6b-66e68d7970b5",
+        "timestamp": "20260421171253",
+        "original": "https://jobs.ashbyhq.com/pinecone/df53cf33-e824-48f8-9d6b-66e68d7970b5",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "BXHRGYQZQYRYICQTCQ6MBJGSQ366TEJ7",
+        "length": "3171"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/pinecone/df53cf33-e824-48f8-9d6b-66e68d7970b5?utm_campaign=new-ai-startup-jobs-week-beginning-august-5th-2024&utm_medium=referral&utm_source=aistartup.jobs",
+        "timestamp": "20260609024626",
+        "original": "https://jobs.ashbyhq.com/pinecone/df53cf33-e824-48f8-9d6b-66e68d7970b5?utm_source=aistartup.jobs&utm_medium=referral&utm_campaign=new-ai-startup-jobs-week-beginning-august-5th-2024",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "EYW7LW7MBVD42JGNXDO3344ZQBYTSHPM",
+        "length": "3178"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/pinecone/dffcf886-9924-4957-aa65-13f98fcf8209?gh_src=menlo+ventures+job+board&utm_medium=getro.com&utm_source=menlo+ventures+job+board",
+        "timestamp": "20260317114847",
+        "original": "https://jobs.ashbyhq.com/pinecone/dffcf886-9924-4957-aa65-13f98fcf8209?utm_source=Menlo+Ventures+job+board&utm_medium=getro.com&gh_src=Menlo+Ventures+job+board",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "FS3HR44SLJNQYCZYGL3ELKTEQR2U63G3",
+        "length": "3231"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/pinecone/e35f9871-9970-4df1-ab35-e46b46c5f480",
+        "timestamp": "20260218062543",
+        "original": "https://jobs.ashbyhq.com/pinecone/e35f9871-9970-4df1-ab35-e46b46c5f480",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "VVNKM3T2Z2KHYQ7WA2YWOIEK7HAWGVJH",
+        "length": "3105"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/pinecone/e35f9871-9970-4df1-ab35-e46b46c5f480?utm_campaign=new-ai-startup-jobs-week-ending-march-7th-2024&utm_medium=referral&utm_source=aistartup.jobs",
+        "timestamp": "20260722111807",
+        "original": "https://jobs.ashbyhq.com/pinecone/e35f9871-9970-4df1-ab35-e46b46c5f480?utm_source=aistartup.jobs&utm_medium=referral&utm_campaign=new-ai-startup-jobs-week-ending-march-7th-2024",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "52UPUX5ZKG7NUDZRMDMC7HSR5MLTJASY",
+        "length": "3486"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/pinecone/e89662ed-9623-434c-bb96-aa110ece044a?gh_src=menlo+ventures+job+board&utm_medium=getro.com&utm_source=menlo+ventures+job+board",
+        "timestamp": "20260317130642",
+        "original": "https://jobs.ashbyhq.com/pinecone/e89662ed-9623-434c-bb96-aa110ece044a?utm_source=Menlo+Ventures+job+board&utm_medium=getro.com&gh_src=Menlo+Ventures+job+board",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "YKMUF6S76CI6IWQIS3K7A47ULQHITBM7",
+        "length": "18082"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/pinecone/e89662ed-9623-434c-bb96-aa110ece044a?gh_src=menlo+ventures+job+board&utm_medium=getro.com&utm_source=menlo+ventures+job+board",
+        "timestamp": "20260811211453",
+        "original": "https://jobs.ashbyhq.com/pinecone/e89662ed-9623-434c-bb96-aa110ece044a?utm_source=Menlo+Ventures+job+board&utm_medium=getro.com&gh_src=Menlo+Ventures+job+board",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "BQMRPWQAYXZ4YTUYBF4ZPYUSLTE76UPC",
+        "length": "3465"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/pinecone/e89662ed-9623-434c-bb96-aa110ece044a?ref=jobsbyculture.com",
+        "timestamp": "20260325072705",
+        "original": "https://jobs.ashbyhq.com/pinecone/e89662ed-9623-434c-bb96-aa110ece044a?ref=jobsbyculture.com",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "BHX4ECCWXQ3Y76AHOVUMZZHAQQFH5BMQ",
+        "length": "18707"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/pinecone/e925575a-9d9b-4739-8d5e-eb1a0d12e9fe?gh_src=menlo+ventures+job+board&utm_medium=getro.com&utm_source=menlo+ventures+job+board",
+        "timestamp": "20260419170938",
+        "original": "https://jobs.ashbyhq.com/pinecone/e925575a-9d9b-4739-8d5e-eb1a0d12e9fe?utm_source=Menlo+Ventures+job+board&utm_medium=getro.com&gh_src=Menlo+Ventures+job+board",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "KU6FUHRLKHCDPVPX3O4KZOWTQ3WFPBZE",
+        "length": "3219"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/pinecone/e925575a-9d9b-4739-8d5e-eb1a0d12e9fe?ref=jobsbyculture.com",
+        "timestamp": "20260325072704",
+        "original": "https://jobs.ashbyhq.com/pinecone/e925575a-9d9b-4739-8d5e-eb1a0d12e9fe?ref=jobsbyculture.com",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "6O7VI3YBZSCE2QU2XLT5QT4QXGWTOYFL",
+        "length": "19287"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/pinecone/eca8f469-b8e5-48e7-b999-aaa5b846cbbc",
+        "timestamp": "20260207234732",
+        "original": "https://jobs.ashbyhq.com/pinecone/eca8f469-b8e5-48e7-b999-aaa5b846cbbc",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "5CTVPGLJTWF6SPLLEGQB2FVN2NTDXOKB",
+        "length": "17067"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/pinecone/eca8f469-b8e5-48e7-b999-aaa5b846cbbc?gh_src=menlo+ventures+job+board&utm_medium=getro.com&utm_source=menlo+ventures+job+board",
+        "timestamp": "20260414082646",
+        "original": "https://jobs.ashbyhq.com/pinecone/eca8f469-b8e5-48e7-b999-aaa5b846cbbc?utm_source=Menlo+Ventures+job+board&utm_medium=getro.com&gh_src=Menlo+Ventures+job+board",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "XAG5POLMB22ZE5B57XKS25PZMFDY7GM4",
+        "length": "3214"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/pinecone/ece126f0-df84-42c9-b922-35280ee355ed?gh_src=menlo+ventures+job+board&utm_medium=getro.com&utm_source=menlo+ventures+job+board",
+        "timestamp": "20260125063752",
+        "original": "https://jobs.ashbyhq.com/pinecone/ece126f0-df84-42c9-b922-35280ee355ed?utm_source=Menlo+Ventures+job+board&utm_medium=getro.com&gh_src=Menlo+Ventures+job+board",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "WLGRXCIUD3C5JPVP7Y6G3TP5EI5W7WJ3",
+        "length": "17705"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/pinecone/ece126f0-df84-42c9-b922-35280ee355ed?ref=jobsbyculture.com",
+        "timestamp": "20260325072704",
+        "original": "https://jobs.ashbyhq.com/pinecone/ece126f0-df84-42c9-b922-35280ee355ed?ref=jobsbyculture.com",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "XPRCHZKNNQL75OJO6VORYIZMWNE62RH4",
+        "length": "3444"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/pinecone/ece126f0-df84-42c9-b922-35280ee355ed\\",
+        "timestamp": "20260226063854",
+        "original": "https://jobs.ashbyhq.com/pinecone/ece126f0-df84-42c9-b922-35280ee355ed%5C",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "OA2MN5I7YRTG766NHTSAFVLLFTO3UIWT",
+        "length": "3432"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/pinecone/ef774a78-2be6-4bac-acac-369b334e8c45",
+        "timestamp": "20260607015227",
+        "original": "https://jobs.ashbyhq.com/pinecone/ef774a78-2be6-4bac-acac-369b334e8c45",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "4HMLMMI5D5DP67CBW5BNMD5W3TR5W46P",
+        "length": "3183"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/pinecone/ef774a78-2be6-4bac-acac-369b334e8c45?utm_campaign=new-ai-startup-jobs-week-ending-april-25th-2024&utm_medium=referral&utm_source=aistartup.jobs",
+        "timestamp": "20260208120235",
+        "original": "https://jobs.ashbyhq.com/pinecone/ef774a78-2be6-4bac-acac-369b334e8c45?utm_source=aistartup.jobs&utm_medium=referral&utm_campaign=new-ai-startup-jobs-week-ending-april-25th-2024",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "OF5I6EF35HD2KT7WJC4UM2YPQYZ4X2RA",
+        "length": "3233"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/pinecone/f031289c-9125-4f67-ba7a-fd91903f47e1",
+        "timestamp": "20260317053101",
+        "original": "https://jobs.ashbyhq.com/pinecone/f031289c-9125-4f67-ba7a-fd91903f47e1",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "3LNQEIBKKBZBJXDY3BC2ZCQSCRPW7BJO",
+        "length": "3107"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/pinecone/f031289c-9125-4f67-ba7a-fd91903f47e1?utm_campaign=new-ai-startup-jobs-bonus-weekend-post-27th-jan-2024&utm_medium=referral&utm_source=aistartup.jobs",
+        "timestamp": "20260808013124",
+        "original": "https://jobs.ashbyhq.com/pinecone/f031289c-9125-4f67-ba7a-fd91903f47e1?utm_source=aistartup.jobs&utm_medium=referral&utm_campaign=new-ai-startup-jobs-bonus-weekend-post-27th-jan-2024",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "RMNSPKXM2RIOP3IEWRHPTJRGGYBC56TO",
+        "length": "3494"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/pinecone/f8016c3c-e78a-460b-9492-aaa7dc0d95d5?utm_campaign=new-ai-startup-jobs-week-ending-august-29th-2024&utm_medium=referral&utm_source=aistartup.jobs",
+        "timestamp": "20260511210747",
+        "original": "https://jobs.ashbyhq.com/pinecone/f8016c3c-e78a-460b-9492-aaa7dc0d95d5?utm_source=aistartup.jobs&utm_medium=referral&utm_campaign=new-ai-startup-jobs-week-ending-august-29th-2024",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "IFLI3ZCO4R7IGPT3UBAWKES4XS5JJDC6",
+        "length": "3155"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/pinecone/f83ba7a6-da11-421a-ae9e-909d375e2e93",
+        "timestamp": "20260609152746",
+        "original": "https://jobs.ashbyhq.com/pinecone/f83ba7a6-da11-421a-ae9e-909d375e2e93",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "K2M2TLVT37NAUS4FJJWFUVBUIQMSZ7LF",
+        "length": "18440"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/pinecone/f83ba7a6-da11-421a-ae9e-909d375e2e93/application",
+        "timestamp": "20260226044007",
+        "original": "https://jobs.ashbyhq.com/pinecone/f83ba7a6-da11-421a-ae9e-909d375e2e93/application",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "XMNV3X77RH2ZSNQRWBCE2FGMZKCC27BQ",
+        "length": "2217"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/pinecone/form/f090c421-881e-4d75-81bf-4cb114e5a184",
+        "timestamp": "20260308223403",
+        "original": "https://jobs.ashbyhq.com/pinecone/form/f090c421-881e-4d75-81bf-4cb114e5a184",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "NJ6MEK7NWCDER5H3XHIL77OBFGS623OY",
+        "length": "7593"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/pinecone/form/f090c421-881e-4d75-81bf-4cb114e5a184",
+        "timestamp": "20260615212304",
+        "original": "https://jobs.ashbyhq.com/pinecone/form/f090c421-881e-4d75-81bf-4cb114e5a184",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "FRR5PFSR2KI66O5OIJQYXGKKYCFYPNLO",
+        "length": "8352"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/pinecone?locationid=38f3ac2d-1b47-41c4-a6ec-1e42fb8390ae&utm_campaign=the-big-ai-trend-of-2024&utm_medium=referral&utm_source=www.theneurondaily.com",
+        "timestamp": "20251108062711",
+        "original": "https://jobs.ashbyhq.com/pinecone?locationId=38f3ac2d-1b47-41c4-a6ec-1e42fb8390ae&utm_source=www.theneurondaily.com&utm_medium=referral&utm_campaign=the-big-ai-trend-of-2024",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "N7YCNRQ7L2O6MHUCTI5MAY5EKNBTBY2B",
+        "length": "7353"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/pinecone?locationid=38f3ac2d-1b47-41c4-a6ec-1e42fb8390ae&utm_campaign=the-big-ai-trend-of-2024&utm_medium=referral&utm_source=www.theneurondaily.com",
+        "timestamp": "20260516202556",
+        "original": "https://jobs.ashbyhq.com/pinecone?locationId=38f3ac2d-1b47-41c4-a6ec-1e42fb8390ae&utm_source=www.theneurondaily.com&utm_medium=referral&utm_campaign=the-big-ai-trend-of-2024",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "TBDNHH7W6IDTZ2EVJ7VXVK7SX43W2U3U",
+        "length": "9399"
+      }
+    ]
+  }
+]

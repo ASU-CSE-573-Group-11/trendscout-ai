@@ -1,0 +1,20 @@
+{
+  "company_id": "chroma",
+  "requested_url": "https://www.trychroma.com/careers",
+  "response_url": "https://www.trychroma.com/careers",
+  "observed_at": "2026-11-21T11:39:26Z",
+  "source_snapshot_at": "2026-11-21T11:39:26Z",
+  "source_clock": "Current browser observation only; not an event or publication date.",
+  "method": "selenium_current_render",
+  "readiness_selector": "a[href*=\"/careers/\"]",
+  "matched_elements": 6,
+  "browser_version": "157.0.8103.80",
+  "webdriver_version": "157.0.8103.78 (4b3d0dabb8250b6f152d2d85d79e7706e309d087-refs/branch-heads/8103@{#1573})",
+  "sha256": "eb316c8c85001e7ad1bbc8979ad24e875cf15c8567eed03c7c599b7f5f75a6e2",
+  "verified_complete_board": false,
+  "limits": [
+    "Selector presence is not proof of board completeness; a reviewed site parser is required.",
+    "Iframe content is not included in the parent DOM; parse its official API or capture it separately.",
+    "Browser observation time cannot establish historical posting stock or participant decisions."
+  ]
+}

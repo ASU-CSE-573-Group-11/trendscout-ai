@@ -74,3 +74,89 @@ ts:ClaimShape
         sh:minCount 1 ;
         sh:datatype xsd:dateTime
     ] .
+
+ts:InvestorShape
+    a sh:NodeShape ;
+    sh:targetClass ts:Investor ;
+    sh:property [
+        sh:path ts:name ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+        sh:datatype xsd:string
+    ] .
+
+ts:FundingRoundShape
+    a sh:NodeShape ;
+    sh:targetClass ts:FundingRound ;
+    sh:property [
+        sh:path ts:roundId ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+        sh:datatype xsd:string
+    ] ;
+    sh:property [
+        sh:path ts:fundingOf ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+        sh:class ts:Startup
+    ] ;
+    sh:property [
+        sh:path ts:observedAt ;
+        sh:minCount 1 ;
+        sh:datatype xsd:dateTime
+    ] .
+
+ts:JobPostingShape
+    a sh:NodeShape ;
+    sh:targetClass ts:JobPosting ;
+    sh:property [
+        sh:path ts:jobPostingId ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+        sh:datatype xsd:string
+    ] ;
+    sh:property [
+        sh:path ts:title ;
+        sh:minCount 1 ;
+        sh:datatype xsd:string
+    ] ;
+    sh:property [
+        sh:path ts:observedAt ;
+        sh:minCount 1 ;
+        sh:datatype xsd:dateTime
+    ] .
+
+ts:RepositoryShape
+    a sh:NodeShape ;
+    sh:targetClass ts:Repository ;
+    sh:property [
+        sh:path ts:repositoryId ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+        sh:datatype xsd:string
+    ] ;
+    sh:property [
+        sh:path ts:sourceUrl ;
+        sh:minCount 1 ;
+        sh:datatype xsd:anyURI
+    ] .
+
+ts:SkillShape
+    a sh:NodeShape ;
+    sh:targetClass ts:Skill ;
+    sh:property [
+        sh:path ts:name ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+        sh:datatype xsd:string
+    ] .
+
+ts:TechnologyShape
+    a sh:NodeShape ;
+    sh:targetClass ts:Technology ;
+    sh:property [
+        sh:path ts:name ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+        sh:datatype xsd:string
+    ] .

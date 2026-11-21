@@ -28,7 +28,7 @@ def collect_yc_identity(cohort: dict[str, Any]) -> tuple[list[dict[str, Any]], l
             f"Official domain: {company.get('domain')}. "
             f"YC directory: {yc_url}. "
             f"YC batch as recorded at freeze: {company.get('yc_batch') or 'not recorded'}. "
-            "Directory presence confirms identity and category; it does not prove momentum."
+            "This is a registry assertion. The directory page has not been fetched or verified by this collector."
         )
         records.append(
             make_record(
@@ -36,12 +36,12 @@ def collect_yc_identity(cohort: dict[str, Any]) -> tuple[list[dict[str, Any]], l
                 source_url=yc_url,
                 title=f"{company['name']} Y Combinator directory identity",
                 text=passage,
-                publisher="Y Combinator",
+                publisher="TrendScout cohort registry",
                 company_id=company["company_id"],
                 startup_name=company["name"],
                 event_type="identity",
-                event_at=f"{frozen_at}T00:00:00Z" if frozen_at else None,
-                published_at=f"{frozen_at}T00:00:00Z" if frozen_at else utc_now(),
+                event_at=None,
+                published_at=None,
                 access_note=(
                     "Public YC company directory page recorded in the frozen cohort registry. "
                     "No bulk scrape of ycombinator.com is performed at collection time."
@@ -51,8 +51,10 @@ def collect_yc_identity(cohort: dict[str, Any]) -> tuple[list[dict[str, Any]], l
                     "domain": company.get("domain"),
                     "category": company.get("category"),
                     "freeze_only": True,
+                    "directory_verified": False,
+                    "registry_frozen_at": frozen_at,
                 },
             )
         )
-        coverage.append({"source_id": f"yc:{company['company_id']}", "status": "ok", "entries_kept": 1})
+        coverage.append({"source_id": f"yc:{company['company_id']}", "status": "registry_only", "entries_kept": 1})
     return records, coverage

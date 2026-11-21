@@ -1,0 +1,20 @@
+{
+  "all_source_records": 584,
+  "study_document_count": 136,
+  "study_window": {
+    "start": "2025-11-01",
+    "end": "2026-11-20"
+  },
+  "source_types": {
+    "company": 565,
+    "news": 2,
+    "public_voice": 6,
+    "reference": 11
+  },
+  "study_source_types": {
+    "company": 135,
+    "news": 1
+  },
+  "curated_voice_feeds": 15,
+  "limitation": "Archived public-voice matches are outside this study slice; they remain dated context and are not counted as current temporal evidence."
+}

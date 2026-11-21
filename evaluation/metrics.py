@@ -31,6 +31,8 @@ evidence. Both are reported so the choice is visible.
 
 from __future__ import annotations
 
+import gzip
+
 import json
 import math
 import statistics
@@ -114,7 +116,8 @@ def ndcg_at_k(retrieved: Sequence[str], relevant: Mapping[str, float], k: int) -
 def load_answers(path: Path) -> list[dict[str, Any]]:
     """Load answer bundles written by ``python -m interface --out``."""
     bundles = []
-    for number, line in enumerate(path.read_text(encoding="utf-8").splitlines(), start=1):
+    content = gzip.decompress(path.read_bytes()).decode("utf-8") if path.suffix == ".gz" else path.read_text(encoding="utf-8")
+    for number, line in enumerate(content.splitlines(), start=1):
         if not line.strip():
             continue
         try:

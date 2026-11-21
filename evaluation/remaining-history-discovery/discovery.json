@@ -1,0 +1,83 @@
+[
+  {
+    "source_id": "continue-about",
+    "url": "https://www.continue.dev/about",
+    "observed_at": "2026-11-21T11:39:27.319729+00:00",
+    "status": 404,
+    "response_url": "https://continue.dev/about",
+    "file": "sources/continue-about.txt",
+    "sha256": "b620507312c5e97566a3c6cfaf99144fefc18a0da7d941401dfa0f5f58fb0368"
+  },
+  {
+    "source_id": "continue-careers",
+    "url": "https://www.continue.dev/careers",
+    "observed_at": "2026-11-21T11:39:27.320124+00:00",
+    "status": 404,
+    "response_url": "https://continue.dev/careers",
+    "file": "sources/continue-careers.txt",
+    "sha256": "b620507312c5e97566a3c6cfaf99144fefc18a0da7d941401dfa0f5f58fb0368"
+  },
+  {
+    "source_id": "continue-yc",
+    "url": "https://www.ycombinator.com/companies/continue/jobs",
+    "observed_at": "2026-11-21T11:39:27.320255+00:00",
+    "status": 200,
+    "response_url": "https://www.ycombinator.com/companies/continue/jobs",
+    "file": "sources/continue-yc.txt",
+    "sha256": "c5afc0fa359ad43d5e4c14bbe9e27860dd881aea748261472b306e4fdc68f1a9"
+  },
+  {
+    "source_id": "crewai-widget",
+    "url": "https://apply.workable.com/api/v1/widget/accounts/crewai",
+    "observed_at": "2026-11-21T11:39:27.320387+00:00",
+    "status": 200,
+    "response_url": "https://apply.workable.com/api/v1/widget/accounts/crewai",
+    "file": "sources/crewai-widget.txt",
+    "sha256": "56edc43836fdd87facc3ae61e7e706d8f3a3288546532bbf89e5984e26bb46cd"
+  },
+  {
+    "source_id": "crewai-llms",
+    "url": "https://apply.workable.com/crewai/llms.txt",
+    "observed_at": "2026-11-21T11:39:27.320455+00:00",
+    "status": 200,
+    "response_url": "https://apply.workable.com/crewai/llms.txt",
+    "file": "sources/crewai-llms.txt",
+    "sha256": "1b9d5dbde2e5c5a66053c004f779b6f1fd82e04501203326bd3ee6cdc6b89008"
+  },
+  {
+    "source_id": "crewai-client",
+    "url": "https://dcvxs6ggqztsa.cloudfront.net/candidate/releases/advanced.f944702957ef865c.js",
+    "observed_at": "2026-11-21T11:39:27.604784+00:00",
+    "status": 200,
+    "response_url": "https://dcvxs6ggqztsa.cloudfront.net/candidate/releases/advanced.f944702957ef865c.js",
+    "file": "sources/crewai-client.txt",
+    "sha256": "e79e7879ce1e7399108d3865cfc4b4c52b23711dd4ca244a75ead5c31d1c4ca4"
+  },
+  {
+    "source_id": "langfuse-parent",
+    "url": "https://clickhouse.com/company/careers?search=langfuse",
+    "observed_at": "2026-11-21T11:39:27.611532+00:00",
+    "status": 200,
+    "response_url": "https://clickhouse.com/company/careers?search=langfuse",
+    "file": "sources/langfuse-parent.txt",
+    "sha256": "ce5ceb77e8aa6566684a0d52e6ed2fd434c65340205b9be302016ee64da1a4f9"
+  },
+  {
+    "source_id": "wandb-parent",
+    "url": "https://coreweave.com/careers/weights-biases",
+    "observed_at": "2026-11-21T11:39:27.639943+00:00",
+    "status": 200,
+    "response_url": "https://coreweave.com/careers/weights-biases",
+    "file": "sources/wandb-parent.txt",
+    "sha256": "8cf19eb68e6a6a4d4c5ae2d506e120e3a3aadc2ebe27f6bdc0b53725b684370c"
+  },
+  {
+    "source_id": "replicate-parent",
+    "url": "https://www.cloudflare.com/careers/",
+    "observed_at": "2026-11-21T11:39:27.856956+00:00",
+    "status": 200,
+    "response_url": "https://www.cloudflare.com/careers/",
+    "file": "sources/replicate-parent.txt",
+    "sha256": "2a838c5828731f3bd7ac41ec0218385aa77028031de183e9668b6d8778461316"
+  }
+]

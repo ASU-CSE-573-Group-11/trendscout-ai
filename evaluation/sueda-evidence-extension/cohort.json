@@ -1,0 +1,459 @@
+{
+  "frozen_at": "2026-10-30",
+  "frozen_by": "Sueda Sen",
+  "study_window": {
+    "start": "2025-11-01",
+    "end": "2026-10-30"
+  },
+  "scope": {
+    "size": 18,
+    "categories": [
+      "agent_infrastructure",
+      "developer_tools"
+    ],
+    "rule": "The list is frozen before scoring. Inclusion or exclusion has a short reason. Scoring must not add companies later without a documented revision."
+  },
+  "companies": [
+    {
+      "company_id": "langchain",
+      "name": "LangChain",
+      "aliases": [
+        "LangChain",
+        "LangGraph",
+        "LangSmith"
+      ],
+      "domain": "langchain.com",
+      "category": "agent_infrastructure",
+      "product": "Agent orchestration framework, LangGraph, and LangSmith observability.",
+      "status": "included",
+      "include_reason": "Active agent-infrastructure product, stable domain, public GitHub organization.",
+      "yc_url": "https://www.ycombinator.com/companies/langchain",
+      "yc_batch": null,
+      "github_org": "langchain-ai",
+      "github_repos": [
+        "https://github.com/langchain-ai/langchain"
+      ],
+      "newsroom_url": "https://blog.langchain.dev",
+      "rss_url": "https://blog.langchain.dev/rss/",
+      "greenhouse_board": null,
+      "lever_site": null,
+      "youtube_query": "LangChain LangGraph"
+    },
+    {
+      "company_id": "llamaindex",
+      "name": "LlamaIndex",
+      "aliases": [
+        "LlamaIndex",
+        "Llama Index",
+        "GPT Index"
+      ],
+      "domain": "llamaindex.ai",
+      "category": "agent_infrastructure",
+      "product": "Data framework for RAG and document agents.",
+      "status": "included",
+      "include_reason": "Active agent/data framework with public GitHub and company blog.",
+      "yc_url": "https://www.ycombinator.com/companies/llamaindex",
+      "yc_batch": null,
+      "github_org": "run-llama",
+      "github_repos": [
+        "https://github.com/run-llama/llama_index"
+      ],
+      "newsroom_url": "https://www.llamaindex.ai/blog",
+      "rss_url": "https://www.llamaindex.ai/blog/rss.xml",
+      "greenhouse_board": null,
+      "lever_site": null,
+      "youtube_query": "LlamaIndex RAG"
+    },
+    {
+      "company_id": "crewai",
+      "name": "CrewAI",
+      "aliases": [
+        "CrewAI",
+        "Crew AI"
+      ],
+      "domain": "crewai.com",
+      "category": "agent_infrastructure",
+      "product": "Role-based multi-agent orchestration.",
+      "status": "included",
+      "include_reason": "Active multi-agent product with a public GitHub repository.",
+      "yc_url": null,
+      "yc_batch": null,
+      "github_org": "crewAIInc",
+      "github_repos": [
+        "https://github.com/crewAIInc/crewAI"
+      ],
+      "newsroom_url": "https://www.crewai.com/blog",
+      "rss_url": null,
+      "greenhouse_board": null,
+      "lever_site": null,
+      "youtube_query": "CrewAI agents"
+    },
+    {
+      "company_id": "e2b",
+      "name": "E2B",
+      "aliases": [
+        "E2B"
+      ],
+      "domain": "e2b.dev",
+      "category": "agent_infrastructure",
+      "product": "Isolated sandboxes for running model-generated code.",
+      "status": "included",
+      "include_reason": "Active agent-infrastructure sandbox product and public GitHub org.",
+      "yc_url": "https://www.ycombinator.com/companies/e2b",
+      "yc_batch": null,
+      "github_org": "e2b-dev",
+      "github_repos": [
+        "https://github.com/e2b-dev/E2B"
+      ],
+      "newsroom_url": "https://e2b.dev/blog",
+      "rss_url": "https://e2b.dev/blog/rss.xml",
+      "greenhouse_board": null,
+      "lever_site": null,
+      "youtube_query": "E2B sandbox AI"
+    },
+    {
+      "company_id": "browserbase",
+      "name": "Browserbase",
+      "aliases": [
+        "Browserbase",
+        "Stagehand"
+      ],
+      "domain": "browserbase.com",
+      "category": "agent_infrastructure",
+      "product": "Managed browser infrastructure and Stagehand automation for agents.",
+      "status": "included",
+      "include_reason": "Active browser-infrastructure product for agents with public GitHub.",
+      "yc_url": "https://www.ycombinator.com/companies/browserbase",
+      "yc_batch": null,
+      "github_org": "browserbase",
+      "github_repos": [
+        "https://github.com/browserbase/stagehand"
+      ],
+      "newsroom_url": "https://www.browserbase.com/blog",
+      "rss_url": null,
+      "greenhouse_board": null,
+      "lever_site": null,
+      "youtube_query": "Browserbase Stagehand"
+    },
+    {
+      "company_id": "composio",
+      "name": "Composio",
+      "aliases": [
+        "Composio"
+      ],
+      "domain": "composio.dev",
+      "category": "agent_infrastructure",
+      "product": "Managed tool and auth layer that connects agents to external apps.",
+      "status": "included",
+      "include_reason": "Active agent-tooling product with public GitHub.",
+      "yc_url": "https://www.ycombinator.com/companies/composio",
+      "yc_batch": null,
+      "github_org": "ComposioHQ",
+      "github_repos": [
+        "https://github.com/ComposioHQ/composio"
+      ],
+      "newsroom_url": "https://composio.dev/blog",
+      "rss_url": null,
+      "greenhouse_board": null,
+      "lever_site": null,
+      "youtube_query": "Composio agents"
+    },
+    {
+      "company_id": "letta",
+      "name": "Letta",
+      "aliases": [
+        "Letta",
+        "MemGPT"
+      ],
+      "domain": "letta.com",
+      "category": "agent_infrastructure",
+      "product": "Stateful agents with long-term memory, formerly MemGPT.",
+      "status": "included",
+      "include_reason": "Active agent-memory product, identifiable rebrand recorded as aliases, public GitHub.",
+      "yc_url": "https://www.ycombinator.com/companies/letta",
+      "yc_batch": null,
+      "github_org": "letta-ai",
+      "github_repos": [
+        "https://github.com/letta-ai/letta"
+      ],
+      "newsroom_url": "https://www.letta.com/blog",
+      "rss_url": null,
+      "greenhouse_board": null,
+      "lever_site": null,
+      "youtube_query": "Letta MemGPT"
+    },
+    {
+      "company_id": "langfuse",
+      "name": "Langfuse",
+      "aliases": [
+        "Langfuse"
+      ],
+      "domain": "langfuse.com",
+      "category": "agent_infrastructure",
+      "product": "Open-source LLM tracing, evaluation, and analytics.",
+      "status": "included",
+      "include_reason": "Active LLM-ops product used by agent builders; public GitHub and YC directory page.",
+      "yc_url": "https://www.ycombinator.com/companies/langfuse",
+      "yc_batch": null,
+      "github_org": "langfuse",
+      "github_repos": [
+        "https://github.com/langfuse/langfuse"
+      ],
+      "newsroom_url": "https://langfuse.com/blog",
+      "rss_url": "https://langfuse.com/blog/rss.xml",
+      "greenhouse_board": null,
+      "lever_site": null,
+      "youtube_query": "Langfuse LLM"
+    },
+    {
+      "company_id": "deepset",
+      "name": "deepset",
+      "aliases": [
+        "deepset",
+        "Haystack"
+      ],
+      "domain": "deepset.ai",
+      "category": "agent_infrastructure",
+      "product": "Haystack framework for RAG and production NLP systems.",
+      "status": "included",
+      "include_reason": "Active developer-facing RAG/agent framework with public GitHub.",
+      "yc_url": null,
+      "yc_batch": null,
+      "github_org": "deepset-ai",
+      "github_repos": [
+        "https://github.com/deepset-ai/haystack"
+      ],
+      "newsroom_url": "https://www.deepset.ai/blog",
+      "rss_url": null,
+      "greenhouse_board": null,
+      "lever_site": null,
+      "youtube_query": "deepset Haystack"
+    },
+    {
+      "company_id": "continue",
+      "name": "Continue",
+      "aliases": [
+        "Continue.dev",
+        "Continue"
+      ],
+      "domain": "continue.dev",
+      "category": "developer_tools",
+      "product": "Open-source AI coding assistant for IDEs.",
+      "status": "included",
+      "include_reason": "Active developer-tool product with public GitHub and company site.",
+      "yc_url": "https://www.ycombinator.com/companies/continue",
+      "yc_batch": null,
+      "github_org": "continuedev",
+      "github_repos": [
+        "https://github.com/continuedev/continue"
+      ],
+      "newsroom_url": "https://blog.continue.dev",
+      "rss_url": "https://blog.continue.dev/rss.xml",
+      "greenhouse_board": null,
+      "lever_site": null,
+      "youtube_query": "Continue.dev coding assistant"
+    },
+    {
+      "company_id": "sourcegraph",
+      "name": "Sourcegraph",
+      "aliases": [
+        "Sourcegraph",
+        "Cody"
+      ],
+      "domain": "sourcegraph.com",
+      "category": "developer_tools",
+      "product": "Code search, Cody coding assistant, and developer knowledge graph.",
+      "status": "included",
+      "include_reason": "Active developer-tool product, public GitHub, independent activity in the study window.",
+      "yc_url": null,
+      "yc_batch": null,
+      "github_org": "sourcegraph",
+      "github_repos": [
+        "https://github.com/sourcegraph/sourcegraph-public-snapshot"
+      ],
+      "newsroom_url": "https://sourcegraph.com/blog",
+      "rss_url": "https://about.sourcegraph.com/blog/rss.xml",
+      "greenhouse_board": null,
+      "lever_site": null,
+      "youtube_query": "Sourcegraph Cody"
+    },
+    {
+      "company_id": "modal",
+      "name": "Modal",
+      "aliases": [
+        "Modal",
+        "Modal Labs"
+      ],
+      "domain": "modal.com",
+      "category": "developer_tools",
+      "product": "Serverless compute and sandboxes for AI workloads.",
+      "status": "included",
+      "include_reason": "Active AI developer infrastructure with public GitHub.",
+      "yc_url": "https://www.ycombinator.com/companies/modal",
+      "yc_batch": null,
+      "github_org": "modal-labs",
+      "github_repos": [
+        "https://github.com/modal-labs/modal"
+      ],
+      "newsroom_url": "https://modal.com/blog",
+      "rss_url": "https://modal.com/blog/rss.xml",
+      "greenhouse_board": null,
+      "lever_site": null,
+      "youtube_query": "Modal Labs AI"
+    },
+    {
+      "company_id": "replicate",
+      "name": "Replicate",
+      "aliases": [
+        "Replicate"
+      ],
+      "domain": "replicate.com",
+      "category": "developer_tools",
+      "product": "API for running and hosting machine-learning models.",
+      "status": "included",
+      "include_reason": "Active model-hosting developer platform with public GitHub.",
+      "yc_url": "https://www.ycombinator.com/companies/replicate",
+      "yc_batch": null,
+      "github_org": "replicate",
+      "github_repos": [
+        "https://github.com/replicate/replicate-python"
+      ],
+      "newsroom_url": "https://replicate.com/blog",
+      "rss_url": "https://replicate.com/blog/rss",
+      "greenhouse_board": null,
+      "lever_site": null,
+      "youtube_query": "Replicate ML models"
+    },
+    {
+      "company_id": "wandb",
+      "name": "Weights & Biases",
+      "aliases": [
+        "Weights & Biases",
+        "Weights and Biases",
+        "W&B",
+        "wandb"
+      ],
+      "domain": "wandb.ai",
+      "category": "developer_tools",
+      "product": "Experiment tracking, evaluation, and LLMOps for model developers.",
+      "status": "included",
+      "include_reason": "Active developer-tool platform with public GitHub and company publishing.",
+      "yc_url": null,
+      "yc_batch": null,
+      "github_org": "wandb",
+      "github_repos": [
+        "https://github.com/wandb/wandb"
+      ],
+      "newsroom_url": "https://wandb.ai/fully-connected",
+      "rss_url": null,
+      "greenhouse_board": null,
+      "lever_site": null,
+      "youtube_query": "Weights and Biases wandb"
+    },
+    {
+      "company_id": "pinecone",
+      "name": "Pinecone",
+      "aliases": [
+        "Pinecone"
+      ],
+      "domain": "pinecone.io",
+      "category": "developer_tools",
+      "product": "Managed vector database for retrieval and agent memory.",
+      "status": "included",
+      "include_reason": "Active retrieval infrastructure product used by agent builders; public company site.",
+      "yc_url": null,
+      "yc_batch": null,
+      "github_org": "pinecone-io",
+      "github_repos": [
+        "https://github.com/pinecone-io/pinecone-python-client"
+      ],
+      "newsroom_url": "https://www.pinecone.io/blog/",
+      "rss_url": "https://www.pinecone.io/blog/rss.xml",
+      "greenhouse_board": null,
+      "lever_site": null,
+      "youtube_query": "Pinecone vector database"
+    },
+    {
+      "company_id": "weaviate",
+      "name": "Weaviate",
+      "aliases": [
+        "Weaviate"
+      ],
+      "domain": "weaviate.io",
+      "category": "developer_tools",
+      "product": "Open-source vector database for AI applications.",
+      "status": "included",
+      "include_reason": "Active developer-tool database with public GitHub.",
+      "yc_url": null,
+      "yc_batch": null,
+      "github_org": "weaviate",
+      "github_repos": [
+        "https://github.com/weaviate/weaviate"
+      ],
+      "newsroom_url": "https://weaviate.io/blog",
+      "rss_url": "https://weaviate.io/blog/rss.xml",
+      "greenhouse_board": null,
+      "lever_site": null,
+      "youtube_query": "Weaviate vector database"
+    },
+    {
+      "company_id": "chroma",
+      "name": "Chroma",
+      "aliases": [
+        "Chroma",
+        "ChromaDB"
+      ],
+      "domain": "trychroma.com",
+      "category": "developer_tools",
+      "product": "Open-source embedding database for RAG and agents.",
+      "status": "included",
+      "include_reason": "Active developer-tool product with public GitHub.",
+      "yc_url": "https://www.ycombinator.com/companies/chroma",
+      "yc_batch": null,
+      "github_org": "chroma-core",
+      "github_repos": [
+        "https://github.com/chroma-core/chroma"
+      ],
+      "newsroom_url": "https://www.trychroma.com/blog",
+      "rss_url": null,
+      "greenhouse_board": null,
+      "lever_site": null,
+      "youtube_query": "ChromaDB embeddings"
+    },
+    {
+      "company_id": "arize",
+      "name": "Arize",
+      "aliases": [
+        "Arize",
+        "Arize AI",
+        "Arize Phoenix"
+      ],
+      "domain": "arize.com",
+      "category": "developer_tools",
+      "product": "ML and LLM observability, including open-source Phoenix.",
+      "status": "included",
+      "include_reason": "Active evaluation/observability developer tool with public GitHub.",
+      "yc_url": null,
+      "yc_batch": null,
+      "github_org": "Arize-ai",
+      "github_repos": [
+        "https://github.com/Arize-ai/phoenix"
+      ],
+      "newsroom_url": "https://arize.com/blog",
+      "rss_url": null,
+      "greenhouse_board": null,
+      "lever_site": null,
+      "youtube_query": "Arize Phoenix LLM"
+    }
+  ],
+  "excluded_examples": [
+    {
+      "name": "Consulting-only AI studios",
+      "exclude_reason": "No identifiable product in agent infrastructure or developer tools."
+    },
+    {
+      "name": "LinkedIn-only talent graphs",
+      "exclude_reason": "Core evidence would require login or prohibited access."
+    }
+  ]
+}

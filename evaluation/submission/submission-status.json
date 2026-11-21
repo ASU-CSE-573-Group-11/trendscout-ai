@@ -1,0 +1,17 @@
+{
+  "status": "local_review_package",
+  "checked_at": "2026-11-21T12:18:04Z",
+  "contribution_commit_path_mismatches": [],
+  "stale_contribution_artifacts": [],
+  "consent_reports": 5,
+  "recorded_pilot_responses": 30,
+  "scored_pilot_task_results": 30,
+  "pilot_collection_complete": true,
+  "confirmed_project_account_mappings": 4,
+  "remaining_requirements": [
+    "Independent paired annotation and final adjudication",
+    "Team code license selection and source redistribution review",
+    "Verify or enable server-side branch protection under an eligible GitHub plan"
+  ],
+  "complete_research_submission": false
+}
