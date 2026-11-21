@@ -1,0 +1,13 @@
+{
+  "agreement_method": "Cohen's kappa",
+  "annotators": [
+    "Sueda Sen",
+    "Mehmet Aksit"
+  ],
+  "shared_items": 94,
+  "different_labels": 0,
+  "cohen_kappa": 1.0,
+  "status": "human_review_complete",
+  "snapshot": "tests/fixtures/faisal/snapshot_records.jsonl",
+  "note": "Human review metadata and final labels are stored in the annotator JSON files. Adjudicated relevance grades remain a separate question-to-record mapping."
+}
