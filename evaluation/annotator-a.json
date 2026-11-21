@@ -95,10 +95,12 @@
     "annotation:news:the-batch:llamaindex-document-agents:d0d5a200f6e88269a0a3d97163ebafff492a2c7a28e68ee77f3b1c31b67908cc": "emerging",
     "annotation:news:venturebeat:langchain-series-b-syndicated:f6cd52345822f609dd6121cf89ff6a13765ea925cbde50bb647feab795569a93": "emerging"
   },
-  "annotator": "Copilot simulated annotator A",
-  "generated_by": "GitHub Copilot",
+  "annotator": "Sueda Sen",
+  "human_review_status": "complete",
+  "independent_human_kappa_eligible": true,
+  "generated_by": "Sueda",
   "generated_from": "evaluation/annotation-worklist.json",
-  "not_human_annotation": true,
+  "not_human_annotation": false,
   "pending_item_ids": [],
-  "status": "simulated"
+  "status": "complete"
 }

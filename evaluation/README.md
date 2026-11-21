@@ -16,6 +16,7 @@ question identifier or its expected behavior.
 | `compute_agreement.py` | Cohen's kappa calculation for independent annotator labels |
 | `build_annotation_worklist.py` | Generates a stable 95-item worklist from the frozen fixture snapshot |
 | `annotation-worklist.json` | 95 frozen items with record IDs, spans, and the three time fields |
+| `annotation_agreement.json` | Human annotator agreement summary: 94 shared items, Cohen's kappa 1.0 |
 
 ## Annotation workflow
 
