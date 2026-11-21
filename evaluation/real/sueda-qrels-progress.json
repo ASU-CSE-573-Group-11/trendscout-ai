@@ -1,0 +1,11 @@
+{
+  "annotator": "Sueda Sen",
+  "workbook": "evaluation/real/workbooks/qrels.csv",
+  "pairs": 1260,
+  "sueda_grades_filled": 1260,
+  "mehmet_grades_filled": 0,
+  "final_grades_filled": 0,
+  "status": "single_reviewer_source_review_complete_independent_adjudication_pending",
+  "independent_rater_count": 1,
+  "human_adjudicated": false
+}
