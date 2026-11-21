@@ -676,7 +676,7 @@
   },
   "live_matches_offline": true,
   "scope": "Deterministic graph summaries; no hire, headcount, causal, or independent-gold claim.",
-  "checked_at": "2026-11-21T22:17:48.091996+00:00",
+  "checked_at": "2026-11-21T22:41:16.679185+00:00",
   "database": "neo4j",
   "uri": "bolt://localhost:7687"
 }
