@@ -14,6 +14,8 @@ question identifier or its expected behavior.
 | `questions.seed.json` | Final retrieval set, abstention cases, metric names, and success thresholds |
 | `annotation_guidelines.json` | Entity/relation types, span rule, and the three clocks |
 | `compute_agreement.py` | Cohen's kappa calculation for independent annotator labels |
+| `build_annotation_worklist.py` | Generates a stable 95-item worklist from the frozen fixture snapshot |
+| `annotation-worklist.json` | 95 frozen items with record IDs, spans, and the three time fields |
 
 ## Annotation workflow
 

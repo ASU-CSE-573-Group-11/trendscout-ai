@@ -65,6 +65,13 @@ def test_annotation_worklist_uses_stable_record_ids():
     }]
 
 
+def test_frozen_snapshot_annotation_worklist_has_95_items_and_94_unique_ids():
+    items = build_worklist(snapshot_records())
+    item_ids = [item["item_id"] for item in items]
+    assert len(items) == 95
+    assert len(set(item_ids)) == 94
+
+
 def bundle(
     question_id: str,
     *,
