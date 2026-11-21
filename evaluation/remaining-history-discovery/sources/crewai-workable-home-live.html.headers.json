@@ -1,0 +1,25 @@
+{
+  "response_url": "https://apply.workable.com/crewai/",
+  "status": 200,
+  "headers": {
+    "Date": "Sat, 21 Nov 2026 21:21:26 GMT",
+    "Content-Type": "text/html; charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "close",
+    "vary": "Accept-Encoding, Origin",
+    "access-control-allow-origin": "http://apply.workable.com",
+    "access-control-allow-credentials": "true",
+    "Content-Security-Policy-Report-Only": "frame-ancestors *; report-uri https://browser-intake-datadoghq.com/api/v2/logs?dd-api-key=pubcbe8d2ef0966e8645a91099cfac490bb&dd-evp-origin=content-security-policy&ddsource=csp-report&ddtags=%40http.headers.cfray%3Aa5e2be7cfed511d1",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "x-content-type-options": "nosniff",
+    "x-xss-protection": "0",
+    "link": "<https://apply.workable.com/crewai/llms.txt>; rel=\"alternate\"; type=\"text/markdown\"; title=\"llms.txt for careers page\"",
+    "X-TS": "0",
+    "x-sv": "937c2fd34e9bf1ab26776b33cf81a156e89b3989dc216f286d21567de7ac4f2c",
+    "server": "cloudflare",
+    "cf-cache-status": "DYNAMIC",
+    "set-cookie": "wmc=%7B%22cookie_id%22%3A%227fef96dc-e5f8-4be6-ad7d-c88a966e6bda%22%7D; path=/; expires=Fri, 21 Nov 2036 09:21:26 GMT; domain=.workable.com; samesite=none; secure",
+    "X-KB": "false",
+    "CF-RAY": "a5e2be7cfed511d1-PHX"
+  }
+}

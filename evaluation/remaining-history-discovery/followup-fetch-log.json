@@ -1,0 +1,86 @@
+[
+  {
+    "url": "https://jobs.ashbyhq.com/continue",
+    "response_url": "https://jobs.ashbyhq.com/continue",
+    "status_code": 404,
+    "file": "sources/continue-ashby-current-try.html",
+    "bytes": 9125,
+    "observed_at": "2026-11-21T21:19:48.673856Z",
+    "error": true,
+    "sha256": "fde3a1521ce34f4db9595e2401b2b9255a75a4bd24d172de73cee1b77e58aa77"
+  },
+  {
+    "url": "https://jobs.ashbyhq.com/Continue",
+    "response_url": "https://jobs.ashbyhq.com/Continue",
+    "status_code": 404,
+    "file": "sources/continue-ashby-current-Continue.html",
+    "bytes": 9125,
+    "observed_at": "2026-11-21T21:19:48.673856Z",
+    "error": true,
+    "sha256": "cfbf4894af30a75d42eef50078432e409a72e60f890d1d8567a9d64a77f3b1de"
+  },
+  {
+    "url": "https://api.ashbyhq.com/posting-api/job-board/continue",
+    "response_url": "https://api.ashbyhq.com/posting-api/job-board/continue",
+    "status_code": 404,
+    "file": "sources/continue-ashby-api-current.json",
+    "bytes": 9,
+    "observed_at": "2026-11-21T21:19:48.673856Z",
+    "error": true,
+    "sha256": "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
+  },
+  {
+    "url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fjobs.ashbyhq.com%2Fcontinue&matchType=exact&output=json&filter=statuscode%3A200&collapse=timestamp%3A8&limit=100",
+    "response_url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fjobs.ashbyhq.com%2Fcontinue&matchType=exact&output=json&filter=statuscode%3A200&collapse=timestamp%3A8&limit=100",
+    "status_code": 200,
+    "file": "sources/continue-ashby-exact-cdx.json",
+    "sha256": "d9e6158fc2d9c0e02297ee61b57a68841d4cabf26fb76616eafe253c4fa06a8d",
+    "bytes": 513,
+    "observed_at": "2026-11-21T21:19:48.673856Z"
+  },
+  {
+    "url": "https://web.archive.org/web/20250701225548id_/https://jobs.ashbyhq.com/continue",
+    "response_url": "https://web.archive.org/web/20250701225548id_/https://jobs.ashbyhq.com/continue",
+    "status_code": 200,
+    "file": "sources/continue-ashby-20250701225548.html",
+    "sha256": "b9f5065129e9b62a0297092c453c519c8cc58ce9f2f5cd29dcc2f39dd46d5371",
+    "bytes": 16795,
+    "observed_at": "2026-11-21T21:19:48.673856Z"
+  },
+  {
+    "url": "https://web.archive.org/web/20250723083856id_/https://jobs.ashbyhq.com/continue",
+    "response_url": "https://web.archive.org/web/20250723083856id_/https://jobs.ashbyhq.com/continue",
+    "status_code": 200,
+    "file": "sources/continue-ashby-20250723083856.html",
+    "sha256": "fb981502c8c60566b1387bfced202c1a7706d26e523da6699efdc003b2b4f603",
+    "bytes": 5604,
+    "observed_at": "2026-11-21T21:19:48.673856Z"
+  },
+  {
+    "url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fapply.workable.com%2Fapi%2Fv1%2Fwidget%2Faccounts%2Fcrewai&output=json&filter=statuscode%3A200&collapse=timestamp%3A6&limit=100",
+    "response_url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fapply.workable.com%2Fapi%2Fv1%2Fwidget%2Faccounts%2Fcrewai&output=json&filter=statuscode%3A200&collapse=timestamp%3A6&limit=100",
+    "status_code": 200,
+    "file": "sources/crewai-widget-cdx.json",
+    "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "bytes": 3,
+    "observed_at": "2026-11-21T21:19:48.673856Z"
+  },
+  {
+    "url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fapply.workable.com%2Fcrewai%2Fjobs.md&output=json&filter=statuscode%3A200&collapse=timestamp%3A6&limit=100",
+    "response_url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fapply.workable.com%2Fcrewai%2Fjobs.md&output=json&filter=statuscode%3A200&collapse=timestamp%3A6&limit=100",
+    "status_code": 200,
+    "file": "sources/crewai-jobs-md-exact-cdx.json",
+    "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "bytes": 3,
+    "observed_at": "2026-11-21T21:19:48.673856Z"
+  },
+  {
+    "url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fapply.workable.com%2Fcrewai%2Fllms.txt&output=json&filter=statuscode%3A200&collapse=timestamp%3A6&limit=100",
+    "response_url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fapply.workable.com%2Fcrewai%2Fllms.txt&output=json&filter=statuscode%3A200&collapse=timestamp%3A6&limit=100",
+    "status_code": 200,
+    "file": "sources/crewai-llms-exact-cdx.json",
+    "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "bytes": 3,
+    "observed_at": "2026-11-21T21:19:48.673856Z"
+  }
+]

@@ -1,0 +1,73 @@
+{
+  "status": "followup_probe_complete_no_new_complete_population",
+  "observed_at": "2026-11-21T21:20:00Z",
+  "target_companies": ["continue", "crewai", "langfuse", "replicate", "wandb"],
+  "complete_official_population_history_count_unchanged": 13,
+  "findings": {
+    "continue": {
+      "current_ashby_board": "https://jobs.ashbyhq.com/continue returns HTTP 404",
+      "in_window_complete_ashby_boards": [
+        {
+          "timestamp": "20260213012947",
+          "file": "sources/continue-ashby-20260213012947.html",
+          "listed_count": 3,
+          "parse": "window.__appData complete board"
+        }
+      ],
+      "outside_window_complete_ashby_board": {
+        "timestamp": "20250701225548",
+        "file": "sources/continue-ashby-20250701225548.html",
+        "listed_count": 3,
+        "note": "Parses as complete board but is before study window 2025-11-01; cannot count toward paired history."
+      },
+      "blocker": "Need a second in-window complete Ashby board or a restored current complete board. One in-window snapshot is insufficient for paired history."
+    },
+    "crewai": {
+      "current_complete_feed": {
+        "widget": "sources/crewai-widget-live.json",
+        "jobs_md": "sources/crewai-jobs-md-live.md",
+        "llms": "sources/crewai-llms-live.txt"
+      },
+      "historical_widget_or_api_cdx": "empty for widget, jobs.md, llms.txt, and api/v3 jobs",
+      "workable_home_archives": [
+        "sources/crewai-workable-home-20260219041707.html",
+        "sources/crewai-workable-home-20260314033623.html",
+        "sources/crewai-workable-home-20260712215842.html",
+        "sources/crewai-workable-home-20260715044638.html",
+        "sources/crewai-workable-home-20260928193610.html",
+        "sources/crewai-workable-home-20261016004928.html"
+      ],
+      "blocker": "Archived Workable home HTML does not embed a complete offline job population; historical complete board API/widget captures were not returned by CDX."
+    },
+    "langfuse": {
+      "live_careers_page": "sources/langfuse-careers-live.html",
+      "blocker": "No attributable complete ATS landing payload found on the live careers page; retained history remains explicit brand titles inside ClickHouse."
+    },
+    "wandb": {
+      "live_careers_page": "sources/wandb-careers-live.html",
+      "blocker": "No dedicated complete board payload on the live careers page; retained history remains explicit brand titles inside CoreWeave."
+    },
+    "replicate": {
+      "live_about_page": "sources/replicate-about-live.html",
+      "careers_link_observed": "https://www.cloudflare.com/careers/",
+      "blocker": "No company-owned complete job population found; parent Cloudflare careers are not substitutable as Replicate hiring. YC directory channel remains the paired scoped history."
+    }
+  },
+  "artifacts": [
+    "followup-fetch-log.json",
+    "followup-live-probe.json",
+    "sources/continue-ashby-exact-cdx.json",
+    "sources/continue-ashby-window-cdx.json",
+    "sources/continue-ashby-20250701225548.html",
+    "sources/crewai-widget-cdx.json",
+    "sources/crewai-workable-home-cdx.json",
+    "sources/crewai-widget-live.json",
+    "sources/crewai-jobs-md-live.md",
+    "sources/crewai-llms-live.txt"
+  ],
+  "next_attempts": [
+    "Monitor for a restored Continue Ashby board or another in-window complete board capture.",
+    "Search alternate Workable archive endpoints that embed full CrewAI listing JSON without JavaScript.",
+    "If Langfuse/W&B publish a dedicated complete board URL, freeze current + archived landing populations."
+  ]
+}
