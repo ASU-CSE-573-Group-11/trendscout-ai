@@ -73,8 +73,18 @@ def build_parser() -> argparse.ArgumentParser:
 def main(argv: Sequence[str] | None = None) -> int:
     args = build_parser().parse_args(argv)
 
-    qrels = load_qrels(args.qrels) if args.qrels else {}
-    illustrative, why = qrels_are_illustrative(args.qrels) if args.qrels else (False, "")
+    if args.qrels:
+        if not args.qrels.exists():
+            raise SystemExit(
+                f"qrels file not found: {args.qrels}. "
+                "Complete human adjudication and create evaluation/adjudicated-qrels.json "
+                "before running a scored retrieval evaluation."
+            )
+        qrels = load_qrels(args.qrels)
+        illustrative, why = qrels_are_illustrative(args.qrels)
+    else:
+        qrels = {}
+        illustrative, why = False, ""
     expectations = load_seed_expectations(args.questions)
     thresholds = load_thresholds(args.questions)
 
