@@ -13,6 +13,32 @@ question identifier or its expected behavior.
 |---|---|
 | `questions.seed.json` | Final retrieval set, abstention cases, metric names, and success thresholds |
 | `annotation_guidelines.json` | Entity/relation types, span rule, and the three clocks |
+| `compute_agreement.py` | Cohen's kappa calculation for independent annotator labels |
+
+## Annotation workflow
+
+Use the frozen snapshot rather than live collection. Two annotators must label
+independently, then disagreements are adjudicated by exact span and recorded
+timestamps. Do not use adjudicated labels to calculate agreement.
+
+Each independent run is a JSON object containing an `annotations` map:
+
+```json
+{
+  "annotator": "name",
+  "annotations": {
+    "item-001": "corroborated"
+  }
+}
+```
+
+Calculate agreement only after both files contain their independent labels:
+
+```bash
+python evaluation/compute_agreement.py \
+  evaluation/annotator-a.json \
+  evaluation/annotator-b.json
+```
 
 Primary success, from the proposal: temporal multi-hop accuracy above the strongest non-graph baseline, unsupported claims below 10%, and valid evidence for at least 90% of factual answer claims.
 

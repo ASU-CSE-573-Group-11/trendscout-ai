@@ -6,6 +6,7 @@ import json
 
 import pytest
 
+from evaluation.compute_agreement import cohen_kappa
 from evaluation.metrics import (
     ConditionReport,
     check_thresholds,
@@ -26,6 +27,15 @@ from faisal_snapshot import snapshot_records
 from interface.agent import AgentConfig, TrendScoutAgent
 
 SEED = json.loads(__import__("pathlib").Path("evaluation/questions.seed.json").read_text(encoding="utf-8"))["questions"]
+
+
+def test_cohen_kappa_requires_shared_items_and_reports_perfect_agreement():
+    kappa, count = cohen_kappa(
+        {"item-1": "corroborated", "item-2": "emerging"},
+        {"item-1": "corroborated", "item-2": "emerging"},
+    )
+    assert count == 2
+    assert kappa == 1.0
 
 
 def bundle(
