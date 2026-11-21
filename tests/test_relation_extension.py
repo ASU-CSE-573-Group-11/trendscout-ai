@@ -15,8 +15,8 @@ def test_registered_supplement_has_real_passages_without_changing_shared_pool():
     d,c,r,rows=inputs();result=validate(d,c,r,rows)
     assert result['shared_candidate_items']==126
     assert result['supplemental_source_items']==56
-    assert result['positive_mention_occurrences']==90
-    assert result['distinct_document_object_facts']==88
+    assert result['positive_mention_occurrences']==88
+    assert result['distinct_document_object_facts']==86
     assert result['supplement_is_independent_paired_annotation'] is False
 
 

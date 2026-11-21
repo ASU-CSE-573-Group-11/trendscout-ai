@@ -76,6 +76,7 @@ def test_completion_reports_real_unfilled_inputs_without_modifying_them():
     assert len(result['coverage'])==18
     assert result['pilot']['submitted_responses']==len(json.loads(before[0])['responses'])
     assert result['pilot']['scored_task_results']==len(json.loads(before[2])['task_results'])
-    assert result['agreement']['cohen_kappa'] is None
+    assert result['agreement']['status']=='computed_from_direct_source_reviews'
+    assert result['agreement']['results']['entities']['cohen_kappa']==1.0
     assert not result['complete_research_submission']
     assert before==[p.read_bytes() for p in paths]

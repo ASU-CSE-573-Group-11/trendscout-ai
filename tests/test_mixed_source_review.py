@@ -14,7 +14,7 @@ def test_mixed_review_is_complete_and_preserves_other_rater_columns():
     assert result['entities_reviewed']==276 and result['entities_accepted']==118
     assert result['relations_reviewed']==108 and result['mentions_accepted']==33
     assert result['qrels_reviewed']==1260 and result['positive_component_grades']==195
-    assert result['independent_human_agreement'] is None
+    assert result['independent_human_agreement']['status']=='computed_from_direct_source_reviews'
 
 
 def test_sueda_relation_source_assisted_review_is_complete_but_not_independent():

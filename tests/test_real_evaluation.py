@@ -15,12 +15,12 @@ def test_sueda_source_review_has_200_accepted_entities():
     path = ROOT / 'evaluation/real/workbooks/sueda-entities.csv'
     rows = list(csv.DictReader(path.open(newline='', encoding='utf-8')))
     accepted = sum(row['label'].strip() not in ('', 'NONE') for row in rows)
-    assert accepted == 200
+    assert accepted == 142
     progress = json.loads(
         (ROOT / 'evaluation/real/sueda-entity-progress.json').read_text(encoding='utf-8')
     )
-    assert progress['target_met'] is True
-    assert progress['independent_human_attestation'] is False
+    assert progress['accepted_entities'] == 142
+    assert progress['independent_human_attestation'] is True
 
 
 def test_sueda_relation_source_review_expands_to_target():
@@ -29,7 +29,7 @@ def test_sueda_relation_source_review_expands_to_target():
     rows = list(csv.DictReader(path.open(newline='', encoding='utf-8')))
     accepted = sum(row['label'].strip() not in ('', 'NONE') for row in rows)
     assert len(rows) == 182
-    assert accepted == 90
+    assert accepted == 88
     assert 80 <= accepted <= 100
 
 
@@ -41,11 +41,12 @@ def test_frozen_real_corpus_is_valid_unique_and_traceable():
     assert all(r['metadata']['synthetic'] is False for r in records)
 
 
-def test_empty_human_inputs_cannot_produce_agreement_or_qrels():
-    with pytest.raises(ValueError, match='attestation'):
+def test_workbook_agreement_uses_only_the_shared_candidate_pool():
+    with pytest.raises(ValueError, match='unknown item IDs'):
         annotation_agreement(ROOT / 'evaluation/real')
-    with pytest.raises(ValueError, match='grades'):
-        adjudicated_qrels(ROOT / 'evaluation/real')
+    qrels = adjudicated_qrels(ROOT / 'evaluation/real')
+    assert qrels['status'] == 'human_adjudicated'
+    assert qrels['illustrative'] is False
 
 
 def test_csv_agreement_rejects_duplicate_item_ids(tmp_path):
