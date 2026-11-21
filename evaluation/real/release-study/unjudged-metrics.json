@@ -1,0 +1,1146 @@
+{
+  "conditions": [
+    {
+      "abstention": {
+        "abstained": 0,
+        "accuracy": 1.0,
+        "correct_abstentions": 0,
+        "false_abstentions": [],
+        "missed_abstentions": [],
+        "should_abstain": 0
+      },
+      "answer_quality": {
+        "citation_precision": null,
+        "claim_support_rate": 1.0,
+        "claims": 112,
+        "unsupported_claim_rate": 0.0
+      },
+      "condition": "bm25",
+      "judged_questions": 0,
+      "latency": {
+        "max_ms": 9.589,
+        "median_ms": 5.377,
+        "p90_ms": 7.889
+      },
+      "notes": [
+        "no relevance judgements supplied, so Precision@k, Recall@k, MRR, nDCG@k and citation precision are null rather than zero"
+      ],
+      "per_question": [
+        {
+          "abstained": false,
+          "claims": 4,
+          "expected_behavior": "answer_if_supported_else_qualify",
+          "latency_ms": 6.562,
+          "question_id": "release-01",
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": false,
+          "claims": 4,
+          "expected_behavior": "answer_if_supported_else_qualify",
+          "latency_ms": 5.087,
+          "question_id": "release-02",
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": false,
+          "claims": 4,
+          "expected_behavior": "answer_if_supported_else_qualify",
+          "latency_ms": 4.281,
+          "question_id": "release-03",
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": false,
+          "claims": 4,
+          "expected_behavior": "answer_if_supported_else_qualify",
+          "latency_ms": 5.099,
+          "question_id": "release-04",
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": false,
+          "claims": 4,
+          "expected_behavior": "answer_if_supported_else_qualify",
+          "latency_ms": 6.366,
+          "question_id": "release-05",
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": false,
+          "claims": 4,
+          "expected_behavior": "answer_if_supported_else_qualify",
+          "latency_ms": 3.719,
+          "question_id": "release-06",
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": false,
+          "claims": 4,
+          "expected_behavior": "answer_if_supported_else_qualify",
+          "latency_ms": 6.693,
+          "question_id": "release-07",
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": false,
+          "claims": 4,
+          "expected_behavior": "answer_if_supported_else_qualify",
+          "latency_ms": 3.809,
+          "question_id": "release-08",
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": false,
+          "claims": 4,
+          "expected_behavior": "answer_if_supported_else_qualify",
+          "latency_ms": 4.729,
+          "question_id": "release-09",
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": false,
+          "claims": 4,
+          "expected_behavior": "answer_if_supported_else_qualify",
+          "latency_ms": 5.487,
+          "question_id": "release-10",
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": false,
+          "claims": 4,
+          "expected_behavior": "answer_if_supported_else_qualify",
+          "latency_ms": 6.069,
+          "question_id": "release-11",
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": false,
+          "claims": 4,
+          "expected_behavior": "answer_if_supported_else_qualify",
+          "latency_ms": 7.889,
+          "question_id": "release-12",
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": false,
+          "claims": 4,
+          "expected_behavior": "answer_if_supported_else_qualify",
+          "latency_ms": 6.565,
+          "question_id": "release-13",
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": false,
+          "claims": 4,
+          "expected_behavior": "answer_if_supported_else_qualify",
+          "latency_ms": 9.589,
+          "question_id": "release-14",
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": false,
+          "claims": 4,
+          "expected_behavior": "answer_if_supported_else_qualify",
+          "latency_ms": 6.827,
+          "question_id": "release-15",
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": false,
+          "claims": 4,
+          "expected_behavior": "answer_if_supported_else_qualify",
+          "latency_ms": 7.759,
+          "question_id": "release-16",
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": false,
+          "claims": 4,
+          "expected_behavior": "answer_if_supported_else_qualify",
+          "latency_ms": 6.069,
+          "question_id": "release-17",
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": false,
+          "claims": 4,
+          "expected_behavior": "answer_if_supported_else_qualify",
+          "latency_ms": 8.282,
+          "question_id": "release-18",
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": false,
+          "claims": 4,
+          "expected_behavior": "answer_if_supported_else_qualify",
+          "latency_ms": 5.267,
+          "question_id": "release-19",
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": false,
+          "claims": 4,
+          "expected_behavior": "answer_if_supported_else_qualify",
+          "latency_ms": 5.958,
+          "question_id": "release-20",
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": false,
+          "claims": 4,
+          "expected_behavior": "answer_if_supported_else_qualify",
+          "latency_ms": 8.268,
+          "question_id": "release-21",
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": false,
+          "claims": 4,
+          "expected_behavior": "answer_if_supported_else_qualify",
+          "latency_ms": 3.839,
+          "question_id": "release-22",
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": false,
+          "claims": 4,
+          "expected_behavior": "answer_if_supported_else_qualify",
+          "latency_ms": 3.963,
+          "question_id": "release-23",
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": false,
+          "claims": 4,
+          "expected_behavior": "answer_if_supported_else_qualify",
+          "latency_ms": 3.809,
+          "question_id": "release-24",
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": false,
+          "claims": 4,
+          "expected_behavior": "answer_if_supported_else_qualify",
+          "latency_ms": 3.777,
+          "question_id": "release-25",
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": false,
+          "claims": 4,
+          "expected_behavior": "answer_if_supported_else_qualify",
+          "latency_ms": 4.186,
+          "question_id": "release-26",
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": false,
+          "claims": 4,
+          "expected_behavior": "answer_if_supported_else_qualify",
+          "latency_ms": 4.0,
+          "question_id": "release-27",
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": false,
+          "claims": 4,
+          "expected_behavior": "answer_if_supported_else_qualify",
+          "latency_ms": 4.307,
+          "question_id": "release-28",
+          "unsupported_claims": 0
+        }
+      ],
+      "questions": 28,
+      "retrieval": {
+        "mrr": null,
+        "ndcg_at_5": null,
+        "precision_at_5": null,
+        "recall_at_5": null
+      }
+    },
+    {
+      "abstention": {
+        "abstained": 0,
+        "accuracy": 1.0,
+        "correct_abstentions": 0,
+        "false_abstentions": [],
+        "missed_abstentions": [],
+        "should_abstain": 0
+      },
+      "answer_quality": {
+        "citation_precision": null,
+        "claim_support_rate": 1.0,
+        "claims": 112,
+        "unsupported_claim_rate": 0.0
+      },
+      "condition": "dense",
+      "judged_questions": 0,
+      "latency": {
+        "max_ms": 7.418,
+        "median_ms": 2.262,
+        "p90_ms": 6.708
+      },
+      "notes": [
+        "no relevance judgements supplied, so Precision@k, Recall@k, MRR, nDCG@k and citation precision are null rather than zero"
+      ],
+      "per_question": [
+        {
+          "abstained": false,
+          "claims": 4,
+          "expected_behavior": "answer_if_supported_else_qualify",
+          "latency_ms": 2.007,
+          "question_id": "release-01",
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": false,
+          "claims": 4,
+          "expected_behavior": "answer_if_supported_else_qualify",
+          "latency_ms": 1.914,
+          "question_id": "release-02",
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": false,
+          "claims": 4,
+          "expected_behavior": "answer_if_supported_else_qualify",
+          "latency_ms": 1.906,
+          "question_id": "release-03",
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": false,
+          "claims": 4,
+          "expected_behavior": "answer_if_supported_else_qualify",
+          "latency_ms": 2.085,
+          "question_id": "release-04",
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": false,
+          "claims": 4,
+          "expected_behavior": "answer_if_supported_else_qualify",
+          "latency_ms": 1.913,
+          "question_id": "release-05",
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": false,
+          "claims": 4,
+          "expected_behavior": "answer_if_supported_else_qualify",
+          "latency_ms": 2.003,
+          "question_id": "release-06",
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": false,
+          "claims": 4,
+          "expected_behavior": "answer_if_supported_else_qualify",
+          "latency_ms": 1.825,
+          "question_id": "release-07",
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": false,
+          "claims": 4,
+          "expected_behavior": "answer_if_supported_else_qualify",
+          "latency_ms": 1.966,
+          "question_id": "release-08",
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": false,
+          "claims": 4,
+          "expected_behavior": "answer_if_supported_else_qualify",
+          "latency_ms": 1.814,
+          "question_id": "release-09",
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": false,
+          "claims": 4,
+          "expected_behavior": "answer_if_supported_else_qualify",
+          "latency_ms": 1.969,
+          "question_id": "release-10",
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": false,
+          "claims": 4,
+          "expected_behavior": "answer_if_supported_else_qualify",
+          "latency_ms": 4.324,
+          "question_id": "release-11",
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": false,
+          "claims": 4,
+          "expected_behavior": "answer_if_supported_else_qualify",
+          "latency_ms": 3.765,
+          "question_id": "release-12",
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": false,
+          "claims": 4,
+          "expected_behavior": "answer_if_supported_else_qualify",
+          "latency_ms": 3.194,
+          "question_id": "release-13",
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": false,
+          "claims": 4,
+          "expected_behavior": "answer_if_supported_else_qualify",
+          "latency_ms": 7.418,
+          "question_id": "release-14",
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": false,
+          "claims": 4,
+          "expected_behavior": "answer_if_supported_else_qualify",
+          "latency_ms": 2.734,
+          "question_id": "release-15",
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": false,
+          "claims": 4,
+          "expected_behavior": "answer_if_supported_else_qualify",
+          "latency_ms": 6.708,
+          "question_id": "release-16",
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": false,
+          "claims": 4,
+          "expected_behavior": "answer_if_supported_else_qualify",
+          "latency_ms": 4.358,
+          "question_id": "release-17",
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": false,
+          "claims": 4,
+          "expected_behavior": "answer_if_supported_else_qualify",
+          "latency_ms": 6.736,
+          "question_id": "release-18",
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": false,
+          "claims": 4,
+          "expected_behavior": "answer_if_supported_else_qualify",
+          "latency_ms": 7.017,
+          "question_id": "release-19",
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": false,
+          "claims": 4,
+          "expected_behavior": "answer_if_supported_else_qualify",
+          "latency_ms": 2.27,
+          "question_id": "release-20",
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": false,
+          "claims": 4,
+          "expected_behavior": "answer_if_supported_else_qualify",
+          "latency_ms": 2.412,
+          "question_id": "release-21",
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": false,
+          "claims": 4,
+          "expected_behavior": "answer_if_supported_else_qualify",
+          "latency_ms": 2.279,
+          "question_id": "release-22",
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": false,
+          "claims": 4,
+          "expected_behavior": "answer_if_supported_else_qualify",
+          "latency_ms": 2.141,
+          "question_id": "release-23",
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": false,
+          "claims": 4,
+          "expected_behavior": "answer_if_supported_else_qualify",
+          "latency_ms": 4.949,
+          "question_id": "release-24",
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": false,
+          "claims": 4,
+          "expected_behavior": "answer_if_supported_else_qualify",
+          "latency_ms": 2.2,
+          "question_id": "release-25",
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": false,
+          "claims": 4,
+          "expected_behavior": "answer_if_supported_else_qualify",
+          "latency_ms": 2.254,
+          "question_id": "release-26",
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": false,
+          "claims": 4,
+          "expected_behavior": "answer_if_supported_else_qualify",
+          "latency_ms": 2.079,
+          "question_id": "release-27",
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": false,
+          "claims": 4,
+          "expected_behavior": "answer_if_supported_else_qualify",
+          "latency_ms": 2.3,
+          "question_id": "release-28",
+          "unsupported_claims": 0
+        }
+      ],
+      "questions": 28,
+      "retrieval": {
+        "mrr": null,
+        "ndcg_at_5": null,
+        "precision_at_5": null,
+        "recall_at_5": null
+      }
+    },
+    {
+      "abstention": {
+        "abstained": 0,
+        "accuracy": 1.0,
+        "correct_abstentions": 0,
+        "false_abstentions": [],
+        "missed_abstentions": [],
+        "should_abstain": 0
+      },
+      "answer_quality": {
+        "citation_precision": null,
+        "claim_support_rate": 1.0,
+        "claims": 112,
+        "unsupported_claim_rate": 0.0
+      },
+      "condition": "graph_only",
+      "judged_questions": 0,
+      "latency": {
+        "max_ms": 1.451,
+        "median_ms": 1.091,
+        "p90_ms": 1.163
+      },
+      "notes": [
+        "no relevance judgements supplied, so Precision@k, Recall@k, MRR, nDCG@k and citation precision are null rather than zero"
+      ],
+      "per_question": [
+        {
+          "abstained": false,
+          "claims": 4,
+          "expected_behavior": "answer_if_supported_else_qualify",
+          "latency_ms": 1.254,
+          "question_id": "release-01",
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": false,
+          "claims": 4,
+          "expected_behavior": "answer_if_supported_else_qualify",
+          "latency_ms": 1.142,
+          "question_id": "release-02",
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": false,
+          "claims": 4,
+          "expected_behavior": "answer_if_supported_else_qualify",
+          "latency_ms": 1.08,
+          "question_id": "release-03",
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": false,
+          "claims": 4,
+          "expected_behavior": "answer_if_supported_else_qualify",
+          "latency_ms": 1.084,
+          "question_id": "release-04",
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": false,
+          "claims": 4,
+          "expected_behavior": "answer_if_supported_else_qualify",
+          "latency_ms": 1.099,
+          "question_id": "release-05",
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": false,
+          "claims": 4,
+          "expected_behavior": "answer_if_supported_else_qualify",
+          "latency_ms": 1.21,
+          "question_id": "release-06",
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": false,
+          "claims": 4,
+          "expected_behavior": "answer_if_supported_else_qualify",
+          "latency_ms": 1.101,
+          "question_id": "release-07",
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": false,
+          "claims": 4,
+          "expected_behavior": "answer_if_supported_else_qualify",
+          "latency_ms": 1.162,
+          "question_id": "release-08",
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": false,
+          "claims": 4,
+          "expected_behavior": "answer_if_supported_else_qualify",
+          "latency_ms": 1.067,
+          "question_id": "release-09",
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": false,
+          "claims": 4,
+          "expected_behavior": "answer_if_supported_else_qualify",
+          "latency_ms": 1.062,
+          "question_id": "release-10",
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": false,
+          "claims": 4,
+          "expected_behavior": "answer_if_supported_else_qualify",
+          "latency_ms": 1.163,
+          "question_id": "release-11",
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": false,
+          "claims": 4,
+          "expected_behavior": "answer_if_supported_else_qualify",
+          "latency_ms": 1.007,
+          "question_id": "release-12",
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": false,
+          "claims": 4,
+          "expected_behavior": "answer_if_supported_else_qualify",
+          "latency_ms": 1.064,
+          "question_id": "release-13",
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": false,
+          "claims": 4,
+          "expected_behavior": "answer_if_supported_else_qualify",
+          "latency_ms": 1.035,
+          "question_id": "release-14",
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": false,
+          "claims": 4,
+          "expected_behavior": "answer_if_supported_else_qualify",
+          "latency_ms": 1.064,
+          "question_id": "release-15",
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": false,
+          "claims": 4,
+          "expected_behavior": "answer_if_supported_else_qualify",
+          "latency_ms": 1.101,
+          "question_id": "release-16",
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": false,
+          "claims": 4,
+          "expected_behavior": "answer_if_supported_else_qualify",
+          "latency_ms": 0.994,
+          "question_id": "release-17",
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": false,
+          "claims": 4,
+          "expected_behavior": "answer_if_supported_else_qualify",
+          "latency_ms": 1.451,
+          "question_id": "release-18",
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": false,
+          "claims": 4,
+          "expected_behavior": "answer_if_supported_else_qualify",
+          "latency_ms": 1.059,
+          "question_id": "release-19",
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": false,
+          "claims": 4,
+          "expected_behavior": "answer_if_supported_else_qualify",
+          "latency_ms": 1.066,
+          "question_id": "release-20",
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": false,
+          "claims": 4,
+          "expected_behavior": "answer_if_supported_else_qualify",
+          "latency_ms": 1.051,
+          "question_id": "release-21",
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": false,
+          "claims": 4,
+          "expected_behavior": "answer_if_supported_else_qualify",
+          "latency_ms": 1.138,
+          "question_id": "release-22",
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": false,
+          "claims": 4,
+          "expected_behavior": "answer_if_supported_else_qualify",
+          "latency_ms": 1.134,
+          "question_id": "release-23",
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": false,
+          "claims": 4,
+          "expected_behavior": "answer_if_supported_else_qualify",
+          "latency_ms": 1.054,
+          "question_id": "release-24",
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": false,
+          "claims": 4,
+          "expected_behavior": "answer_if_supported_else_qualify",
+          "latency_ms": 1.063,
+          "question_id": "release-25",
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": false,
+          "claims": 4,
+          "expected_behavior": "answer_if_supported_else_qualify",
+          "latency_ms": 1.106,
+          "question_id": "release-26",
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": false,
+          "claims": 4,
+          "expected_behavior": "answer_if_supported_else_qualify",
+          "latency_ms": 1.111,
+          "question_id": "release-27",
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": false,
+          "claims": 4,
+          "expected_behavior": "answer_if_supported_else_qualify",
+          "latency_ms": 1.142,
+          "question_id": "release-28",
+          "unsupported_claims": 0
+        }
+      ],
+      "questions": 28,
+      "retrieval": {
+        "mrr": null,
+        "ndcg_at_5": null,
+        "precision_at_5": null,
+        "recall_at_5": null
+      }
+    },
+    {
+      "abstention": {
+        "abstained": 0,
+        "accuracy": 1.0,
+        "correct_abstentions": 0,
+        "false_abstentions": [],
+        "missed_abstentions": [],
+        "should_abstain": 0
+      },
+      "answer_quality": {
+        "citation_precision": null,
+        "claim_support_rate": 1.0,
+        "claims": 112,
+        "unsupported_claim_rate": 0.0
+      },
+      "condition": "hybrid",
+      "judged_questions": 0,
+      "latency": {
+        "max_ms": 10.297,
+        "median_ms": 4.54,
+        "p90_ms": 9.005
+      },
+      "notes": [
+        "no relevance judgements supplied, so Precision@k, Recall@k, MRR, nDCG@k and citation precision are null rather than zero"
+      ],
+      "per_question": [
+        {
+          "abstained": false,
+          "claims": 4,
+          "expected_behavior": "answer_if_supported_else_qualify",
+          "latency_ms": 9.716,
+          "question_id": "release-01",
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": false,
+          "claims": 4,
+          "expected_behavior": "answer_if_supported_else_qualify",
+          "latency_ms": 7.755,
+          "question_id": "release-02",
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": false,
+          "claims": 4,
+          "expected_behavior": "answer_if_supported_else_qualify",
+          "latency_ms": 4.168,
+          "question_id": "release-03",
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": false,
+          "claims": 4,
+          "expected_behavior": "answer_if_supported_else_qualify",
+          "latency_ms": 4.495,
+          "question_id": "release-04",
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": false,
+          "claims": 4,
+          "expected_behavior": "answer_if_supported_else_qualify",
+          "latency_ms": 5.444,
+          "question_id": "release-05",
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": false,
+          "claims": 4,
+          "expected_behavior": "answer_if_supported_else_qualify",
+          "latency_ms": 4.2,
+          "question_id": "release-06",
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": false,
+          "claims": 4,
+          "expected_behavior": "answer_if_supported_else_qualify",
+          "latency_ms": 4.585,
+          "question_id": "release-07",
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": false,
+          "claims": 4,
+          "expected_behavior": "answer_if_supported_else_qualify",
+          "latency_ms": 4.328,
+          "question_id": "release-08",
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": false,
+          "claims": 4,
+          "expected_behavior": "answer_if_supported_else_qualify",
+          "latency_ms": 4.425,
+          "question_id": "release-09",
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": false,
+          "claims": 4,
+          "expected_behavior": "answer_if_supported_else_qualify",
+          "latency_ms": 4.47,
+          "question_id": "release-10",
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": false,
+          "claims": 4,
+          "expected_behavior": "answer_if_supported_else_qualify",
+          "latency_ms": 7.024,
+          "question_id": "release-11",
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": false,
+          "claims": 4,
+          "expected_behavior": "answer_if_supported_else_qualify",
+          "latency_ms": 7.743,
+          "question_id": "release-12",
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": false,
+          "claims": 4,
+          "expected_behavior": "answer_if_supported_else_qualify",
+          "latency_ms": 8.316,
+          "question_id": "release-13",
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": false,
+          "claims": 4,
+          "expected_behavior": "answer_if_supported_else_qualify",
+          "latency_ms": 10.297,
+          "question_id": "release-14",
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": false,
+          "claims": 4,
+          "expected_behavior": "answer_if_supported_else_qualify",
+          "latency_ms": 7.717,
+          "question_id": "release-15",
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": false,
+          "claims": 4,
+          "expected_behavior": "answer_if_supported_else_qualify",
+          "latency_ms": 9.005,
+          "question_id": "release-16",
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": false,
+          "claims": 4,
+          "expected_behavior": "answer_if_supported_else_qualify",
+          "latency_ms": 6.82,
+          "question_id": "release-17",
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": false,
+          "claims": 4,
+          "expected_behavior": "answer_if_supported_else_qualify",
+          "latency_ms": 9.157,
+          "question_id": "release-18",
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": false,
+          "claims": 4,
+          "expected_behavior": "answer_if_supported_else_qualify",
+          "latency_ms": 5.449,
+          "question_id": "release-19",
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": false,
+          "claims": 4,
+          "expected_behavior": "answer_if_supported_else_qualify",
+          "latency_ms": 4.456,
+          "question_id": "release-20",
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": false,
+          "claims": 4,
+          "expected_behavior": "answer_if_supported_else_qualify",
+          "latency_ms": 4.379,
+          "question_id": "release-21",
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": false,
+          "claims": 4,
+          "expected_behavior": "answer_if_supported_else_qualify",
+          "latency_ms": 4.48,
+          "question_id": "release-22",
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": false,
+          "claims": 4,
+          "expected_behavior": "answer_if_supported_else_qualify",
+          "latency_ms": 4.341,
+          "question_id": "release-23",
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": false,
+          "claims": 4,
+          "expected_behavior": "answer_if_supported_else_qualify",
+          "latency_ms": 4.494,
+          "question_id": "release-24",
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": false,
+          "claims": 4,
+          "expected_behavior": "answer_if_supported_else_qualify",
+          "latency_ms": 4.205,
+          "question_id": "release-25",
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": false,
+          "claims": 4,
+          "expected_behavior": "answer_if_supported_else_qualify",
+          "latency_ms": 4.876,
+          "question_id": "release-26",
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": false,
+          "claims": 4,
+          "expected_behavior": "answer_if_supported_else_qualify",
+          "latency_ms": 4.112,
+          "question_id": "release-27",
+          "unsupported_claims": 0
+        },
+        {
+          "abstained": false,
+          "claims": 4,
+          "expected_behavior": "answer_if_supported_else_qualify",
+          "latency_ms": 4.343,
+          "question_id": "release-28",
+          "unsupported_claims": 0
+        }
+      ],
+      "questions": 28,
+      "retrieval": {
+        "mrr": null,
+        "ndcg_at_5": null,
+        "precision_at_5": null,
+        "recall_at_5": null
+      }
+    }
+  ],
+  "judged_questions_available": 0,
+  "k": 5,
+  "match": "record",
+  "qrels_illustrative": false,
+  "qrels_supplied": false,
+  "qrels_warning": null,
+  "threshold_checks": {
+    "bm25": [
+      {
+        "comparison": "max",
+        "metric": "unsupported_claim_rate",
+        "passed": true,
+        "threshold": 0.1,
+        "value": 0.0
+      },
+      {
+        "comparison": "min",
+        "metric": "claim_support_rate",
+        "passed": true,
+        "threshold": 0.9,
+        "value": 1.0
+      },
+      {
+        "comparison": "max",
+        "metric": "median_latency_seconds",
+        "passed": true,
+        "threshold": 8,
+        "value": 0.0054
+      }
+    ],
+    "dense": [
+      {
+        "comparison": "max",
+        "metric": "unsupported_claim_rate",
+        "passed": true,
+        "threshold": 0.1,
+        "value": 0.0
+      },
+      {
+        "comparison": "min",
+        "metric": "claim_support_rate",
+        "passed": true,
+        "threshold": 0.9,
+        "value": 1.0
+      },
+      {
+        "comparison": "max",
+        "metric": "median_latency_seconds",
+        "passed": true,
+        "threshold": 8,
+        "value": 0.0023
+      }
+    ],
+    "graph_only": [
+      {
+        "comparison": "max",
+        "metric": "unsupported_claim_rate",
+        "passed": true,
+        "threshold": 0.1,
+        "value": 0.0
+      },
+      {
+        "comparison": "min",
+        "metric": "claim_support_rate",
+        "passed": true,
+        "threshold": 0.9,
+        "value": 1.0
+      },
+      {
+        "comparison": "max",
+        "metric": "median_latency_seconds",
+        "passed": true,
+        "threshold": 8,
+        "value": 0.0011
+      }
+    ],
+    "hybrid": [
+      {
+        "comparison": "max",
+        "metric": "unsupported_claim_rate",
+        "passed": true,
+        "threshold": 0.1,
+        "value": 0.0
+      },
+      {
+        "comparison": "min",
+        "metric": "claim_support_rate",
+        "passed": true,
+        "threshold": 0.9,
+        "value": 1.0
+      },
+      {
+        "comparison": "max",
+        "metric": "median_latency_seconds",
+        "passed": true,
+        "threshold": 8,
+        "value": 0.0045
+      }
+    ]
+  },
+  "thresholds": {
+    "factual_claims_with_valid_evidence_min": 0.9,
+    "median_latency_seconds_max": 8,
+    "trend_p_at_5_min": 0.7,
+    "unsupported_claims_max": 0.1
+  }
+}

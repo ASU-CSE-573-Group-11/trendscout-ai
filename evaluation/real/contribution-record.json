@@ -1,0 +1,220 @@
+{
+  "status": "repository_evidence_recorded_human_evaluation_verification_required",
+  "members": [
+    {
+      "name": "Sueda Sen",
+      "human_tasks": [],
+      "verification": [
+        {
+          "type": "local_git_history",
+          "commit": "31788329649adb671daa3e5ca6e39e5f767afb38"
+        },
+        {
+          "type": "local_git_history",
+          "commit": "e1ca52f8efea49cc306d51b1651e2c7586a49a78"
+        }
+      ],
+      "repository_contributions": [
+        {
+          "commit": "31788329649adb671daa3e5ca6e39e5f767afb38",
+          "recorded_author": "Süeda",
+          "subject": "Expand frozen evaluation set and annotation tooling (#6)",
+          "changed_paths": [
+            "evaluation/README.md",
+            "evaluation/annotation-worklist.json",
+            "evaluation/annotation_guidelines.json",
+            "evaluation/annotator-a.template.json",
+            "evaluation/annotator-b.template.json",
+            "evaluation/build_annotation_worklist.py",
+            "evaluation/compute_agreement.py",
+            "evaluation/questions.seed.json",
+            "retrieval/router.py",
+            "tests/test_evaluation_metrics.py",
+            "tests/test_retrieval_router.py"
+          ],
+          "verification": "Commit and changed paths verified in local git history; does not verify human evaluation participation."
+        },
+        {
+          "commit": "e1ca52f8efea49cc306d51b1651e2c7586a49a78",
+          "recorded_author": "SuedaSen",
+          "subject": "Implement Sueda source collectors",
+          "changed_paths": [
+            "collectors/__init__.py",
+            "collectors/cohort.py",
+            "collectors/company.py",
+            "collectors/http.py",
+            "collectors/news.py",
+            "collectors/origin.py",
+            "collectors/pipeline.py",
+            "collectors/records.py",
+            "collectors/rss.py",
+            "collectors/run.py",
+            "collectors/voices.py",
+            "collectors/yc.py",
+            "collectors/youtube.py"
+          ],
+          "verification": "Commit and changed paths verified in local git history; does not verify human evaluation participation."
+        }
+      ],
+      "human_evaluation_verification": "Underlying annotation, adjudication, and pilot records not located."
+    },
+    {
+      "name": "Mehmet Aksit",
+      "human_tasks": [],
+      "verification": [
+        {
+          "type": "local_git_history",
+          "commit": "b3e2dd33aa42c1bcd3304f076c01b5c41b9ae1bd"
+        },
+        {
+          "type": "local_git_history",
+          "commit": "ee98502e69e4767f1bc50f9e398d5b286c24bc32"
+        }
+      ],
+      "repository_contributions": [
+        {
+          "commit": "b3e2dd33aa42c1bcd3304f076c01b5c41b9ae1bd",
+          "recorded_author": "M Cevat Aksit",
+          "subject": "Add live Neo4j loader and graph constraints",
+          "changed_paths": [
+            "docker-compose.yml",
+            "graph/constraints.cypher",
+            "graph/neo4j.py"
+          ],
+          "verification": "Commit and changed paths verified in local git history; does not verify human evaluation participation."
+        },
+        {
+          "commit": "ee98502e69e4767f1bc50f9e398d5b286c24bc32",
+          "recorded_author": "M Cevat Aksit",
+          "subject": "Document live Neo4j setup and evidence loading",
+          "changed_paths": [
+            "docs/faisal-trends-and-retrieval.md",
+            "graph/README.md",
+            "interface/README.md",
+            "retrieval/graph_access.py",
+            "tests/test_cypher.py",
+            "tests/test_graph_artifacts.py"
+          ],
+          "verification": "Commit and changed paths verified in local git history; does not verify human evaluation participation."
+        }
+      ],
+      "human_evaluation_verification": "Underlying annotation, adjudication, and pilot records not located.",
+      "attribution_note": "Relevant graph commits are recorded under M Cevat Aksit; identity mapping to Mehmet Aksit requires confirmation."
+    },
+    {
+      "name": "Vidya Sagar Dudekula",
+      "human_tasks": [],
+      "verification": [
+        {
+          "type": "local_git_history",
+          "commit": "5c409375a90326fbd226a4c80c713fc24d9695ee"
+        }
+      ],
+      "repository_contributions": [
+        {
+          "commit": "5c409375a90326fbd226a4c80c713fc24d9695ee",
+          "recorded_author": "Vidya Sagar",
+          "subject": "Add Greenhouse, Lever, and GitHub API collectors (#3)",
+          "changed_paths": [
+            "collectors/API_COLLECTORS.md",
+            "collectors/README.md",
+            "collectors/__main__.py",
+            "collectors/api_http.py",
+            "collectors/common.py",
+            "collectors/sources.py",
+            "pyproject.toml",
+            "requirements-collectors.txt",
+            "requirements.txt",
+            "tests/fixtures/collectors/github.json",
+            "tests/fixtures/collectors/greenhouse.json",
+            "tests/fixtures/collectors/lever.json",
+            "tests/test_collectors.py"
+          ],
+          "verification": "Commit and changed paths verified in local git history; does not verify human evaluation participation."
+        }
+      ],
+      "human_evaluation_verification": "Underlying annotation, adjudication, and pilot records not located."
+    },
+    {
+      "name": "Faisal Barkat Khorasi",
+      "human_tasks": [],
+      "verification": [
+        {
+          "type": "local_git_history",
+          "commit": "04d52cf52b609dfe09ad91a38cf955d1179a2b3b"
+        }
+      ],
+      "repository_contributions": [
+        {
+          "commit": "04d52cf52b609dfe09ad91a38cf955d1179a2b3b",
+          "recorded_author": "Faisal Khorasi",
+          "subject": "Add weekly activity features, EWMA trend baseline, dense retrieval, and the conversational interface (#4)",
+          "changed_paths": [
+            "README.md",
+            "docs/faisal-trends-and-retrieval.md",
+            "evaluation/README.md",
+            "evaluation/__init__.py",
+            "evaluation/metrics.py",
+            "evaluation/qrels.example.json",
+            "evaluation/run_metrics.py",
+            "interface/README.md",
+            "interface/__init__.py",
+            "interface/__main__.py",
+            "interface/agent.py",
+            "interface/app.py",
+            "interface/cli.py",
+            "interface/evidence.py",
+            "interface/latency.py",
+            "interface/providers.py",
+            "ontology/trendscout.ttl",
+            "requirements-interface.txt",
+            "retrieval/README.md",
+            "retrieval/dense.py",
+            "retrieval/graph_access.py",
+            "retrieval/graph_queries.py",
+            "retrieval/hybrid.py",
+            "retrieval/passages.py",
+            "retrieval/router.py",
+            "retrieval/timewindow.py",
+            "schemas/answer.schema.json",
+            "schemas/trend_signal.schema.json",
+            "scripts/build_faisal_fixtures.py",
+            "scripts/latency_report.py",
+            "signals/README.md",
+            "signals/__init__.py",
+            "signals/__main__.py",
+            "signals/adapters.py",
+            "signals/cli.py",
+            "signals/contract.py",
+            "signals/ewma.py",
+            "signals/github_features.py",
+            "signals/graph_export.py",
+            "signals/job_features.py",
+            "signals/news_features.py",
+            "signals/pipeline.py",
+            "signals/series.py",
+            "signals/topics.py",
+            "signals/weeks.py",
+            "tests/faisal_snapshot.py",
+            "tests/fixtures/faisal/document_records.jsonl",
+            "tests/fixtures/faisal/github_records.jsonl",
+            "tests/fixtures/faisal/job_records.jsonl",
+            "tests/fixtures/faisal/snapshot.json",
+            "tests/fixtures/faisal/snapshot_records.jsonl",
+            "tests/test_evaluation_metrics.py",
+            "tests/test_integration_collectors.py",
+            "tests/test_interface_answers.py",
+            "tests/test_retrieval_router.py",
+            "tests/test_topics_lda.py",
+            "tests/test_trend_ewma.py",
+            "tests/test_trend_graph_export.py",
+            "tests/test_weekly_features.py"
+          ],
+          "verification": "Commit and changed paths verified in local git history; does not verify human evaluation participation."
+        }
+      ],
+      "human_evaluation_verification": "Underlying annotation, adjudication, and pilot records not located."
+    }
+  ],
+  "user_report": "User reports human work was completed; underlying annotation and pilot records not located."
+}

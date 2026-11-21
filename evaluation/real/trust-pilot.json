@@ -1,0 +1,37 @@
+{
+  "status": "records_required",
+  "participants": [],
+  "task_results": [],
+  "protocol": {
+    "participants": "5-8 consenting people; pseudonymous IDs only",
+    "tasks_each": 6,
+    "conditions": [
+      "citations_only",
+      "citations_plus_state_and_path"
+    ],
+    "design": "Within-participant, 3 tasks per condition; counterbalance order across participants.",
+    "task_ids": [
+      "q-pilot-github-mlops",
+      "q-investors-later-hiring",
+      "q-sector-attention",
+      "q-why-emerging",
+      "q-unsupported-acquisition",
+      "q-future-performance"
+    ],
+    "required_result_fields": [
+      "participant_id",
+      "question_id",
+      "condition",
+      "order",
+      "status_correct",
+      "evidence_correct",
+      "abstention_correct",
+      "duration_seconds",
+      "confidence"
+    ],
+    "confidence_scale": "1-5",
+    "correctness": "Boolean; judge against adjudicated task key.",
+    "task_key": {},
+    "consent": "Record consent_confirmed=true per participant."
+  }
+}

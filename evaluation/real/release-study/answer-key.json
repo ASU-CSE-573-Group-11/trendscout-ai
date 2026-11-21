@@ -1,0 +1,142 @@
+{
+  "release-01": {
+    "record_id": "5274d70d-8f3f-5c60-9d2a-3e3384f85e53",
+    "quote": "The minimum supported version is now Python 3.11",
+    "answer": "Python 3.11."
+  },
+  "release-02": {
+    "record_id": "d6b497d9-e44a-5161-96e9-9bb5503a7827",
+    "quote": "preserve streamed Responses tool call arguments",
+    "answer": "Preserve streamed Responses tool-call arguments."
+  },
+  "release-03": {
+    "record_id": "0e4644f4-1116-5218-80e4-86a44e1e4b34",
+    "quote": "classify in-stream server errors as retryable",
+    "answer": "In-stream server errors are retryable."
+  },
+  "release-04": {
+    "record_id": "2d7dbc2f-d371-5219-9719-abf91bca8979",
+    "quote": "tag synthetic HITL tool messages with source metadata",
+    "answer": "Synthetic HITL tool messages receive source metadata."
+  },
+  "release-05": {
+    "record_id": "1186bdde-ddac-5532-808c-861449b09a72",
+    "quote": "don't share the async HTTP client between models",
+    "answer": "Async HTTP clients are no longer shared between models."
+  },
+  "release-06": {
+    "record_id": "31941a88-ab26-582c-838c-bee39145a9e7",
+    "quote": "avoid warning-filter races in provider inference",
+    "answer": "Avoid warning-filter races in provider inference and ModelRequest."
+  },
+  "release-07": {
+    "record_id": "0c11509e-28a4-5b8d-8bd4-842c5907f911",
+    "quote": "send `langsmith_gateway` headers from the client",
+    "answer": "Send langsmith_gateway headers from the client."
+  },
+  "release-08": {
+    "record_id": "cc8332cd-b213-5c30-abd4-313c438b8ad2",
+    "quote": "add `headers` to `langsmith_gateway` and ignore proxies",
+    "answer": "Add headers to langsmith_gateway and ignore proxies."
+  },
+  "release-09": {
+    "record_id": "9cb7f091-5692-57c6-8bec-baa4198eb810",
+    "quote": "route `ChatXAI` through LangSmith gateway",
+    "answer": "Route ChatXAI through the LangSmith gateway."
+  },
+  "release-10": {
+    "record_id": "359a37d1-8e4d-577c-b970-6ce59f8e9b0a",
+    "quote": "minimum `langchain-core` version is now 1.8.0",
+    "answer": "langchain-core 1.8.0."
+  },
+  "release-11": {
+    "record_id": "10cffd6e-20f7-5519-9263-25508f533184",
+    "quote": "preserve oversized leaf nodes in CodeSplitter",
+    "answer": "Preserve oversized leaf nodes in CodeSplitter."
+  },
+  "release-12": {
+    "record_id": "22bb8ed5-a41a-577c-8c5a-bfc389927a71",
+    "quote": "prevent `KeyError` in `DocumentSummaryIndex.delete_nodes` when invalid node ID is provided",
+    "answer": "Prevent KeyError when deleting an invalid node ID."
+  },
+  "release-13": {
+    "record_id": "ca3ae103-51b3-5fe9-9112-271277458093",
+    "quote": "align sync retrieval dedup key with async (hash + ref_doc_id)",
+    "answer": "Use hash plus ref_doc_id for sync and async deduplication."
+  },
+  "release-14": {
+    "record_id": "1c4c310c-0a70-559e-9f57-32cc804766dc",
+    "quote": "deprecate python 3.9 once and for all",
+    "answer": "Python 3.9."
+  },
+  "release-15": {
+    "record_id": "6f2b2117-f389-5e97-ad69-49d54d3ef435",
+    "quote": "Add token-bucket rate limiter for LLM and embedding API calls",
+    "answer": "A token-bucket rate limiter."
+  },
+  "release-16": {
+    "record_id": "68eaa344-0169-5ea2-a823-9e615fa65b55",
+    "quote": "AgentMesh: Trust Layer for LlamaIndex Agents",
+    "answer": "AgentMesh."
+  },
+  "release-17": {
+    "record_id": "9672dbbf-6dd0-50d0-9049-dfda78d2e1de",
+    "quote": "add TokenBudgetHandler for cost governance",
+    "answer": "TokenBudgetHandler."
+  },
+  "release-18": {
+    "record_id": "8ceab846-104a-5282-b9ef-1e9fa75731bf",
+    "quote": "Add RayIngestionPipeline integration for distributed data ingestion",
+    "answer": "RayIngestionPipeline."
+  },
+  "release-19": {
+    "record_id": "362249ee-276b-54ad-bc59-4deaf7a50780",
+    "quote": "add Airweave tool integration with advanced search features",
+    "answer": "Airweave."
+  },
+  "release-20": {
+    "record_id": "87d4550d-3cf2-5b74-82e0-d77a8fe78507",
+    "quote": "Add capability to save files as versioned, shareable artifacts.",
+    "answer": "Save files as versioned, shareable artifacts."
+  },
+  "release-21": {
+    "record_id": "eeb00e92-27aa-5c6b-9da9-408e2480b3cd",
+    "quote": "Fix detection of multimodal support for Claude 5.",
+    "answer": "Claude 5 multimodal support detection."
+  },
+  "release-22": {
+    "record_id": "c11aa0d5-6b5b-56d2-b742-f10d4b65d72d",
+    "quote": "Default Knowledge to local Qdrant and decouple storage from ChromaDB",
+    "answer": "Default Knowledge to local Qdrant; decouple from ChromaDB."
+  },
+  "release-23": {
+    "record_id": "0237b72c-c6e8-572b-b9ed-787658d33906",
+    "quote": "Keep earlier step outputs across a human-feedback resume.",
+    "answer": "Preserve earlier step outputs across a human-feedback resume."
+  },
+  "release-24": {
+    "record_id": "e60671f0-2b73-528c-aa88-1cc5440a916d",
+    "quote": "Add exact historical state lookup by row id.",
+    "answer": "Exact historical state lookup by row ID."
+  },
+  "release-25": {
+    "record_id": "cf2b2aad-925a-5680-89b2-bf6b65d503c8",
+    "quote": "Add --no-open to crewai eval for headless use",
+    "answer": "--no-open."
+  },
+  "release-26": {
+    "record_id": "8ab688ad-bcee-56c8-994d-48cb4fb2d8bc",
+    "quote": "Add functionality to read spreadsheets for agents in crewai-files.",
+    "answer": "Agents can read spreadsheets through crewai-files."
+  },
+  "release-27": {
+    "record_id": "f1f8b271-468a-55e6-a47c-40586a2164c2",
+    "quote": "Add experimental conversational Agent sessions.",
+    "answer": "Experimental conversational Agent sessions."
+  },
+  "release-28": {
+    "record_id": "1e019eee-8a64-550c-8be9-909aa92dfecc",
+    "quote": "Support conversational flow context compaction.",
+    "answer": "Conversational flow context compaction."
+  }
+}

@@ -1,0 +1,239 @@
+{
+  "study": "Release fact lookup, separate from original temporal multi-hop study",
+  "construction": "28 source-grounded questions authored before retrieval; 10 LangChain, 9 LlamaIndex, 9 CrewAI.",
+  "limitations": [
+    "Known-release lookup; not representative of temporal multi-hop, hiring or funding tasks.",
+    "Questions and relevance judgments constructed from this corpus by one source reviewer."
+  ],
+  "questions": [
+    {
+      "question_id": "release-01",
+      "type": "release_fact_lookup",
+      "question": "What minimum Python version is required by LangChain langchain-openrouter 0.3.0?",
+      "expected_behavior": "answer_if_supported_else_qualify",
+      "needs": []
+    },
+    {
+      "question_id": "release-02",
+      "type": "release_fact_lookup",
+      "question": "What streaming tool-call issue was fixed in LangChain langchain-openai 1.8.5?",
+      "expected_behavior": "answer_if_supported_else_qualify",
+      "needs": []
+    },
+    {
+      "question_id": "release-03",
+      "type": "release_fact_lookup",
+      "question": "How are in-stream server errors classified in LangChain langchain-openai 1.8.4?",
+      "expected_behavior": "answer_if_supported_else_qualify",
+      "needs": []
+    },
+    {
+      "question_id": "release-04",
+      "type": "release_fact_lookup",
+      "question": "What source metadata feature was added in LangChain langchain-core 1.8.4?",
+      "expected_behavior": "answer_if_supported_else_qualify",
+      "needs": []
+    },
+    {
+      "question_id": "release-05",
+      "type": "release_fact_lookup",
+      "question": "What async HTTP client isolation fix is listed in LangChain langchain-anthropic 1.7.12?",
+      "expected_behavior": "answer_if_supported_else_qualify",
+      "needs": []
+    },
+    {
+      "question_id": "release-06",
+      "type": "release_fact_lookup",
+      "question": "What warning-filter race fixes are listed in LangChain 1.5.1?",
+      "expected_behavior": "answer_if_supported_else_qualify",
+      "needs": []
+    },
+    {
+      "question_id": "release-07",
+      "type": "release_fact_lookup",
+      "question": "What gateway header support was added in LangChain langchain-openai 1.8.2?",
+      "expected_behavior": "answer_if_supported_else_qualify",
+      "needs": []
+    },
+    {
+      "question_id": "release-08",
+      "type": "release_fact_lookup",
+      "question": "How does LangChain langchain-core 1.8.2 handle headers and proxies for langsmith_gateway?",
+      "expected_behavior": "answer_if_supported_else_qualify",
+      "needs": []
+    },
+    {
+      "question_id": "release-09",
+      "type": "release_fact_lookup",
+      "question": "Which gateway routing feature was introduced in LangChain langchain-xai 1.4.0?",
+      "expected_behavior": "answer_if_supported_else_qualify",
+      "needs": []
+    },
+    {
+      "question_id": "release-10",
+      "type": "release_fact_lookup",
+      "question": "What minimum langchain-core version is required by LangChain langchain-openai 1.8.0?",
+      "expected_behavior": "answer_if_supported_else_qualify",
+      "needs": []
+    },
+    {
+      "question_id": "release-11",
+      "type": "release_fact_lookup",
+      "question": "What oversized leaf-node behavior was fixed in LlamaIndex v0.14.24 CodeSplitter?",
+      "expected_behavior": "answer_if_supported_else_qualify",
+      "needs": []
+    },
+    {
+      "question_id": "release-12",
+      "type": "release_fact_lookup",
+      "question": "What invalid node-ID error was fixed in LlamaIndex v0.14.21 DocumentSummaryIndex?",
+      "expected_behavior": "answer_if_supported_else_qualify",
+      "needs": []
+    },
+    {
+      "question_id": "release-13",
+      "type": "release_fact_lookup",
+      "question": "How was sync retrieval deduplication aligned in LlamaIndex v0.14.19?",
+      "expected_behavior": "answer_if_supported_else_qualify",
+      "needs": []
+    },
+    {
+      "question_id": "release-14",
+      "type": "release_fact_lookup",
+      "question": "Which Python version was deprecated across integrations in LlamaIndex v0.14.18?",
+      "expected_behavior": "answer_if_supported_else_qualify",
+      "needs": []
+    },
+    {
+      "question_id": "release-15",
+      "type": "release_fact_lookup",
+      "question": "What rate limiter for LLM and embedding API calls was added in LlamaIndex v0.14.16?",
+      "expected_behavior": "answer_if_supported_else_qualify",
+      "needs": []
+    },
+    {
+      "question_id": "release-16",
+      "type": "release_fact_lookup",
+      "question": "Which agent trust-layer integration was introduced in LlamaIndex v0.14.15?",
+      "expected_behavior": "answer_if_supported_else_qualify",
+      "needs": []
+    },
+    {
+      "question_id": "release-17",
+      "type": "release_fact_lookup",
+      "question": "What cost-governance callback was added in LlamaIndex v0.14.14?",
+      "expected_behavior": "answer_if_supported_else_qualify",
+      "needs": []
+    },
+    {
+      "question_id": "release-18",
+      "type": "release_fact_lookup",
+      "question": "Which distributed ingestion integration was added in LlamaIndex v0.14.13?",
+      "expected_behavior": "answer_if_supported_else_qualify",
+      "needs": []
+    },
+    {
+      "question_id": "release-19",
+      "type": "release_fact_lookup",
+      "question": "Which advanced search tool integration was added in LlamaIndex v0.14.10?",
+      "expected_behavior": "answer_if_supported_else_qualify",
+      "needs": []
+    },
+    {
+      "question_id": "release-20",
+      "type": "release_fact_lookup",
+      "question": "What artifact-saving capability was added in CrewAI 1.15.44?",
+      "expected_behavior": "answer_if_supported_else_qualify",
+      "needs": []
+    },
+    {
+      "question_id": "release-21",
+      "type": "release_fact_lookup",
+      "question": "Which multimodal support detection was fixed in CrewAI 1.15.43?",
+      "expected_behavior": "answer_if_supported_else_qualify",
+      "needs": []
+    },
+    {
+      "question_id": "release-22",
+      "type": "release_fact_lookup",
+      "question": "What default local knowledge store change was made in CrewAI 1.15.42?",
+      "expected_behavior": "answer_if_supported_else_qualify",
+      "needs": []
+    },
+    {
+      "question_id": "release-23",
+      "type": "release_fact_lookup",
+      "question": "What earlier-step output preservation fix is listed in CrewAI 1.15.41?",
+      "expected_behavior": "answer_if_supported_else_qualify",
+      "needs": []
+    },
+    {
+      "question_id": "release-24",
+      "type": "release_fact_lookup",
+      "question": "What historical state retrieval capability was added in CrewAI 1.15.40?",
+      "expected_behavior": "answer_if_supported_else_qualify",
+      "needs": []
+    },
+    {
+      "question_id": "release-25",
+      "type": "release_fact_lookup",
+      "question": "What headless evaluation flag was added in CrewAI 1.15.38?",
+      "expected_behavior": "answer_if_supported_else_qualify",
+      "needs": []
+    },
+    {
+      "question_id": "release-26",
+      "type": "release_fact_lookup",
+      "question": "What spreadsheet-reading feature was added for agents in CrewAI 1.15.37?",
+      "expected_behavior": "answer_if_supported_else_qualify",
+      "needs": []
+    },
+    {
+      "question_id": "release-27",
+      "type": "release_fact_lookup",
+      "question": "What conversational session capability was added in CrewAI 1.15.36?",
+      "expected_behavior": "answer_if_supported_else_qualify",
+      "needs": []
+    },
+    {
+      "question_id": "release-28",
+      "type": "release_fact_lookup",
+      "question": "What conversational context-management feature was added in CrewAI 1.15.31?",
+      "expected_behavior": "answer_if_supported_else_qualify",
+      "needs": []
+    }
+  ],
+  "metrics": {
+    "extraction": [
+      "precision",
+      "recall",
+      "f1",
+      "alias_accuracy"
+    ],
+    "retrieval": [
+      "p@5",
+      "r@5",
+      "mrr",
+      "ndcg@5"
+    ],
+    "temporal": [
+      "answer_accuracy",
+      "valid_time_accuracy",
+      "path_correctness",
+      "stale_accuracy",
+      "false_alert_rate"
+    ],
+    "answer_quality": [
+      "claim_support_rate",
+      "citation_precision",
+      "unsupported_claim_rate",
+      "median_latency_seconds"
+    ],
+    "success_thresholds": {
+      "unsupported_claims_max": 0.1,
+      "factual_claims_with_valid_evidence_min": 0.9,
+      "trend_p_at_5_min": 0.7,
+      "median_latency_seconds_max": 8
+    }
+  }
+}

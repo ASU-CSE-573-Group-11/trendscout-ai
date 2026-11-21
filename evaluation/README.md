@@ -2,6 +2,14 @@
 
 Frozen test snapshots, annotations, classical/modern comparisons, ablations, metrics, and exploratory trust study materials.
 
+## Current real-source round
+
+The active evaluation uses [45 frozen real release documents](real/README.md),
+not the historical fixture workbooks described below. Run
+`python evaluation/real_round.py validate` for its completion gates. The legacy
+files remain available for reproducibility; their labels and approvals do not
+transfer to the real corpus. See [the evidence-based report](../docs/final-report.md).
+
 ## Sueda Sen — evaluation design
 
 The first complete retrieval set contains 28 questions: temporal multi-hop,
@@ -23,8 +31,6 @@ question identifier or its expected behavior.
 | `human-progress.json` | Machine-readable final-evaluation completion checklist |
 | `human-corpus.json` | 45 deterministic candidate documents pending human selection review |
 | `entity-relation.template.json` | Human entity/relation worksheet; no synthetic labels |
-| `adjudicated-qrels.template.json` | Human-only relevance label target |
-| `trust-pilot.template.json` | Human trust-pilot protocol and result placeholder |
 | `validate_human_evaluation.py` | Refuses success until all human-only gates are complete |
 | `reconcile_corpus_reviews.py` | Reconciles separate Sueda/Mehmet corpus inclusion decisions |
 | `final-human-corpus.json` | Jointly approved 45-document synthetic-fixture corpus |
@@ -109,6 +115,16 @@ python evaluation/csv_agreement.py \
   evaluation/human-workbooks/sueda-evidence.csv \
   evaluation/human-workbooks/mehmet-evidence.csv
 ```
+
+For the independent human entity/relation workbooks:
+
+```bash
+python evaluation/validate_human_annotations.py
+```
+
+Use `*-entities-work.csv` and `*-relations-work.csv` from
+`evaluation/human-workbooks/`. This gate refuses success until both annotators
+provide at least 200 entity mentions and 80-100 relations.
 
 For the first human gate, both annotators fill separate corpus-review files:
 

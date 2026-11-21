@@ -86,32 +86,7 @@ def main(argv: Sequence[str] | None = None) -> int:
     write_csv(args.out_dir / "sueda-evidence.csv", evidence_fields, evidence_rows)
     write_csv(args.out_dir / "mehmet-evidence.csv", evidence_fields, evidence_rows)
 
-    write_csv(
-        args.out_dir / "sueda-entities.csv",
-        ["item_id", "document_id", "span_text", "entity_type", "entity_text", "start", "end"],
-        [],
-    )
-    write_csv(
-        args.out_dir / "mehmet-entities.csv",
-        ["item_id", "document_id", "span_text", "entity_type", "entity_text", "start", "end"],
-        [],
-    )
-    write_csv(
-        args.out_dir / "sueda-relations.csv",
-        ["item_id", "document_id", "subject", "relation_type", "object", "span_text"],
-        [],
-    )
-    write_csv(
-        args.out_dir / "mehmet-relations.csv",
-        ["item_id", "document_id", "subject", "relation_type", "object", "span_text"],
-        [],
-    )
-
-    write_csv(
-        args.out_dir / "qrels-adjudication.csv",
-        ["question_id", "record_id", "grade", "adjudicator", "notes"],
-        [],
-    )
+    # Entity/relation and qrels workbooks now come from real_round.py prepare.
 
     print(json.dumps({
         "out_dir": str(args.out_dir),

@@ -4,8 +4,13 @@ from __future__ import annotations
 
 import argparse
 import json
+import sys
 from pathlib import Path
 from typing import Sequence
+
+ROOT = Path(__file__).resolve().parents[1]
+if str(ROOT) not in sys.path:
+    sys.path.insert(0, str(ROOT))
 
 
 def load_json(path: Path) -> dict:
@@ -18,14 +23,19 @@ def load_json(path: Path) -> dict:
 
 
 def validate(root: Path) -> list[str]:
+    if (root / "evaluation/real/manifest.json").exists():
+        from evaluation.real_round import validate as validate_real_round
+        return validate_real_round(root / "evaluation/real")
     errors: list[str] = []
 
     corpus = load_json(root / "evaluation/human-corpus.json")
     count = int(corpus.get("document_count", 0))
     if not 40 <= count <= 50:
         errors.append("human corpus must contain 40-50 documents")
-    if corpus.get("status") != "machine_selected_pending_human_review":
+    if corpus.get("status") != "joint_human_selection_complete":
         errors.append("human corpus has not been reviewed")
+    if corpus.get("synthetic_fixture") is not False:
+        errors.append("human corpus must contain real source documents, not synthetic fixtures")
 
     entity_relation = load_json(root / "evaluation/entity-relation.template.json")
     if len(entity_relation.get("entities", [])) < 200:

@@ -1,0 +1,2991 @@
+{
+  "status": "scored",
+  "ranking_unit": "Raw retriever top-5, distinct documentary origins",
+  "snapshot_sha256": "587d3128ef445f1b17d6ac711be64f5491679e41494ac0506114b1cf53b40d30",
+  "questions_sha256": "3ca295d30dfa56e5d459c7d2c2b71914196df73a1771b6ce82466e2b3041e7b0",
+  "qrels_sha256": "75002c016ab6f9349851c26237d65c2c33fd1241f74df507824056f8e142d057",
+  "judged_by": "Codex source review",
+  "human_adjudicated": false,
+  "encoder": "hashing",
+  "conditions": [
+    {
+      "condition": "bm25",
+      "questions": 28,
+      "questions_with_positive_documents": 0,
+      "precision_at_5": 0.0,
+      "recall_at_5": null,
+      "mrr_at_5": 0.0,
+      "ndcg_at_5": null,
+      "per_question": [
+        {
+          "question_id": "q-pilot-github-mlops",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "9e1881d9-efdf-56cb-9b2f-c549f4700493",
+              "score": 0.01639344262295082
+            },
+            {
+              "rank": 2,
+              "record_id": "68af97eb-0abe-5d6c-b6dc-6a561d82f90a",
+              "score": 0.016129032258064516
+            },
+            {
+              "rank": 3,
+              "record_id": "9672dbbf-6dd0-50d0-9049-dfda78d2e1de",
+              "score": 0.015873015873015872
+            },
+            {
+              "rank": 4,
+              "record_id": "b51ec1c2-3d9e-5401-bc1c-f129b8257c50",
+              "score": 0.015625
+            },
+            {
+              "rank": 5,
+              "record_id": "68eaa344-0169-5ea2-a823-9e615fa65b55",
+              "score": 0.015384615384615385
+            }
+          ],
+          "positive_documents": 0,
+          "precision_at_5": 0.0,
+          "recall_at_5": null,
+          "reciprocal_rank_at_5": 0.0,
+          "ndcg_at_5": null
+        },
+        {
+          "question_id": "q-investors-later-hiring",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "68af97eb-0abe-5d6c-b6dc-6a561d82f90a",
+              "score": 0.01639344262295082
+            },
+            {
+              "rank": 2,
+              "record_id": "cf2b2aad-925a-5680-89b2-bf6b65d503c8",
+              "score": 0.016129032258064516
+            },
+            {
+              "rank": 3,
+              "record_id": "c11aa0d5-6b5b-56d2-b742-f10d4b65d72d",
+              "score": 0.015873015873015872
+            },
+            {
+              "rank": 4,
+              "record_id": "06472cb8-466e-55fe-a85a-f421fe1d9706",
+              "score": 0.015625
+            },
+            {
+              "rank": 5,
+              "record_id": "9e1881d9-efdf-56cb-9b2f-c549f4700493",
+              "score": 0.015384615384615385
+            }
+          ],
+          "positive_documents": 0,
+          "precision_at_5": 0.0,
+          "recall_at_5": null,
+          "reciprocal_rank_at_5": 0.0,
+          "ndcg_at_5": null
+        },
+        {
+          "question_id": "q-sector-attention",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "c11aa0d5-6b5b-56d2-b742-f10d4b65d72d",
+              "score": 0.01639344262295082
+            },
+            {
+              "rank": 2,
+              "record_id": "06472cb8-466e-55fe-a85a-f421fe1d9706",
+              "score": 0.016129032258064516
+            },
+            {
+              "rank": 3,
+              "record_id": "359a37d1-8e4d-577c-b970-6ce59f8e9b0a",
+              "score": 0.015873015873015872
+            },
+            {
+              "rank": 4,
+              "record_id": "cf2b2aad-925a-5680-89b2-bf6b65d503c8",
+              "score": 0.015625
+            },
+            {
+              "rank": 5,
+              "record_id": "5274d70d-8f3f-5c60-9d2a-3e3384f85e53",
+              "score": 0.015384615384615385
+            }
+          ],
+          "positive_documents": 0,
+          "precision_at_5": 0.0,
+          "recall_at_5": null,
+          "reciprocal_rank_at_5": 0.0,
+          "ndcg_at_5": null
+        },
+        {
+          "question_id": "q-why-emerging",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "cf2b2aad-925a-5680-89b2-bf6b65d503c8",
+              "score": 0.01639344262295082
+            },
+            {
+              "rank": 2,
+              "record_id": "68af97eb-0abe-5d6c-b6dc-6a561d82f90a",
+              "score": 0.016129032258064516
+            },
+            {
+              "rank": 3,
+              "record_id": "c11aa0d5-6b5b-56d2-b742-f10d4b65d72d",
+              "score": 0.015873015873015872
+            },
+            {
+              "rank": 4,
+              "record_id": "87d4550d-3cf2-5b74-82e0-d77a8fe78507",
+              "score": 0.015625
+            },
+            {
+              "rank": 5,
+              "record_id": "98a53812-6211-5c81-b40e-b1c7fa7f34a3",
+              "score": 0.015384615384615385
+            }
+          ],
+          "positive_documents": 0,
+          "precision_at_5": 0.0,
+          "recall_at_5": null,
+          "reciprocal_rank_at_5": 0.0,
+          "ndcg_at_5": null
+        },
+        {
+          "question_id": "q-unsupported-acquisition",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "cf2b2aad-925a-5680-89b2-bf6b65d503c8",
+              "score": 0.01639344262295082
+            },
+            {
+              "rank": 2,
+              "record_id": "359a37d1-8e4d-577c-b970-6ce59f8e9b0a",
+              "score": 0.016129032258064516
+            },
+            {
+              "rank": 3,
+              "record_id": "5274d70d-8f3f-5c60-9d2a-3e3384f85e53",
+              "score": 0.015873015873015872
+            },
+            {
+              "rank": 4,
+              "record_id": "9f8061b3-ab1b-5db0-a99c-b61041b121f9",
+              "score": 0.015625
+            },
+            {
+              "rank": 5,
+              "record_id": "10cffd6e-20f7-5519-9263-25508f533184",
+              "score": 0.015384615384615385
+            }
+          ],
+          "positive_documents": 0,
+          "precision_at_5": 0.0,
+          "recall_at_5": null,
+          "reciprocal_rank_at_5": 0.0,
+          "ndcg_at_5": null
+        },
+        {
+          "question_id": "q-future-performance",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "359a37d1-8e4d-577c-b970-6ce59f8e9b0a",
+              "score": 0.01639344262295082
+            },
+            {
+              "rank": 2,
+              "record_id": "5274d70d-8f3f-5c60-9d2a-3e3384f85e53",
+              "score": 0.016129032258064516
+            },
+            {
+              "rank": 3,
+              "record_id": "cf2b2aad-925a-5680-89b2-bf6b65d503c8",
+              "score": 0.015873015873015872
+            },
+            {
+              "rank": 4,
+              "record_id": "6ccae4f9-2162-5db7-b978-21e9b36546ba",
+              "score": 0.015625
+            },
+            {
+              "rank": 5,
+              "record_id": "9f8061b3-ab1b-5db0-a99c-b61041b121f9",
+              "score": 0.015384615384615385
+            }
+          ],
+          "positive_documents": 0,
+          "precision_at_5": 0.0,
+          "recall_at_5": null,
+          "reciprocal_rank_at_5": 0.0,
+          "ndcg_at_5": null
+        },
+        {
+          "question_id": "q-langchain-github-since-september",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "9e1881d9-efdf-56cb-9b2f-c549f4700493",
+              "score": 0.01639344262295082
+            },
+            {
+              "rank": 2,
+              "record_id": "68af97eb-0abe-5d6c-b6dc-6a561d82f90a",
+              "score": 0.016129032258064516
+            },
+            {
+              "rank": 3,
+              "record_id": "359a37d1-8e4d-577c-b970-6ce59f8e9b0a",
+              "score": 0.015873015873015872
+            },
+            {
+              "rank": 4,
+              "record_id": "cc8332cd-b213-5c30-abd4-313c438b8ad2",
+              "score": 0.015625
+            },
+            {
+              "rank": 5,
+              "record_id": "0c11509e-28a4-5b8d-8bd4-842c5907f911",
+              "score": 0.015384615384615385
+            }
+          ],
+          "positive_documents": 0,
+          "precision_at_5": 0.0,
+          "recall_at_5": null,
+          "reciprocal_rank_at_5": 0.0,
+          "ndcg_at_5": null
+        },
+        {
+          "question_id": "q-crewai-activity-eight-weeks",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "68af97eb-0abe-5d6c-b6dc-6a561d82f90a",
+              "score": 0.01639344262295082
+            },
+            {
+              "rank": 2,
+              "record_id": "9e1881d9-efdf-56cb-9b2f-c549f4700493",
+              "score": 0.016129032258064516
+            },
+            {
+              "rank": 3,
+              "record_id": "87d4550d-3cf2-5b74-82e0-d77a8fe78507",
+              "score": 0.015873015873015872
+            },
+            {
+              "rank": 4,
+              "record_id": "06472cb8-466e-55fe-a85a-f421fe1d9706",
+              "score": 0.015625
+            },
+            {
+              "rank": 5,
+              "record_id": "b51ec1c2-3d9e-5401-bc1c-f129b8257c50",
+              "score": 0.015384615384615385
+            }
+          ],
+          "positive_documents": 0,
+          "precision_at_5": 0.0,
+          "recall_at_5": null,
+          "reciprocal_rank_at_5": 0.0,
+          "ndcg_at_5": null
+        },
+        {
+          "question_id": "q-startups-multi-signal-ten-weeks",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "cf2b2aad-925a-5680-89b2-bf6b65d503c8",
+              "score": 0.01639344262295082
+            },
+            {
+              "rank": 2,
+              "record_id": "9e1881d9-efdf-56cb-9b2f-c549f4700493",
+              "score": 0.016129032258064516
+            },
+            {
+              "rank": 3,
+              "record_id": "68af97eb-0abe-5d6c-b6dc-6a561d82f90a",
+              "score": 0.015873015873015872
+            },
+            {
+              "rank": 4,
+              "record_id": "87d4550d-3cf2-5b74-82e0-d77a8fe78507",
+              "score": 0.015625
+            },
+            {
+              "rank": 5,
+              "record_id": "359a37d1-8e4d-577c-b970-6ce59f8e9b0a",
+              "score": 0.015384615384615385
+            }
+          ],
+          "positive_documents": 0,
+          "precision_at_5": 0.0,
+          "recall_at_5": null,
+          "reciprocal_rank_at_5": 0.0,
+          "ndcg_at_5": null
+        },
+        {
+          "question_id": "q-funding-after-hiring",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "c11aa0d5-6b5b-56d2-b742-f10d4b65d72d",
+              "score": 0.01639344262295082
+            },
+            {
+              "rank": 2,
+              "record_id": "cf2b2aad-925a-5680-89b2-bf6b65d503c8",
+              "score": 0.016129032258064516
+            },
+            {
+              "rank": 3,
+              "record_id": "68af97eb-0abe-5d6c-b6dc-6a561d82f90a",
+              "score": 0.015873015873015872
+            },
+            {
+              "rank": 4,
+              "record_id": "06472cb8-466e-55fe-a85a-f421fe1d9706",
+              "score": 0.015625
+            },
+            {
+              "rank": 5,
+              "record_id": "0e4644f4-1116-5218-80e4-86a44e1e4b34",
+              "score": 0.015384615384615385
+            }
+          ],
+          "positive_documents": 0,
+          "precision_at_5": 0.0,
+          "recall_at_5": null,
+          "reciprocal_rank_at_5": 0.0,
+          "ndcg_at_5": null
+        },
+        {
+          "question_id": "q-sector-multi-origin",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "68eaa344-0169-5ea2-a823-9e615fa65b55",
+              "score": 0.01639344262295082
+            },
+            {
+              "rank": 2,
+              "record_id": "9e1881d9-efdf-56cb-9b2f-c549f4700493",
+              "score": 0.016129032258064516
+            },
+            {
+              "rank": 3,
+              "record_id": "68af97eb-0abe-5d6c-b6dc-6a561d82f90a",
+              "score": 0.015873015873015872
+            },
+            {
+              "rank": 4,
+              "record_id": "359a37d1-8e4d-577c-b970-6ce59f8e9b0a",
+              "score": 0.015625
+            },
+            {
+              "rank": 5,
+              "record_id": "5274d70d-8f3f-5c60-9d2a-3e3384f85e53",
+              "score": 0.015384615384615385
+            }
+          ],
+          "positive_documents": 0,
+          "precision_at_5": 0.0,
+          "recall_at_5": null,
+          "reciprocal_rank_at_5": 0.0,
+          "ndcg_at_5": null
+        },
+        {
+          "question_id": "q-company-slowed-commits",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "68af97eb-0abe-5d6c-b6dc-6a561d82f90a",
+              "score": 0.01639344262295082
+            },
+            {
+              "rank": 2,
+              "record_id": "9e1881d9-efdf-56cb-9b2f-c549f4700493",
+              "score": 0.016129032258064516
+            },
+            {
+              "rank": 3,
+              "record_id": "87d4550d-3cf2-5b74-82e0-d77a8fe78507",
+              "score": 0.015873015873015872
+            },
+            {
+              "rank": 4,
+              "record_id": "359a37d1-8e4d-577c-b970-6ce59f8e9b0a",
+              "score": 0.015625
+            },
+            {
+              "rank": 5,
+              "record_id": "cf2b2aad-925a-5680-89b2-bf6b65d503c8",
+              "score": 0.015384615384615385
+            }
+          ],
+          "positive_documents": 0,
+          "precision_at_5": 0.0,
+          "recall_at_5": null,
+          "reciprocal_rank_at_5": 0.0,
+          "ndcg_at_5": null
+        },
+        {
+          "question_id": "q-llamaindex-retrieval-postings",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "ca3ae103-51b3-5fe9-9112-271277458093",
+              "score": 0.01639344262295082
+            },
+            {
+              "rank": 2,
+              "record_id": "06472cb8-466e-55fe-a85a-f421fe1d9706",
+              "score": 0.016129032258064516
+            },
+            {
+              "rank": 3,
+              "record_id": "68eaa344-0169-5ea2-a823-9e615fa65b55",
+              "score": 0.015873015873015872
+            },
+            {
+              "rank": 4,
+              "record_id": "6f2b2117-f389-5e97-ad69-49d54d3ef435",
+              "score": 0.015625
+            },
+            {
+              "rank": 5,
+              "record_id": "1c4c310c-0a70-559e-9f57-32cc804766dc",
+              "score": 0.015384615384615385
+            }
+          ],
+          "positive_documents": 0,
+          "precision_at_5": 0.0,
+          "recall_at_5": null,
+          "reciprocal_rank_at_5": 0.0,
+          "ndcg_at_5": null
+        },
+        {
+          "question_id": "q-e2b-sandbox-coverage",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "68af97eb-0abe-5d6c-b6dc-6a561d82f90a",
+              "score": 0.01639344262295082
+            },
+            {
+              "rank": 2,
+              "record_id": "9672dbbf-6dd0-50d0-9049-dfda78d2e1de",
+              "score": 0.016129032258064516
+            },
+            {
+              "rank": 3,
+              "record_id": "06472cb8-466e-55fe-a85a-f421fe1d9706",
+              "score": 0.015873015873015872
+            },
+            {
+              "rank": 4,
+              "record_id": "cf2b2aad-925a-5680-89b2-bf6b65d503c8",
+              "score": 0.015625
+            },
+            {
+              "rank": 5,
+              "record_id": "68eaa344-0169-5ea2-a823-9e615fa65b55",
+              "score": 0.015384615384615385
+            }
+          ],
+          "positive_documents": 0,
+          "precision_at_5": 0.0,
+          "recall_at_5": null,
+          "reciprocal_rank_at_5": 0.0,
+          "ndcg_at_5": null
+        },
+        {
+          "question_id": "q-browserbase-agent-activity",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "6f2b2117-f389-5e97-ad69-49d54d3ef435",
+              "score": 0.01639344262295082
+            },
+            {
+              "rank": 2,
+              "record_id": "06472cb8-466e-55fe-a85a-f421fe1d9706",
+              "score": 0.016129032258064516
+            },
+            {
+              "rank": 3,
+              "record_id": "2b2e01ab-3caa-5c24-8f11-a25f81266c38",
+              "score": 0.015873015873015872
+            },
+            {
+              "rank": 4,
+              "record_id": "2e151bf6-be06-5902-9cf5-578baf90e40c",
+              "score": 0.015625
+            },
+            {
+              "rank": 5,
+              "record_id": "9672dbbf-6dd0-50d0-9049-dfda78d2e1de",
+              "score": 0.015384615384615385
+            }
+          ],
+          "positive_documents": 0,
+          "precision_at_5": 0.0,
+          "recall_at_5": null,
+          "reciprocal_rank_at_5": 0.0,
+          "ndcg_at_5": null
+        },
+        {
+          "question_id": "q-composio-tool-postings",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "b51ec1c2-3d9e-5401-bc1c-f129b8257c50",
+              "score": 0.01639344262295082
+            },
+            {
+              "rank": 2,
+              "record_id": "68af97eb-0abe-5d6c-b6dc-6a561d82f90a",
+              "score": 0.016129032258064516
+            },
+            {
+              "rank": 3,
+              "record_id": "06472cb8-466e-55fe-a85a-f421fe1d9706",
+              "score": 0.015873015873015872
+            },
+            {
+              "rank": 4,
+              "record_id": "0e4644f4-1116-5218-80e4-86a44e1e4b34",
+              "score": 0.015625
+            },
+            {
+              "rank": 5,
+              "record_id": "1186bdde-ddac-5532-808c-861449b09a72",
+              "score": 0.015384615384615385
+            }
+          ],
+          "positive_documents": 0,
+          "precision_at_5": 0.0,
+          "recall_at_5": null,
+          "reciprocal_rank_at_5": 0.0,
+          "ndcg_at_5": null
+        },
+        {
+          "question_id": "q-letta-memory-coverage",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "68af97eb-0abe-5d6c-b6dc-6a561d82f90a",
+              "score": 0.01639344262295082
+            },
+            {
+              "rank": 2,
+              "record_id": "b51ec1c2-3d9e-5401-bc1c-f129b8257c50",
+              "score": 0.016129032258064516
+            },
+            {
+              "rank": 3,
+              "record_id": "9e1881d9-efdf-56cb-9b2f-c549f4700493",
+              "score": 0.015873015873015872
+            },
+            {
+              "rank": 4,
+              "record_id": "06472cb8-466e-55fe-a85a-f421fe1d9706",
+              "score": 0.015625
+            },
+            {
+              "rank": 5,
+              "record_id": "f1f8b271-468a-55e6-a47c-40586a2164c2",
+              "score": 0.015384615384615385
+            }
+          ],
+          "positive_documents": 0,
+          "precision_at_5": 0.0,
+          "recall_at_5": null,
+          "reciprocal_rank_at_5": 0.0,
+          "ndcg_at_5": null
+        },
+        {
+          "question_id": "q-langfuse-observability-signals",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "68eaa344-0169-5ea2-a823-9e615fa65b55",
+              "score": 0.01639344262295082
+            },
+            {
+              "rank": 2,
+              "record_id": "9672dbbf-6dd0-50d0-9049-dfda78d2e1de",
+              "score": 0.016129032258064516
+            },
+            {
+              "rank": 3,
+              "record_id": "10cffd6e-20f7-5519-9263-25508f533184",
+              "score": 0.015873015873015872
+            },
+            {
+              "rank": 4,
+              "record_id": "68af97eb-0abe-5d6c-b6dc-6a561d82f90a",
+              "score": 0.015625
+            },
+            {
+              "rank": 5,
+              "record_id": "2b2e01ab-3caa-5c24-8f11-a25f81266c38",
+              "score": 0.015384615384615385
+            }
+          ],
+          "positive_documents": 0,
+          "precision_at_5": 0.0,
+          "recall_at_5": null,
+          "reciprocal_rank_at_5": 0.0,
+          "ndcg_at_5": null
+        },
+        {
+          "question_id": "q-haystack-rag-hiring",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "68af97eb-0abe-5d6c-b6dc-6a561d82f90a",
+              "score": 0.01639344262295082
+            },
+            {
+              "rank": 2,
+              "record_id": "b51ec1c2-3d9e-5401-bc1c-f129b8257c50",
+              "score": 0.016129032258064516
+            },
+            {
+              "rank": 3,
+              "record_id": "6f2b2117-f389-5e97-ad69-49d54d3ef435",
+              "score": 0.015873015873015872
+            },
+            {
+              "rank": 4,
+              "record_id": "ca3ae103-51b3-5fe9-9112-271277458093",
+              "score": 0.015625
+            },
+            {
+              "rank": 5,
+              "record_id": "1186bdde-ddac-5532-808c-861449b09a72",
+              "score": 0.015384615384615385
+            }
+          ],
+          "positive_documents": 0,
+          "precision_at_5": 0.0,
+          "recall_at_5": null,
+          "reciprocal_rank_at_5": 0.0,
+          "ndcg_at_5": null
+        },
+        {
+          "question_id": "q-funding-before-github-growth",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "1c4c310c-0a70-559e-9f57-32cc804766dc",
+              "score": 0.01639344262295082
+            },
+            {
+              "rank": 2,
+              "record_id": "9672dbbf-6dd0-50d0-9049-dfda78d2e1de",
+              "score": 0.016129032258064516
+            },
+            {
+              "rank": 3,
+              "record_id": "6f2b2117-f389-5e97-ad69-49d54d3ef435",
+              "score": 0.015873015873015872
+            },
+            {
+              "rank": 4,
+              "record_id": "2b2e01ab-3caa-5c24-8f11-a25f81266c38",
+              "score": 0.015625
+            },
+            {
+              "rank": 5,
+              "record_id": "68eaa344-0169-5ea2-a823-9e615fa65b55",
+              "score": 0.015384615384615385
+            }
+          ],
+          "positive_documents": 0,
+          "precision_at_5": 0.0,
+          "recall_at_5": null,
+          "reciprocal_rank_at_5": 0.0,
+          "ndcg_at_5": null
+        },
+        {
+          "question_id": "q-missing-funding-langsmith",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "cf2b2aad-925a-5680-89b2-bf6b65d503c8",
+              "score": 0.01639344262295082
+            },
+            {
+              "rank": 2,
+              "record_id": "359a37d1-8e4d-577c-b970-6ce59f8e9b0a",
+              "score": 0.016129032258064516
+            },
+            {
+              "rank": 3,
+              "record_id": "5274d70d-8f3f-5c60-9d2a-3e3384f85e53",
+              "score": 0.015873015873015872
+            },
+            {
+              "rank": 4,
+              "record_id": "5d8203fd-9f9e-5fdb-8544-9af83cc9ee5f",
+              "score": 0.015625
+            },
+            {
+              "rank": 5,
+              "record_id": "c6bceff4-e88c-5177-b658-729e66180a0f",
+              "score": 0.015384615384615385
+            }
+          ],
+          "positive_documents": 0,
+          "precision_at_5": 0.0,
+          "recall_at_5": null,
+          "reciprocal_rank_at_5": 0.0,
+          "ndcg_at_5": null
+        },
+        {
+          "question_id": "q-outside-collection-window",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "68af97eb-0abe-5d6c-b6dc-6a561d82f90a",
+              "score": 0.01639344262295082
+            },
+            {
+              "rank": 2,
+              "record_id": "cf2b2aad-925a-5680-89b2-bf6b65d503c8",
+              "score": 0.016129032258064516
+            },
+            {
+              "rank": 3,
+              "record_id": "98a53812-6211-5c81-b40e-b1c7fa7f34a3",
+              "score": 0.015873015873015872
+            },
+            {
+              "rank": 4,
+              "record_id": "f1f8b271-468a-55e6-a47c-40586a2164c2",
+              "score": 0.015625
+            },
+            {
+              "rank": 5,
+              "record_id": "9e1881d9-efdf-56cb-9b2f-c549f4700493",
+              "score": 0.015384615384615385
+            }
+          ],
+          "positive_documents": 0,
+          "precision_at_5": 0.0,
+          "recall_at_5": null,
+          "reciprocal_rank_at_5": 0.0,
+          "ndcg_at_5": null
+        },
+        {
+          "question_id": "q-future-acquisition",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "359a37d1-8e4d-577c-b970-6ce59f8e9b0a",
+              "score": 0.01639344262295082
+            },
+            {
+              "rank": 2,
+              "record_id": "5274d70d-8f3f-5c60-9d2a-3e3384f85e53",
+              "score": 0.016129032258064516
+            },
+            {
+              "rank": 3,
+              "record_id": "cf2b2aad-925a-5680-89b2-bf6b65d503c8",
+              "score": 0.015873015873015872
+            },
+            {
+              "rank": 4,
+              "record_id": "06472cb8-466e-55fe-a85a-f421fe1d9706",
+              "score": 0.015625
+            },
+            {
+              "rank": 5,
+              "record_id": "ca3ae103-51b3-5fe9-9112-271277458093",
+              "score": 0.015384615384615385
+            }
+          ],
+          "positive_documents": 0,
+          "precision_at_5": 0.0,
+          "recall_at_5": null,
+          "reciprocal_rank_at_5": 0.0,
+          "ndcg_at_5": null
+        },
+        {
+          "question_id": "q-undocumented-private-metrics",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "06472cb8-466e-55fe-a85a-f421fe1d9706",
+              "score": 0.01639344262295082
+            },
+            {
+              "rank": 2,
+              "record_id": "0237b72c-c6e8-572b-b9ed-787658d33906",
+              "score": 0.016129032258064516
+            },
+            {
+              "rank": 3,
+              "record_id": "ca3ae103-51b3-5fe9-9112-271277458093",
+              "score": 0.015873015873015872
+            },
+            {
+              "rank": 4,
+              "record_id": "9672dbbf-6dd0-50d0-9049-dfda78d2e1de",
+              "score": 0.015625
+            },
+            {
+              "rank": 5,
+              "record_id": "98a53812-6211-5c81-b40e-b1c7fa7f34a3",
+              "score": 0.015384615384615385
+            }
+          ],
+          "positive_documents": 0,
+          "precision_at_5": 0.0,
+          "recall_at_5": null,
+          "reciprocal_rank_at_5": 0.0,
+          "ndcg_at_5": null
+        },
+        {
+          "question_id": "q-emerging-change-label",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "06472cb8-466e-55fe-a85a-f421fe1d9706",
+              "score": 0.01639344262295082
+            },
+            {
+              "rank": 2,
+              "record_id": "98a53812-6211-5c81-b40e-b1c7fa7f34a3",
+              "score": 0.016129032258064516
+            },
+            {
+              "rank": 3,
+              "record_id": "b51ec1c2-3d9e-5401-bc1c-f129b8257c50",
+              "score": 0.015873015873015872
+            },
+            {
+              "rank": 4,
+              "record_id": "cf2b2aad-925a-5680-89b2-bf6b65d503c8",
+              "score": 0.015625
+            },
+            {
+              "rank": 5,
+              "record_id": "87d4550d-3cf2-5b74-82e0-d77a8fe78507",
+              "score": 0.015384615384615385
+            }
+          ],
+          "positive_documents": 0,
+          "precision_at_5": 0.0,
+          "recall_at_5": null,
+          "reciprocal_rank_at_5": 0.0,
+          "ndcg_at_5": null
+        },
+        {
+          "question_id": "q-disputed-technical-claim",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "87d4550d-3cf2-5b74-82e0-d77a8fe78507",
+              "score": 0.01639344262295082
+            },
+            {
+              "rank": 2,
+              "record_id": "9e1881d9-efdf-56cb-9b2f-c549f4700493",
+              "score": 0.016129032258064516
+            },
+            {
+              "rank": 3,
+              "record_id": "68af97eb-0abe-5d6c-b6dc-6a561d82f90a",
+              "score": 0.015873015873015872
+            },
+            {
+              "rank": 4,
+              "record_id": "c11aa0d5-6b5b-56d2-b742-f10d4b65d72d",
+              "score": 0.015625
+            },
+            {
+              "rank": 5,
+              "record_id": "06472cb8-466e-55fe-a85a-f421fe1d9706",
+              "score": 0.015384615384615385
+            }
+          ],
+          "positive_documents": 0,
+          "precision_at_5": 0.0,
+          "recall_at_5": null,
+          "reciprocal_rank_at_5": 0.0,
+          "ndcg_at_5": null
+        },
+        {
+          "question_id": "q-stale-source-label",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "8ceab846-104a-5282-b9ef-1e9fa75731bf",
+              "score": 0.01639344262295082
+            },
+            {
+              "rank": 2,
+              "record_id": "68af97eb-0abe-5d6c-b6dc-6a561d82f90a",
+              "score": 0.016129032258064516
+            },
+            {
+              "rank": 3,
+              "record_id": "98a53812-6211-5c81-b40e-b1c7fa7f34a3",
+              "score": 0.015873015873015872
+            },
+            {
+              "rank": 4,
+              "record_id": "9e1881d9-efdf-56cb-9b2f-c549f4700493",
+              "score": 0.015625
+            },
+            {
+              "rank": 5,
+              "record_id": "cf2b2aad-925a-5680-89b2-bf6b65d503c8",
+              "score": 0.015384615384615385
+            }
+          ],
+          "positive_documents": 0,
+          "precision_at_5": 0.0,
+          "recall_at_5": null,
+          "reciprocal_rank_at_5": 0.0,
+          "ndcg_at_5": null
+        },
+        {
+          "question_id": "q-independent-origin-definition",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "06472cb8-466e-55fe-a85a-f421fe1d9706",
+              "score": 0.01639344262295082
+            },
+            {
+              "rank": 2,
+              "record_id": "68af97eb-0abe-5d6c-b6dc-6a561d82f90a",
+              "score": 0.016129032258064516
+            },
+            {
+              "rank": 3,
+              "record_id": "10cffd6e-20f7-5519-9263-25508f533184",
+              "score": 0.015873015873015872
+            },
+            {
+              "rank": 4,
+              "record_id": "c11aa0d5-6b5b-56d2-b742-f10d4b65d72d",
+              "score": 0.015625
+            },
+            {
+              "rank": 5,
+              "record_id": "cf2b2aad-925a-5680-89b2-bf6b65d503c8",
+              "score": 0.015384615384615385
+            }
+          ],
+          "positive_documents": 0,
+          "precision_at_5": 0.0,
+          "recall_at_5": null,
+          "reciprocal_rank_at_5": 0.0,
+          "ndcg_at_5": null
+        }
+      ]
+    },
+    {
+      "condition": "dense",
+      "questions": 28,
+      "questions_with_positive_documents": 0,
+      "precision_at_5": 0.0,
+      "recall_at_5": null,
+      "mrr_at_5": 0.0,
+      "ndcg_at_5": null,
+      "per_question": [
+        {
+          "question_id": "q-pilot-github-mlops",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "9672dbbf-6dd0-50d0-9049-dfda78d2e1de",
+              "score": 0.01639344262295082
+            },
+            {
+              "rank": 2,
+              "record_id": "2b2e01ab-3caa-5c24-8f11-a25f81266c38",
+              "score": 0.016129032258064516
+            },
+            {
+              "rank": 3,
+              "record_id": "069611a3-38bc-5c01-aeb3-0b1b2e0fde76",
+              "score": 0.015873015873015872
+            },
+            {
+              "rank": 4,
+              "record_id": "6ccae4f9-2162-5db7-b978-21e9b36546ba",
+              "score": 0.015625
+            },
+            {
+              "rank": 5,
+              "record_id": "9f8061b3-ab1b-5db0-a99c-b61041b121f9",
+              "score": 0.015384615384615385
+            }
+          ],
+          "positive_documents": 0,
+          "precision_at_5": 0.0,
+          "recall_at_5": null,
+          "reciprocal_rank_at_5": 0.0,
+          "ndcg_at_5": null
+        },
+        {
+          "question_id": "q-investors-later-hiring",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "cc8332cd-b213-5c30-abd4-313c438b8ad2",
+              "score": 0.01639344262295082
+            },
+            {
+              "rank": 2,
+              "record_id": "68eaa344-0169-5ea2-a823-9e615fa65b55",
+              "score": 0.016129032258064516
+            },
+            {
+              "rank": 3,
+              "record_id": "ca3ae103-51b3-5fe9-9112-271277458093",
+              "score": 0.015873015873015872
+            },
+            {
+              "rank": 4,
+              "record_id": "6f2b2117-f389-5e97-ad69-49d54d3ef435",
+              "score": 0.015625
+            },
+            {
+              "rank": 5,
+              "record_id": "cf2b2aad-925a-5680-89b2-bf6b65d503c8",
+              "score": 0.015384615384615385
+            }
+          ],
+          "positive_documents": 0,
+          "precision_at_5": 0.0,
+          "recall_at_5": null,
+          "reciprocal_rank_at_5": 0.0,
+          "ndcg_at_5": null
+        },
+        {
+          "question_id": "q-sector-attention",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "359a37d1-8e4d-577c-b970-6ce59f8e9b0a",
+              "score": 0.01639344262295082
+            },
+            {
+              "rank": 2,
+              "record_id": "cf2b2aad-925a-5680-89b2-bf6b65d503c8",
+              "score": 0.016129032258064516
+            },
+            {
+              "rank": 3,
+              "record_id": "1e019eee-8a64-550c-8be9-909aa92dfecc",
+              "score": 0.015873015873015872
+            },
+            {
+              "rank": 4,
+              "record_id": "0c11509e-28a4-5b8d-8bd4-842c5907f911",
+              "score": 0.015625
+            },
+            {
+              "rank": 5,
+              "record_id": "5274d70d-8f3f-5c60-9d2a-3e3384f85e53",
+              "score": 0.015384615384615385
+            }
+          ],
+          "positive_documents": 0,
+          "precision_at_5": 0.0,
+          "recall_at_5": null,
+          "reciprocal_rank_at_5": 0.0,
+          "ndcg_at_5": null
+        },
+        {
+          "question_id": "q-why-emerging",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "eeb00e92-27aa-5c6b-9da9-408e2480b3cd",
+              "score": 0.01639344262295082
+            },
+            {
+              "rank": 2,
+              "record_id": "68af97eb-0abe-5d6c-b6dc-6a561d82f90a",
+              "score": 0.016129032258064516
+            },
+            {
+              "rank": 3,
+              "record_id": "b6675a64-6fe5-577b-b30b-748d0d4fd8ee",
+              "score": 0.015873015873015872
+            },
+            {
+              "rank": 4,
+              "record_id": "0237b72c-c6e8-572b-b9ed-787658d33906",
+              "score": 0.015625
+            },
+            {
+              "rank": 5,
+              "record_id": "8ab688ad-bcee-56c8-994d-48cb4fb2d8bc",
+              "score": 0.015384615384615385
+            }
+          ],
+          "positive_documents": 0,
+          "precision_at_5": 0.0,
+          "recall_at_5": null,
+          "reciprocal_rank_at_5": 0.0,
+          "ndcg_at_5": null
+        },
+        {
+          "question_id": "q-unsupported-acquisition",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "67f2f085-5b62-590c-820a-711aa625c0f1",
+              "score": 0.01639344262295082
+            },
+            {
+              "rank": 2,
+              "record_id": "10cffd6e-20f7-5519-9263-25508f533184",
+              "score": 0.016129032258064516
+            },
+            {
+              "rank": 3,
+              "record_id": "069611a3-38bc-5c01-aeb3-0b1b2e0fde76",
+              "score": 0.015873015873015872
+            },
+            {
+              "rank": 4,
+              "record_id": "8ceab846-104a-5282-b9ef-1e9fa75731bf",
+              "score": 0.015625
+            },
+            {
+              "rank": 5,
+              "record_id": "1c4c310c-0a70-559e-9f57-32cc804766dc",
+              "score": 0.015384615384615385
+            }
+          ],
+          "positive_documents": 0,
+          "precision_at_5": 0.0,
+          "recall_at_5": null,
+          "reciprocal_rank_at_5": 0.0,
+          "ndcg_at_5": null
+        },
+        {
+          "question_id": "q-future-performance",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "cf2b2aad-925a-5680-89b2-bf6b65d503c8",
+              "score": 0.01639344262295082
+            },
+            {
+              "rank": 2,
+              "record_id": "e60671f0-2b73-528c-aa88-1cc5440a916d",
+              "score": 0.016129032258064516
+            },
+            {
+              "rank": 3,
+              "record_id": "f1f8b271-468a-55e6-a47c-40586a2164c2",
+              "score": 0.015873015873015872
+            },
+            {
+              "rank": 4,
+              "record_id": "06472cb8-466e-55fe-a85a-f421fe1d9706",
+              "score": 0.015625
+            },
+            {
+              "rank": 5,
+              "record_id": "069611a3-38bc-5c01-aeb3-0b1b2e0fde76",
+              "score": 0.015384615384615385
+            }
+          ],
+          "positive_documents": 0,
+          "precision_at_5": 0.0,
+          "recall_at_5": null,
+          "reciprocal_rank_at_5": 0.0,
+          "ndcg_at_5": null
+        },
+        {
+          "question_id": "q-langchain-github-since-september",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "0e4644f4-1116-5218-80e4-86a44e1e4b34",
+              "score": 0.01639344262295082
+            },
+            {
+              "rank": 2,
+              "record_id": "cc8332cd-b213-5c30-abd4-313c438b8ad2",
+              "score": 0.016129032258064516
+            },
+            {
+              "rank": 3,
+              "record_id": "1186bdde-ddac-5532-808c-861449b09a72",
+              "score": 0.015873015873015872
+            },
+            {
+              "rank": 4,
+              "record_id": "2d7dbc2f-d371-5219-9719-abf91bca8979",
+              "score": 0.015625
+            },
+            {
+              "rank": 5,
+              "record_id": "31941a88-ab26-582c-838c-bee39145a9e7",
+              "score": 0.015384615384615385
+            }
+          ],
+          "positive_documents": 0,
+          "precision_at_5": 0.0,
+          "recall_at_5": null,
+          "reciprocal_rank_at_5": 0.0,
+          "ndcg_at_5": null
+        },
+        {
+          "question_id": "q-crewai-activity-eight-weeks",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "87d4550d-3cf2-5b74-82e0-d77a8fe78507",
+              "score": 0.01639344262295082
+            },
+            {
+              "rank": 2,
+              "record_id": "06472cb8-466e-55fe-a85a-f421fe1d9706",
+              "score": 0.016129032258064516
+            },
+            {
+              "rank": 3,
+              "record_id": "9e1881d9-efdf-56cb-9b2f-c549f4700493",
+              "score": 0.015873015873015872
+            },
+            {
+              "rank": 4,
+              "record_id": "68af97eb-0abe-5d6c-b6dc-6a561d82f90a",
+              "score": 0.015625
+            },
+            {
+              "rank": 5,
+              "record_id": "e60671f0-2b73-528c-aa88-1cc5440a916d",
+              "score": 0.015384615384615385
+            }
+          ],
+          "positive_documents": 0,
+          "precision_at_5": 0.0,
+          "recall_at_5": null,
+          "reciprocal_rank_at_5": 0.0,
+          "ndcg_at_5": null
+        },
+        {
+          "question_id": "q-startups-multi-signal-ten-weeks",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "e60671f0-2b73-528c-aa88-1cc5440a916d",
+              "score": 0.01639344262295082
+            },
+            {
+              "rank": 2,
+              "record_id": "68af97eb-0abe-5d6c-b6dc-6a561d82f90a",
+              "score": 0.016129032258064516
+            },
+            {
+              "rank": 3,
+              "record_id": "87d4550d-3cf2-5b74-82e0-d77a8fe78507",
+              "score": 0.015873015873015872
+            },
+            {
+              "rank": 4,
+              "record_id": "06472cb8-466e-55fe-a85a-f421fe1d9706",
+              "score": 0.015625
+            },
+            {
+              "rank": 5,
+              "record_id": "cc8332cd-b213-5c30-abd4-313c438b8ad2",
+              "score": 0.015384615384615385
+            }
+          ],
+          "positive_documents": 0,
+          "precision_at_5": 0.0,
+          "recall_at_5": null,
+          "reciprocal_rank_at_5": 0.0,
+          "ndcg_at_5": null
+        },
+        {
+          "question_id": "q-funding-after-hiring",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "ca3ae103-51b3-5fe9-9112-271277458093",
+              "score": 0.01639344262295082
+            },
+            {
+              "rank": 2,
+              "record_id": "06472cb8-466e-55fe-a85a-f421fe1d9706",
+              "score": 0.016129032258064516
+            },
+            {
+              "rank": 3,
+              "record_id": "6f2b2117-f389-5e97-ad69-49d54d3ef435",
+              "score": 0.015873015873015872
+            },
+            {
+              "rank": 4,
+              "record_id": "8ab688ad-bcee-56c8-994d-48cb4fb2d8bc",
+              "score": 0.015625
+            },
+            {
+              "rank": 5,
+              "record_id": "1c4c310c-0a70-559e-9f57-32cc804766dc",
+              "score": 0.015384615384615385
+            }
+          ],
+          "positive_documents": 0,
+          "precision_at_5": 0.0,
+          "recall_at_5": null,
+          "reciprocal_rank_at_5": 0.0,
+          "ndcg_at_5": null
+        },
+        {
+          "question_id": "q-sector-multi-origin",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "87d4550d-3cf2-5b74-82e0-d77a8fe78507",
+              "score": 0.01639344262295082
+            },
+            {
+              "rank": 2,
+              "record_id": "1e019eee-8a64-550c-8be9-909aa92dfecc",
+              "score": 0.016129032258064516
+            },
+            {
+              "rank": 3,
+              "record_id": "f1f8b271-468a-55e6-a47c-40586a2164c2",
+              "score": 0.015873015873015872
+            },
+            {
+              "rank": 4,
+              "record_id": "68eaa344-0169-5ea2-a823-9e615fa65b55",
+              "score": 0.015625
+            },
+            {
+              "rank": 5,
+              "record_id": "68af97eb-0abe-5d6c-b6dc-6a561d82f90a",
+              "score": 0.015384615384615385
+            }
+          ],
+          "positive_documents": 0,
+          "precision_at_5": 0.0,
+          "recall_at_5": null,
+          "reciprocal_rank_at_5": 0.0,
+          "ndcg_at_5": null
+        },
+        {
+          "question_id": "q-company-slowed-commits",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "06472cb8-466e-55fe-a85a-f421fe1d9706",
+              "score": 0.01639344262295082
+            },
+            {
+              "rank": 2,
+              "record_id": "87d4550d-3cf2-5b74-82e0-d77a8fe78507",
+              "score": 0.016129032258064516
+            },
+            {
+              "rank": 3,
+              "record_id": "b51ec1c2-3d9e-5401-bc1c-f129b8257c50",
+              "score": 0.015873015873015872
+            },
+            {
+              "rank": 4,
+              "record_id": "68af97eb-0abe-5d6c-b6dc-6a561d82f90a",
+              "score": 0.015625
+            },
+            {
+              "rank": 5,
+              "record_id": "e60671f0-2b73-528c-aa88-1cc5440a916d",
+              "score": 0.015384615384615385
+            }
+          ],
+          "positive_documents": 0,
+          "precision_at_5": 0.0,
+          "recall_at_5": null,
+          "reciprocal_rank_at_5": 0.0,
+          "ndcg_at_5": null
+        },
+        {
+          "question_id": "q-llamaindex-retrieval-postings",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "8ceab846-104a-5282-b9ef-1e9fa75731bf",
+              "score": 0.01639344262295082
+            },
+            {
+              "rank": 2,
+              "record_id": "ca3ae103-51b3-5fe9-9112-271277458093",
+              "score": 0.016129032258064516
+            },
+            {
+              "rank": 3,
+              "record_id": "10cffd6e-20f7-5519-9263-25508f533184",
+              "score": 0.015873015873015872
+            },
+            {
+              "rank": 4,
+              "record_id": "06472cb8-466e-55fe-a85a-f421fe1d9706",
+              "score": 0.015625
+            },
+            {
+              "rank": 5,
+              "record_id": "6f2b2117-f389-5e97-ad69-49d54d3ef435",
+              "score": 0.015384615384615385
+            }
+          ],
+          "positive_documents": 0,
+          "precision_at_5": 0.0,
+          "recall_at_5": null,
+          "reciprocal_rank_at_5": 0.0,
+          "ndcg_at_5": null
+        },
+        {
+          "question_id": "q-e2b-sandbox-coverage",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "87d4550d-3cf2-5b74-82e0-d77a8fe78507",
+              "score": 0.01639344262295082
+            },
+            {
+              "rank": 2,
+              "record_id": "9cb7f091-5692-57c6-8bec-baa4198eb810",
+              "score": 0.016129032258064516
+            },
+            {
+              "rank": 3,
+              "record_id": "e7a306bf-53b2-5e74-a016-25d5b68a4eac",
+              "score": 0.015873015873015872
+            },
+            {
+              "rank": 4,
+              "record_id": "0c11509e-28a4-5b8d-8bd4-842c5907f911",
+              "score": 0.015625
+            },
+            {
+              "rank": 5,
+              "record_id": "cc8332cd-b213-5c30-abd4-313c438b8ad2",
+              "score": 0.015384615384615385
+            }
+          ],
+          "positive_documents": 0,
+          "precision_at_5": 0.0,
+          "recall_at_5": null,
+          "reciprocal_rank_at_5": 0.0,
+          "ndcg_at_5": null
+        },
+        {
+          "question_id": "q-browserbase-agent-activity",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "87d4550d-3cf2-5b74-82e0-d77a8fe78507",
+              "score": 0.01639344262295082
+            },
+            {
+              "rank": 2,
+              "record_id": "06472cb8-466e-55fe-a85a-f421fe1d9706",
+              "score": 0.016129032258064516
+            },
+            {
+              "rank": 3,
+              "record_id": "9672dbbf-6dd0-50d0-9049-dfda78d2e1de",
+              "score": 0.015873015873015872
+            },
+            {
+              "rank": 4,
+              "record_id": "f1f8b271-468a-55e6-a47c-40586a2164c2",
+              "score": 0.015625
+            },
+            {
+              "rank": 5,
+              "record_id": "c11aa0d5-6b5b-56d2-b742-f10d4b65d72d",
+              "score": 0.015384615384615385
+            }
+          ],
+          "positive_documents": 0,
+          "precision_at_5": 0.0,
+          "recall_at_5": null,
+          "reciprocal_rank_at_5": 0.0,
+          "ndcg_at_5": null
+        },
+        {
+          "question_id": "q-composio-tool-postings",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "ca3ae103-51b3-5fe9-9112-271277458093",
+              "score": 0.01639344262295082
+            },
+            {
+              "rank": 2,
+              "record_id": "9672dbbf-6dd0-50d0-9049-dfda78d2e1de",
+              "score": 0.016129032258064516
+            },
+            {
+              "rank": 3,
+              "record_id": "1c4c310c-0a70-559e-9f57-32cc804766dc",
+              "score": 0.015873015873015872
+            },
+            {
+              "rank": 4,
+              "record_id": "6f2b2117-f389-5e97-ad69-49d54d3ef435",
+              "score": 0.015625
+            },
+            {
+              "rank": 5,
+              "record_id": "68eaa344-0169-5ea2-a823-9e615fa65b55",
+              "score": 0.015384615384615385
+            }
+          ],
+          "positive_documents": 0,
+          "precision_at_5": 0.0,
+          "recall_at_5": null,
+          "reciprocal_rank_at_5": 0.0,
+          "ndcg_at_5": null
+        },
+        {
+          "question_id": "q-letta-memory-coverage",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "68eaa344-0169-5ea2-a823-9e615fa65b55",
+              "score": 0.01639344262295082
+            },
+            {
+              "rank": 2,
+              "record_id": "1e019eee-8a64-550c-8be9-909aa92dfecc",
+              "score": 0.016129032258064516
+            },
+            {
+              "rank": 3,
+              "record_id": "cf2b2aad-925a-5680-89b2-bf6b65d503c8",
+              "score": 0.015873015873015872
+            },
+            {
+              "rank": 4,
+              "record_id": "8ab688ad-bcee-56c8-994d-48cb4fb2d8bc",
+              "score": 0.015625
+            },
+            {
+              "rank": 5,
+              "record_id": "06472cb8-466e-55fe-a85a-f421fe1d9706",
+              "score": 0.015384615384615385
+            }
+          ],
+          "positive_documents": 0,
+          "precision_at_5": 0.0,
+          "recall_at_5": null,
+          "reciprocal_rank_at_5": 0.0,
+          "ndcg_at_5": null
+        },
+        {
+          "question_id": "q-langfuse-observability-signals",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "06472cb8-466e-55fe-a85a-f421fe1d9706",
+              "score": 0.01639344262295082
+            },
+            {
+              "rank": 2,
+              "record_id": "6ccae4f9-2162-5db7-b978-21e9b36546ba",
+              "score": 0.016129032258064516
+            },
+            {
+              "rank": 3,
+              "record_id": "ca3ae103-51b3-5fe9-9112-271277458093",
+              "score": 0.015873015873015872
+            },
+            {
+              "rank": 4,
+              "record_id": "1c4c310c-0a70-559e-9f57-32cc804766dc",
+              "score": 0.015625
+            },
+            {
+              "rank": 5,
+              "record_id": "069611a3-38bc-5c01-aeb3-0b1b2e0fde76",
+              "score": 0.015384615384615385
+            }
+          ],
+          "positive_documents": 0,
+          "precision_at_5": 0.0,
+          "recall_at_5": null,
+          "reciprocal_rank_at_5": 0.0,
+          "ndcg_at_5": null
+        },
+        {
+          "question_id": "q-haystack-rag-hiring",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "06472cb8-466e-55fe-a85a-f421fe1d9706",
+              "score": 0.01639344262295082
+            },
+            {
+              "rank": 2,
+              "record_id": "8ab688ad-bcee-56c8-994d-48cb4fb2d8bc",
+              "score": 0.016129032258064516
+            },
+            {
+              "rank": 3,
+              "record_id": "68af97eb-0abe-5d6c-b6dc-6a561d82f90a",
+              "score": 0.015873015873015872
+            },
+            {
+              "rank": 4,
+              "record_id": "cc8332cd-b213-5c30-abd4-313c438b8ad2",
+              "score": 0.015625
+            },
+            {
+              "rank": 5,
+              "record_id": "e60671f0-2b73-528c-aa88-1cc5440a916d",
+              "score": 0.015384615384615385
+            }
+          ],
+          "positive_documents": 0,
+          "precision_at_5": 0.0,
+          "recall_at_5": null,
+          "reciprocal_rank_at_5": 0.0,
+          "ndcg_at_5": null
+        },
+        {
+          "question_id": "q-funding-before-github-growth",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "9e1881d9-efdf-56cb-9b2f-c549f4700493",
+              "score": 0.01639344262295082
+            },
+            {
+              "rank": 2,
+              "record_id": "06472cb8-466e-55fe-a85a-f421fe1d9706",
+              "score": 0.016129032258064516
+            },
+            {
+              "rank": 3,
+              "record_id": "1e019eee-8a64-550c-8be9-909aa92dfecc",
+              "score": 0.015873015873015872
+            },
+            {
+              "rank": 4,
+              "record_id": "6f2b2117-f389-5e97-ad69-49d54d3ef435",
+              "score": 0.015625
+            },
+            {
+              "rank": 5,
+              "record_id": "069611a3-38bc-5c01-aeb3-0b1b2e0fde76",
+              "score": 0.015384615384615385
+            }
+          ],
+          "positive_documents": 0,
+          "precision_at_5": 0.0,
+          "recall_at_5": null,
+          "reciprocal_rank_at_5": 0.0,
+          "ndcg_at_5": null
+        },
+        {
+          "question_id": "q-missing-funding-langsmith",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "0c11509e-28a4-5b8d-8bd4-842c5907f911",
+              "score": 0.01639344262295082
+            },
+            {
+              "rank": 2,
+              "record_id": "cc8332cd-b213-5c30-abd4-313c438b8ad2",
+              "score": 0.016129032258064516
+            },
+            {
+              "rank": 3,
+              "record_id": "5d8203fd-9f9e-5fdb-8544-9af83cc9ee5f",
+              "score": 0.015873015873015872
+            },
+            {
+              "rank": 4,
+              "record_id": "1186bdde-ddac-5532-808c-861449b09a72",
+              "score": 0.015625
+            },
+            {
+              "rank": 5,
+              "record_id": "2d7dbc2f-d371-5219-9719-abf91bca8979",
+              "score": 0.015384615384615385
+            }
+          ],
+          "positive_documents": 0,
+          "precision_at_5": 0.0,
+          "recall_at_5": null,
+          "reciprocal_rank_at_5": 0.0,
+          "ndcg_at_5": null
+        },
+        {
+          "question_id": "q-outside-collection-window",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "8ab688ad-bcee-56c8-994d-48cb4fb2d8bc",
+              "score": 0.01639344262295082
+            },
+            {
+              "rank": 2,
+              "record_id": "eeb00e92-27aa-5c6b-9da9-408e2480b3cd",
+              "score": 0.016129032258064516
+            },
+            {
+              "rank": 3,
+              "record_id": "cf2b2aad-925a-5680-89b2-bf6b65d503c8",
+              "score": 0.015873015873015872
+            },
+            {
+              "rank": 4,
+              "record_id": "f1f8b271-468a-55e6-a47c-40586a2164c2",
+              "score": 0.015625
+            },
+            {
+              "rank": 5,
+              "record_id": "68af97eb-0abe-5d6c-b6dc-6a561d82f90a",
+              "score": 0.015384615384615385
+            }
+          ],
+          "positive_documents": 0,
+          "precision_at_5": 0.0,
+          "recall_at_5": null,
+          "reciprocal_rank_at_5": 0.0,
+          "ndcg_at_5": null
+        },
+        {
+          "question_id": "q-future-acquisition",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "1c4c310c-0a70-559e-9f57-32cc804766dc",
+              "score": 0.01639344262295082
+            },
+            {
+              "rank": 2,
+              "record_id": "ca3ae103-51b3-5fe9-9112-271277458093",
+              "score": 0.016129032258064516
+            },
+            {
+              "rank": 3,
+              "record_id": "6f2b2117-f389-5e97-ad69-49d54d3ef435",
+              "score": 0.015873015873015872
+            },
+            {
+              "rank": 4,
+              "record_id": "069611a3-38bc-5c01-aeb3-0b1b2e0fde76",
+              "score": 0.015625
+            },
+            {
+              "rank": 5,
+              "record_id": "06472cb8-466e-55fe-a85a-f421fe1d9706",
+              "score": 0.015384615384615385
+            }
+          ],
+          "positive_documents": 0,
+          "precision_at_5": 0.0,
+          "recall_at_5": null,
+          "reciprocal_rank_at_5": 0.0,
+          "ndcg_at_5": null
+        },
+        {
+          "question_id": "q-undocumented-private-metrics",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "31941a88-ab26-582c-838c-bee39145a9e7",
+              "score": 0.01639344262295082
+            },
+            {
+              "rank": 2,
+              "record_id": "06472cb8-466e-55fe-a85a-f421fe1d9706",
+              "score": 0.016129032258064516
+            },
+            {
+              "rank": 3,
+              "record_id": "cc8332cd-b213-5c30-abd4-313c438b8ad2",
+              "score": 0.015873015873015872
+            },
+            {
+              "rank": 4,
+              "record_id": "2d7dbc2f-d371-5219-9719-abf91bca8979",
+              "score": 0.015625
+            },
+            {
+              "rank": 5,
+              "record_id": "1c4c310c-0a70-559e-9f57-32cc804766dc",
+              "score": 0.015384615384615385
+            }
+          ],
+          "positive_documents": 0,
+          "precision_at_5": 0.0,
+          "recall_at_5": null,
+          "reciprocal_rank_at_5": 0.0,
+          "ndcg_at_5": null
+        },
+        {
+          "question_id": "q-emerging-change-label",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "f1f8b271-468a-55e6-a47c-40586a2164c2",
+              "score": 0.01639344262295082
+            },
+            {
+              "rank": 2,
+              "record_id": "9672dbbf-6dd0-50d0-9049-dfda78d2e1de",
+              "score": 0.016129032258064516
+            },
+            {
+              "rank": 3,
+              "record_id": "b51ec1c2-3d9e-5401-bc1c-f129b8257c50",
+              "score": 0.015873015873015872
+            },
+            {
+              "rank": 4,
+              "record_id": "e7a306bf-53b2-5e74-a016-25d5b68a4eac",
+              "score": 0.015625
+            },
+            {
+              "rank": 5,
+              "record_id": "069611a3-38bc-5c01-aeb3-0b1b2e0fde76",
+              "score": 0.015384615384615385
+            }
+          ],
+          "positive_documents": 0,
+          "precision_at_5": 0.0,
+          "recall_at_5": null,
+          "reciprocal_rank_at_5": 0.0,
+          "ndcg_at_5": null
+        },
+        {
+          "question_id": "q-disputed-technical-claim",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "cf2b2aad-925a-5680-89b2-bf6b65d503c8",
+              "score": 0.01639344262295082
+            },
+            {
+              "rank": 2,
+              "record_id": "68af97eb-0abe-5d6c-b6dc-6a561d82f90a",
+              "score": 0.016129032258064516
+            },
+            {
+              "rank": 3,
+              "record_id": "8ab688ad-bcee-56c8-994d-48cb4fb2d8bc",
+              "score": 0.015873015873015872
+            },
+            {
+              "rank": 4,
+              "record_id": "eeb00e92-27aa-5c6b-9da9-408e2480b3cd",
+              "score": 0.015625
+            },
+            {
+              "rank": 5,
+              "record_id": "1e019eee-8a64-550c-8be9-909aa92dfecc",
+              "score": 0.015384615384615385
+            }
+          ],
+          "positive_documents": 0,
+          "precision_at_5": 0.0,
+          "recall_at_5": null,
+          "reciprocal_rank_at_5": 0.0,
+          "ndcg_at_5": null
+        },
+        {
+          "question_id": "q-stale-source-label",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "68af97eb-0abe-5d6c-b6dc-6a561d82f90a",
+              "score": 0.01639344262295082
+            },
+            {
+              "rank": 2,
+              "record_id": "8ab688ad-bcee-56c8-994d-48cb4fb2d8bc",
+              "score": 0.016129032258064516
+            },
+            {
+              "rank": 3,
+              "record_id": "9672dbbf-6dd0-50d0-9049-dfda78d2e1de",
+              "score": 0.015873015873015872
+            },
+            {
+              "rank": 4,
+              "record_id": "d6b497d9-e44a-5161-96e9-9bb5503a7827",
+              "score": 0.015625
+            },
+            {
+              "rank": 5,
+              "record_id": "ca3ae103-51b3-5fe9-9112-271277458093",
+              "score": 0.015384615384615385
+            }
+          ],
+          "positive_documents": 0,
+          "precision_at_5": 0.0,
+          "recall_at_5": null,
+          "reciprocal_rank_at_5": 0.0,
+          "ndcg_at_5": null
+        },
+        {
+          "question_id": "q-independent-origin-definition",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "0c11509e-28a4-5b8d-8bd4-842c5907f911",
+              "score": 0.01639344262295082
+            },
+            {
+              "rank": 2,
+              "record_id": "68af97eb-0abe-5d6c-b6dc-6a561d82f90a",
+              "score": 0.016129032258064516
+            },
+            {
+              "rank": 3,
+              "record_id": "06472cb8-466e-55fe-a85a-f421fe1d9706",
+              "score": 0.015873015873015872
+            },
+            {
+              "rank": 4,
+              "record_id": "e60671f0-2b73-528c-aa88-1cc5440a916d",
+              "score": 0.015625
+            },
+            {
+              "rank": 5,
+              "record_id": "c6bceff4-e88c-5177-b658-729e66180a0f",
+              "score": 0.015384615384615385
+            }
+          ],
+          "positive_documents": 0,
+          "precision_at_5": 0.0,
+          "recall_at_5": null,
+          "reciprocal_rank_at_5": 0.0,
+          "ndcg_at_5": null
+        }
+      ]
+    },
+    {
+      "condition": "hybrid",
+      "questions": 28,
+      "questions_with_positive_documents": 0,
+      "precision_at_5": 0.0,
+      "recall_at_5": null,
+      "mrr_at_5": 0.0,
+      "ndcg_at_5": null,
+      "per_question": [
+        {
+          "question_id": "q-pilot-github-mlops",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "9672dbbf-6dd0-50d0-9049-dfda78d2e1de",
+              "score": 0.032266458495966696
+            },
+            {
+              "rank": 2,
+              "record_id": "9f8061b3-ab1b-5db0-a99c-b61041b121f9",
+              "score": 0.02967032967032967
+            },
+            {
+              "rank": 3,
+              "record_id": "68eaa344-0169-5ea2-a823-9e615fa65b55",
+              "score": 0.02946912242686891
+            },
+            {
+              "rank": 4,
+              "record_id": "ca3ae103-51b3-5fe9-9112-271277458093",
+              "score": 0.02900988017658188
+            },
+            {
+              "rank": 5,
+              "record_id": "f1f8b271-468a-55e6-a47c-40586a2164c2",
+              "score": 0.028665028665028666
+            }
+          ],
+          "positive_documents": 0,
+          "precision_at_5": 0.0,
+          "recall_at_5": null,
+          "reciprocal_rank_at_5": 0.0,
+          "ndcg_at_5": null
+        },
+        {
+          "question_id": "q-investors-later-hiring",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "cf2b2aad-925a-5680-89b2-bf6b65d503c8",
+              "score": 0.0315136476426799
+            },
+            {
+              "rank": 2,
+              "record_id": "06472cb8-466e-55fe-a85a-f421fe1d9706",
+              "score": 0.030330882352941176
+            },
+            {
+              "rank": 3,
+              "record_id": "87d4550d-3cf2-5b74-82e0-d77a8fe78507",
+              "score": 0.029857397504456328
+            },
+            {
+              "rank": 4,
+              "record_id": "0e4644f4-1116-5218-80e4-86a44e1e4b34",
+              "score": 0.029850746268656716
+            },
+            {
+              "rank": 5,
+              "record_id": "ca3ae103-51b3-5fe9-9112-271277458093",
+              "score": 0.02976190476190476
+            }
+          ],
+          "positive_documents": 0,
+          "precision_at_5": 0.0,
+          "recall_at_5": null,
+          "reciprocal_rank_at_5": 0.0,
+          "ndcg_at_5": null
+        },
+        {
+          "question_id": "q-sector-attention",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "359a37d1-8e4d-577c-b970-6ce59f8e9b0a",
+              "score": 0.032266458495966696
+            },
+            {
+              "rank": 2,
+              "record_id": "cf2b2aad-925a-5680-89b2-bf6b65d503c8",
+              "score": 0.031754032258064516
+            },
+            {
+              "rank": 3,
+              "record_id": "5274d70d-8f3f-5c60-9d2a-3e3384f85e53",
+              "score": 0.03076923076923077
+            },
+            {
+              "rank": 4,
+              "record_id": "2b2e01ab-3caa-5c24-8f11-a25f81266c38",
+              "score": 0.028814262023217248
+            },
+            {
+              "rank": 5,
+              "record_id": "87d4550d-3cf2-5b74-82e0-d77a8fe78507",
+              "score": 0.028814262023217248
+            }
+          ],
+          "positive_documents": 0,
+          "precision_at_5": 0.0,
+          "recall_at_5": null,
+          "reciprocal_rank_at_5": 0.0,
+          "ndcg_at_5": null
+        },
+        {
+          "question_id": "q-why-emerging",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "68af97eb-0abe-5d6c-b6dc-6a561d82f90a",
+              "score": 0.03225806451612903
+            },
+            {
+              "rank": 2,
+              "record_id": "cf2b2aad-925a-5680-89b2-bf6b65d503c8",
+              "score": 0.03131881575727918
+            },
+            {
+              "rank": 3,
+              "record_id": "c11aa0d5-6b5b-56d2-b742-f10d4b65d72d",
+              "score": 0.030158730158730156
+            },
+            {
+              "rank": 4,
+              "record_id": "06472cb8-466e-55fe-a85a-f421fe1d9706",
+              "score": 0.029631255487269532
+            },
+            {
+              "rank": 5,
+              "record_id": "0237b72c-c6e8-572b-b9ed-787658d33906",
+              "score": 0.0293236301369863
+            }
+          ],
+          "positive_documents": 0,
+          "precision_at_5": 0.0,
+          "recall_at_5": null,
+          "reciprocal_rank_at_5": 0.0,
+          "ndcg_at_5": null
+        },
+        {
+          "question_id": "q-unsupported-acquisition",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "10cffd6e-20f7-5519-9263-25508f533184",
+              "score": 0.0315136476426799
+            },
+            {
+              "rank": 2,
+              "record_id": "67f2f085-5b62-590c-820a-711aa625c0f1",
+              "score": 0.03131881575727918
+            },
+            {
+              "rank": 3,
+              "record_id": "8ceab846-104a-5282-b9ef-1e9fa75731bf",
+              "score": 0.030776515151515152
+            },
+            {
+              "rank": 4,
+              "record_id": "1186bdde-ddac-5532-808c-861449b09a72",
+              "score": 0.029631255487269532
+            },
+            {
+              "rank": 5,
+              "record_id": "68eaa344-0169-5ea2-a823-9e615fa65b55",
+              "score": 0.029236022193768675
+            }
+          ],
+          "positive_documents": 0,
+          "precision_at_5": 0.0,
+          "recall_at_5": null,
+          "reciprocal_rank_at_5": 0.0,
+          "ndcg_at_5": null
+        },
+        {
+          "question_id": "q-future-performance",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "cf2b2aad-925a-5680-89b2-bf6b65d503c8",
+              "score": 0.032266458495966696
+            },
+            {
+              "rank": 2,
+              "record_id": "359a37d1-8e4d-577c-b970-6ce59f8e9b0a",
+              "score": 0.03028233151183971
+            },
+            {
+              "rank": 3,
+              "record_id": "9f8061b3-ab1b-5db0-a99c-b61041b121f9",
+              "score": 0.030090497737556562
+            },
+            {
+              "rank": 4,
+              "record_id": "f1f8b271-468a-55e6-a47c-40586a2164c2",
+              "score": 0.029957522915269395
+            },
+            {
+              "rank": 5,
+              "record_id": "06472cb8-466e-55fe-a85a-f421fe1d9706",
+              "score": 0.029910714285714284
+            }
+          ],
+          "positive_documents": 0,
+          "precision_at_5": 0.0,
+          "recall_at_5": null,
+          "reciprocal_rank_at_5": 0.0,
+          "ndcg_at_5": null
+        },
+        {
+          "question_id": "q-langchain-github-since-september",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "cc8332cd-b213-5c30-abd4-313c438b8ad2",
+              "score": 0.031754032258064516
+            },
+            {
+              "rank": 2,
+              "record_id": "359a37d1-8e4d-577c-b970-6ce59f8e9b0a",
+              "score": 0.031024531024531024
+            },
+            {
+              "rank": 3,
+              "record_id": "0e4644f4-1116-5218-80e4-86a44e1e4b34",
+              "score": 0.030886196246139225
+            },
+            {
+              "rank": 4,
+              "record_id": "0c11509e-28a4-5b8d-8bd4-842c5907f911",
+              "score": 0.030309988518943745
+            },
+            {
+              "rank": 5,
+              "record_id": "31941a88-ab26-582c-838c-bee39145a9e7",
+              "score": 0.030309988518943745
+            }
+          ],
+          "positive_documents": 0,
+          "precision_at_5": 0.0,
+          "recall_at_5": null,
+          "reciprocal_rank_at_5": 0.0,
+          "ndcg_at_5": null
+        },
+        {
+          "question_id": "q-crewai-activity-eight-weeks",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "87d4550d-3cf2-5b74-82e0-d77a8fe78507",
+              "score": 0.032266458495966696
+            },
+            {
+              "rank": 2,
+              "record_id": "68af97eb-0abe-5d6c-b6dc-6a561d82f90a",
+              "score": 0.032018442622950824
+            },
+            {
+              "rank": 3,
+              "record_id": "9e1881d9-efdf-56cb-9b2f-c549f4700493",
+              "score": 0.03200204813108039
+            },
+            {
+              "rank": 4,
+              "record_id": "06472cb8-466e-55fe-a85a-f421fe1d9706",
+              "score": 0.031754032258064516
+            },
+            {
+              "rank": 5,
+              "record_id": "e60671f0-2b73-528c-aa88-1cc5440a916d",
+              "score": 0.02967032967032967
+            }
+          ],
+          "positive_documents": 0,
+          "precision_at_5": 0.0,
+          "recall_at_5": null,
+          "reciprocal_rank_at_5": 0.0,
+          "ndcg_at_5": null
+        },
+        {
+          "question_id": "q-startups-multi-signal-ten-weeks",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "68af97eb-0abe-5d6c-b6dc-6a561d82f90a",
+              "score": 0.03200204813108039
+            },
+            {
+              "rank": 2,
+              "record_id": "87d4550d-3cf2-5b74-82e0-d77a8fe78507",
+              "score": 0.03149801587301587
+            },
+            {
+              "rank": 3,
+              "record_id": "cf2b2aad-925a-5680-89b2-bf6b65d503c8",
+              "score": 0.031099324975891997
+            },
+            {
+              "rank": 4,
+              "record_id": "06472cb8-466e-55fe-a85a-f421fe1d9706",
+              "score": 0.029910714285714284
+            },
+            {
+              "rank": 5,
+              "record_id": "9e1881d9-efdf-56cb-9b2f-c549f4700493",
+              "score": 0.02946236559139785
+            }
+          ],
+          "positive_documents": 0,
+          "precision_at_5": 0.0,
+          "recall_at_5": null,
+          "reciprocal_rank_at_5": 0.0,
+          "ndcg_at_5": null
+        },
+        {
+          "question_id": "q-funding-after-hiring",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "06472cb8-466e-55fe-a85a-f421fe1d9706",
+              "score": 0.031754032258064516
+            },
+            {
+              "rank": 2,
+              "record_id": "ca3ae103-51b3-5fe9-9112-271277458093",
+              "score": 0.030886196246139225
+            },
+            {
+              "rank": 3,
+              "record_id": "cf2b2aad-925a-5680-89b2-bf6b65d503c8",
+              "score": 0.030017921146953404
+            },
+            {
+              "rank": 4,
+              "record_id": "6f2b2117-f389-5e97-ad69-49d54d3ef435",
+              "score": 0.029957522915269395
+            },
+            {
+              "rank": 5,
+              "record_id": "c11aa0d5-6b5b-56d2-b742-f10d4b65d72d",
+              "score": 0.029726775956284153
+            }
+          ],
+          "positive_documents": 0,
+          "precision_at_5": 0.0,
+          "recall_at_5": null,
+          "reciprocal_rank_at_5": 0.0,
+          "ndcg_at_5": null
+        },
+        {
+          "question_id": "q-sector-multi-origin",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "68eaa344-0169-5ea2-a823-9e615fa65b55",
+              "score": 0.032018442622950824
+            },
+            {
+              "rank": 2,
+              "record_id": "68af97eb-0abe-5d6c-b6dc-6a561d82f90a",
+              "score": 0.03125763125763126
+            },
+            {
+              "rank": 3,
+              "record_id": "87d4550d-3cf2-5b74-82e0-d77a8fe78507",
+              "score": 0.02921395544346364
+            },
+            {
+              "rank": 4,
+              "record_id": "b51ec1c2-3d9e-5401-bc1c-f129b8257c50",
+              "score": 0.027984344422700584
+            },
+            {
+              "rank": 5,
+              "record_id": "a3916713-c8c1-53fe-96aa-bae219e1d05a",
+              "score": 0.027650648360030512
+            }
+          ],
+          "positive_documents": 0,
+          "precision_at_5": 0.0,
+          "recall_at_5": null,
+          "reciprocal_rank_at_5": 0.0,
+          "ndcg_at_5": null
+        },
+        {
+          "question_id": "q-company-slowed-commits",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "68af97eb-0abe-5d6c-b6dc-6a561d82f90a",
+              "score": 0.032018442622950824
+            },
+            {
+              "rank": 2,
+              "record_id": "87d4550d-3cf2-5b74-82e0-d77a8fe78507",
+              "score": 0.03200204813108039
+            },
+            {
+              "rank": 3,
+              "record_id": "06472cb8-466e-55fe-a85a-f421fe1d9706",
+              "score": 0.031099324975891997
+            },
+            {
+              "rank": 4,
+              "record_id": "b51ec1c2-3d9e-5401-bc1c-f129b8257c50",
+              "score": 0.031024531024531024
+            },
+            {
+              "rank": 5,
+              "record_id": "9e1881d9-efdf-56cb-9b2f-c549f4700493",
+              "score": 0.030834914611005692
+            }
+          ],
+          "positive_documents": 0,
+          "precision_at_5": 0.0,
+          "recall_at_5": null,
+          "reciprocal_rank_at_5": 0.0,
+          "ndcg_at_5": null
+        },
+        {
+          "question_id": "q-llamaindex-retrieval-postings",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "ca3ae103-51b3-5fe9-9112-271277458093",
+              "score": 0.03252247488101534
+            },
+            {
+              "rank": 2,
+              "record_id": "06472cb8-466e-55fe-a85a-f421fe1d9706",
+              "score": 0.031754032258064516
+            },
+            {
+              "rank": 3,
+              "record_id": "68eaa344-0169-5ea2-a823-9e615fa65b55",
+              "score": 0.031024531024531024
+            },
+            {
+              "rank": 4,
+              "record_id": "6f2b2117-f389-5e97-ad69-49d54d3ef435",
+              "score": 0.031009615384615385
+            },
+            {
+              "rank": 5,
+              "record_id": "8ceab846-104a-5282-b9ef-1e9fa75731bf",
+              "score": 0.03047794966520434
+            }
+          ],
+          "positive_documents": 0,
+          "precision_at_5": 0.0,
+          "recall_at_5": null,
+          "reciprocal_rank_at_5": 0.0,
+          "ndcg_at_5": null
+        },
+        {
+          "question_id": "q-e2b-sandbox-coverage",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "cf2b2aad-925a-5680-89b2-bf6b65d503c8",
+              "score": 0.030330882352941176
+            },
+            {
+              "rank": 2,
+              "record_id": "06472cb8-466e-55fe-a85a-f421fe1d9706",
+              "score": 0.029957522915269395
+            },
+            {
+              "rank": 3,
+              "record_id": "9672dbbf-6dd0-50d0-9049-dfda78d2e1de",
+              "score": 0.02878726010616578
+            },
+            {
+              "rank": 4,
+              "record_id": "e7a306bf-53b2-5e74-a016-25d5b68a4eac",
+              "score": 0.028531243721117136
+            },
+            {
+              "rank": 5,
+              "record_id": "2b2e01ab-3caa-5c24-8f11-a25f81266c38",
+              "score": 0.02782608695652174
+            }
+          ],
+          "positive_documents": 0,
+          "precision_at_5": 0.0,
+          "recall_at_5": null,
+          "reciprocal_rank_at_5": 0.0,
+          "ndcg_at_5": null
+        },
+        {
+          "question_id": "q-browserbase-agent-activity",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "06472cb8-466e-55fe-a85a-f421fe1d9706",
+              "score": 0.03225806451612903
+            },
+            {
+              "rank": 2,
+              "record_id": "9672dbbf-6dd0-50d0-9049-dfda78d2e1de",
+              "score": 0.03125763125763126
+            },
+            {
+              "rank": 3,
+              "record_id": "6f2b2117-f389-5e97-ad69-49d54d3ef435",
+              "score": 0.030886196246139225
+            },
+            {
+              "rank": 4,
+              "record_id": "1c4c310c-0a70-559e-9f57-32cc804766dc",
+              "score": 0.02964426877470356
+            },
+            {
+              "rank": 5,
+              "record_id": "ca3ae103-51b3-5fe9-9112-271277458093",
+              "score": 0.029411764705882353
+            }
+          ],
+          "positive_documents": 0,
+          "precision_at_5": 0.0,
+          "recall_at_5": null,
+          "reciprocal_rank_at_5": 0.0,
+          "ndcg_at_5": null
+        },
+        {
+          "question_id": "q-composio-tool-postings",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "06472cb8-466e-55fe-a85a-f421fe1d9706",
+              "score": 0.03036576949620428
+            },
+            {
+              "rank": 2,
+              "record_id": "6f2b2117-f389-5e97-ad69-49d54d3ef435",
+              "score": 0.029709507042253523
+            },
+            {
+              "rank": 3,
+              "record_id": "9672dbbf-6dd0-50d0-9049-dfda78d2e1de",
+              "score": 0.02964254577157803
+            },
+            {
+              "rank": 4,
+              "record_id": "b51ec1c2-3d9e-5401-bc1c-f129b8257c50",
+              "score": 0.029551337359792925
+            },
+            {
+              "rank": 5,
+              "record_id": "68eaa344-0169-5ea2-a823-9e615fa65b55",
+              "score": 0.029083245521601686
+            }
+          ],
+          "positive_documents": 0,
+          "precision_at_5": 0.0,
+          "recall_at_5": null,
+          "reciprocal_rank_at_5": 0.0,
+          "ndcg_at_5": null
+        },
+        {
+          "question_id": "q-letta-memory-coverage",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "cf2b2aad-925a-5680-89b2-bf6b65d503c8",
+              "score": 0.031024531024531024
+            },
+            {
+              "rank": 2,
+              "record_id": "06472cb8-466e-55fe-a85a-f421fe1d9706",
+              "score": 0.031009615384615385
+            },
+            {
+              "rank": 3,
+              "record_id": "8ab688ad-bcee-56c8-994d-48cb4fb2d8bc",
+              "score": 0.030330882352941176
+            },
+            {
+              "rank": 4,
+              "record_id": "f1f8b271-468a-55e6-a47c-40586a2164c2",
+              "score": 0.02967032967032967
+            },
+            {
+              "rank": 5,
+              "record_id": "c11aa0d5-6b5b-56d2-b742-f10d4b65d72d",
+              "score": 0.029437229437229435
+            }
+          ],
+          "positive_documents": 0,
+          "precision_at_5": 0.0,
+          "recall_at_5": null,
+          "reciprocal_rank_at_5": 0.0,
+          "ndcg_at_5": null
+        },
+        {
+          "question_id": "q-langfuse-observability-signals",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "6ccae4f9-2162-5db7-b978-21e9b36546ba",
+              "score": 0.03128054740957967
+            },
+            {
+              "rank": 2,
+              "record_id": "9672dbbf-6dd0-50d0-9049-dfda78d2e1de",
+              "score": 0.030834914611005692
+            },
+            {
+              "rank": 3,
+              "record_id": "10cffd6e-20f7-5519-9263-25508f533184",
+              "score": 0.03036576949620428
+            },
+            {
+              "rank": 4,
+              "record_id": "68eaa344-0169-5ea2-a823-9e615fa65b55",
+              "score": 0.03009207275993712
+            },
+            {
+              "rank": 5,
+              "record_id": "6f2b2117-f389-5e97-ad69-49d54d3ef435",
+              "score": 0.03007688828584351
+            }
+          ],
+          "positive_documents": 0,
+          "precision_at_5": 0.0,
+          "recall_at_5": null,
+          "reciprocal_rank_at_5": 0.0,
+          "ndcg_at_5": null
+        },
+        {
+          "question_id": "q-haystack-rag-hiring",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "68af97eb-0abe-5d6c-b6dc-6a561d82f90a",
+              "score": 0.032266458495966696
+            },
+            {
+              "rank": 2,
+              "record_id": "06472cb8-466e-55fe-a85a-f421fe1d9706",
+              "score": 0.031544957774465976
+            },
+            {
+              "rank": 3,
+              "record_id": "cc8332cd-b213-5c30-abd4-313c438b8ad2",
+              "score": 0.030117753623188408
+            },
+            {
+              "rank": 4,
+              "record_id": "b51ec1c2-3d9e-5401-bc1c-f129b8257c50",
+              "score": 0.030017921146953404
+            },
+            {
+              "rank": 5,
+              "record_id": "e60671f0-2b73-528c-aa88-1cc5440a916d",
+              "score": 0.02946912242686891
+            }
+          ],
+          "positive_documents": 0,
+          "precision_at_5": 0.0,
+          "recall_at_5": null,
+          "reciprocal_rank_at_5": 0.0,
+          "ndcg_at_5": null
+        },
+        {
+          "question_id": "q-funding-before-github-growth",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "6f2b2117-f389-5e97-ad69-49d54d3ef435",
+              "score": 0.03149801587301587
+            },
+            {
+              "rank": 2,
+              "record_id": "1c4c310c-0a70-559e-9f57-32cc804766dc",
+              "score": 0.030679156908665108
+            },
+            {
+              "rank": 3,
+              "record_id": "9672dbbf-6dd0-50d0-9049-dfda78d2e1de",
+              "score": 0.03021353930031804
+            },
+            {
+              "rank": 4,
+              "record_id": "069611a3-38bc-5c01-aeb3-0b1b2e0fde76",
+              "score": 0.030090497737556562
+            },
+            {
+              "rank": 5,
+              "record_id": "6ccae4f9-2162-5db7-b978-21e9b36546ba",
+              "score": 0.02877846790890269
+            }
+          ],
+          "positive_documents": 0,
+          "precision_at_5": 0.0,
+          "recall_at_5": null,
+          "reciprocal_rank_at_5": 0.0,
+          "ndcg_at_5": null
+        },
+        {
+          "question_id": "q-missing-funding-langsmith",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "5d8203fd-9f9e-5fdb-8544-9af83cc9ee5f",
+              "score": 0.03149801587301587
+            },
+            {
+              "rank": 2,
+              "record_id": "0c11509e-28a4-5b8d-8bd4-842c5907f911",
+              "score": 0.03131881575727918
+            },
+            {
+              "rank": 3,
+              "record_id": "cc8332cd-b213-5c30-abd4-313c438b8ad2",
+              "score": 0.03128054740957967
+            },
+            {
+              "rank": 4,
+              "record_id": "c6bceff4-e88c-5177-b658-729e66180a0f",
+              "score": 0.029877369007803793
+            },
+            {
+              "rank": 5,
+              "record_id": "359a37d1-8e4d-577c-b970-6ce59f8e9b0a",
+              "score": 0.02964254577157803
+            }
+          ],
+          "positive_documents": 0,
+          "precision_at_5": 0.0,
+          "recall_at_5": null,
+          "reciprocal_rank_at_5": 0.0,
+          "ndcg_at_5": null
+        },
+        {
+          "question_id": "q-outside-collection-window",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "cf2b2aad-925a-5680-89b2-bf6b65d503c8",
+              "score": 0.03200204813108039
+            },
+            {
+              "rank": 2,
+              "record_id": "68af97eb-0abe-5d6c-b6dc-6a561d82f90a",
+              "score": 0.03177805800756621
+            },
+            {
+              "rank": 3,
+              "record_id": "f1f8b271-468a-55e6-a47c-40586a2164c2",
+              "score": 0.03125
+            },
+            {
+              "rank": 4,
+              "record_id": "9e1881d9-efdf-56cb-9b2f-c549f4700493",
+              "score": 0.030090497737556562
+            },
+            {
+              "rank": 5,
+              "record_id": "98a53812-6211-5c81-b40e-b1c7fa7f34a3",
+              "score": 0.029571646010002173
+            }
+          ],
+          "positive_documents": 0,
+          "precision_at_5": 0.0,
+          "recall_at_5": null,
+          "reciprocal_rank_at_5": 0.0,
+          "ndcg_at_5": null
+        },
+        {
+          "question_id": "q-future-acquisition",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "ca3ae103-51b3-5fe9-9112-271277458093",
+              "score": 0.0315136476426799
+            },
+            {
+              "rank": 2,
+              "record_id": "1c4c310c-0a70-559e-9f57-32cc804766dc",
+              "score": 0.03131881575727918
+            },
+            {
+              "rank": 3,
+              "record_id": "6f2b2117-f389-5e97-ad69-49d54d3ef435",
+              "score": 0.031024531024531024
+            },
+            {
+              "rank": 4,
+              "record_id": "06472cb8-466e-55fe-a85a-f421fe1d9706",
+              "score": 0.031009615384615385
+            },
+            {
+              "rank": 5,
+              "record_id": "87d4550d-3cf2-5b74-82e0-d77a8fe78507",
+              "score": 0.029236022193768675
+            }
+          ],
+          "positive_documents": 0,
+          "precision_at_5": 0.0,
+          "recall_at_5": null,
+          "reciprocal_rank_at_5": 0.0,
+          "ndcg_at_5": null
+        },
+        {
+          "question_id": "q-undocumented-private-metrics",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "06472cb8-466e-55fe-a85a-f421fe1d9706",
+              "score": 0.03252247488101534
+            },
+            {
+              "rank": 2,
+              "record_id": "ca3ae103-51b3-5fe9-9112-271277458093",
+              "score": 0.03036576949620428
+            },
+            {
+              "rank": 3,
+              "record_id": "6f2b2117-f389-5e97-ad69-49d54d3ef435",
+              "score": 0.029236022193768675
+            },
+            {
+              "rank": 4,
+              "record_id": "f1f8b271-468a-55e6-a47c-40586a2164c2",
+              "score": 0.028438886647841874
+            },
+            {
+              "rank": 5,
+              "record_id": "1c4c310c-0a70-559e-9f57-32cc804766dc",
+              "score": 0.028371628371628373
+            }
+          ],
+          "positive_documents": 0,
+          "precision_at_5": 0.0,
+          "recall_at_5": null,
+          "reciprocal_rank_at_5": 0.0,
+          "ndcg_at_5": null
+        },
+        {
+          "question_id": "q-emerging-change-label",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "b51ec1c2-3d9e-5401-bc1c-f129b8257c50",
+              "score": 0.031746031746031744
+            },
+            {
+              "rank": 2,
+              "record_id": "98a53812-6211-5c81-b40e-b1c7fa7f34a3",
+              "score": 0.03128054740957967
+            },
+            {
+              "rank": 3,
+              "record_id": "cf2b2aad-925a-5680-89b2-bf6b65d503c8",
+              "score": 0.030330882352941176
+            },
+            {
+              "rank": 4,
+              "record_id": "06472cb8-466e-55fe-a85a-f421fe1d9706",
+              "score": 0.03009207275993712
+            },
+            {
+              "rank": 5,
+              "record_id": "9672dbbf-6dd0-50d0-9049-dfda78d2e1de",
+              "score": 0.029827662395050816
+            }
+          ],
+          "positive_documents": 0,
+          "precision_at_5": 0.0,
+          "recall_at_5": null,
+          "reciprocal_rank_at_5": 0.0,
+          "ndcg_at_5": null
+        },
+        {
+          "question_id": "q-disputed-technical-claim",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "68af97eb-0abe-5d6c-b6dc-6a561d82f90a",
+              "score": 0.03200204813108039
+            },
+            {
+              "rank": 2,
+              "record_id": "cf2b2aad-925a-5680-89b2-bf6b65d503c8",
+              "score": 0.031099324975891997
+            },
+            {
+              "rank": 3,
+              "record_id": "87d4550d-3cf2-5b74-82e0-d77a8fe78507",
+              "score": 0.030886196246139225
+            },
+            {
+              "rank": 4,
+              "record_id": "1e019eee-8a64-550c-8be9-909aa92dfecc",
+              "score": 0.02967032967032967
+            },
+            {
+              "rank": 5,
+              "record_id": "9e1881d9-efdf-56cb-9b2f-c549f4700493",
+              "score": 0.02928692699490662
+            }
+          ],
+          "positive_documents": 0,
+          "precision_at_5": 0.0,
+          "recall_at_5": null,
+          "reciprocal_rank_at_5": 0.0,
+          "ndcg_at_5": null
+        },
+        {
+          "question_id": "q-stale-source-label",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "68af97eb-0abe-5d6c-b6dc-6a561d82f90a",
+              "score": 0.03252247488101534
+            },
+            {
+              "rank": 2,
+              "record_id": "9672dbbf-6dd0-50d0-9049-dfda78d2e1de",
+              "score": 0.03036576949620428
+            },
+            {
+              "rank": 3,
+              "record_id": "8ceab846-104a-5282-b9ef-1e9fa75731bf",
+              "score": 0.03009207275993712
+            },
+            {
+              "rank": 4,
+              "record_id": "9e1881d9-efdf-56cb-9b2f-c549f4700493",
+              "score": 0.029910714285714284
+            },
+            {
+              "rank": 5,
+              "record_id": "06472cb8-466e-55fe-a85a-f421fe1d9706",
+              "score": 0.029857397504456328
+            }
+          ],
+          "positive_documents": 0,
+          "precision_at_5": 0.0,
+          "recall_at_5": null,
+          "reciprocal_rank_at_5": 0.0,
+          "ndcg_at_5": null
+        },
+        {
+          "question_id": "q-independent-origin-definition",
+          "ranking": [
+            {
+              "rank": 1,
+              "record_id": "06472cb8-466e-55fe-a85a-f421fe1d9706",
+              "score": 0.032266458495966696
+            },
+            {
+              "rank": 2,
+              "record_id": "68af97eb-0abe-5d6c-b6dc-6a561d82f90a",
+              "score": 0.03225806451612903
+            },
+            {
+              "rank": 3,
+              "record_id": "e60671f0-2b73-528c-aa88-1cc5440a916d",
+              "score": 0.030117753623188408
+            },
+            {
+              "rank": 4,
+              "record_id": "c11aa0d5-6b5b-56d2-b742-f10d4b65d72d",
+              "score": 0.029910714285714284
+            },
+            {
+              "rank": 5,
+              "record_id": "9e1881d9-efdf-56cb-9b2f-c549f4700493",
+              "score": 0.02904040404040404
+            }
+          ],
+          "positive_documents": 0,
+          "precision_at_5": 0.0,
+          "recall_at_5": null,
+          "reciprocal_rank_at_5": 0.0,
+          "ndcg_at_5": null
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "The dense condition is a hashing lexical baseline, not semantic embeddings.",
+    "Raw retrieval over all frozen documents; no answer-stage filtering or generation.",
+    "Graph-only produces structured query results and is evaluated separately in answer bundles.",
+    "Recall/nDCG are undefined on zero-positive questions; report their count."
+  ]
+}
