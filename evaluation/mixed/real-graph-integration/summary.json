@@ -39,6 +39,7 @@
   "live_neo4j_validation": "live-neo4j-validation.json",
   "reproducible_demo": "demo-results.json",
   "visual_demo": "demo.html",
+  "documentation": "README.md",
   "source_record_count": 45,
   "source_review_basis": "Sueda source-assisted entity review; not independent paired annotation.",
   "limitations": [
