@@ -37,7 +37,11 @@ def cohen_kappa(first: Mapping[str, str], second: Mapping[str, str]) -> tuple[fl
 
 
 def load_annotations(path: Path) -> Mapping[str, str]:
+    if not path.exists():
+        raise ValueError(f"annotator file not found: {path}")
     payload = json.loads(path.read_text(encoding="utf-8"))
+    if payload.get("status") != "complete":
+        raise ValueError(f"{path} is not marked complete")
     annotations = payload.get("annotations")
     if not isinstance(annotations, dict):
         raise ValueError(f"{path} must contain an 'annotations' object")

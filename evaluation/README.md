@@ -46,6 +46,19 @@ The generated file contains record IDs, exact title/text spans, and the three
 time fields. It does not assign labels; annotators must label each item
 independently before Cohen's kappa is calculated.
 
+Prepare independent input files from the worklist:
+
+```bash
+python evaluation/prepare_annotation_round.py \
+  evaluation/annotation-worklist.json \
+  --first-name "Annotator A" \
+  --second-name "Annotator B"
+```
+
+This creates empty `not_started` files with every unique item ID listed as
+pending. It does not create or guess labels. Mark each file `"status": "complete"`
+only after that annotator has independently populated all shared annotations.
+
 Calculate agreement only after both files contain their independent labels:
 
 ```bash

@@ -1,6 +1,7 @@
 {
   "task": "Label entities, relations, and claim support on frozen source records.",
   "workflow": {
+    "corpus_status": "The 95-item fixture worklist is a fixture-scale annotation seed, not a final 40-50 real-document corpus.",
     "corpus_size": "40-50 documents",
     "entity_mentions": "200+",
     "relations": "80-100",
