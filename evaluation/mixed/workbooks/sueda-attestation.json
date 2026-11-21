@@ -1,0 +1,19 @@
+{
+  "annotator": "Sueda Sen",
+  "prepared_for": "Sueda Sen",
+  "reviewer": "Project source review",
+  "status": "source_review_complete",
+  "authorization_status": "approved",
+  "authorization_record": "evaluation/submission/team-authorization.json",
+  "method": "source_review",
+  "independent": false,
+  "completed_at": "2026-11-21T08:25:23Z",
+  "snapshot_sha256": "2e8db87daa901109a18cb7ea590ee4c22b9357bea1e13104964bbfc4badfedc3",
+  "workbook_sha256": {
+    "entities": "1db18f542b343998c908ec35967a7eb25face46b06697b616143696117b4ba91",
+    "relations": "3f98aabc130f49acff766ee61df9a38612157b659c26981e3330d14964e27654"
+  },
+  "scope": "First source-assisted mixed-round relation review by the Sueda-assigned workbook. Independent personal annotation is not attested.",
+  "accepted_relations": 33,
+  "rejected_relations": 75
+}

@@ -1,0 +1,11 @@
+{
+  "reviewer": "Sueda Sen",
+  "round": "mixed",
+  "relation_decisions": 108,
+  "mentions": 33,
+  "none": 75,
+  "method": "source_assisted_review",
+  "independent_human_attestation": false,
+  "kappa_eligible": false,
+  "workbook_sha256": "3f98aabc130f49acff766ee61df9a38612157b659c26981e3330d14964e27654"
+}

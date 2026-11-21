@@ -1,0 +1,26 @@
+{
+  "status": "first_source_review_complete",
+  "snapshot_sha256": "2e8db87daa901109a18cb7ea590ee4c22b9357bea1e13104964bbfc4badfedc3",
+  "entities_reviewed": 276,
+  "entities_accepted": 118,
+  "relations_reviewed": 108,
+  "mentions_accepted": 33,
+  "qrels_reviewed": 1260,
+  "positive_component_grades": 195,
+  "corpus_first_decisions": 45,
+  "independent_human_agreement": null,
+  "scope": "Frozen mixed-source candidate classification and component relevance; no full temporal-answer gold standard.",
+  "files": {
+    "sueda-entities.csv": "1db18f542b343998c908ec35967a7eb25face46b06697b616143696117b4ba91",
+    "sueda-relations.csv": "3f98aabc130f49acff766ee61df9a38612157b659c26981e3330d14964e27654",
+    "qrels.csv": "14790d9ecd53dab3cb3fe1c315ad6eca51266062d136a7933c07d0ea44366ad6",
+    "sueda-attestation.json": "3dce23b6b7ea76d57c1f2a775477abe19381c8203fcd9a257c7a56c9366d5fd7"
+  },
+  "other_reviewer_preserved": {
+    "mehmet-entities.csv": "388cd2df4656d603eb9831159f3d3437f90d1f1746c941346527741908ddd2c6",
+    "mehmet-relations.csv": "c68e72ec8451ebe8d72f03ac7d27168d0a69b64584a892adcbb1ce904cc65431",
+    "mehmet-attestation.json": "d95b48be88902ff8a90c72f0f0f6c9ef59531547206cc75d464c711bb5f58c20"
+  },
+  "relations_rejected": 75,
+  "sueda_relations_status": "source_assisted_review_complete"
+}
