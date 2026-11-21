@@ -93,6 +93,21 @@ python evaluation/compute_agreement.py \
   evaluation/annotator-b.json
 ```
 
+For fillable human workbooks, use the CSV generator:
+
+```bash
+python evaluation/build_human_workbooks.py
+```
+
+Sueda Sen and Mehmet Aksit must fill separate evidence, entity, and relation
+CSV files without seeing each other's labels. Calculate evidence agreement:
+
+```bash
+python evaluation/csv_agreement.py \
+  evaluation/human-workbooks/sueda-evidence.csv \
+  evaluation/human-workbooks/mehmet-evidence.csv
+```
+
 Primary success, from the proposal: temporal multi-hop accuracy above the strongest non-graph baseline, unsupported claims below 10%, and valid evidence for at least 90% of factual answer claims.
 
 Do not mix a live collection run with a scored evaluation snapshot.
