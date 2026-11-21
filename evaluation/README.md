@@ -4,11 +4,14 @@ Frozen test snapshots, annotations, classical/modern comparisons, ablations, met
 
 ## Sueda Sen — evaluation design
 
-The scored experiments are not run yet. This folder freezes the design so later annotation and retrieval work use the same rules.
+The first complete retrieval set contains 28 questions: temporal multi-hop,
+evidence-state, and insufficient-evidence cases. The questions are frozen before
+scoring. Additions require a documented revision and must not change an existing
+question identifier or its expected behavior.
 
 | File | Purpose |
 |---|---|
-| `questions.seed.json` | Pilot questions, abstention cases, metric names, and success thresholds |
+| `questions.seed.json` | Final retrieval set, abstention cases, metric names, and success thresholds |
 | `annotation_guidelines.json` | Entity/relation types, span rule, and the three clocks |
 
 Primary success, from the proposal: temporal multi-hop accuracy above the strongest non-graph baseline, unsupported claims below 10%, and valid evidence for at least 90% of factual answer claims.

@@ -60,6 +60,160 @@
       "question": "Which company in the cohort will have the highest valuation in 2027?",
       "expected_behavior": "abstain",
       "needs": []
+    },
+    {
+      "question_id": "q-langchain-github-since-september",
+      "type": "temporal_multihop",
+      "question": "Did LangChain commit activity and hiring both rise since September?",
+      "expected_behavior": "answer_if_both_signals_else_qualify",
+      "needs": ["github", "jobs"]
+    },
+    {
+      "question_id": "q-crewai-activity-eight-weeks",
+      "type": "temporal",
+      "question": "Did CrewAI repository activity rise during the last eight weeks?",
+      "expected_behavior": "answer_with_valid_time",
+      "needs": ["github"]
+    },
+    {
+      "question_id": "q-startups-multi-signal-ten-weeks",
+      "type": "temporal_multihop",
+      "question": "Which startups combined hiring and repository growth over the last ten weeks?",
+      "expected_behavior": "answer_if_both_signals_else_qualify",
+      "needs": ["github", "jobs"]
+    },
+    {
+      "question_id": "q-funding-after-hiring",
+      "type": "temporal_multihop",
+      "question": "Did companies that raised funding later increase hiring for retrieval or evaluation roles?",
+      "expected_behavior": "answer_with_valid_time_path",
+      "needs": ["funding", "jobs"]
+    },
+    {
+      "question_id": "q-sector-multi-origin",
+      "type": "temporal_multihop",
+      "question": "Which cohort sectors received attention from at least two independent origins?",
+      "expected_behavior": "require_independent_origins",
+      "needs": ["public_voice", "news"]
+    },
+    {
+      "question_id": "q-company-slowed-commits",
+      "type": "temporal",
+      "question": "Which companies showed declining repository activity during the last month?",
+      "expected_behavior": "answer_with_valid_time",
+      "needs": ["github"]
+    },
+    {
+      "question_id": "q-llamaindex-retrieval-postings",
+      "type": "temporal",
+      "question": "Did LlamaIndex add retrieval roles in the latest observed quarter?",
+      "expected_behavior": "answer_if_supported_else_qualify",
+      "needs": ["jobs"]
+    },
+    {
+      "question_id": "q-e2b-sandbox-coverage",
+      "type": "temporal",
+      "question": "How did news and public-voice coverage of E2B sandbox infrastructure change over the frozen window?",
+      "expected_behavior": "answer_with_valid_time",
+      "needs": ["news", "public_voice"]
+    },
+    {
+      "question_id": "q-browserbase-agent-activity",
+      "type": "temporal_multihop",
+      "question": "Did Browserbase combine rising GitHub activity with public attention to browser automation?",
+      "expected_behavior": "answer_if_both_signals_else_qualify",
+      "needs": ["github", "public_voice"]
+    },
+    {
+      "question_id": "q-composio-tool-postings",
+      "type": "temporal",
+      "question": "Did Composio increase postings for agent-tooling or developer-platform roles?",
+      "expected_behavior": "answer_if_supported_else_qualify",
+      "needs": ["jobs"]
+    },
+    {
+      "question_id": "q-letta-memory-coverage",
+      "type": "evidence_state",
+      "question": "What evidence supports or weakens claims about Letta's agent-memory product?",
+      "expected_behavior": "explain_ledger_state",
+      "needs": ["evidence_ledger", "news", "github"]
+    },
+    {
+      "question_id": "q-langfuse-observability-signals",
+      "type": "temporal_multihop",
+      "question": "Did Langfuse show growth in GitHub activity and LLM-observability hiring?",
+      "expected_behavior": "answer_if_both_signals_else_qualify",
+      "needs": ["github", "jobs"]
+    },
+    {
+      "question_id": "q-haystack-rag-hiring",
+      "type": "temporal",
+      "question": "Did deepset add RAG or NLP engineering roles during the collection window?",
+      "expected_behavior": "answer_if_supported_else_qualify",
+      "needs": ["jobs"]
+    },
+    {
+      "question_id": "q-funding-before-github-growth",
+      "type": "temporal_multihop",
+      "question": "For companies with funding announcements, did GitHub activity rise afterward?",
+      "expected_behavior": "answer_with_valid_time_path",
+      "needs": ["funding", "github"]
+    },
+    {
+      "question_id": "q-missing-funding-langsmith",
+      "type": "insufficient",
+      "question": "Which investor led LangSmith's latest funding round?",
+      "expected_behavior": "abstain_if_not_in_snapshot",
+      "needs": ["funding"]
+    },
+    {
+      "question_id": "q-outside-collection-window",
+      "type": "insufficient",
+      "question": "What was CrewAI's market share before the 2025-11-01 collection window?",
+      "expected_behavior": "abstain",
+      "needs": []
+    },
+    {
+      "question_id": "q-future-acquisition",
+      "type": "insufficient",
+      "question": "Which cohort company will acquire a retrieval startup next year?",
+      "expected_behavior": "abstain",
+      "needs": []
+    },
+    {
+      "question_id": "q-undocumented-private-metrics",
+      "type": "insufficient",
+      "question": "What private revenue growth did LangChain achieve in the latest quarter?",
+      "expected_behavior": "abstain",
+      "needs": []
+    },
+    {
+      "question_id": "q-emerging-change-label",
+      "type": "evidence_state",
+      "question": "Why might a company claim remain emerging after one positive source?",
+      "expected_behavior": "explain_ledger_state",
+      "needs": ["evidence_ledger"]
+    },
+    {
+      "question_id": "q-disputed-technical-claim",
+      "type": "evidence_state",
+      "question": "What evidence would change a technical company claim from corroborated to disputed?",
+      "expected_behavior": "explain_ledger_state",
+      "needs": ["evidence_ledger"]
+    },
+    {
+      "question_id": "q-stale-source-label",
+      "type": "evidence_state",
+      "question": "Why should an old hiring claim be marked stale instead of corroborated?",
+      "expected_behavior": "explain_ledger_state",
+      "needs": ["evidence_ledger", "jobs"]
+    },
+    {
+      "question_id": "q-independent-origin-definition",
+      "type": "evidence_state",
+      "question": "Would syndicated copies of the same funding article count as independent origins?",
+      "expected_behavior": "explain_origin_rule",
+      "needs": ["evidence_ledger"]
     }
   ],
   "metrics": {

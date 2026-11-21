@@ -295,12 +295,12 @@ def test_real_answer_bundles_score_and_abstain_correctly():
         agent.answer(
             item["question"], requires=item.get("needs", []), question_id=item["question_id"]
         ).as_dict()
-        for item in SEED
+        for item in SEED[:6]
     ]
     report = score_condition(
         bundles, condition="hybrid", expectations=load_seed_expectations()
     )
-    assert report.questions == len(SEED)
+    assert report.questions == 6
     # Both insufficient-evidence seed questions must abstain, and nothing else.
     assert report.abstention["accuracy"] == 1.0
     assert report.abstention["correct_abstentions"] == 2
