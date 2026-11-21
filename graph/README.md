@@ -85,6 +85,15 @@ The demo reports per-company observed claims, funding announcements, public job
 postings, repositories, skills, and technologies. Its output explicitly avoids
 converting listings into hires or temporal co-occurrence into causality.
 
+To view the checked-in dashboard:
+
+```bash
+cd evaluation/mixed/real-graph-integration
+python -m http.server 8770 --bind 127.0.0.1
+```
+
+Then open `http://127.0.0.1:8770/demo.html`.
+
 The loader applies `constraints.cypher`, executes the parameterized import
 statements, and verifies the `SourceRecord` node count. Override the local
 defaults with `NEO4J_URI`, `NEO4J_USERNAME`, `NEO4J_PASSWORD`, or
