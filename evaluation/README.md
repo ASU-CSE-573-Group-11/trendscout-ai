@@ -59,6 +59,19 @@ This creates empty `not_started` files with every unique item ID listed as
 pending. It does not create or guess labels. Mark each file `"status": "complete"`
 only after that annotator has independently populated all shared annotations.
 
+For a clearly marked pilot draft, Copilot can generate conservative labels
+without representing them as human judgments:
+
+```bash
+python evaluation/create_copilot_annotation_draft.py \
+  tests/fixtures/faisal/snapshot_records.jsonl \
+  evaluation/annotation-worklist.json
+```
+
+Generated draft files must keep `"status": "simulated"` and
+`"not_human_annotation": true`. They must not be supplied to the Cohen kappa
+calculator as independent human annotators.
+
 Calculate agreement only after both files contain their independent labels:
 
 ```bash
