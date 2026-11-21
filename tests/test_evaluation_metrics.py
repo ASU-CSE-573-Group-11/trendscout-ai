@@ -25,6 +25,7 @@ from evaluation.metrics import (
 )
 from faisal_snapshot import snapshot_records
 from interface.agent import AgentConfig, TrendScoutAgent
+from evaluation.build_annotation_worklist import build_worklist
 
 SEED = json.loads(__import__("pathlib").Path("evaluation/questions.seed.json").read_text(encoding="utf-8"))["questions"]
 
@@ -41,6 +42,27 @@ def test_cohen_kappa_requires_shared_items_and_reports_perfect_agreement():
 def test_cohen_kappa_rejects_disjoint_annotation_sets():
     with pytest.raises(ValueError, match="no shared item ids"):
         cohen_kappa({"item-1": "emerging"}, {"item-2": "corroborated"})
+
+
+def test_annotation_worklist_uses_stable_record_ids():
+    items = build_worklist([{
+        "record_id": "record-1",
+        "source_record_id": "source-1",
+        "title": "Title",
+        "text": "Supporting passage",
+        "event_at": None,
+        "published_at": "2026-10-01T00:00:00Z",
+        "observed_at": "2026-10-02T00:00:00Z",
+    }])
+    assert items == [{
+        "item_id": "annotation:record-1",
+        "record_id": "record-1",
+        "document_id": "source-1",
+        "span_text": "Title\nSupporting passage",
+        "event_at": None,
+        "published_at": "2026-10-01T00:00:00Z",
+        "observed_at": "2026-10-02T00:00:00Z",
+    }]
 
 
 def bundle(

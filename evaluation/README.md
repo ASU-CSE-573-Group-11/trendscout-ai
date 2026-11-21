@@ -32,6 +32,18 @@ Each independent run is a JSON object containing an `annotations` map:
 }
 ```
 
+To generate a stable item worklist from one frozen snapshot:
+
+```bash
+python evaluation/build_annotation_worklist.py \
+  tests/fixtures/faisal/snapshot_records.jsonl \
+  --out evaluation/annotation-worklist.json
+```
+
+The generated file contains record IDs, exact title/text spans, and the three
+time fields. It does not assign labels; annotators must label each item
+independently before Cohen's kappa is calculated.
+
 Calculate agreement only after both files contain their independent labels:
 
 ```bash
