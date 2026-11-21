@@ -1,0 +1,85 @@
+{
+  "status": "adjudicated",
+  "method": "team_source_assisted_adjudication_after_blind_second_review",
+  "adjudicator": "Project team (session-confirmed, source-assisted resolution)",
+  "decision_source": "Project session accepted the presented source-based resolution and requested finalization.",
+  "adjudicated_at": "2026-11-21T09:24:36Z",
+  "task_key": {
+    "q-pilot-github-mlops": {
+      "expected_state": "insufficient",
+      "accepted_behaviors": [
+        "abstain",
+        "qualify_with_missing_evidence"
+      ],
+      "evidence_requirement": "State the specific evidence absent from the frozen release corpus. Do not infer funding, hiring, independent attention, or future valuations from release notes.",
+      "grading_scope": "Frozen release-document corpus, not claims about the outside world.",
+      "source": "manifest.json",
+      "adjudication_reason": "The frozen pilot corpus contains software releases, not dated commit-count windows and MLOps job-board observations. It cannot establish joint activity and hiring growth."
+    },
+    "q-investors-later-hiring": {
+      "expected_state": "insufficient",
+      "accepted_behaviors": [
+        "abstain",
+        "qualify_with_missing_evidence"
+      ],
+      "evidence_requirement": "State the specific evidence absent from the frozen release corpus. Do not infer funding, hiring, independent attention, or future valuations from release notes.",
+      "grading_scope": "Frozen release-document corpus, not claims about the outside world.",
+      "source": "manifest.json",
+      "adjudication_reason": "The frozen pilot corpus has no funding-round and subsequent hiring-stock evidence needed to link investors to later retrieval/evaluation hiring growth."
+    },
+    "q-sector-attention": {
+      "expected_state": "insufficient",
+      "accepted_behaviors": [
+        "abstain",
+        "qualify_with_missing_evidence"
+      ],
+      "evidence_requirement": "State the specific evidence absent from the frozen release corpus. Do not infer funding, hiring, independent attention, or future valuations from release notes.",
+      "grading_scope": "Frozen release-document corpus, not claims about the outside world.",
+      "source": "manifest.json",
+      "adjudication_reason": "Company release notes do not supply the required independent public-voice coverage. The shared evidence policy does not supply those missing observations."
+    },
+    "q-why-emerging": {
+      "expected_state": "emerging",
+      "accepted_behaviors": [
+        "explain_policy_with_missing_company_specific_evidence"
+      ],
+      "evidence_requirement": "Explain the one-origin emerging rule and independent-corroboration requirement.",
+      "grading_scope": "Frozen release-document corpus, not claims about the outside world.",
+      "source": "sueda-review/pilot-evidence-policy.md",
+      "adjudication_reason": "The question asks why the emerging label applies and how it can change. The shared policy defines emerging as one independent document/operational signal. Explaining that rule is distinct from establishing a particular company's factual state."
+    },
+    "q-unsupported-acquisition": {
+      "expected_state": "insufficient",
+      "accepted_behaviors": [
+        "abstain"
+      ],
+      "evidence_requirement": "State the specific evidence absent from the frozen release corpus. Do not infer funding, hiring, independent attention, or future valuations from release notes.",
+      "grading_scope": "Frozen release-document corpus, not claims about the outside world.",
+      "source": "manifest.json",
+      "adjudication_reason": "No acquisition evidence is present in the frozen release corpus. Under the policy, disputed requires credible conflicting evidence; missing support alone means insufficient."
+    },
+    "q-future-performance": {
+      "expected_state": "insufficient",
+      "accepted_behaviors": [
+        "abstain"
+      ],
+      "evidence_requirement": "State the specific evidence absent from the frozen release corpus. Do not infer funding, hiring, independent attention, or future valuations from release notes.",
+      "grading_scope": "Frozen release-document corpus, not claims about the outside world.",
+      "source": "manifest.json",
+      "adjudication_reason": "The frozen sources cannot establish which company will have the highest valuation in 2027. The policy forbids converting trend scores into objective future-performance claims."
+    }
+  },
+  "original_rubric_preserved": true,
+  "second_review_preserved": true,
+  "state_disagreements_resolved": 6,
+  "external_independent_assessor": false,
+  "scope": "Six frozen pilot tasks only; does not attest entity/relation annotation agreement.",
+  "input_sha256": {
+    "pilot-session/task-key-second-review.json": "fd69dd0fde282c9693616088c5242e2e3b5b8ae113cf8a8339f4f06cd8bbe1fa",
+    "sueda-review/pilot-evidence-policy.md": "517bfa30134f13e9f5a3245d017959d66f0629d78b2c8cab8d9b3c2eb2e094f1",
+    "records.jsonl": "587d3128ef445f1b17d6ac711be64f5491679e41494ac0506114b1cf53b40d30",
+    "pilot-session/protocol.json": "a60f5c19f735a38e9446b568754d0ebcbfceb8a35b20c1fdb9a579e0348afb36",
+    "pilot-session/responses.json": "84eb5d91585943106b346c3597b3bbe54df7652ac779cf533b062c409d32de8e",
+    "pilot-session/task-key-adjudication-proposal.json": "80aebbe4bd0d9b3ce7f00d1e5f6e66a508d0b3ee528a5b66d9d1009dd2827aa9"
+  }
+}

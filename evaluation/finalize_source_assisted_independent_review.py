@@ -87,6 +87,8 @@ def main(argv: Sequence[str] | None = None) -> int:
                     ),
                     "recorded_at": now,
                     "personal_independence_confirmation": False,
+                    "personal_independence_confirmed_by": "",
+                    "personal_independence_confirmed_at": None,
                     "review_source": "team_authorized_source_assisted",
                 }
             data["decisions"][kind] = decisions

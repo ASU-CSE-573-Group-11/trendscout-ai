@@ -1,0 +1,975 @@
+{
+  "input_sha256": "37275993b383d078f93e8753dda4851e9267b2326cacc37586a86609dcfd9d2d",
+  "source_records_sha256": "587d3128ef445f1b17d6ac711be64f5491679e41494ac0506114b1cf53b40d30",
+  "base_common_candidate_items_sha256": "ddd9278c69627f7b61d7c02f229d80c455351aeb67cdd94efb404b6a1606d7c4",
+  "patches": [
+    {
+      "row_index": 127,
+      "item_id": "relation:0237b72c-c6e8-572b-b9ed-787658d33906:entity:124",
+      "span_text": "s - Allow approved private URL hosts. ### Bug Fixes - Fix projects to depend on PyMuPDF 2.x. - Drop a real storage URL from the URL read tests. - Keep earlier step out",
+      "notes": "Document source-review expansion; exact independent human validation still required. Supporting passage restored from frozen source; supplemental source-review item, outside the original shared candidate pool."
+    },
+    {
+      "row_index": 128,
+      "item_id": "relation:0237b72c-c6e8-572b-b9ed-787658d33906:entity:125",
+      "span_text": "## What's Changed ### Features - Allow approved private URL hosts. ### Bug Fixes - Fix projects to depend on PyMuPDF 2.x. - Drop a real sto",
+      "notes": "Document source-review expansion; exact independent human validation still required. Supporting passage restored from frozen source; supplemental source-review item, outside the original shared candidate pool."
+    },
+    {
+      "row_index": 129,
+      "item_id": "relation:06472cb8-466e-55fe-a85a-f421fe1d9706:entity:126",
+      "span_text": "pport for LiteLLM-compatible kwargs. - Implement platform application search in CLI. - Highlight action picker search in CLI. - Trace conversation routes and publi",
+      "notes": "Document source-review expansion; exact independent human validation still required. Supporting passage restored from frozen source; supplemental source-review item, outside the original shared candidate pool."
+    },
+    {
+      "row_index": 130,
+      "item_id": "relation:06472cb8-466e-55fe-a85a-f421fe1d9706:entity:127",
+      "span_text": "## What's Changed ### Features - Add support for LiteLLM-compatible kwargs. - Implement platform application search in CLI. - Highlight action pick",
+      "notes": "Document source-review expansion; exact independent human validation still required. Supporting passage restored from frozen source; supplemental source-review item, outside the original shared candidate pool."
+    },
+    {
+      "row_index": 131,
+      "item_id": "relation:06472cb8-466e-55fe-a85a-f421fe1d9706:entity:128",
+      "span_text": " platform application search in CLI. - Highlight action picker search in CLI. - Trace conversation routes and public replies in flow. - Select organization during lo",
+      "notes": "Document source-review expansion; exact independent human validation still required. Supporting passage restored from frozen source; supplemental source-review item, outside the original shared candidate pool."
+    },
+    {
+      "row_index": 132,
+      "item_id": "relation:069611a3-38bc-5c01-aeb3-0b1b2e0fde76:entity:129",
+      "span_text": "run-llama/llama_index/pull/20411)) - test(node_parser): add unit tests for Java CodeSplitter ([#20423](https://github.com/run-llama/llama_index/pull/20423)) - fix: crash in",
+      "notes": "Document source-review expansion; exact independent human validation still required. Supporting passage restored from frozen source; supplemental source-review item, outside the original shared candidate pool."
+    },
+    {
+      "row_index": 133,
+      "item_id": "relation:069611a3-38bc-5c01-aeb3-0b1b2e0fde76:entity:130",
+      "span_text": " schema names ([#20371](https://github.com/run-llama/llama_index/pull/20371)) - Element node parser ([#20399](https://github.com/run-llama/llama_index/pull/20399)) - i",
+      "notes": "Document source-review expansion; exact independent human validation still required. Supporting passage restored from frozen source; supplemental source-review item, outside the original shared candidate pool."
+    },
+    {
+      "row_index": 134,
+      "item_id": "relation:069611a3-38bc-5c01-aeb3-0b1b2e0fde76:entity:131",
+      "span_text": ".com/run-llama/llama_index/pull/20411)) - test(node_parser): add unit tests for Java CodeSplitter ([#20423](https://github.com/run-llama/llama_index/pull/20423)) - ",
+      "notes": "Document source-review expansion; exact independent human validation still required. Supporting passage restored from frozen source; supplemental source-review item, outside the original shared candidate pool."
+    },
+    {
+      "row_index": 135,
+      "item_id": "relation:069611a3-38bc-5c01-aeb3-0b1b2e0fde76:entity:132",
+      "span_text": "port ([#20338](https://github.com/run-llama/llama_index/pull/20338)) - Improve `MockFunctionCallingLLM` ([#20356](https://github.com/run-llama/llama_index/pull/20356)) - fix(openai):",
+      "notes": "Document source-review expansion; exact independent human validation still required. Supporting passage restored from frozen source; supplemental source-review item, outside the original shared candidate pool."
+    },
+    {
+      "row_index": 136,
+      "item_id": "relation:069611a3-38bc-5c01-aeb3-0b1b2e0fde76:entity:133",
+      "span_text": "//github.com/run-llama/llama_index/pull/20356)) - fix(openai): sanitize generic Pydantic model schema names ([#20371](https://github.com/run-llama/llama_index/pull/2037",
+      "notes": "Document source-review expansion; exact independent human validation still required. Supporting passage restored from frozen source; supplemental source-review item, outside the original shared candidate pool."
+    },
+    {
+      "row_index": 137,
+      "item_id": "relation:0c11509e-28a4-5b8d-8bd4-842c5907f911:entity:134",
+      "span_text": "are the async HTTP client between models (#41944) feat(openai): support GPT-6.2 Astra and Sol (#41922) feat(openai): send `langsmith_gateway` headers from the client",
+      "notes": "Document source-review expansion; exact independent human validation still required. Supporting passage restored from frozen source; supplemental source-review item, outside the original shared candidate pool."
+    },
+    {
+      "row_index": 138,
+      "item_id": "relation:0c11509e-28a4-5b8d-8bd4-842c5907f911:entity:135",
+      "span_text": "ync HTTP client between models (#41944) feat(openai): support GPT-6.2 Astra and Sol (#41922) feat(openai): send `langsmith_gateway` headers from the client (#41901",
+      "notes": "Document source-review expansion; exact independent human validation still required. Supporting passage restored from frozen source; supplemental source-review item, outside the original shared candidate pool."
+    },
+    {
+      "row_index": 139,
+      "item_id": "relation:10cffd6e-20f7-5519-9263-25508f533184:entity:136",
+      "span_text": "ma_index/pull/22155)) - fix: honor agent structured_output_fn/output_cls inside AgentWorkflow ([#22162](https://github.com/run-llama/llama_index/pull/22162)) - fix(core): us",
+      "notes": "Document source-review expansion; exact independent human validation still required. Supporting passage restored from frozen source; supplemental source-review item, outside the original shared candidate pool."
+    },
+    {
+      "row_index": 140,
+      "item_id": "relation:10cffd6e-20f7-5519-9263-25508f533184:entity:137",
+      "span_text": "un-llama/llama_index/pull/22113)) - fix(core): preserve oversized leaf nodes in CodeSplitter ([#22119](https://github.com/run-llama/llama_index/pull/22119)) - fix: preserve",
+      "notes": "Document source-review expansion; exact independent human validation still required. Supporting passage restored from frozen source; supplemental source-review item, outside the original shared candidate pool."
+    },
+    {
+      "row_index": 141,
+      "item_id": "relation:10cffd6e-20f7-5519-9263-25508f533184:entity:138",
+      "span_text": "/github.com/run-llama/llama_index/pull/22124)) - fix(core): skip empty nodes in HTMLNodeParser ([#22125](https://github.com/run-llama/llama_index/pull/22125)) - fix(core): re",
+      "notes": "Document source-review expansion; exact independent human validation still required. Supporting passage restored from frozen source; supplemental source-review item, outside the original shared candidate pool."
+    },
+    {
+      "row_index": 142,
+      "item_id": "relation:10cffd6e-20f7-5519-9263-25508f533184:entity:139",
+      "span_text": "ub.com/run-llama/llama_index/pull/22126)) - fix: keep all nodes per document in IngestionPipeline upserts (re-submit of #22046, not a dup of #21456) ([#22133](https://github.com",
+      "notes": "Document source-review expansion; exact independent human validation still required. Supporting passage restored from frozen source; supplemental source-review item, outside the original shared candidate pool."
+    },
+    {
+      "row_index": 143,
+      "item_id": "relation:10cffd6e-20f7-5519-9263-25508f533184:entity:140",
+      "span_text": ".com/run-llama/llama_index/pull/22125)) - fix(core): respect mmr_threshold=0 in MMR embedding search ([#22126](https://github.com/run-llama/llama_index/pull/22126)",
+      "notes": "Document source-review expansion; exact independent human validation still required. Supporting passage restored from frozen source; supplemental source-review item, outside the original shared candidate pool."
+    },
+    {
+      "row_index": 144,
+      "item_id": "relation:10cffd6e-20f7-5519-9263-25508f533184:entity:141",
+      "span_text": "135](https://github.com/run-llama/llama_index/pull/22135)) - fix(core): default MetadataFilters condition to AND when None ([#22155](https://github.com/run-llama/llama_index/p",
+      "notes": "Document source-review expansion; exact independent human validation still required. Supporting passage restored from frozen source; supplemental source-review item, outside the original shared candidate pool."
+    },
+    {
+      "row_index": 145,
+      "item_id": "relation:10cffd6e-20f7-5519-9263-25508f533184:entity:142",
+      "span_text": "a_index/pull/22162)) - fix(core): use word tokenization for stopword removal in SemanticDoubleMergingSplitterNodeParser ([#22167](https://github.com/run-llama/llama_index/pull/22167)) - fix(core): re",
+      "notes": "Document source-review expansion; exact independent human validation still required. Supporting passage restored from frozen source; supplemental source-review item, outside the original shared candidate pool."
+    },
+    {
+      "row_index": 146,
+      "item_id": "relation:1c4c310c-0a70-559e-9f57-32cc804766dc:entity:143",
+      "span_text": "0995](https://github.com/run-llama/llama_index/pull/20995)) - fix: preserve non-ASCII schema descriptions in `PydanticOutputParser` ([#21016](https://github.com/run-",
+      "notes": "Document source-review expansion; exact independent human validation still required. Supporting passage restored from frozen source; supplemental source-review item, outside the original shared candidate pool."
+    },
+    {
+      "row_index": 147,
+      "item_id": "relation:1c4c310c-0a70-559e-9f57-32cc804766dc:entity:144",
+      "span_text": " ### llama-index-llms-anthropic [0.11.1] - Bugfix: Pydantic validation error in AnthropicCompletionResponse ([#21027](https://github.com/run-llama/llama_index/pull/21027)) ### llama-index",
+      "notes": "Document source-review expansion; exact independent human validation still required. Supporting passage restored from frozen source; supplemental source-review item, outside the original shared candidate pool."
+    },
+    {
+      "row_index": 148,
+      "item_id": "relation:1c4c310c-0a70-559e-9f57-32cc804766dc:entity:145",
+      "span_text": "om/run-llama/llama_index/pull/20956)) ### llama-index-llms-anthropic [0.11.1] - Bugfix: Pydantic validation error in AnthropicCompletionResponse ([#21027](https://git",
+      "notes": "Document source-review expansion; exact independent human validation still required. Supporting passage restored from frozen source; supplemental source-review item, outside the original shared candidate pool."
+    },
+    {
+      "row_index": 149,
+      "item_id": "relation:1c4c310c-0a70-559e-9f57-32cc804766dc:entity:146",
+      "span_text": "om/run-llama/llama_index/pull/20897)) - fix: guard against ZeroDivisionError in LlamaDebugHandler.\\_get_time_stats_from_event_pairs ([#20937](https://github.com/run-llama/llama_",
+      "notes": "Document source-review expansion; exact independent human validation still required. Supporting passage restored from frozen source; supplemental source-review item, outside the original shared candidate pool."
+    },
+    {
+      "row_index": 150,
+      "item_id": "relation:1c4c310c-0a70-559e-9f57-32cc804766dc:entity:147",
+      "span_text": "_index/pull/20978)) - feat(bedrock-converse): Set context window size to 1M for Opus 4.6 & Sonnet 4.6 ([#20982](https://github.com/run-llama/llama_index/pull/20982)",
+      "notes": "Document source-review expansion; exact independent human validation still required. Supporting passage restored from frozen source; supplemental source-review item, outside the original shared candidate pool."
+    },
+    {
+      "row_index": 151,
+      "item_id": "relation:1c4c310c-0a70-559e-9f57-32cc804766dc:entity:148",
+      "span_text": "lama/llama_index/pull/20995)) - fix: preserve non-ASCII schema descriptions in `PydanticOutputParser` ([#21016](https://github.com/run-llama/llama_index/pull/21016)) - ",
+      "notes": "Document source-review expansion; exact independent human validation still required. Supporting passage restored from frozen source; supplemental source-review item, outside the original shared candidate pool."
+    },
+    {
+      "row_index": 152,
+      "item_id": "relation:1c4c310c-0a70-559e-9f57-32cc804766dc:entity:149",
+      "span_text": "lama/llama_index/pull/20995)) - fix: preserve non-ASCII schema descriptions in `PydanticOutputParser` ([#21016](https://github.com/run-llama/llama_index/pull/21016)) - chore(deps):",
+      "notes": "Document source-review expansion; exact independent human validation still required. Supporting passage restored from frozen source; supplemental source-review item, outside the original shared candidate pool."
+    },
+    {
+      "row_index": 153,
+      "item_id": "relation:1e019eee-8a64-550c-8be9-909aa92dfecc:entity:150",
+      "span_text": " ### Bug Fixes - Update vulnerable audit dependencies. - Stop sending 'stop' to GPT-6 and newer models. - Run the provider listing off the loop in `acleanup_provider",
+      "notes": "Document source-review expansion; exact independent human validation still required. Supporting passage restored from frozen source; supplemental source-review item, outside the original shared candidate pool."
+    },
+    {
+      "row_index": 154,
+      "item_id": "relation:1e019eee-8a64-550c-8be9-909aa92dfecc:entity:151",
+      "span_text": ". - Run the provider listing off the loop in `acleanup_provider_files`. - Emit `LLMGuardrailCompletedEvent` for a malformed guardrail result. - Name the renamed integration token when it",
+      "notes": "Document source-review expansion; exact independent human validation still required. Supporting passage restored from frozen source; supplemental source-review item, outside the original shared candidate pool."
+    },
+    {
+      "row_index": 155,
+      "item_id": "relation:22bb8ed5-a41a-577c-8c5a-bfc389927a71:entity:152",
+      "span_text": "/github.com/run-llama/llama_index/pull/21111)) - Fix Breaking Change in Message Block Buffer Resolution ([#21339](https://github.com/run-llama/llama_index/pull/21339",
+      "notes": "Document source-review expansion; exact independent human validation still required. Supporting passage restored from frozen source; supplemental source-review item, outside the original shared candidate pool."
+    },
+    {
+      "row_index": 156,
+      "item_id": "relation:22bb8ed5-a41a-577c-8c5a-bfc389927a71:entity:153",
+      "span_text": "n() calls ([#21111](https://github.com/run-llama/llama_index/pull/21111)) - Fix Breaking Change in Message Block Buffer Resolution ([#21339](https://github.com/run-llam",
+      "notes": "Document source-review expansion; exact independent human validation still required. Supporting passage restored from frozen source; supplemental source-review item, outside the original shared candidate pool."
+    },
+    {
+      "row_index": 157,
+      "item_id": "relation:22bb8ed5-a41a-577c-8c5a-bfc389927a71:entity:154",
+      "span_text": "pull/21394)) ### llama-index-core [0.14.21] - fix(core): prevent `KeyError` in `DocumentSummaryIndex.delete_nodes` when invalid node ID is provided ([#21067](https://github.com/run-llama/llama_",
+      "notes": "Document source-review expansion; exact independent human validation still required. Supporting passage restored from frozen source; supplemental source-review item, outside the original shared candidate pool."
+    },
+    {
+      "row_index": 158,
+      "item_id": "relation:22bb8ed5-a41a-577c-8c5a-bfc389927a71:entity:155",
+      "span_text": "(https://github.com/run-llama/llama_index/pull/21111)) - Fix Breaking Change in Message Block Buffer Resolution ([#21339](https://github.com/run-llama/llama_index/pull",
+      "notes": "Document source-review expansion; exact independent human validation still required. Supporting passage restored from frozen source; supplemental source-review item, outside the original shared candidate pool."
+    },
+    {
+      "row_index": 159,
+      "item_id": "relation:22bb8ed5-a41a-577c-8c5a-bfc389927a71:entity:156",
+      "span_text": "ub.com/run-llama/llama_index/pull/21067)) - fix(core): handle `ValueError` and `TypeError` from structured output failures ([#21090](https://github.com/run-llama/llama_i",
+      "notes": "Document source-review expansion; exact independent human validation still required. Supporting passage restored from frozen source; supplemental source-review item, outside the original shared candidate pool."
+    },
+    {
+      "row_index": 160,
+      "item_id": "relation:22bb8ed5-a41a-577c-8c5a-bfc389927a71:entity:157",
+      "span_text": "1090](https://github.com/run-llama/llama_index/pull/21090)) - fix: add explicit UTF-8 encoding to persistence layer fs.open() calls ([#21111](https://github.com/run-",
+      "notes": "Document source-review expansion; exact independent human validation still required. Supporting passage restored from frozen source; supplemental source-review item, outside the original shared candidate pool."
+    },
+    {
+      "row_index": 161,
+      "item_id": "relation:22bb8ed5-a41a-577c-8c5a-bfc389927a71:entity:158",
+      "span_text": "067](https://github.com/run-llama/llama_index/pull/21067)) - fix(core): handle `ValueError` and `TypeError` from structured output failures ([#21090](https://github.com/r",
+      "notes": "Document source-review expansion; exact independent human validation still required. Supporting passage restored from frozen source; supplemental source-review item, outside the original shared candidate pool."
+    },
+    {
+      "row_index": 162,
+      "item_id": "relation:2b2e01ab-3caa-5c24-8f11-a25f81266c38:entity:159",
+      "span_text": "24](https://github.com/run-llama/llama_index/pull/21424)) - fix(memory): handle DocumentBlock in Memory.\\_estimate_token_count ([#21529](https://github.com/run-llama/llama_i",
+      "notes": "Document source-review expansion; exact independent human validation still required. Supporting passage restored from frozen source; supplemental source-review item, outside the original shared candidate pool."
+    },
+    {
+      "row_index": 163,
+      "item_id": "relation:2b2e01ab-3caa-5c24-8f11-a25f81266c38:entity:160",
+      "span_text": "x/pull/21638)) ### llama-index-core [0.14.22] - fix(instrumentation): let SparseEmbeddingStartEvent inherit EmbeddingStartEvent ([#21119](https://github.com/run-llama/llama_index/",
+      "notes": "Document source-review expansion; exact independent human validation still required. Supporting passage restored from frozen source; supplemental source-review item, outside the original shared candidate pool."
+    },
+    {
+      "row_index": 164,
+      "item_id": "relation:2b2e01ab-3caa-5c24-8f11-a25f81266c38:entity:161",
+      "span_text": "lama/llama_index/pull/21529)) - fix: propagate contextvars in sync_to_async for FunctionTool ([#21558](https://github.com/run-llama/llama_index/pull/21558)) - mass uv lock ",
+      "notes": "Document source-review expansion; exact independent human validation still required. Supporting passage restored from frozen source; supplemental source-review item, outside the original shared candidate pool."
+    },
+    {
+      "row_index": 165,
+      "item_id": "relation:2b2e01ab-3caa-5c24-8f11-a25f81266c38:entity:162",
+      "span_text": "lama_index/pull/21133)) - Preserve cache writes from multiprocessing workers in IngestionPipeline ([#21301](https://github.com/run-llama/llama_index/pull/21301)) - feat(core): M",
+      "notes": "Document source-review expansion; exact independent human validation still required. Supporting passage restored from frozen source; supplemental source-review item, outside the original shared candidate pool."
+    },
+    {
+      "row_index": 166,
+      "item_id": "relation:2b2e01ab-3caa-5c24-8f11-a25f81266c38:entity:163",
+      "span_text": "ub.com/run-llama/llama_index/pull/21374)) - fix: avoid mutating response.raw in LLM event model_dump methods ([#21424](https://github.com/run-llama/llama_index/pul",
+      "notes": "Document source-review expansion; exact independent human validation still required. Supporting passage restored from frozen source; supplemental source-review item, outside the original shared candidate pool."
+    },
+    {
+      "row_index": 167,
+      "item_id": "relation:2b2e01ab-3caa-5c24-8f11-a25f81266c38:entity:164",
+      "span_text": "b.com/run-llama/llama_index/pull/21424)) - fix(memory): handle DocumentBlock in Memory.\\_estimate_token_count ([#21529](https://github.com/run-llama/llama_index/pull/",
+      "notes": "Document source-review expansion; exact independent human validation still required. Supporting passage restored from frozen source; supplemental source-review item, outside the original shared candidate pool."
+    },
+    {
+      "row_index": 168,
+      "item_id": "relation:2b2e01ab-3caa-5c24-8f11-a25f81266c38:entity:165",
+      "span_text": "index/pull/21638)) ### llama-index-embeddings-mistralai [0.5.1] - \"fix: replace Mistral with MistralClient for mistralai>=2.0.0\" ([#21126](https://github.com/run-llama",
+      "notes": "Document source-review expansion; exact independent human validation still required. Supporting passage restored from frozen source; supplemental source-review item, outside the original shared candidate pool."
+    },
+    {
+      "row_index": 169,
+      "item_id": "relation:2b2e01ab-3caa-5c24-8f11-a25f81266c38:entity:166",
+      "span_text": "e ([#21301](https://github.com/run-llama/llama_index/pull/21301)) - feat(core): Multimodal synthesis ([#21374](https://github.com/run-llama/llama_index/pull/21374)) - fix",
+      "notes": "Document source-review expansion; exact independent human validation still required. Supporting passage restored from frozen source; supplemental source-review item, outside the original shared candidate pool."
+    },
+    {
+      "row_index": 170,
+      "item_id": "relation:2e151bf6-be06-5902-9cf5-578baf90e40c:entity:167",
+      "span_text": "run-llama/llama_index/pull/22855)) - chore: re-lock the 93 manifests with stuck Dependabot alerts ([#22921](https://github.com/run-llama/llama_index/pull/22921)) ### llam",
+      "notes": "Document source-review expansion; exact independent human validation still required. Supporting passage restored from frozen source; supplemental source-review item, outside the original shared candidate pool."
+    },
+    {
+      "row_index": 171,
+      "item_id": "relation:2e151bf6-be06-5902-9cf5-578baf90e40c:entity:168",
+      "span_text": "ed tool calls ([#22825](https://github.com/run-llama/llama_index/pull/22825)) - Fix: restore compact and refine streaming ([#22836](https://github.com/run-llama/ll",
+      "notes": "Document source-review expansion; exact independent human validation still required. Supporting passage restored from frozen source; supplemental source-review item, outside the original shared candidate pool."
+    },
+    {
+      "row_index": 172,
+      "item_id": "relation:2e151bf6-be06-5902-9cf5-578baf90e40c:entity:169",
+      "span_text": ") ### llama-index-core [0.14.25] - Remove deprecated ipex-llm and optimum-intel IPEX integrations ([#22406](https://github.com/run-llama/llama_index/pull/22406)) - ",
+      "notes": "Document source-review expansion; exact independent human validation still required. Supporting passage restored from frozen source; supplemental source-review item, outside the original shared candidate pool."
+    },
+    {
+      "row_index": 173,
+      "item_id": "relation:2e151bf6-be06-5902-9cf5-578baf90e40c:entity:170",
+      "span_text": "om/run-llama/llama_index/pull/22841)) - feat(core): add native async support to StructuredLLMRerank ([#22842](https://github.com/run-llama/llama_index/pull/22842)) - fix: resolve ",
+      "notes": "Document source-review expansion; exact independent human validation still required. Supporting passage restored from frozen source; supplemental source-review item, outside the original shared candidate pool."
+    },
+    {
+      "row_index": 174,
+      "item_id": "relation:359a37d1-8e4d-577c-b970-6ce59f8e9b0a:entity:171",
+      "span_text": "openai): 1.8.0 (#41841) feat(openai): add OpenAIClassifier for the GA Decisions API (#41787) chore(model-profiles): refresh model profile data (#41828) feat(partne",
+      "notes": "Document source-review expansion; exact independent human validation still required. Supporting passage restored from frozen source; supplemental source-review item, outside the original shared candidate pool."
+    },
+    {
+      "row_index": 175,
+      "item_id": "relation:359a37d1-8e4d-577c-b970-6ce59f8e9b0a:entity:172",
+      "span_text": "4 release(openai): 1.8.0 (#41841) feat(openai): add OpenAIClassifier for the GA Decisions API (#41787) chore(model-profiles): refresh model profile data (#41828) feat(pa",
+      "notes": "Document source-review expansion; exact independent human validation still required. Supporting passage restored from frozen source; supplemental source-review item, outside the original shared candidate pool."
+    },
+    {
+      "row_index": 176,
+      "item_id": "relation:359a37d1-8e4d-577c-b970-6ce59f8e9b0a:entity:173",
+      "span_text": "ore(model-profiles): refresh model profile data (#41828) feat(partners): Remove EOL'd Python 3.10 from partner packages (#41268)",
+      "notes": "Document source-review expansion; exact independent human validation still required. Supporting passage restored from frozen source; supplemental source-review item, outside the original shared candidate pool."
+    },
+    {
+      "row_index": 177,
+      "item_id": "relation:359a37d1-8e4d-577c-b970-6ce59f8e9b0a:entity:174",
+      "span_text": "since langchain-openai==1.7.4 release(openai): 1.8.0 (#41841) feat(openai): add OpenAIClassifier for the GA Decisions API (#41787) chore(model-profiles): refresh model profile ",
+      "notes": "Document source-review expansion; exact independent human validation still required. Supporting passage restored from frozen source; supplemental source-review item, outside the original shared candidate pool."
+    },
+    {
+      "row_index": 178,
+      "item_id": "relation:5274d70d-8f3f-5c60-9d2a-3e3384f85e53:entity:175",
+      "span_text": "ore(model-profiles): refresh model profile data (#41828) feat(partners): Remove EOL'd Python 3.10 from partner packages (#41268) chore(model-profiles): refresh mod",
+      "notes": "Document source-review expansion; exact independent human validation still required. Supporting passage restored from frozen source; supplemental source-review item, outside the original shared candidate pool."
+    },
+    {
+      "row_index": 179,
+      "item_id": "relation:67f2f085-5b62-590c-820a-711aa625c0f1:entity:176",
+      "span_text": "mit a chunk when an empty thinking block starts (#41907) feat(partners): Remove EOL'd Python 3.10 from partner packages (#41268) chore(model-profiles): refresh mod",
+      "notes": "Document source-review expansion; exact independent human validation still required. Supporting passage restored from frozen source; supplemental source-review item, outside the original shared candidate pool."
+    },
+    {
+      "row_index": 180,
+      "item_id": "relation:67f2f085-5b62-590c-820a-711aa625c0f1:entity:177",
+      "span_text": "ore(model-profiles): refresh model profile data (#41781) fix(anthropic): raise `ModelRefusalError` for refusals when tool calls are not forced (#41715) fix(anthropic): preserve ",
+      "notes": "Document source-review expansion; exact independent human validation still required. Supporting passage restored from frozen source; supplemental source-review item, outside the original shared candidate pool."
+    },
+    {
+      "row_index": 181,
+      "item_id": "relation:67f2f085-5b62-590c-820a-711aa625c0f1:entity:178",
+      "span_text": "way` headers from the client (#41902) feat(anthropic): support Claude Fable and Mythos 5.2 (#41770) fix(anthropic): emit a chunk when an empty thinking block starts (",
+      "notes": "Document source-review expansion; exact independent human validation still required. Supporting passage restored from frozen source; supplemental source-review item, outside the original shared candidate pool."
+    },
+    {
+      "row_index": 182,
+      "item_id": "relation:67f2f085-5b62-590c-820a-711aa625c0f1:entity:179",
+      "span_text": "chunk when an empty thinking block starts (#41907) feat(partners): Remove EOL'd Python 3.10 from partner packages (#41268) chore(model-profiles): refresh model profil",
+      "notes": "Document source-review expansion; exact independent human validation still required. Supporting passage restored from frozen source; supplemental source-review item, outside the original shared candidate pool."
+    }
+  ],
+  "items": [
+    {
+      "item_id": "relation:0237b72c-c6e8-572b-b9ed-787658d33906:entity:124",
+      "document_id": "0237b72c-c6e8-572b-b9ed-787658d33906",
+      "subject": "0237b72c-c6e8-572b-b9ed-787658d33906",
+      "object": "PyMuPDF",
+      "label": "MENTIONS",
+      "span_text": "s - Allow approved private URL hosts. ### Bug Fixes - Fix projects to depend on PyMuPDF 2.x. - Drop a real storage URL from the URL read tests. - Keep earlier step out",
+      "start": 29,
+      "end": 196,
+      "source_url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.41"
+    },
+    {
+      "item_id": "relation:0237b72c-c6e8-572b-b9ed-787658d33906:entity:125",
+      "document_id": "0237b72c-c6e8-572b-b9ed-787658d33906",
+      "subject": "0237b72c-c6e8-572b-b9ed-787658d33906",
+      "object": "URL",
+      "label": "MENTIONS",
+      "span_text": "## What's Changed ### Features - Allow approved private URL hosts. ### Bug Fixes - Fix projects to depend on PyMuPDF 2.x. - Drop a real sto",
+      "start": 0,
+      "end": 139,
+      "source_url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.41"
+    },
+    {
+      "item_id": "relation:06472cb8-466e-55fe-a85a-f421fe1d9706:entity:126",
+      "document_id": "06472cb8-466e-55fe-a85a-f421fe1d9706",
+      "subject": "06472cb8-466e-55fe-a85a-f421fe1d9706",
+      "object": "CLI",
+      "label": "MENTIONS",
+      "span_text": "pport for LiteLLM-compatible kwargs. - Implement platform application search in CLI. - Highlight action picker search in CLI. - Trace conversation routes and publi",
+      "start": 39,
+      "end": 202,
+      "source_url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.29"
+    },
+    {
+      "item_id": "relation:06472cb8-466e-55fe-a85a-f421fe1d9706:entity:127",
+      "document_id": "06472cb8-466e-55fe-a85a-f421fe1d9706",
+      "subject": "06472cb8-466e-55fe-a85a-f421fe1d9706",
+      "object": "LiteLLM-compatible",
+      "label": "MENTIONS",
+      "span_text": "## What's Changed ### Features - Add support for LiteLLM-compatible kwargs. - Implement platform application search in CLI. - Highlight action pick",
+      "start": 0,
+      "end": 147,
+      "source_url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.29"
+    },
+    {
+      "item_id": "relation:06472cb8-466e-55fe-a85a-f421fe1d9706:entity:128",
+      "document_id": "06472cb8-466e-55fe-a85a-f421fe1d9706",
+      "subject": "06472cb8-466e-55fe-a85a-f421fe1d9706",
+      "object": "Trace",
+      "label": "MENTIONS",
+      "span_text": " platform application search in CLI. - Highlight action picker search in CLI. - Trace conversation routes and public replies in flow. - Select organization during lo",
+      "start": 87,
+      "end": 252,
+      "source_url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.29"
+    },
+    {
+      "item_id": "relation:069611a3-38bc-5c01-aeb3-0b1b2e0fde76:entity:129",
+      "document_id": "069611a3-38bc-5c01-aeb3-0b1b2e0fde76",
+      "subject": "069611a3-38bc-5c01-aeb3-0b1b2e0fde76",
+      "object": "CodeSplitter",
+      "label": "MENTIONS",
+      "span_text": "run-llama/llama_index/pull/20411)) - test(node_parser): add unit tests for Java CodeSplitter ([#20423](https://github.com/run-llama/llama_index/pull/20423)) - fix: crash in",
+      "start": 662,
+      "end": 834,
+      "source_url": "https://github.com/run-llama/llama_index/releases/tag/v0.14.12"
+    },
+    {
+      "item_id": "relation:069611a3-38bc-5c01-aeb3-0b1b2e0fde76:entity:130",
+      "document_id": "069611a3-38bc-5c01-aeb3-0b1b2e0fde76",
+      "subject": "069611a3-38bc-5c01-aeb3-0b1b2e0fde76",
+      "object": "Element",
+      "label": "MENTIONS",
+      "span_text": " schema names ([#20371](https://github.com/run-llama/llama_index/pull/20371)) - Element node parser ([#20399](https://github.com/run-llama/llama_index/pull/20399)) - i",
+      "start": 441,
+      "end": 608,
+      "source_url": "https://github.com/run-llama/llama_index/releases/tag/v0.14.12"
+    },
+    {
+      "item_id": "relation:069611a3-38bc-5c01-aeb3-0b1b2e0fde76:entity:131",
+      "document_id": "069611a3-38bc-5c01-aeb3-0b1b2e0fde76",
+      "subject": "069611a3-38bc-5c01-aeb3-0b1b2e0fde76",
+      "object": "Java",
+      "label": "MENTIONS",
+      "span_text": ".com/run-llama/llama_index/pull/20411)) - test(node_parser): add unit tests for Java CodeSplitter ([#20423](https://github.com/run-llama/llama_index/pull/20423)) - ",
+      "start": 657,
+      "end": 821,
+      "source_url": "https://github.com/run-llama/llama_index/releases/tag/v0.14.12"
+    },
+    {
+      "item_id": "relation:069611a3-38bc-5c01-aeb3-0b1b2e0fde76:entity:132",
+      "document_id": "069611a3-38bc-5c01-aeb3-0b1b2e0fde76",
+      "subject": "069611a3-38bc-5c01-aeb3-0b1b2e0fde76",
+      "object": "MockFunctionCallingLLM",
+      "label": "MENTIONS",
+      "span_text": "port ([#20338](https://github.com/run-llama/llama_index/pull/20338)) - Improve `MockFunctionCallingLLM` ([#20356](https://github.com/run-llama/llama_index/pull/20356)) - fix(openai):",
+      "start": 227,
+      "end": 409,
+      "source_url": "https://github.com/run-llama/llama_index/releases/tag/v0.14.12"
+    },
+    {
+      "item_id": "relation:069611a3-38bc-5c01-aeb3-0b1b2e0fde76:entity:133",
+      "document_id": "069611a3-38bc-5c01-aeb3-0b1b2e0fde76",
+      "subject": "069611a3-38bc-5c01-aeb3-0b1b2e0fde76",
+      "object": "Pydantic",
+      "label": "MENTIONS",
+      "span_text": "//github.com/run-llama/llama_index/pull/20356)) - fix(openai): sanitize generic Pydantic model schema names ([#20371](https://github.com/run-llama/llama_index/pull/2037",
+      "start": 347,
+      "end": 515,
+      "source_url": "https://github.com/run-llama/llama_index/releases/tag/v0.14.12"
+    },
+    {
+      "item_id": "relation:0c11509e-28a4-5b8d-8bd4-842c5907f911:entity:134",
+      "document_id": "0c11509e-28a4-5b8d-8bd4-842c5907f911",
+      "subject": "0c11509e-28a4-5b8d-8bd4-842c5907f911",
+      "object": "Astra",
+      "label": "MENTIONS",
+      "span_text": "are the async HTTP client between models (#41944) feat(openai): support GPT-6.2 Astra and Sol (#41922) feat(openai): send `langsmith_gateway` headers from the client",
+      "start": 59,
+      "end": 224,
+      "source_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.8.2"
+    },
+    {
+      "item_id": "relation:0c11509e-28a4-5b8d-8bd4-842c5907f911:entity:135",
+      "document_id": "0c11509e-28a4-5b8d-8bd4-842c5907f911",
+      "subject": "0c11509e-28a4-5b8d-8bd4-842c5907f911",
+      "object": "Sol",
+      "label": "MENTIONS",
+      "span_text": "ync HTTP client between models (#41944) feat(openai): support GPT-6.2 Astra and Sol (#41922) feat(openai): send `langsmith_gateway` headers from the client (#41901",
+      "start": 69,
+      "end": 232,
+      "source_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.8.2"
+    },
+    {
+      "item_id": "relation:10cffd6e-20f7-5519-9263-25508f533184:entity:136",
+      "document_id": "10cffd6e-20f7-5519-9263-25508f533184",
+      "subject": "10cffd6e-20f7-5519-9263-25508f533184",
+      "object": "AgentWorkflow",
+      "label": "MENTIONS",
+      "span_text": "ma_index/pull/22155)) - fix: honor agent structured_output_fn/output_cls inside AgentWorkflow ([#22162](https://github.com/run-llama/llama_index/pull/22162)) - fix(core): us",
+      "start": 1048,
+      "end": 1221,
+      "source_url": "https://github.com/run-llama/llama_index/releases/tag/v0.14.24"
+    },
+    {
+      "item_id": "relation:10cffd6e-20f7-5519-9263-25508f533184:entity:137",
+      "document_id": "10cffd6e-20f7-5519-9263-25508f533184",
+      "subject": "10cffd6e-20f7-5519-9263-25508f533184",
+      "object": "CodeSplitter",
+      "label": "MENTIONS",
+      "span_text": "un-llama/llama_index/pull/22113)) - fix(core): preserve oversized leaf nodes in CodeSplitter ([#22119](https://github.com/run-llama/llama_index/pull/22119)) - fix: preserve",
+      "start": 138,
+      "end": 310,
+      "source_url": "https://github.com/run-llama/llama_index/releases/tag/v0.14.24"
+    },
+    {
+      "item_id": "relation:10cffd6e-20f7-5519-9263-25508f533184:entity:138",
+      "document_id": "10cffd6e-20f7-5519-9263-25508f533184",
+      "subject": "10cffd6e-20f7-5519-9263-25508f533184",
+      "object": "HTMLNodeParser",
+      "label": "MENTIONS",
+      "span_text": "/github.com/run-llama/llama_index/pull/22124)) - fix(core): skip empty nodes in HTMLNodeParser ([#22125](https://github.com/run-llama/llama_index/pull/22125)) - fix(core): re",
+      "start": 359,
+      "end": 533,
+      "source_url": "https://github.com/run-llama/llama_index/releases/tag/v0.14.24"
+    },
+    {
+      "item_id": "relation:10cffd6e-20f7-5519-9263-25508f533184:entity:139",
+      "document_id": "10cffd6e-20f7-5519-9263-25508f533184",
+      "subject": "10cffd6e-20f7-5519-9263-25508f533184",
+      "object": "IngestionPipeline",
+      "label": "MENTIONS",
+      "span_text": "ub.com/run-llama/llama_index/pull/22126)) - fix: keep all nodes per document in IngestionPipeline upserts (re-submit of #22046, not a dup of #21456) ([#22133](https://github.com",
+      "start": 601,
+      "end": 778,
+      "source_url": "https://github.com/run-llama/llama_index/releases/tag/v0.14.24"
+    },
+    {
+      "item_id": "relation:10cffd6e-20f7-5519-9263-25508f533184:entity:140",
+      "document_id": "10cffd6e-20f7-5519-9263-25508f533184",
+      "subject": "10cffd6e-20f7-5519-9263-25508f533184",
+      "object": "MMR",
+      "label": "MENTIONS",
+      "span_text": ".com/run-llama/llama_index/pull/22125)) - fix(core): respect mmr_threshold=0 in MMR embedding search ([#22126](https://github.com/run-llama/llama_index/pull/22126)",
+      "start": 478,
+      "end": 641,
+      "source_url": "https://github.com/run-llama/llama_index/releases/tag/v0.14.24"
+    },
+    {
+      "item_id": "relation:10cffd6e-20f7-5519-9263-25508f533184:entity:141",
+      "document_id": "10cffd6e-20f7-5519-9263-25508f533184",
+      "subject": "10cffd6e-20f7-5519-9263-25508f533184",
+      "object": "MetadataFilters",
+      "label": "MENTIONS",
+      "span_text": "135](https://github.com/run-llama/llama_index/pull/22135)) - fix(core): default MetadataFilters condition to AND when None ([#22155](https://github.com/run-llama/llama_index/p",
+      "start": 883,
+      "end": 1058,
+      "source_url": "https://github.com/run-llama/llama_index/releases/tag/v0.14.24"
+    },
+    {
+      "item_id": "relation:10cffd6e-20f7-5519-9263-25508f533184:entity:142",
+      "document_id": "10cffd6e-20f7-5519-9263-25508f533184",
+      "subject": "10cffd6e-20f7-5519-9263-25508f533184",
+      "object": "SemanticDoubleMergingSplitterNodeParser",
+      "label": "MENTIONS",
+      "span_text": "a_index/pull/22162)) - fix(core): use word tokenization for stopword removal in SemanticDoubleMergingSplitterNodeParser ([#22167](https://github.com/run-llama/llama_index/pull/22167)) - fix(core): re",
+      "start": 1185,
+      "end": 1384,
+      "source_url": "https://github.com/run-llama/llama_index/releases/tag/v0.14.24"
+    },
+    {
+      "item_id": "relation:1c4c310c-0a70-559e-9f57-32cc804766dc:entity:143",
+      "document_id": "1c4c310c-0a70-559e-9f57-32cc804766dc",
+      "subject": "1c4c310c-0a70-559e-9f57-32cc804766dc",
+      "object": "ASCII",
+      "label": "MENTIONS",
+      "span_text": "0995](https://github.com/run-llama/llama_index/pull/20995)) - fix: preserve non-ASCII schema descriptions in `PydanticOutputParser` ([#21016](https://github.com/run-",
+      "start": 3419,
+      "end": 3584,
+      "source_url": "https://github.com/run-llama/llama_index/releases/tag/v0.14.18"
+    },
+    {
+      "item_id": "relation:1c4c310c-0a70-559e-9f57-32cc804766dc:entity:144",
+      "document_id": "1c4c310c-0a70-559e-9f57-32cc804766dc",
+      "subject": "1c4c310c-0a70-559e-9f57-32cc804766dc",
+      "object": "AnthropicCompletionResponse",
+      "label": "MENTIONS",
+      "span_text": " ### llama-index-llms-anthropic [0.11.1] - Bugfix: Pydantic validation error in AnthropicCompletionResponse ([#21027](https://github.com/run-llama/llama_index/pull/21027)) ### llama-index",
+      "start": 10933,
+      "end": 11120,
+      "source_url": "https://github.com/run-llama/llama_index/releases/tag/v0.14.18"
+    },
+    {
+      "item_id": "relation:1c4c310c-0a70-559e-9f57-32cc804766dc:entity:145",
+      "document_id": "1c4c310c-0a70-559e-9f57-32cc804766dc",
+      "subject": "1c4c310c-0a70-559e-9f57-32cc804766dc",
+      "object": "Bugfix",
+      "label": "MENTIONS",
+      "span_text": "om/run-llama/llama_index/pull/20956)) ### llama-index-llms-anthropic [0.11.1] - Bugfix: Pydantic validation error in AnthropicCompletionResponse ([#21027](https://git",
+      "start": 10896,
+      "end": 11062,
+      "source_url": "https://github.com/run-llama/llama_index/releases/tag/v0.14.18"
+    },
+    {
+      "item_id": "relation:1c4c310c-0a70-559e-9f57-32cc804766dc:entity:146",
+      "document_id": "1c4c310c-0a70-559e-9f57-32cc804766dc",
+      "subject": "1c4c310c-0a70-559e-9f57-32cc804766dc",
+      "object": "LlamaDebugHandler",
+      "label": "MENTIONS",
+      "span_text": "om/run-llama/llama_index/pull/20897)) - fix: guard against ZeroDivisionError in LlamaDebugHandler.\\_get_time_stats_from_event_pairs ([#20937](https://github.com/run-llama/llama_",
+      "start": 2425,
+      "end": 2602,
+      "source_url": "https://github.com/run-llama/llama_index/releases/tag/v0.14.18"
+    },
+    {
+      "item_id": "relation:1c4c310c-0a70-559e-9f57-32cc804766dc:entity:147",
+      "document_id": "1c4c310c-0a70-559e-9f57-32cc804766dc",
+      "subject": "1c4c310c-0a70-559e-9f57-32cc804766dc",
+      "object": "Opus",
+      "label": "MENTIONS",
+      "span_text": "_index/pull/20978)) - feat(bedrock-converse): Set context window size to 1M for Opus 4.6 & Sonnet 4.6 ([#20982](https://github.com/run-llama/llama_index/pull/20982)",
+      "start": 11597,
+      "end": 11761,
+      "source_url": "https://github.com/run-llama/llama_index/releases/tag/v0.14.18"
+    },
+    {
+      "item_id": "relation:1c4c310c-0a70-559e-9f57-32cc804766dc:entity:148",
+      "document_id": "1c4c310c-0a70-559e-9f57-32cc804766dc",
+      "subject": "1c4c310c-0a70-559e-9f57-32cc804766dc",
+      "object": "Pydantic",
+      "label": "MENTIONS",
+      "span_text": "lama/llama_index/pull/20995)) - fix: preserve non-ASCII schema descriptions in `PydanticOutputParser` ([#21016](https://github.com/run-llama/llama_index/pull/21016)) - ",
+      "start": 3449,
+      "end": 3617,
+      "source_url": "https://github.com/run-llama/llama_index/releases/tag/v0.14.18"
+    },
+    {
+      "item_id": "relation:1c4c310c-0a70-559e-9f57-32cc804766dc:entity:149",
+      "document_id": "1c4c310c-0a70-559e-9f57-32cc804766dc",
+      "subject": "1c4c310c-0a70-559e-9f57-32cc804766dc",
+      "object": "PydanticOutputParser",
+      "label": "MENTIONS",
+      "span_text": "lama/llama_index/pull/20995)) - fix: preserve non-ASCII schema descriptions in `PydanticOutputParser` ([#21016](https://github.com/run-llama/llama_index/pull/21016)) - chore(deps):",
+      "start": 3449,
+      "end": 3629,
+      "source_url": "https://github.com/run-llama/llama_index/releases/tag/v0.14.18"
+    },
+    {
+      "item_id": "relation:1e019eee-8a64-550c-8be9-909aa92dfecc:entity:150",
+      "document_id": "1e019eee-8a64-550c-8be9-909aa92dfecc",
+      "subject": "1e019eee-8a64-550c-8be9-909aa92dfecc",
+      "object": "GPT-6",
+      "label": "MENTIONS",
+      "span_text": " ### Bug Fixes - Update vulnerable audit dependencies. - Stop sending 'stop' to GPT-6 and newer models. - Run the provider listing off the loop in `acleanup_provider",
+      "start": 80,
+      "end": 245,
+      "source_url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.31"
+    },
+    {
+      "item_id": "relation:1e019eee-8a64-550c-8be9-909aa92dfecc:entity:151",
+      "document_id": "1e019eee-8a64-550c-8be9-909aa92dfecc",
+      "subject": "1e019eee-8a64-550c-8be9-909aa92dfecc",
+      "object": "LLMGuardrailCompletedEvent",
+      "label": "MENTIONS",
+      "span_text": ". - Run the provider listing off the loop in `acleanup_provider_files`. - Emit `LLMGuardrailCompletedEvent` for a malformed guardrail result. - Name the renamed integration token when it",
+      "start": 182,
+      "end": 368,
+      "source_url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.31"
+    },
+    {
+      "item_id": "relation:22bb8ed5-a41a-577c-8c5a-bfc389927a71:entity:152",
+      "document_id": "22bb8ed5-a41a-577c-8c5a-bfc389927a71",
+      "subject": "22bb8ed5-a41a-577c-8c5a-bfc389927a71",
+      "object": "Block",
+      "label": "MENTIONS",
+      "span_text": "/github.com/run-llama/llama_index/pull/21111)) - Fix Breaking Change in Message Block Buffer Resolution ([#21339](https://github.com/run-llama/llama_index/pull/21339",
+      "start": 779,
+      "end": 944,
+      "source_url": "https://github.com/run-llama/llama_index/releases/tag/v0.14.21"
+    },
+    {
+      "item_id": "relation:22bb8ed5-a41a-577c-8c5a-bfc389927a71:entity:153",
+      "document_id": "22bb8ed5-a41a-577c-8c5a-bfc389927a71",
+      "subject": "22bb8ed5-a41a-577c-8c5a-bfc389927a71",
+      "object": "Breaking",
+      "label": "MENTIONS",
+      "span_text": "n() calls ([#21111](https://github.com/run-llama/llama_index/pull/21111)) - Fix Breaking Change in Message Block Buffer Resolution ([#21339](https://github.com/run-llam",
+      "start": 752,
+      "end": 920,
+      "source_url": "https://github.com/run-llama/llama_index/releases/tag/v0.14.21"
+    },
+    {
+      "item_id": "relation:22bb8ed5-a41a-577c-8c5a-bfc389927a71:entity:154",
+      "document_id": "22bb8ed5-a41a-577c-8c5a-bfc389927a71",
+      "subject": "22bb8ed5-a41a-577c-8c5a-bfc389927a71",
+      "object": "DocumentSummaryIndex.delete_nodes",
+      "label": "MENTIONS",
+      "span_text": "pull/21394)) ### llama-index-core [0.14.21] - fix(core): prevent `KeyError` in `DocumentSummaryIndex.delete_nodes` when invalid node ID is provided ([#21067](https://github.com/run-llama/llama_",
+      "start": 333,
+      "end": 526,
+      "source_url": "https://github.com/run-llama/llama_index/releases/tag/v0.14.21"
+    },
+    {
+      "item_id": "relation:22bb8ed5-a41a-577c-8c5a-bfc389927a71:entity:155",
+      "document_id": "22bb8ed5-a41a-577c-8c5a-bfc389927a71",
+      "subject": "22bb8ed5-a41a-577c-8c5a-bfc389927a71",
+      "object": "Message",
+      "label": "MENTIONS",
+      "span_text": "(https://github.com/run-llama/llama_index/pull/21111)) - Fix Breaking Change in Message Block Buffer Resolution ([#21339](https://github.com/run-llama/llama_index/pull",
+      "start": 771,
+      "end": 938,
+      "source_url": "https://github.com/run-llama/llama_index/releases/tag/v0.14.21"
+    },
+    {
+      "item_id": "relation:22bb8ed5-a41a-577c-8c5a-bfc389927a71:entity:156",
+      "document_id": "22bb8ed5-a41a-577c-8c5a-bfc389927a71",
+      "subject": "22bb8ed5-a41a-577c-8c5a-bfc389927a71",
+      "object": "TypeError",
+      "label": "MENTIONS",
+      "span_text": "ub.com/run-llama/llama_index/pull/21067)) - fix(core): handle `ValueError` and `TypeError` from structured output failures ([#21090](https://github.com/run-llama/llama_i",
+      "start": 503,
+      "end": 672,
+      "source_url": "https://github.com/run-llama/llama_index/releases/tag/v0.14.21"
+    },
+    {
+      "item_id": "relation:22bb8ed5-a41a-577c-8c5a-bfc389927a71:entity:157",
+      "document_id": "22bb8ed5-a41a-577c-8c5a-bfc389927a71",
+      "subject": "22bb8ed5-a41a-577c-8c5a-bfc389927a71",
+      "object": "UTF-8",
+      "label": "MENTIONS",
+      "span_text": "1090](https://github.com/run-llama/llama_index/pull/21090)) - fix: add explicit UTF-8 encoding to persistence layer fs.open() calls ([#21111](https://github.com/run-",
+      "start": 630,
+      "end": 795,
+      "source_url": "https://github.com/run-llama/llama_index/releases/tag/v0.14.21"
+    },
+    {
+      "item_id": "relation:22bb8ed5-a41a-577c-8c5a-bfc389927a71:entity:158",
+      "document_id": "22bb8ed5-a41a-577c-8c5a-bfc389927a71",
+      "subject": "22bb8ed5-a41a-577c-8c5a-bfc389927a71",
+      "object": "ValueError",
+      "label": "MENTIONS",
+      "span_text": "067](https://github.com/run-llama/llama_index/pull/21067)) - fix(core): handle `ValueError` and `TypeError` from structured output failures ([#21090](https://github.com/r",
+      "start": 486,
+      "end": 656,
+      "source_url": "https://github.com/run-llama/llama_index/releases/tag/v0.14.21"
+    },
+    {
+      "item_id": "relation:2b2e01ab-3caa-5c24-8f11-a25f81266c38:entity:159",
+      "document_id": "2b2e01ab-3caa-5c24-8f11-a25f81266c38",
+      "subject": "2b2e01ab-3caa-5c24-8f11-a25f81266c38",
+      "object": "DocumentBlock",
+      "label": "MENTIONS",
+      "span_text": "24](https://github.com/run-llama/llama_index/pull/21424)) - fix(memory): handle DocumentBlock in Memory.\\_estimate_token_count ([#21529](https://github.com/run-llama/llama_i",
+      "start": 3612,
+      "end": 3785,
+      "source_url": "https://github.com/run-llama/llama_index/releases/tag/v0.14.22"
+    },
+    {
+      "item_id": "relation:2b2e01ab-3caa-5c24-8f11-a25f81266c38:entity:160",
+      "document_id": "2b2e01ab-3caa-5c24-8f11-a25f81266c38",
+      "subject": "2b2e01ab-3caa-5c24-8f11-a25f81266c38",
+      "object": "EmbeddingStartEvent",
+      "label": "MENTIONS",
+      "span_text": "x/pull/21638)) ### llama-index-core [0.14.22] - fix(instrumentation): let SparseEmbeddingStartEvent inherit EmbeddingStartEvent ([#21119](https://github.com/run-llama/llama_index/",
+      "start": 2992,
+      "end": 3171,
+      "source_url": "https://github.com/run-llama/llama_index/releases/tag/v0.14.22"
+    },
+    {
+      "item_id": "relation:2b2e01ab-3caa-5c24-8f11-a25f81266c38:entity:161",
+      "document_id": "2b2e01ab-3caa-5c24-8f11-a25f81266c38",
+      "subject": "2b2e01ab-3caa-5c24-8f11-a25f81266c38",
+      "object": "FunctionTool",
+      "label": "MENTIONS",
+      "span_text": "lama/llama_index/pull/21529)) - fix: propagate contextvars in sync_to_async for FunctionTool ([#21558](https://github.com/run-llama/llama_index/pull/21558)) - mass uv lock ",
+      "start": 3773,
+      "end": 3945,
+      "source_url": "https://github.com/run-llama/llama_index/releases/tag/v0.14.22"
+    },
+    {
+      "item_id": "relation:2b2e01ab-3caa-5c24-8f11-a25f81266c38:entity:162",
+      "document_id": "2b2e01ab-3caa-5c24-8f11-a25f81266c38",
+      "subject": "2b2e01ab-3caa-5c24-8f11-a25f81266c38",
+      "object": "IngestionPipeline",
+      "label": "MENTIONS",
+      "span_text": "lama_index/pull/21133)) - Preserve cache writes from multiprocessing workers in IngestionPipeline ([#21301](https://github.com/run-llama/llama_index/pull/21301)) - feat(core): M",
+      "start": 3278,
+      "end": 3455,
+      "source_url": "https://github.com/run-llama/llama_index/releases/tag/v0.14.22"
+    },
+    {
+      "item_id": "relation:2b2e01ab-3caa-5c24-8f11-a25f81266c38:entity:163",
+      "document_id": "2b2e01ab-3caa-5c24-8f11-a25f81266c38",
+      "subject": "2b2e01ab-3caa-5c24-8f11-a25f81266c38",
+      "object": "LLM",
+      "label": "MENTIONS",
+      "span_text": "ub.com/run-llama/llama_index/pull/21374)) - fix: avoid mutating response.raw in LLM event model_dump methods ([#21424](https://github.com/run-llama/llama_index/pul",
+      "start": 3497,
+      "end": 3660,
+      "source_url": "https://github.com/run-llama/llama_index/releases/tag/v0.14.22"
+    },
+    {
+      "item_id": "relation:2b2e01ab-3caa-5c24-8f11-a25f81266c38:entity:164",
+      "document_id": "2b2e01ab-3caa-5c24-8f11-a25f81266c38",
+      "subject": "2b2e01ab-3caa-5c24-8f11-a25f81266c38",
+      "object": "Memory",
+      "label": "MENTIONS",
+      "span_text": "b.com/run-llama/llama_index/pull/21424)) - fix(memory): handle DocumentBlock in Memory.\\_estimate_token_count ([#21529](https://github.com/run-llama/llama_index/pull/",
+      "start": 3629,
+      "end": 3795,
+      "source_url": "https://github.com/run-llama/llama_index/releases/tag/v0.14.22"
+    },
+    {
+      "item_id": "relation:2b2e01ab-3caa-5c24-8f11-a25f81266c38:entity:165",
+      "document_id": "2b2e01ab-3caa-5c24-8f11-a25f81266c38",
+      "subject": "2b2e01ab-3caa-5c24-8f11-a25f81266c38",
+      "object": "Mistral",
+      "label": "MENTIONS",
+      "span_text": "index/pull/21638)) ### llama-index-embeddings-mistralai [0.5.1] - \"fix: replace Mistral with MistralClient for mistralai>=2.0.0\" ([#21126](https://github.com/run-llama",
+      "start": 13388,
+      "end": 13555,
+      "source_url": "https://github.com/run-llama/llama_index/releases/tag/v0.14.22"
+    },
+    {
+      "item_id": "relation:2b2e01ab-3caa-5c24-8f11-a25f81266c38:entity:166",
+      "document_id": "2b2e01ab-3caa-5c24-8f11-a25f81266c38",
+      "subject": "2b2e01ab-3caa-5c24-8f11-a25f81266c38",
+      "object": "Multimodal",
+      "label": "MENTIONS",
+      "span_text": "e ([#21301](https://github.com/run-llama/llama_index/pull/21301)) - feat(core): Multimodal synthesis ([#21374](https://github.com/run-llama/llama_index/pull/21374)) - fix",
+      "start": 3374,
+      "end": 3544,
+      "source_url": "https://github.com/run-llama/llama_index/releases/tag/v0.14.22"
+    },
+    {
+      "item_id": "relation:2e151bf6-be06-5902-9cf5-578baf90e40c:entity:167",
+      "document_id": "2e151bf6-be06-5902-9cf5-578baf90e40c",
+      "subject": "2e151bf6-be06-5902-9cf5-578baf90e40c",
+      "object": "Dependabot",
+      "label": "MENTIONS",
+      "span_text": "run-llama/llama_index/pull/22855)) - chore: re-lock the 93 manifests with stuck Dependabot alerts ([#22921](https://github.com/run-llama/llama_index/pull/22921)) ### llam",
+      "start": 3084,
+      "end": 3254,
+      "source_url": "https://github.com/run-llama/llama_index/releases/tag/v0.14.25"
+    },
+    {
+      "item_id": "relation:2e151bf6-be06-5902-9cf5-578baf90e40c:entity:168",
+      "document_id": "2e151bf6-be06-5902-9cf5-578baf90e40c",
+      "subject": "2e151bf6-be06-5902-9cf5-578baf90e40c",
+      "object": "Fix",
+      "label": "MENTIONS",
+      "span_text": "ed tool calls ([#22825](https://github.com/run-llama/llama_index/pull/22825)) - Fix: restore compact and refine streaming ([#22836](https://github.com/run-llama/ll",
+      "start": 2131,
+      "end": 2294,
+      "source_url": "https://github.com/run-llama/llama_index/releases/tag/v0.14.25"
+    },
+    {
+      "item_id": "relation:2e151bf6-be06-5902-9cf5-578baf90e40c:entity:169",
+      "document_id": "2e151bf6-be06-5902-9cf5-578baf90e40c",
+      "subject": "2e151bf6-be06-5902-9cf5-578baf90e40c",
+      "object": "IPEX",
+      "label": "MENTIONS",
+      "span_text": ") ### llama-index-core [0.14.25] - Remove deprecated ipex-llm and optimum-intel IPEX integrations ([#22406](https://github.com/run-llama/llama_index/pull/22406)) - ",
+      "start": 1790,
+      "end": 1954,
+      "source_url": "https://github.com/run-llama/llama_index/releases/tag/v0.14.25"
+    },
+    {
+      "item_id": "relation:2e151bf6-be06-5902-9cf5-578baf90e40c:entity:170",
+      "document_id": "2e151bf6-be06-5902-9cf5-578baf90e40c",
+      "subject": "2e151bf6-be06-5902-9cf5-578baf90e40c",
+      "object": "StructuredLLMRerank",
+      "label": "MENTIONS",
+      "span_text": "om/run-llama/llama_index/pull/22841)) - feat(core): add native async support to StructuredLLMRerank ([#22842](https://github.com/run-llama/llama_index/pull/22842)) - fix: resolve ",
+      "start": 2393,
+      "end": 2572,
+      "source_url": "https://github.com/run-llama/llama_index/releases/tag/v0.14.25"
+    },
+    {
+      "item_id": "relation:359a37d1-8e4d-577c-b970-6ce59f8e9b0a:entity:171",
+      "document_id": "359a37d1-8e4d-577c-b970-6ce59f8e9b0a",
+      "subject": "359a37d1-8e4d-577c-b970-6ce59f8e9b0a",
+      "object": "API",
+      "label": "MENTIONS",
+      "span_text": "openai): 1.8.0 (#41841) feat(openai): add OpenAIClassifier for the GA Decisions API (#41787) chore(model-profiles): refresh model profile data (#41828) feat(partne",
+      "start": 314,
+      "end": 477,
+      "source_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.8.0"
+    },
+    {
+      "item_id": "relation:359a37d1-8e4d-577c-b970-6ce59f8e9b0a:entity:172",
+      "document_id": "359a37d1-8e4d-577c-b970-6ce59f8e9b0a",
+      "subject": "359a37d1-8e4d-577c-b970-6ce59f8e9b0a",
+      "object": "Decisions",
+      "label": "MENTIONS",
+      "span_text": "4 release(openai): 1.8.0 (#41841) feat(openai): add OpenAIClassifier for the GA Decisions API (#41787) chore(model-profiles): refresh model profile data (#41828) feat(pa",
+      "start": 304,
+      "end": 473,
+      "source_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.8.0"
+    },
+    {
+      "item_id": "relation:359a37d1-8e4d-577c-b970-6ce59f8e9b0a:entity:173",
+      "document_id": "359a37d1-8e4d-577c-b970-6ce59f8e9b0a",
+      "subject": "359a37d1-8e4d-577c-b970-6ce59f8e9b0a",
+      "object": "EOL",
+      "label": "MENTIONS",
+      "span_text": "ore(model-profiles): refresh model profile data (#41828) feat(partners): Remove EOL'd Python 3.10 from partner packages (#41268)",
+      "start": 409,
+      "end": 537,
+      "source_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.8.0"
+    },
+    {
+      "item_id": "relation:359a37d1-8e4d-577c-b970-6ce59f8e9b0a:entity:174",
+      "document_id": "359a37d1-8e4d-577c-b970-6ce59f8e9b0a",
+      "subject": "359a37d1-8e4d-577c-b970-6ce59f8e9b0a",
+      "object": "OpenAIClassifier",
+      "label": "MENTIONS",
+      "span_text": "since langchain-openai==1.7.4 release(openai): 1.8.0 (#41841) feat(openai): add OpenAIClassifier for the GA Decisions API (#41787) chore(model-profiles): refresh model profile ",
+      "start": 276,
+      "end": 452,
+      "source_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.8.0"
+    },
+    {
+      "item_id": "relation:5274d70d-8f3f-5c60-9d2a-3e3384f85e53:entity:175",
+      "document_id": "5274d70d-8f3f-5c60-9d2a-3e3384f85e53",
+      "subject": "5274d70d-8f3f-5c60-9d2a-3e3384f85e53",
+      "object": "EOL",
+      "label": "MENTIONS",
+      "span_text": "ore(model-profiles): refresh model profile data (#41828) feat(partners): Remove EOL'd Python 3.10 from partner packages (#41268) chore(model-profiles): refresh mod",
+      "start": 592,
+      "end": 755,
+      "source_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openrouter%3D%3D0.3.0"
+    },
+    {
+      "item_id": "relation:67f2f085-5b62-590c-820a-711aa625c0f1:entity:176",
+      "document_id": "67f2f085-5b62-590c-820a-711aa625c0f1",
+      "subject": "67f2f085-5b62-590c-820a-711aa625c0f1",
+      "object": "EOL",
+      "label": "MENTIONS",
+      "span_text": "mit a chunk when an empty thinking block starts (#41907) feat(partners): Remove EOL'd Python 3.10 from partner packages (#41268) chore(model-profiles): refresh mod",
+      "start": 232,
+      "end": 395,
+      "source_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.7.11"
+    },
+    {
+      "item_id": "relation:67f2f085-5b62-590c-820a-711aa625c0f1:entity:177",
+      "document_id": "67f2f085-5b62-590c-820a-711aa625c0f1",
+      "subject": "67f2f085-5b62-590c-820a-711aa625c0f1",
+      "object": "ModelRefusalError",
+      "label": "MENTIONS",
+      "span_text": "ore(model-profiles): refresh model profile data (#41781) fix(anthropic): raise `ModelRefusalError` for refusals when tool calls are not forced (#41715) fix(anthropic): preserve ",
+      "start": 422,
+      "end": 599,
+      "source_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.7.11"
+    },
+    {
+      "item_id": "relation:67f2f085-5b62-590c-820a-711aa625c0f1:entity:178",
+      "document_id": "67f2f085-5b62-590c-820a-711aa625c0f1",
+      "subject": "67f2f085-5b62-590c-820a-711aa625c0f1",
+      "object": "Mythos",
+      "label": "MENTIONS",
+      "span_text": "way` headers from the client (#41902) feat(anthropic): support Claude Fable and Mythos 5.2 (#41770) fix(anthropic): emit a chunk when an empty thinking block starts (",
+      "start": 115,
+      "end": 281,
+      "source_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.7.11"
+    },
+    {
+      "item_id": "relation:67f2f085-5b62-590c-820a-711aa625c0f1:entity:179",
+      "document_id": "67f2f085-5b62-590c-820a-711aa625c0f1",
+      "subject": "67f2f085-5b62-590c-820a-711aa625c0f1",
+      "object": "Python",
+      "label": "MENTIONS",
+      "span_text": "chunk when an empty thinking block starts (#41907) feat(partners): Remove EOL'd Python 3.10 from partner packages (#41268) chore(model-profiles): refresh model profil",
+      "start": 238,
+      "end": 404,
+      "source_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.7.11"
+    }
+  ],
+  "protected_sha256": {
+    "evaluation/real/candidate-items.json": "ddd9278c69627f7b61d7c02f229d80c455351aeb67cdd94efb404b6a1606d7c4",
+    "evaluation/real/round-inputs.json": "7252e48822e400c5ee549f4cb908f6cd65c8452d8064a05f0a4d418b3ecb2ff4",
+    "evaluation/real/workbooks/mehmet-entities.csv": "3dc6a7956bfcc364bc00879526364ce95684c39305be78171e2dee2a85306d9d",
+    "evaluation/real/workbooks/mehmet-relations.csv": "2f5a57e5e40a2c44abb209439960a9d55a9c49c3c462f2e455af32fe4f6e450d",
+    "evaluation/real/pilot-session/responses.json": "84eb5d91585943106b346c3597b3bbe54df7652ac779cf533b062c409d32de8e"
+  },
+  "literal_cells": [
+    {
+      "row_index": 15,
+      "column_index": 4,
+      "value": "=1.8.1 fix(openai): don't share the async HTTP client between models (#41944) feat(openai): support GPT-6.2 Astra and Sol (#41922) feat(openai): send `langsmith_gateway` headers from the client (#41901)"
+    }
+  ]
+}

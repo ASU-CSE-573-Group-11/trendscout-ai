@@ -1,0 +1,194 @@
+[
+  {
+    "company_id": "weaviate",
+    "url": "https://api.ashbyhq.com/posting-api/job-board/weaviate",
+    "observed_at": "2026-11-21T10:10:30.208217+00:00",
+    "response_url": "https://api.ashbyhq.com/posting-api/job-board/weaviate",
+    "http_status": 200,
+    "file": "sources/weaviate-current.json",
+    "sha256": "9d5535783be2f31ca5f15c35b9032e80c8878ed0e5313c3c569ff98a443042df",
+    "job_count": 2
+  },
+  {
+    "company_id": "weaviate",
+    "url": "https://web.archive.org/cdx/search/cdx",
+    "observed_at": "2026-11-21T10:10:30.423702+00:00",
+    "response_url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fjobs.ashbyhq.com%2Fweaviate%2A&output=json&filter=statuscode%3A200&collapse=timestamp%3A6&from=20251101&to=20261121&limit=250",
+    "http_status": 200,
+    "file": "sources/weaviate-cdx.json",
+    "sha256": "dc1b6cba2f9c5a3889b1f889e5a484c76b2d2d644b7b1e846616655f2450ab45",
+    "captures": [
+      {
+        "urlkey": "com,ashbyhq,jobs)/weaviate",
+        "timestamp": "20260527195945",
+        "original": "https://jobs.ashbyhq.com/weaviate",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "G32MEBKT4L3B7BGZF4E7APZ7T5VS2SHX",
+        "length": "8051"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/weaviate/079f7771-17de-4c3b-8347-4913f5010bd2",
+        "timestamp": "20260607083718",
+        "original": "https://jobs.ashbyhq.com/weaviate/079f7771-17de-4c3b-8347-4913f5010bd2",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "WJDFQ4J6MLK3P4A642KZIMSBTTFUHHSL",
+        "length": "3184"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/weaviate/079f7771-17de-4c3b-8347-4913f5010bd2?ref=jobsbyculture.com",
+        "timestamp": "20260325072721",
+        "original": "https://jobs.ashbyhq.com/weaviate/079f7771-17de-4c3b-8347-4913f5010bd2?ref=jobsbyculture.com",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "KDJDCAE6KECFUENK72OBOI5B6BPDRJJY",
+        "length": "13440"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/weaviate/079f7771-17de-4c3b-8347-4913f5010bd2?ref=jobsbyculture.com",
+        "timestamp": "20260509201803",
+        "original": "https://jobs.ashbyhq.com/weaviate/079f7771-17de-4c3b-8347-4913f5010bd2?ref=jobsbyculture.com",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "NCI5E7HPMRRVTLFKNREK5A6EXDHTK2GD",
+        "length": "13172"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/weaviate/436bef4b-cee3-4cf8-8ecf-737bdcacd118",
+        "timestamp": "20251108090605",
+        "original": "https://jobs.ashbyhq.com/weaviate/436bef4b-cee3-4cf8-8ecf-737bdcacd118",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "JZODJ66E4NQZPDO3JBZY6U2ZP6NBXUSN",
+        "length": "3174"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/weaviate/436bef4b-cee3-4cf8-8ecf-737bdcacd118",
+        "timestamp": "20260513062736",
+        "original": "https://jobs.ashbyhq.com/weaviate/436bef4b-cee3-4cf8-8ecf-737bdcacd118",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "YZ6TPLRVJED6CGKZ2L2BXT3VHJ3LVCWQ",
+        "length": "3169"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/weaviate/676139ff-9b72-4ee4-9e40-2bb52c6e96bd",
+        "timestamp": "20260606083635",
+        "original": "https://jobs.ashbyhq.com/weaviate/676139ff-9b72-4ee4-9e40-2bb52c6e96bd",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "HUJ7ILPDHRKBS3MYR35EWVZG5FT2GS3Q",
+        "length": "3108"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/weaviate/676139ff-9b72-4ee4-9e40-2bb52c6e96bd?ref=jobsbyculture.com",
+        "timestamp": "20260325072720",
+        "original": "https://jobs.ashbyhq.com/weaviate/676139ff-9b72-4ee4-9e40-2bb52c6e96bd?ref=jobsbyculture.com",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "2TIUGLOLLNXJ2MRYE4IC34NCOVXNVM4F",
+        "length": "13341"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/weaviate/676139ff-9b72-4ee4-9e40-2bb52c6e96bd?ref=jobsbyculture.com",
+        "timestamp": "20260516025203",
+        "original": "https://jobs.ashbyhq.com/weaviate/676139ff-9b72-4ee4-9e40-2bb52c6e96bd?ref=jobsbyculture.com",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "XV5QD2HGUK2PB4YLG2XPTG3NZPHGLE4D",
+        "length": "13199"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/weaviate/6d8fc83f-5be8-43a6-a820-1fe4999ed770?embed=js",
+        "timestamp": "20260213140737",
+        "original": "https://jobs.ashbyhq.com/weaviate/6d8fc83f-5be8-43a6-a820-1fe4999ed770?embed=js",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "7WE42QODSVLOEVCMZPFA5FKKWNUEMRQX",
+        "length": "13522"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/weaviate/6d8fc83f-5be8-43a6-a820-1fe4999ed770?utm_source=jobs.battery.com",
+        "timestamp": "20260613022614",
+        "original": "https://jobs.ashbyhq.com/weaviate/6d8fc83f-5be8-43a6-a820-1fe4999ed770?utm_source=jobs.battery.com",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "I3AX7XJD47VUCWL6M5ZYLI5CBB7DYPEF",
+        "length": "3175"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/weaviate/987c1341-29ec-4f10-86cf-0b82cf300bb7?utm_source=jobs.gtmfund.com",
+        "timestamp": "20260508140515",
+        "original": "https://jobs.ashbyhq.com/weaviate/987c1341-29ec-4f10-86cf-0b82cf300bb7?utm_source=jobs.gtmfund.com",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "JWJYRHXIPQJL5JZQHHCPEJ3YDMSZTEBJ",
+        "length": "3113"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/weaviate/9c42994c-cb21-41d9-a2b0-9b34044c8b38?embed=js",
+        "timestamp": "20260711135414",
+        "original": "https://jobs.ashbyhq.com/weaviate/9c42994c-cb21-41d9-a2b0-9b34044c8b38?embed=js",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "WHMW2Y6MRON5TYIFCOCFCV4NL56VLIJG",
+        "length": "3430"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/weaviate/9f1dc66e-6c7a-4e3c-97ac-76910b8df08f?ref=jobsbyculture.com",
+        "timestamp": "20260520014116",
+        "original": "https://jobs.ashbyhq.com/weaviate/9f1dc66e-6c7a-4e3c-97ac-76910b8df08f?ref=jobsbyculture.com",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "B4HB32REZZ7BJCF4DU4R4YZLQV4KP36F",
+        "length": "15586"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/weaviate/ba44ca34-565a-485d-b1ee-6b8eda15abe7?ref=jobsbyculture.com",
+        "timestamp": "20260325072720",
+        "original": "https://jobs.ashbyhq.com/weaviate/ba44ca34-565a-485d-b1ee-6b8eda15abe7?ref=jobsbyculture.com",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "LWQDYCDS6HDA42OGOHLXMFK2TZLRDXDZ",
+        "length": "3447"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/weaviate/c4c18609-c956-4a33-9a73-ad1d7680de6b",
+        "timestamp": "20260517111527",
+        "original": "https://jobs.ashbyhq.com/weaviate/c4c18609-c956-4a33-9a73-ad1d7680de6b",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "4CM3DEXWBACHUBTF3GYHP34NNCBSONRO",
+        "length": "11901"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/weaviate/embed?css=https://weaviate.io/css/ashby-custom.css",
+        "timestamp": "20251203121705",
+        "original": "https://jobs.ashbyhq.com/weaviate/embed?css=https://weaviate.io/css/ashby-custom.css",
+        "mimetype": "application/javascript",
+        "statuscode": "200",
+        "digest": "22L4V3D6TQXY5GW5ZAE7VYSLJHT5XPID",
+        "length": "2719"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/weaviate/embed?css=https://weaviate.io/css/ashby-custom.css",
+        "timestamp": "20260917182254",
+        "original": "https://jobs.ashbyhq.com/weaviate/embed?css=https://weaviate.io/css/ashby-custom.css",
+        "mimetype": "application/javascript",
+        "statuscode": "200",
+        "digest": "232XD4ONLQKJPDLWQKMV652UKPUP4G2Z",
+        "length": "2478"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/weaviate?embed=js",
+        "timestamp": "20251203121712",
+        "original": "https://jobs.ashbyhq.com/weaviate?embed=js",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "RK5TEAJQDFMSMWMEKJABBGBOWGCIQJFP",
+        "length": "7652"
+      }
+    ]
+  }
+]

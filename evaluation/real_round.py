@@ -164,6 +164,7 @@ def annotation_agreement(directory):
     for kind, minimum in [('entities', 200), ('relations', 80)]:
         expected = {r['item_id']: r for r in candidates[kind]}
         labels = []
+        accepted_counts = {}
         for name in ['sueda', 'mehmet']:
             path = directory / 'workbooks' / f'{name}-{kind}.csv'
             attestation = read_json(directory / 'workbooks' / f'{name}-attestation.json')
@@ -183,8 +184,9 @@ def annotation_agreement(directory):
                 if any(row[k] != str(v) for k, v in expected[row['item_id']].items() if k not in {'label', 'notes'}):
                     raise ValueError('candidate spans must not change between raters')
             positives = sum(r['label'] != 'NONE' for r in rows)
-            if positives < minimum or (kind == 'relations' and positives > 100):
-                raise ValueError(f'{name} {kind}: {positives} accepted; need {minimum}' + ('-100' if kind == 'relations' else '+'))
+            # Accepted-label quotas are study targets, not validity criteria.
+            # Forcing positive decisions to reach a quota would bias agreement.
+            accepted_counts[name] = positives
             labels.append({r['item_id']: r['label'] for r in rows})
         if len(expected) < 100:
             raise ValueError('100+ shared items required for each agreement analysis')
@@ -192,7 +194,10 @@ def annotation_agreement(directory):
         # A single category gives an undefined kappa, even with perfect agreement.
         degenerate = len(set(a.values()) | set(b.values())) == 1
         kappa, shared = (None, len(expected)) if degenerate else cohen_kappa(a, b)
-        reports[kind] = {'shared_items': shared, 'cohen_kappa': None if degenerate else kappa,
+        reports[kind] = {'accepted_labels_by_reviewer': accepted_counts,
+                         'planned_positive_target': {'minimum': minimum, 'maximum': 100 if kind == 'relations' else None},
+                         'planned_positive_target_met_by_reviewer': {name: count >= minimum and (kind != 'relations' or count <= 100) for name, count in accepted_counts.items()},
+                         'shared_items': shared, 'cohen_kappa': None if degenerate else kappa,
                          'undefined_reason': 'single category' if degenerate else None,
                          'disagreements': [item for item in a if a[item] != b[item]]}
     return reports

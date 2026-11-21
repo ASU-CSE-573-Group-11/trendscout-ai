@@ -32,7 +32,9 @@ def alias_index(companies: Iterable[dict[str, Any]]) -> list[tuple[str, str, re.
         company_id = company["company_id"]
         names = [company["name"], *company.get("aliases", [])]
         for name in names:
-            pattern = re.compile(rf"(?<![A-Za-z0-9]){re.escape(name)}(?![A-Za-z0-9])", re.IGNORECASE)
+            # Ordinary verbs/adjectives must not become company mentions.
+            flags = 0 if name.lower() in {'continue', 'modal', 'replicate'} else re.IGNORECASE
+            pattern = re.compile(rf"(?<![A-Za-z0-9]){re.escape(name)}(?![A-Za-z0-9])", flags)
             compiled.append((company_id, company["name"], pattern))
     compiled.sort(key=lambda item: len(item[1]), reverse=True)
     return compiled
@@ -42,6 +44,11 @@ def match_companies(text: str, aliases: list[tuple[str, str, re.Pattern[str]]]) 
     haystack = text or ""
     seen: dict[str, str] = {}
     for company_id, name, pattern in aliases:
+        context = {'continue': r'continue\.dev|\b(coding|IDE|code assistant|code editor)\b',
+                   'modal': r'modal\.com|\b(serverless|GPU|compute|inference)\b',
+                   'replicate': r'replicate\.com|\b(model|models|inference|image generation)\b'}.get(company_id)
+        if context and not re.search(context, haystack, re.IGNORECASE):
+            continue
         if company_id not in seen and pattern.search(haystack):
             seen[company_id] = name
     return list(seen.items())

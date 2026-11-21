@@ -2,9 +2,17 @@
 
 Frozen test snapshots, annotations, classical/modern comparisons, ablations, metrics, and exploratory trust study materials.
 
-## Current real-source round
+## Current mixed-source follow-up
 
-The active evaluation uses [45 frozen real release documents](real/README.md),
+The [mixed-source round](mixed/README.md) includes funding, jobs, and weekly
+GitHub observations with all 28 original questions. It has 196 saved answers
+across four conditions and three ablations, source-linked extraction outputs,
+and graph/RDF/SHACL integration. Independent annotation agreement remains
+uncomputed. Component-only relevance scores do not establish temporal accuracy.
+
+## Historical release-source round
+
+The earlier evaluation uses [45 frozen real release documents](real/README.md),
 not the historical fixture workbooks described below. Run
 `python evaluation/real_round.py validate` for its completion gates. The legacy
 files remain available for reproducibility; their labels and approvals do not
@@ -22,120 +30,25 @@ question identifier or its expected behavior.
 | `questions.seed.json` | Final retrieval set, abstention cases, metric names, and success thresholds |
 | `annotation_guidelines.json` | Entity/relation types, span rule, and the three clocks |
 | `compute_agreement.py` | Cohen's kappa calculation for independent annotator labels |
-| `build_annotation_worklist.py` | Generates a stable 95-item worklist from the frozen fixture snapshot |
-| `annotation-worklist.json` | 95 frozen items with record IDs, spans, and the three time fields |
-| `annotation_agreement.json` | Unverified prior 94-item draft agreement; not human Cohen's kappa |
-| `build_human_corpus.py` | Builds a deterministic 40-50 document human annotation candidate corpus |
-| `adjudicated-qrels.template.json` | Human-only final relevance label template; not illustrative until adjudicated |
-| `trust-pilot.template.json` | Human trust-pilot protocol and result placeholder |
-| `human-progress.json` | Machine-readable final-evaluation completion checklist |
-| `human-corpus.json` | 45 deterministic candidate documents pending human selection review |
-| `entity-relation.template.json` | Human entity/relation worksheet; no synthetic labels |
-| `validate_human_evaluation.py` | Refuses success until all human-only gates are complete |
-| `reconcile_corpus_reviews.py` | Reconciles separate Sueda/Mehmet corpus inclusion decisions |
-| `final-human-corpus.json` | Jointly approved 45-document synthetic-fixture corpus |
-| `contribution-record.template.json` | Human verification record placeholder |
-| `trust-pilot.protocol.json` | Trust-pilot protocol and participant/result placeholders |
-| `final-human-status.json` | Overall final-evaluation completion state |
+| `real_round.py` | Reproducible real-document corpus, scoring, and human-agreement runner |
+| `real/` | Frozen real release corpus, workbooks, metrics, pilot session, and report |
+| `mixed/` | Reproducible mixed-source follow-up and integration diagnostics |
+| `submission/` | Submission audit, readiness, contribution and verification artifacts |
 
-## Annotation workflow
+## Real and mixed evaluation workflow
 
-Use the frozen snapshot rather than live collection. Two annotators must label
-independently, then disagreements are adjudicated by exact span and recorded
-timestamps. Do not use adjudicated labels to calculate agreement.
-
-Each independent run is a JSON object containing an `annotations` map:
-
-```json
-{
-  "annotator": "name",
-  "annotations": {
-    "item-001": "corroborated"
-  }
-}
-```
-
-To generate a stable item worklist from one frozen snapshot:
+Use the real-document round for the primary active evaluation:
 
 ```bash
-python evaluation/build_annotation_worklist.py \
-  tests/fixtures/faisal/snapshot_records.jsonl \
-  --out evaluation/annotation-worklist.json
+.venv/bin/python evaluation/real_round.py rank \
+  --qrels evaluation/real/source-reviewed-qrels.json
+.venv/bin/python evaluation/real_round.py score \
+  --qrels evaluation/real/source-reviewed-qrels.json
+.venv/bin/python evaluation/real_round.py validate
 ```
 
-The generated file contains record IDs, exact title/text spans, and the three
-time fields. It does not assign labels; annotators must label each item
-independently before Cohen's kappa is calculated.
-
-Prepare independent input files from the worklist:
-
-```bash
-python evaluation/prepare_annotation_round.py \
-  evaluation/annotation-worklist.json \
-  --first-name "Annotator A" \
-  --second-name "Annotator B"
-```
-
-This creates empty `not_started` files with every unique item ID listed as
-pending. It does not create or guess labels. Mark each file `"status": "complete"`
-only after that annotator has independently populated all shared annotations.
-
-For a clearly marked pilot draft, Copilot can generate conservative labels
-without representing them as human judgments:
-
-```bash
-python evaluation/create_copilot_annotation_draft.py \
-  tests/fixtures/faisal/snapshot_records.jsonl \
-  evaluation/annotation-worklist.json
-```
-
-Generated draft files must keep `"status": "simulated"` and
-`"not_human_annotation": true`. They must not be supplied to the Cohen kappa
-calculator as independent human annotators.
-
-Calculate agreement only after both files contain their independent labels:
-
-```bash
-python evaluation/compute_agreement.py \
-  evaluation/annotator-a.json \
-  evaluation/annotator-b.json
-```
-
-For fillable human workbooks, use the CSV generator:
-
-```bash
-python evaluation/build_human_workbooks.py
-```
-
-Sueda Sen and Mehmet Aksit must fill separate evidence, entity, and relation
-CSV files without seeing each other's labels. Calculate evidence agreement:
-
-```bash
-python evaluation/csv_agreement.py \
-  evaluation/human-workbooks/sueda-evidence.csv \
-  evaluation/human-workbooks/mehmet-evidence.csv
-```
-
-For the independent human entity/relation workbooks:
-
-```bash
-python evaluation/validate_human_annotations.py
-```
-
-Use `*-entities-work.csv` and `*-relations-work.csv` from
-`evaluation/human-workbooks/`. This gate refuses success until both annotators
-provide at least 200 entity mentions and 80-100 relations.
-
-For the first human gate, both annotators fill separate corpus-review files:
-
-```bash
-evaluation/human-workbooks/sueda-corpus-review.csv
-evaluation/human-workbooks/mehmet-corpus-review.csv
-```
-
-Enter `yes` or `no` in `include_in_final_corpus`. Keep the independent review
-files separate until the human selection is reconciled. The corpus is complete
-only after the final agreed set has 40-50 documents.
+The separate `mixed/` round is an integration diagnostic. It does not replace
+independent annotation or temporal-answer correctness.
 
 Primary success, from the proposal: temporal multi-hop accuracy above the strongest non-graph baseline, unsupported claims below 10%, and valid evidence for at least 90% of factual answer claims.
 
@@ -174,3 +87,27 @@ reporting anything.
 
 Trend ranking (`--trend-signals` plus `--trend-rubric`) scores Precision@k and
 the false-alert rate against a weekly rubric of genuinely trending entities.
+
+## Source history and separate independent review
+
+Replay the latest public posting history with
+`python -m evaluation.ats_history --check`. The source-bound artifact is
+`evaluation/cohort-ats-history/review.json`; coverage is 12/18 companies.
+Historical counts use archived payloads, not live rendering of past pages.
+
+Run `python -m evaluation.independent_review serve --port 8767` and open
+<http://127.0.0.1:8767>. Choose your own identity and the frozen round. Read the
+source, select a label and save. Decisions persist in separate reviewer files
+under `evaluation/independent-review/<round>/direct/`; existing assisted CSVs are preserved.
+The session statement concerns personal independent source decisions, not another
+team authorization request. No label is preselected. After both reviews are
+complete, run `python -m evaluation.independent_review agreement --round real`
+(or `--round mixed`). The command verifies source hashes and complete candidate
+coverage and returns agreement and disagreements without adjudicating them.
+Independence is reviewer self-reported. No study decisions were generated while
+testing this console.
+
+The release console uses the expanded frozen v2 pool: 776 entity candidates and
+100 relation candidates. The mixed pool has 276 entities and 108 relations.
+Assisted JSON files outside the `direct` subdirectory are retained separately
+and do not count toward independent-review completion.

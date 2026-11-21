@@ -1,0 +1,117 @@
+[
+  {
+    "company_id": "llamaindex",
+    "url": "https://www.llamaindex.ai/careers",
+    "observed_at": "2026-11-21T09:58:07.956873+00:00",
+    "status": 200,
+    "response_url": "https://www.llamaindex.ai/careers",
+    "file": "sources/llamaindex-careers.html",
+    "sha256": "82cb2cfb6bc6f25bb66010ef7a1683bd41f1b9c006c56902794f76e226de099b",
+    "ats_links": [],
+    "dated_fragments": []
+  },
+  {
+    "company_id": "crewai",
+    "url": "https://apply.workable.com/crewai/",
+    "observed_at": "2026-11-21T09:58:07.957189+00:00",
+    "status": 200,
+    "response_url": "https://apply.workable.com/crewai/",
+    "file": "sources/crewai-careers.html",
+    "sha256": "2cc89b88dcffceee54f1b8ac98542bc2f40521cddeb6b34533469a5ff9b0d2ff",
+    "ats_links": [
+      "https://apply.workable.com/crewai/",
+      "https://apply.workable.com/crewai/?lng=en",
+      "https://apply.workable.com/crewai/llms.txt",
+      "https://www.workable.com/static/apple-touch-icon-192x192.png",
+      "https://www.workable.com/static/ms-icon-144x144.png"
+    ],
+    "dated_fragments": []
+  },
+  {
+    "company_id": "continue",
+    "url": "https://www.continue.dev/",
+    "observed_at": "2026-11-21T09:58:07.957299+00:00",
+    "status": 200,
+    "response_url": "https://continue.dev/",
+    "file": "sources/continue-careers.html",
+    "sha256": "e6976b8790d347de0255b6aa09ac5c81a097cd3cd903c2e91d12fe71b2f507d4",
+    "ats_links": [],
+    "dated_fragments": []
+  },
+  {
+    "company_id": "weaviate",
+    "url": "https://weaviate.io/company/careers",
+    "observed_at": "2026-11-21T09:58:07.957411+00:00",
+    "status": 200,
+    "response_url": "https://weaviate.io/company/careers",
+    "file": "sources/weaviate-careers.html",
+    "sha256": "7b37067fa59f22f531c8f992825fd93bfb57b8f0e247c971fb6e9fd6f7b1b9ae",
+    "ats_links": [],
+    "dated_fragments": []
+  },
+  {
+    "company_id": "chroma",
+    "url": "https://www.trychroma.com/careers",
+    "observed_at": "2026-11-21T09:58:07.957477+00:00",
+    "error": "ConnectionError"
+  },
+  {
+    "company_id": "arize",
+    "url": "https://arize.com/careers/",
+    "observed_at": "2026-11-21T09:58:08.059950+00:00",
+    "status": 200,
+    "response_url": "https://arize.com/careers/",
+    "file": "sources/arize-careers.html",
+    "sha256": "f89068c7971c033aec2915d6b6246c841c10ff3e42539056274ef4479ef29754",
+    "ats_links": [],
+    "dated_fragments": [
+      "operty=\"article:modified_time\" content=\"2026-11-11T18:57:18+00:00\" />",
+      "s://arize.com/careers/\",\"lastReviewed\":\"2026-11-11T10:57:18-08:00\",\"dateCreated\":\"2025-02-",
+      "n more about us here.\",\"datePublished\":\"2025-02-17T16:08:35-08:00\",\"dateModified\":\"2026-11",
+      ":\"Careers\",\"type\":\"page\",\"publishDate\":\"2025-02-17T16:08:35-08:00\"};"
+    ]
+  },
+  {
+    "company_id": "langfuse",
+    "url": "https://langfuse.com/careers",
+    "observed_at": "2026-11-21T09:58:08.228160+00:00",
+    "status": 200,
+    "response_url": "https://langfuse.com/careers",
+    "file": "sources/langfuse-careers.html",
+    "sha256": "1b71489e3df8fcbe56283e199d4f5b1264f8e68acbc6efd32ccfc6aa52072e36",
+    "ats_links": [],
+    "dated_fragments": [
+      "l hover:bg-surface-bg\" href=\"/changelog/2026-11-20-redesigned-trace-view\"><span aria-hidde",
+      "l hover:bg-surface-bg\" href=\"/changelog/2026-11-19-ai-gateway-budgets\"><span aria-hidden=\"",
+      "l hover:bg-surface-bg\" href=\"/changelog/2026-11-18-bedrock-iam-role-auth\"><span aria-hidde",
+      "w-full hover:bg-surface-bg\" href=\"/blog/2026-11-19-comfortable-with-being-uncomfortable\"><"
+    ]
+  },
+  {
+    "company_id": "replicate",
+    "url": "https://replicate.com/careers",
+    "observed_at": "2026-11-21T09:58:08.259331+00:00",
+    "status": 200,
+    "response_url": "https://replicate.com/about#open-roles",
+    "file": "sources/replicate-careers.html",
+    "sha256": "2fa61045a5e1844bccc69f02679c3728c7ba42828df1eee6618cb7dfbe034c43",
+    "ats_links": [],
+    "dated_fragments": [
+      "AOH8WRkq1uzvY62gaKM7\\\",\\\"expires_at\\\",\\\"2026-11-21T10:08:08.960Z\\\",\\\"DOCS_SIDEBAR\\\",\\\"DOCS"
+    ]
+  },
+  {
+    "company_id": "wandb",
+    "url": "https://wandb.ai/site/careers/",
+    "observed_at": "2026-11-21T09:58:08.352903+00:00",
+    "status": 200,
+    "response_url": "https://wandb.ai/site/careers/",
+    "file": "sources/wandb-careers.html",
+    "sha256": "c22097f4689df7b140fe2a353c329e729c1bc2e289ebaa347e3848df69debffa",
+    "ats_links": [],
+    "dated_fragments": [
+      "operty=\"article:modified_time\" content=\"2025-12-05T18:13:10+00:00\" />",
+      ":\"2023-09-04T20:16:15Z\",\"dateModified\":\"2025-12-05T18:13:10Z\"}</script><meta name=\"generat"
+    ]
+  }
+]

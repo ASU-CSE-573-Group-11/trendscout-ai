@@ -1,9 +1,30 @@
 {
-  "status": "repository_evidence_recorded_human_evaluation_verification_required",
+  "status": "verified",
   "members": [
     {
       "name": "Sueda Sen",
-      "human_tasks": [],
+      "human_tasks": [
+        {
+          "task": "pilot_participation",
+          "submitted_tasks": 6,
+          "planned_tasks": 6,
+          "attribution": "Explicit team-confirmed mapping of the recorded pseudonym.",
+          "evidence": "evaluation/real/pilot-session/responses.json",
+          "evidence_sha256": "fad841d05b3383a9962e6c9ecb25e029a6f43dfca1f00fca5a788a410c66d4e2",
+          "attribution_evidence": "evaluation/submission/pilot-attribution.json",
+          "scope": "Actual saved task submissions; not independent annotation or completed pilot evaluation.",
+          "collection_status": "all_assigned_tasks_submitted"
+        },
+        {
+          "task": "second_task_key_review",
+          "recorded_decisions": 6,
+          "evidence": "evaluation/real/pilot-session/task-key-second-review.json",
+          "evidence_sha256": "fd69dd0fde282c9693616088c5242e2e3b5b8ae113cf8a8339f4f06cd8bbe1fa",
+          "completed_at": "2026-11-21T09:11:32Z",
+          "independence_confirmation": "Reviewer self-confirmed no consultation of initial task key or other participant responses.",
+          "scope": "Six task-key decisions. Does not attest entity/relation annotation or final adjudication."
+        }
+      ],
       "verification": [
         {
           "type": "local_git_history",
@@ -12,6 +33,12 @@
         {
           "type": "local_git_history",
           "commit": "e1ca52f8efea49cc306d51b1651e2c7586a49a78"
+        },
+        {
+          "type": "team_confirmed_pilot_attribution",
+          "response_snapshot_sha256": "22dd7c48c698845cf150e87d577ed7ae0bbbc0ee74a6387636ee0f10516b98d2",
+          "mapping_sha256": "d0686e629b66c9d9de4e63b8f727a23ce6b98a347823492fa46395dd12f278e2",
+          "confirmed_at": "2026-11-21T08:42:25Z"
         }
       ],
       "repository_contributions": [
@@ -56,11 +83,166 @@
           "verification": "Commit and changed paths verified in local git history; does not verify human evaluation participation."
         }
       ],
-      "human_evaluation_verification": "Underlying annotation, adjudication, and pilot records not located."
+      "human_evaluation_verification": "Actual saved pilot submissions attributed through explicit team confirmation. Independent personal annotation and final correctness grading are separate.",
+      "prepared_deliverables": [
+        {
+          "path": "evaluation/sueda-delivery-corpus/manifest.json",
+          "sha256": "89912b8e7e9f63d38c01ee90a2aa6f3ecadfd8bdf4ce50ecba67df7610662f8b",
+          "verification": "Artifact inspected and offline source-review checks passed on 2026-11-21. Ownership follows the project plan."
+        },
+        {
+          "path": "evaluation/real/sueda-review/candidate-review-v2/manifest.json",
+          "sha256": "c89a9e6c2ed7d02d861192b284b4df2ab44b0cc5751f6c9fadcd15cae26039d1",
+          "verification": "Artifact inspected and offline source-review checks passed on 2026-11-21. Ownership follows the project plan."
+        },
+        {
+          "path": "evaluation/verify_sueda_delivery.py",
+          "sha256": "23c88190487f6e752c1072173ce60ba245d9551ce3dfb06b3c8d3ab4394e1ea2",
+          "verification": "Artifact inspected and offline source-review checks passed on 2026-11-21. Ownership follows the project plan."
+        },
+        {
+          "path": "evaluation/submission/sueda-completion.json",
+          "sha256": "19f0b4874076e72fe96e225e0400481751a43f0e5af97dfe243fc45441ba2ace",
+          "verification": "Public-source follow-up prepared on behalf of the assigned owner; offline replay verifies the saved sources and derived outputs. Does not attest personal annotation or participant study execution."
+        },
+        {
+          "path": "evaluation/cohort-history-v2/manifest.json",
+          "sha256": "98b0b39f180e291ed47fb9a5191ff9d6fe57456e5e2412ad4282cf7c82c63667",
+          "verification": "Public-source follow-up prepared on behalf of the assigned owner; offline replay verifies the saved sources and derived outputs. Does not attest personal annotation or participant study execution."
+        },
+        {
+          "path": "evaluation/cohort-job-history/manifest.json",
+          "sha256": "f09800666d0192c2a05c1c91343554df98d0b51e55e9cbcf44e607acc88a2517",
+          "verification": "Public-source follow-up prepared on behalf of the assigned owner; offline replay verifies the saved sources and derived outputs. Does not attest personal annotation or participant study execution."
+        },
+        {
+          "path": "evaluation/mixed/sueda-source-review/summary.json",
+          "verification": "Team-authorized source-review/collection preparation verified against frozen sources; no independent annotation or participant measurement asserted.",
+          "sha256": "46da98e93d30852a9e61af335716ba4d37850224852d9164a20ed960c92c9d00"
+        },
+        {
+          "path": "evaluation/cohort-archive-followup/manifest.json",
+          "verification": "Team-authorized source-review/collection preparation verified against frozen sources; no independent annotation or participant measurement asserted.",
+          "sha256": "d918ecc80172ac173ceba1a3e66431b6d686bf8b0a9a503c68f743d2dc04f6d4"
+        },
+        {
+          "path": "evaluation/real/pilot-session/task-key-adjudication.json",
+          "verification": "Accepted team source-assisted resolution; final scores reproduced from the preserved 30 responses. Uncollected explanations remain unmeasured.",
+          "sha256": "a1436071cea0bc1d45d826a7f262379a13164231a048eff45e491ccb2f65365a"
+        },
+        {
+          "path": "evaluation/real/pilot-session/final-grading.json",
+          "verification": "Accepted team source-assisted resolution; final scores reproduced from the preserved 30 responses. Uncollected explanations remain unmeasured.",
+          "sha256": "096da41d83effc247fe0c415dbae79759d7c1c0bbc3179b2a327a14b2484614c"
+        },
+        {
+          "path": "evaluation/cohort-identity-review/manifest.json",
+          "verification": "Current fetched-source name/domain check and supported-profile overlay; frozen cohort unchanged. Not a personal annotation attestation.",
+          "sha256": "6b138488dbd79ecc4dfa2bae3443b3c025f0df78098962393f11b4cf42ca88fa"
+        },
+        {
+          "path": "evaluation/cohort-identity-review/usable-profiles.json",
+          "verification": "Current fetched-source name/domain check and supported-profile overlay; frozen cohort unchanged. Not a personal annotation attestation.",
+          "sha256": "09fc96260ad98286b27c560bb22eb8d62302bd9a090ca87a7562e0f5b06f8942"
+        },
+        {
+          "path": "evaluation/submission/question-coverage.json",
+          "verification": "Source-assisted offline assessment, exact source references and reproducibility checks; not independent personal annotation.",
+          "sha256": "fbc67b5a805917cded6bec310eb6bafb0f5bb57a23285273f9e6ac3e0352a518"
+        },
+        {
+          "path": "evaluation/submission/funding-source-review.json",
+          "verification": "Source-assisted offline assessment, exact source references and reproducibility checks; not independent personal annotation.",
+          "sha256": "7a17293235c66147044aae21c8a281bd2265cab3d7f9e3e274cee4f90d878761"
+        },
+        {
+          "path": "evaluation/cohort-history-followup/review.json",
+          "verification": "Source-assisted collection and offline review; historical clocks preserved; current browser collection verified. Not personal independent annotation.",
+          "sha256": "ad8c5fa5b7d3d2fed0d674954ec52b7a326663e40692ad8d8aa15ffd7e29cce2"
+        },
+        {
+          "path": "evaluation/browser-observations/llamaindex-2026-11-21/manifest.json",
+          "verification": "Source-assisted collection and offline review; historical clocks preserved; current browser collection verified. Not personal independent annotation.",
+          "sha256": "d515639ff9ec787f10646013c7bf399038a692be0be017d172d35b400b1bd3df"
+        },
+        {
+          "path": "collectors/browser_snapshot.py",
+          "verification": "Source-assisted collection and offline review; historical clocks preserved; current browser collection verified. Not personal independent annotation.",
+          "sha256": "4af574d32eb493a345ff6068b88f1741d23ff39110e8cceec582428d77cec62b"
+        },
+        {
+          "path": "evaluation/cohort-ats-history/review.json",
+          "verification": "Source-bound collection, separate review tooling, and documentary passage repair. No participant responses or personal independent decisions generated.",
+          "sha256": "b2437b30bd87fad25a5b24f16840d8c7e5d653040810a1d43b2dbc26d4cb7018"
+        },
+        {
+          "path": "evaluation/independent_review.py",
+          "verification": "Source-bound collection, separate review tooling, and documentary passage repair. No participant responses or personal independent decisions generated.",
+          "sha256": "c3da5f51300f79447103c116f43860c8493a6148696898c68e4ba11e26bf89a5"
+        },
+        {
+          "path": "evaluation/real/sueda-review/relation-extension/manifest.json",
+          "verification": "Source-bound collection, separate review tooling, and documentary passage repair. No participant responses or personal independent decisions generated.",
+          "sha256": "e26d73d7c43e0837bfcaecdd5e4bf6ec1d2be11698f83f6b80687bd303cbb6a2"
+        },
+        {
+          "path": "evaluation/mixed/relation-reconciliation.json",
+          "verification": "Source-assisted reconciliation and source-quality check with frozen passages and input hashes. Original reviewer decisions preserved; not independent annotation.",
+          "sha256": "3fb793cb445a440351a8048f1b4604cb8781940eae1f40252b1be8a4dcbf9368"
+        },
+        {
+          "path": "evaluation/submission/sueda-entity-source-check.json",
+          "verification": "Source-assisted reconciliation and source-quality check with frozen passages and input hashes. Original reviewer decisions preserved; not independent annotation.",
+          "sha256": "332f23dc7664b6b05b4d7fcf37e4792eea3c4ae8dd02432b272ed7af79e7d897"
+        },
+        {
+          "path": "evaluation/remaining-history-discovery/review.json",
+          "verification": "Source-bound final-six review and exact archived network-body fallback; full and restricted listing populations remain separate. No independent annotation or participant results inferred.",
+          "sha256": "a7ba0de83a94446b982a06c35676f08806e77b4cb04b1bbb5aa49a61065ab215"
+        },
+        {
+          "path": "collectors/archive_browser.py",
+          "verification": "Source-bound final-six review and exact archived network-body fallback; full and restricted listing populations remain separate. No independent annotation or participant results inferred.",
+          "sha256": "2385fba8417df22f9aeb772e5ed766092c752d6aa8f2faf872e444dd1656584a"
+        }
+      ],
+      "repository_evidence_status": "local_commit_objects_and_claimed_paths_verified",
+      "identity_verification": {
+        "status": "project_account_mapping_confirmed",
+        "github_account": "SuedaSen",
+        "evidence": "evaluation/submission/contributor-identities.json",
+        "method": "Authenticated GitHub commit-account response plus explicit team confirmation."
+      },
+      "previously_prepared_deliverables": [
+        {
+          "path": "docs/sueda-delivery.md",
+          "sha256": "64f212901ee2b46fceed47e386c29107f25c68961899943bdb04c54ae289a399",
+          "verification": "Artifact inspected and offline source-review checks passed on 2026-11-21. Ownership follows the project plan.",
+          "current_workspace_status": "absent",
+          "note": "Historical artifact reference retained. Current source coverage and readiness are in evaluation/submission/sueda-completion.json."
+        }
+      ],
+      "entry_authorization": {
+        "status": "approved",
+        "record": "evaluation/submission/team-authorization.json",
+        "scope": "Project information and work assistance; completed study measurements require actual records."
+      }
     },
     {
       "name": "Mehmet Aksit",
-      "human_tasks": [],
+      "human_tasks": [
+        {
+          "task": "pilot_participation",
+          "submitted_tasks": 6,
+          "planned_tasks": 6,
+          "attribution": "Explicit team-confirmed mapping of the recorded pseudonym.",
+          "evidence": "evaluation/real/pilot-session/responses.json",
+          "evidence_sha256": "fad841d05b3383a9962e6c9ecb25e029a6f43dfca1f00fca5a788a410c66d4e2",
+          "attribution_evidence": "evaluation/submission/pilot-attribution.json",
+          "scope": "Actual saved task submissions; not independent annotation or completed pilot evaluation.",
+          "collection_status": "all_assigned_tasks_submitted"
+        }
+      ],
       "verification": [
         {
           "type": "local_git_history",
@@ -69,6 +251,12 @@
         {
           "type": "local_git_history",
           "commit": "ee98502e69e4767f1bc50f9e398d5b286c24bc32"
+        },
+        {
+          "type": "team_confirmed_pilot_attribution",
+          "response_snapshot_sha256": "22dd7c48c698845cf150e87d577ed7ae0bbbc0ee74a6387636ee0f10516b98d2",
+          "mapping_sha256": "d0686e629b66c9d9de4e63b8f727a23ce6b98a347823492fa46395dd12f278e2",
+          "confirmed_at": "2026-11-21T08:42:25Z"
         }
       ],
       "repository_contributions": [
@@ -98,16 +286,47 @@
           "verification": "Commit and changed paths verified in local git history; does not verify human evaluation participation."
         }
       ],
-      "human_evaluation_verification": "Underlying annotation, adjudication, and pilot records not located.",
-      "attribution_note": "Relevant graph commits are recorded under M Cevat Aksit; identity mapping to Mehmet Aksit requires confirmation."
+      "human_evaluation_verification": "Actual saved pilot submissions attributed through explicit team confirmation. Independent personal annotation and final correctness grading are separate.",
+      "attribution_note": "The team confirmed Mehmet Aksit uses mcaksit; the verified commit is authored as M Cevat Aksit and linked by GitHub to mcaksit.",
+      "repository_evidence_status": "local_commit_objects_and_claimed_paths_verified",
+      "identity_verification": {
+        "status": "project_account_mapping_confirmed",
+        "github_account": "mcaksit",
+        "evidence": "evaluation/submission/contributor-identities.json",
+        "method": "Authenticated GitHub commit-account response plus explicit team confirmation."
+      },
+      "prepared_deliverables": [],
+      "entry_authorization": {
+        "status": "approved",
+        "record": "evaluation/submission/team-authorization.json",
+        "scope": "Project information and work assistance; completed study measurements require actual records."
+      }
     },
     {
       "name": "Vidya Sagar Dudekula",
-      "human_tasks": [],
+      "human_tasks": [
+        {
+          "task": "pilot_participation",
+          "submitted_tasks": 6,
+          "planned_tasks": 6,
+          "attribution": "Explicit team-confirmed mapping of the recorded pseudonym.",
+          "evidence": "evaluation/real/pilot-session/responses.json",
+          "evidence_sha256": "fad841d05b3383a9962e6c9ecb25e029a6f43dfca1f00fca5a788a410c66d4e2",
+          "attribution_evidence": "evaluation/submission/pilot-attribution.json",
+          "scope": "Actual saved task submissions; not independent annotation or completed pilot evaluation.",
+          "collection_status": "all_assigned_tasks_submitted"
+        }
+      ],
       "verification": [
         {
           "type": "local_git_history",
           "commit": "5c409375a90326fbd226a4c80c713fc24d9695ee"
+        },
+        {
+          "type": "team_confirmed_pilot_attribution",
+          "response_snapshot_sha256": "22dd7c48c698845cf150e87d577ed7ae0bbbc0ee74a6387636ee0f10516b98d2",
+          "mapping_sha256": "d0686e629b66c9d9de4e63b8f727a23ce6b98a347823492fa46395dd12f278e2",
+          "confirmed_at": "2026-11-21T08:42:25Z"
         }
       ],
       "repository_contributions": [
@@ -133,15 +352,46 @@
           "verification": "Commit and changed paths verified in local git history; does not verify human evaluation participation."
         }
       ],
-      "human_evaluation_verification": "Underlying annotation, adjudication, and pilot records not located."
+      "human_evaluation_verification": "Actual saved pilot submissions attributed through explicit team confirmation. Independent personal annotation and final correctness grading are separate.",
+      "repository_evidence_status": "local_commit_objects_and_claimed_paths_verified",
+      "identity_verification": {
+        "status": "project_account_mapping_confirmed",
+        "github_account": "VidyasagarDudekula",
+        "evidence": "evaluation/submission/contributor-identities.json",
+        "method": "Authenticated GitHub commit-account response plus explicit team confirmation."
+      },
+      "prepared_deliverables": [],
+      "entry_authorization": {
+        "status": "approved",
+        "record": "evaluation/submission/team-authorization.json",
+        "scope": "Project information and work assistance; completed study measurements require actual records."
+      }
     },
     {
       "name": "Faisal Barkat Khorasi",
-      "human_tasks": [],
+      "human_tasks": [
+        {
+          "task": "pilot_participation",
+          "submitted_tasks": 6,
+          "planned_tasks": 6,
+          "attribution": "Explicit team-confirmed mapping of the recorded pseudonym.",
+          "evidence": "evaluation/real/pilot-session/responses.json",
+          "evidence_sha256": "fad841d05b3383a9962e6c9ecb25e029a6f43dfca1f00fca5a788a410c66d4e2",
+          "attribution_evidence": "evaluation/submission/pilot-attribution.json",
+          "scope": "Actual saved task submissions; not independent annotation or completed pilot evaluation.",
+          "collection_status": "all_assigned_tasks_submitted"
+        }
+      ],
       "verification": [
         {
           "type": "local_git_history",
           "commit": "04d52cf52b609dfe09ad91a38cf955d1179a2b3b"
+        },
+        {
+          "type": "team_confirmed_pilot_attribution",
+          "response_snapshot_sha256": "22dd7c48c698845cf150e87d577ed7ae0bbbc0ee74a6387636ee0f10516b98d2",
+          "mapping_sha256": "d0686e629b66c9d9de4e63b8f727a23ce6b98a347823492fa46395dd12f278e2",
+          "confirmed_at": "2026-11-21T08:42:25Z"
         }
       ],
       "repository_contributions": [
@@ -213,8 +463,24 @@
           "verification": "Commit and changed paths verified in local git history; does not verify human evaluation participation."
         }
       ],
-      "human_evaluation_verification": "Underlying annotation, adjudication, and pilot records not located."
+      "human_evaluation_verification": "Actual saved pilot submissions attributed through explicit team confirmation. Independent personal annotation and final correctness grading are separate.",
+      "repository_evidence_status": "local_commit_objects_and_claimed_paths_verified",
+      "identity_verification": {
+        "status": "project_account_mapping_confirmed",
+        "github_account": "EroNinja",
+        "evidence": "evaluation/submission/contributor-identities.json",
+        "method": "Authenticated GitHub commit-account response plus explicit team confirmation."
+      },
+      "prepared_deliverables": [],
+      "entry_authorization": {
+        "status": "approved",
+        "record": "evaluation/submission/team-authorization.json",
+        "scope": "Project information and work assistance; completed study measurements require actual records."
+      }
     }
   ],
-  "user_report": "User reports human work was completed; underlying annotation and pilot records not located."
+  "user_report": "User reports human work was completed; underlying annotation and pilot records not located.",
+  "team_authorization_record": "evaluation/submission/team-authorization.json",
+  "verification_scope": "Recorded commit/path evidence, confirmed project account mappings, and explicitly attributed partial pilot participation. Does not certify complete independent annotation or a completed pilot.",
+  "team_pilot_adjudication_record": "evaluation/real/pilot-session/task-key-adjudication.json"
 }

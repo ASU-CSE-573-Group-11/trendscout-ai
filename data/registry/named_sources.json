@@ -1,5 +1,5 @@
 {
-  "version": "1.0",
+  "version": "1.1",
   "owner": "Sueda Sen",
   "core_demo_boundary": "Public organization data only. No LinkedIn, private profiles, applicant data, or paid databases.",
   "news": [
@@ -20,6 +20,33 @@
       "refresh": "daily",
       "planned_use": "Daily news discovery for the frozen cohort.",
       "access_note": "Public RSS for the VentureBeat AI category."
+    },
+    {
+      "source_id": "techcrunch_langchain",
+      "publisher": "TechCrunch",
+      "page_url": "https://techcrunch.com/tag/langchain/",
+      "rss_url": "https://techcrunch.com/tag/langchain/feed/",
+      "refresh": "daily",
+      "planned_use": "Public topic-feed archive discovery for the frozen cohort.",
+      "access_note": "Public RSS. Publication timestamps retained; no assumption of complete historical coverage."
+    },
+    {
+      "source_id": "techcrunch_browserbase",
+      "publisher": "TechCrunch",
+      "page_url": "https://techcrunch.com/tag/browserbase/",
+      "rss_url": "https://techcrunch.com/tag/browserbase/feed/",
+      "refresh": "daily",
+      "planned_use": "Public topic-feed archive discovery for the frozen cohort.",
+      "access_note": "Public RSS. Publication timestamps retained; no assumption of complete historical coverage."
+    },
+    {
+      "source_id": "techcrunch_composio",
+      "publisher": "TechCrunch",
+      "page_url": "https://techcrunch.com/tag/composio/",
+      "rss_url": "https://techcrunch.com/tag/composio/feed/",
+      "refresh": "daily",
+      "planned_use": "Public topic-feed archive discovery for the frozen cohort.",
+      "access_note": "Public RSS. Publication timestamps retained; no assumption of complete historical coverage."
     }
   ],
   "public_voices": [
@@ -49,6 +76,114 @@
       "refresh": "daily",
       "default_label": "analysis",
       "access_note": "Public dated technical commentary. No private subscriber data."
+    },
+    {
+      "source_id": "interconnects",
+      "publisher": "Nathan Lambert / Interconnects",
+      "page_url": "https://www.interconnects.ai",
+      "rss_url": "https://www.interconnects.ai/feed",
+      "refresh": "daily",
+      "default_label": "analysis",
+      "access_note": "Public RSS/Atom only. No paid or login content. Availability and retained passages are recorded in the collection manifest."
+    },
+    {
+      "source_id": "ahead_of_ai",
+      "publisher": "Sebastian Raschka / Ahead of AI",
+      "page_url": "https://magazine.sebastianraschka.com",
+      "rss_url": "https://magazine.sebastianraschka.com/feed",
+      "refresh": "daily",
+      "default_label": "analysis",
+      "access_note": "Public RSS/Atom only. No paid or login content. Availability and retained passages are recorded in the collection manifest."
+    },
+    {
+      "source_id": "one_useful_thing",
+      "publisher": "Ethan Mollick / One Useful Thing",
+      "page_url": "https://www.oneusefulthing.org",
+      "rss_url": "https://www.oneusefulthing.org/feed",
+      "refresh": "daily",
+      "default_label": "analysis",
+      "access_note": "Public RSS/Atom only. No paid or login content. Availability and retained passages are recorded in the collection manifest."
+    },
+    {
+      "source_id": "pragmatic_engineer",
+      "publisher": "Gergely Orosz / The Pragmatic Engineer",
+      "page_url": "https://newsletter.pragmaticengineer.com",
+      "rss_url": "https://newsletter.pragmaticengineer.com/feed",
+      "refresh": "daily",
+      "default_label": "analysis",
+      "access_note": "Public RSS/Atom only. No paid or login content. Availability and retained passages are recorded in the collection manifest."
+    },
+    {
+      "source_id": "lilian_weng",
+      "publisher": "Lilian Weng",
+      "page_url": "https://lilianweng.github.io/index.xml",
+      "rss_url": "https://lilianweng.github.io/index.xml",
+      "refresh": "daily",
+      "default_label": "analysis",
+      "access_note": "Public RSS/Atom only. No paid or login content. Availability and retained passages are recorded in the collection manifest."
+    },
+    {
+      "source_id": "chip_huyen",
+      "publisher": "Chip Huyen",
+      "page_url": "https://huyenchip.com",
+      "rss_url": "https://huyenchip.com/feed.xml",
+      "refresh": "daily",
+      "default_label": "analysis",
+      "access_note": "Public RSS/Atom only. No paid or login content. Availability and retained passages are recorded in the collection manifest."
+    },
+    {
+      "source_id": "eugene_yan",
+      "publisher": "Eugene Yan",
+      "page_url": "https://eugeneyan.com/rss/",
+      "rss_url": "https://eugeneyan.com/rss/",
+      "refresh": "daily",
+      "default_label": "analysis",
+      "access_note": "Public RSS/Atom only. No paid or login content. Availability and retained passages are recorded in the collection manifest."
+    },
+    {
+      "source_id": "hamel_husain",
+      "publisher": "Hamel Husain",
+      "page_url": "https://hamel.dev",
+      "rss_url": "https://hamel.dev/feed.xml",
+      "refresh": "daily",
+      "default_label": "analysis",
+      "access_note": "Public RSS/Atom only. No paid or login content. Availability and retained passages are recorded in the collection manifest."
+    },
+    {
+      "source_id": "jason_liu",
+      "publisher": "Jason Liu",
+      "page_url": "https://jxnl.co/rss.xml",
+      "rss_url": "https://jxnl.co/rss.xml",
+      "refresh": "daily",
+      "default_label": "analysis",
+      "access_note": "Public RSS/Atom only. No paid or login content. Availability and retained passages are recorded in the collection manifest."
+    },
+    {
+      "source_id": "benedict_evans",
+      "publisher": "Benedict Evans",
+      "page_url": "https://www.ben-evans.com/benedictevans?format=rss",
+      "rss_url": "https://www.ben-evans.com/benedictevans?format=rss",
+      "refresh": "daily",
+      "default_label": "analysis",
+      "access_note": "Public RSS/Atom only. No paid or login content. Availability and retained passages are recorded in the collection manifest."
+    },
+    {
+      "source_id": "stratechery",
+      "publisher": "Ben Thompson / Stratechery",
+      "page_url": "https://stratechery.com",
+      "rss_url": "https://stratechery.com/feed/",
+      "refresh": "daily",
+      "default_label": "analysis",
+      "access_note": "Public RSS/Atom only. No paid or login content. Availability and retained passages are recorded in the collection manifest."
+    },
+    {
+      "source_id": "import_ai",
+      "publisher": "Jack Clark / Import AI",
+      "page_url": "https://importai.substack.com",
+      "rss_url": "https://importai.substack.com/feed",
+      "refresh": "daily",
+      "default_label": "analysis",
+      "access_note": "Public RSS/Atom only. No paid or login content. Availability and retained passages are recorded in the collection manifest."
     }
   ],
   "reference": [
@@ -86,5 +221,7 @@
       "owner": "Vidya Sagar Dudekula",
       "page_url": "https://docs.github.com/en/rest"
     }
-  ]
+  ],
+  "revision_date": "2026-11-20",
+  "revision_note": "Expand curated public voices to the proposal target of 15 feeds and add three public cohort topic feeds. No cohort membership changes."
 }

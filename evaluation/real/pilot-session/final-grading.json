@@ -1,0 +1,659 @@
+{
+  "status": "finalized_for_observed_fields",
+  "method": "team_source_assisted_adjudication_after_blind_second_review",
+  "responses": 30,
+  "task_results": [
+    {
+      "participant_id": "P01",
+      "question_id": "q-investors-later-hiring",
+      "condition": "citations_only",
+      "order": 1,
+      "duration_seconds": 27.574829416,
+      "confidence": 3,
+      "reported_state": "corroborated",
+      "expected_state": "insufficient",
+      "status_correct": false,
+      "evidence_correct": null,
+      "abstention_correct": false,
+      "evidence_assessment": "not_measured: required free-text explanation was not collected",
+      "abstention_assessment": "assessed from the recorded action",
+      "grading_method": "adjudicated_key_observed_fields_only"
+    },
+    {
+      "participant_id": "P02",
+      "question_id": "q-why-emerging",
+      "condition": "citations_only",
+      "order": 1,
+      "duration_seconds": 36.61387954100002,
+      "confidence": 4,
+      "reported_state": "disputed",
+      "expected_state": "emerging",
+      "status_correct": false,
+      "evidence_correct": null,
+      "abstention_correct": null,
+      "evidence_assessment": "not_measured: required free-text explanation was not collected",
+      "abstention_assessment": "not_measured: qualifying/policy explanation was not collected",
+      "grading_method": "adjudicated_key_observed_fields_only"
+    },
+    {
+      "participant_id": "P03",
+      "question_id": "q-pilot-github-mlops",
+      "condition": "citations_plus_state_and_path",
+      "order": 1,
+      "duration_seconds": 13.684362708999998,
+      "confidence": 4,
+      "reported_state": "corroborated",
+      "expected_state": "insufficient",
+      "status_correct": false,
+      "evidence_correct": null,
+      "abstention_correct": null,
+      "evidence_assessment": "not_measured: required free-text explanation was not collected",
+      "abstention_assessment": "not_measured: qualifying/policy explanation was not collected",
+      "grading_method": "adjudicated_key_observed_fields_only"
+    },
+    {
+      "participant_id": "P04",
+      "question_id": "q-future-performance",
+      "condition": "citations_plus_state_and_path",
+      "order": 1,
+      "duration_seconds": 8.364888666999974,
+      "confidence": 3,
+      "reported_state": "stale",
+      "expected_state": "insufficient",
+      "status_correct": false,
+      "evidence_correct": null,
+      "abstention_correct": false,
+      "evidence_assessment": "not_measured: required free-text explanation was not collected",
+      "abstention_assessment": "assessed from the recorded action",
+      "grading_method": "adjudicated_key_observed_fields_only"
+    },
+    {
+      "participant_id": "P05",
+      "question_id": "q-sector-attention",
+      "condition": "citations_only",
+      "order": 1,
+      "duration_seconds": 20.137376667000012,
+      "confidence": 4,
+      "reported_state": "corroborated",
+      "expected_state": "insufficient",
+      "status_correct": false,
+      "evidence_correct": null,
+      "abstention_correct": false,
+      "evidence_assessment": "not_measured: required free-text explanation was not collected",
+      "abstention_assessment": "assessed from the recorded action",
+      "grading_method": "adjudicated_key_observed_fields_only"
+    },
+    {
+      "participant_id": "P01",
+      "question_id": "q-why-emerging",
+      "condition": "citations_only",
+      "order": 2,
+      "duration_seconds": 15.776244999999903,
+      "confidence": 3,
+      "reported_state": "disputed",
+      "expected_state": "emerging",
+      "status_correct": false,
+      "evidence_correct": null,
+      "abstention_correct": null,
+      "evidence_assessment": "not_measured: required free-text explanation was not collected",
+      "abstention_assessment": "not_measured: qualifying/policy explanation was not collected",
+      "grading_method": "adjudicated_key_observed_fields_only"
+    },
+    {
+      "participant_id": "P01",
+      "question_id": "q-future-performance",
+      "condition": "citations_only",
+      "order": 3,
+      "duration_seconds": 6.851791375000062,
+      "confidence": 3,
+      "reported_state": "stale",
+      "expected_state": "insufficient",
+      "status_correct": false,
+      "evidence_correct": null,
+      "abstention_correct": false,
+      "evidence_assessment": "not_measured: required free-text explanation was not collected",
+      "abstention_assessment": "assessed from the recorded action",
+      "grading_method": "adjudicated_key_observed_fields_only"
+    },
+    {
+      "participant_id": "P01",
+      "question_id": "q-sector-attention",
+      "condition": "citations_plus_state_and_path",
+      "order": 4,
+      "duration_seconds": 17.600615624999932,
+      "confidence": 3,
+      "reported_state": "stale",
+      "expected_state": "insufficient",
+      "status_correct": false,
+      "evidence_correct": null,
+      "abstention_correct": null,
+      "evidence_assessment": "not_measured: required free-text explanation was not collected",
+      "abstention_assessment": "not_measured: qualifying/policy explanation was not collected",
+      "grading_method": "adjudicated_key_observed_fields_only"
+    },
+    {
+      "participant_id": "P01",
+      "question_id": "q-pilot-github-mlops",
+      "condition": "citations_plus_state_and_path",
+      "order": 5,
+      "duration_seconds": 14.067370582999956,
+      "confidence": 3,
+      "reported_state": "corroborated",
+      "expected_state": "insufficient",
+      "status_correct": false,
+      "evidence_correct": null,
+      "abstention_correct": null,
+      "evidence_assessment": "not_measured: required free-text explanation was not collected",
+      "abstention_assessment": "not_measured: qualifying/policy explanation was not collected",
+      "grading_method": "adjudicated_key_observed_fields_only"
+    },
+    {
+      "participant_id": "P01",
+      "question_id": "q-unsupported-acquisition",
+      "condition": "citations_plus_state_and_path",
+      "order": 6,
+      "duration_seconds": 6.098260875000051,
+      "confidence": 3,
+      "reported_state": "corroborated",
+      "expected_state": "insufficient",
+      "status_correct": false,
+      "evidence_correct": null,
+      "abstention_correct": false,
+      "evidence_assessment": "not_measured: required free-text explanation was not collected",
+      "abstention_assessment": "assessed from the recorded action",
+      "grading_method": "adjudicated_key_observed_fields_only"
+    },
+    {
+      "participant_id": "P02",
+      "question_id": "q-pilot-github-mlops",
+      "condition": "citations_only",
+      "order": 2,
+      "duration_seconds": 12.655801792000034,
+      "confidence": 2,
+      "reported_state": "disputed",
+      "expected_state": "insufficient",
+      "status_correct": false,
+      "evidence_correct": null,
+      "abstention_correct": true,
+      "evidence_assessment": "not_measured: required free-text explanation was not collected",
+      "abstention_assessment": "assessed from the recorded action",
+      "grading_method": "adjudicated_key_observed_fields_only"
+    },
+    {
+      "participant_id": "P02",
+      "question_id": "q-unsupported-acquisition",
+      "condition": "citations_only",
+      "order": 3,
+      "duration_seconds": 5.624521874999914,
+      "confidence": 4,
+      "reported_state": "disputed",
+      "expected_state": "insufficient",
+      "status_correct": false,
+      "evidence_correct": null,
+      "abstention_correct": false,
+      "evidence_assessment": "not_measured: required free-text explanation was not collected",
+      "abstention_assessment": "assessed from the recorded action",
+      "grading_method": "adjudicated_key_observed_fields_only"
+    },
+    {
+      "participant_id": "P02",
+      "question_id": "q-sector-attention",
+      "condition": "citations_plus_state_and_path",
+      "order": 4,
+      "duration_seconds": 17.514532415999838,
+      "confidence": 4,
+      "reported_state": "corroborated",
+      "expected_state": "insufficient",
+      "status_correct": false,
+      "evidence_correct": null,
+      "abstention_correct": false,
+      "evidence_assessment": "not_measured: required free-text explanation was not collected",
+      "abstention_assessment": "assessed from the recorded action",
+      "grading_method": "adjudicated_key_observed_fields_only"
+    },
+    {
+      "participant_id": "P02",
+      "question_id": "q-future-performance",
+      "condition": "citations_plus_state_and_path",
+      "order": 5,
+      "duration_seconds": 7.062415333999979,
+      "confidence": 4,
+      "reported_state": "corroborated",
+      "expected_state": "insufficient",
+      "status_correct": false,
+      "evidence_correct": null,
+      "abstention_correct": false,
+      "evidence_assessment": "not_measured: required free-text explanation was not collected",
+      "abstention_assessment": "assessed from the recorded action",
+      "grading_method": "adjudicated_key_observed_fields_only"
+    },
+    {
+      "participant_id": "P02",
+      "question_id": "q-investors-later-hiring",
+      "condition": "citations_plus_state_and_path",
+      "order": 6,
+      "duration_seconds": 10.982677833000025,
+      "confidence": 4,
+      "reported_state": "corroborated",
+      "expected_state": "insufficient",
+      "status_correct": false,
+      "evidence_correct": null,
+      "abstention_correct": false,
+      "evidence_assessment": "not_measured: required free-text explanation was not collected",
+      "abstention_assessment": "assessed from the recorded action",
+      "grading_method": "adjudicated_key_observed_fields_only"
+    },
+    {
+      "participant_id": "P03",
+      "question_id": "q-why-emerging",
+      "condition": "citations_plus_state_and_path",
+      "order": 2,
+      "duration_seconds": 17.947840457999973,
+      "confidence": 4,
+      "reported_state": "corroborated",
+      "expected_state": "emerging",
+      "status_correct": false,
+      "evidence_correct": null,
+      "abstention_correct": null,
+      "evidence_assessment": "not_measured: required free-text explanation was not collected",
+      "abstention_assessment": "not_measured: qualifying/policy explanation was not collected",
+      "grading_method": "adjudicated_key_observed_fields_only"
+    },
+    {
+      "participant_id": "P03",
+      "question_id": "q-future-performance",
+      "condition": "citations_plus_state_and_path",
+      "order": 3,
+      "duration_seconds": 6.806374457999937,
+      "confidence": 4,
+      "reported_state": "corroborated",
+      "expected_state": "insufficient",
+      "status_correct": false,
+      "evidence_correct": null,
+      "abstention_correct": false,
+      "evidence_assessment": "not_measured: required free-text explanation was not collected",
+      "abstention_assessment": "assessed from the recorded action",
+      "grading_method": "adjudicated_key_observed_fields_only"
+    },
+    {
+      "participant_id": "P03",
+      "question_id": "q-sector-attention",
+      "condition": "citations_only",
+      "order": 4,
+      "duration_seconds": 18.9987886670001,
+      "confidence": 4,
+      "reported_state": "corroborated",
+      "expected_state": "insufficient",
+      "status_correct": false,
+      "evidence_correct": null,
+      "abstention_correct": false,
+      "evidence_assessment": "not_measured: required free-text explanation was not collected",
+      "abstention_assessment": "assessed from the recorded action",
+      "grading_method": "adjudicated_key_observed_fields_only"
+    },
+    {
+      "participant_id": "P03",
+      "question_id": "q-unsupported-acquisition",
+      "condition": "citations_only",
+      "order": 5,
+      "duration_seconds": 6.465440166999997,
+      "confidence": 4,
+      "reported_state": "corroborated",
+      "expected_state": "insufficient",
+      "status_correct": false,
+      "evidence_correct": null,
+      "abstention_correct": false,
+      "evidence_assessment": "not_measured: required free-text explanation was not collected",
+      "abstention_assessment": "assessed from the recorded action",
+      "grading_method": "adjudicated_key_observed_fields_only"
+    },
+    {
+      "participant_id": "P04",
+      "question_id": "q-investors-later-hiring",
+      "condition": "citations_plus_state_and_path",
+      "order": 2,
+      "duration_seconds": 13.427605374999985,
+      "confidence": 4,
+      "reported_state": "corroborated",
+      "expected_state": "insufficient",
+      "status_correct": false,
+      "evidence_correct": null,
+      "abstention_correct": null,
+      "evidence_assessment": "not_measured: required free-text explanation was not collected",
+      "abstention_assessment": "not_measured: qualifying/policy explanation was not collected",
+      "grading_method": "adjudicated_key_observed_fields_only"
+    },
+    {
+      "participant_id": "P04",
+      "question_id": "q-why-emerging",
+      "condition": "citations_plus_state_and_path",
+      "order": 3,
+      "duration_seconds": 23.221828417000097,
+      "confidence": 4,
+      "reported_state": "emerging",
+      "expected_state": "emerging",
+      "status_correct": true,
+      "evidence_correct": null,
+      "abstention_correct": null,
+      "evidence_assessment": "not_measured: required free-text explanation was not collected",
+      "abstention_assessment": "not_measured: qualifying/policy explanation was not collected",
+      "grading_method": "adjudicated_key_observed_fields_only"
+    },
+    {
+      "participant_id": "P04",
+      "question_id": "q-pilot-github-mlops",
+      "condition": "citations_only",
+      "order": 4,
+      "duration_seconds": 10.732030417000033,
+      "confidence": 3,
+      "reported_state": "disputed",
+      "expected_state": "insufficient",
+      "status_correct": false,
+      "evidence_correct": null,
+      "abstention_correct": false,
+      "evidence_assessment": "not_measured: required free-text explanation was not collected",
+      "abstention_assessment": "assessed from the recorded action",
+      "grading_method": "adjudicated_key_observed_fields_only"
+    },
+    {
+      "participant_id": "P04",
+      "question_id": "q-unsupported-acquisition",
+      "condition": "citations_only",
+      "order": 5,
+      "duration_seconds": 5.11023712500014,
+      "confidence": 4,
+      "reported_state": "corroborated",
+      "expected_state": "insufficient",
+      "status_correct": false,
+      "evidence_correct": null,
+      "abstention_correct": false,
+      "evidence_assessment": "not_measured: required free-text explanation was not collected",
+      "abstention_assessment": "assessed from the recorded action",
+      "grading_method": "adjudicated_key_observed_fields_only"
+    },
+    {
+      "participant_id": "P04",
+      "question_id": "q-sector-attention",
+      "condition": "citations_only",
+      "order": 6,
+      "duration_seconds": 15.203688791999866,
+      "confidence": 4,
+      "reported_state": "disputed",
+      "expected_state": "insufficient",
+      "status_correct": false,
+      "evidence_correct": null,
+      "abstention_correct": null,
+      "evidence_assessment": "not_measured: required free-text explanation was not collected",
+      "abstention_assessment": "not_measured: qualifying/policy explanation was not collected",
+      "grading_method": "adjudicated_key_observed_fields_only"
+    },
+    {
+      "participant_id": "P05",
+      "question_id": "q-unsupported-acquisition",
+      "condition": "citations_only",
+      "order": 2,
+      "duration_seconds": 5.768003040999929,
+      "confidence": 4,
+      "reported_state": "disputed",
+      "expected_state": "insufficient",
+      "status_correct": false,
+      "evidence_correct": null,
+      "abstention_correct": false,
+      "evidence_assessment": "not_measured: required free-text explanation was not collected",
+      "abstention_assessment": "assessed from the recorded action",
+      "grading_method": "adjudicated_key_observed_fields_only"
+    },
+    {
+      "participant_id": "P05",
+      "question_id": "q-investors-later-hiring",
+      "condition": "citations_only",
+      "order": 3,
+      "duration_seconds": 9.227229291999947,
+      "confidence": 4,
+      "reported_state": "corroborated",
+      "expected_state": "insufficient",
+      "status_correct": false,
+      "evidence_correct": null,
+      "abstention_correct": null,
+      "evidence_assessment": "not_measured: required free-text explanation was not collected",
+      "abstention_assessment": "not_measured: qualifying/policy explanation was not collected",
+      "grading_method": "adjudicated_key_observed_fields_only"
+    },
+    {
+      "participant_id": "P05",
+      "question_id": "q-future-performance",
+      "condition": "citations_plus_state_and_path",
+      "order": 4,
+      "duration_seconds": 5.314423833000092,
+      "confidence": 4,
+      "reported_state": "corroborated",
+      "expected_state": "insufficient",
+      "status_correct": false,
+      "evidence_correct": null,
+      "abstention_correct": false,
+      "evidence_assessment": "not_measured: required free-text explanation was not collected",
+      "abstention_assessment": "assessed from the recorded action",
+      "grading_method": "adjudicated_key_observed_fields_only"
+    },
+    {
+      "participant_id": "P05",
+      "question_id": "q-why-emerging",
+      "condition": "citations_plus_state_and_path",
+      "order": 5,
+      "duration_seconds": 23.559779499999877,
+      "confidence": 4,
+      "reported_state": "corroborated",
+      "expected_state": "emerging",
+      "status_correct": false,
+      "evidence_correct": null,
+      "abstention_correct": null,
+      "evidence_assessment": "not_measured: required free-text explanation was not collected",
+      "abstention_assessment": "not_measured: qualifying/policy explanation was not collected",
+      "grading_method": "adjudicated_key_observed_fields_only"
+    },
+    {
+      "participant_id": "P05",
+      "question_id": "q-pilot-github-mlops",
+      "condition": "citations_plus_state_and_path",
+      "order": 6,
+      "duration_seconds": 10.373749125000131,
+      "confidence": 4,
+      "reported_state": "disputed",
+      "expected_state": "insufficient",
+      "status_correct": false,
+      "evidence_correct": null,
+      "abstention_correct": null,
+      "evidence_assessment": "not_measured: required free-text explanation was not collected",
+      "abstention_assessment": "not_measured: qualifying/policy explanation was not collected",
+      "grading_method": "adjudicated_key_observed_fields_only"
+    },
+    {
+      "participant_id": "P03",
+      "question_id": "q-investors-later-hiring",
+      "condition": "citations_only",
+      "order": 6,
+      "duration_seconds": 7.643770249999989,
+      "confidence": 4,
+      "reported_state": "corroborated",
+      "expected_state": "insufficient",
+      "status_correct": false,
+      "evidence_correct": null,
+      "abstention_correct": null,
+      "evidence_assessment": "not_measured: required free-text explanation was not collected",
+      "abstention_assessment": "not_measured: qualifying/policy explanation was not collected",
+      "grading_method": "adjudicated_key_observed_fields_only"
+    }
+  ],
+  "metrics": {
+    "status_correct": {
+      "correct": 1,
+      "assessed": 30,
+      "not_assessed": 0,
+      "accuracy": 0.03333333333333333
+    },
+    "evidence_correct": {
+      "correct": 0,
+      "assessed": 0,
+      "not_assessed": 30,
+      "accuracy": null
+    },
+    "abstention_correct": {
+      "correct": 1,
+      "assessed": 17,
+      "not_assessed": 13,
+      "accuracy": 0.058823529411764705
+    }
+  },
+  "by_condition": {
+    "citations_only": {
+      "status_correct": {
+        "correct": 0,
+        "assessed": 15,
+        "not_assessed": 0,
+        "accuracy": 0.0
+      },
+      "evidence_correct": {
+        "correct": 0,
+        "assessed": 0,
+        "not_assessed": 15,
+        "accuracy": null
+      },
+      "abstention_correct": {
+        "correct": 1,
+        "assessed": 10,
+        "not_assessed": 5,
+        "accuracy": 0.1
+      }
+    },
+    "citations_plus_state_and_path": {
+      "status_correct": {
+        "correct": 1,
+        "assessed": 15,
+        "not_assessed": 0,
+        "accuracy": 0.06666666666666667
+      },
+      "evidence_correct": {
+        "correct": 0,
+        "assessed": 0,
+        "not_assessed": 15,
+        "accuracy": null
+      },
+      "abstention_correct": {
+        "correct": 0,
+        "assessed": 7,
+        "not_assessed": 8,
+        "accuracy": 0.0
+      }
+    }
+  },
+  "by_participant": {
+    "P01": {
+      "status_correct": {
+        "correct": 0,
+        "assessed": 6,
+        "not_assessed": 0,
+        "accuracy": 0.0
+      },
+      "evidence_correct": {
+        "correct": 0,
+        "assessed": 0,
+        "not_assessed": 6,
+        "accuracy": null
+      },
+      "abstention_correct": {
+        "correct": 0,
+        "assessed": 3,
+        "not_assessed": 3,
+        "accuracy": 0.0
+      }
+    },
+    "P02": {
+      "status_correct": {
+        "correct": 0,
+        "assessed": 6,
+        "not_assessed": 0,
+        "accuracy": 0.0
+      },
+      "evidence_correct": {
+        "correct": 0,
+        "assessed": 0,
+        "not_assessed": 6,
+        "accuracy": null
+      },
+      "abstention_correct": {
+        "correct": 1,
+        "assessed": 5,
+        "not_assessed": 1,
+        "accuracy": 0.2
+      }
+    },
+    "P03": {
+      "status_correct": {
+        "correct": 0,
+        "assessed": 6,
+        "not_assessed": 0,
+        "accuracy": 0.0
+      },
+      "evidence_correct": {
+        "correct": 0,
+        "assessed": 0,
+        "not_assessed": 6,
+        "accuracy": null
+      },
+      "abstention_correct": {
+        "correct": 0,
+        "assessed": 3,
+        "not_assessed": 3,
+        "accuracy": 0.0
+      }
+    },
+    "P04": {
+      "status_correct": {
+        "correct": 1,
+        "assessed": 6,
+        "not_assessed": 0,
+        "accuracy": 0.16666666666666666
+      },
+      "evidence_correct": {
+        "correct": 0,
+        "assessed": 0,
+        "not_assessed": 6,
+        "accuracy": null
+      },
+      "abstention_correct": {
+        "correct": 0,
+        "assessed": 3,
+        "not_assessed": 3,
+        "accuracy": 0.0
+      }
+    },
+    "P05": {
+      "status_correct": {
+        "correct": 0,
+        "assessed": 6,
+        "not_assessed": 0,
+        "accuracy": 0.0
+      },
+      "evidence_correct": {
+        "correct": 0,
+        "assessed": 0,
+        "not_assessed": 6,
+        "accuracy": null
+      },
+      "abstention_correct": {
+        "correct": 0,
+        "assessed": 3,
+        "not_assessed": 3,
+        "accuracy": 0.0
+      }
+    }
+  },
+  "full_protocol_measurement_complete": false,
+  "limitations": [
+    "Evidence explanations and qualifying/policy rationales were not collected; corresponding assessments are null.",
+    "State correctness is an exact match to the team-adjudicated key, not overall system accuracy.",
+    "The second reviewer participated in the pilot; adjudication was source-assisted, not external.",
+    "No causal pilot benefit is established; no entity/relation agreement is inferred."
+  ],
+  "raw_responses_sha256": "84eb5d91585943106b346c3597b3bbe54df7652ac779cf533b062c409d32de8e"
+}

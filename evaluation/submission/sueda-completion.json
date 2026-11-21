@@ -1,0 +1,2044 @@
+{
+  "status": "partial_completion_real_inputs_outstanding",
+  "basis": "Current saved public sources and actual study records; no participant measurements inferred.",
+  "history_verification": {
+    "status": "offline_replay_verified",
+    "companies_collected": 18,
+    "companies_requested": 18,
+    "weekly_records": 144
+  },
+  "job_verification": {
+    "status": "offline_replay_verified",
+    "companies_requested": 18,
+    "current_boards": 9,
+    "historical_companies": 2,
+    "job_observations": 393
+  },
+  "identity_source_check": {
+    "status": "offline_replay_verified",
+    "companies_accounted_for": 18,
+    "configured_urls_checked": 11,
+    "counts": {
+      "profile_not_found": 7,
+      "no_yc_assertion_configured": 7,
+      "current_profile_supported": 3,
+      "profile_needs_review": 1
+    },
+    "usable_yc_profiles": 3,
+    "source_reviewed_mismatches": 1
+  },
+  "career_history_followup": {
+    "new_historical_companies": 1,
+    "historical_companies_including_previous_two": 3,
+    "remaining_companies_without_comparable_history": 15
+  },
+  "ats_history_followup": {
+    "additional_historical_companies": [
+      "arize",
+      "browserbase",
+      "composio",
+      "deepset",
+      "e2b",
+      "letta",
+      "pinecone",
+      "sourcegraph",
+      "weaviate"
+    ],
+    "historical_companies": [
+      "arize",
+      "browserbase",
+      "composio",
+      "deepset",
+      "e2b",
+      "langchain",
+      "letta",
+      "llamaindex",
+      "modal",
+      "pinecone",
+      "sourcegraph",
+      "weaviate"
+    ],
+    "historical_company_count": 12,
+    "remaining_companies_without_comparable_history": [
+      "chroma",
+      "continue",
+      "crewai",
+      "langfuse",
+      "replicate",
+      "wandb"
+    ],
+    "current_verified_ats_boards": 11
+  },
+  "remaining_company_history_review": {
+    "complete_official_population_history_companies": [
+      "arize",
+      "browserbase",
+      "chroma",
+      "composio",
+      "deepset",
+      "e2b",
+      "langchain",
+      "letta",
+      "llamaindex",
+      "modal",
+      "pinecone",
+      "sourcegraph",
+      "weaviate"
+    ],
+    "complete_official_population_history_count": 13,
+    "additional_scoped_history_companies": [
+      "continue",
+      "langfuse",
+      "replicate",
+      "wandb"
+    ],
+    "companies_with_any_paired_public_channel": 17,
+    "company_without_paired_historical_population": [
+      "crewai"
+    ],
+    "companies_without_complete_official_population_history": [
+      "continue",
+      "crewai",
+      "langfuse",
+      "replicate",
+      "wandb"
+    ],
+    "new_attributable_current_ats_board": "CrewAI Workable",
+    "new_complete_native_career_history": "Chroma"
+  },
+  "question_coverage": {
+    "question_count": 28,
+    "status_counts": {
+      "partial_evidence": 15,
+      "policy_only": 5,
+      "abstention_supported": 6,
+      "bounded_operational_calculation": 2
+    },
+    "inventory_record_count": 789,
+    "family_counts": {
+      "github": 144,
+      "jobs": 498,
+      "voice": 8,
+      "documentary": 136,
+      "funding": 3
+    },
+    "github_companies": 18,
+    "voice_articles": 5,
+    "voice_publishers": [
+      "Latent Space",
+      "Simon Willison"
+    ]
+  },
+  "funding_source_review": {
+    "funding_pages": 3,
+    "dated_announcements": 2,
+    "announcements_in_study_window": 1,
+    "unknown_announcement_dates": 1,
+    "full_funding_to_later_growth_paths_established": 0
+  },
+  "mixed_first_source_review": {
+    "status": "first_source_review_complete",
+    "snapshot_sha256": "2e8db87daa901109a18cb7ea590ee4c22b9357bea1e13104964bbfc4badfedc3",
+    "entities_reviewed": 276,
+    "entities_accepted": 118,
+    "relations_reviewed": 108,
+    "mentions_accepted": 33,
+    "qrels_reviewed": 1260,
+    "positive_component_grades": 195,
+    "corpus_first_decisions": 45,
+    "independent_human_agreement": null,
+    "scope": "Frozen mixed-source candidate classification and component relevance; no full temporal-answer gold standard.",
+    "files": {
+      "sueda-entities.csv": "1db18f542b343998c908ec35967a7eb25face46b06697b616143696117b4ba91",
+      "sueda-relations.csv": "3f98aabc130f49acff766ee61df9a38612157b659c26981e3330d14964e27654",
+      "qrels.csv": "14790d9ecd53dab3cb3fe1c315ad6eca51266062d136a7933c07d0ea44366ad6",
+      "sueda-attestation.json": "3dce23b6b7ea76d57c1f2a775477abe19381c8203fcd9a257c7a56c9366d5fd7"
+    },
+    "other_reviewer_preserved": {
+      "mehmet-entities.csv": "388cd2df4656d603eb9831159f3d3437f90d1f1746c941346527741908ddd2c6",
+      "mehmet-relations.csv": "c68e72ec8451ebe8d72f03ac7d27168d0a69b64584a892adcbb1ce904cc65431",
+      "mehmet-attestation.json": "d95b48be88902ff8a90c72f0f0f6c9ef59531547206cc75d464c711bb5f58c20"
+    },
+    "relations_rejected": 75,
+    "sueda_relations_status": "source_assisted_review_complete"
+  },
+  "entity_source_quality_check": {
+    "real": {
+      "formally_valid_candidates": 418,
+      "stored_positive_labels": 200,
+      "source_review_positive_labels": 161,
+      "source_review_label_counts": {
+        "Technology": 132,
+        "NONE": 257,
+        "Product": 23,
+        "Startup": 4,
+        "Document": 2
+      },
+      "recommended_corrections": 41
+    },
+    "mixed": {
+      "formally_valid_candidates": 276,
+      "stored_positive_labels": 118,
+      "source_review_positive_labels": 118,
+      "source_review_label_counts": {
+        "Startup": 22,
+        "NONE": 158,
+        "Product": 35,
+        "Technology": 1,
+        "Investor": 60
+      },
+      "recommended_corrections": 0
+    }
+  },
+  "mixed_personal_relation_reconciliation": {
+    "summary": {
+      "items_reviewed": 108,
+      "reviewer_disagreements_reviewed": 69,
+      "disagreement_resolution_label_counts": {
+        "MENTIONS": 2,
+        "NONE": 67
+      },
+      "agreed_labels_flagged_by_source_review": 3,
+      "all_source_review_label_counts": {
+        "MENTIONS": 33,
+        "NONE": 75
+      }
+    },
+    "pre_reconciliation_agreement": {
+      "shared_items": 108,
+      "matching_labels": 39,
+      "raw_agreement": 0.3611111111111111,
+      "cohen_kappa": 0.009569377990430578,
+      "undefined_reason": null,
+      "interpretation": "Descriptive agreement of the supplied source-assisted personal judgments, computed before reconciliation."
+    },
+    "method": "Exact frozen source review under the existing named-entity and fragment-rejection policy.",
+    "is_independent_gold_standard": false
+  },
+  "job_archive_followup": {
+    "status": "offline_replay_verified",
+    "additional_job_observations": 102,
+    "merged_job_observations": 495,
+    "comparisons": [
+      {
+        "company_id": "langchain",
+        "baseline_at": "2026-10-05T03:35:28Z",
+        "latest_at": "2026-11-21T08:03:09Z",
+        "baseline_listed": 102,
+        "latest_listed": 102,
+        "net_posting_change": 0,
+        "newly_observed": 38,
+        "no_longer_observed": 38,
+        "retained": 64
+      }
+    ],
+    "scope": "Additional snapshots extend existing company history; they do not increase the number of companies with historical coverage or establish completed hires."
+  },
+  "coverage": [
+    {
+      "company_id": "langchain",
+      "name": "LangChain",
+      "github_complete_weeks": 8,
+      "default_branch_commits": 397,
+      "dated_documentary_records": 1,
+      "dated_public_voice_origins": 2,
+      "primary_funding_documents_in_mixed_round": 1,
+      "current_listed_postings": 102,
+      "current_scoped_listed_roles": null,
+      "current_scoped_population": null,
+      "current_native_career_specific_roles": null,
+      "baseline_in_window_job_comparison": true,
+      "in_window_job_comparison": true,
+      "job_comparisons": [
+        {
+          "board": "langchain",
+          "baseline_at": "2026-10-21T16:36:07Z",
+          "latest_at": "2026-11-21T08:03:09.568201+00:00",
+          "baseline_listed": 104,
+          "latest_listed": 102,
+          "net_posting_change": -2,
+          "newly_observed": 26,
+          "no_longer_observed": 28,
+          "retained": 76
+        }
+      ],
+      "has_comparable_posting_history": true,
+      "additional_scoped_history": [],
+      "latest_native_history_comparisons": [],
+      "followup_ats_comparisons": [],
+      "followup_career_list_comparisons": []
+    },
+    {
+      "company_id": "llamaindex",
+      "name": "LlamaIndex",
+      "github_complete_weeks": 8,
+      "default_branch_commits": 31,
+      "dated_documentary_records": 0,
+      "dated_public_voice_origins": 2,
+      "primary_funding_documents_in_mixed_round": 1,
+      "current_listed_postings": null,
+      "current_scoped_listed_roles": null,
+      "current_scoped_population": null,
+      "current_native_career_specific_roles": 2,
+      "baseline_in_window_job_comparison": false,
+      "in_window_job_comparison": true,
+      "job_comparisons": [],
+      "has_comparable_posting_history": true,
+      "additional_scoped_history": [],
+      "latest_native_history_comparisons": [],
+      "followup_ats_comparisons": [],
+      "followup_career_list_comparisons": [
+        {
+          "company_id": "llamaindex",
+          "baseline_at": "2026-09-21T04:42:00Z",
+          "latest_at": "2026-11-21T09:58:07.956873+00:00",
+          "baseline_specific_roles": 8,
+          "latest_specific_roles": 2,
+          "net_posting_change": -6,
+          "newly_observed": [
+            "/careers/technical-lead-manager-platform-engineering"
+          ],
+          "no_longer_observed": [
+            "/careers/ai-content-engineer",
+            "/careers/developer-evangelist-growth",
+            "/careers/developer-evangelist-technical-content",
+            "/careers/enterprise-account-executive-digital-native",
+            "/careers/enterprise-account-executive-emea",
+            "/careers/member-of-technical-staff-backend",
+            "/careers/member-of-technical-staff-infrastructure"
+          ],
+          "retained": [
+            "/careers/member-of-technical-staff-applied-research"
+          ]
+        },
+        {
+          "company_id": "llamaindex",
+          "baseline_at": "2026-10-01T16:22:04Z",
+          "latest_at": "2026-11-21T09:58:07.956873+00:00",
+          "baseline_specific_roles": 8,
+          "latest_specific_roles": 2,
+          "net_posting_change": -6,
+          "newly_observed": [
+            "/careers/technical-lead-manager-platform-engineering"
+          ],
+          "no_longer_observed": [
+            "/careers/ai-content-engineer",
+            "/careers/developer-evangelist-growth",
+            "/careers/developer-evangelist-technical-content",
+            "/careers/enterprise-account-executive-digital-native",
+            "/careers/enterprise-account-executive-emea",
+            "/careers/member-of-technical-staff-backend",
+            "/careers/member-of-technical-staff-infrastructure"
+          ],
+          "retained": [
+            "/careers/member-of-technical-staff-applied-research"
+          ]
+        }
+      ]
+    },
+    {
+      "company_id": "crewai",
+      "name": "CrewAI",
+      "github_complete_weeks": 8,
+      "default_branch_commits": 311,
+      "dated_documentary_records": 0,
+      "dated_public_voice_origins": 0,
+      "primary_funding_documents_in_mixed_round": 0,
+      "current_listed_postings": 4,
+      "current_scoped_listed_roles": null,
+      "current_scoped_population": null,
+      "current_native_career_specific_roles": null,
+      "baseline_in_window_job_comparison": false,
+      "in_window_job_comparison": false,
+      "job_comparisons": [],
+      "has_comparable_posting_history": false,
+      "additional_scoped_history": [],
+      "latest_native_history_comparisons": [],
+      "followup_ats_comparisons": [],
+      "followup_career_list_comparisons": []
+    },
+    {
+      "company_id": "e2b",
+      "name": "E2B",
+      "github_complete_weeks": 8,
+      "default_branch_commits": 139,
+      "dated_documentary_records": 0,
+      "dated_public_voice_origins": 2,
+      "primary_funding_documents_in_mixed_round": 0,
+      "current_listed_postings": 14,
+      "current_scoped_listed_roles": null,
+      "current_scoped_population": null,
+      "current_native_career_specific_roles": null,
+      "baseline_in_window_job_comparison": false,
+      "in_window_job_comparison": true,
+      "job_comparisons": [],
+      "has_comparable_posting_history": true,
+      "additional_scoped_history": [],
+      "latest_native_history_comparisons": [],
+      "followup_ats_comparisons": [
+        {
+          "company_id": "e2b",
+          "baseline_at": "2026-11-17T06:52:51Z",
+          "latest_at": "2026-11-21T08:03:09.600576+00:00",
+          "baseline_listed": 13,
+          "latest_listed": 14,
+          "net_posting_change": 1,
+          "newly_observed": [
+            "2a86d352-77a2-4b32-9b36-7a0cef76262f",
+            "98c4b5ca-05c0-4456-9b86-78fa4922d448",
+            "b183352f-bfbb-42fa-9e8f-a03f42162b74"
+          ],
+          "no_longer_observed": [
+            "64fe2979-3abe-4a32-8a24-ec5b8582c1a1",
+            "c8c15520-cfd9-4b04-a902-e60a098aa96c"
+          ],
+          "retained": [
+            "23043e12-632c-463b-857e-9e18cc223ef6",
+            "3cbcdcca-41e3-4791-958e-6ab02b82ab19",
+            "3d945fd2-5100-41bb-8720-e105563dfaaa",
+            "4779efbf-7f43-4b8d-97df-85c9f3b1db99",
+            "648efda2-d209-41eb-83fc-e6d1370fba71",
+            "657ce888-be70-46cf-975f-ca7788694fdc",
+            "a19a52aa-5a5b-48ed-9b88-40414f5b29a8",
+            "ad6febd3-7e17-403a-9449-fef78a8bb163",
+            "dea22a97-293e-41af-9fdb-c7e6e2c73b37",
+            "efc5fc81-83b7-40f6-8c00-a5a8bf508fe5",
+            "f59dfa81-5b38-44da-90f5-0319eb31b627"
+          ]
+        }
+      ],
+      "followup_career_list_comparisons": []
+    },
+    {
+      "company_id": "browserbase",
+      "name": "Browserbase",
+      "github_complete_weeks": 8,
+      "default_branch_commits": 176,
+      "dated_documentary_records": 0,
+      "dated_public_voice_origins": 0,
+      "primary_funding_documents_in_mixed_round": 1,
+      "current_listed_postings": 16,
+      "current_scoped_listed_roles": null,
+      "current_scoped_population": null,
+      "current_native_career_specific_roles": null,
+      "baseline_in_window_job_comparison": false,
+      "in_window_job_comparison": true,
+      "job_comparisons": [],
+      "has_comparable_posting_history": true,
+      "additional_scoped_history": [],
+      "latest_native_history_comparisons": [],
+      "followup_ats_comparisons": [
+        {
+          "company_id": "browserbase",
+          "baseline_at": "2026-11-12T19:11:37Z",
+          "latest_at": "2026-11-21T08:03:09.609573+00:00",
+          "baseline_listed": 15,
+          "latest_listed": 16,
+          "net_posting_change": 1,
+          "newly_observed": [
+            "4507685009"
+          ],
+          "no_longer_observed": [],
+          "retained": [
+            "4425079009",
+            "4438063009",
+            "4451034009",
+            "4451753009",
+            "4451762009",
+            "4451814009",
+            "4452456009",
+            "4466643009",
+            "4468411009",
+            "4468434009",
+            "4476911009",
+            "4476918009",
+            "4476925009",
+            "4476929009",
+            "4483397009"
+          ]
+        }
+      ],
+      "followup_career_list_comparisons": []
+    },
+    {
+      "company_id": "composio",
+      "name": "Composio",
+      "github_complete_weeks": 8,
+      "default_branch_commits": 831,
+      "dated_documentary_records": 0,
+      "dated_public_voice_origins": 0,
+      "primary_funding_documents_in_mixed_round": 0,
+      "current_listed_postings": 30,
+      "current_scoped_listed_roles": null,
+      "current_scoped_population": null,
+      "current_native_career_specific_roles": null,
+      "baseline_in_window_job_comparison": false,
+      "in_window_job_comparison": true,
+      "job_comparisons": [],
+      "has_comparable_posting_history": true,
+      "additional_scoped_history": [],
+      "latest_native_history_comparisons": [],
+      "followup_ats_comparisons": [
+        {
+          "company_id": "composio",
+          "baseline_at": "2026-10-13T16:05:41Z",
+          "latest_at": "2026-11-21T08:03:09.610906+00:00",
+          "baseline_listed": 30,
+          "latest_listed": 30,
+          "net_posting_change": 0,
+          "newly_observed": [
+            "cceb9883-7967-45a9-8e37-ed72cec3deff",
+            "d8a65f6f-9efa-484b-9c53-a338d9dced6a"
+          ],
+          "no_longer_observed": [
+            "4da7e4a4-e129-462c-ba0f-11d745f25537",
+            "ace73cb1-4f21-4a7a-8930-b9a5a354bcad"
+          ],
+          "retained": [
+            "018e087b-d1cf-4761-8fbd-fc3f2e5aac81",
+            "01e0e7ad-44a2-44e8-9340-64ca70eff491",
+            "0eae89c6-9f79-42e1-8246-81f336048fa6",
+            "0fb566df-a97a-407f-aac6-62433859b719",
+            "1752cc7c-7aae-403a-a319-9b2270cc4c56",
+            "2c05146b-f700-4e08-ab32-82289c09fa21",
+            "45ecceb2-03c3-4b9e-99eb-7c50b3d1c401",
+            "471e584f-f0c5-4648-a215-a267aab7cdab",
+            "4f794c33-9f48-46e5-9efe-7af1afb14db0",
+            "58cd02c6-31d4-4f61-9cdf-66f49b3dff0e",
+            "64bda86f-f25f-42f3-9d1a-b6ad3d736ca2",
+            "65b76713-0b90-4c47-b07a-6ede334b926a",
+            "68ca620e-2049-4fce-b034-afba79b5e5e4",
+            "6b742321-a1e6-46d7-88d1-103bae44df23",
+            "745e0c99-2f99-48d1-80a0-af333236b988",
+            "74cf1b48-86e9-4454-8c4e-cb2038ed0049",
+            "77d7d63d-6c3a-4b70-8d38-192f760438df",
+            "947bab27-2cab-42aa-aba6-c5637c88eef8",
+            "9cf4a64b-65a2-49ba-ae33-826e1d13cc63",
+            "a226d878-a807-4d65-8192-5de607a3dce9",
+            "a2fd44d1-1457-4248-8d9c-905953016398",
+            "a4046674-59ee-41fd-9045-2a7058a467e1",
+            "a536fbf3-29ea-4805-a134-733d8157a724",
+            "aaf139ec-fc60-4591-9f9a-64a8532dbc08",
+            "ae0ef27a-d029-46fa-a0df-35a021d66ae7",
+            "dd954895-f921-4aeb-b281-8514b1a2516e",
+            "eea3c0be-8589-4e3d-a684-de29a9eada0d",
+            "f83a19a0-8188-4100-9dd5-b259efb342e6"
+          ]
+        },
+        {
+          "company_id": "composio",
+          "baseline_at": "2026-11-06T00:55:57Z",
+          "latest_at": "2026-11-21T08:03:09.610906+00:00",
+          "baseline_listed": 31,
+          "latest_listed": 30,
+          "net_posting_change": -1,
+          "newly_observed": [
+            "d8a65f6f-9efa-484b-9c53-a338d9dced6a"
+          ],
+          "no_longer_observed": [
+            "4da7e4a4-e129-462c-ba0f-11d745f25537",
+            "ace73cb1-4f21-4a7a-8930-b9a5a354bcad"
+          ],
+          "retained": [
+            "018e087b-d1cf-4761-8fbd-fc3f2e5aac81",
+            "01e0e7ad-44a2-44e8-9340-64ca70eff491",
+            "0eae89c6-9f79-42e1-8246-81f336048fa6",
+            "0fb566df-a97a-407f-aac6-62433859b719",
+            "1752cc7c-7aae-403a-a319-9b2270cc4c56",
+            "2c05146b-f700-4e08-ab32-82289c09fa21",
+            "45ecceb2-03c3-4b9e-99eb-7c50b3d1c401",
+            "471e584f-f0c5-4648-a215-a267aab7cdab",
+            "4f794c33-9f48-46e5-9efe-7af1afb14db0",
+            "58cd02c6-31d4-4f61-9cdf-66f49b3dff0e",
+            "64bda86f-f25f-42f3-9d1a-b6ad3d736ca2",
+            "65b76713-0b90-4c47-b07a-6ede334b926a",
+            "68ca620e-2049-4fce-b034-afba79b5e5e4",
+            "6b742321-a1e6-46d7-88d1-103bae44df23",
+            "745e0c99-2f99-48d1-80a0-af333236b988",
+            "74cf1b48-86e9-4454-8c4e-cb2038ed0049",
+            "77d7d63d-6c3a-4b70-8d38-192f760438df",
+            "947bab27-2cab-42aa-aba6-c5637c88eef8",
+            "9cf4a64b-65a2-49ba-ae33-826e1d13cc63",
+            "a226d878-a807-4d65-8192-5de607a3dce9",
+            "a2fd44d1-1457-4248-8d9c-905953016398",
+            "a4046674-59ee-41fd-9045-2a7058a467e1",
+            "a536fbf3-29ea-4805-a134-733d8157a724",
+            "aaf139ec-fc60-4591-9f9a-64a8532dbc08",
+            "ae0ef27a-d029-46fa-a0df-35a021d66ae7",
+            "cceb9883-7967-45a9-8e37-ed72cec3deff",
+            "dd954895-f921-4aeb-b281-8514b1a2516e",
+            "eea3c0be-8589-4e3d-a684-de29a9eada0d",
+            "f83a19a0-8188-4100-9dd5-b259efb342e6"
+          ]
+        }
+      ],
+      "followup_career_list_comparisons": []
+    },
+    {
+      "company_id": "letta",
+      "name": "Letta",
+      "github_complete_weeks": 8,
+      "default_branch_commits": 2,
+      "dated_documentary_records": 0,
+      "dated_public_voice_origins": 0,
+      "primary_funding_documents_in_mixed_round": 0,
+      "current_listed_postings": 4,
+      "current_scoped_listed_roles": null,
+      "current_scoped_population": null,
+      "current_native_career_specific_roles": null,
+      "baseline_in_window_job_comparison": false,
+      "in_window_job_comparison": true,
+      "job_comparisons": [],
+      "has_comparable_posting_history": true,
+      "additional_scoped_history": [],
+      "latest_native_history_comparisons": [],
+      "followup_ats_comparisons": [
+        {
+          "company_id": "letta",
+          "baseline_at": "2026-10-01T13:52:33Z",
+          "latest_at": "2026-11-21T08:03:10.522630+00:00",
+          "baseline_listed": 4,
+          "latest_listed": 4,
+          "net_posting_change": 0,
+          "newly_observed": [],
+          "no_longer_observed": [],
+          "retained": [
+            "5375a3dc-c886-41c0-a2de-08d0412204d8",
+            "57165f1b-e99e-4f9e-bda2-8f220ba68af7",
+            "d95271e3-f1ae-4317-8ecd-f25a79a0165c",
+            "fc0ae0d3-bc03-4afd-ab79-299444885e88"
+          ]
+        },
+        {
+          "company_id": "letta",
+          "baseline_at": "2026-11-02T06:43:05Z",
+          "latest_at": "2026-11-21T08:03:10.522630+00:00",
+          "baseline_listed": 4,
+          "latest_listed": 4,
+          "net_posting_change": 0,
+          "newly_observed": [],
+          "no_longer_observed": [],
+          "retained": [
+            "5375a3dc-c886-41c0-a2de-08d0412204d8",
+            "57165f1b-e99e-4f9e-bda2-8f220ba68af7",
+            "d95271e3-f1ae-4317-8ecd-f25a79a0165c",
+            "fc0ae0d3-bc03-4afd-ab79-299444885e88"
+          ]
+        }
+      ],
+      "followup_career_list_comparisons": []
+    },
+    {
+      "company_id": "langfuse",
+      "name": "Langfuse",
+      "github_complete_weeks": 8,
+      "default_branch_commits": 1595,
+      "dated_documentary_records": 0,
+      "dated_public_voice_origins": 0,
+      "primary_funding_documents_in_mixed_round": 0,
+      "current_listed_postings": null,
+      "current_scoped_listed_roles": 13,
+      "current_scoped_population": "explicit_brand_titles_in_parent_ats",
+      "current_native_career_specific_roles": null,
+      "baseline_in_window_job_comparison": false,
+      "in_window_job_comparison": false,
+      "job_comparisons": [],
+      "has_comparable_posting_history": false,
+      "additional_scoped_history": [
+        {
+          "company_id": "langfuse",
+          "population": "explicit_brand_titles_in_parent_ats",
+          "baseline_at": "2026-07-30T11:38:56Z",
+          "latest_at": "2026-11-21T11:46:54.732949+00:00",
+          "baseline_listed": 1,
+          "latest_listed": 13,
+          "net_posting_change": 12,
+          "newly_observed": [
+            "0087feaa-a275-427d-bf4a-14a508708687",
+            "2344ae13-045c-4513-ad01-94189029c46e",
+            "2d3f9ad1-4471-4bf6-a13f-8a5636cacbc2",
+            "31500bec-b690-4795-b4d6-0dce06a4c180",
+            "39e42a38-1cbf-40c7-b373-717b4cdddbac",
+            "5d287e14-c3fe-4442-8924-bcff052e7244",
+            "62e56a74-e1a8-4cbd-8314-a6f9788a4dd2",
+            "7b0174fe-f124-4db2-923f-7028f39d6be9",
+            "870b82b7-6550-45b4-90a3-4019226b0470",
+            "9fbe839e-6ccf-436d-8d83-7a0b3481bfc8",
+            "adf52ecd-e075-4a65-89b9-d129960b67f5",
+            "cf36e6db-3939-4ff0-8bcf-a3bb200d9e46",
+            "e1a83e12-d19b-40e8-b946-18d5a88b8f1c"
+          ],
+          "no_longer_observed": [
+            "bb3fd808-a87e-4b63-b675-f3ce55f4d1a6"
+          ],
+          "retained": [],
+          "newly_selected_ids_already_in_parent_baseline": [],
+          "newly_selected_ids_absent_from_parent_baseline": [
+            "0087feaa-a275-427d-bf4a-14a508708687",
+            "2344ae13-045c-4513-ad01-94189029c46e",
+            "2d3f9ad1-4471-4bf6-a13f-8a5636cacbc2",
+            "31500bec-b690-4795-b4d6-0dce06a4c180",
+            "39e42a38-1cbf-40c7-b373-717b4cdddbac",
+            "5d287e14-c3fe-4442-8924-bcff052e7244",
+            "62e56a74-e1a8-4cbd-8314-a6f9788a4dd2",
+            "7b0174fe-f124-4db2-923f-7028f39d6be9",
+            "870b82b7-6550-45b4-90a3-4019226b0470",
+            "9fbe839e-6ccf-436d-8d83-7a0b3481bfc8",
+            "adf52ecd-e075-4a65-89b9-d129960b67f5",
+            "cf36e6db-3939-4ff0-8bcf-a3bb200d9e46",
+            "e1a83e12-d19b-40e8-b946-18d5a88b8f1c"
+          ]
+        },
+        {
+          "company_id": "langfuse",
+          "population": "explicit_brand_titles_in_parent_ats",
+          "baseline_at": "2026-10-17T12:52:02Z",
+          "latest_at": "2026-11-21T11:46:54.732949+00:00",
+          "baseline_listed": 11,
+          "latest_listed": 13,
+          "net_posting_change": 2,
+          "newly_observed": [
+            "2d3f9ad1-4471-4bf6-a13f-8a5636cacbc2",
+            "39e42a38-1cbf-40c7-b373-717b4cdddbac",
+            "62e56a74-e1a8-4cbd-8314-a6f9788a4dd2",
+            "870b82b7-6550-45b4-90a3-4019226b0470",
+            "cf36e6db-3939-4ff0-8bcf-a3bb200d9e46"
+          ],
+          "no_longer_observed": [
+            "3b71c9a9-d3c9-4331-83e7-1a9007455b5e",
+            "49953f5a-271a-492f-a8be-50b8f028fbd7",
+            "b55850f7-419c-4a27-ac6d-33e46e39c428"
+          ],
+          "retained": [
+            "0087feaa-a275-427d-bf4a-14a508708687",
+            "2344ae13-045c-4513-ad01-94189029c46e",
+            "31500bec-b690-4795-b4d6-0dce06a4c180",
+            "5d287e14-c3fe-4442-8924-bcff052e7244",
+            "7b0174fe-f124-4db2-923f-7028f39d6be9",
+            "9fbe839e-6ccf-436d-8d83-7a0b3481bfc8",
+            "adf52ecd-e075-4a65-89b9-d129960b67f5",
+            "e1a83e12-d19b-40e8-b946-18d5a88b8f1c"
+          ],
+          "newly_selected_ids_already_in_parent_baseline": [],
+          "newly_selected_ids_absent_from_parent_baseline": [
+            "2d3f9ad1-4471-4bf6-a13f-8a5636cacbc2",
+            "39e42a38-1cbf-40c7-b373-717b4cdddbac",
+            "62e56a74-e1a8-4cbd-8314-a6f9788a4dd2",
+            "870b82b7-6550-45b4-90a3-4019226b0470",
+            "cf36e6db-3939-4ff0-8bcf-a3bb200d9e46"
+          ]
+        }
+      ],
+      "latest_native_history_comparisons": [],
+      "followup_ats_comparisons": [],
+      "followup_career_list_comparisons": []
+    },
+    {
+      "company_id": "deepset",
+      "name": "deepset",
+      "github_complete_weeks": 8,
+      "default_branch_commits": 557,
+      "dated_documentary_records": 0,
+      "dated_public_voice_origins": 0,
+      "primary_funding_documents_in_mixed_round": 0,
+      "current_listed_postings": 4,
+      "current_scoped_listed_roles": null,
+      "current_scoped_population": null,
+      "current_native_career_specific_roles": null,
+      "baseline_in_window_job_comparison": false,
+      "in_window_job_comparison": true,
+      "job_comparisons": [],
+      "has_comparable_posting_history": true,
+      "additional_scoped_history": [],
+      "latest_native_history_comparisons": [],
+      "followup_ats_comparisons": [
+        {
+          "company_id": "deepset",
+          "baseline_at": "2026-07-22T01:38:43Z",
+          "latest_at": "2026-11-21T08:03:10.527557+00:00",
+          "baseline_listed": 3,
+          "latest_listed": 4,
+          "net_posting_change": 1,
+          "newly_observed": [
+            "05b807d2-f9bc-48a1-a830-8cafee07ed5d",
+            "0f272bd8-6d4a-4986-ae00-8f78ac34a9ff",
+            "18e3167e-7727-43df-9166-06b185421ded",
+            "a5627218-2fd4-4dab-8ee7-63f232a2ca9f"
+          ],
+          "no_longer_observed": [
+            "259a197f-0fb1-4ac2-bb6c-764a0484c508",
+            "5001913f-8bd8-474c-93fa-c4a17a16bebc",
+            "64ae158e-76ed-43b9-8f19-d709bd2231ee"
+          ],
+          "retained": []
+        }
+      ],
+      "followup_career_list_comparisons": []
+    },
+    {
+      "company_id": "continue",
+      "name": "Continue",
+      "github_complete_weeks": 8,
+      "default_branch_commits": 0,
+      "dated_documentary_records": 0,
+      "dated_public_voice_origins": 0,
+      "primary_funding_documents_in_mixed_round": 0,
+      "current_listed_postings": null,
+      "current_scoped_listed_roles": 0,
+      "current_scoped_population": "yc_employer_directory_channel",
+      "current_native_career_specific_roles": null,
+      "baseline_in_window_job_comparison": false,
+      "in_window_job_comparison": false,
+      "job_comparisons": [],
+      "has_comparable_posting_history": false,
+      "additional_scoped_history": [
+        {
+          "company_id": "continue",
+          "population": "yc_employer_directory_channel",
+          "baseline_at": "2026-02-01T03:26:45Z",
+          "latest_at": "2026-11-21T11:39:27.320255+00:00",
+          "baseline_listed": 3,
+          "latest_listed": 0,
+          "net_posting_change": -3,
+          "newly_observed": [],
+          "no_longer_observed": [
+            "62784",
+            "67157",
+            "76522"
+          ],
+          "retained": []
+        },
+        {
+          "company_id": "continue",
+          "population": "yc_employer_directory_channel",
+          "baseline_at": "2026-05-13T06:18:57Z",
+          "latest_at": "2026-11-21T11:39:27.320255+00:00",
+          "baseline_listed": 0,
+          "latest_listed": 0,
+          "net_posting_change": 0,
+          "newly_observed": [],
+          "no_longer_observed": [],
+          "retained": []
+        }
+      ],
+      "latest_native_history_comparisons": [],
+      "followup_ats_comparisons": [],
+      "followup_career_list_comparisons": []
+    },
+    {
+      "company_id": "sourcegraph",
+      "name": "Sourcegraph",
+      "github_complete_weeks": 8,
+      "default_branch_commits": 0,
+      "dated_documentary_records": 30,
+      "dated_public_voice_origins": 0,
+      "primary_funding_documents_in_mixed_round": 0,
+      "current_listed_postings": 8,
+      "current_scoped_listed_roles": null,
+      "current_scoped_population": null,
+      "current_native_career_specific_roles": null,
+      "baseline_in_window_job_comparison": false,
+      "in_window_job_comparison": true,
+      "job_comparisons": [],
+      "has_comparable_posting_history": true,
+      "additional_scoped_history": [],
+      "latest_native_history_comparisons": [],
+      "followup_ats_comparisons": [
+        {
+          "company_id": "sourcegraph",
+          "baseline_at": "2026-09-24T21:23:20Z",
+          "latest_at": "2026-11-21T08:03:10.531780+00:00",
+          "baseline_listed": 7,
+          "latest_listed": 8,
+          "net_posting_change": 1,
+          "newly_observed": [
+            "6209697004",
+            "6237958004",
+            "6237971004",
+            "6264747004",
+            "6264761004"
+          ],
+          "no_longer_observed": [
+            "6113147004",
+            "6132206004",
+            "6146485004",
+            "6194803004"
+          ],
+          "retained": [
+            "4621149004",
+            "6103628004",
+            "6185008004"
+          ]
+        },
+        {
+          "company_id": "sourcegraph",
+          "baseline_at": "2026-10-04T11:57:37Z",
+          "latest_at": "2026-11-21T08:03:10.531780+00:00",
+          "baseline_listed": 10,
+          "latest_listed": 8,
+          "net_posting_change": -2,
+          "newly_observed": [
+            "6209697004",
+            "6237958004",
+            "6237971004",
+            "6264747004",
+            "6264761004"
+          ],
+          "no_longer_observed": [
+            "6113147004",
+            "6132206004",
+            "6146485004",
+            "6194803004",
+            "6207297004",
+            "6211381004",
+            "6212118004"
+          ],
+          "retained": [
+            "4621149004",
+            "6103628004",
+            "6185008004"
+          ]
+        }
+      ],
+      "followup_career_list_comparisons": []
+    },
+    {
+      "company_id": "modal",
+      "name": "Modal",
+      "github_complete_weeks": 8,
+      "default_branch_commits": 351,
+      "dated_documentary_records": 0,
+      "dated_public_voice_origins": 1,
+      "primary_funding_documents_in_mixed_round": 0,
+      "current_listed_postings": 52,
+      "current_scoped_listed_roles": null,
+      "current_scoped_population": null,
+      "current_native_career_specific_roles": null,
+      "baseline_in_window_job_comparison": true,
+      "in_window_job_comparison": true,
+      "job_comparisons": [
+        {
+          "board": "modal",
+          "baseline_at": "2026-11-20T09:03:12Z",
+          "latest_at": "2026-11-21T08:03:10.926230+00:00",
+          "baseline_listed": 51,
+          "latest_listed": 52,
+          "net_posting_change": 1,
+          "newly_observed": 1,
+          "no_longer_observed": 0,
+          "retained": 51
+        }
+      ],
+      "has_comparable_posting_history": true,
+      "additional_scoped_history": [],
+      "latest_native_history_comparisons": [],
+      "followup_ats_comparisons": [],
+      "followup_career_list_comparisons": []
+    },
+    {
+      "company_id": "replicate",
+      "name": "Replicate",
+      "github_complete_weeks": 8,
+      "default_branch_commits": 0,
+      "dated_documentary_records": 12,
+      "dated_public_voice_origins": 0,
+      "primary_funding_documents_in_mixed_round": 0,
+      "current_listed_postings": null,
+      "current_scoped_listed_roles": 0,
+      "current_scoped_population": "yc_employer_directory_channel",
+      "current_native_career_specific_roles": null,
+      "baseline_in_window_job_comparison": false,
+      "in_window_job_comparison": false,
+      "job_comparisons": [],
+      "has_comparable_posting_history": false,
+      "additional_scoped_history": [
+        {
+          "company_id": "replicate",
+          "population": "yc_employer_directory_channel",
+          "baseline_at": "2026-05-11T22:11:08Z",
+          "latest_at": "2026-11-21T11:51:14.325579+00:00",
+          "baseline_listed": 0,
+          "latest_listed": 0,
+          "net_posting_change": 0,
+          "newly_observed": [],
+          "no_longer_observed": [],
+          "retained": []
+        }
+      ],
+      "latest_native_history_comparisons": [],
+      "followup_ats_comparisons": [],
+      "followup_career_list_comparisons": []
+    },
+    {
+      "company_id": "wandb",
+      "name": "Weights & Biases",
+      "github_complete_weeks": 8,
+      "default_branch_commits": 248,
+      "dated_documentary_records": 0,
+      "dated_public_voice_origins": 0,
+      "primary_funding_documents_in_mixed_round": 0,
+      "current_listed_postings": null,
+      "current_scoped_listed_roles": 5,
+      "current_scoped_population": "explicit_brand_titles_in_parent_ats",
+      "current_native_career_specific_roles": null,
+      "baseline_in_window_job_comparison": false,
+      "in_window_job_comparison": false,
+      "job_comparisons": [],
+      "has_comparable_posting_history": false,
+      "additional_scoped_history": [
+        {
+          "company_id": "wandb",
+          "population": "explicit_brand_titles_in_parent_ats",
+          "baseline_at": "2026-09-29T18:23:26Z",
+          "latest_at": "2026-11-21T11:44:48.673679+00:00",
+          "baseline_listed": 1,
+          "latest_listed": 5,
+          "net_posting_change": 4,
+          "newly_observed": [
+            "4581856006",
+            "4617013006",
+            "4625588006",
+            "4696621006"
+          ],
+          "no_longer_observed": [],
+          "retained": [
+            "4639868006"
+          ],
+          "newly_selected_ids_already_in_parent_baseline": [],
+          "newly_selected_ids_absent_from_parent_baseline": [
+            "4581856006",
+            "4617013006",
+            "4625588006",
+            "4696621006"
+          ]
+        },
+        {
+          "company_id": "wandb",
+          "population": "explicit_brand_titles_in_parent_ats",
+          "baseline_at": "2026-11-03T06:57:45Z",
+          "latest_at": "2026-11-21T11:44:48.673679+00:00",
+          "baseline_listed": 1,
+          "latest_listed": 5,
+          "net_posting_change": 4,
+          "newly_observed": [
+            "4581856006",
+            "4617013006",
+            "4625588006",
+            "4696621006"
+          ],
+          "no_longer_observed": [],
+          "retained": [
+            "4639868006"
+          ],
+          "newly_selected_ids_already_in_parent_baseline": [],
+          "newly_selected_ids_absent_from_parent_baseline": [
+            "4581856006",
+            "4617013006",
+            "4625588006",
+            "4696621006"
+          ]
+        }
+      ],
+      "latest_native_history_comparisons": [],
+      "followup_ats_comparisons": [],
+      "followup_career_list_comparisons": []
+    },
+    {
+      "company_id": "pinecone",
+      "name": "Pinecone",
+      "github_complete_weeks": 8,
+      "default_branch_commits": 156,
+      "dated_documentary_records": 73,
+      "dated_public_voice_origins": 0,
+      "primary_funding_documents_in_mixed_round": 0,
+      "current_listed_postings": 8,
+      "current_scoped_listed_roles": null,
+      "current_scoped_population": null,
+      "current_native_career_specific_roles": null,
+      "baseline_in_window_job_comparison": false,
+      "in_window_job_comparison": true,
+      "job_comparisons": [],
+      "has_comparable_posting_history": true,
+      "additional_scoped_history": [],
+      "latest_native_history_comparisons": [],
+      "followup_ats_comparisons": [
+        {
+          "company_id": "pinecone",
+          "baseline_at": "2026-06-12T20:32:31Z",
+          "latest_at": "2026-11-21T08:03:11.679241+00:00",
+          "baseline_listed": 7,
+          "latest_listed": 8,
+          "net_posting_change": 1,
+          "newly_observed": [
+            "08760530-e6c3-4167-9272-923d85a2388d",
+            "2cf3b58f-a912-497f-9bfe-84144c4a1e3d",
+            "4ef4269b-94c4-4c7c-93ee-15a882caa767",
+            "7e7c824d-17a6-44ea-9485-6f04ceea5f29",
+            "8beaa81a-20be-4b3c-a38c-b85d13bf1df9",
+            "a50c376a-0216-40b2-9525-da89d47ef190"
+          ],
+          "no_longer_observed": [
+            "499ce77a-7ed0-462e-9efb-3e7dad6cd5ad",
+            "7261adcb-026d-4552-8f89-7a46156c40c5",
+            "773e953d-8f53-4313-93b4-35a553bad1cb",
+            "af4c8c1e-77f8-4da8-9837-7fd2c0a4d582",
+            "f83ba7a6-da11-421a-ae9e-909d375e2e93"
+          ],
+          "retained": [
+            "4433b308-1ff4-4b5f-9184-810e5d9844f6",
+            "7ef089cb-a721-4ad8-a6d0-c390e64991d2"
+          ]
+        },
+        {
+          "company_id": "pinecone",
+          "baseline_at": "2026-10-13T16:06:31Z",
+          "latest_at": "2026-11-21T08:03:11.679241+00:00",
+          "baseline_listed": 5,
+          "latest_listed": 8,
+          "net_posting_change": 3,
+          "newly_observed": [
+            "08760530-e6c3-4167-9272-923d85a2388d",
+            "4433b308-1ff4-4b5f-9184-810e5d9844f6",
+            "a50c376a-0216-40b2-9525-da89d47ef190"
+          ],
+          "no_longer_observed": [],
+          "retained": [
+            "2cf3b58f-a912-497f-9bfe-84144c4a1e3d",
+            "4ef4269b-94c4-4c7c-93ee-15a882caa767",
+            "7e7c824d-17a6-44ea-9485-6f04ceea5f29",
+            "7ef089cb-a721-4ad8-a6d0-c390e64991d2",
+            "8beaa81a-20be-4b3c-a38c-b85d13bf1df9"
+          ]
+        }
+      ],
+      "followup_career_list_comparisons": []
+    },
+    {
+      "company_id": "weaviate",
+      "name": "Weaviate",
+      "github_complete_weeks": 8,
+      "default_branch_commits": 2282,
+      "dated_documentary_records": 20,
+      "dated_public_voice_origins": 1,
+      "primary_funding_documents_in_mixed_round": 0,
+      "current_listed_postings": 2,
+      "current_scoped_listed_roles": null,
+      "current_scoped_population": null,
+      "current_native_career_specific_roles": null,
+      "baseline_in_window_job_comparison": false,
+      "in_window_job_comparison": true,
+      "job_comparisons": [],
+      "has_comparable_posting_history": true,
+      "additional_scoped_history": [],
+      "latest_native_history_comparisons": [],
+      "followup_ats_comparisons": [
+        {
+          "company_id": "weaviate",
+          "baseline_at": "2026-05-27T19:59:45Z",
+          "latest_at": "2026-11-21T10:10:30.208217+00:00",
+          "baseline_listed": 4,
+          "latest_listed": 2,
+          "net_posting_change": -2,
+          "newly_observed": [
+            "676139ff-9b72-4ee4-9e40-2bb52c6e96bd",
+            "d385220c-1743-4e14-bc4b-c890bf036e1b"
+          ],
+          "no_longer_observed": [
+            "0d1c47c4-bc5b-45d8-8791-8f30f0fb2a12",
+            "9c42994c-cb21-41d9-a2b0-9b34044c8b38",
+            "9f1dc66e-6c7a-4e3c-97ac-76910b8df08f",
+            "c4c18609-c956-4a33-9a73-ad1d7680de6b"
+          ],
+          "retained": []
+        }
+      ],
+      "followup_career_list_comparisons": []
+    },
+    {
+      "company_id": "chroma",
+      "name": "Chroma",
+      "github_complete_weeks": 8,
+      "default_branch_commits": 37,
+      "dated_documentary_records": 0,
+      "dated_public_voice_origins": 0,
+      "primary_funding_documents_in_mixed_round": 0,
+      "current_listed_postings": null,
+      "current_scoped_listed_roles": null,
+      "current_scoped_population": null,
+      "current_native_career_specific_roles": 6,
+      "baseline_in_window_job_comparison": false,
+      "in_window_job_comparison": true,
+      "job_comparisons": [],
+      "has_comparable_posting_history": true,
+      "additional_scoped_history": [],
+      "latest_native_history_comparisons": [
+        {
+          "company_id": "chroma",
+          "population": "complete_official_career_list",
+          "baseline_at": "2026-10-03T18:29:39Z",
+          "latest_at": "2026-11-21T11:39:26Z",
+          "baseline_listed": 6,
+          "latest_listed": 6,
+          "net_posting_change": 0,
+          "newly_observed": [],
+          "no_longer_observed": [],
+          "retained": [
+            "/careers/account-executive",
+            "/careers/database-storage",
+            "/careers/distributed-systems",
+            "/careers/platform",
+            "/careers/product-designer",
+            "/careers/product-engineering"
+          ]
+        },
+        {
+          "company_id": "chroma",
+          "population": "complete_official_career_list",
+          "baseline_at": "2026-11-02T06:46:08Z",
+          "latest_at": "2026-11-21T11:39:26Z",
+          "baseline_listed": 6,
+          "latest_listed": 6,
+          "net_posting_change": 0,
+          "newly_observed": [],
+          "no_longer_observed": [],
+          "retained": [
+            "/careers/account-executive",
+            "/careers/database-storage",
+            "/careers/distributed-systems",
+            "/careers/platform",
+            "/careers/product-designer",
+            "/careers/product-engineering"
+          ]
+        }
+      ],
+      "followup_ats_comparisons": [],
+      "followup_career_list_comparisons": []
+    },
+    {
+      "company_id": "arize",
+      "name": "Arize",
+      "github_complete_weeks": 8,
+      "default_branch_commits": 649,
+      "dated_documentary_records": 0,
+      "dated_public_voice_origins": 0,
+      "primary_funding_documents_in_mixed_round": 0,
+      "current_listed_postings": 20,
+      "current_scoped_listed_roles": null,
+      "current_scoped_population": null,
+      "current_native_career_specific_roles": null,
+      "baseline_in_window_job_comparison": false,
+      "in_window_job_comparison": true,
+      "job_comparisons": [],
+      "has_comparable_posting_history": true,
+      "additional_scoped_history": [],
+      "latest_native_history_comparisons": [],
+      "followup_ats_comparisons": [
+        {
+          "company_id": "arize",
+          "baseline_at": "2026-05-08T09:10:32Z",
+          "latest_at": "2026-11-21T10:18:12.342211+00:00",
+          "baseline_listed": 41,
+          "latest_listed": 20,
+          "net_posting_change": -21,
+          "newly_observed": [
+            "5993317004",
+            "6030902004",
+            "6115096004",
+            "6128122004",
+            "6128123004",
+            "6203635004",
+            "6231664004",
+            "6231745004",
+            "6242516004",
+            "6254132004",
+            "6254817004"
+          ],
+          "no_longer_observed": [
+            "5421310004",
+            "5693219004",
+            "5704417004",
+            "5704428004",
+            "5781408004",
+            "5783026004",
+            "5790042004",
+            "5797408004",
+            "5829145004",
+            "5830266004",
+            "5838869004",
+            "5844314004",
+            "5844416004",
+            "5871524004",
+            "5875970004",
+            "5969145004",
+            "5970007004",
+            "5970210004",
+            "5970222004",
+            "5978967004",
+            "5980312004",
+            "5982591004",
+            "5982594004",
+            "5985810004",
+            "5986448004",
+            "5986826004",
+            "5986827004",
+            "5987435004",
+            "5988893004",
+            "5989503004",
+            "5989510004",
+            "5990037004"
+          ],
+          "retained": [
+            "5396396004",
+            "5396420004",
+            "5730389004",
+            "5778086004",
+            "5792327004",
+            "5793354004",
+            "5803069004",
+            "5818115004",
+            "5989512004"
+          ]
+        },
+        {
+          "company_id": "arize",
+          "baseline_at": "2026-10-04T13:43:26Z",
+          "latest_at": "2026-11-21T10:18:12.342211+00:00",
+          "baseline_listed": 24,
+          "latest_listed": 20,
+          "net_posting_change": -4,
+          "newly_observed": [
+            "5993317004",
+            "6231664004",
+            "6231745004",
+            "6242516004",
+            "6254132004",
+            "6254817004"
+          ],
+          "no_longer_observed": [
+            "5783026004",
+            "5790042004",
+            "5986826004",
+            "5986827004",
+            "6030903004",
+            "6030953004",
+            "6098773004",
+            "6122817004",
+            "6188488004",
+            "6203648004"
+          ],
+          "retained": [
+            "5396396004",
+            "5396420004",
+            "5730389004",
+            "5778086004",
+            "5792327004",
+            "5793354004",
+            "5803069004",
+            "5818115004",
+            "5989512004",
+            "6030902004",
+            "6115096004",
+            "6128122004",
+            "6128123004",
+            "6203635004"
+          ]
+        }
+      ],
+      "followup_career_list_comparisons": []
+    }
+  ],
+  "agreement": {
+    "status": "awaiting_independent_reviews",
+    "cohen_kappa": null,
+    "reason": "sueda: completed independent annotation attestation and workbook hashes required",
+    "direct_source_collection": {
+      "assisted_records_preserved_outside_direct_store": [],
+      "candidate_source_files": [
+        "manifest.json",
+        "sueda-review/candidate-review-v2/candidates.json",
+        "records.jsonl",
+        "guidelines.json"
+      ],
+      "status": "requires_personal_decisions",
+      "reviewers": {
+        "sueda": {
+          "entities": {
+            "recorded": 0,
+            "required": 776
+          },
+          "relations": {
+            "recorded": 0,
+            "required": 100
+          }
+        },
+        "mehmet": {
+          "entities": {
+            "recorded": 0,
+            "required": 776
+          },
+          "relations": {
+            "recorded": 0,
+            "required": 100
+          }
+        }
+      },
+      "pairwise_agreement": null,
+      "scope": "Direct source decisions, independence self-reported; assisted worksheets and source supplements are separate."
+    }
+  },
+  "annotation_rounds": [
+    {
+      "direct_review_collection": {
+        "assisted_records_preserved_outside_direct_store": [],
+        "candidate_source_files": [
+          "manifest.json",
+          "sueda-review/candidate-review-v2/candidates.json",
+          "records.jsonl",
+          "guidelines.json"
+        ],
+        "status": "requires_personal_decisions",
+        "reviewers": {
+          "sueda": {
+            "entities": {
+              "recorded": 0,
+              "required": 776
+            },
+            "relations": {
+              "recorded": 0,
+              "required": 100
+            }
+          },
+          "mehmet": {
+            "entities": {
+              "recorded": 0,
+              "required": 776
+            },
+            "relations": {
+              "recorded": 0,
+              "required": 100
+            }
+          }
+        },
+        "pairwise_agreement": null,
+        "scope": "Direct source decisions, independence self-reported; assisted worksheets and source supplements are separate."
+      },
+      "directory": "evaluation/real",
+      "reviewers": {
+        "sueda": {
+          "entity_labels": 418,
+          "entity_candidates": 418,
+          "relation_labels": 182,
+          "relation_candidates": 182,
+          "shared_relation_candidates": 126,
+          "shared_relation_labels": 126,
+          "supplemental_source_relation_rows": 56,
+          "attestation_status": "source_review_complete",
+          "independent_human_attested": false
+        },
+        "mehmet": {
+          "entity_labels": 0,
+          "entity_candidates": 418,
+          "relation_labels": 0,
+          "relation_candidates": 126,
+          "shared_relation_candidates": 126,
+          "shared_relation_labels": 0,
+          "supplemental_source_relation_rows": 0,
+          "attestation_status": "team_authorization_confirmed",
+          "independent_human_attested": false
+        }
+      },
+      "corpus_documents": 45,
+      "corpus_decisions": {
+        "sueda_include": 45,
+        "mehmet_include": 45,
+        "final_include": 45,
+        "adjudicator": 45
+      },
+      "qrels_pairs": 1260,
+      "qrels_fields": {
+        "sueda_grade": 1260,
+        "mehmet_grade": 0,
+        "final_grade": 0,
+        "adjudicator": 0
+      }
+    },
+    {
+      "direct_review_collection": {
+        "assisted_records_preserved_outside_direct_store": [
+          "evaluation/independent-review/mixed/mehmet.json",
+          "evaluation/independent-review/mixed/sueda.json"
+        ],
+        "candidate_source_files": [
+          "manifest.json",
+          "candidate-items.json",
+          "records.jsonl",
+          "guidelines.json"
+        ],
+        "status": "requires_personal_decisions",
+        "reviewers": {
+          "sueda": {
+            "entities": {
+              "recorded": 0,
+              "required": 276
+            },
+            "relations": {
+              "recorded": 0,
+              "required": 108
+            }
+          },
+          "mehmet": {
+            "entities": {
+              "recorded": 0,
+              "required": 276
+            },
+            "relations": {
+              "recorded": 0,
+              "required": 108
+            }
+          }
+        },
+        "pairwise_agreement": null,
+        "scope": "Direct source decisions, independence self-reported; assisted worksheets and source supplements are separate."
+      },
+      "directory": "evaluation/mixed",
+      "reviewers": {
+        "sueda": {
+          "entity_labels": 276,
+          "entity_candidates": 276,
+          "relation_labels": 108,
+          "relation_candidates": 108,
+          "shared_relation_candidates": 108,
+          "shared_relation_labels": 108,
+          "supplemental_source_relation_rows": 0,
+          "attestation_status": "source_review_complete",
+          "independent_human_attested": false
+        },
+        "mehmet": {
+          "entity_labels": 276,
+          "entity_candidates": 276,
+          "relation_labels": 108,
+          "relation_candidates": 108,
+          "shared_relation_candidates": 108,
+          "shared_relation_labels": 108,
+          "supplemental_source_relation_rows": 0,
+          "attestation_status": "source_assisted_review_complete",
+          "independent_human_attested": false
+        }
+      },
+      "corpus_documents": 45,
+      "corpus_decisions": {
+        "sueda_include": 45,
+        "mehmet_include": 0,
+        "final_include": 0,
+        "adjudicator": 0
+      },
+      "qrels_pairs": 1260,
+      "qrels_fields": {
+        "sueda_grade": 1260,
+        "mehmet_grade": 0,
+        "final_grade": 0,
+        "adjudicator": 0
+      }
+    }
+  ],
+  "pilot": {
+    "consent_reports": 5,
+    "consent_methods": {
+      "group_approval_reported_by_P05": 4,
+      "self_report_in_project_session": 1
+    },
+    "planned_tasks": 30,
+    "submitted_responses": 30,
+    "scored_task_results": 30,
+    "participants": [
+      {
+        "participant_id": "P01",
+        "planned_tasks": 6,
+        "submitted_responses": 6,
+        "missing_question_ids": []
+      },
+      {
+        "participant_id": "P02",
+        "planned_tasks": 6,
+        "submitted_responses": 6,
+        "missing_question_ids": []
+      },
+      {
+        "participant_id": "P03",
+        "planned_tasks": 6,
+        "submitted_responses": 6,
+        "missing_question_ids": []
+      },
+      {
+        "participant_id": "P04",
+        "planned_tasks": 6,
+        "submitted_responses": 6,
+        "missing_question_ids": []
+      },
+      {
+        "participant_id": "P05",
+        "planned_tasks": 6,
+        "submitted_responses": 6,
+        "missing_question_ids": []
+      }
+    ],
+    "task_key_content_complete": true,
+    "task_key_review_method": "team_source_assisted_adjudication_after_blind_second_review",
+    "second_task_key_review": {
+      "status": "blind_second_review_complete",
+      "reviewer": "Sueda Sen",
+      "recorded_decisions": 6,
+      "state_differences_from_initial_key": [
+        {
+          "question_id": "q-pilot-github-mlops",
+          "initial_state": "insufficient",
+          "second_state": "corroborated"
+        },
+        {
+          "question_id": "q-investors-later-hiring",
+          "initial_state": "insufficient",
+          "second_state": "corroborated"
+        },
+        {
+          "question_id": "q-sector-attention",
+          "initial_state": "insufficient",
+          "second_state": "corroborated"
+        },
+        {
+          "question_id": "q-why-emerging",
+          "initial_state": "emerging",
+          "second_state": "corroborated"
+        },
+        {
+          "question_id": "q-unsupported-acquisition",
+          "initial_state": "insufficient",
+          "second_state": "disputed"
+        },
+        {
+          "question_id": "q-future-performance",
+          "initial_state": "insufficient",
+          "second_state": "corroborated"
+        }
+      ],
+      "final_adjudication_complete": true,
+      "scope": "Compare and adjudicate before final grading; this is not entity/relation agreement."
+    },
+    "task_key_adjudication_complete": true,
+    "final_grading": {
+      "status": "finalized_for_observed_fields",
+      "adjudication_complete": true,
+      "adjudication_method": "team_source_assisted_adjudication_after_blind_second_review",
+      "responses": 30,
+      "metrics": {
+        "status_correct": {
+          "correct": 1,
+          "assessed": 30,
+          "not_assessed": 0,
+          "accuracy": 0.03333333333333333
+        },
+        "evidence_correct": {
+          "correct": 0,
+          "assessed": 0,
+          "not_assessed": 30,
+          "accuracy": null
+        },
+        "abstention_correct": {
+          "correct": 1,
+          "assessed": 17,
+          "not_assessed": 13,
+          "accuracy": 0.058823529411764705
+        }
+      },
+      "full_protocol_measurement_complete": false,
+      "external_independent_assessor": false,
+      "legacy_pilot_container_matches_final_grading": true
+    },
+    "task_key_independently_adjudicated": false
+  },
+  "pilot_measurement_summary": {
+    "status": "collection_complete_graded_observed_fields",
+    "collection_complete": true,
+    "planned_tasks": 30,
+    "submitted_tasks": 30,
+    "remaining_tasks": 0,
+    "participants_with_responses": 5,
+    "participants_complete": 5,
+    "participants": [
+      {
+        "participant_id": "P01",
+        "completed_tasks": 6,
+        "planned_tasks": 6,
+        "remaining_tasks": 0,
+        "next_task_order": null,
+        "observed_conditions": {
+          "citations_only": 3,
+          "citations_plus_state_and_path": 3
+        },
+        "measurements": {
+          "responses": 6,
+          "duration_seconds": {
+            "mean": 14.661518812333318,
+            "median": 14.92180779149993,
+            "minimum": 6.098260875000051,
+            "maximum": 27.574829416
+          },
+          "confidence": {
+            "mean": 3,
+            "median": 3.0,
+            "scale": "1–5",
+            "distribution": {
+              "3": 6
+            }
+          }
+        }
+      },
+      {
+        "participant_id": "P02",
+        "completed_tasks": 6,
+        "planned_tasks": 6,
+        "remaining_tasks": 0,
+        "next_task_order": null,
+        "observed_conditions": {
+          "citations_only": 3,
+          "citations_plus_state_and_path": 3
+        },
+        "measurements": {
+          "responses": 6,
+          "duration_seconds": {
+            "mean": 15.075638131833301,
+            "median": 11.81923981250003,
+            "minimum": 5.624521874999914,
+            "maximum": 36.61387954100002
+          },
+          "confidence": {
+            "mean": 3.6666666666666665,
+            "median": 4.0,
+            "scale": "1–5",
+            "distribution": {
+              "2": 1,
+              "4": 5
+            }
+          }
+        }
+      },
+      {
+        "participant_id": "P03",
+        "completed_tasks": 6,
+        "planned_tasks": 6,
+        "remaining_tasks": 0,
+        "next_task_order": null,
+        "observed_conditions": {
+          "citations_plus_state_and_path": 3,
+          "citations_only": 3
+        },
+        "measurements": {
+          "responses": 6,
+          "duration_seconds": {
+            "mean": 11.924429451499998,
+            "median": 10.664066479499994,
+            "minimum": 6.465440166999997,
+            "maximum": 18.9987886670001
+          },
+          "confidence": {
+            "mean": 4,
+            "median": 4.0,
+            "scale": "1–5",
+            "distribution": {
+              "4": 6
+            }
+          }
+        }
+      },
+      {
+        "participant_id": "P04",
+        "completed_tasks": 6,
+        "planned_tasks": 6,
+        "remaining_tasks": 0,
+        "next_task_order": null,
+        "observed_conditions": {
+          "citations_plus_state_and_path": 3,
+          "citations_only": 3
+        },
+        "measurements": {
+          "responses": 6,
+          "duration_seconds": {
+            "mean": 12.676713132166682,
+            "median": 12.079817896000009,
+            "minimum": 5.11023712500014,
+            "maximum": 23.221828417000097
+          },
+          "confidence": {
+            "mean": 3.6666666666666665,
+            "median": 4.0,
+            "scale": "1–5",
+            "distribution": {
+              "3": 2,
+              "4": 4
+            }
+          }
+        }
+      },
+      {
+        "participant_id": "P05",
+        "completed_tasks": 6,
+        "planned_tasks": 6,
+        "remaining_tasks": 0,
+        "next_task_order": null,
+        "observed_conditions": {
+          "citations_only": 3,
+          "citations_plus_state_and_path": 3
+        },
+        "measurements": {
+          "responses": 6,
+          "duration_seconds": {
+            "mean": 12.396760242999997,
+            "median": 9.80048920850004,
+            "minimum": 5.314423833000092,
+            "maximum": 23.559779499999877
+          },
+          "confidence": {
+            "mean": 4,
+            "median": 4.0,
+            "scale": "1–5",
+            "distribution": {
+              "4": 6
+            }
+          }
+        }
+      }
+    ],
+    "observed_measurements": {
+      "responses": 30,
+      "duration_seconds": {
+        "mean": 13.347011954166659,
+        "median": 11.81923981250003,
+        "minimum": 5.11023712500014,
+        "maximum": 36.61387954100002
+      },
+      "confidence": {
+        "mean": 3.6666666666666665,
+        "median": 4.0,
+        "scale": "1–5",
+        "distribution": {
+          "2": 1,
+          "3": 8,
+          "4": 21
+        }
+      }
+    },
+    "by_condition": {
+      "citations_only": {
+        "responses": 15,
+        "duration_seconds": {
+          "mean": 13.62557556113333,
+          "median": 10.732030417000033,
+          "minimum": 5.11023712500014,
+          "maximum": 36.61387954100002
+        },
+        "confidence": {
+          "mean": 3.6,
+          "median": 4,
+          "scale": "1–5",
+          "distribution": {
+            "2": 1,
+            "3": 4,
+            "4": 10
+          }
+        }
+      },
+      "citations_plus_state_and_path": {
+        "responses": 15,
+        "duration_seconds": {
+          "mean": 13.06844834719999,
+          "median": 13.427605374999985,
+          "minimum": 5.314423833000092,
+          "maximum": 23.559779499999877
+        },
+        "confidence": {
+          "mean": 3.7333333333333334,
+          "median": 4,
+          "scale": "1–5",
+          "distribution": {
+            "3": 4,
+            "4": 11
+          }
+        }
+      }
+    },
+    "timing_methods": {
+      "server_monotonic_elapsed": 30
+    },
+    "last_recorded_at": "2026-11-21T08:57:29Z",
+    "task_key_review_method": "team_source_assisted_adjudication_after_blind_second_review",
+    "scored_task_results": 30,
+    "grading_status": "complete_for_observed_fields",
+    "recorded_grading_methods": {
+      "adjudicated_key_observed_fields_only": 30
+    },
+    "independent_task_key_adjudication_confirmed": false,
+    "task_key_adjudication_complete": true,
+    "final_grading": {
+      "status": "finalized_for_observed_fields",
+      "adjudication_complete": true,
+      "adjudication_method": "team_source_assisted_adjudication_after_blind_second_review",
+      "responses": 30,
+      "metrics": {
+        "status_correct": {
+          "correct": 1,
+          "assessed": 30,
+          "not_assessed": 0,
+          "accuracy": 0.03333333333333333
+        },
+        "evidence_correct": {
+          "correct": 0,
+          "assessed": 0,
+          "not_assessed": 30,
+          "accuracy": null
+        },
+        "abstention_correct": {
+          "correct": 1,
+          "assessed": 17,
+          "not_assessed": 13,
+          "accuracy": 0.058823529411764705
+        }
+      },
+      "full_protocol_measurement_complete": false,
+      "external_independent_assessor": false,
+      "legacy_pilot_container_matches_final_grading": true
+    },
+    "accuracy": {
+      "status_correct": {
+        "correct": 1,
+        "assessed": 30,
+        "not_assessed": 0,
+        "accuracy": 0.03333333333333333
+      },
+      "evidence_correct": {
+        "correct": 0,
+        "assessed": 0,
+        "not_assessed": 30,
+        "accuracy": null
+      },
+      "abstention_correct": {
+        "correct": 1,
+        "assessed": 17,
+        "not_assessed": 13,
+        "accuracy": 0.058823529411764705
+      }
+    },
+    "pilot_effect_estimate": null,
+    "descriptive_only": true,
+    "paired_condition_descriptives": {
+      "participants": 5,
+      "contrast": "citations_plus_state_and_path minus citations_only",
+      "per_participant": [
+        {
+          "participant_id": "P01",
+          "duration_mean_seconds": {
+            "citations_only": 16.73428859699999,
+            "citations_plus_state_and_path": 12.588749027666646
+          },
+          "confidence_mean": {
+            "citations_only": 3,
+            "citations_plus_state_and_path": 3
+          },
+          "duration_difference_seconds": -4.1455395693333426,
+          "confidence_difference": 0
+        },
+        {
+          "participant_id": "P02",
+          "duration_mean_seconds": {
+            "citations_only": 18.29806773599999,
+            "citations_plus_state_and_path": 11.853208527666615
+          },
+          "confidence_mean": {
+            "citations_only": 3.3333333333333335,
+            "citations_plus_state_and_path": 4
+          },
+          "duration_difference_seconds": -6.444859208333375,
+          "confidence_difference": 0.6666666666666665
+        },
+        {
+          "participant_id": "P03",
+          "duration_mean_seconds": {
+            "citations_only": 11.035999694666694,
+            "citations_plus_state_and_path": 12.812859208333302
+          },
+          "confidence_mean": {
+            "citations_only": 4,
+            "citations_plus_state_and_path": 4
+          },
+          "duration_difference_seconds": 1.7768595136666079,
+          "confidence_difference": 0
+        },
+        {
+          "participant_id": "P04",
+          "duration_mean_seconds": {
+            "citations_only": 10.348652111333346,
+            "citations_plus_state_and_path": 15.00477415300002
+          },
+          "confidence_mean": {
+            "citations_only": 3.6666666666666665,
+            "citations_plus_state_and_path": 3.6666666666666665
+          },
+          "duration_difference_seconds": 4.6561220416666735,
+          "confidence_difference": 0.0
+        },
+        {
+          "participant_id": "P05",
+          "duration_mean_seconds": {
+            "citations_only": 11.71086966666663,
+            "citations_plus_state_and_path": 13.082650819333367
+          },
+          "confidence_mean": {
+            "citations_only": 4,
+            "citations_plus_state_and_path": 4
+          },
+          "duration_difference_seconds": 1.3717811526667365,
+          "confidence_difference": 0
+        }
+      ],
+      "mean_duration_difference_seconds": -0.5571272139333399,
+      "median_duration_difference_seconds": 1.3717811526667365,
+      "mean_confidence_difference": 0.1333333333333333,
+      "interpretation": "Observed within-participant differences only. Different task sets, shared state language and five participants do not establish a causal treatment effect."
+    },
+    "limits": [
+      "Observed task responses are not pooled votes on one common question.",
+      "Elapsed times include interruptions; they do not establish active attention.",
+      "Condition summaries and paired descriptive differences do not establish a causal treatment effect.",
+      "Free-text explanations were not collected. Rubric criteria requiring an explanation cannot be inferred from the action selector.",
+      "Final state accuracy concerns participant judgments; unmeasured criteria and causal pilot effects are not inferred."
+    ],
+    "input_sha256": {
+      "responses": "84eb5d91585943106b346c3597b3bbe54df7652ac779cf533b062c409d32de8e",
+      "protocol": "a60f5c19f735a38e9446b568754d0ebcbfceb8a35b20c1fdb9a579e0348afb36",
+      "assignments": "6c1608552c65e8b0272d3f5f12223bc92ef906930224f3649410622792c7a7d8",
+      "stimuli": "b768811059c6b84da9f3472d138da0499531cad28167d2665b36b4c9124cf979",
+      "manifest": "366100084c086a951b0874473639771ed4134bd6ded9cb631d977c2bbed2b1ac",
+      "pilot": "bb85c769f19b74c3e70104d87c73ab6a42804f34dfef19a47965446c4148a357"
+    }
+  },
+  "remaining": [
+    "Complete official-population histories remain unavailable for 5 of 18 companies. Four additional scoped channels are available; CrewAI has historical advertisements but no complete board baseline. Weekly hiring trajectories remain unestablished.",
+    "Independent personal reviews and corresponding attestations; second labels and final adjudication."
+  ],
+  "pilot_measurement_limitations": [
+    "Free-text evidence and qualifying/policy explanations were not collected; unassessable criteria remain explicitly unmeasured."
+  ],
+  "complete_research_submission": false,
+  "input_sha256": {
+    "evaluation/cohort-history-v2/manifest.json": "98b0b39f180e291ed47fb9a5191ff9d6fe57456e5e2412ad4282cf7c82c63667",
+    "evaluation/cohort-job-history/manifest.json": "f09800666d0192c2a05c1c91343554df98d0b51e55e9cbcf44e607acc88a2517",
+    "evaluation/cohort-identity-review/manifest.json": "6b138488dbd79ecc4dfa2bae3443b3c025f0df78098962393f11b4cf42ca88fa",
+    "evaluation/submission/question-coverage.json": "fbc67b5a805917cded6bec310eb6bafb0f5bb57a23285273f9e6ac3e0352a518",
+    "evaluation/cohort-history-followup/review.json": "ad8c5fa5b7d3d2fed0d674954ec52b7a326663e40692ad8d8aa15ffd7e29cce2",
+    "evaluation/cohort-ats-history/review.json": "b2437b30bd87fad25a5b24f16840d8c7e5d653040810a1d43b2dbc26d4cb7018",
+    "evaluation/submission/funding-source-review.json": "7a17293235c66147044aae21c8a281bd2265cab3d7f9e3e274cee4f90d878761",
+    "evaluation/cohort-identity-review/usable-profiles.json": "09fc96260ad98286b27c560bb22eb8d62302bd9a090ca87a7562e0f5b06f8942",
+    "evaluation/real/pilot-session/responses.json": "84eb5d91585943106b346c3597b3bbe54df7652ac779cf533b062c409d32de8e",
+    "evaluation/real/trust-pilot.json": "bb85c769f19b74c3e70104d87c73ab6a42804f34dfef19a47965446c4148a357",
+    "evaluation/real/workbooks/sueda-attestation.json": "f5cc9bc9b8eb29a42960a68be03b32e1c43faf3ce4663ccb6d2da73384286508",
+    "evaluation/real/workbooks/mehmet-attestation.json": "7806920b752f39b59b238a12752a91b8755dbf3321c38a0fe051022e80c9eed2"
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "scope": "Three frozen primary funding pages reviewed on behalf of the team; original records, scored qrels and personal reviewer files are unchanged.",
+  "method": "Exact source-text spans with source hashes; normalized announcement days only. No invented financing close dates or independent reviewer attestations.",
+  "input_sha256": {
+    "evaluation/mixed/records.jsonl": "2e8db87daa901109a18cb7ea590ee4c22b9357bea1e13104964bbfc4badfedc3",
+    "evaluation/cohort-history-v2/records.jsonl": "35e01c9e5c86e5110c6b6fc8850550ba601a7d77cbb14621bb3c8c2068259832",
+    "evaluation/cohort-job-history/records.jsonl": "233b034a45a008f03ab72c108660fee6308645b63a9c1539ad396661caf15543",
+    "evaluation/cohort-archive-followup/job-records.jsonl": "eddd28cff8d36ee699431a7a44fb0ab8749a58ccf53b6063c6b03985f99034c9",
+    "evaluation/mixed/sources/langchain-funding.html": "4bf58ef0f8f44ef3cc49301e12ccc26be92f624c5f1351b82d6ed571ea19fc38",
+    "evaluation/mixed/sources/llamaindex-funding.html": "ce70b36fc21833fa2607a7640b35e3a76b4cd65d369da40444cb34dc2b0e150e",
+    "evaluation/mixed/sources/browserbase-funding.html": "6dc603c303049cc846d109ebe7bdde6576e23db58c3d6a60d5d46202e0eaab14"
+  },
+  "reviews": [
+    {
+      "company_id": "langchain",
+      "record_id": "eb174b5a-a28e-5260-a99a-aeb84f1e4be8",
+      "source_url": "https://langchain.com/blog/series-c",
+      "source_file": "evaluation/mixed/records.jsonl",
+      "source_html": "evaluation/mixed/sources/langchain-funding.html",
+      "source_html_sha256": "4bf58ef0f8f44ef3cc49301e12ccc26be92f624c5f1351b82d6ed571ea19fc38",
+      "text_sha256": "f04c56bd4bcb65448b0524c362e6aebe572a13e20dd48cb4d4dc0c1d78e4bbd1",
+      "source_record_content_hash": "96ed00b400b000ec443765282f1d8f6afe41e6dd112206d2b7f697a56422cead",
+      "review_method": "source_assisted_exact_passage_review",
+      "independent_personal_annotation": false,
+      "announcement_date": "2026-11-13",
+      "date_precision": "day",
+      "announcement_within_study_window": true,
+      "financing_closed_at": null,
+      "event_time_limit": "An announcement date does not establish the legal closing date. Unknown dates remain null.",
+      "round": "Series C",
+      "amount_usd": 300000000,
+      "lead_investor": "CapitalG",
+      "participating_investors_in_cited_passage": [
+        "GIC",
+        "DFJ Growth",
+        "IVP",
+        "Sapphire Ventures"
+      ],
+      "investor_list_scope": "Participants in cited passage only; not a claim of an exhaustive cap table.",
+      "passages": {
+        "date_quote": {
+          "text": "November 13, 2026",
+          "start": 1499,
+          "end": 1516
+        },
+        "round_quote": {
+          "text": "Today, we’re announcing that LangChain raised $300M at a $3B valuation",
+          "start": 1599,
+          "end": 1669
+        },
+        "investors_quote": {
+          "text": "The round was led by existing investor CapitalG, with significant participation from new investors GIC and DFJ Growth and existing investors IVP and Sapphire Ventures.",
+          "start": 1742,
+          "end": 1909
+        },
+        "round_label_quote": {
+          "text": "Our Series C Announcement",
+          "start": 1573,
+          "end": 1598
+        }
+      },
+      "observed_at": "2026-11-21T06:41:31Z",
+      "original_published_at": "2026-11-13T15:55:00Z",
+      "original_event_at": null,
+      "retained_complete_github_windows_strictly_after_announcement": [],
+      "complete_board_snapshot_dates": [
+        "2026-10-05",
+        "2026-10-21",
+        "2026-11-21"
+      ],
+      "post_announcement_board_snapshot_dates": [
+        "2026-11-21"
+      ],
+      "temporal_conclusion": "No complete retained post-announcement commit week and no two retained post-announcement job snapshots; a later increase is not established.",
+      "funding_caused_growth_established": false
+    },
+    {
+      "company_id": "llamaindex",
+      "record_id": "8040d79a-d5bc-57b8-80ed-3b703a3d7af3",
+      "source_url": "https://llamaindex.ai/blog/announcing-our-series-a-and-llamacloud-general-availability",
+      "source_file": "evaluation/mixed/records.jsonl",
+      "source_html": "evaluation/mixed/sources/llamaindex-funding.html",
+      "source_html_sha256": "ce70b36fc21833fa2607a7640b35e3a76b4cd65d369da40444cb34dc2b0e150e",
+      "text_sha256": "be98f6b0e7d91ed502b79ba78a8d87bc757d4ddfdf5f181814e038e16318b14c",
+      "source_record_content_hash": "0efe3585815f7221a7d9c2e33e644fefd10fa64828238aa323e9989d57c52429",
+      "review_method": "source_assisted_exact_passage_review",
+      "independent_personal_annotation": false,
+      "announcement_date": null,
+      "date_precision": null,
+      "announcement_within_study_window": null,
+      "financing_closed_at": null,
+      "event_time_limit": "An announcement date does not establish the legal closing date. Unknown dates remain null.",
+      "round": "Series A",
+      "amount_usd": 19000000,
+      "lead_investor": "Norwest Venture Partners",
+      "participating_investors_in_cited_passage": [
+        "Greylock Partners"
+      ],
+      "investor_list_scope": "Participants in cited passage only; not a claim of an exhaustive cap table.",
+      "passages": {
+        "date_quote": null,
+        "round_quote": {
+          "text": "our $19M series A funding round",
+          "start": 109,
+          "end": 140
+        },
+        "investors_quote": {
+          "text": "Our series A is led by Norwest Venture Partners, with participation from our existing investors Greylock Partners",
+          "start": 1917,
+          "end": 2030
+        },
+        "round_label_quote": {
+          "text": "our $19M series A funding round",
+          "start": 109,
+          "end": 140
+        }
+      },
+      "observed_at": "2026-11-21T06:41:31Z",
+      "original_published_at": null,
+      "original_event_at": null,
+      "retained_complete_github_windows_strictly_after_announcement": [],
+      "complete_board_snapshot_dates": [],
+      "post_announcement_board_snapshot_dates": [],
+      "temporal_conclusion": "Unknown announcement date prevents ordering.",
+      "funding_caused_growth_established": false
+    },
+    {
+      "company_id": "browserbase",
+      "record_id": "8767e401-ef9f-5ca1-aea7-36dd179301b7",
+      "source_url": "https://browserbase.com/blog/series-b-and-beyond",
+      "source_file": "evaluation/mixed/records.jsonl",
+      "source_html": "evaluation/mixed/sources/browserbase-funding.html",
+      "source_html_sha256": "6dc603c303049cc846d109ebe7bdde6576e23db58c3d6a60d5d46202e0eaab14",
+      "text_sha256": "e94bf3165c72310449dbd0d8608933a59fead5e061a34af704b23ec16cea3f35",
+      "source_record_content_hash": "2b3f466991c9af9185836a994fc68e074582388fe880ed81bdf76213ac22430f",
+      "review_method": "source_assisted_exact_passage_review",
+      "independent_personal_annotation": false,
+      "announcement_date": "2025-06-18",
+      "date_precision": "day",
+      "announcement_within_study_window": false,
+      "financing_closed_at": null,
+      "event_time_limit": "An announcement date does not establish the legal closing date. Unknown dates remain null.",
+      "round": "Series B",
+      "amount_usd": 40000000,
+      "lead_investor": "Notable Capital",
+      "participating_investors_in_cited_passage": [
+        "CRV",
+        "Kleiner Perkins"
+      ],
+      "investor_list_scope": "Participants in cited passage only; not a claim of an exhaustive cap table.",
+      "passages": {
+        "date_quote": {
+          "text": "June 18, 2025",
+          "start": 0,
+          "end": 13
+        },
+        "round_quote": {
+          "text": "The product release coincides with a $40 million Series B financing round led by Notable Capital, with participation from existing investors CRV and Kleiner Perkins.",
+          "start": 3595,
+          "end": 3760
+        },
+        "investors_quote": {
+          "text": "led by Notable Capital, with participation from existing investors CRV and Kleiner Perkins",
+          "start": 3669,
+          "end": 3759
+        },
+        "round_label_quote": {
+          "text": "Series B financing round",
+          "start": 3644,
+          "end": 3668
+        }
+      },
+      "observed_at": "2026-11-21T06:41:31Z",
+      "original_published_at": null,
+      "original_event_at": null,
+      "retained_complete_github_windows_strictly_after_announcement": [
+        "dfbdebea-3782-5a86-926d-4c62f2165840",
+        "e4f4dd23-b613-528f-82a2-9cb27ad310c3",
+        "08cd5b37-6d8f-5bff-a190-ce2448ec2090",
+        "ab69a0ae-e9fc-5d1b-aa9b-9062fe3e8330",
+        "e6827643-bfe5-59df-a974-43366ff437e5",
+        "caccdea0-d9ba-5643-a41e-40ecfe957068",
+        "db0ccd05-861b-5c91-a57d-b81d2f53d699",
+        "78297d1d-9f5b-5b35-9aa1-c0c182c35493"
+      ],
+      "complete_board_snapshot_dates": [
+        "2026-11-21"
+      ],
+      "post_announcement_board_snapshot_dates": [
+        "2026-11-21"
+      ],
+      "temporal_conclusion": "Announcement is outside the defined study window; retain as historical context only.",
+      "funding_caused_growth_established": false
+    }
+  ],
+  "summary": {
+    "funding_pages": 3,
+    "dated_announcements": 2,
+    "announcements_in_study_window": 1,
+    "unknown_announcement_dates": 1,
+    "full_funding_to_later_growth_paths_established": 0
+  }
+}

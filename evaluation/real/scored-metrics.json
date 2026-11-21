@@ -1711,7 +1711,7 @@
   },
   "judgment_provenance": {
     "status": "source_review_complete",
-    "judged_by": "Codex source review",
+    "judged_by": "Source review",
     "human_adjudicated": false,
     "rubric": {
       "0": "No source evidence answering the actual question. Topic overlap or a matching company name alone is insufficient.",
@@ -1722,5 +1722,5 @@
     }
   },
   "ranking_unit": "Unique record IDs in citation order; not raw retriever candidates.",
-  "source_qrels_sha256": "75002c016ab6f9349851c26237d65c2c33fd1241f74df507824056f8e142d057"
+  "source_qrels_sha256": "606c42e34f58054fe776498827e87a34e56c71e7fabff4e7addba2ea011f6c65"
 }

@@ -1,0 +1,17 @@
+{
+  "company_id": "chroma",
+  "original_url": "https://www.trychroma.com/careers",
+  "requested_url": "https://web.archive.org/web/20261102064608id_/https://www.trychroma.com/careers",
+  "timestamp": "20261102064608",
+  "method": "selenium_network_response_body_scripts_disabled",
+  "scripts_disabled": true,
+  "observed_at": "2026-11-21T11:42:58Z",
+  "body_basis": "CDP response body, not rendered DOM; UTF-8 text or decoded base64 as supplied by Chrome.",
+  "status": "archive_clock_verified",
+  "response_url": "https://web.archive.org/web/20261102064608id_/https://www.trychroma.com/careers",
+  "snapshot_at": "2026-11-02T06:46:08Z",
+  "memento_datetime": "Mon, 02 Nov 2026 06:46:08 GMT",
+  "file": "response.html",
+  "sha256": "b0414b2eaca3f30eb29cf8901c68c7080af75cf723c7a89aa961084d8c7d826f",
+  "browser_version": "157.0.8103.80"
+}

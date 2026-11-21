@@ -1,0 +1,62 @@
+{
+  "scope": "Sueda staged delivery; completed pilot and first source reviews are retained.",
+  "stages": [
+    {
+      "stage": 1,
+      "task": "Cohort and identity source check",
+      "status": "completed_with_documented_source_gaps",
+      "evidence": "evaluation/cohort-identity-review/manifest.json",
+      "usable_profiles": "evaluation/cohort-identity-review/usable-profiles.json",
+      "result": "18 accounted for, 11 URLs checked, 3 supported profiles, 1 excluded same-name mismatch, 7 unavailable configured URLs, 7 without a YC assertion.",
+      "relation_extension_source_check": "evaluation/real/sueda-review/relation-extension/manifest.json"
+    },
+    {
+      "stage": 2,
+      "task": "Question-level dated evidence coverage",
+      "status": "completed_with_documented_evidence_limits",
+      "existing_evidence": "evaluation/submission/sueda-completion.json",
+      "evidence": "evaluation/submission/question-coverage.json",
+      "result": "All 28 questions mapped: 15 partial evidence, 2 bounded commit calculations, 5 policy explanations, 6 supported abstentions. No full temporal benchmark success is inferred.",
+      "funding_source_review": "evaluation/submission/funding-source-review.json",
+      "career_history_followup": "evaluation/cohort-history-followup/review.json",
+      "browser_collection": "collectors.browser_snapshot",
+      "historical_company_coverage": "13/18 paired complete official listing populations; 4 additional restricted channels; CrewAI historical adverts without a complete board baseline.",
+      "ats_history_followup": "evaluation/cohort-ats-history/review.json",
+      "remaining_company_history_review": "evaluation/remaining-history-discovery/review.json"
+    },
+    {
+      "stage": 3,
+      "task": "Independent entity/relation review and agreement",
+      "status": "review_collection_ready",
+      "remaining": "Entity source review and any separately claimed independent annotation remain distinct. Mixed relation disagreements have a completed source-assisted reconciliation with the original judgments preserved.",
+      "review_console": "http://127.0.0.1:8767",
+      "collection_module": "evaluation.independent_review",
+      "source_assisted_relation_reconciliation": {
+        "status": "complete",
+        "artifact": "evaluation/mixed/relation-reconciliation.json",
+        "disagreements_reviewed": 69,
+        "agreed_labels_flagged": 3,
+        "independent_gold_standard": false
+      },
+      "entity_source_check": {
+        "status": "source_assisted_checks_complete",
+        "artifact": "evaluation/submission/sueda-entity-source-check.json",
+        "release_corrections_recommended": 41,
+        "independent_annotation": false
+      }
+    },
+    {
+      "stage": 4,
+      "task": "Final integration and delivery refresh",
+      "status": "refreshed_with_explicit_research_limits",
+      "existing_delivery": "artifacts/sueda-historical-coverage-2026-11-21.zip",
+      "result": "Comparable posting histories verified for 12/18 companies; registered source-only relation supplement repaired with real passages; blind review console collects and computes separately recorded personal decisions.",
+      "software_validation": {
+        "passed": 483,
+        "skipped": 1,
+        "source": "evaluation/submission/test-results.json",
+        "latest_targeted_passed": 27
+      }
+    }
+  ]
+}

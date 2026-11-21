@@ -1,0 +1,105 @@
+[
+  {
+    "source_id": "coreweave-api",
+    "target_url": "https://boards-api.greenhouse.io/v1/boards/coreweave/jobs*",
+    "observed_at": "2026-11-21T11:48:45.711228+00:00",
+    "http_status": 200,
+    "url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fboards-api.greenhouse.io%2Fv1%2Fboards%2Fcoreweave%2Fjobs%2A&output=json&filter=statuscode%3A200&collapse=timestamp%3A6&from=20251101&to=20261121&limit=250",
+    "file": "sources/coreweave-api-cdx.json",
+    "sha256": "5295440444925991260908c35b350fdd38f1a3d32b582c749d0eacad8b270bb0",
+    "captures": [
+      {
+        "urlkey": "io,greenhouse,boards-api)/v1/boards/coreweave/jobs/4691973006",
+        "timestamp": "20260711133910",
+        "original": "https://boards-api.greenhouse.io/v1/boards/coreweave/jobs/4691973006",
+        "mimetype": "application/json",
+        "statuscode": "200",
+        "digest": "ZGMVKJ3MZZCK532DLPSXPEAWOBABM3VM",
+        "length": "7020"
+      },
+      {
+        "urlkey": "io,greenhouse,boards-api)/v1/boards/coreweave/jobs?content=false",
+        "timestamp": "20261010140515",
+        "original": "https://boards-api.greenhouse.io/v1/boards/coreweave/jobs?content=false",
+        "mimetype": "application/json",
+        "statuscode": "200",
+        "digest": "7HOT5KZTTA2GKBGAI6EICTTRZNTFSZ4W",
+        "length": "24064"
+      },
+      {
+        "urlkey": "io,greenhouse,boards-api)/v1/boards/coreweave/jobs?content=false",
+        "timestamp": "20261102061539",
+        "original": "https://boards-api.greenhouse.io/v1/boards/coreweave/jobs?content=false",
+        "mimetype": "application/json",
+        "statuscode": "200",
+        "digest": "VTB7HQ4OW2Z62A5G2LEISF7BNM3A5HBA",
+        "length": "26334"
+      },
+      {
+        "urlkey": "io,greenhouse,boards-api)/v1/boards/coreweave/jobs?content=true",
+        "timestamp": "20251217231812",
+        "original": "https://boards-api.greenhouse.io/v1/boards/coreweave/jobs?content=true",
+        "mimetype": "application/json",
+        "statuscode": "200",
+        "digest": "ANT6DIHFZK3PJNTRZPSKKMZTB3CNCUHF",
+        "length": "317444"
+      },
+      {
+        "urlkey": "io,greenhouse,boards-api)/v1/boards/coreweave/jobs?content=true",
+        "timestamp": "20260707175932",
+        "original": "https://boards-api.greenhouse.io/v1/boards/coreweave/jobs?content=true",
+        "mimetype": "application/json",
+        "statuscode": "200",
+        "digest": "D47YQ7KDVYTNRVRO2KHSVSGWKXYLYYKF",
+        "length": "482684"
+      },
+      {
+        "urlkey": "io,greenhouse,boards-api)/v1/boards/coreweave/jobs?content=true",
+        "timestamp": "20260826023446",
+        "original": "https://boards-api.greenhouse.io/v1/boards/coreweave/jobs?content=true",
+        "mimetype": "application/json",
+        "statuscode": "200",
+        "digest": "XLKAF36UCOP7IISTM4TVO76FQKT37QC7",
+        "length": "519057"
+      },
+      {
+        "urlkey": "io,greenhouse,boards-api)/v1/boards/coreweave/jobs?content=true",
+        "timestamp": "20260929182326",
+        "original": "https://boards-api.greenhouse.io/v1/boards/coreweave/jobs?content=true",
+        "mimetype": "application/json",
+        "statuscode": "200",
+        "digest": "JVMMENKI27NGCSUHSLTQCDSLSLJ3MZYM",
+        "length": "571632"
+      },
+      {
+        "urlkey": "io,greenhouse,boards-api)/v1/boards/coreweave/jobs?content=true",
+        "timestamp": "20261103065745",
+        "original": "https://boards-api.greenhouse.io/v1/boards/coreweave/jobs?content=true",
+        "mimetype": "application/json",
+        "statuscode": "200",
+        "digest": "27HYW2V5TMJNG52NDYMA7FXJDD6G3BAY",
+        "length": "1592104"
+      }
+    ]
+  },
+  {
+    "source_id": "coreweave-legacy",
+    "target_url": "https://boards.greenhouse.io/coreweave*",
+    "observed_at": "2026-11-21T11:48:46.528061+00:00",
+    "http_status": 200,
+    "url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fboards.greenhouse.io%2Fcoreweave%2A&output=json&filter=statuscode%3A200&collapse=timestamp%3A6&from=20251101&to=20261121&limit=250",
+    "file": "sources/coreweave-legacy-cdx.json",
+    "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "captures": []
+  },
+  {
+    "source_id": "workable-api-v3",
+    "target_url": "https://apply.workable.com/api/v3/accounts/crewai/jobs*",
+    "observed_at": "2026-11-21T11:48:46.870265+00:00",
+    "http_status": 200,
+    "url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fapply.workable.com%2Fapi%2Fv3%2Faccounts%2Fcrewai%2Fjobs%2A&output=json&filter=statuscode%3A200&collapse=timestamp%3A6&from=20251101&to=20261121&limit=250",
+    "file": "sources/workable-api-v3-cdx.json",
+    "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "captures": []
+  }
+]

@@ -1,0 +1,300 @@
+[
+  {
+    "source_id": "techcrunch_ai",
+    "status": "ok",
+    "entries_seen": 20,
+    "entries_kept": 0
+  },
+  {
+    "source_id": "venturebeat_ai",
+    "status": "unavailable",
+    "detail": "failed to fetch https://venturebeat.com/category/ai/feed/: 429 Client Error: Too Many Requests for url: https://venturebeat.com/category/ai/feed/"
+  },
+  {
+    "source_id": "techcrunch_langchain",
+    "status": "ok",
+    "entries_seen": 3,
+    "entries_kept": 2
+  },
+  {
+    "source_id": "techcrunch_browserbase",
+    "status": "unavailable",
+    "detail": "failed to fetch https://techcrunch.com/tag/browserbase/feed/: 404 Client Error: Not Found for url: https://techcrunch.com/tag/browserbase/feed/"
+  },
+  {
+    "source_id": "techcrunch_composio",
+    "status": "unavailable",
+    "detail": "failed to fetch https://techcrunch.com/tag/composio/feed/: 404 Client Error: Not Found for url: https://techcrunch.com/tag/composio/feed/"
+  },
+  {
+    "source_id": "the_batch",
+    "status": "unavailable",
+    "detail": "failed to fetch https://www.deeplearning.ai/the-batch/feed/: 404 Client Error: Not Found for url: https://www.deeplearning.ai/the-batch/feed"
+  },
+  {
+    "source_id": "latent_space",
+    "status": "ok",
+    "entries_seen": 20,
+    "entries_kept": 0
+  },
+  {
+    "source_id": "simon_willison",
+    "status": "ok",
+    "entries_seen": 30,
+    "entries_kept": 0
+  },
+  {
+    "source_id": "interconnects",
+    "status": "ok",
+    "entries_seen": 20,
+    "entries_kept": 0
+  },
+  {
+    "source_id": "ahead_of_ai",
+    "status": "ok",
+    "entries_seen": 20,
+    "entries_kept": 0
+  },
+  {
+    "source_id": "one_useful_thing",
+    "status": "ok",
+    "entries_seen": 20,
+    "entries_kept": 0
+  },
+  {
+    "source_id": "pragmatic_engineer",
+    "status": "ok",
+    "entries_seen": 20,
+    "entries_kept": 0
+  },
+  {
+    "source_id": "lilian_weng",
+    "status": "ok",
+    "entries_seen": 53,
+    "entries_kept": 0
+  },
+  {
+    "source_id": "chip_huyen",
+    "status": "ok",
+    "entries_seen": 10,
+    "entries_kept": 5
+  },
+  {
+    "source_id": "eugene_yan",
+    "status": "ok",
+    "entries_seen": 215,
+    "entries_kept": 1
+  },
+  {
+    "source_id": "hamel_husain",
+    "status": "unavailable",
+    "detail": "failed to fetch https://hamel.dev/feed.xml: 404 Client Error: Not Found for url: https://hamel.dev/feed.xml"
+  },
+  {
+    "source_id": "jason_liu",
+    "status": "unavailable",
+    "detail": "failed to fetch https://jxnl.co/rss.xml: 404 Client Error: Not Found for url: https://jxnl.co/rss.xml"
+  },
+  {
+    "source_id": "benedict_evans",
+    "status": "ok",
+    "entries_seen": 20,
+    "entries_kept": 0
+  },
+  {
+    "source_id": "stratechery",
+    "status": "ok",
+    "entries_seen": 10,
+    "entries_kept": 0
+  },
+  {
+    "source_id": "import_ai",
+    "status": "ok",
+    "entries_seen": 20,
+    "entries_kept": 0
+  },
+  {
+    "source_id": "company:langchain",
+    "status": "unavailable",
+    "detail": "invalid RSS/Atom feed: https://blog.langchain.com/rss/"
+  },
+  {
+    "source_id": "company:llamaindex",
+    "status": "unavailable",
+    "detail": "failed to fetch https://www.llamaindex.ai/blog/rss.xml: 404 Client Error: Not Found for url: https://www.llamaindex.ai/blog/rss.xml"
+  },
+  {
+    "source_id": "company:crewai",
+    "status": "skipped",
+    "detail": "No documented RSS URL in the frozen cohort registry."
+  },
+  {
+    "source_id": "company:e2b",
+    "status": "unavailable",
+    "detail": "failed to fetch https://e2b.dev/blog/rss.xml: 404 Client Error: Not Found for url: https://e2b.dev/resources/rss.xml"
+  },
+  {
+    "source_id": "company:browserbase",
+    "status": "skipped",
+    "detail": "No documented RSS URL in the frozen cohort registry."
+  },
+  {
+    "source_id": "company:composio",
+    "status": "skipped",
+    "detail": "No documented RSS URL in the frozen cohort registry."
+  },
+  {
+    "source_id": "company:letta",
+    "status": "skipped",
+    "detail": "No documented RSS URL in the frozen cohort registry."
+  },
+  {
+    "source_id": "company:langfuse",
+    "status": "unavailable",
+    "detail": "failed to fetch https://langfuse.com/blog/rss.xml: 404 Client Error: Not Found for url: https://langfuse.com/blog/rss.xml"
+  },
+  {
+    "source_id": "company:deepset",
+    "status": "skipped",
+    "detail": "No documented RSS URL in the frozen cohort registry."
+  },
+  {
+    "source_id": "company:continue",
+    "status": "unavailable",
+    "detail": "failed to fetch https://blog.continue.dev/rss.xml: 404 Client Error: Not Found for url: https://blog.continue.dev/rss.xml"
+  },
+  {
+    "source_id": "company:sourcegraph",
+    "status": "ok",
+    "entries_seen": 30,
+    "entries_kept": 30
+  },
+  {
+    "source_id": "company:modal",
+    "status": "unavailable",
+    "detail": "failed to fetch https://modal.com/blog/rss.xml: 404 Client Error: Not Found for url: https://modal.com/blog/rss.xml"
+  },
+  {
+    "source_id": "company:replicate",
+    "status": "ok",
+    "entries_seen": 125,
+    "entries_kept": 125
+  },
+  {
+    "source_id": "company:wandb",
+    "status": "skipped",
+    "detail": "No documented RSS URL in the frozen cohort registry."
+  },
+  {
+    "source_id": "company:pinecone",
+    "status": "ok",
+    "entries_seen": 390,
+    "entries_kept": 390
+  },
+  {
+    "source_id": "company:weaviate",
+    "status": "ok",
+    "entries_seen": 20,
+    "entries_kept": 20
+  },
+  {
+    "source_id": "company:chroma",
+    "status": "skipped",
+    "detail": "No documented RSS URL in the frozen cohort registry."
+  },
+  {
+    "source_id": "company:arize",
+    "status": "skipped",
+    "detail": "No documented RSS URL in the frozen cohort registry."
+  },
+  {
+    "source_id": "yc:langchain",
+    "status": "registry_only",
+    "entries_kept": 1
+  },
+  {
+    "source_id": "yc:llamaindex",
+    "status": "registry_only",
+    "entries_kept": 1
+  },
+  {
+    "source_id": "yc:crewai",
+    "status": "skipped",
+    "detail": "No YC directory URL recorded at freeze time."
+  },
+  {
+    "source_id": "yc:e2b",
+    "status": "registry_only",
+    "entries_kept": 1
+  },
+  {
+    "source_id": "yc:browserbase",
+    "status": "registry_only",
+    "entries_kept": 1
+  },
+  {
+    "source_id": "yc:composio",
+    "status": "registry_only",
+    "entries_kept": 1
+  },
+  {
+    "source_id": "yc:letta",
+    "status": "registry_only",
+    "entries_kept": 1
+  },
+  {
+    "source_id": "yc:langfuse",
+    "status": "registry_only",
+    "entries_kept": 1
+  },
+  {
+    "source_id": "yc:deepset",
+    "status": "skipped",
+    "detail": "No YC directory URL recorded at freeze time."
+  },
+  {
+    "source_id": "yc:continue",
+    "status": "registry_only",
+    "entries_kept": 1
+  },
+  {
+    "source_id": "yc:sourcegraph",
+    "status": "skipped",
+    "detail": "No YC directory URL recorded at freeze time."
+  },
+  {
+    "source_id": "yc:modal",
+    "status": "registry_only",
+    "entries_kept": 1
+  },
+  {
+    "source_id": "yc:replicate",
+    "status": "registry_only",
+    "entries_kept": 1
+  },
+  {
+    "source_id": "yc:wandb",
+    "status": "skipped",
+    "detail": "No YC directory URL recorded at freeze time."
+  },
+  {
+    "source_id": "yc:pinecone",
+    "status": "skipped",
+    "detail": "No YC directory URL recorded at freeze time."
+  },
+  {
+    "source_id": "yc:weaviate",
+    "status": "skipped",
+    "detail": "No YC directory URL recorded at freeze time."
+  },
+  {
+    "source_id": "yc:chroma",
+    "status": "registry_only",
+    "entries_kept": 1
+  },
+  {
+    "source_id": "yc:arize",
+    "status": "skipped",
+    "detail": "No YC directory URL recorded at freeze time."
+  }
+]

@@ -1,0 +1,178 @@
+{
+  "feature_version": "signals/0.1.0",
+  "github": {
+    "adapter_version": "signals-adapter/1.0.0",
+    "approximate_week_assignments": [
+      "chroma-core/chroma@2026-W44",
+      "chroma-core/chroma@2026-W46",
+      "continuedev/continue@2026-W39",
+      "continuedev/continue@2026-W40",
+      "continuedev/continue@2026-W41",
+      "continuedev/continue@2026-W42",
+      "continuedev/continue@2026-W43",
+      "continuedev/continue@2026-W44",
+      "continuedev/continue@2026-W45",
+      "continuedev/continue@2026-W46",
+      "e2b-dev/E2B@2026-W39",
+      "letta-ai/letta@2026-W39",
+      "letta-ai/letta@2026-W40",
+      "letta-ai/letta@2026-W41",
+      "letta-ai/letta@2026-W43",
+      "letta-ai/letta@2026-W44",
+      "letta-ai/letta@2026-W45",
+      "letta-ai/letta@2026-W46",
+      "pinecone-io/python-sdk@2026-W46",
+      "replicate/replicate-python@2026-W39",
+      "replicate/replicate-python@2026-W40",
+      "replicate/replicate-python@2026-W41",
+      "replicate/replicate-python@2026-W42",
+      "replicate/replicate-python@2026-W43",
+      "replicate/replicate-python@2026-W44",
+      "replicate/replicate-python@2026-W45",
+      "replicate/replicate-python@2026-W46",
+      "run-llama/llama_index@2026-W43",
+      "run-llama/llama_index@2026-W44"
+    ],
+    "bot_heavy_repositories": [
+      "e2b-dev/E2B",
+      "langchain-ai/langchain",
+      "letta-ai/letta",
+      "wandb/wandb"
+    ],
+    "companies": [
+      "arize",
+      "browserbase",
+      "chroma",
+      "composio",
+      "continue",
+      "crewai",
+      "deepset",
+      "e2b",
+      "langchain",
+      "langfuse",
+      "letta",
+      "llamaindex",
+      "modal",
+      "pinecone",
+      "replicate",
+      "wandb",
+      "weaviate"
+    ],
+    "duplicate_record_ids": [],
+    "excluded_repositories": {
+      "sourcegraph/sourcegraph-public-snapshot": [
+        "archived"
+      ]
+    },
+    "gap_policy": "unknown",
+    "gap_policy_reason": "a GitHub snapshot only describes the window it covers, so a week without a snapshot is unknown rather than zero",
+    "observations_received": 144,
+    "observations_used": 136,
+    "repositories": [
+      "Arize-ai/phoenix",
+      "ComposioHQ/composio",
+      "browserbase/stagehand",
+      "chroma-core/chroma",
+      "continuedev/continue",
+      "crewAIInc/crewAI",
+      "deepset-ai/haystack",
+      "e2b-dev/E2B",
+      "langchain-ai/langchain",
+      "langfuse/langfuse",
+      "letta-ai/letta",
+      "modal-labs/modal-client",
+      "pinecone-io/python-sdk",
+      "replicate/replicate-python",
+      "run-llama/llama_index",
+      "wandb/wandb",
+      "weaviate/weaviate"
+    ],
+    "signal_family": "github",
+    "unavailable_metrics": {
+      "active_contributors": "not collected by policy: commit author names, emails, and profiles are discarded at collection time, so distinct contributors cannot be counted",
+      "issues_closed": "not collected: only the current open_issues_count counter is retained, which includes pull requests and cannot be split into opened and closed events",
+      "issues_opened": "not collected: only the current open_issues_count counter is retained, which includes pull requests and cannot be split into opened and closed events",
+      "releases": "not collected: the GitHub collector reads repository fields, branches, and commits only; the releases endpoint is not requested"
+    },
+    "week_assignment_methods": [
+      "commit_timestamp",
+      "window_end_approximate"
+    ],
+    "weeks": [
+      "2026-W39",
+      "2026-W40",
+      "2026-W41",
+      "2026-W42",
+      "2026-W43",
+      "2026-W44",
+      "2026-W45",
+      "2026-W46"
+    ],
+    "weeks_observed": [
+      "2026-W39",
+      "2026-W40",
+      "2026-W41",
+      "2026-W42",
+      "2026-W43",
+      "2026-W44",
+      "2026-W45",
+      "2026-W46"
+    ]
+  },
+  "jobs": {
+    "adapter_version": "signals-adapter/1.0.0",
+    "companies": [],
+    "gap_policy": "unknown",
+    "gap_policy_reason": "a job-board snapshot describes only the weeks a collector ran; a week without a snapshot is unknown, not a hiring freeze",
+    "history_note": "job data is collected prospectively, so these series are short by construction and will report insufficient_history until min_history weeks exist",
+    "postings_received": 0,
+    "role_families": [],
+    "role_family_method": "explicit_title_phrases_v1",
+    "signal_family": "jobs",
+    "skills": [],
+    "weeks": []
+  },
+  "labels": {
+    "falling": 40,
+    "flat": 260,
+    "insufficient_history": 1020,
+    "rising": 40
+  },
+  "last_data_week": "2026-W46",
+  "news": {
+    "adapter_version": "signals-adapter/1.0.0",
+    "companies": [],
+    "coverage_span": [
+      null,
+      null
+    ],
+    "dedup_note": "attention is counted per origin cluster; syndicated copies of one origin are not independent corroboration (docs/evidence-ledger.md)",
+    "documents_received": 0,
+    "gap_policy": "zero",
+    "gap_policy_reason": "news and company feeds are harvested continuously, so inside the coverage span a week with no article is a real zero rather than a missing observation",
+    "signal_family": "news",
+    "time_basis": [],
+    "weeks": []
+  },
+  "records_by_source_type": {
+    "github": 144
+  },
+  "records_received": 144,
+  "series_by_family": {
+    "github": 170
+  },
+  "series_count": 170,
+  "signal_count": 1360,
+  "snapshot_week": "2026-W47",
+  "trend_config": {
+    "alpha": 0.3,
+    "fingerprint": "15641c8a5e33",
+    "min_history": 4,
+    "min_scale": 1.0,
+    "min_scale_points": 3,
+    "scale_method": "std",
+    "threshold": 1.5,
+    "window": 8,
+    "z_cap": 10.0
+  }
+}

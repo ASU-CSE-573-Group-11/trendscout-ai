@@ -19,9 +19,15 @@ The system is designed to answer not only *what is trending?*, but also *why is 
 
 ## Current status
 
-The repository has a frozen 18-company cohort, a named-source registry, Sueda's news/company/public-voice collectors, origin clustering, a BM25 baseline, and an evaluation design. Ontology, the temporal graph, weekly activity features with an EWMA baseline, dense retrieval, query routing, and the conversational interface are in place. ATS/GitHub collection is open in PR #3, and the scored evaluation has not been run yet.
+The repository has a frozen 18-company cohort, a named-source registry, Sueda's news/company/public-voice collectors, origin clustering, a BM25 baseline, and an evaluation design. Ontology, the temporal graph, weekly activity features with an EWMA baseline, dense retrieval, query routing, and the conversational interface are in place. Greenhouse/Lever/GitHub collectors are present. Two real-source evaluation studies have 2,520 source-reviewed relevance judgments and 224 saved answer bundles with retrieval/citation scores. The current dense run uses lexical hashing; semantic dense and temporal multi-hop performance remain to be measured. A [mixed-source follow-up](evaluation/mixed/README.md) adds funding, jobs, and weekly GitHub evidence, 196 further answers, and three ablations with graph/RDF/SHACL integration. See [the per-person status and remaining work](docs/final-evaluation-status.md).
 
 The submitted proposal is available at [`docs/proposal/TrendScout_AI_Project_Proposal_G11_P5.pdf`](docs/proposal/TrendScout_AI_Project_Proposal_G11_P5.pdf). The live work division is [`docs/project-plan.md`](docs/project-plan.md).
+
+Sueda’s current source coverage, independent-review status, and actual pilot counts are recorded in [the completion report](evaluation/submission/sueda-completion.json). Reproduction commands are in [the final report](docs/final-report.md).
+
+The current [submission review](docs/submission-review.md) records contribution evidence, license/access findings, pilot enrollment, and the local review archive.
+
+The [team progress review](evaluation/submission/team-progress.json) lists each owner’s deliverables, remaining acceptance work, and the explicit completion-estimate rubric.
 
 ## Project scope
 

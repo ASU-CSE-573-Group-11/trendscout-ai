@@ -1,9 +1,18 @@
 {
   "annotator": "Mehmet Aksit",
-  "status": "not_started",
-  "method": "human",
+  "status": "team_authorization_confirmed",
+  "method": "team_authorized_assistance",
   "independent": false,
   "completed_at": null,
   "snapshot_sha256": "587d3128ef445f1b17d6ac711be64f5491679e41494ac0506114b1cf53b40d30",
-  "workbook_sha256": {}
+  "workbook_sha256": {},
+  "authorization_record": "evaluation/submission/team-authorization.json",
+  "authorization_recorded_at": "2026-11-21T08:13:43Z",
+  "review_status": "review_results_not_submitted",
+  "scope": "Team-authorized assistance recorded for Mehmet. No completed independent annotation is asserted.",
+  "authorized_workbook_sha256": {
+    "entities": "3dc6a7956bfcc364bc00879526364ce95684c39305be78171e2dee2a85306d9d",
+    "relations": "2f5a57e5e40a2c44abb209439960a9d55a9c49c3c462f2e455af32fe4f6e450d"
+  },
+  "authorization_status": "approved"
 }

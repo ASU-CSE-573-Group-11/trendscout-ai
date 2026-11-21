@@ -1,0 +1,48 @@
+{
+  "record_type": "review_confirmation_summary",
+  "recorded_at": "2026-11-21T10:48:29Z",
+  "authorization_record": "evaluation/submission/team-authorization.json",
+  "reviewers": {
+    "sueda": {
+      "name": "Sueda Sen",
+      "confirmation": {
+        "team_authorization_confirmed": true,
+        "personal_independent_review_confirmed": true
+      },
+      "source_assisted_relation_labels_completed": 108,
+      "relation_candidates": 108,
+      "personal_relation_decisions_recorded": 108,
+      "counts_as_completed_source_assisted_review": true,
+      "counts_as_completed_independent_review": false,
+      "eligible_for_independent_agreement": false,
+      "attestation": "evaluation/mixed/workbooks/sueda-attestation.json",
+      "personal_review_method": "self_reported_source_assisted_acceptance_or_revision",
+      "personal_source_assisted_review_result": "evaluation/mixed/personal-review-result.json"
+    },
+    "mehmet": {
+      "name": "Mehmet Aksit",
+      "confirmation": {
+        "team_authorization_confirmed": true,
+        "personal_independent_review_confirmed": true
+      },
+      "source_assisted_relation_labels_completed": 108,
+      "relation_candidates": 108,
+      "personal_relation_decisions_recorded": 108,
+      "counts_as_completed_source_assisted_review": true,
+      "counts_as_completed_independent_review": false,
+      "eligible_for_independent_agreement": false,
+      "attestation": "evaluation/mixed/workbooks/mehmet-attestation.json",
+      "personal_review_method": "self_reported_source_assisted_acceptance_or_revision",
+      "personal_source_assisted_review_result": "evaluation/mixed/personal-review-result.json"
+    }
+  },
+  "rule": "Team authorization confirms assistance. Personal independent completion requires separately recorded source decisions; authorization or acceptance of a shared prepared label set is not substituted for those decisions.",
+  "input_sha256": {
+    "evaluation/mixed/workbooks/sueda-attestation.json": "3dce23b6b7ea76d57c1f2a775477abe19381c8203fcd9a257c7a56c9366d5fd7",
+    "evaluation/mixed/workbooks/sueda-relations.csv": "3f98aabc130f49acff766ee61df9a38612157b659c26981e3330d14964e27654",
+    "evaluation/mixed/workbooks/mehmet-attestation.json": "67158cd4efb6651bcc4db7848e2f8395d6093fb0d27aa5de32cba805c9d65a6c",
+    "evaluation/mixed/workbooks/mehmet-relations.csv": "8440081fccf71ab58405a7de3eaaa12b7852e4519d3529daef9b49bca732cbe7",
+    "evaluation/mixed/relation-approval-packet.json": "2d12eea5d0922ad4dd995dbfef44acc11e72e4cffbe7c6dff8cd12da932ed0e6"
+  },
+  "source_assisted_reconciliation": "evaluation/mixed/relation-reconciliation.json"
+}

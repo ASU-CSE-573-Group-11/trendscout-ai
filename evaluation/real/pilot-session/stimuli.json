@@ -1,0 +1,2663 @@
+{
+  "q-investors-later-hiring:citations_only": {
+    "question_id": "q-investors-later-hiring",
+    "question": "Which investors funded startups that later increased hiring for retrieval or evaluation skills?",
+    "answer_text": "For the full snapshot, from 8 retrieved item(s):\n- ## What's Changed ### Features - Make gpt-6-luna crewAI's default model everywhere - Read spreadsheet URLs in an agent's input with tools over every row - Tag eval usage spans with target and a per-evaluation id - Add --no-open to crewai eval for headless use ### Bug Fixes - Count a crewai eval run that exits with an… [1]\n- ## What's Changed ### Features - Add support for LiteLLM-compatible kwargs. [2]\n- ## What's Changed ### Features - Add capability to save files as versioned, shareable artifacts. [3]\n- Changes since langchain-openai==1.8.3 release(openai): 1.8.4 (#41962) chore(langchain): require `langgraph` 1.2.16 or newer (#41959) fix(openai): classify in-stream server errors as retryable (#41952) [4]",
+    "citations": [
+      {
+        "number": 1,
+        "title": "1.15.38",
+        "source_url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.38",
+        "text": "## What's Changed ### Features - Make gpt-6-luna crewAI's default model everywhere - Read spreadsheet URLs in an agent's input with tools over every row - Tag eval usage spans with target and a per-evaluation id - Add --no-open to crewai eval for headless use ### Bug Fixes - Count a crewai eval run that exits with an error as run_failed - Create the project .env owner-only when crewai eval turns t"
+      },
+      {
+        "number": 2,
+        "title": "1.15.29",
+        "source_url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.29",
+        "text": "## What's Changed ### Features - Add support for LiteLLM-compatible kwargs. - Implement platform application search in CLI. - Highlight action picker search in CLI. - Trace conversation routes and public replies in flow. - Select organization during login in CLI. - Add offline jev routing and guardrail evaluation runner. - Run integration app actions directly with call: tool. - Promote AgentExecut"
+      },
+      {
+        "number": 3,
+        "title": "1.15.44",
+        "source_url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.44",
+        "text": "## What's Changed ### Features - Add capability to save files as versioned, shareable artifacts. ### Bug Fixes - Fix inline agent and crew action references relative to the flow file. - Stop duplicating kept separators when merging chunks. - Isolate nested defaults from a shared flow declaration. - Restrict Pillow to PNG, JPEG, GIF, and WEBP when opening images. - Reset cache eviction order on cle"
+      },
+      {
+        "number": 4,
+        "title": "langchain-openai==1.8.4",
+        "source_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.8.4",
+        "text": "Changes since langchain-openai==1.8.3 release(openai): 1.8.4 (#41962) chore(langchain): require `langgraph` 1.2.16 or newer (#41959) fix(openai): classify in-stream server errors as retryable (#41952)"
+      },
+      {
+        "number": 5,
+        "title": "v0.14.19",
+        "source_url": "https://github.com/run-llama/llama_index/releases/tag/v0.14.19",
+        "text": "# Release Notes ## [2026-03-25] ### llama-index-agent-agentmesh [0.2.0] - chore(deps): bump the uv group across 49 directories with 1 update ([#21083](https://github.com/run-llama/llama_index/pull/21083)) ### llama-index-callbacks-argilla [0.5.0] - chore(deps): bump the uv group across 3 directories with 1 update ([#21069](https://github.com/run-llama/llama_index/pull/21069)) ### llama-index-core "
+      },
+      {
+        "number": 6,
+        "title": "Independent documentary origins for one startup.",
+        "source_url": null,
+        "text": "[{\"company_id\": \"crewai\", \"independent_origins\": 15, \"origin_cluster_ids\": [\"1109ea2dd595a165\", \"2c5c1a302baa91ba\", \"4c5ffd6889c9eb1d\", \"62d98f6299497ee8\", \"6d3fea39f0d5a6a6\", \"71824e8f7a7fc771\", \"846fae8d241f69fb\", \"84df5c1f19d3ea15\", \"8a62708e08c12301\", \"cf3c098bb247391a\", \"d6ebdb5374f4aeee\", \"dac3e81b9670df3c\", \"e632853a962ca7e5\", \"e6e670af27177e89\", \"ec65d8e77bae17f1\"]}]"
+      },
+      {
+        "number": 7,
+        "title": "Independent documentary origins for one startup.",
+        "source_url": null,
+        "text": "[{\"company_id\": \"langchain\", \"independent_origins\": 15, \"origin_cluster_ids\": [\"285e2a7964b05cb3\", \"28b59beabe4d5a66\", \"2940d0d6c78b0628\", \"3003d0e4ec081578\", \"683a552668f141c7\", \"7f0852611831db2f\", \"86e51c515335ad94\", \"94bde3db0a23b9ce\", \"ba879e98964ada39\", \"c2de3dd4b16d325e\", \"d288a90f22f7891f\", \"ecfc2ce5483dc892\", \"efecdc8abbb91ee2\", \"f860fa769f3e646a\", \"fa2689f1fbd1cba2\"]}]"
+      },
+      {
+        "number": 8,
+        "title": "Independent documentary origins for one startup.",
+        "source_url": null,
+        "text": "[{\"company_id\": \"llamaindex\", \"independent_origins\": 15, \"origin_cluster_ids\": [\"0135c9be89ddad56\", \"069a156de7e68f94\", \"07543f4ab00099db\", \"172d052d12dca603\", \"3311a15a371be05b\", \"50da8229717ee479\", \"61ca5a14ac6b4d8b\", \"6f40967fddb7fa5b\", \"994a48e90a5ee3ef\", \"a2f279c02eab7797\", \"a8c296cfac9b9c39\", \"a94848fc67cc2398\", \"b0fe2e85015610c8\", \"b4396400cc071f3b\", \"f15a335fe7d11c97\"]}]"
+      }
+    ]
+  },
+  "q-why-emerging:citations_only": {
+    "question_id": "q-why-emerging",
+    "question": "Why is a company marked as emerging, and what evidence could change that label?",
+    "answer_text": "For the full snapshot, from 16 retrieved item(s):\n- Evidence retrieved about crewai in this window is corroborated: 5 independent origins support this claim, at or above the configured minimum of 2. [1][2][3] What would change it: a credible source disagreeing on a material value would move it to disputed. [1][2][3]\n- ## What's Changed ### Features - Add standalone LiteLLM catalog PR before version bump - Record where crewai run stops before kickoff - Add crewai skill search to list the organization's skills - Pass crewai run --inputs to a Python flow - Add deploy create --zip and print the commit a zip is built from - Document age… [1]\n- ## What's Changed ### Features - Make gpt-6-luna crewAI's default model everywhere - Read spreadsheet URLs in an agent's input with tools over every row - Tag eval usage spans with target and a per-evaluation id - Add --no-open to crewai eval for headless use ### Bug Fixes - Count a crewai eval run that exits with an… [2]\n- ## What's Changed ### Features - Make ChromaDB an optional extra - Default Knowledge to local Qdrant and decouple storage from ChromaDB - Pick tools for standalone agents and add them later ### Bug Fixes - Store output_json values as JSON to prevent date issues in .json and output_file - Give each Flow its own ID from… [3]",
+    "citations": [
+      {
+        "number": 1,
+        "title": "1.15.34",
+        "source_url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.34",
+        "text": "## What's Changed ### Features - Add standalone LiteLLM catalog PR before version bump - Record where crewai run stops before kickoff - Add crewai skill search to list the organization's skills - Pass crewai run --inputs to a Python flow - Add deploy create --zip and print the commit a zip is built from - Document agent planning with planningconfig and migrate reasoning page ### Bug Fixes - Stop o"
+      },
+      {
+        "number": 2,
+        "title": "1.15.38",
+        "source_url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.38",
+        "text": "## What's Changed ### Features - Make gpt-6-luna crewAI's default model everywhere - Read spreadsheet URLs in an agent's input with tools over every row - Tag eval usage spans with target and a per-evaluation id - Add --no-open to crewai eval for headless use ### Bug Fixes - Count a crewai eval run that exits with an error as run_failed - Create the project .env owner-only when crewai eval turns t"
+      },
+      {
+        "number": 3,
+        "title": "1.15.42",
+        "source_url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.42",
+        "text": "## What's Changed ### Features - Make ChromaDB an optional extra - Default Knowledge to local Qdrant and decouple storage from ChromaDB - Pick tools for standalone agents and add them later ### Bug Fixes - Store output_json values as JSON to prevent date issues in .json and output_file - Give each Flow its own ID from an initial_state instance - Honor max_execution_time without waiting for the wor"
+      },
+      {
+        "number": 4,
+        "title": "1.15.29",
+        "source_url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.29",
+        "text": "## What's Changed ### Features - Add support for LiteLLM-compatible kwargs. - Implement platform application search in CLI. - Highlight action picker search in CLI. - Trace conversation routes and public replies in flow. - Select organization during login in CLI. - Add offline jev routing and guardrail evaluation runner. - Run integration app actions directly with call: tool. - Promote AgentExecut"
+      },
+      {
+        "number": 5,
+        "title": "1.15.41",
+        "source_url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.41",
+        "text": "## What's Changed ### Features - Allow approved private URL hosts. ### Bug Fixes - Fix projects to depend on PyMuPDF 2.x. - Drop a real storage URL from the URL read tests. - Keep earlier step outputs across a human-feedback resume. - Strip cache_breakpoint marker on the LiteLLM path. ### Documentation - Snapshot and changelog for v1.15.40. ## Contributors @Vidit-Ostwal, @gabemilani, @github-actio"
+      },
+      {
+        "number": 6,
+        "title": "distinct_origins flat in 2026-W43",
+        "source_url": null,
+        "text": "crewai distinct_origins was 2.0 in 2026-W43 against an EWMA baseline of 0.51 (label flat, score 1.49). This describes observed activity, not a prediction."
+      },
+      {
+        "number": 7,
+        "title": "distinct_origins rising in 2026-W44",
+        "source_url": null,
+        "text": "crewai distinct_origins was 3.0 in 2026-W44 against an EWMA baseline of 0.96 (label rising, score 2.04). This describes observed activity, not a prediction."
+      },
+      {
+        "number": 8,
+        "title": "documents flat in 2026-W43",
+        "source_url": null,
+        "text": "crewai documents was 2.0 in 2026-W43 against an EWMA baseline of 0.51 (label flat, score 1.49). This describes observed activity, not a prediction."
+      },
+      {
+        "number": 9,
+        "title": "documents rising in 2026-W44",
+        "source_url": null,
+        "text": "crewai documents was 3.0 in 2026-W44 against an EWMA baseline of 0.96 (label rising, score 2.04). This describes observed activity, not a prediction."
+      },
+      {
+        "number": 10,
+        "title": "distinct_origins rising in 2026-W46",
+        "source_url": null,
+        "text": "langchain distinct_origins was 6.0 in 2026-W46 against an EWMA baseline of 0.0 (label rising, score 2.83). This describes observed activity, not a prediction."
+      },
+      {
+        "number": 11,
+        "title": "distinct_origins rising in 2026-W47",
+        "source_url": null,
+        "text": "langchain distinct_origins was 9.0 in 2026-W47 against an EWMA baseline of 1.8 (label rising, score 2.34). This describes observed activity, not a prediction."
+      },
+      {
+        "number": 12,
+        "title": "documents rising in 2026-W46",
+        "source_url": null,
+        "text": "langchain documents was 6.0 in 2026-W46 against an EWMA baseline of 0.0 (label rising, score 2.83). This describes observed activity, not a prediction."
+      },
+      {
+        "number": 13,
+        "title": "documents rising in 2026-W47",
+        "source_url": null,
+        "text": "langchain documents was 9.0 in 2026-W47 against an EWMA baseline of 1.8 (label rising, score 2.34). This describes observed activity, not a prediction."
+      },
+      {
+        "number": 14,
+        "title": "Independent documentary origins for one startup.",
+        "source_url": null,
+        "text": "[{\"company_id\": \"crewai\", \"independent_origins\": 15, \"origin_cluster_ids\": [\"1109ea2dd595a165\", \"2c5c1a302baa91ba\", \"4c5ffd6889c9eb1d\", \"62d98f6299497ee8\", \"6d3fea39f0d5a6a6\", \"71824e8f7a7fc771\", \"846fae8d241f69fb\", \"84df5c1f19d3ea15\", \"8a62708e08c12301\", \"cf3c098bb247391a\", \"d6ebdb5374f4aeee\", \"dac3e81b9670df3c\", \"e632853a962ca7e5\", \"e6e670af27177e89\", \"ec65d8e77bae17f1\"]}]"
+      },
+      {
+        "number": 15,
+        "title": "Independent documentary origins for one startup.",
+        "source_url": null,
+        "text": "[{\"company_id\": \"langchain\", \"independent_origins\": 15, \"origin_cluster_ids\": [\"285e2a7964b05cb3\", \"28b59beabe4d5a66\", \"2940d0d6c78b0628\", \"3003d0e4ec081578\", \"683a552668f141c7\", \"7f0852611831db2f\", \"86e51c515335ad94\", \"94bde3db0a23b9ce\", \"ba879e98964ada39\", \"c2de3dd4b16d325e\", \"d288a90f22f7891f\", \"ecfc2ce5483dc892\", \"efecdc8abbb91ee2\", \"f860fa769f3e646a\", \"fa2689f1fbd1cba2\"]}]"
+      },
+      {
+        "number": 16,
+        "title": "Independent documentary origins for one startup.",
+        "source_url": null,
+        "text": "[{\"company_id\": \"llamaindex\", \"independent_origins\": 15, \"origin_cluster_ids\": [\"0135c9be89ddad56\", \"069a156de7e68f94\", \"07543f4ab00099db\", \"172d052d12dca603\", \"3311a15a371be05b\", \"50da8229717ee479\", \"61ca5a14ac6b4d8b\", \"6f40967fddb7fa5b\", \"994a48e90a5ee3ef\", \"a2f279c02eab7797\", \"a8c296cfac9b9c39\", \"a94848fc67cc2398\", \"b0fe2e85015610c8\", \"b4396400cc071f3b\", \"f15a335fe7d11c97\"]}]"
+      }
+    ]
+  },
+  "q-future-performance:citations_only": {
+    "question_id": "q-future-performance",
+    "question": "Which company in the cohort will have the highest valuation in 2027?",
+    "answer_text": "I cannot answer this from the frozen snapshot. the question refers to '2027', which is after the snapshot anchor 2026-11-21T06:14:33Z; no retrieval over this snapshot can support an answer.",
+    "citations": []
+  },
+  "q-sector-attention:citations_plus_state_and_path": {
+    "question_id": "q-sector-attention",
+    "question": "Which sectors gained attention from multiple public voices and also produced operational signals?",
+    "answer_text": "For the full snapshot, from 16 retrieved item(s):\n- The agent infrastructure sector does not qualify: only 0 independent coverage origin(s) across 3 cohort companies. [14]\n- **`langchain-openai` 1.8.0 drops support for Python 3.10**, which has reached end-of-life. [1]\n- ## What's Changed ### Features - Make gpt-6-luna crewAI's default model everywhere - Read spreadsheet URLs in an agent's input with tools over every row - Tag eval usage spans with target and a per-evaluation id - Add --no-open to crewai eval for headless use ### Bug Fixes - Count a crewai eval run that exits with an… [2]\n- **`langchain-openrouter` 0.3.0 drops support for Python 3.10**, which has reached end-of-life. [3]",
+    "citations": [
+      {
+        "number": 1,
+        "title": "langchain-openai==1.8.0",
+        "source_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.8.0",
+        "text": "**`langchain-openai` 1.8.0 drops support for Python 3.10**, which has reached end-of-life. The minimum supported version is now Python 3.11, and the minimum `langchain-core` version is now 1.8.0. Users on Python 3.10 will continue to resolve `langchain-openai` 1.7.x. Changes since langchain-openai==1.7.4 release(openai): 1.8.0 (#41841) feat(openai): add OpenAIClassifier for the GA Decisions API (#"
+      },
+      {
+        "number": 2,
+        "title": "1.15.38",
+        "source_url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.38",
+        "text": "## What's Changed ### Features - Make gpt-6-luna crewAI's default model everywhere - Read spreadsheet URLs in an agent's input with tools over every row - Tag eval usage spans with target and a per-evaluation id - Add --no-open to crewai eval for headless use ### Bug Fixes - Count a crewai eval run that exits with an error as run_failed - Create the project .env owner-only when crewai eval turns t"
+      },
+      {
+        "number": 3,
+        "title": "langchain-openrouter==0.3.0",
+        "source_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openrouter%3D%3D0.3.0",
+        "text": "**`langchain-openrouter` 0.3.0 drops support for Python 3.10**, which has reached end-of-life. The minimum supported version is now Python 3.11, and the minimum `langchain-core` version is now 1.8.3. Users on Python 3.10 will continue to resolve `langchain-openrouter` 0.2.x. Changes since langchain-openrouter==0.2.9 release(openrouter): 0.3.0 (#41957) chore(model-profiles): refresh model profile d"
+      },
+      {
+        "number": 4,
+        "title": "v0.14.22",
+        "source_url": "https://github.com/run-llama/llama_index/releases/tag/v0.14.22",
+        "text": "# Release Notes ## [2026-05-14] ### llama-index-agent-agentmesh [0.2.0] - mass uv lock --upgrade ([#21638](https://github.com/run-llama/llama_index/pull/21638)) ### llama-index-callbacks-agentops [0.5.0] - chore(deps): bump the pip group across 55 directories with 3 updates ([#21435](https://github.com/run-llama/llama_index/pull/21435)) - mass uv lock --upgrade ([#21638](https://github.com/run-lla"
+      },
+      {
+        "number": 5,
+        "title": "1.15.44",
+        "source_url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.44",
+        "text": "## What's Changed ### Features - Add capability to save files as versioned, shareable artifacts. ### Bug Fixes - Fix inline agent and crew action references relative to the flow file. - Stop duplicating kept separators when merging chunks. - Isolate nested defaults from a shared flow declaration. - Restrict Pillow to PNG, JPEG, GIF, and WEBP when opening images. - Reset cache eviction order on cle"
+      },
+      {
+        "number": 6,
+        "title": "distinct_origins flat in 2026-W41",
+        "source_url": null,
+        "text": "crewai distinct_origins was 1.0 in 2026-W41 against an EWMA baseline of 0.0 (label flat, score 1.0). This describes observed activity, not a prediction."
+      },
+      {
+        "number": 7,
+        "title": "distinct_origins flat in 2026-W43",
+        "source_url": null,
+        "text": "crewai distinct_origins was 2.0 in 2026-W43 against an EWMA baseline of 0.51 (label flat, score 1.49). This describes observed activity, not a prediction."
+      },
+      {
+        "number": 8,
+        "title": "distinct_origins rising in 2026-W44",
+        "source_url": null,
+        "text": "crewai distinct_origins was 3.0 in 2026-W44 against an EWMA baseline of 0.96 (label rising, score 2.04). This describes observed activity, not a prediction."
+      },
+      {
+        "number": 9,
+        "title": "distinct_origins flat in 2026-W45",
+        "source_url": null,
+        "text": "crewai distinct_origins was 3.0 in 2026-W45 against an EWMA baseline of 1.57 (label flat, score 1.43). This describes observed activity, not a prediction."
+      },
+      {
+        "number": 10,
+        "title": "distinct_origins flat in 2026-W47",
+        "source_url": null,
+        "text": "crewai distinct_origins was 3.0 in 2026-W47 against an EWMA baseline of 2.0 (label flat, score 1.0). This describes observed activity, not a prediction."
+      },
+      {
+        "number": 11,
+        "title": "distinct_origins rising in 2026-W46",
+        "source_url": null,
+        "text": "langchain distinct_origins was 6.0 in 2026-W46 against an EWMA baseline of 0.0 (label rising, score 2.83). This describes observed activity, not a prediction."
+      },
+      {
+        "number": 12,
+        "title": "distinct_origins rising in 2026-W47",
+        "source_url": null,
+        "text": "langchain distinct_origins was 9.0 in 2026-W47 against an EWMA baseline of 1.8 (label rising, score 2.34). This describes observed activity, not a prediction."
+      },
+      {
+        "number": 13,
+        "title": "distinct_origins flat in 2026-W34",
+        "source_url": null,
+        "text": "llamaindex distinct_origins was 1.0 in 2026-W34 against an EWMA baseline of 0.03 (label flat, score 0.97). This describes observed activity, not a prediction."
+      },
+      {
+        "number": 14,
+        "title": "Independent documentary origins for one startup.",
+        "source_url": null,
+        "text": "[{\"company_id\": \"crewai\", \"independent_origins\": 15, \"origin_cluster_ids\": [\"1109ea2dd595a165\", \"2c5c1a302baa91ba\", \"4c5ffd6889c9eb1d\", \"62d98f6299497ee8\", \"6d3fea39f0d5a6a6\", \"71824e8f7a7fc771\", \"846fae8d241f69fb\", \"84df5c1f19d3ea15\", \"8a62708e08c12301\", \"cf3c098bb247391a\", \"d6ebdb5374f4aeee\", \"dac3e81b9670df3c\", \"e632853a962ca7e5\", \"e6e670af27177e89\", \"ec65d8e77bae17f1\"]}]"
+      },
+      {
+        "number": 15,
+        "title": "Independent documentary origins for one startup.",
+        "source_url": null,
+        "text": "[{\"company_id\": \"langchain\", \"independent_origins\": 15, \"origin_cluster_ids\": [\"285e2a7964b05cb3\", \"28b59beabe4d5a66\", \"2940d0d6c78b0628\", \"3003d0e4ec081578\", \"683a552668f141c7\", \"7f0852611831db2f\", \"86e51c515335ad94\", \"94bde3db0a23b9ce\", \"ba879e98964ada39\", \"c2de3dd4b16d325e\", \"d288a90f22f7891f\", \"ecfc2ce5483dc892\", \"efecdc8abbb91ee2\", \"f860fa769f3e646a\", \"fa2689f1fbd1cba2\"]}]"
+      },
+      {
+        "number": 16,
+        "title": "Independent documentary origins for one startup.",
+        "source_url": null,
+        "text": "[{\"company_id\": \"llamaindex\", \"independent_origins\": 15, \"origin_cluster_ids\": [\"0135c9be89ddad56\", \"069a156de7e68f94\", \"07543f4ab00099db\", \"172d052d12dca603\", \"3311a15a371be05b\", \"50da8229717ee479\", \"61ca5a14ac6b4d8b\", \"6f40967fddb7fa5b\", \"994a48e90a5ee3ef\", \"a2f279c02eab7797\", \"a8c296cfac9b9c39\", \"a94848fc67cc2398\", \"b0fe2e85015610c8\", \"b4396400cc071f3b\", \"f15a335fe7d11c97\"]}]"
+      }
+    ],
+    "overall_state": "emerging",
+    "graph_paths": [
+      {
+        "steps": [
+          {
+            "from": "trend-signal:f5da7d3c4954133e224d",
+            "type": "DERIVED_FROM",
+            "to": "source-record:98a53812-6211-5c81-b40e-b1c7fa7f34a3"
+          },
+          {
+            "from": "trend-signal:f5da7d3c4954133e224d",
+            "type": "ABOUT",
+            "to": "startup:crewai"
+          }
+        ],
+        "nodes": [
+          {
+            "id": "startup:crewai",
+            "label": "Startup",
+            "properties": {
+              "company_id": "crewai",
+              "name": null
+            }
+          },
+          {
+            "id": "trend-signal:f5da7d3c4954133e224d",
+            "label": "TrendSignal",
+            "properties": {
+              "series_id": "news:distinct_origins|company=crewai",
+              "metric": "distinct_origins",
+              "signal_family": "news",
+              "entity_type": "company",
+              "entity_id": "crewai",
+              "company_id": "crewai",
+              "iso_week": "2026-W41",
+              "week_start": "2026-10-05T00:00:00Z",
+              "week_end": "2026-10-12T00:00:00Z",
+              "value": 1.0,
+              "value_state": "observed",
+              "ewma_baseline": 0.0,
+              "residual": 1.0,
+              "scale": 0.3535533905932738,
+              "scale_method": "std",
+              "z_score": 1.0,
+              "trend_score": 1.0,
+              "label": "flat",
+              "label_reason": "z=1.0000 against threshold=1.5 over 8 residual weeks",
+              "observed_weeks_used": 45,
+              "residual_points_used": 8,
+              "gap_policy": "zero",
+              "unit": "count",
+              "feature_version": "signals/0.1.0",
+              "trend_id": "trend-signal:f5da7d3c4954133e224d",
+              "config_fingerprint": "15641c8a5e33",
+              "alpha": 0.3,
+              "window": 8,
+              "threshold": 1.5,
+              "min_history": 4,
+              "interpretation": "describes observed weekly activity relative to its own recent baseline; not a prediction of future performance"
+            }
+          },
+          {
+            "id": "source-record:98a53812-6211-5c81-b40e-b1c7fa7f34a3",
+            "label": "SourceRecord",
+            "properties": {
+              "record_id": "98a53812-6211-5c81-b40e-b1c7fa7f34a3",
+              "source_type": "company",
+              "source_url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.27",
+              "title": "1.15.27",
+              "passage": "## What's Changed ### Features - Add XPU to OpenCLIP provider device options - Add deepinfra as an OpenAI-compatible provider - Record why an evaluation stopped before its verdict - Record what the run app's Deploy met before an attempt - Implement per-run cost and time tracking in crewai eval --models without repeated progress lines ### Bug Fixes - Fix issue where stopSequences were sent to OpenAI GPT-6/GPT-5.6/gpt-oss - Preserve GitHub loader source attribution - Fix SQLite flow initialization contention ### Documentation - Add snapshot and changelog for v1.15.26 ## Contributors @StoyanD, @ats3v, @joaomdmoura, @kimnamu, @lorenzejay, @mhbuehler, @zouyonghe",
+              "event_at": "2026-10-09T22:33:44Z",
+              "published_at": "2026-10-09T22:33:44Z",
+              "observed_at": "2026-11-21T06:14:33Z",
+              "content_hash": "0d702f672e8a6e309efacd06c04e9275a339580040d99bda47f7e1f3a51a029e",
+              "origin_cluster_id": "d6ebdb5374f4aeee",
+              "collector_version": "real-release-corpus/1.0"
+            }
+          }
+        ],
+        "rendered": "trend-signal:f5da7d3c4954133e224d -[DERIVED_FROM]-> source-record:98a53812-6211-5c81-b40e-b1c7fa7f34a3 ; trend-signal:f5da7d3c4954133e224d -[ABOUT]-> startup:crewai"
+      },
+      {
+        "steps": [
+          {
+            "from": "trend-signal:6a1f698b51c43162384f",
+            "type": "DERIVED_FROM",
+            "to": "source-record:98a53812-6211-5c81-b40e-b1c7fa7f34a3"
+          },
+          {
+            "from": "trend-signal:6a1f698b51c43162384f",
+            "type": "ABOUT",
+            "to": "startup:crewai"
+          }
+        ],
+        "nodes": [
+          {
+            "id": "startup:crewai",
+            "label": "Startup",
+            "properties": {
+              "company_id": "crewai",
+              "name": null
+            }
+          },
+          {
+            "id": "trend-signal:6a1f698b51c43162384f",
+            "label": "TrendSignal",
+            "properties": {
+              "series_id": "news:distinct_origins|company=crewai",
+              "metric": "distinct_origins",
+              "signal_family": "news",
+              "entity_type": "company",
+              "entity_id": "crewai",
+              "company_id": "crewai",
+              "iso_week": "2026-W42",
+              "week_start": "2026-10-12T00:00:00Z",
+              "week_end": "2026-10-19T00:00:00Z",
+              "value": 1.0,
+              "value_state": "observed",
+              "ewma_baseline": 0.3,
+              "residual": 0.7,
+              "scale": 0.40155946010522525,
+              "scale_method": "std",
+              "z_score": 0.7,
+              "trend_score": 0.7,
+              "label": "flat",
+              "label_reason": "z=0.7000 against threshold=1.5 over 8 residual weeks",
+              "observed_weeks_used": 46,
+              "residual_points_used": 8,
+              "gap_policy": "zero",
+              "unit": "count",
+              "feature_version": "signals/0.1.0",
+              "trend_id": "trend-signal:6a1f698b51c43162384f",
+              "config_fingerprint": "15641c8a5e33",
+              "alpha": 0.3,
+              "window": 8,
+              "threshold": 1.5,
+              "min_history": 4,
+              "interpretation": "describes observed weekly activity relative to its own recent baseline; not a prediction of future performance"
+            }
+          },
+          {
+            "id": "source-record:98a53812-6211-5c81-b40e-b1c7fa7f34a3",
+            "label": "SourceRecord",
+            "properties": {
+              "record_id": "98a53812-6211-5c81-b40e-b1c7fa7f34a3",
+              "source_type": "company",
+              "source_url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.27",
+              "title": "1.15.27",
+              "passage": "## What's Changed ### Features - Add XPU to OpenCLIP provider device options - Add deepinfra as an OpenAI-compatible provider - Record why an evaluation stopped before its verdict - Record what the run app's Deploy met before an attempt - Implement per-run cost and time tracking in crewai eval --models without repeated progress lines ### Bug Fixes - Fix issue where stopSequences were sent to OpenAI GPT-6/GPT-5.6/gpt-oss - Preserve GitHub loader source attribution - Fix SQLite flow initialization contention ### Documentation - Add snapshot and changelog for v1.15.26 ## Contributors @StoyanD, @ats3v, @joaomdmoura, @kimnamu, @lorenzejay, @mhbuehler, @zouyonghe",
+              "event_at": "2026-10-09T22:33:44Z",
+              "published_at": "2026-10-09T22:33:44Z",
+              "observed_at": "2026-11-21T06:14:33Z",
+              "content_hash": "0d702f672e8a6e309efacd06c04e9275a339580040d99bda47f7e1f3a51a029e",
+              "origin_cluster_id": "d6ebdb5374f4aeee",
+              "collector_version": "real-release-corpus/1.0"
+            }
+          }
+        ],
+        "rendered": "trend-signal:6a1f698b51c43162384f -[DERIVED_FROM]-> source-record:98a53812-6211-5c81-b40e-b1c7fa7f34a3 ; trend-signal:6a1f698b51c43162384f -[ABOUT]-> startup:crewai"
+      },
+      {
+        "steps": [
+          {
+            "from": "trend-signal:6a1f698b51c43162384f",
+            "type": "DERIVED_FROM",
+            "to": "source-record:b51ec1c2-3d9e-5401-bc1c-f129b8257c50"
+          },
+          {
+            "from": "trend-signal:6a1f698b51c43162384f",
+            "type": "ABOUT",
+            "to": "startup:crewai"
+          }
+        ],
+        "nodes": [
+          {
+            "id": "startup:crewai",
+            "label": "Startup",
+            "properties": {
+              "company_id": "crewai",
+              "name": null
+            }
+          },
+          {
+            "id": "trend-signal:6a1f698b51c43162384f",
+            "label": "TrendSignal",
+            "properties": {
+              "series_id": "news:distinct_origins|company=crewai",
+              "metric": "distinct_origins",
+              "signal_family": "news",
+              "entity_type": "company",
+              "entity_id": "crewai",
+              "company_id": "crewai",
+              "iso_week": "2026-W42",
+              "week_start": "2026-10-12T00:00:00Z",
+              "week_end": "2026-10-19T00:00:00Z",
+              "value": 1.0,
+              "value_state": "observed",
+              "ewma_baseline": 0.3,
+              "residual": 0.7,
+              "scale": 0.40155946010522525,
+              "scale_method": "std",
+              "z_score": 0.7,
+              "trend_score": 0.7,
+              "label": "flat",
+              "label_reason": "z=0.7000 against threshold=1.5 over 8 residual weeks",
+              "observed_weeks_used": 46,
+              "residual_points_used": 8,
+              "gap_policy": "zero",
+              "unit": "count",
+              "feature_version": "signals/0.1.0",
+              "trend_id": "trend-signal:6a1f698b51c43162384f",
+              "config_fingerprint": "15641c8a5e33",
+              "alpha": 0.3,
+              "window": 8,
+              "threshold": 1.5,
+              "min_history": 4,
+              "interpretation": "describes observed weekly activity relative to its own recent baseline; not a prediction of future performance"
+            }
+          },
+          {
+            "id": "source-record:b51ec1c2-3d9e-5401-bc1c-f129b8257c50",
+            "label": "SourceRecord",
+            "properties": {
+              "record_id": "b51ec1c2-3d9e-5401-bc1c-f129b8257c50",
+              "source_type": "company",
+              "source_url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.28",
+              "title": "1.15.28",
+              "passage": "## What's Changed ### Features - Add crewai eval command to report where a stopped model broke. - Use LiteLLM catalog for context windows. ### Bug Fixes - Fix flow to learn from resumed human feedback and preserve reviewed output types. - Warn when non-empty apps resolve to zero platform tools. - Fix flow add-crew to correctly find the package from pyproject. - Show reasons for deployment failures and fix deploy remove and lockfile checks. - Fix trigger list and payload requests timeout to 60 seconds. - Read AMP's source_type during deploy push to ensure ZIP deployments use the new code. - Decode local JSON files with UTF-8 BOM in rag. - Allow image input_files for OpenAI GPT-6 Sol/Luna/Astra. - Emit call completed event for streamed anthropic tool calls. - Stop JSON-schema models from warning about BaseModel-shadowing fields. - Preserve native tool aborts and post-hook cache identity. - Refresh LiteLLM catalog after the version-bump PR merges. - Repair rotted evaluator regression tests. ### Documentation - Consolidate improvements in MongoDB documentation. - Correct deploy and platform-tool guidance in AGENTS.md. - Fix README imports for RagTool and XMLSearchTool. ## Contributors @SIDDARTHAREDDY8, @Vidit-Ostwal, @joaomdmoura, @kimnamu, @lorenzejay, @norareidy, @shaikn6, @zouyonghe",
+              "event_at": "2026-10-14T04:47:00Z",
+              "published_at": "2026-10-14T04:47:00Z",
+              "observed_at": "2026-11-21T06:14:33Z",
+              "content_hash": "048f1cfef223c44f427ad57cf2e1c6257d162acfeacdd0799712e0a152861b06",
+              "origin_cluster_id": "2c5c1a302baa91ba",
+              "collector_version": "real-release-corpus/1.0"
+            }
+          }
+        ],
+        "rendered": "trend-signal:6a1f698b51c43162384f -[DERIVED_FROM]-> source-record:b51ec1c2-3d9e-5401-bc1c-f129b8257c50 ; trend-signal:6a1f698b51c43162384f -[ABOUT]-> startup:crewai"
+      },
+      {
+        "steps": [
+          {
+            "from": "trend-signal:da0d0b7bae8985b3ff96",
+            "type": "DERIVED_FROM",
+            "to": "source-record:06472cb8-466e-55fe-a85a-f421fe1d9706"
+          },
+          {
+            "from": "trend-signal:da0d0b7bae8985b3ff96",
+            "type": "ABOUT",
+            "to": "startup:crewai"
+          }
+        ],
+        "nodes": [
+          {
+            "id": "startup:crewai",
+            "label": "Startup",
+            "properties": {
+              "company_id": "crewai",
+              "name": null
+            }
+          },
+          {
+            "id": "trend-signal:da0d0b7bae8985b3ff96",
+            "label": "TrendSignal",
+            "properties": {
+              "series_id": "news:distinct_origins|company=crewai",
+              "metric": "distinct_origins",
+              "signal_family": "news",
+              "entity_type": "company",
+              "entity_id": "crewai",
+              "company_id": "crewai",
+              "iso_week": "2026-W43",
+              "week_start": "2026-10-19T00:00:00Z",
+              "week_end": "2026-10-26T00:00:00Z",
+              "value": 2.0,
+              "value_state": "observed",
+              "ewma_baseline": 0.51,
+              "residual": 1.49,
+              "scale": 0.5901679543025987,
+              "scale_method": "std",
+              "z_score": 1.49,
+              "trend_score": 1.49,
+              "label": "flat",
+              "label_reason": "z=1.4900 against threshold=1.5 over 8 residual weeks",
+              "observed_weeks_used": 47,
+              "residual_points_used": 8,
+              "gap_policy": "zero",
+              "unit": "count",
+              "feature_version": "signals/0.1.0",
+              "trend_id": "trend-signal:da0d0b7bae8985b3ff96",
+              "config_fingerprint": "15641c8a5e33",
+              "alpha": 0.3,
+              "window": 8,
+              "threshold": 1.5,
+              "min_history": 4,
+              "interpretation": "describes observed weekly activity relative to its own recent baseline; not a prediction of future performance"
+            }
+          },
+          {
+            "id": "source-record:06472cb8-466e-55fe-a85a-f421fe1d9706",
+            "label": "SourceRecord",
+            "properties": {
+              "record_id": "06472cb8-466e-55fe-a85a-f421fe1d9706",
+              "source_type": "company",
+              "source_url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.29",
+              "title": "1.15.29",
+              "passage": "## What's Changed ### Features - Add support for LiteLLM-compatible kwargs. - Implement platform application search in CLI. - Highlight action picker search in CLI. - Trace conversation routes and public replies in flow. - Select organization during login in CLI. - Add offline jev routing and guardrail evaluation runner. - Run integration app actions directly with call: tool. - Promote AgentExecutor out of experimental status. - Add Azure DocumentDB vector search integration. - Add read-only notebook text loader and standard-library jsonl loader. - Ensure crewAI eval keeps the evaluation's full data in the project. - Enable crewAI eval to run the crew itself for verdict from one command. - Allow crewAI eval to export evaluations as files. ### Bug Fixes - Fix platform integration token derivation from login. - Resolve logging issues by preserving JSON logs on serialization errors. - Skip non-UTF-8 cached skill metadata. - Fix tool actions to honor failure policies and get fresh usage budgets per kickoff. - Prevent private memories without a source from leaking to every recall. - Fix memory record retrieval order in LanceDBStorage. - Restore task description when replanning fails. - Stop agents from repeating the same tool call. - Escape scope and id values in LanceDB filters. ### Documentation - Update broken links in crewAI examples and observability guides. - Fix dead links in tools documentation. ### Refactoring - Refactor context compaction to be a BaseLLM capability. ## Contributors @Akaliup, @Arxsher, @Copilot, @D41910, @LindseyZ1205, @RaycarlLei, @Rohitkanithi, @Sakura-798, @Vidit-Ostwal, @Wilson0511, @Winoren, @abdullahajaz14, @bballhaus, @gabemilani, @iris-clawd, @joaomdmoura, @leom1919, @lorenzejay, @marcreniel, @mattatcha, @reubenjrouse, @rohitkanithi, @sandeepsnairms, @stepchanges, @subhashpolisetti, @theCyberTech, @vatsalyd",
+              "event_at": "2026-10-23T17:35:29Z",
+              "published_at": "2026-10-23T17:35:29Z",
+              "observed_at": "2026-11-21T06:14:33Z",
+              "content_hash": "995b7e74ee795d9383ed7ad1edc6be7d136395f431f54a3797209f072acbabaa",
+              "origin_cluster_id": "846fae8d241f69fb",
+              "collector_version": "real-release-corpus/1.0"
+            }
+          }
+        ],
+        "rendered": "trend-signal:da0d0b7bae8985b3ff96 -[DERIVED_FROM]-> source-record:06472cb8-466e-55fe-a85a-f421fe1d9706 ; trend-signal:da0d0b7bae8985b3ff96 -[ABOUT]-> startup:crewai"
+      },
+      {
+        "steps": [
+          {
+            "from": "trend-signal:da0d0b7bae8985b3ff96",
+            "type": "DERIVED_FROM",
+            "to": "source-record:98a53812-6211-5c81-b40e-b1c7fa7f34a3"
+          },
+          {
+            "from": "trend-signal:da0d0b7bae8985b3ff96",
+            "type": "ABOUT",
+            "to": "startup:crewai"
+          }
+        ],
+        "nodes": [
+          {
+            "id": "startup:crewai",
+            "label": "Startup",
+            "properties": {
+              "company_id": "crewai",
+              "name": null
+            }
+          },
+          {
+            "id": "trend-signal:da0d0b7bae8985b3ff96",
+            "label": "TrendSignal",
+            "properties": {
+              "series_id": "news:distinct_origins|company=crewai",
+              "metric": "distinct_origins",
+              "signal_family": "news",
+              "entity_type": "company",
+              "entity_id": "crewai",
+              "company_id": "crewai",
+              "iso_week": "2026-W43",
+              "week_start": "2026-10-19T00:00:00Z",
+              "week_end": "2026-10-26T00:00:00Z",
+              "value": 2.0,
+              "value_state": "observed",
+              "ewma_baseline": 0.51,
+              "residual": 1.49,
+              "scale": 0.5901679543025987,
+              "scale_method": "std",
+              "z_score": 1.49,
+              "trend_score": 1.49,
+              "label": "flat",
+              "label_reason": "z=1.4900 against threshold=1.5 over 8 residual weeks",
+              "observed_weeks_used": 47,
+              "residual_points_used": 8,
+              "gap_policy": "zero",
+              "unit": "count",
+              "feature_version": "signals/0.1.0",
+              "trend_id": "trend-signal:da0d0b7bae8985b3ff96",
+              "config_fingerprint": "15641c8a5e33",
+              "alpha": 0.3,
+              "window": 8,
+              "threshold": 1.5,
+              "min_history": 4,
+              "interpretation": "describes observed weekly activity relative to its own recent baseline; not a prediction of future performance"
+            }
+          },
+          {
+            "id": "source-record:98a53812-6211-5c81-b40e-b1c7fa7f34a3",
+            "label": "SourceRecord",
+            "properties": {
+              "record_id": "98a53812-6211-5c81-b40e-b1c7fa7f34a3",
+              "source_type": "company",
+              "source_url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.27",
+              "title": "1.15.27",
+              "passage": "## What's Changed ### Features - Add XPU to OpenCLIP provider device options - Add deepinfra as an OpenAI-compatible provider - Record why an evaluation stopped before its verdict - Record what the run app's Deploy met before an attempt - Implement per-run cost and time tracking in crewai eval --models without repeated progress lines ### Bug Fixes - Fix issue where stopSequences were sent to OpenAI GPT-6/GPT-5.6/gpt-oss - Preserve GitHub loader source attribution - Fix SQLite flow initialization contention ### Documentation - Add snapshot and changelog for v1.15.26 ## Contributors @StoyanD, @ats3v, @joaomdmoura, @kimnamu, @lorenzejay, @mhbuehler, @zouyonghe",
+              "event_at": "2026-10-09T22:33:44Z",
+              "published_at": "2026-10-09T22:33:44Z",
+              "observed_at": "2026-11-21T06:14:33Z",
+              "content_hash": "0d702f672e8a6e309efacd06c04e9275a339580040d99bda47f7e1f3a51a029e",
+              "origin_cluster_id": "d6ebdb5374f4aeee",
+              "collector_version": "real-release-corpus/1.0"
+            }
+          }
+        ],
+        "rendered": "trend-signal:da0d0b7bae8985b3ff96 -[DERIVED_FROM]-> source-record:98a53812-6211-5c81-b40e-b1c7fa7f34a3 ; trend-signal:da0d0b7bae8985b3ff96 -[ABOUT]-> startup:crewai"
+      },
+      {
+        "steps": [
+          {
+            "from": "trend-signal:da0d0b7bae8985b3ff96",
+            "type": "DERIVED_FROM",
+            "to": "source-record:b51ec1c2-3d9e-5401-bc1c-f129b8257c50"
+          },
+          {
+            "from": "trend-signal:da0d0b7bae8985b3ff96",
+            "type": "ABOUT",
+            "to": "startup:crewai"
+          }
+        ],
+        "nodes": [
+          {
+            "id": "startup:crewai",
+            "label": "Startup",
+            "properties": {
+              "company_id": "crewai",
+              "name": null
+            }
+          },
+          {
+            "id": "trend-signal:da0d0b7bae8985b3ff96",
+            "label": "TrendSignal",
+            "properties": {
+              "series_id": "news:distinct_origins|company=crewai",
+              "metric": "distinct_origins",
+              "signal_family": "news",
+              "entity_type": "company",
+              "entity_id": "crewai",
+              "company_id": "crewai",
+              "iso_week": "2026-W43",
+              "week_start": "2026-10-19T00:00:00Z",
+              "week_end": "2026-10-26T00:00:00Z",
+              "value": 2.0,
+              "value_state": "observed",
+              "ewma_baseline": 0.51,
+              "residual": 1.49,
+              "scale": 0.5901679543025987,
+              "scale_method": "std",
+              "z_score": 1.49,
+              "trend_score": 1.49,
+              "label": "flat",
+              "label_reason": "z=1.4900 against threshold=1.5 over 8 residual weeks",
+              "observed_weeks_used": 47,
+              "residual_points_used": 8,
+              "gap_policy": "zero",
+              "unit": "count",
+              "feature_version": "signals/0.1.0",
+              "trend_id": "trend-signal:da0d0b7bae8985b3ff96",
+              "config_fingerprint": "15641c8a5e33",
+              "alpha": 0.3,
+              "window": 8,
+              "threshold": 1.5,
+              "min_history": 4,
+              "interpretation": "describes observed weekly activity relative to its own recent baseline; not a prediction of future performance"
+            }
+          },
+          {
+            "id": "source-record:b51ec1c2-3d9e-5401-bc1c-f129b8257c50",
+            "label": "SourceRecord",
+            "properties": {
+              "record_id": "b51ec1c2-3d9e-5401-bc1c-f129b8257c50",
+              "source_type": "company",
+              "source_url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.28",
+              "title": "1.15.28",
+              "passage": "## What's Changed ### Features - Add crewai eval command to report where a stopped model broke. - Use LiteLLM catalog for context windows. ### Bug Fixes - Fix flow to learn from resumed human feedback and preserve reviewed output types. - Warn when non-empty apps resolve to zero platform tools. - Fix flow add-crew to correctly find the package from pyproject. - Show reasons for deployment failures and fix deploy remove and lockfile checks. - Fix trigger list and payload requests timeout to 60 seconds. - Read AMP's source_type during deploy push to ensure ZIP deployments use the new code. - Decode local JSON files with UTF-8 BOM in rag. - Allow image input_files for OpenAI GPT-6 Sol/Luna/Astra. - Emit call completed event for streamed anthropic tool calls. - Stop JSON-schema models from warning about BaseModel-shadowing fields. - Preserve native tool aborts and post-hook cache identity. - Refresh LiteLLM catalog after the version-bump PR merges. - Repair rotted evaluator regression tests. ### Documentation - Consolidate improvements in MongoDB documentation. - Correct deploy and platform-tool guidance in AGENTS.md. - Fix README imports for RagTool and XMLSearchTool. ## Contributors @SIDDARTHAREDDY8, @Vidit-Ostwal, @joaomdmoura, @kimnamu, @lorenzejay, @norareidy, @shaikn6, @zouyonghe",
+              "event_at": "2026-10-14T04:47:00Z",
+              "published_at": "2026-10-14T04:47:00Z",
+              "observed_at": "2026-11-21T06:14:33Z",
+              "content_hash": "048f1cfef223c44f427ad57cf2e1c6257d162acfeacdd0799712e0a152861b06",
+              "origin_cluster_id": "2c5c1a302baa91ba",
+              "collector_version": "real-release-corpus/1.0"
+            }
+          }
+        ],
+        "rendered": "trend-signal:da0d0b7bae8985b3ff96 -[DERIVED_FROM]-> source-record:b51ec1c2-3d9e-5401-bc1c-f129b8257c50 ; trend-signal:da0d0b7bae8985b3ff96 -[ABOUT]-> startup:crewai"
+      },
+      {
+        "steps": [
+          {
+            "from": "trend-signal:01a519660e2e9ede8a43",
+            "type": "DERIVED_FROM",
+            "to": "source-record:06472cb8-466e-55fe-a85a-f421fe1d9706"
+          },
+          {
+            "from": "trend-signal:01a519660e2e9ede8a43",
+            "type": "ABOUT",
+            "to": "startup:crewai"
+          }
+        ],
+        "nodes": [
+          {
+            "id": "startup:crewai",
+            "label": "Startup",
+            "properties": {
+              "company_id": "crewai",
+              "name": null
+            }
+          },
+          {
+            "id": "trend-signal:01a519660e2e9ede8a43",
+            "label": "TrendSignal",
+            "properties": {
+              "series_id": "news:distinct_origins|company=crewai",
+              "metric": "distinct_origins",
+              "signal_family": "news",
+              "entity_type": "company",
+              "entity_id": "crewai",
+              "company_id": "crewai",
+              "iso_week": "2026-W44",
+              "week_start": "2026-10-26T00:00:00Z",
+              "week_end": "2026-11-02T00:00:00Z",
+              "value": 3.0,
+              "value_state": "observed",
+              "ewma_baseline": 0.957,
+              "residual": 2.043,
+              "scale": 0.798293973331343,
+              "scale_method": "std",
+              "z_score": 2.043,
+              "trend_score": 2.043,
+              "label": "rising",
+              "label_reason": "z=2.0430 against threshold=1.5 over 8 residual weeks",
+              "observed_weeks_used": 48,
+              "residual_points_used": 8,
+              "gap_policy": "zero",
+              "unit": "count",
+              "feature_version": "signals/0.1.0",
+              "trend_id": "trend-signal:01a519660e2e9ede8a43",
+              "config_fingerprint": "15641c8a5e33",
+              "alpha": 0.3,
+              "window": 8,
+              "threshold": 1.5,
+              "min_history": 4,
+              "interpretation": "describes observed weekly activity relative to its own recent baseline; not a prediction of future performance"
+            }
+          },
+          {
+            "id": "source-record:06472cb8-466e-55fe-a85a-f421fe1d9706",
+            "label": "SourceRecord",
+            "properties": {
+              "record_id": "06472cb8-466e-55fe-a85a-f421fe1d9706",
+              "source_type": "company",
+              "source_url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.29",
+              "title": "1.15.29",
+              "passage": "## What's Changed ### Features - Add support for LiteLLM-compatible kwargs. - Implement platform application search in CLI. - Highlight action picker search in CLI. - Trace conversation routes and public replies in flow. - Select organization during login in CLI. - Add offline jev routing and guardrail evaluation runner. - Run integration app actions directly with call: tool. - Promote AgentExecutor out of experimental status. - Add Azure DocumentDB vector search integration. - Add read-only notebook text loader and standard-library jsonl loader. - Ensure crewAI eval keeps the evaluation's full data in the project. - Enable crewAI eval to run the crew itself for verdict from one command. - Allow crewAI eval to export evaluations as files. ### Bug Fixes - Fix platform integration token derivation from login. - Resolve logging issues by preserving JSON logs on serialization errors. - Skip non-UTF-8 cached skill metadata. - Fix tool actions to honor failure policies and get fresh usage budgets per kickoff. - Prevent private memories without a source from leaking to every recall. - Fix memory record retrieval order in LanceDBStorage. - Restore task description when replanning fails. - Stop agents from repeating the same tool call. - Escape scope and id values in LanceDB filters. ### Documentation - Update broken links in crewAI examples and observability guides. - Fix dead links in tools documentation. ### Refactoring - Refactor context compaction to be a BaseLLM capability. ## Contributors @Akaliup, @Arxsher, @Copilot, @D41910, @LindseyZ1205, @RaycarlLei, @Rohitkanithi, @Sakura-798, @Vidit-Ostwal, @Wilson0511, @Winoren, @abdullahajaz14, @bballhaus, @gabemilani, @iris-clawd, @joaomdmoura, @leom1919, @lorenzejay, @marcreniel, @mattatcha, @reubenjrouse, @rohitkanithi, @sandeepsnairms, @stepchanges, @subhashpolisetti, @theCyberTech, @vatsalyd",
+              "event_at": "2026-10-23T17:35:29Z",
+              "published_at": "2026-10-23T17:35:29Z",
+              "observed_at": "2026-11-21T06:14:33Z",
+              "content_hash": "995b7e74ee795d9383ed7ad1edc6be7d136395f431f54a3797209f072acbabaa",
+              "origin_cluster_id": "846fae8d241f69fb",
+              "collector_version": "real-release-corpus/1.0"
+            }
+          }
+        ],
+        "rendered": "trend-signal:01a519660e2e9ede8a43 -[DERIVED_FROM]-> source-record:06472cb8-466e-55fe-a85a-f421fe1d9706 ; trend-signal:01a519660e2e9ede8a43 -[ABOUT]-> startup:crewai"
+      },
+      {
+        "steps": [
+          {
+            "from": "trend-signal:01a519660e2e9ede8a43",
+            "type": "DERIVED_FROM",
+            "to": "source-record:1e019eee-8a64-550c-8be9-909aa92dfecc"
+          },
+          {
+            "from": "trend-signal:01a519660e2e9ede8a43",
+            "type": "ABOUT",
+            "to": "startup:crewai"
+          }
+        ],
+        "nodes": [
+          {
+            "id": "startup:crewai",
+            "label": "Startup",
+            "properties": {
+              "company_id": "crewai",
+              "name": null
+            }
+          },
+          {
+            "id": "trend-signal:01a519660e2e9ede8a43",
+            "label": "TrendSignal",
+            "properties": {
+              "series_id": "news:distinct_origins|company=crewai",
+              "metric": "distinct_origins",
+              "signal_family": "news",
+              "entity_type": "company",
+              "entity_id": "crewai",
+              "company_id": "crewai",
+              "iso_week": "2026-W44",
+              "week_start": "2026-10-26T00:00:00Z",
+              "week_end": "2026-11-02T00:00:00Z",
+              "value": 3.0,
+              "value_state": "observed",
+              "ewma_baseline": 0.957,
+              "residual": 2.043,
+              "scale": 0.798293973331343,
+              "scale_method": "std",
+              "z_score": 2.043,
+              "trend_score": 2.043,
+              "label": "rising",
+              "label_reason": "z=2.0430 against threshold=1.5 over 8 residual weeks",
+              "observed_weeks_used": 48,
+              "residual_points_used": 8,
+              "gap_policy": "zero",
+              "unit": "count",
+              "feature_version": "signals/0.1.0",
+              "trend_id": "trend-signal:01a519660e2e9ede8a43",
+              "config_fingerprint": "15641c8a5e33",
+              "alpha": 0.3,
+              "window": 8,
+              "threshold": 1.5,
+              "min_history": 4,
+              "interpretation": "describes observed weekly activity relative to its own recent baseline; not a prediction of future performance"
+            }
+          },
+          {
+            "id": "source-record:1e019eee-8a64-550c-8be9-909aa92dfecc",
+            "label": "SourceRecord",
+            "properties": {
+              "record_id": "1e019eee-8a64-550c-8be9-909aa92dfecc",
+              "source_type": "company",
+              "source_url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.31",
+              "title": "1.15.31",
+              "passage": "## What's Changed ### Features - Support conversational flow context compaction. ### Bug Fixes - Update vulnerable audit dependencies. - Stop sending 'stop' to GPT-6 and newer models. - Run the provider listing off the loop in `acleanup_provider_files`. - Emit `LLMGuardrailCompletedEvent` for a malformed guardrail result. - Name the renamed integration token when it is missing. - Fix path traversal in `output_file` via template interpolation. - Patch deserialization, SQL injection, and path traversal vulnerabilities. - Restore configured logging levels after suppression. - Drop checkpoint resume state when copying a crew. - Honor an injected `aioboto3` session in `BedrockFileUploader`. - Use the right task slice with custom templates. - Guard against storage listing failures in encoding flow analysis. - Enforce guardrail result/error exclusivity with model validator. - Filter categories server-side in Qdrant edge search. ### Documentation - Use HTTPS for CrewAI AMP link in CLI concept documentation. - Fix internal anchor links pointing to English slugs on translated pages. - Fix `CrewBase` imports in documentation examples. ## Contributors @Kiko0301, @Trenyx, @Velmet44, @Vidit-Ostwal, @Wilson0511, @gabemilani, @iris-clawd, @joaomdmoura, @lakers-abing, @leom1919, @lester076, @lorenzejay, @subhashpolisetti",
+              "event_at": "2026-10-27T21:36:29Z",
+              "published_at": "2026-10-27T21:36:29Z",
+              "observed_at": "2026-11-21T06:14:33Z",
+              "content_hash": "357521af09296c222c612b03fd48fd4388fa70e2a16533c9e79f810544786ebf",
+              "origin_cluster_id": "dac3e81b9670df3c",
+              "collector_version": "real-release-corpus/1.0"
+            }
+          }
+        ],
+        "rendered": "trend-signal:01a519660e2e9ede8a43 -[DERIVED_FROM]-> source-record:1e019eee-8a64-550c-8be9-909aa92dfecc ; trend-signal:01a519660e2e9ede8a43 -[ABOUT]-> startup:crewai"
+      },
+      {
+        "steps": [
+          {
+            "from": "trend-signal:01a519660e2e9ede8a43",
+            "type": "DERIVED_FROM",
+            "to": "source-record:68af97eb-0abe-5d6c-b6dc-6a561d82f90a"
+          },
+          {
+            "from": "trend-signal:01a519660e2e9ede8a43",
+            "type": "ABOUT",
+            "to": "startup:crewai"
+          }
+        ],
+        "nodes": [
+          {
+            "id": "startup:crewai",
+            "label": "Startup",
+            "properties": {
+              "company_id": "crewai",
+              "name": null
+            }
+          },
+          {
+            "id": "trend-signal:01a519660e2e9ede8a43",
+            "label": "TrendSignal",
+            "properties": {
+              "series_id": "news:distinct_origins|company=crewai",
+              "metric": "distinct_origins",
+              "signal_family": "news",
+              "entity_type": "company",
+              "entity_id": "crewai",
+              "company_id": "crewai",
+              "iso_week": "2026-W44",
+              "week_start": "2026-10-26T00:00:00Z",
+              "week_end": "2026-11-02T00:00:00Z",
+              "value": 3.0,
+              "value_state": "observed",
+              "ewma_baseline": 0.957,
+              "residual": 2.043,
+              "scale": 0.798293973331343,
+              "scale_method": "std",
+              "z_score": 2.043,
+              "trend_score": 2.043,
+              "label": "rising",
+              "label_reason": "z=2.0430 against threshold=1.5 over 8 residual weeks",
+              "observed_weeks_used": 48,
+              "residual_points_used": 8,
+              "gap_policy": "zero",
+              "unit": "count",
+              "feature_version": "signals/0.1.0",
+              "trend_id": "trend-signal:01a519660e2e9ede8a43",
+              "config_fingerprint": "15641c8a5e33",
+              "alpha": 0.3,
+              "window": 8,
+              "threshold": 1.5,
+              "min_history": 4,
+              "interpretation": "describes observed weekly activity relative to its own recent baseline; not a prediction of future performance"
+            }
+          },
+          {
+            "id": "source-record:68af97eb-0abe-5d6c-b6dc-6a561d82f90a",
+            "label": "SourceRecord",
+            "properties": {
+              "record_id": "68af97eb-0abe-5d6c-b6dc-6a561d82f90a",
+              "source_type": "company",
+              "source_url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.34",
+              "title": "1.15.34",
+              "passage": "## What's Changed ### Features - Add standalone LiteLLM catalog PR before version bump - Record where crewai run stops before kickoff - Add crewai skill search to list the organization's skills - Pass crewai run --inputs to a Python flow - Add deploy create --zip and print the commit a zip is built from - Document agent planning with planningconfig and migrate reasoning page ### Bug Fixes - Stop offering shut-down Gemini models in crewai create - Raise MissingAPIKeyError for OpenAI-compatible providers - Count repeated tool call stops in anonymous telemetry - Count a crewai run whose project script fails - Let crewai[litellm] import on Python 3.10; raise joserfc, pyasn1, pypdf floors - Retry an empty LLM answer once and raise a typed error - Ask for structured output when a tool-using agent finishes - Refactor JSON that does not match the output model instead of failing - Warn on repeated tool calls and keep the work when stopping - Honor context_window_size and warn on the fallback window - Raise MissingAPIKeyError for a missing or placeholder API key - Restore removed import paths with deprecation warnings - Keep the provider's exception on LiteLLM streaming errors - Tell the model how to recover from an unreadable deferred result - Offer a login and retry once when AMP rejects the saved login during eval - Stop rich live panel repainting into redirected logs - Load from_repository set inside an agent's config - Save unrestorable callbacks as null instead of breaking restore - Show AMP's reason on a 401 and let the run app's deploy log in again - Wait for the whole device-code lifetime at login and exit 1 on timeout - Keep module identity when crewai rebuilds forward-ref namespaces - Print upgrade commands instead of rewriting UV projects on crewai update - Return the post from the flow scaffold's last step - Exit 1 when a crewai+ command needs a login - Exit with guidance when a Python conversational flow has no terminal - Keep deeply nested JSON as text in the run TUI on Python 3.12 - Let the JSON crew runner load against an older crewai-core - Report token usage for LiteLLM tool-call and structured-output calls ### Breaking Changes - Document the removal of the 1.15.29 agent executor with migration notes ## Contributors @Vidit-Ostwal, @alexmarchenko-crewai, @dependabot[bot], @joaomdmoura, @lorenzejay",
+              "event_at": "2026-11-01T21:21:56Z",
+              "published_at": "2026-11-01T21:21:56Z",
+              "observed_at": "2026-11-21T06:14:33Z",
+              "content_hash": "f18312645383ae2a40e9e3c0abdab7d531c6a1344cd2f718128c2371e934d3c6",
+              "origin_cluster_id": "1109ea2dd595a165",
+              "collector_version": "real-release-corpus/1.0"
+            }
+          }
+        ],
+        "rendered": "trend-signal:01a519660e2e9ede8a43 -[DERIVED_FROM]-> source-record:68af97eb-0abe-5d6c-b6dc-6a561d82f90a ; trend-signal:01a519660e2e9ede8a43 -[ABOUT]-> startup:crewai"
+      },
+      {
+        "steps": [
+          {
+            "from": "trend-signal:52ef056d96a8254d10bc",
+            "type": "DERIVED_FROM",
+            "to": "source-record:06472cb8-466e-55fe-a85a-f421fe1d9706"
+          },
+          {
+            "from": "trend-signal:52ef056d96a8254d10bc",
+            "type": "ABOUT",
+            "to": "startup:crewai"
+          }
+        ],
+        "nodes": [
+          {
+            "id": "startup:crewai",
+            "label": "Startup",
+            "properties": {
+              "company_id": "crewai",
+              "name": null
+            }
+          },
+          {
+            "id": "trend-signal:52ef056d96a8254d10bc",
+            "label": "TrendSignal",
+            "properties": {
+              "series_id": "news:distinct_origins|company=crewai",
+              "metric": "distinct_origins",
+              "signal_family": "news",
+              "entity_type": "company",
+              "entity_id": "crewai",
+              "company_id": "crewai",
+              "iso_week": "2026-W45",
+              "week_start": "2026-11-02T00:00:00Z",
+              "week_end": "2026-11-09T00:00:00Z",
+              "value": 3.0,
+              "value_state": "observed",
+              "ewma_baseline": 1.5698999999999999,
+              "residual": 1.4301000000000001,
+              "scale": 0.7909779036781893,
+              "scale_method": "std",
+              "z_score": 1.4301000000000001,
+              "trend_score": 1.4301000000000001,
+              "label": "flat",
+              "label_reason": "z=1.4301 against threshold=1.5 over 8 residual weeks",
+              "observed_weeks_used": 49,
+              "residual_points_used": 8,
+              "gap_policy": "zero",
+              "unit": "count",
+              "feature_version": "signals/0.1.0",
+              "trend_id": "trend-signal:52ef056d96a8254d10bc",
+              "config_fingerprint": "15641c8a5e33",
+              "alpha": 0.3,
+              "window": 8,
+              "threshold": 1.5,
+              "min_history": 4,
+              "interpretation": "describes observed weekly activity relative to its own recent baseline; not a prediction of future performance"
+            }
+          },
+          {
+            "id": "source-record:06472cb8-466e-55fe-a85a-f421fe1d9706",
+            "label": "SourceRecord",
+            "properties": {
+              "record_id": "06472cb8-466e-55fe-a85a-f421fe1d9706",
+              "source_type": "company",
+              "source_url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.29",
+              "title": "1.15.29",
+              "passage": "## What's Changed ### Features - Add support for LiteLLM-compatible kwargs. - Implement platform application search in CLI. - Highlight action picker search in CLI. - Trace conversation routes and public replies in flow. - Select organization during login in CLI. - Add offline jev routing and guardrail evaluation runner. - Run integration app actions directly with call: tool. - Promote AgentExecutor out of experimental status. - Add Azure DocumentDB vector search integration. - Add read-only notebook text loader and standard-library jsonl loader. - Ensure crewAI eval keeps the evaluation's full data in the project. - Enable crewAI eval to run the crew itself for verdict from one command. - Allow crewAI eval to export evaluations as files. ### Bug Fixes - Fix platform integration token derivation from login. - Resolve logging issues by preserving JSON logs on serialization errors. - Skip non-UTF-8 cached skill metadata. - Fix tool actions to honor failure policies and get fresh usage budgets per kickoff. - Prevent private memories without a source from leaking to every recall. - Fix memory record retrieval order in LanceDBStorage. - Restore task description when replanning fails. - Stop agents from repeating the same tool call. - Escape scope and id values in LanceDB filters. ### Documentation - Update broken links in crewAI examples and observability guides. - Fix dead links in tools documentation. ### Refactoring - Refactor context compaction to be a BaseLLM capability. ## Contributors @Akaliup, @Arxsher, @Copilot, @D41910, @LindseyZ1205, @RaycarlLei, @Rohitkanithi, @Sakura-798, @Vidit-Ostwal, @Wilson0511, @Winoren, @abdullahajaz14, @bballhaus, @gabemilani, @iris-clawd, @joaomdmoura, @leom1919, @lorenzejay, @marcreniel, @mattatcha, @reubenjrouse, @rohitkanithi, @sandeepsnairms, @stepchanges, @subhashpolisetti, @theCyberTech, @vatsalyd",
+              "event_at": "2026-10-23T17:35:29Z",
+              "published_at": "2026-10-23T17:35:29Z",
+              "observed_at": "2026-11-21T06:14:33Z",
+              "content_hash": "995b7e74ee795d9383ed7ad1edc6be7d136395f431f54a3797209f072acbabaa",
+              "origin_cluster_id": "846fae8d241f69fb",
+              "collector_version": "real-release-corpus/1.0"
+            }
+          }
+        ],
+        "rendered": "trend-signal:52ef056d96a8254d10bc -[DERIVED_FROM]-> source-record:06472cb8-466e-55fe-a85a-f421fe1d9706 ; trend-signal:52ef056d96a8254d10bc -[ABOUT]-> startup:crewai"
+      },
+      {
+        "steps": [
+          {
+            "from": "trend-signal:52ef056d96a8254d10bc",
+            "type": "DERIVED_FROM",
+            "to": "source-record:1e019eee-8a64-550c-8be9-909aa92dfecc"
+          },
+          {
+            "from": "trend-signal:52ef056d96a8254d10bc",
+            "type": "ABOUT",
+            "to": "startup:crewai"
+          }
+        ],
+        "nodes": [
+          {
+            "id": "startup:crewai",
+            "label": "Startup",
+            "properties": {
+              "company_id": "crewai",
+              "name": null
+            }
+          },
+          {
+            "id": "trend-signal:52ef056d96a8254d10bc",
+            "label": "TrendSignal",
+            "properties": {
+              "series_id": "news:distinct_origins|company=crewai",
+              "metric": "distinct_origins",
+              "signal_family": "news",
+              "entity_type": "company",
+              "entity_id": "crewai",
+              "company_id": "crewai",
+              "iso_week": "2026-W45",
+              "week_start": "2026-11-02T00:00:00Z",
+              "week_end": "2026-11-09T00:00:00Z",
+              "value": 3.0,
+              "value_state": "observed",
+              "ewma_baseline": 1.5698999999999999,
+              "residual": 1.4301000000000001,
+              "scale": 0.7909779036781893,
+              "scale_method": "std",
+              "z_score": 1.4301000000000001,
+              "trend_score": 1.4301000000000001,
+              "label": "flat",
+              "label_reason": "z=1.4301 against threshold=1.5 over 8 residual weeks",
+              "observed_weeks_used": 49,
+              "residual_points_used": 8,
+              "gap_policy": "zero",
+              "unit": "count",
+              "feature_version": "signals/0.1.0",
+              "trend_id": "trend-signal:52ef056d96a8254d10bc",
+              "config_fingerprint": "15641c8a5e33",
+              "alpha": 0.3,
+              "window": 8,
+              "threshold": 1.5,
+              "min_history": 4,
+              "interpretation": "describes observed weekly activity relative to its own recent baseline; not a prediction of future performance"
+            }
+          },
+          {
+            "id": "source-record:1e019eee-8a64-550c-8be9-909aa92dfecc",
+            "label": "SourceRecord",
+            "properties": {
+              "record_id": "1e019eee-8a64-550c-8be9-909aa92dfecc",
+              "source_type": "company",
+              "source_url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.31",
+              "title": "1.15.31",
+              "passage": "## What's Changed ### Features - Support conversational flow context compaction. ### Bug Fixes - Update vulnerable audit dependencies. - Stop sending 'stop' to GPT-6 and newer models. - Run the provider listing off the loop in `acleanup_provider_files`. - Emit `LLMGuardrailCompletedEvent` for a malformed guardrail result. - Name the renamed integration token when it is missing. - Fix path traversal in `output_file` via template interpolation. - Patch deserialization, SQL injection, and path traversal vulnerabilities. - Restore configured logging levels after suppression. - Drop checkpoint resume state when copying a crew. - Honor an injected `aioboto3` session in `BedrockFileUploader`. - Use the right task slice with custom templates. - Guard against storage listing failures in encoding flow analysis. - Enforce guardrail result/error exclusivity with model validator. - Filter categories server-side in Qdrant edge search. ### Documentation - Use HTTPS for CrewAI AMP link in CLI concept documentation. - Fix internal anchor links pointing to English slugs on translated pages. - Fix `CrewBase` imports in documentation examples. ## Contributors @Kiko0301, @Trenyx, @Velmet44, @Vidit-Ostwal, @Wilson0511, @gabemilani, @iris-clawd, @joaomdmoura, @lakers-abing, @leom1919, @lester076, @lorenzejay, @subhashpolisetti",
+              "event_at": "2026-10-27T21:36:29Z",
+              "published_at": "2026-10-27T21:36:29Z",
+              "observed_at": "2026-11-21T06:14:33Z",
+              "content_hash": "357521af09296c222c612b03fd48fd4388fa70e2a16533c9e79f810544786ebf",
+              "origin_cluster_id": "dac3e81b9670df3c",
+              "collector_version": "real-release-corpus/1.0"
+            }
+          }
+        ],
+        "rendered": "trend-signal:52ef056d96a8254d10bc -[DERIVED_FROM]-> source-record:1e019eee-8a64-550c-8be9-909aa92dfecc ; trend-signal:52ef056d96a8254d10bc -[ABOUT]-> startup:crewai"
+      },
+      {
+        "steps": [
+          {
+            "from": "trend-signal:52ef056d96a8254d10bc",
+            "type": "DERIVED_FROM",
+            "to": "source-record:68af97eb-0abe-5d6c-b6dc-6a561d82f90a"
+          },
+          {
+            "from": "trend-signal:52ef056d96a8254d10bc",
+            "type": "ABOUT",
+            "to": "startup:crewai"
+          }
+        ],
+        "nodes": [
+          {
+            "id": "startup:crewai",
+            "label": "Startup",
+            "properties": {
+              "company_id": "crewai",
+              "name": null
+            }
+          },
+          {
+            "id": "trend-signal:52ef056d96a8254d10bc",
+            "label": "TrendSignal",
+            "properties": {
+              "series_id": "news:distinct_origins|company=crewai",
+              "metric": "distinct_origins",
+              "signal_family": "news",
+              "entity_type": "company",
+              "entity_id": "crewai",
+              "company_id": "crewai",
+              "iso_week": "2026-W45",
+              "week_start": "2026-11-02T00:00:00Z",
+              "week_end": "2026-11-09T00:00:00Z",
+              "value": 3.0,
+              "value_state": "observed",
+              "ewma_baseline": 1.5698999999999999,
+              "residual": 1.4301000000000001,
+              "scale": 0.7909779036781893,
+              "scale_method": "std",
+              "z_score": 1.4301000000000001,
+              "trend_score": 1.4301000000000001,
+              "label": "flat",
+              "label_reason": "z=1.4301 against threshold=1.5 over 8 residual weeks",
+              "observed_weeks_used": 49,
+              "residual_points_used": 8,
+              "gap_policy": "zero",
+              "unit": "count",
+              "feature_version": "signals/0.1.0",
+              "trend_id": "trend-signal:52ef056d96a8254d10bc",
+              "config_fingerprint": "15641c8a5e33",
+              "alpha": 0.3,
+              "window": 8,
+              "threshold": 1.5,
+              "min_history": 4,
+              "interpretation": "describes observed weekly activity relative to its own recent baseline; not a prediction of future performance"
+            }
+          },
+          {
+            "id": "source-record:68af97eb-0abe-5d6c-b6dc-6a561d82f90a",
+            "label": "SourceRecord",
+            "properties": {
+              "record_id": "68af97eb-0abe-5d6c-b6dc-6a561d82f90a",
+              "source_type": "company",
+              "source_url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.34",
+              "title": "1.15.34",
+              "passage": "## What's Changed ### Features - Add standalone LiteLLM catalog PR before version bump - Record where crewai run stops before kickoff - Add crewai skill search to list the organization's skills - Pass crewai run --inputs to a Python flow - Add deploy create --zip and print the commit a zip is built from - Document agent planning with planningconfig and migrate reasoning page ### Bug Fixes - Stop offering shut-down Gemini models in crewai create - Raise MissingAPIKeyError for OpenAI-compatible providers - Count repeated tool call stops in anonymous telemetry - Count a crewai run whose project script fails - Let crewai[litellm] import on Python 3.10; raise joserfc, pyasn1, pypdf floors - Retry an empty LLM answer once and raise a typed error - Ask for structured output when a tool-using agent finishes - Refactor JSON that does not match the output model instead of failing - Warn on repeated tool calls and keep the work when stopping - Honor context_window_size and warn on the fallback window - Raise MissingAPIKeyError for a missing or placeholder API key - Restore removed import paths with deprecation warnings - Keep the provider's exception on LiteLLM streaming errors - Tell the model how to recover from an unreadable deferred result - Offer a login and retry once when AMP rejects the saved login during eval - Stop rich live panel repainting into redirected logs - Load from_repository set inside an agent's config - Save unrestorable callbacks as null instead of breaking restore - Show AMP's reason on a 401 and let the run app's deploy log in again - Wait for the whole device-code lifetime at login and exit 1 on timeout - Keep module identity when crewai rebuilds forward-ref namespaces - Print upgrade commands instead of rewriting UV projects on crewai update - Return the post from the flow scaffold's last step - Exit 1 when a crewai+ command needs a login - Exit with guidance when a Python conversational flow has no terminal - Keep deeply nested JSON as text in the run TUI on Python 3.12 - Let the JSON crew runner load against an older crewai-core - Report token usage for LiteLLM tool-call and structured-output calls ### Breaking Changes - Document the removal of the 1.15.29 agent executor with migration notes ## Contributors @Vidit-Ostwal, @alexmarchenko-crewai, @dependabot[bot], @joaomdmoura, @lorenzejay",
+              "event_at": "2026-11-01T21:21:56Z",
+              "published_at": "2026-11-01T21:21:56Z",
+              "observed_at": "2026-11-21T06:14:33Z",
+              "content_hash": "f18312645383ae2a40e9e3c0abdab7d531c6a1344cd2f718128c2371e934d3c6",
+              "origin_cluster_id": "1109ea2dd595a165",
+              "collector_version": "real-release-corpus/1.0"
+            }
+          }
+        ],
+        "rendered": "trend-signal:52ef056d96a8254d10bc -[DERIVED_FROM]-> source-record:68af97eb-0abe-5d6c-b6dc-6a561d82f90a ; trend-signal:52ef056d96a8254d10bc -[ABOUT]-> startup:crewai"
+      }
+    ],
+    "evidence_states": [
+      {
+        "text": "The agent infrastructure sector does not qualify: only 0 independent coverage origin(s) across 3 cohort companies.",
+        "state": "corroborated",
+        "reason": "15 independent origins support this claim, at or above the configured minimum of 2"
+      },
+      {
+        "text": "**`langchain-openai` 1.8.0 drops support for Python 3.10**, which has reached end-of-life.",
+        "state": "emerging",
+        "reason": "a single documentary origin supports this claim and nothing contradicts it"
+      },
+      {
+        "text": "## What's Changed ### Features - Make gpt-6-luna crewAI's default model everywhere - Read spreadsheet URLs in an agent's input with tools over every row - Tag eval usage spans with target and a per-evaluation id - Add --no-open to crewai eval for headless use ### Bug Fixes - Count a crewai eval run that exits with an…",
+        "state": "emerging",
+        "reason": "a single documentary origin supports this claim and nothing contradicts it"
+      },
+      {
+        "text": "**`langchain-openrouter` 0.3.0 drops support for Python 3.10**, which has reached end-of-life.",
+        "state": "emerging",
+        "reason": "a single documentary origin supports this claim and nothing contradicts it"
+      }
+    ]
+  },
+  "q-pilot-github-mlops:citations_plus_state_and_path": {
+    "question_id": "q-pilot-github-mlops",
+    "question": "Which agent-infrastructure startups show both rising GitHub activity and new MLOps hiring in the last eight weeks?",
+    "answer_text": "For the last 8 weeks before 2026-11-21T06:14:33Z, from 8 retrieved item(s):\n- # What's Changed ### Features - Add experimental conversational Agent sessions. [1]\n- ## What's Changed ### Features - Add standalone LiteLLM catalog PR before version bump - Record where crewai run stops before kickoff - Add crewai skill search to list the organization's skills - Pass crewai run --inputs to a Python flow - Add deploy create --zip and print the commit a zip is built from - Document age… [2]\n- ## What's Changed ### Features - Add capability to save files as versioned, shareable artifacts. [3]\n- ## What's Changed ### Features - Make gpt-6-luna crewAI's default model everywhere - Read spreadsheet URLs in an agent's input with tools over every row - Tag eval usage spans with target and a per-evaluation id - Add --no-open to crewai eval for headless use ### Bug Fixes - Count a crewai eval run that exits with an… [4]",
+    "citations": [
+      {
+        "number": 1,
+        "title": "1.15.36",
+        "source_url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.36",
+        "text": "# What's Changed ### Features - Add experimental conversational Agent sessions. - Ask for a missing API key when crewai run starts. - Record the error class when crewai run cannot load a project. - Name the apps CrewAI AMP cannot resolve for an agent. ### Bug Fixes - Fix async call execution in the caller's context for sync tools. - Resolve issue with empty value precedence in the run's key check."
+      },
+      {
+        "number": 2,
+        "title": "1.15.34",
+        "source_url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.34",
+        "text": "## What's Changed ### Features - Add standalone LiteLLM catalog PR before version bump - Record where crewai run stops before kickoff - Add crewai skill search to list the organization's skills - Pass crewai run --inputs to a Python flow - Add deploy create --zip and print the commit a zip is built from - Document agent planning with planningconfig and migrate reasoning page ### Bug Fixes - Stop o"
+      },
+      {
+        "number": 3,
+        "title": "1.15.44",
+        "source_url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.44",
+        "text": "## What's Changed ### Features - Add capability to save files as versioned, shareable artifacts. ### Bug Fixes - Fix inline agent and crew action references relative to the flow file. - Stop duplicating kept separators when merging chunks. - Isolate nested defaults from a shared flow declaration. - Restrict Pillow to PNG, JPEG, GIF, and WEBP when opening images. - Reset cache eviction order on cle"
+      },
+      {
+        "number": 4,
+        "title": "1.15.38",
+        "source_url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.38",
+        "text": "## What's Changed ### Features - Make gpt-6-luna crewAI's default model everywhere - Read spreadsheet URLs in an agent's input with tools over every row - Tag eval usage spans with target and a per-evaluation id - Add --no-open to crewai eval for headless use ### Bug Fixes - Count a crewai eval run that exits with an error as run_failed - Create the project .env owner-only when crewai eval turns t"
+      },
+      {
+        "number": 5,
+        "title": "1.15.33",
+        "source_url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.33",
+        "text": "## What's Changed ### Features - Add `crewai skill search` to list the organization's skills - Pass `crewai run --inputs` to a Python flow - Add `deploy create --zip` and print the commit a zip is built from ### Bug Fixes - Report token usage for LiteLLM tool-call and structured-output calls - Restore recent backwards-compatible imports and token - Let the JSON crew runner load against an older cr"
+      },
+      {
+        "number": 6,
+        "title": "Independent documentary origins for one startup.",
+        "source_url": null,
+        "text": "[{\"company_id\": \"crewai\", \"independent_origins\": 15, \"origin_cluster_ids\": [\"1109ea2dd595a165\", \"2c5c1a302baa91ba\", \"4c5ffd6889c9eb1d\", \"62d98f6299497ee8\", \"6d3fea39f0d5a6a6\", \"71824e8f7a7fc771\", \"846fae8d241f69fb\", \"84df5c1f19d3ea15\", \"8a62708e08c12301\", \"cf3c098bb247391a\", \"d6ebdb5374f4aeee\", \"dac3e81b9670df3c\", \"e632853a962ca7e5\", \"e6e670af27177e89\", \"ec65d8e77bae17f1\"]}]"
+      },
+      {
+        "number": 7,
+        "title": "Independent documentary origins for one startup.",
+        "source_url": null,
+        "text": "[{\"company_id\": \"langchain\", \"independent_origins\": 15, \"origin_cluster_ids\": [\"285e2a7964b05cb3\", \"28b59beabe4d5a66\", \"2940d0d6c78b0628\", \"3003d0e4ec081578\", \"683a552668f141c7\", \"7f0852611831db2f\", \"86e51c515335ad94\", \"94bde3db0a23b9ce\", \"ba879e98964ada39\", \"c2de3dd4b16d325e\", \"d288a90f22f7891f\", \"ecfc2ce5483dc892\", \"efecdc8abbb91ee2\", \"f860fa769f3e646a\", \"fa2689f1fbd1cba2\"]}]"
+      },
+      {
+        "number": 8,
+        "title": "Independent documentary origins for one startup.",
+        "source_url": null,
+        "text": "[{\"company_id\": \"llamaindex\", \"independent_origins\": 15, \"origin_cluster_ids\": [\"0135c9be89ddad56\", \"069a156de7e68f94\", \"07543f4ab00099db\", \"172d052d12dca603\", \"3311a15a371be05b\", \"50da8229717ee479\", \"61ca5a14ac6b4d8b\", \"6f40967fddb7fa5b\", \"994a48e90a5ee3ef\", \"a2f279c02eab7797\", \"a8c296cfac9b9c39\", \"a94848fc67cc2398\", \"b0fe2e85015610c8\", \"b4396400cc071f3b\", \"f15a335fe7d11c97\"]}]"
+      }
+    ],
+    "overall_state": "emerging",
+    "graph_paths": [
+      {
+        "steps": [
+          {
+            "from": "source-record:0237b72c-c6e8-572b-b9ed-787658d33906",
+            "type": "ABOUT",
+            "to": "startup:crewai"
+          },
+          {
+            "from": "trend-signal:165a679162963cfcdd95",
+            "type": "DERIVED_FROM",
+            "to": "source-record:0237b72c-c6e8-572b-b9ed-787658d33906"
+          }
+        ],
+        "nodes": [
+          {
+            "id": "startup:crewai",
+            "label": "Startup",
+            "properties": {
+              "company_id": "crewai",
+              "name": null
+            }
+          },
+          {
+            "id": "source-record:0237b72c-c6e8-572b-b9ed-787658d33906",
+            "label": "SourceRecord",
+            "properties": {
+              "record_id": "0237b72c-c6e8-572b-b9ed-787658d33906",
+              "source_type": "company",
+              "source_url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.41",
+              "title": "1.15.41",
+              "passage": "## What's Changed ### Features - Allow approved private URL hosts. ### Bug Fixes - Fix projects to depend on PyMuPDF 2.x. - Drop a real storage URL from the URL read tests. - Keep earlier step outputs across a human-feedback resume. - Strip cache_breakpoint marker on the LiteLLM path. ### Documentation - Snapshot and changelog for v1.15.40. ## Contributors @Vidit-Ostwal, @gabemilani, @github-actions[bot], @lorenzejay",
+              "event_at": "2026-11-12T18:42:07Z",
+              "published_at": "2026-11-12T18:42:07Z",
+              "observed_at": "2026-11-21T06:14:33Z",
+              "content_hash": "23efa9a865bae21b2ffa38895905d8832f434efb78e098597dfbfa0641b040d4",
+              "origin_cluster_id": "84df5c1f19d3ea15",
+              "collector_version": "real-release-corpus/1.0"
+            }
+          },
+          {
+            "id": "trend-signal:165a679162963cfcdd95",
+            "label": "TrendSignal",
+            "properties": {
+              "series_id": "news:distinct_origins|company=crewai",
+              "metric": "distinct_origins",
+              "signal_family": "news",
+              "entity_type": "company",
+              "entity_id": "crewai",
+              "company_id": "crewai",
+              "iso_week": "2026-W46",
+              "week_start": "2026-11-09T00:00:00Z",
+              "week_end": "2026-11-16T00:00:00Z",
+              "value": 2.0,
+              "value_state": "observed",
+              "ewma_baseline": 1.9989299999999997,
+              "residual": 0.0010700000000003485,
+              "scale": 0.7908170215748394,
+              "scale_method": "std",
+              "z_score": 0.0010700000000003485,
+              "trend_score": 0.0010700000000003485,
+              "label": "flat",
+              "label_reason": "z=0.0011 against threshold=1.5 over 8 residual weeks",
+              "observed_weeks_used": 50,
+              "residual_points_used": 8,
+              "gap_policy": "zero",
+              "unit": "count",
+              "feature_version": "signals/0.1.0",
+              "trend_id": "trend-signal:165a679162963cfcdd95",
+              "config_fingerprint": "15641c8a5e33",
+              "alpha": 0.3,
+              "window": 8,
+              "threshold": 1.5,
+              "min_history": 4,
+              "interpretation": "describes observed weekly activity relative to its own recent baseline; not a prediction of future performance"
+            }
+          }
+        ],
+        "rendered": "source-record:0237b72c-c6e8-572b-b9ed-787658d33906 -[ABOUT]-> startup:crewai ; trend-signal:165a679162963cfcdd95 -[DERIVED_FROM]-> source-record:0237b72c-c6e8-572b-b9ed-787658d33906"
+      },
+      {
+        "steps": [
+          {
+            "from": "source-record:0237b72c-c6e8-572b-b9ed-787658d33906",
+            "type": "ABOUT",
+            "to": "startup:crewai"
+          },
+          {
+            "from": "trend-signal:3c7188afbe0c0a340a8a",
+            "type": "DERIVED_FROM",
+            "to": "source-record:0237b72c-c6e8-572b-b9ed-787658d33906"
+          }
+        ],
+        "nodes": [
+          {
+            "id": "startup:crewai",
+            "label": "Startup",
+            "properties": {
+              "company_id": "crewai",
+              "name": null
+            }
+          },
+          {
+            "id": "source-record:0237b72c-c6e8-572b-b9ed-787658d33906",
+            "label": "SourceRecord",
+            "properties": {
+              "record_id": "0237b72c-c6e8-572b-b9ed-787658d33906",
+              "source_type": "company",
+              "source_url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.41",
+              "title": "1.15.41",
+              "passage": "## What's Changed ### Features - Allow approved private URL hosts. ### Bug Fixes - Fix projects to depend on PyMuPDF 2.x. - Drop a real storage URL from the URL read tests. - Keep earlier step outputs across a human-feedback resume. - Strip cache_breakpoint marker on the LiteLLM path. ### Documentation - Snapshot and changelog for v1.15.40. ## Contributors @Vidit-Ostwal, @gabemilani, @github-actions[bot], @lorenzejay",
+              "event_at": "2026-11-12T18:42:07Z",
+              "published_at": "2026-11-12T18:42:07Z",
+              "observed_at": "2026-11-21T06:14:33Z",
+              "content_hash": "23efa9a865bae21b2ffa38895905d8832f434efb78e098597dfbfa0641b040d4",
+              "origin_cluster_id": "84df5c1f19d3ea15",
+              "collector_version": "real-release-corpus/1.0"
+            }
+          },
+          {
+            "id": "trend-signal:3c7188afbe0c0a340a8a",
+            "label": "TrendSignal",
+            "properties": {
+              "series_id": "news:distinct_publishers|company=crewai",
+              "metric": "distinct_publishers",
+              "signal_family": "news",
+              "entity_type": "company",
+              "entity_id": "crewai",
+              "company_id": "crewai",
+              "iso_week": "2026-W46",
+              "week_start": "2026-11-09T00:00:00Z",
+              "week_end": "2026-11-16T00:00:00Z",
+              "value": 1.0,
+              "value_state": "observed",
+              "ewma_baseline": 0.8319300000000001,
+              "residual": 0.16806999999999994,
+              "scale": 0.3489442063030994,
+              "scale_method": "std",
+              "z_score": 0.16806999999999994,
+              "trend_score": 0.16806999999999994,
+              "label": "flat",
+              "label_reason": "z=0.1681 against threshold=1.5 over 8 residual weeks",
+              "observed_weeks_used": 50,
+              "residual_points_used": 8,
+              "gap_policy": "zero",
+              "unit": "count",
+              "feature_version": "signals/0.1.0",
+              "trend_id": "trend-signal:3c7188afbe0c0a340a8a",
+              "config_fingerprint": "15641c8a5e33",
+              "alpha": 0.3,
+              "window": 8,
+              "threshold": 1.5,
+              "min_history": 4,
+              "interpretation": "describes observed weekly activity relative to its own recent baseline; not a prediction of future performance"
+            }
+          }
+        ],
+        "rendered": "source-record:0237b72c-c6e8-572b-b9ed-787658d33906 -[ABOUT]-> startup:crewai ; trend-signal:3c7188afbe0c0a340a8a -[DERIVED_FROM]-> source-record:0237b72c-c6e8-572b-b9ed-787658d33906"
+      },
+      {
+        "steps": [
+          {
+            "from": "source-record:0237b72c-c6e8-572b-b9ed-787658d33906",
+            "type": "ABOUT",
+            "to": "startup:crewai"
+          },
+          {
+            "from": "trend-signal:8e7bde6bd85dc595b1ab",
+            "type": "DERIVED_FROM",
+            "to": "source-record:0237b72c-c6e8-572b-b9ed-787658d33906"
+          }
+        ],
+        "nodes": [
+          {
+            "id": "startup:crewai",
+            "label": "Startup",
+            "properties": {
+              "company_id": "crewai",
+              "name": null
+            }
+          },
+          {
+            "id": "source-record:0237b72c-c6e8-572b-b9ed-787658d33906",
+            "label": "SourceRecord",
+            "properties": {
+              "record_id": "0237b72c-c6e8-572b-b9ed-787658d33906",
+              "source_type": "company",
+              "source_url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.41",
+              "title": "1.15.41",
+              "passage": "## What's Changed ### Features - Allow approved private URL hosts. ### Bug Fixes - Fix projects to depend on PyMuPDF 2.x. - Drop a real storage URL from the URL read tests. - Keep earlier step outputs across a human-feedback resume. - Strip cache_breakpoint marker on the LiteLLM path. ### Documentation - Snapshot and changelog for v1.15.40. ## Contributors @Vidit-Ostwal, @gabemilani, @github-actions[bot], @lorenzejay",
+              "event_at": "2026-11-12T18:42:07Z",
+              "published_at": "2026-11-12T18:42:07Z",
+              "observed_at": "2026-11-21T06:14:33Z",
+              "content_hash": "23efa9a865bae21b2ffa38895905d8832f434efb78e098597dfbfa0641b040d4",
+              "origin_cluster_id": "84df5c1f19d3ea15",
+              "collector_version": "real-release-corpus/1.0"
+            }
+          },
+          {
+            "id": "trend-signal:8e7bde6bd85dc595b1ab",
+            "label": "TrendSignal",
+            "properties": {
+              "series_id": "news:documents|company=crewai",
+              "metric": "documents",
+              "signal_family": "news",
+              "entity_type": "company",
+              "entity_id": "crewai",
+              "company_id": "crewai",
+              "iso_week": "2026-W47",
+              "week_start": "2026-11-16T00:00:00Z",
+              "week_end": "2026-11-23T00:00:00Z",
+              "value": 3.0,
+              "value_state": "observed",
+              "ewma_baseline": 1.9992509999999997,
+              "residual": 1.0007490000000003,
+              "scale": 0.7158173955427134,
+              "scale_method": "std",
+              "z_score": 1.0007490000000003,
+              "trend_score": 1.0007490000000003,
+              "label": "flat",
+              "label_reason": "z=1.0007 against threshold=1.5 over 8 residual weeks",
+              "observed_weeks_used": 51,
+              "residual_points_used": 8,
+              "gap_policy": "zero",
+              "unit": "count",
+              "feature_version": "signals/0.1.0",
+              "trend_id": "trend-signal:8e7bde6bd85dc595b1ab",
+              "config_fingerprint": "15641c8a5e33",
+              "alpha": 0.3,
+              "window": 8,
+              "threshold": 1.5,
+              "min_history": 4,
+              "interpretation": "describes observed weekly activity relative to its own recent baseline; not a prediction of future performance"
+            }
+          }
+        ],
+        "rendered": "source-record:0237b72c-c6e8-572b-b9ed-787658d33906 -[ABOUT]-> startup:crewai ; trend-signal:8e7bde6bd85dc595b1ab -[DERIVED_FROM]-> source-record:0237b72c-c6e8-572b-b9ed-787658d33906"
+      },
+      {
+        "steps": [
+          {
+            "from": "source-record:0237b72c-c6e8-572b-b9ed-787658d33906",
+            "type": "ABOUT",
+            "to": "startup:crewai"
+          },
+          {
+            "from": "trend-signal:aaa9f2a7c57555d80480",
+            "type": "DERIVED_FROM",
+            "to": "source-record:0237b72c-c6e8-572b-b9ed-787658d33906"
+          }
+        ],
+        "nodes": [
+          {
+            "id": "startup:crewai",
+            "label": "Startup",
+            "properties": {
+              "company_id": "crewai",
+              "name": null
+            }
+          },
+          {
+            "id": "source-record:0237b72c-c6e8-572b-b9ed-787658d33906",
+            "label": "SourceRecord",
+            "properties": {
+              "record_id": "0237b72c-c6e8-572b-b9ed-787658d33906",
+              "source_type": "company",
+              "source_url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.41",
+              "title": "1.15.41",
+              "passage": "## What's Changed ### Features - Allow approved private URL hosts. ### Bug Fixes - Fix projects to depend on PyMuPDF 2.x. - Drop a real storage URL from the URL read tests. - Keep earlier step outputs across a human-feedback resume. - Strip cache_breakpoint marker on the LiteLLM path. ### Documentation - Snapshot and changelog for v1.15.40. ## Contributors @Vidit-Ostwal, @gabemilani, @github-actions[bot], @lorenzejay",
+              "event_at": "2026-11-12T18:42:07Z",
+              "published_at": "2026-11-12T18:42:07Z",
+              "observed_at": "2026-11-21T06:14:33Z",
+              "content_hash": "23efa9a865bae21b2ffa38895905d8832f434efb78e098597dfbfa0641b040d4",
+              "origin_cluster_id": "84df5c1f19d3ea15",
+              "collector_version": "real-release-corpus/1.0"
+            }
+          },
+          {
+            "id": "trend-signal:aaa9f2a7c57555d80480",
+            "label": "TrendSignal",
+            "properties": {
+              "series_id": "news:distinct_origins|company=crewai",
+              "metric": "distinct_origins",
+              "signal_family": "news",
+              "entity_type": "company",
+              "entity_id": "crewai",
+              "company_id": "crewai",
+              "iso_week": "2026-W47",
+              "week_start": "2026-11-16T00:00:00Z",
+              "week_end": "2026-11-23T00:00:00Z",
+              "value": 3.0,
+              "value_state": "observed",
+              "ewma_baseline": 1.9992509999999997,
+              "residual": 1.0007490000000003,
+              "scale": 0.7158173955427134,
+              "scale_method": "std",
+              "z_score": 1.0007490000000003,
+              "trend_score": 1.0007490000000003,
+              "label": "flat",
+              "label_reason": "z=1.0007 against threshold=1.5 over 8 residual weeks",
+              "observed_weeks_used": 51,
+              "residual_points_used": 8,
+              "gap_policy": "zero",
+              "unit": "count",
+              "feature_version": "signals/0.1.0",
+              "trend_id": "trend-signal:aaa9f2a7c57555d80480",
+              "config_fingerprint": "15641c8a5e33",
+              "alpha": 0.3,
+              "window": 8,
+              "threshold": 1.5,
+              "min_history": 4,
+              "interpretation": "describes observed weekly activity relative to its own recent baseline; not a prediction of future performance"
+            }
+          }
+        ],
+        "rendered": "source-record:0237b72c-c6e8-572b-b9ed-787658d33906 -[ABOUT]-> startup:crewai ; trend-signal:aaa9f2a7c57555d80480 -[DERIVED_FROM]-> source-record:0237b72c-c6e8-572b-b9ed-787658d33906"
+      },
+      {
+        "steps": [
+          {
+            "from": "source-record:0237b72c-c6e8-572b-b9ed-787658d33906",
+            "type": "ABOUT",
+            "to": "startup:crewai"
+          },
+          {
+            "from": "trend-signal:b86cf0b94df36584b930",
+            "type": "DERIVED_FROM",
+            "to": "source-record:0237b72c-c6e8-572b-b9ed-787658d33906"
+          }
+        ],
+        "nodes": [
+          {
+            "id": "startup:crewai",
+            "label": "Startup",
+            "properties": {
+              "company_id": "crewai",
+              "name": null
+            }
+          },
+          {
+            "id": "source-record:0237b72c-c6e8-572b-b9ed-787658d33906",
+            "label": "SourceRecord",
+            "properties": {
+              "record_id": "0237b72c-c6e8-572b-b9ed-787658d33906",
+              "source_type": "company",
+              "source_url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.41",
+              "title": "1.15.41",
+              "passage": "## What's Changed ### Features - Allow approved private URL hosts. ### Bug Fixes - Fix projects to depend on PyMuPDF 2.x. - Drop a real storage URL from the URL read tests. - Keep earlier step outputs across a human-feedback resume. - Strip cache_breakpoint marker on the LiteLLM path. ### Documentation - Snapshot and changelog for v1.15.40. ## Contributors @Vidit-Ostwal, @gabemilani, @github-actions[bot], @lorenzejay",
+              "event_at": "2026-11-12T18:42:07Z",
+              "published_at": "2026-11-12T18:42:07Z",
+              "observed_at": "2026-11-21T06:14:33Z",
+              "content_hash": "23efa9a865bae21b2ffa38895905d8832f434efb78e098597dfbfa0641b040d4",
+              "origin_cluster_id": "84df5c1f19d3ea15",
+              "collector_version": "real-release-corpus/1.0"
+            }
+          },
+          {
+            "id": "trend-signal:b86cf0b94df36584b930",
+            "label": "TrendSignal",
+            "properties": {
+              "series_id": "news:distinct_publishers|company=crewai",
+              "metric": "distinct_publishers",
+              "signal_family": "news",
+              "entity_type": "company",
+              "entity_id": "crewai",
+              "company_id": "crewai",
+              "iso_week": "2026-W47",
+              "week_start": "2026-11-16T00:00:00Z",
+              "week_end": "2026-11-23T00:00:00Z",
+              "value": 1.0,
+              "value_state": "observed",
+              "ewma_baseline": 0.8823509999999999,
+              "residual": 0.11764900000000011,
+              "scale": 0.33336790332172805,
+              "scale_method": "std",
+              "z_score": 0.11764900000000011,
+              "trend_score": 0.11764900000000011,
+              "label": "flat",
+              "label_reason": "z=0.1176 against threshold=1.5 over 8 residual weeks",
+              "observed_weeks_used": 51,
+              "residual_points_used": 8,
+              "gap_policy": "zero",
+              "unit": "count",
+              "feature_version": "signals/0.1.0",
+              "trend_id": "trend-signal:b86cf0b94df36584b930",
+              "config_fingerprint": "15641c8a5e33",
+              "alpha": 0.3,
+              "window": 8,
+              "threshold": 1.5,
+              "min_history": 4,
+              "interpretation": "describes observed weekly activity relative to its own recent baseline; not a prediction of future performance"
+            }
+          }
+        ],
+        "rendered": "source-record:0237b72c-c6e8-572b-b9ed-787658d33906 -[ABOUT]-> startup:crewai ; trend-signal:b86cf0b94df36584b930 -[DERIVED_FROM]-> source-record:0237b72c-c6e8-572b-b9ed-787658d33906"
+      },
+      {
+        "steps": [
+          {
+            "from": "source-record:0237b72c-c6e8-572b-b9ed-787658d33906",
+            "type": "ABOUT",
+            "to": "startup:crewai"
+          },
+          {
+            "from": "trend-signal:c208d3327883eadd4c2b",
+            "type": "DERIVED_FROM",
+            "to": "source-record:0237b72c-c6e8-572b-b9ed-787658d33906"
+          }
+        ],
+        "nodes": [
+          {
+            "id": "startup:crewai",
+            "label": "Startup",
+            "properties": {
+              "company_id": "crewai",
+              "name": null
+            }
+          },
+          {
+            "id": "source-record:0237b72c-c6e8-572b-b9ed-787658d33906",
+            "label": "SourceRecord",
+            "properties": {
+              "record_id": "0237b72c-c6e8-572b-b9ed-787658d33906",
+              "source_type": "company",
+              "source_url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.41",
+              "title": "1.15.41",
+              "passage": "## What's Changed ### Features - Allow approved private URL hosts. ### Bug Fixes - Fix projects to depend on PyMuPDF 2.x. - Drop a real storage URL from the URL read tests. - Keep earlier step outputs across a human-feedback resume. - Strip cache_breakpoint marker on the LiteLLM path. ### Documentation - Snapshot and changelog for v1.15.40. ## Contributors @Vidit-Ostwal, @gabemilani, @github-actions[bot], @lorenzejay",
+              "event_at": "2026-11-12T18:42:07Z",
+              "published_at": "2026-11-12T18:42:07Z",
+              "observed_at": "2026-11-21T06:14:33Z",
+              "content_hash": "23efa9a865bae21b2ffa38895905d8832f434efb78e098597dfbfa0641b040d4",
+              "origin_cluster_id": "84df5c1f19d3ea15",
+              "collector_version": "real-release-corpus/1.0"
+            }
+          },
+          {
+            "id": "trend-signal:c208d3327883eadd4c2b",
+            "label": "TrendSignal",
+            "properties": {
+              "series_id": "news:documents|company=crewai",
+              "metric": "documents",
+              "signal_family": "news",
+              "entity_type": "company",
+              "entity_id": "crewai",
+              "company_id": "crewai",
+              "iso_week": "2026-W46",
+              "week_start": "2026-11-09T00:00:00Z",
+              "week_end": "2026-11-16T00:00:00Z",
+              "value": 2.0,
+              "value_state": "observed",
+              "ewma_baseline": 1.9989299999999997,
+              "residual": 0.0010700000000003485,
+              "scale": 0.7908170215748394,
+              "scale_method": "std",
+              "z_score": 0.0010700000000003485,
+              "trend_score": 0.0010700000000003485,
+              "label": "flat",
+              "label_reason": "z=0.0011 against threshold=1.5 over 8 residual weeks",
+              "observed_weeks_used": 50,
+              "residual_points_used": 8,
+              "gap_policy": "zero",
+              "unit": "count",
+              "feature_version": "signals/0.1.0",
+              "trend_id": "trend-signal:c208d3327883eadd4c2b",
+              "config_fingerprint": "15641c8a5e33",
+              "alpha": 0.3,
+              "window": 8,
+              "threshold": 1.5,
+              "min_history": 4,
+              "interpretation": "describes observed weekly activity relative to its own recent baseline; not a prediction of future performance"
+            }
+          }
+        ],
+        "rendered": "source-record:0237b72c-c6e8-572b-b9ed-787658d33906 -[ABOUT]-> startup:crewai ; trend-signal:c208d3327883eadd4c2b -[DERIVED_FROM]-> source-record:0237b72c-c6e8-572b-b9ed-787658d33906"
+      },
+      {
+        "steps": [
+          {
+            "from": "source-record:06472cb8-466e-55fe-a85a-f421fe1d9706",
+            "type": "ABOUT",
+            "to": "startup:crewai"
+          },
+          {
+            "from": "trend-signal:01a519660e2e9ede8a43",
+            "type": "DERIVED_FROM",
+            "to": "source-record:06472cb8-466e-55fe-a85a-f421fe1d9706"
+          }
+        ],
+        "nodes": [
+          {
+            "id": "startup:crewai",
+            "label": "Startup",
+            "properties": {
+              "company_id": "crewai",
+              "name": null
+            }
+          },
+          {
+            "id": "source-record:06472cb8-466e-55fe-a85a-f421fe1d9706",
+            "label": "SourceRecord",
+            "properties": {
+              "record_id": "06472cb8-466e-55fe-a85a-f421fe1d9706",
+              "source_type": "company",
+              "source_url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.29",
+              "title": "1.15.29",
+              "passage": "## What's Changed ### Features - Add support for LiteLLM-compatible kwargs. - Implement platform application search in CLI. - Highlight action picker search in CLI. - Trace conversation routes and public replies in flow. - Select organization during login in CLI. - Add offline jev routing and guardrail evaluation runner. - Run integration app actions directly with call: tool. - Promote AgentExecutor out of experimental status. - Add Azure DocumentDB vector search integration. - Add read-only notebook text loader and standard-library jsonl loader. - Ensure crewAI eval keeps the evaluation's full data in the project. - Enable crewAI eval to run the crew itself for verdict from one command. - Allow crewAI eval to export evaluations as files. ### Bug Fixes - Fix platform integration token derivation from login. - Resolve logging issues by preserving JSON logs on serialization errors. - Skip non-UTF-8 cached skill metadata. - Fix tool actions to honor failure policies and get fresh usage budgets per kickoff. - Prevent private memories without a source from leaking to every recall. - Fix memory record retrieval order in LanceDBStorage. - Restore task description when replanning fails. - Stop agents from repeating the same tool call. - Escape scope and id values in LanceDB filters. ### Documentation - Update broken links in crewAI examples and observability guides. - Fix dead links in tools documentation. ### Refactoring - Refactor context compaction to be a BaseLLM capability. ## Contributors @Akaliup, @Arxsher, @Copilot, @D41910, @LindseyZ1205, @RaycarlLei, @Rohitkanithi, @Sakura-798, @Vidit-Ostwal, @Wilson0511, @Winoren, @abdullahajaz14, @bballhaus, @gabemilani, @iris-clawd, @joaomdmoura, @leom1919, @lorenzejay, @marcreniel, @mattatcha, @reubenjrouse, @rohitkanithi, @sandeepsnairms, @stepchanges, @subhashpolisetti, @theCyberTech, @vatsalyd",
+              "event_at": "2026-10-23T17:35:29Z",
+              "published_at": "2026-10-23T17:35:29Z",
+              "observed_at": "2026-11-21T06:14:33Z",
+              "content_hash": "995b7e74ee795d9383ed7ad1edc6be7d136395f431f54a3797209f072acbabaa",
+              "origin_cluster_id": "846fae8d241f69fb",
+              "collector_version": "real-release-corpus/1.0"
+            }
+          },
+          {
+            "id": "trend-signal:01a519660e2e9ede8a43",
+            "label": "TrendSignal",
+            "properties": {
+              "series_id": "news:distinct_origins|company=crewai",
+              "metric": "distinct_origins",
+              "signal_family": "news",
+              "entity_type": "company",
+              "entity_id": "crewai",
+              "company_id": "crewai",
+              "iso_week": "2026-W44",
+              "week_start": "2026-10-26T00:00:00Z",
+              "week_end": "2026-11-02T00:00:00Z",
+              "value": 3.0,
+              "value_state": "observed",
+              "ewma_baseline": 0.957,
+              "residual": 2.043,
+              "scale": 0.798293973331343,
+              "scale_method": "std",
+              "z_score": 2.043,
+              "trend_score": 2.043,
+              "label": "rising",
+              "label_reason": "z=2.0430 against threshold=1.5 over 8 residual weeks",
+              "observed_weeks_used": 48,
+              "residual_points_used": 8,
+              "gap_policy": "zero",
+              "unit": "count",
+              "feature_version": "signals/0.1.0",
+              "trend_id": "trend-signal:01a519660e2e9ede8a43",
+              "config_fingerprint": "15641c8a5e33",
+              "alpha": 0.3,
+              "window": 8,
+              "threshold": 1.5,
+              "min_history": 4,
+              "interpretation": "describes observed weekly activity relative to its own recent baseline; not a prediction of future performance"
+            }
+          }
+        ],
+        "rendered": "source-record:06472cb8-466e-55fe-a85a-f421fe1d9706 -[ABOUT]-> startup:crewai ; trend-signal:01a519660e2e9ede8a43 -[DERIVED_FROM]-> source-record:06472cb8-466e-55fe-a85a-f421fe1d9706"
+      },
+      {
+        "steps": [
+          {
+            "from": "source-record:06472cb8-466e-55fe-a85a-f421fe1d9706",
+            "type": "ABOUT",
+            "to": "startup:crewai"
+          },
+          {
+            "from": "trend-signal:165a679162963cfcdd95",
+            "type": "DERIVED_FROM",
+            "to": "source-record:06472cb8-466e-55fe-a85a-f421fe1d9706"
+          }
+        ],
+        "nodes": [
+          {
+            "id": "startup:crewai",
+            "label": "Startup",
+            "properties": {
+              "company_id": "crewai",
+              "name": null
+            }
+          },
+          {
+            "id": "source-record:06472cb8-466e-55fe-a85a-f421fe1d9706",
+            "label": "SourceRecord",
+            "properties": {
+              "record_id": "06472cb8-466e-55fe-a85a-f421fe1d9706",
+              "source_type": "company",
+              "source_url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.29",
+              "title": "1.15.29",
+              "passage": "## What's Changed ### Features - Add support for LiteLLM-compatible kwargs. - Implement platform application search in CLI. - Highlight action picker search in CLI. - Trace conversation routes and public replies in flow. - Select organization during login in CLI. - Add offline jev routing and guardrail evaluation runner. - Run integration app actions directly with call: tool. - Promote AgentExecutor out of experimental status. - Add Azure DocumentDB vector search integration. - Add read-only notebook text loader and standard-library jsonl loader. - Ensure crewAI eval keeps the evaluation's full data in the project. - Enable crewAI eval to run the crew itself for verdict from one command. - Allow crewAI eval to export evaluations as files. ### Bug Fixes - Fix platform integration token derivation from login. - Resolve logging issues by preserving JSON logs on serialization errors. - Skip non-UTF-8 cached skill metadata. - Fix tool actions to honor failure policies and get fresh usage budgets per kickoff. - Prevent private memories without a source from leaking to every recall. - Fix memory record retrieval order in LanceDBStorage. - Restore task description when replanning fails. - Stop agents from repeating the same tool call. - Escape scope and id values in LanceDB filters. ### Documentation - Update broken links in crewAI examples and observability guides. - Fix dead links in tools documentation. ### Refactoring - Refactor context compaction to be a BaseLLM capability. ## Contributors @Akaliup, @Arxsher, @Copilot, @D41910, @LindseyZ1205, @RaycarlLei, @Rohitkanithi, @Sakura-798, @Vidit-Ostwal, @Wilson0511, @Winoren, @abdullahajaz14, @bballhaus, @gabemilani, @iris-clawd, @joaomdmoura, @leom1919, @lorenzejay, @marcreniel, @mattatcha, @reubenjrouse, @rohitkanithi, @sandeepsnairms, @stepchanges, @subhashpolisetti, @theCyberTech, @vatsalyd",
+              "event_at": "2026-10-23T17:35:29Z",
+              "published_at": "2026-10-23T17:35:29Z",
+              "observed_at": "2026-11-21T06:14:33Z",
+              "content_hash": "995b7e74ee795d9383ed7ad1edc6be7d136395f431f54a3797209f072acbabaa",
+              "origin_cluster_id": "846fae8d241f69fb",
+              "collector_version": "real-release-corpus/1.0"
+            }
+          },
+          {
+            "id": "trend-signal:165a679162963cfcdd95",
+            "label": "TrendSignal",
+            "properties": {
+              "series_id": "news:distinct_origins|company=crewai",
+              "metric": "distinct_origins",
+              "signal_family": "news",
+              "entity_type": "company",
+              "entity_id": "crewai",
+              "company_id": "crewai",
+              "iso_week": "2026-W46",
+              "week_start": "2026-11-09T00:00:00Z",
+              "week_end": "2026-11-16T00:00:00Z",
+              "value": 2.0,
+              "value_state": "observed",
+              "ewma_baseline": 1.9989299999999997,
+              "residual": 0.0010700000000003485,
+              "scale": 0.7908170215748394,
+              "scale_method": "std",
+              "z_score": 0.0010700000000003485,
+              "trend_score": 0.0010700000000003485,
+              "label": "flat",
+              "label_reason": "z=0.0011 against threshold=1.5 over 8 residual weeks",
+              "observed_weeks_used": 50,
+              "residual_points_used": 8,
+              "gap_policy": "zero",
+              "unit": "count",
+              "feature_version": "signals/0.1.0",
+              "trend_id": "trend-signal:165a679162963cfcdd95",
+              "config_fingerprint": "15641c8a5e33",
+              "alpha": 0.3,
+              "window": 8,
+              "threshold": 1.5,
+              "min_history": 4,
+              "interpretation": "describes observed weekly activity relative to its own recent baseline; not a prediction of future performance"
+            }
+          }
+        ],
+        "rendered": "source-record:06472cb8-466e-55fe-a85a-f421fe1d9706 -[ABOUT]-> startup:crewai ; trend-signal:165a679162963cfcdd95 -[DERIVED_FROM]-> source-record:06472cb8-466e-55fe-a85a-f421fe1d9706"
+      },
+      {
+        "steps": [
+          {
+            "from": "source-record:06472cb8-466e-55fe-a85a-f421fe1d9706",
+            "type": "ABOUT",
+            "to": "startup:crewai"
+          },
+          {
+            "from": "trend-signal:3c7188afbe0c0a340a8a",
+            "type": "DERIVED_FROM",
+            "to": "source-record:06472cb8-466e-55fe-a85a-f421fe1d9706"
+          }
+        ],
+        "nodes": [
+          {
+            "id": "startup:crewai",
+            "label": "Startup",
+            "properties": {
+              "company_id": "crewai",
+              "name": null
+            }
+          },
+          {
+            "id": "source-record:06472cb8-466e-55fe-a85a-f421fe1d9706",
+            "label": "SourceRecord",
+            "properties": {
+              "record_id": "06472cb8-466e-55fe-a85a-f421fe1d9706",
+              "source_type": "company",
+              "source_url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.29",
+              "title": "1.15.29",
+              "passage": "## What's Changed ### Features - Add support for LiteLLM-compatible kwargs. - Implement platform application search in CLI. - Highlight action picker search in CLI. - Trace conversation routes and public replies in flow. - Select organization during login in CLI. - Add offline jev routing and guardrail evaluation runner. - Run integration app actions directly with call: tool. - Promote AgentExecutor out of experimental status. - Add Azure DocumentDB vector search integration. - Add read-only notebook text loader and standard-library jsonl loader. - Ensure crewAI eval keeps the evaluation's full data in the project. - Enable crewAI eval to run the crew itself for verdict from one command. - Allow crewAI eval to export evaluations as files. ### Bug Fixes - Fix platform integration token derivation from login. - Resolve logging issues by preserving JSON logs on serialization errors. - Skip non-UTF-8 cached skill metadata. - Fix tool actions to honor failure policies and get fresh usage budgets per kickoff. - Prevent private memories without a source from leaking to every recall. - Fix memory record retrieval order in LanceDBStorage. - Restore task description when replanning fails. - Stop agents from repeating the same tool call. - Escape scope and id values in LanceDB filters. ### Documentation - Update broken links in crewAI examples and observability guides. - Fix dead links in tools documentation. ### Refactoring - Refactor context compaction to be a BaseLLM capability. ## Contributors @Akaliup, @Arxsher, @Copilot, @D41910, @LindseyZ1205, @RaycarlLei, @Rohitkanithi, @Sakura-798, @Vidit-Ostwal, @Wilson0511, @Winoren, @abdullahajaz14, @bballhaus, @gabemilani, @iris-clawd, @joaomdmoura, @leom1919, @lorenzejay, @marcreniel, @mattatcha, @reubenjrouse, @rohitkanithi, @sandeepsnairms, @stepchanges, @subhashpolisetti, @theCyberTech, @vatsalyd",
+              "event_at": "2026-10-23T17:35:29Z",
+              "published_at": "2026-10-23T17:35:29Z",
+              "observed_at": "2026-11-21T06:14:33Z",
+              "content_hash": "995b7e74ee795d9383ed7ad1edc6be7d136395f431f54a3797209f072acbabaa",
+              "origin_cluster_id": "846fae8d241f69fb",
+              "collector_version": "real-release-corpus/1.0"
+            }
+          },
+          {
+            "id": "trend-signal:3c7188afbe0c0a340a8a",
+            "label": "TrendSignal",
+            "properties": {
+              "series_id": "news:distinct_publishers|company=crewai",
+              "metric": "distinct_publishers",
+              "signal_family": "news",
+              "entity_type": "company",
+              "entity_id": "crewai",
+              "company_id": "crewai",
+              "iso_week": "2026-W46",
+              "week_start": "2026-11-09T00:00:00Z",
+              "week_end": "2026-11-16T00:00:00Z",
+              "value": 1.0,
+              "value_state": "observed",
+              "ewma_baseline": 0.8319300000000001,
+              "residual": 0.16806999999999994,
+              "scale": 0.3489442063030994,
+              "scale_method": "std",
+              "z_score": 0.16806999999999994,
+              "trend_score": 0.16806999999999994,
+              "label": "flat",
+              "label_reason": "z=0.1681 against threshold=1.5 over 8 residual weeks",
+              "observed_weeks_used": 50,
+              "residual_points_used": 8,
+              "gap_policy": "zero",
+              "unit": "count",
+              "feature_version": "signals/0.1.0",
+              "trend_id": "trend-signal:3c7188afbe0c0a340a8a",
+              "config_fingerprint": "15641c8a5e33",
+              "alpha": 0.3,
+              "window": 8,
+              "threshold": 1.5,
+              "min_history": 4,
+              "interpretation": "describes observed weekly activity relative to its own recent baseline; not a prediction of future performance"
+            }
+          }
+        ],
+        "rendered": "source-record:06472cb8-466e-55fe-a85a-f421fe1d9706 -[ABOUT]-> startup:crewai ; trend-signal:3c7188afbe0c0a340a8a -[DERIVED_FROM]-> source-record:06472cb8-466e-55fe-a85a-f421fe1d9706"
+      },
+      {
+        "steps": [
+          {
+            "from": "source-record:06472cb8-466e-55fe-a85a-f421fe1d9706",
+            "type": "ABOUT",
+            "to": "startup:crewai"
+          },
+          {
+            "from": "trend-signal:52ef056d96a8254d10bc",
+            "type": "DERIVED_FROM",
+            "to": "source-record:06472cb8-466e-55fe-a85a-f421fe1d9706"
+          }
+        ],
+        "nodes": [
+          {
+            "id": "startup:crewai",
+            "label": "Startup",
+            "properties": {
+              "company_id": "crewai",
+              "name": null
+            }
+          },
+          {
+            "id": "source-record:06472cb8-466e-55fe-a85a-f421fe1d9706",
+            "label": "SourceRecord",
+            "properties": {
+              "record_id": "06472cb8-466e-55fe-a85a-f421fe1d9706",
+              "source_type": "company",
+              "source_url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.29",
+              "title": "1.15.29",
+              "passage": "## What's Changed ### Features - Add support for LiteLLM-compatible kwargs. - Implement platform application search in CLI. - Highlight action picker search in CLI. - Trace conversation routes and public replies in flow. - Select organization during login in CLI. - Add offline jev routing and guardrail evaluation runner. - Run integration app actions directly with call: tool. - Promote AgentExecutor out of experimental status. - Add Azure DocumentDB vector search integration. - Add read-only notebook text loader and standard-library jsonl loader. - Ensure crewAI eval keeps the evaluation's full data in the project. - Enable crewAI eval to run the crew itself for verdict from one command. - Allow crewAI eval to export evaluations as files. ### Bug Fixes - Fix platform integration token derivation from login. - Resolve logging issues by preserving JSON logs on serialization errors. - Skip non-UTF-8 cached skill metadata. - Fix tool actions to honor failure policies and get fresh usage budgets per kickoff. - Prevent private memories without a source from leaking to every recall. - Fix memory record retrieval order in LanceDBStorage. - Restore task description when replanning fails. - Stop agents from repeating the same tool call. - Escape scope and id values in LanceDB filters. ### Documentation - Update broken links in crewAI examples and observability guides. - Fix dead links in tools documentation. ### Refactoring - Refactor context compaction to be a BaseLLM capability. ## Contributors @Akaliup, @Arxsher, @Copilot, @D41910, @LindseyZ1205, @RaycarlLei, @Rohitkanithi, @Sakura-798, @Vidit-Ostwal, @Wilson0511, @Winoren, @abdullahajaz14, @bballhaus, @gabemilani, @iris-clawd, @joaomdmoura, @leom1919, @lorenzejay, @marcreniel, @mattatcha, @reubenjrouse, @rohitkanithi, @sandeepsnairms, @stepchanges, @subhashpolisetti, @theCyberTech, @vatsalyd",
+              "event_at": "2026-10-23T17:35:29Z",
+              "published_at": "2026-10-23T17:35:29Z",
+              "observed_at": "2026-11-21T06:14:33Z",
+              "content_hash": "995b7e74ee795d9383ed7ad1edc6be7d136395f431f54a3797209f072acbabaa",
+              "origin_cluster_id": "846fae8d241f69fb",
+              "collector_version": "real-release-corpus/1.0"
+            }
+          },
+          {
+            "id": "trend-signal:52ef056d96a8254d10bc",
+            "label": "TrendSignal",
+            "properties": {
+              "series_id": "news:distinct_origins|company=crewai",
+              "metric": "distinct_origins",
+              "signal_family": "news",
+              "entity_type": "company",
+              "entity_id": "crewai",
+              "company_id": "crewai",
+              "iso_week": "2026-W45",
+              "week_start": "2026-11-02T00:00:00Z",
+              "week_end": "2026-11-09T00:00:00Z",
+              "value": 3.0,
+              "value_state": "observed",
+              "ewma_baseline": 1.5698999999999999,
+              "residual": 1.4301000000000001,
+              "scale": 0.7909779036781893,
+              "scale_method": "std",
+              "z_score": 1.4301000000000001,
+              "trend_score": 1.4301000000000001,
+              "label": "flat",
+              "label_reason": "z=1.4301 against threshold=1.5 over 8 residual weeks",
+              "observed_weeks_used": 49,
+              "residual_points_used": 8,
+              "gap_policy": "zero",
+              "unit": "count",
+              "feature_version": "signals/0.1.0",
+              "trend_id": "trend-signal:52ef056d96a8254d10bc",
+              "config_fingerprint": "15641c8a5e33",
+              "alpha": 0.3,
+              "window": 8,
+              "threshold": 1.5,
+              "min_history": 4,
+              "interpretation": "describes observed weekly activity relative to its own recent baseline; not a prediction of future performance"
+            }
+          }
+        ],
+        "rendered": "source-record:06472cb8-466e-55fe-a85a-f421fe1d9706 -[ABOUT]-> startup:crewai ; trend-signal:52ef056d96a8254d10bc -[DERIVED_FROM]-> source-record:06472cb8-466e-55fe-a85a-f421fe1d9706"
+      },
+      {
+        "steps": [
+          {
+            "from": "source-record:06472cb8-466e-55fe-a85a-f421fe1d9706",
+            "type": "ABOUT",
+            "to": "startup:crewai"
+          },
+          {
+            "from": "trend-signal:70ccce8d8da272118387",
+            "type": "DERIVED_FROM",
+            "to": "source-record:06472cb8-466e-55fe-a85a-f421fe1d9706"
+          }
+        ],
+        "nodes": [
+          {
+            "id": "startup:crewai",
+            "label": "Startup",
+            "properties": {
+              "company_id": "crewai",
+              "name": null
+            }
+          },
+          {
+            "id": "source-record:06472cb8-466e-55fe-a85a-f421fe1d9706",
+            "label": "SourceRecord",
+            "properties": {
+              "record_id": "06472cb8-466e-55fe-a85a-f421fe1d9706",
+              "source_type": "company",
+              "source_url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.29",
+              "title": "1.15.29",
+              "passage": "## What's Changed ### Features - Add support for LiteLLM-compatible kwargs. - Implement platform application search in CLI. - Highlight action picker search in CLI. - Trace conversation routes and public replies in flow. - Select organization during login in CLI. - Add offline jev routing and guardrail evaluation runner. - Run integration app actions directly with call: tool. - Promote AgentExecutor out of experimental status. - Add Azure DocumentDB vector search integration. - Add read-only notebook text loader and standard-library jsonl loader. - Ensure crewAI eval keeps the evaluation's full data in the project. - Enable crewAI eval to run the crew itself for verdict from one command. - Allow crewAI eval to export evaluations as files. ### Bug Fixes - Fix platform integration token derivation from login. - Resolve logging issues by preserving JSON logs on serialization errors. - Skip non-UTF-8 cached skill metadata. - Fix tool actions to honor failure policies and get fresh usage budgets per kickoff. - Prevent private memories without a source from leaking to every recall. - Fix memory record retrieval order in LanceDBStorage. - Restore task description when replanning fails. - Stop agents from repeating the same tool call. - Escape scope and id values in LanceDB filters. ### Documentation - Update broken links in crewAI examples and observability guides. - Fix dead links in tools documentation. ### Refactoring - Refactor context compaction to be a BaseLLM capability. ## Contributors @Akaliup, @Arxsher, @Copilot, @D41910, @LindseyZ1205, @RaycarlLei, @Rohitkanithi, @Sakura-798, @Vidit-Ostwal, @Wilson0511, @Winoren, @abdullahajaz14, @bballhaus, @gabemilani, @iris-clawd, @joaomdmoura, @leom1919, @lorenzejay, @marcreniel, @mattatcha, @reubenjrouse, @rohitkanithi, @sandeepsnairms, @stepchanges, @subhashpolisetti, @theCyberTech, @vatsalyd",
+              "event_at": "2026-10-23T17:35:29Z",
+              "published_at": "2026-10-23T17:35:29Z",
+              "observed_at": "2026-11-21T06:14:33Z",
+              "content_hash": "995b7e74ee795d9383ed7ad1edc6be7d136395f431f54a3797209f072acbabaa",
+              "origin_cluster_id": "846fae8d241f69fb",
+              "collector_version": "real-release-corpus/1.0"
+            }
+          },
+          {
+            "id": "trend-signal:70ccce8d8da272118387",
+            "label": "TrendSignal",
+            "properties": {
+              "series_id": "news:distinct_publishers|company=crewai",
+              "metric": "distinct_publishers",
+              "signal_family": "news",
+              "entity_type": "company",
+              "entity_id": "crewai",
+              "company_id": "crewai",
+              "iso_week": "2026-W43",
+              "week_start": "2026-10-19T00:00:00Z",
+              "week_end": "2026-10-26T00:00:00Z",
+              "value": 1.0,
+              "value_state": "observed",
+              "ewma_baseline": 0.51,
+              "residual": 0.49,
+              "scale": 0.4018861779160861,
+              "scale_method": "std",
+              "z_score": 0.49,
+              "trend_score": 0.49,
+              "label": "flat",
+              "label_reason": "z=0.4900 against threshold=1.5 over 8 residual weeks",
+              "observed_weeks_used": 47,
+              "residual_points_used": 8,
+              "gap_policy": "zero",
+              "unit": "count",
+              "feature_version": "signals/0.1.0",
+              "trend_id": "trend-signal:70ccce8d8da272118387",
+              "config_fingerprint": "15641c8a5e33",
+              "alpha": 0.3,
+              "window": 8,
+              "threshold": 1.5,
+              "min_history": 4,
+              "interpretation": "describes observed weekly activity relative to its own recent baseline; not a prediction of future performance"
+            }
+          }
+        ],
+        "rendered": "source-record:06472cb8-466e-55fe-a85a-f421fe1d9706 -[ABOUT]-> startup:crewai ; trend-signal:70ccce8d8da272118387 -[DERIVED_FROM]-> source-record:06472cb8-466e-55fe-a85a-f421fe1d9706"
+      },
+      {
+        "steps": [
+          {
+            "from": "source-record:06472cb8-466e-55fe-a85a-f421fe1d9706",
+            "type": "ABOUT",
+            "to": "startup:crewai"
+          },
+          {
+            "from": "trend-signal:80ed1318d0c930d22ab7",
+            "type": "DERIVED_FROM",
+            "to": "source-record:06472cb8-466e-55fe-a85a-f421fe1d9706"
+          }
+        ],
+        "nodes": [
+          {
+            "id": "startup:crewai",
+            "label": "Startup",
+            "properties": {
+              "company_id": "crewai",
+              "name": null
+            }
+          },
+          {
+            "id": "source-record:06472cb8-466e-55fe-a85a-f421fe1d9706",
+            "label": "SourceRecord",
+            "properties": {
+              "record_id": "06472cb8-466e-55fe-a85a-f421fe1d9706",
+              "source_type": "company",
+              "source_url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.29",
+              "title": "1.15.29",
+              "passage": "## What's Changed ### Features - Add support for LiteLLM-compatible kwargs. - Implement platform application search in CLI. - Highlight action picker search in CLI. - Trace conversation routes and public replies in flow. - Select organization during login in CLI. - Add offline jev routing and guardrail evaluation runner. - Run integration app actions directly with call: tool. - Promote AgentExecutor out of experimental status. - Add Azure DocumentDB vector search integration. - Add read-only notebook text loader and standard-library jsonl loader. - Ensure crewAI eval keeps the evaluation's full data in the project. - Enable crewAI eval to run the crew itself for verdict from one command. - Allow crewAI eval to export evaluations as files. ### Bug Fixes - Fix platform integration token derivation from login. - Resolve logging issues by preserving JSON logs on serialization errors. - Skip non-UTF-8 cached skill metadata. - Fix tool actions to honor failure policies and get fresh usage budgets per kickoff. - Prevent private memories without a source from leaking to every recall. - Fix memory record retrieval order in LanceDBStorage. - Restore task description when replanning fails. - Stop agents from repeating the same tool call. - Escape scope and id values in LanceDB filters. ### Documentation - Update broken links in crewAI examples and observability guides. - Fix dead links in tools documentation. ### Refactoring - Refactor context compaction to be a BaseLLM capability. ## Contributors @Akaliup, @Arxsher, @Copilot, @D41910, @LindseyZ1205, @RaycarlLei, @Rohitkanithi, @Sakura-798, @Vidit-Ostwal, @Wilson0511, @Winoren, @abdullahajaz14, @bballhaus, @gabemilani, @iris-clawd, @joaomdmoura, @leom1919, @lorenzejay, @marcreniel, @mattatcha, @reubenjrouse, @rohitkanithi, @sandeepsnairms, @stepchanges, @subhashpolisetti, @theCyberTech, @vatsalyd",
+              "event_at": "2026-10-23T17:35:29Z",
+              "published_at": "2026-10-23T17:35:29Z",
+              "observed_at": "2026-11-21T06:14:33Z",
+              "content_hash": "995b7e74ee795d9383ed7ad1edc6be7d136395f431f54a3797209f072acbabaa",
+              "origin_cluster_id": "846fae8d241f69fb",
+              "collector_version": "real-release-corpus/1.0"
+            }
+          },
+          {
+            "id": "trend-signal:80ed1318d0c930d22ab7",
+            "label": "TrendSignal",
+            "properties": {
+              "series_id": "news:documents|company=crewai",
+              "metric": "documents",
+              "signal_family": "news",
+              "entity_type": "company",
+              "entity_id": "crewai",
+              "company_id": "crewai",
+              "iso_week": "2026-W43",
+              "week_start": "2026-10-19T00:00:00Z",
+              "week_end": "2026-10-26T00:00:00Z",
+              "value": 2.0,
+              "value_state": "observed",
+              "ewma_baseline": 0.51,
+              "residual": 1.49,
+              "scale": 0.5901679543025987,
+              "scale_method": "std",
+              "z_score": 1.49,
+              "trend_score": 1.49,
+              "label": "flat",
+              "label_reason": "z=1.4900 against threshold=1.5 over 8 residual weeks",
+              "observed_weeks_used": 47,
+              "residual_points_used": 8,
+              "gap_policy": "zero",
+              "unit": "count",
+              "feature_version": "signals/0.1.0",
+              "trend_id": "trend-signal:80ed1318d0c930d22ab7",
+              "config_fingerprint": "15641c8a5e33",
+              "alpha": 0.3,
+              "window": 8,
+              "threshold": 1.5,
+              "min_history": 4,
+              "interpretation": "describes observed weekly activity relative to its own recent baseline; not a prediction of future performance"
+            }
+          }
+        ],
+        "rendered": "source-record:06472cb8-466e-55fe-a85a-f421fe1d9706 -[ABOUT]-> startup:crewai ; trend-signal:80ed1318d0c930d22ab7 -[DERIVED_FROM]-> source-record:06472cb8-466e-55fe-a85a-f421fe1d9706"
+      }
+    ],
+    "evidence_states": [
+      {
+        "text": "# What's Changed ### Features - Add experimental conversational Agent sessions.",
+        "state": "emerging",
+        "reason": "a single documentary origin supports this claim and nothing contradicts it"
+      },
+      {
+        "text": "## What's Changed ### Features - Add standalone LiteLLM catalog PR before version bump - Record where crewai run stops before kickoff - Add crewai skill search to list the organization's skills - Pass crewai run --inputs to a Python flow - Add deploy create --zip and print the commit a zip is built from - Document age…",
+        "state": "emerging",
+        "reason": "a single documentary origin supports this claim and nothing contradicts it"
+      },
+      {
+        "text": "## What's Changed ### Features - Add capability to save files as versioned, shareable artifacts.",
+        "state": "emerging",
+        "reason": "a single documentary origin supports this claim and nothing contradicts it"
+      },
+      {
+        "text": "## What's Changed ### Features - Make gpt-6-luna crewAI's default model everywhere - Read spreadsheet URLs in an agent's input with tools over every row - Tag eval usage spans with target and a per-evaluation id - Add --no-open to crewai eval for headless use ### Bug Fixes - Count a crewai eval run that exits with an…",
+        "state": "emerging",
+        "reason": "a single documentary origin supports this claim and nothing contradicts it"
+      }
+    ]
+  },
+  "q-unsupported-acquisition:citations_plus_state_and_path": {
+    "question_id": "q-unsupported-acquisition",
+    "question": "Which frozen cohort company acquired Anthropic in 2024?",
+    "answer_text": "I cannot answer this from the frozen snapshot. the question asks about calendar year 2024, which ends before the collection window opens at 2025-11-01T00:00:00Z; the snapshot holds no evidence from that period.",
+    "citations": [],
+    "overall_state": "insufficient",
+    "graph_paths": [],
+    "evidence_states": []
+  },
+  "q-pilot-github-mlops:citations_only": {
+    "question_id": "q-pilot-github-mlops",
+    "question": "Which agent-infrastructure startups show both rising GitHub activity and new MLOps hiring in the last eight weeks?",
+    "answer_text": "For the last 8 weeks before 2026-11-21T06:14:33Z, from 8 retrieved item(s):\n- # What's Changed ### Features - Add experimental conversational Agent sessions. [1]\n- ## What's Changed ### Features - Add standalone LiteLLM catalog PR before version bump - Record where crewai run stops before kickoff - Add crewai skill search to list the organization's skills - Pass crewai run --inputs to a Python flow - Add deploy create --zip and print the commit a zip is built from - Document age… [2]\n- ## What's Changed ### Features - Add capability to save files as versioned, shareable artifacts. [3]\n- ## What's Changed ### Features - Make gpt-6-luna crewAI's default model everywhere - Read spreadsheet URLs in an agent's input with tools over every row - Tag eval usage spans with target and a per-evaluation id - Add --no-open to crewai eval for headless use ### Bug Fixes - Count a crewai eval run that exits with an… [4]",
+    "citations": [
+      {
+        "number": 1,
+        "title": "1.15.36",
+        "source_url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.36",
+        "text": "# What's Changed ### Features - Add experimental conversational Agent sessions. - Ask for a missing API key when crewai run starts. - Record the error class when crewai run cannot load a project. - Name the apps CrewAI AMP cannot resolve for an agent. ### Bug Fixes - Fix async call execution in the caller's context for sync tools. - Resolve issue with empty value precedence in the run's key check."
+      },
+      {
+        "number": 2,
+        "title": "1.15.34",
+        "source_url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.34",
+        "text": "## What's Changed ### Features - Add standalone LiteLLM catalog PR before version bump - Record where crewai run stops before kickoff - Add crewai skill search to list the organization's skills - Pass crewai run --inputs to a Python flow - Add deploy create --zip and print the commit a zip is built from - Document agent planning with planningconfig and migrate reasoning page ### Bug Fixes - Stop o"
+      },
+      {
+        "number": 3,
+        "title": "1.15.44",
+        "source_url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.44",
+        "text": "## What's Changed ### Features - Add capability to save files as versioned, shareable artifacts. ### Bug Fixes - Fix inline agent and crew action references relative to the flow file. - Stop duplicating kept separators when merging chunks. - Isolate nested defaults from a shared flow declaration. - Restrict Pillow to PNG, JPEG, GIF, and WEBP when opening images. - Reset cache eviction order on cle"
+      },
+      {
+        "number": 4,
+        "title": "1.15.38",
+        "source_url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.38",
+        "text": "## What's Changed ### Features - Make gpt-6-luna crewAI's default model everywhere - Read spreadsheet URLs in an agent's input with tools over every row - Tag eval usage spans with target and a per-evaluation id - Add --no-open to crewai eval for headless use ### Bug Fixes - Count a crewai eval run that exits with an error as run_failed - Create the project .env owner-only when crewai eval turns t"
+      },
+      {
+        "number": 5,
+        "title": "1.15.33",
+        "source_url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.33",
+        "text": "## What's Changed ### Features - Add `crewai skill search` to list the organization's skills - Pass `crewai run --inputs` to a Python flow - Add `deploy create --zip` and print the commit a zip is built from ### Bug Fixes - Report token usage for LiteLLM tool-call and structured-output calls - Restore recent backwards-compatible imports and token - Let the JSON crew runner load against an older cr"
+      },
+      {
+        "number": 6,
+        "title": "Independent documentary origins for one startup.",
+        "source_url": null,
+        "text": "[{\"company_id\": \"crewai\", \"independent_origins\": 15, \"origin_cluster_ids\": [\"1109ea2dd595a165\", \"2c5c1a302baa91ba\", \"4c5ffd6889c9eb1d\", \"62d98f6299497ee8\", \"6d3fea39f0d5a6a6\", \"71824e8f7a7fc771\", \"846fae8d241f69fb\", \"84df5c1f19d3ea15\", \"8a62708e08c12301\", \"cf3c098bb247391a\", \"d6ebdb5374f4aeee\", \"dac3e81b9670df3c\", \"e632853a962ca7e5\", \"e6e670af27177e89\", \"ec65d8e77bae17f1\"]}]"
+      },
+      {
+        "number": 7,
+        "title": "Independent documentary origins for one startup.",
+        "source_url": null,
+        "text": "[{\"company_id\": \"langchain\", \"independent_origins\": 15, \"origin_cluster_ids\": [\"285e2a7964b05cb3\", \"28b59beabe4d5a66\", \"2940d0d6c78b0628\", \"3003d0e4ec081578\", \"683a552668f141c7\", \"7f0852611831db2f\", \"86e51c515335ad94\", \"94bde3db0a23b9ce\", \"ba879e98964ada39\", \"c2de3dd4b16d325e\", \"d288a90f22f7891f\", \"ecfc2ce5483dc892\", \"efecdc8abbb91ee2\", \"f860fa769f3e646a\", \"fa2689f1fbd1cba2\"]}]"
+      },
+      {
+        "number": 8,
+        "title": "Independent documentary origins for one startup.",
+        "source_url": null,
+        "text": "[{\"company_id\": \"llamaindex\", \"independent_origins\": 15, \"origin_cluster_ids\": [\"0135c9be89ddad56\", \"069a156de7e68f94\", \"07543f4ab00099db\", \"172d052d12dca603\", \"3311a15a371be05b\", \"50da8229717ee479\", \"61ca5a14ac6b4d8b\", \"6f40967fddb7fa5b\", \"994a48e90a5ee3ef\", \"a2f279c02eab7797\", \"a8c296cfac9b9c39\", \"a94848fc67cc2398\", \"b0fe2e85015610c8\", \"b4396400cc071f3b\", \"f15a335fe7d11c97\"]}]"
+      }
+    ]
+  },
+  "q-unsupported-acquisition:citations_only": {
+    "question_id": "q-unsupported-acquisition",
+    "question": "Which frozen cohort company acquired Anthropic in 2024?",
+    "answer_text": "I cannot answer this from the frozen snapshot. the question asks about calendar year 2024, which ends before the collection window opens at 2025-11-01T00:00:00Z; the snapshot holds no evidence from that period.",
+    "citations": []
+  },
+  "q-future-performance:citations_plus_state_and_path": {
+    "question_id": "q-future-performance",
+    "question": "Which company in the cohort will have the highest valuation in 2027?",
+    "answer_text": "I cannot answer this from the frozen snapshot. the question refers to '2027', which is after the snapshot anchor 2026-11-21T06:14:33Z; no retrieval over this snapshot can support an answer.",
+    "citations": [],
+    "overall_state": "insufficient",
+    "graph_paths": [],
+    "evidence_states": []
+  },
+  "q-investors-later-hiring:citations_plus_state_and_path": {
+    "question_id": "q-investors-later-hiring",
+    "question": "Which investors funded startups that later increased hiring for retrieval or evaluation skills?",
+    "answer_text": "For the full snapshot, from 8 retrieved item(s):\n- ## What's Changed ### Features - Make gpt-6-luna crewAI's default model everywhere - Read spreadsheet URLs in an agent's input with tools over every row - Tag eval usage spans with target and a per-evaluation id - Add --no-open to crewai eval for headless use ### Bug Fixes - Count a crewai eval run that exits with an… [1]\n- ## What's Changed ### Features - Add support for LiteLLM-compatible kwargs. [2]\n- ## What's Changed ### Features - Add capability to save files as versioned, shareable artifacts. [3]\n- Changes since langchain-openai==1.8.3 release(openai): 1.8.4 (#41962) chore(langchain): require `langgraph` 1.2.16 or newer (#41959) fix(openai): classify in-stream server errors as retryable (#41952) [4]",
+    "citations": [
+      {
+        "number": 1,
+        "title": "1.15.38",
+        "source_url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.38",
+        "text": "## What's Changed ### Features - Make gpt-6-luna crewAI's default model everywhere - Read spreadsheet URLs in an agent's input with tools over every row - Tag eval usage spans with target and a per-evaluation id - Add --no-open to crewai eval for headless use ### Bug Fixes - Count a crewai eval run that exits with an error as run_failed - Create the project .env owner-only when crewai eval turns t"
+      },
+      {
+        "number": 2,
+        "title": "1.15.29",
+        "source_url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.29",
+        "text": "## What's Changed ### Features - Add support for LiteLLM-compatible kwargs. - Implement platform application search in CLI. - Highlight action picker search in CLI. - Trace conversation routes and public replies in flow. - Select organization during login in CLI. - Add offline jev routing and guardrail evaluation runner. - Run integration app actions directly with call: tool. - Promote AgentExecut"
+      },
+      {
+        "number": 3,
+        "title": "1.15.44",
+        "source_url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.44",
+        "text": "## What's Changed ### Features - Add capability to save files as versioned, shareable artifacts. ### Bug Fixes - Fix inline agent and crew action references relative to the flow file. - Stop duplicating kept separators when merging chunks. - Isolate nested defaults from a shared flow declaration. - Restrict Pillow to PNG, JPEG, GIF, and WEBP when opening images. - Reset cache eviction order on cle"
+      },
+      {
+        "number": 4,
+        "title": "langchain-openai==1.8.4",
+        "source_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.8.4",
+        "text": "Changes since langchain-openai==1.8.3 release(openai): 1.8.4 (#41962) chore(langchain): require `langgraph` 1.2.16 or newer (#41959) fix(openai): classify in-stream server errors as retryable (#41952)"
+      },
+      {
+        "number": 5,
+        "title": "v0.14.19",
+        "source_url": "https://github.com/run-llama/llama_index/releases/tag/v0.14.19",
+        "text": "# Release Notes ## [2026-03-25] ### llama-index-agent-agentmesh [0.2.0] - chore(deps): bump the uv group across 49 directories with 1 update ([#21083](https://github.com/run-llama/llama_index/pull/21083)) ### llama-index-callbacks-argilla [0.5.0] - chore(deps): bump the uv group across 3 directories with 1 update ([#21069](https://github.com/run-llama/llama_index/pull/21069)) ### llama-index-core "
+      },
+      {
+        "number": 6,
+        "title": "Independent documentary origins for one startup.",
+        "source_url": null,
+        "text": "[{\"company_id\": \"crewai\", \"independent_origins\": 15, \"origin_cluster_ids\": [\"1109ea2dd595a165\", \"2c5c1a302baa91ba\", \"4c5ffd6889c9eb1d\", \"62d98f6299497ee8\", \"6d3fea39f0d5a6a6\", \"71824e8f7a7fc771\", \"846fae8d241f69fb\", \"84df5c1f19d3ea15\", \"8a62708e08c12301\", \"cf3c098bb247391a\", \"d6ebdb5374f4aeee\", \"dac3e81b9670df3c\", \"e632853a962ca7e5\", \"e6e670af27177e89\", \"ec65d8e77bae17f1\"]}]"
+      },
+      {
+        "number": 7,
+        "title": "Independent documentary origins for one startup.",
+        "source_url": null,
+        "text": "[{\"company_id\": \"langchain\", \"independent_origins\": 15, \"origin_cluster_ids\": [\"285e2a7964b05cb3\", \"28b59beabe4d5a66\", \"2940d0d6c78b0628\", \"3003d0e4ec081578\", \"683a552668f141c7\", \"7f0852611831db2f\", \"86e51c515335ad94\", \"94bde3db0a23b9ce\", \"ba879e98964ada39\", \"c2de3dd4b16d325e\", \"d288a90f22f7891f\", \"ecfc2ce5483dc892\", \"efecdc8abbb91ee2\", \"f860fa769f3e646a\", \"fa2689f1fbd1cba2\"]}]"
+      },
+      {
+        "number": 8,
+        "title": "Independent documentary origins for one startup.",
+        "source_url": null,
+        "text": "[{\"company_id\": \"llamaindex\", \"independent_origins\": 15, \"origin_cluster_ids\": [\"0135c9be89ddad56\", \"069a156de7e68f94\", \"07543f4ab00099db\", \"172d052d12dca603\", \"3311a15a371be05b\", \"50da8229717ee479\", \"61ca5a14ac6b4d8b\", \"6f40967fddb7fa5b\", \"994a48e90a5ee3ef\", \"a2f279c02eab7797\", \"a8c296cfac9b9c39\", \"a94848fc67cc2398\", \"b0fe2e85015610c8\", \"b4396400cc071f3b\", \"f15a335fe7d11c97\"]}]"
+      }
+    ],
+    "overall_state": "emerging",
+    "graph_paths": [],
+    "evidence_states": [
+      {
+        "text": "## What's Changed ### Features - Make gpt-6-luna crewAI's default model everywhere - Read spreadsheet URLs in an agent's input with tools over every row - Tag eval usage spans with target and a per-evaluation id - Add --no-open to crewai eval for headless use ### Bug Fixes - Count a crewai eval run that exits with an…",
+        "state": "emerging",
+        "reason": "a single documentary origin supports this claim and nothing contradicts it"
+      },
+      {
+        "text": "## What's Changed ### Features - Add support for LiteLLM-compatible kwargs.",
+        "state": "emerging",
+        "reason": "a single documentary origin supports this claim and nothing contradicts it"
+      },
+      {
+        "text": "## What's Changed ### Features - Add capability to save files as versioned, shareable artifacts.",
+        "state": "emerging",
+        "reason": "a single documentary origin supports this claim and nothing contradicts it"
+      },
+      {
+        "text": "Changes since langchain-openai==1.8.3 release(openai): 1.8.4 (#41962) chore(langchain): require `langgraph` 1.2.16 or newer (#41959) fix(openai): classify in-stream server errors as retryable (#41952)",
+        "state": "emerging",
+        "reason": "a single documentary origin supports this claim and nothing contradicts it"
+      }
+    ]
+  },
+  "q-why-emerging:citations_plus_state_and_path": {
+    "question_id": "q-why-emerging",
+    "question": "Why is a company marked as emerging, and what evidence could change that label?",
+    "answer_text": "For the full snapshot, from 16 retrieved item(s):\n- Evidence retrieved about crewai in this window is corroborated: 5 independent origins support this claim, at or above the configured minimum of 2. [1][2][3] What would change it: a credible source disagreeing on a material value would move it to disputed. [1][2][3]\n- ## What's Changed ### Features - Add standalone LiteLLM catalog PR before version bump - Record where crewai run stops before kickoff - Add crewai skill search to list the organization's skills - Pass crewai run --inputs to a Python flow - Add deploy create --zip and print the commit a zip is built from - Document age… [1]\n- ## What's Changed ### Features - Make gpt-6-luna crewAI's default model everywhere - Read spreadsheet URLs in an agent's input with tools over every row - Tag eval usage spans with target and a per-evaluation id - Add --no-open to crewai eval for headless use ### Bug Fixes - Count a crewai eval run that exits with an… [2]\n- ## What's Changed ### Features - Make ChromaDB an optional extra - Default Knowledge to local Qdrant and decouple storage from ChromaDB - Pick tools for standalone agents and add them later ### Bug Fixes - Store output_json values as JSON to prevent date issues in .json and output_file - Give each Flow its own ID from… [3]",
+    "citations": [
+      {
+        "number": 1,
+        "title": "1.15.34",
+        "source_url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.34",
+        "text": "## What's Changed ### Features - Add standalone LiteLLM catalog PR before version bump - Record where crewai run stops before kickoff - Add crewai skill search to list the organization's skills - Pass crewai run --inputs to a Python flow - Add deploy create --zip and print the commit a zip is built from - Document agent planning with planningconfig and migrate reasoning page ### Bug Fixes - Stop o"
+      },
+      {
+        "number": 2,
+        "title": "1.15.38",
+        "source_url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.38",
+        "text": "## What's Changed ### Features - Make gpt-6-luna crewAI's default model everywhere - Read spreadsheet URLs in an agent's input with tools over every row - Tag eval usage spans with target and a per-evaluation id - Add --no-open to crewai eval for headless use ### Bug Fixes - Count a crewai eval run that exits with an error as run_failed - Create the project .env owner-only when crewai eval turns t"
+      },
+      {
+        "number": 3,
+        "title": "1.15.42",
+        "source_url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.42",
+        "text": "## What's Changed ### Features - Make ChromaDB an optional extra - Default Knowledge to local Qdrant and decouple storage from ChromaDB - Pick tools for standalone agents and add them later ### Bug Fixes - Store output_json values as JSON to prevent date issues in .json and output_file - Give each Flow its own ID from an initial_state instance - Honor max_execution_time without waiting for the wor"
+      },
+      {
+        "number": 4,
+        "title": "1.15.29",
+        "source_url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.29",
+        "text": "## What's Changed ### Features - Add support for LiteLLM-compatible kwargs. - Implement platform application search in CLI. - Highlight action picker search in CLI. - Trace conversation routes and public replies in flow. - Select organization during login in CLI. - Add offline jev routing and guardrail evaluation runner. - Run integration app actions directly with call: tool. - Promote AgentExecut"
+      },
+      {
+        "number": 5,
+        "title": "1.15.41",
+        "source_url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.41",
+        "text": "## What's Changed ### Features - Allow approved private URL hosts. ### Bug Fixes - Fix projects to depend on PyMuPDF 2.x. - Drop a real storage URL from the URL read tests. - Keep earlier step outputs across a human-feedback resume. - Strip cache_breakpoint marker on the LiteLLM path. ### Documentation - Snapshot and changelog for v1.15.40. ## Contributors @Vidit-Ostwal, @gabemilani, @github-actio"
+      },
+      {
+        "number": 6,
+        "title": "distinct_origins flat in 2026-W43",
+        "source_url": null,
+        "text": "crewai distinct_origins was 2.0 in 2026-W43 against an EWMA baseline of 0.51 (label flat, score 1.49). This describes observed activity, not a prediction."
+      },
+      {
+        "number": 7,
+        "title": "distinct_origins rising in 2026-W44",
+        "source_url": null,
+        "text": "crewai distinct_origins was 3.0 in 2026-W44 against an EWMA baseline of 0.96 (label rising, score 2.04). This describes observed activity, not a prediction."
+      },
+      {
+        "number": 8,
+        "title": "documents flat in 2026-W43",
+        "source_url": null,
+        "text": "crewai documents was 2.0 in 2026-W43 against an EWMA baseline of 0.51 (label flat, score 1.49). This describes observed activity, not a prediction."
+      },
+      {
+        "number": 9,
+        "title": "documents rising in 2026-W44",
+        "source_url": null,
+        "text": "crewai documents was 3.0 in 2026-W44 against an EWMA baseline of 0.96 (label rising, score 2.04). This describes observed activity, not a prediction."
+      },
+      {
+        "number": 10,
+        "title": "distinct_origins rising in 2026-W46",
+        "source_url": null,
+        "text": "langchain distinct_origins was 6.0 in 2026-W46 against an EWMA baseline of 0.0 (label rising, score 2.83). This describes observed activity, not a prediction."
+      },
+      {
+        "number": 11,
+        "title": "distinct_origins rising in 2026-W47",
+        "source_url": null,
+        "text": "langchain distinct_origins was 9.0 in 2026-W47 against an EWMA baseline of 1.8 (label rising, score 2.34). This describes observed activity, not a prediction."
+      },
+      {
+        "number": 12,
+        "title": "documents rising in 2026-W46",
+        "source_url": null,
+        "text": "langchain documents was 6.0 in 2026-W46 against an EWMA baseline of 0.0 (label rising, score 2.83). This describes observed activity, not a prediction."
+      },
+      {
+        "number": 13,
+        "title": "documents rising in 2026-W47",
+        "source_url": null,
+        "text": "langchain documents was 9.0 in 2026-W47 against an EWMA baseline of 1.8 (label rising, score 2.34). This describes observed activity, not a prediction."
+      },
+      {
+        "number": 14,
+        "title": "Independent documentary origins for one startup.",
+        "source_url": null,
+        "text": "[{\"company_id\": \"crewai\", \"independent_origins\": 15, \"origin_cluster_ids\": [\"1109ea2dd595a165\", \"2c5c1a302baa91ba\", \"4c5ffd6889c9eb1d\", \"62d98f6299497ee8\", \"6d3fea39f0d5a6a6\", \"71824e8f7a7fc771\", \"846fae8d241f69fb\", \"84df5c1f19d3ea15\", \"8a62708e08c12301\", \"cf3c098bb247391a\", \"d6ebdb5374f4aeee\", \"dac3e81b9670df3c\", \"e632853a962ca7e5\", \"e6e670af27177e89\", \"ec65d8e77bae17f1\"]}]"
+      },
+      {
+        "number": 15,
+        "title": "Independent documentary origins for one startup.",
+        "source_url": null,
+        "text": "[{\"company_id\": \"langchain\", \"independent_origins\": 15, \"origin_cluster_ids\": [\"285e2a7964b05cb3\", \"28b59beabe4d5a66\", \"2940d0d6c78b0628\", \"3003d0e4ec081578\", \"683a552668f141c7\", \"7f0852611831db2f\", \"86e51c515335ad94\", \"94bde3db0a23b9ce\", \"ba879e98964ada39\", \"c2de3dd4b16d325e\", \"d288a90f22f7891f\", \"ecfc2ce5483dc892\", \"efecdc8abbb91ee2\", \"f860fa769f3e646a\", \"fa2689f1fbd1cba2\"]}]"
+      },
+      {
+        "number": 16,
+        "title": "Independent documentary origins for one startup.",
+        "source_url": null,
+        "text": "[{\"company_id\": \"llamaindex\", \"independent_origins\": 15, \"origin_cluster_ids\": [\"0135c9be89ddad56\", \"069a156de7e68f94\", \"07543f4ab00099db\", \"172d052d12dca603\", \"3311a15a371be05b\", \"50da8229717ee479\", \"61ca5a14ac6b4d8b\", \"6f40967fddb7fa5b\", \"994a48e90a5ee3ef\", \"a2f279c02eab7797\", \"a8c296cfac9b9c39\", \"a94848fc67cc2398\", \"b0fe2e85015610c8\", \"b4396400cc071f3b\", \"f15a335fe7d11c97\"]}]"
+      }
+    ],
+    "overall_state": "emerging",
+    "graph_paths": [],
+    "evidence_states": [
+      {
+        "text": "Evidence retrieved about crewai in this window is corroborated: 5 independent origins support this claim, at or above the configured minimum of 2.",
+        "state": "corroborated",
+        "reason": "3 independent origins support this claim, at or above the configured minimum of 2"
+      },
+      {
+        "text": "What would change it: a credible source disagreeing on a material value would move it to disputed.",
+        "state": "corroborated",
+        "reason": "3 independent origins support this claim, at or above the configured minimum of 2"
+      },
+      {
+        "text": "## What's Changed ### Features - Add standalone LiteLLM catalog PR before version bump - Record where crewai run stops before kickoff - Add crewai skill search to list the organization's skills - Pass crewai run --inputs to a Python flow - Add deploy create --zip and print the commit a zip is built from - Document age…",
+        "state": "emerging",
+        "reason": "a single documentary origin supports this claim and nothing contradicts it"
+      },
+      {
+        "text": "## What's Changed ### Features - Make gpt-6-luna crewAI's default model everywhere - Read spreadsheet URLs in an agent's input with tools over every row - Tag eval usage spans with target and a per-evaluation id - Add --no-open to crewai eval for headless use ### Bug Fixes - Count a crewai eval run that exits with an…",
+        "state": "emerging",
+        "reason": "a single documentary origin supports this claim and nothing contradicts it"
+      },
+      {
+        "text": "## What's Changed ### Features - Make ChromaDB an optional extra - Default Knowledge to local Qdrant and decouple storage from ChromaDB - Pick tools for standalone agents and add them later ### Bug Fixes - Store output_json values as JSON to prevent date issues in .json and output_file - Give each Flow its own ID from…",
+        "state": "emerging",
+        "reason": "a single documentary origin supports this claim and nothing contradicts it"
+      }
+    ]
+  },
+  "q-sector-attention:citations_only": {
+    "question_id": "q-sector-attention",
+    "question": "Which sectors gained attention from multiple public voices and also produced operational signals?",
+    "answer_text": "For the full snapshot, from 16 retrieved item(s):\n- The agent infrastructure sector does not qualify: only 0 independent coverage origin(s) across 3 cohort companies. [14]\n- **`langchain-openai` 1.8.0 drops support for Python 3.10**, which has reached end-of-life. [1]\n- ## What's Changed ### Features - Make gpt-6-luna crewAI's default model everywhere - Read spreadsheet URLs in an agent's input with tools over every row - Tag eval usage spans with target and a per-evaluation id - Add --no-open to crewai eval for headless use ### Bug Fixes - Count a crewai eval run that exits with an… [2]\n- **`langchain-openrouter` 0.3.0 drops support for Python 3.10**, which has reached end-of-life. [3]",
+    "citations": [
+      {
+        "number": 1,
+        "title": "langchain-openai==1.8.0",
+        "source_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.8.0",
+        "text": "**`langchain-openai` 1.8.0 drops support for Python 3.10**, which has reached end-of-life. The minimum supported version is now Python 3.11, and the minimum `langchain-core` version is now 1.8.0. Users on Python 3.10 will continue to resolve `langchain-openai` 1.7.x. Changes since langchain-openai==1.7.4 release(openai): 1.8.0 (#41841) feat(openai): add OpenAIClassifier for the GA Decisions API (#"
+      },
+      {
+        "number": 2,
+        "title": "1.15.38",
+        "source_url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.38",
+        "text": "## What's Changed ### Features - Make gpt-6-luna crewAI's default model everywhere - Read spreadsheet URLs in an agent's input with tools over every row - Tag eval usage spans with target and a per-evaluation id - Add --no-open to crewai eval for headless use ### Bug Fixes - Count a crewai eval run that exits with an error as run_failed - Create the project .env owner-only when crewai eval turns t"
+      },
+      {
+        "number": 3,
+        "title": "langchain-openrouter==0.3.0",
+        "source_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openrouter%3D%3D0.3.0",
+        "text": "**`langchain-openrouter` 0.3.0 drops support for Python 3.10**, which has reached end-of-life. The minimum supported version is now Python 3.11, and the minimum `langchain-core` version is now 1.8.3. Users on Python 3.10 will continue to resolve `langchain-openrouter` 0.2.x. Changes since langchain-openrouter==0.2.9 release(openrouter): 0.3.0 (#41957) chore(model-profiles): refresh model profile d"
+      },
+      {
+        "number": 4,
+        "title": "v0.14.22",
+        "source_url": "https://github.com/run-llama/llama_index/releases/tag/v0.14.22",
+        "text": "# Release Notes ## [2026-05-14] ### llama-index-agent-agentmesh [0.2.0] - mass uv lock --upgrade ([#21638](https://github.com/run-llama/llama_index/pull/21638)) ### llama-index-callbacks-agentops [0.5.0] - chore(deps): bump the pip group across 55 directories with 3 updates ([#21435](https://github.com/run-llama/llama_index/pull/21435)) - mass uv lock --upgrade ([#21638](https://github.com/run-lla"
+      },
+      {
+        "number": 5,
+        "title": "1.15.44",
+        "source_url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.44",
+        "text": "## What's Changed ### Features - Add capability to save files as versioned, shareable artifacts. ### Bug Fixes - Fix inline agent and crew action references relative to the flow file. - Stop duplicating kept separators when merging chunks. - Isolate nested defaults from a shared flow declaration. - Restrict Pillow to PNG, JPEG, GIF, and WEBP when opening images. - Reset cache eviction order on cle"
+      },
+      {
+        "number": 6,
+        "title": "distinct_origins flat in 2026-W41",
+        "source_url": null,
+        "text": "crewai distinct_origins was 1.0 in 2026-W41 against an EWMA baseline of 0.0 (label flat, score 1.0). This describes observed activity, not a prediction."
+      },
+      {
+        "number": 7,
+        "title": "distinct_origins flat in 2026-W43",
+        "source_url": null,
+        "text": "crewai distinct_origins was 2.0 in 2026-W43 against an EWMA baseline of 0.51 (label flat, score 1.49). This describes observed activity, not a prediction."
+      },
+      {
+        "number": 8,
+        "title": "distinct_origins rising in 2026-W44",
+        "source_url": null,
+        "text": "crewai distinct_origins was 3.0 in 2026-W44 against an EWMA baseline of 0.96 (label rising, score 2.04). This describes observed activity, not a prediction."
+      },
+      {
+        "number": 9,
+        "title": "distinct_origins flat in 2026-W45",
+        "source_url": null,
+        "text": "crewai distinct_origins was 3.0 in 2026-W45 against an EWMA baseline of 1.57 (label flat, score 1.43). This describes observed activity, not a prediction."
+      },
+      {
+        "number": 10,
+        "title": "distinct_origins flat in 2026-W47",
+        "source_url": null,
+        "text": "crewai distinct_origins was 3.0 in 2026-W47 against an EWMA baseline of 2.0 (label flat, score 1.0). This describes observed activity, not a prediction."
+      },
+      {
+        "number": 11,
+        "title": "distinct_origins rising in 2026-W46",
+        "source_url": null,
+        "text": "langchain distinct_origins was 6.0 in 2026-W46 against an EWMA baseline of 0.0 (label rising, score 2.83). This describes observed activity, not a prediction."
+      },
+      {
+        "number": 12,
+        "title": "distinct_origins rising in 2026-W47",
+        "source_url": null,
+        "text": "langchain distinct_origins was 9.0 in 2026-W47 against an EWMA baseline of 1.8 (label rising, score 2.34). This describes observed activity, not a prediction."
+      },
+      {
+        "number": 13,
+        "title": "distinct_origins flat in 2026-W34",
+        "source_url": null,
+        "text": "llamaindex distinct_origins was 1.0 in 2026-W34 against an EWMA baseline of 0.03 (label flat, score 0.97). This describes observed activity, not a prediction."
+      },
+      {
+        "number": 14,
+        "title": "Independent documentary origins for one startup.",
+        "source_url": null,
+        "text": "[{\"company_id\": \"crewai\", \"independent_origins\": 15, \"origin_cluster_ids\": [\"1109ea2dd595a165\", \"2c5c1a302baa91ba\", \"4c5ffd6889c9eb1d\", \"62d98f6299497ee8\", \"6d3fea39f0d5a6a6\", \"71824e8f7a7fc771\", \"846fae8d241f69fb\", \"84df5c1f19d3ea15\", \"8a62708e08c12301\", \"cf3c098bb247391a\", \"d6ebdb5374f4aeee\", \"dac3e81b9670df3c\", \"e632853a962ca7e5\", \"e6e670af27177e89\", \"ec65d8e77bae17f1\"]}]"
+      },
+      {
+        "number": 15,
+        "title": "Independent documentary origins for one startup.",
+        "source_url": null,
+        "text": "[{\"company_id\": \"langchain\", \"independent_origins\": 15, \"origin_cluster_ids\": [\"285e2a7964b05cb3\", \"28b59beabe4d5a66\", \"2940d0d6c78b0628\", \"3003d0e4ec081578\", \"683a552668f141c7\", \"7f0852611831db2f\", \"86e51c515335ad94\", \"94bde3db0a23b9ce\", \"ba879e98964ada39\", \"c2de3dd4b16d325e\", \"d288a90f22f7891f\", \"ecfc2ce5483dc892\", \"efecdc8abbb91ee2\", \"f860fa769f3e646a\", \"fa2689f1fbd1cba2\"]}]"
+      },
+      {
+        "number": 16,
+        "title": "Independent documentary origins for one startup.",
+        "source_url": null,
+        "text": "[{\"company_id\": \"llamaindex\", \"independent_origins\": 15, \"origin_cluster_ids\": [\"0135c9be89ddad56\", \"069a156de7e68f94\", \"07543f4ab00099db\", \"172d052d12dca603\", \"3311a15a371be05b\", \"50da8229717ee479\", \"61ca5a14ac6b4d8b\", \"6f40967fddb7fa5b\", \"994a48e90a5ee3ef\", \"a2f279c02eab7797\", \"a8c296cfac9b9c39\", \"a94848fc67cc2398\", \"b0fe2e85015610c8\", \"b4396400cc071f3b\", \"f15a335fe7d11c97\"]}]"
+      }
+    ]
+  }
+}

@@ -1,0 +1,186 @@
+{
+  "status": "planned_assignments",
+  "seed": 20261121,
+  "assignments": [
+    {
+      "participant_id": "P01",
+      "question_id": "q-investors-later-hiring",
+      "order": 1,
+      "condition": "citations_only"
+    },
+    {
+      "participant_id": "P01",
+      "question_id": "q-why-emerging",
+      "order": 2,
+      "condition": "citations_only"
+    },
+    {
+      "participant_id": "P01",
+      "question_id": "q-future-performance",
+      "order": 3,
+      "condition": "citations_only"
+    },
+    {
+      "participant_id": "P01",
+      "question_id": "q-sector-attention",
+      "order": 4,
+      "condition": "citations_plus_state_and_path"
+    },
+    {
+      "participant_id": "P01",
+      "question_id": "q-pilot-github-mlops",
+      "order": 5,
+      "condition": "citations_plus_state_and_path"
+    },
+    {
+      "participant_id": "P01",
+      "question_id": "q-unsupported-acquisition",
+      "order": 6,
+      "condition": "citations_plus_state_and_path"
+    },
+    {
+      "participant_id": "P02",
+      "question_id": "q-why-emerging",
+      "order": 1,
+      "condition": "citations_only"
+    },
+    {
+      "participant_id": "P02",
+      "question_id": "q-pilot-github-mlops",
+      "order": 2,
+      "condition": "citations_only"
+    },
+    {
+      "participant_id": "P02",
+      "question_id": "q-unsupported-acquisition",
+      "order": 3,
+      "condition": "citations_only"
+    },
+    {
+      "participant_id": "P02",
+      "question_id": "q-sector-attention",
+      "order": 4,
+      "condition": "citations_plus_state_and_path"
+    },
+    {
+      "participant_id": "P02",
+      "question_id": "q-future-performance",
+      "order": 5,
+      "condition": "citations_plus_state_and_path"
+    },
+    {
+      "participant_id": "P02",
+      "question_id": "q-investors-later-hiring",
+      "order": 6,
+      "condition": "citations_plus_state_and_path"
+    },
+    {
+      "participant_id": "P03",
+      "question_id": "q-pilot-github-mlops",
+      "order": 1,
+      "condition": "citations_plus_state_and_path"
+    },
+    {
+      "participant_id": "P03",
+      "question_id": "q-why-emerging",
+      "order": 2,
+      "condition": "citations_plus_state_and_path"
+    },
+    {
+      "participant_id": "P03",
+      "question_id": "q-future-performance",
+      "order": 3,
+      "condition": "citations_plus_state_and_path"
+    },
+    {
+      "participant_id": "P03",
+      "question_id": "q-sector-attention",
+      "order": 4,
+      "condition": "citations_only"
+    },
+    {
+      "participant_id": "P03",
+      "question_id": "q-unsupported-acquisition",
+      "order": 5,
+      "condition": "citations_only"
+    },
+    {
+      "participant_id": "P03",
+      "question_id": "q-investors-later-hiring",
+      "order": 6,
+      "condition": "citations_only"
+    },
+    {
+      "participant_id": "P04",
+      "question_id": "q-future-performance",
+      "order": 1,
+      "condition": "citations_plus_state_and_path"
+    },
+    {
+      "participant_id": "P04",
+      "question_id": "q-investors-later-hiring",
+      "order": 2,
+      "condition": "citations_plus_state_and_path"
+    },
+    {
+      "participant_id": "P04",
+      "question_id": "q-why-emerging",
+      "order": 3,
+      "condition": "citations_plus_state_and_path"
+    },
+    {
+      "participant_id": "P04",
+      "question_id": "q-pilot-github-mlops",
+      "order": 4,
+      "condition": "citations_only"
+    },
+    {
+      "participant_id": "P04",
+      "question_id": "q-unsupported-acquisition",
+      "order": 5,
+      "condition": "citations_only"
+    },
+    {
+      "participant_id": "P04",
+      "question_id": "q-sector-attention",
+      "order": 6,
+      "condition": "citations_only"
+    },
+    {
+      "participant_id": "P05",
+      "question_id": "q-sector-attention",
+      "order": 1,
+      "condition": "citations_only"
+    },
+    {
+      "participant_id": "P05",
+      "question_id": "q-unsupported-acquisition",
+      "order": 2,
+      "condition": "citations_only"
+    },
+    {
+      "participant_id": "P05",
+      "question_id": "q-investors-later-hiring",
+      "order": 3,
+      "condition": "citations_only"
+    },
+    {
+      "participant_id": "P05",
+      "question_id": "q-future-performance",
+      "order": 4,
+      "condition": "citations_plus_state_and_path"
+    },
+    {
+      "participant_id": "P05",
+      "question_id": "q-why-emerging",
+      "order": 5,
+      "condition": "citations_plus_state_and_path"
+    },
+    {
+      "participant_id": "P05",
+      "question_id": "q-pilot-github-mlops",
+      "order": 6,
+      "condition": "citations_plus_state_and_path"
+    }
+  ]
+}

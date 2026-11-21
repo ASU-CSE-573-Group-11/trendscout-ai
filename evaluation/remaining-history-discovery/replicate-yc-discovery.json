@@ -1,0 +1,38 @@
+[
+  {
+    "source_id": "replicate-yc",
+    "observed_at": "2026-11-21T11:51:14.325579+00:00",
+    "url": "https://www.ycombinator.com/companies/replicate/jobs",
+    "http_status": 200,
+    "file": "sources/replicate-yc.txt",
+    "sha256": "76f6aece8312b9e55fa9637fd47a540bcd0ee4c4d0759501d616314530e54545"
+  },
+  {
+    "source_id": "replicate-yc-cdx",
+    "observed_at": "2026-11-21T11:51:14.587852+00:00",
+    "url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fwww.ycombinator.com%2Fcompanies%2Freplicate%2Fjobs%2A&output=json&filter=statuscode%3A200&collapse=timestamp%3A6&from=20251101&to=20261121&limit=250",
+    "http_status": 200,
+    "file": "sources/replicate-yc-cdx.txt",
+    "sha256": "10ea1beb2ba29c93d3a9fd829a7ff4058cec1ab7c79e7d6ad8360aa54a2e4fb6",
+    "captures": [
+      {
+        "urlkey": "com,ycombinator)/companies/replicate/jobs",
+        "timestamp": "20260511221108",
+        "original": "https://www.ycombinator.com/companies/replicate/jobs",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "K7WSSEPZHVYS5KTNFTZSMACLKMKT6NAC",
+        "length": "18743"
+      },
+      {
+        "urlkey": "com,ycombinator)/companies/replicate/jobs/shontho-engineering-manager",
+        "timestamp": "20251107124449",
+        "original": "https://www.ycombinator.com/companies/replicate/jobs/shoNthO-engineering-manager",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "YDTBVWIPLKZNU2FTWUQKPTB3V7DDL676",
+        "length": "22622"
+      }
+    ]
+  }
+]

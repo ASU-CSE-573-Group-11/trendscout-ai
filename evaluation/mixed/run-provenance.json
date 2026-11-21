@@ -1,0 +1,13 @@
+{
+  "snapshot_sha256": "2e8db87daa901109a18cb7ea590ee4c22b9357bea1e13104964bbfc4badfedc3",
+  "questions_sha256": "3ca295d30dfa56e5d459c7d2c2b71914196df73a1771b6ce82466e2b3041e7b0",
+  "answers": {
+    "bm25.jsonl.gz": "cc2d9a9f7c7283cd93148c60f65a194dc79aff7992edf14b4a1ac8ea57f0b01d",
+    "dense.jsonl.gz": "926bbe9d33b01565943fcd9ac6ed273b143a11cdfc6d75d32abfd1b5cdea3b3c",
+    "graph_only.jsonl.gz": "c8d9b906dc079d60cd6199e00635664e55615dbe5fc839c35e1e3d5f98089f78",
+    "hybrid.jsonl.gz": "6814777085ec3d7d53ffebac53185ec6b0b35eabd3d4d7c704f29d1cd386c828"
+  },
+  "encoder": "hashing",
+  "provider": "extractive",
+  "dense_condition_caveat": "Hashing is a lexical baseline, not semantic dense retrieval."
+}

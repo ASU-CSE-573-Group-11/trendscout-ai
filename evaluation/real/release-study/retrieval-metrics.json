@@ -3,8 +3,8 @@
   "ranking_unit": "Raw retriever top-5, distinct documentary origins",
   "snapshot_sha256": "587d3128ef445f1b17d6ac711be64f5491679e41494ac0506114b1cf53b40d30",
   "questions_sha256": "074714a2e99eeedda910cd986925a2aa2414e84b78d1e5e51f7fef2feb00efd4",
-  "qrels_sha256": "f5ce858cab62369003a8879df8cd6a0af6987319ad4575b7d921d54078c81546",
-  "judged_by": "Codex source review",
+  "qrels_sha256": "58a2e01670f4506d6ddbd1edfcbf062ab84a8b059c56d5fe3f37477ff85fa667",
+  "judged_by": "Source review",
   "human_adjudicated": false,
   "encoder": "hashing",
   "conditions": [

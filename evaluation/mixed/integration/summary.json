@@ -1,0 +1,97 @@
+{
+  "snapshot_sha256": "2e8db87daa901109a18cb7ea590ee4c22b9357bea1e13104964bbfc4badfedc3",
+  "shacl_conforms": true,
+  "graph_nodes": 124,
+  "graph_edges": 180,
+  "ledger_entries": 45,
+  "conditions": 4,
+  "ablations": [
+    {
+      "name": "no_graph",
+      "config": {
+        "mode": "hybrid",
+        "k": 5,
+        "routing_method": "rules",
+        "provider": null,
+        "encoder": "hashing",
+        "distinct_origins": true,
+        "use_graph": false,
+        "use_temporal_fields": true,
+        "use_corroboration_weighting": true,
+        "corroboration_bonus": 0.25,
+        "demo_mode": false,
+        "target_median_ms": 8000.0,
+        "max_trend_citations": 8,
+        "max_graph_citations": 3,
+        "max_companies_queried": 6,
+        "documents_enabled": true,
+        "ablations": {
+          "graph_retrieval": false,
+          "temporal_fields": true,
+          "corroboration_weighting": true
+        }
+      },
+      "answers_sha256": "9f7a4b0cf061b9bd58009b8d11ccb993b3a0c542760a9c08723e7cba279eb36a",
+      "metrics": "no_graph-metrics.json"
+    },
+    {
+      "name": "no_temporal_fields",
+      "config": {
+        "mode": "hybrid",
+        "k": 5,
+        "routing_method": "rules",
+        "provider": null,
+        "encoder": "hashing",
+        "distinct_origins": true,
+        "use_graph": true,
+        "use_temporal_fields": false,
+        "use_corroboration_weighting": true,
+        "corroboration_bonus": 0.25,
+        "demo_mode": false,
+        "target_median_ms": 8000.0,
+        "max_trend_citations": 8,
+        "max_graph_citations": 3,
+        "max_companies_queried": 6,
+        "documents_enabled": true,
+        "ablations": {
+          "graph_retrieval": true,
+          "temporal_fields": false,
+          "corroboration_weighting": true
+        }
+      },
+      "answers_sha256": "b518d74fb7b6f146d125a9ea7cc5ff1ad8b761bc990e1d4773722b180b971eac",
+      "metrics": "no_temporal_fields-metrics.json"
+    },
+    {
+      "name": "no_corroboration_weighting",
+      "config": {
+        "mode": "hybrid",
+        "k": 5,
+        "routing_method": "rules",
+        "provider": null,
+        "encoder": "hashing",
+        "distinct_origins": true,
+        "use_graph": true,
+        "use_temporal_fields": true,
+        "use_corroboration_weighting": false,
+        "corroboration_bonus": 0.25,
+        "demo_mode": false,
+        "target_median_ms": 8000.0,
+        "max_trend_citations": 8,
+        "max_graph_citations": 3,
+        "max_companies_queried": 6,
+        "documents_enabled": true,
+        "ablations": {
+          "graph_retrieval": true,
+          "temporal_fields": true,
+          "corroboration_weighting": false
+        }
+      },
+      "answers_sha256": "fdc6360894cb5f811c09ff53ffd6119af9a75804abd65a0c404b4fae4eb19ce9",
+      "metrics": "no_corroboration_weighting-metrics.json"
+    }
+  ],
+  "saved_answers": 196,
+  "independent_agreement_status": "records_required",
+  "limitation": "Hashing/extractive/in-memory measurements; component relevance is not temporal accuracy."
+}

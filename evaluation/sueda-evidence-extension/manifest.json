@@ -1,0 +1,118 @@
+{
+  "observed_at": "2026-11-21T07:49:56Z",
+  "study_window": {
+    "start": "2025-11-01",
+    "end": "2026-11-21"
+  },
+  "sources": [
+    {
+      "file": "sources/simon_sprites.html",
+      "url": "https://simonwillison.net/2026/Jan/9/sprites-dev/",
+      "response_url": "https://simonwillison.net/2026/Jan/9/sprites-dev/",
+      "retrieved_at": "2026-11-21T07:49:56Z",
+      "sha256": "308cf6d82f704a17b275d869d2c5751d6767093dd0bb67bfeff4ac5caf230378",
+      "memento_datetime": null
+    },
+    {
+      "file": "sources/simon_liteparse.html",
+      "url": "https://simonwillison.net/2026/Apr/23/liteparse-for-the-web/",
+      "response_url": "https://simonwillison.net/2026/Apr/23/liteparse-for-the-web/",
+      "retrieved_at": "2026-11-21T07:49:57Z",
+      "sha256": "b32fc229f20000c73d8c78832d73d2cfc4f7245b8f92413fc45d78de4504b74f",
+      "memento_datetime": null
+    },
+    {
+      "file": "sources/latent_artifice.html",
+      "url": "https://www.latent.space/p/ainews-truth-in-the-time-of-artifice",
+      "response_url": "https://latent.space/p/ainews-truth-in-the-time-of-artifice/",
+      "retrieved_at": "2026-11-21T07:49:57Z",
+      "sha256": "7adc946964c9b6c0aa35629564b10c748e3cfbed605ffa44497dd097ef45c95e",
+      "memento_datetime": null
+    },
+    {
+      "file": "sources/latent_pull_requests.html",
+      "url": "https://www.latent.space/p/ainews-rip-pull-requests-2005-2026",
+      "response_url": "https://latent.space/p/ainews-rip-pull-requests-2005-2026/",
+      "retrieved_at": "2026-11-21T07:49:58Z",
+      "sha256": "014081dfe5dc39e51d1dd2ac585f653ae05094ffedfaad0383c94b186feaae9a",
+      "memento_datetime": null
+    },
+    {
+      "file": "sources/latent_manifesto.html",
+      "url": "https://www.latent.space/p/ainews-the-no-ai-slop-manifesto",
+      "response_url": "https://latent.space/p/ainews-the-no-ai-slop-manifesto/",
+      "retrieved_at": "2026-11-21T07:49:58Z",
+      "sha256": "ef351cb9528fcc37c8922dd3d2e1187dec342ade9d2d07e17defdfddc5caa573",
+      "memento_datetime": null
+    },
+    {
+      "file": "sources/langchain-cdx.json",
+      "url": "https://web.archive.org/cdx/search/cdx?url=https://api.ashbyhq.com/posting-api/job-board/langchain&output=json&filter=statuscode:200&collapse=timestamp:6&from=2025&to=2026&limit=12",
+      "response_url": "https://web.archive.org/cdx/search/cdx?url=https://api.ashbyhq.com/posting-api/job-board/langchain&output=json&filter=statuscode:200&collapse=timestamp:6&from=2025&to=2026&limit=12",
+      "retrieved_at": "2026-11-21T07:50:02Z",
+      "sha256": "c99c3a2ceaf52eadea9349fbc763141ef5ae389f9a8b6af6f77f9c5c824cbaf6",
+      "memento_datetime": null
+    },
+    {
+      "file": "sources/langchain-archived.json",
+      "url": "https://web.archive.org/web/20261021163607id_/https://api.ashbyhq.com/posting-api/job-board/langchain",
+      "response_url": "https://web.archive.org/web/20261021163607id_/https://api.ashbyhq.com/posting-api/job-board/langchain",
+      "retrieved_at": "2026-11-21T07:50:03Z",
+      "sha256": "e8b9a9afdcdf7fbe84a4bc4e1a7230c83acdf0651f2d71abd870c950d3c74583",
+      "memento_datetime": "Wed, 21 Oct 2026 16:36:07 GMT"
+    },
+    {
+      "file": "sources/langchain-current.json",
+      "url": "https://api.ashbyhq.com/posting-api/job-board/langchain",
+      "response_url": "https://api.ashbyhq.com/posting-api/job-board/langchain",
+      "retrieved_at": "2026-11-21T07:50:03Z",
+      "sha256": "6ca6a5341071ad6dd0e42edf4395fdf497fe30a66cf2b0c43e876cdb521e9a3c",
+      "memento_datetime": null
+    }
+  ],
+  "public_voice_documents": 5,
+  "public_voice_association_records": 8,
+  "job_observations": 206,
+  "archive_capture": {
+    "verified": true,
+    "captured_at": "2026-10-21T16:36:07Z",
+    "url": "https://web.archive.org/web/20261021163607id_/https://api.ashbyhq.com/posting-api/job-board/langchain",
+    "payload_sha256": "e8b9a9afdcdf7fbe84a4bc4e1a7230c83acdf0651f2d71abd870c950d3c74583",
+    "verification": "CDX selected capture and Memento-Datetime match."
+  },
+  "output_sha256": {
+    "articles.json": "e4f64b83eb4b74656b4f268930437f94867d3c70adff859740f3bb387ce1dd8a",
+    "hiring-comparison.json": "18ffa39d149b49401903aef8fb5c57f1efe6bb50c0aad7ffad97fbfee86399b6",
+    "public-voice-records.jsonl": "8e04512445d59a416181ac482a6d1f3b66b553529bb0b6acfd0a950a86817639",
+    "job-observations.jsonl": "9426ac427f22261bd175eec786bb2655d2ef07b0175b02d4825b36a956635039",
+    "signals/coverage.json": "c11a012b86673f2f904a5bf2490980e352df175c8a964474a058b74439485239",
+    "signals/series.json": "784073b3bf60979e27b561155310861fed1d852754728506fee14399bf6f1c9a",
+    "signals/trend_signals.jsonl": "ff461b9244650b4214a320a797ef288f4f185a3628cb9ff6adf3c36ad1db1f67"
+  },
+  "scope": "Evidence extension; earlier frozen experiments and labels are unchanged.",
+  "limits": [
+    "One company and two job-board time points; no complete weekly job history.",
+    "Date-only article publications are explicitly marked; midnight is normalization only.",
+    "Multiple company passages from one article share one documentary origin.",
+    "No personal independent annotation or participant measurements generated."
+  ],
+  "cohort_sha256": "aeea40f116f7bc3dd31eb97150df11b55fee6a06a534d170a743a88b996978a9",
+  "observed_at_basis": "UTC collection start; individual response retrieval times retained in sources.",
+  "signal_integration": {
+    "directory": "signals",
+    "series": 34,
+    "signal_labels": {
+      "insufficient_history": 170
+    },
+    "observed_weeks": [
+      "2026-W43",
+      "2026-W47"
+    ],
+    "missing_weeks": [
+      "2026-W44",
+      "2026-W45",
+      "2026-W46"
+    ],
+    "interpretation": "Missing weeks remain unknown. Two observed weeks do not establish a weekly trend."
+  }
+}

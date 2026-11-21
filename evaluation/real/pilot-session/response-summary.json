@@ -1,0 +1,364 @@
+{
+  "status": "collection_complete_graded_observed_fields",
+  "collection_complete": true,
+  "planned_tasks": 30,
+  "submitted_tasks": 30,
+  "remaining_tasks": 0,
+  "participants_with_responses": 5,
+  "participants_complete": 5,
+  "participants": [
+    {
+      "participant_id": "P01",
+      "completed_tasks": 6,
+      "planned_tasks": 6,
+      "remaining_tasks": 0,
+      "next_task_order": null,
+      "observed_conditions": {
+        "citations_only": 3,
+        "citations_plus_state_and_path": 3
+      },
+      "measurements": {
+        "responses": 6,
+        "duration_seconds": {
+          "mean": 14.661518812333318,
+          "median": 14.92180779149993,
+          "minimum": 6.098260875000051,
+          "maximum": 27.574829416
+        },
+        "confidence": {
+          "mean": 3,
+          "median": 3.0,
+          "scale": "1–5",
+          "distribution": {
+            "3": 6
+          }
+        }
+      }
+    },
+    {
+      "participant_id": "P02",
+      "completed_tasks": 6,
+      "planned_tasks": 6,
+      "remaining_tasks": 0,
+      "next_task_order": null,
+      "observed_conditions": {
+        "citations_only": 3,
+        "citations_plus_state_and_path": 3
+      },
+      "measurements": {
+        "responses": 6,
+        "duration_seconds": {
+          "mean": 15.075638131833301,
+          "median": 11.81923981250003,
+          "minimum": 5.624521874999914,
+          "maximum": 36.61387954100002
+        },
+        "confidence": {
+          "mean": 3.6666666666666665,
+          "median": 4.0,
+          "scale": "1–5",
+          "distribution": {
+            "2": 1,
+            "4": 5
+          }
+        }
+      }
+    },
+    {
+      "participant_id": "P03",
+      "completed_tasks": 6,
+      "planned_tasks": 6,
+      "remaining_tasks": 0,
+      "next_task_order": null,
+      "observed_conditions": {
+        "citations_plus_state_and_path": 3,
+        "citations_only": 3
+      },
+      "measurements": {
+        "responses": 6,
+        "duration_seconds": {
+          "mean": 11.924429451499998,
+          "median": 10.664066479499994,
+          "minimum": 6.465440166999997,
+          "maximum": 18.9987886670001
+        },
+        "confidence": {
+          "mean": 4,
+          "median": 4.0,
+          "scale": "1–5",
+          "distribution": {
+            "4": 6
+          }
+        }
+      }
+    },
+    {
+      "participant_id": "P04",
+      "completed_tasks": 6,
+      "planned_tasks": 6,
+      "remaining_tasks": 0,
+      "next_task_order": null,
+      "observed_conditions": {
+        "citations_plus_state_and_path": 3,
+        "citations_only": 3
+      },
+      "measurements": {
+        "responses": 6,
+        "duration_seconds": {
+          "mean": 12.676713132166682,
+          "median": 12.079817896000009,
+          "minimum": 5.11023712500014,
+          "maximum": 23.221828417000097
+        },
+        "confidence": {
+          "mean": 3.6666666666666665,
+          "median": 4.0,
+          "scale": "1–5",
+          "distribution": {
+            "3": 2,
+            "4": 4
+          }
+        }
+      }
+    },
+    {
+      "participant_id": "P05",
+      "completed_tasks": 6,
+      "planned_tasks": 6,
+      "remaining_tasks": 0,
+      "next_task_order": null,
+      "observed_conditions": {
+        "citations_only": 3,
+        "citations_plus_state_and_path": 3
+      },
+      "measurements": {
+        "responses": 6,
+        "duration_seconds": {
+          "mean": 12.396760242999997,
+          "median": 9.80048920850004,
+          "minimum": 5.314423833000092,
+          "maximum": 23.559779499999877
+        },
+        "confidence": {
+          "mean": 4,
+          "median": 4.0,
+          "scale": "1–5",
+          "distribution": {
+            "4": 6
+          }
+        }
+      }
+    }
+  ],
+  "observed_measurements": {
+    "responses": 30,
+    "duration_seconds": {
+      "mean": 13.347011954166659,
+      "median": 11.81923981250003,
+      "minimum": 5.11023712500014,
+      "maximum": 36.61387954100002
+    },
+    "confidence": {
+      "mean": 3.6666666666666665,
+      "median": 4.0,
+      "scale": "1–5",
+      "distribution": {
+        "2": 1,
+        "3": 8,
+        "4": 21
+      }
+    }
+  },
+  "by_condition": {
+    "citations_only": {
+      "responses": 15,
+      "duration_seconds": {
+        "mean": 13.62557556113333,
+        "median": 10.732030417000033,
+        "minimum": 5.11023712500014,
+        "maximum": 36.61387954100002
+      },
+      "confidence": {
+        "mean": 3.6,
+        "median": 4,
+        "scale": "1–5",
+        "distribution": {
+          "2": 1,
+          "3": 4,
+          "4": 10
+        }
+      }
+    },
+    "citations_plus_state_and_path": {
+      "responses": 15,
+      "duration_seconds": {
+        "mean": 13.06844834719999,
+        "median": 13.427605374999985,
+        "minimum": 5.314423833000092,
+        "maximum": 23.559779499999877
+      },
+      "confidence": {
+        "mean": 3.7333333333333334,
+        "median": 4,
+        "scale": "1–5",
+        "distribution": {
+          "3": 4,
+          "4": 11
+        }
+      }
+    }
+  },
+  "timing_methods": {
+    "server_monotonic_elapsed": 30
+  },
+  "last_recorded_at": "2026-11-21T08:57:29Z",
+  "task_key_review_method": "team_source_assisted_adjudication_after_blind_second_review",
+  "scored_task_results": 30,
+  "grading_status": "complete_for_observed_fields",
+  "recorded_grading_methods": {
+    "adjudicated_key_observed_fields_only": 30
+  },
+  "independent_task_key_adjudication_confirmed": false,
+  "task_key_adjudication_complete": true,
+  "final_grading": {
+    "status": "finalized_for_observed_fields",
+    "adjudication_complete": true,
+    "adjudication_method": "team_source_assisted_adjudication_after_blind_second_review",
+    "responses": 30,
+    "metrics": {
+      "status_correct": {
+        "correct": 1,
+        "assessed": 30,
+        "not_assessed": 0,
+        "accuracy": 0.03333333333333333
+      },
+      "evidence_correct": {
+        "correct": 0,
+        "assessed": 0,
+        "not_assessed": 30,
+        "accuracy": null
+      },
+      "abstention_correct": {
+        "correct": 1,
+        "assessed": 17,
+        "not_assessed": 13,
+        "accuracy": 0.058823529411764705
+      }
+    },
+    "full_protocol_measurement_complete": false,
+    "external_independent_assessor": false,
+    "legacy_pilot_container_matches_final_grading": true
+  },
+  "accuracy": {
+    "status_correct": {
+      "correct": 1,
+      "assessed": 30,
+      "not_assessed": 0,
+      "accuracy": 0.03333333333333333
+    },
+    "evidence_correct": {
+      "correct": 0,
+      "assessed": 0,
+      "not_assessed": 30,
+      "accuracy": null
+    },
+    "abstention_correct": {
+      "correct": 1,
+      "assessed": 17,
+      "not_assessed": 13,
+      "accuracy": 0.058823529411764705
+    }
+  },
+  "pilot_effect_estimate": null,
+  "descriptive_only": true,
+  "paired_condition_descriptives": {
+    "participants": 5,
+    "contrast": "citations_plus_state_and_path minus citations_only",
+    "per_participant": [
+      {
+        "participant_id": "P01",
+        "duration_mean_seconds": {
+          "citations_only": 16.73428859699999,
+          "citations_plus_state_and_path": 12.588749027666646
+        },
+        "confidence_mean": {
+          "citations_only": 3,
+          "citations_plus_state_and_path": 3
+        },
+        "duration_difference_seconds": -4.1455395693333426,
+        "confidence_difference": 0
+      },
+      {
+        "participant_id": "P02",
+        "duration_mean_seconds": {
+          "citations_only": 18.29806773599999,
+          "citations_plus_state_and_path": 11.853208527666615
+        },
+        "confidence_mean": {
+          "citations_only": 3.3333333333333335,
+          "citations_plus_state_and_path": 4
+        },
+        "duration_difference_seconds": -6.444859208333375,
+        "confidence_difference": 0.6666666666666665
+      },
+      {
+        "participant_id": "P03",
+        "duration_mean_seconds": {
+          "citations_only": 11.035999694666694,
+          "citations_plus_state_and_path": 12.812859208333302
+        },
+        "confidence_mean": {
+          "citations_only": 4,
+          "citations_plus_state_and_path": 4
+        },
+        "duration_difference_seconds": 1.7768595136666079,
+        "confidence_difference": 0
+      },
+      {
+        "participant_id": "P04",
+        "duration_mean_seconds": {
+          "citations_only": 10.348652111333346,
+          "citations_plus_state_and_path": 15.00477415300002
+        },
+        "confidence_mean": {
+          "citations_only": 3.6666666666666665,
+          "citations_plus_state_and_path": 3.6666666666666665
+        },
+        "duration_difference_seconds": 4.6561220416666735,
+        "confidence_difference": 0.0
+      },
+      {
+        "participant_id": "P05",
+        "duration_mean_seconds": {
+          "citations_only": 11.71086966666663,
+          "citations_plus_state_and_path": 13.082650819333367
+        },
+        "confidence_mean": {
+          "citations_only": 4,
+          "citations_plus_state_and_path": 4
+        },
+        "duration_difference_seconds": 1.3717811526667365,
+        "confidence_difference": 0
+      }
+    ],
+    "mean_duration_difference_seconds": -0.5571272139333399,
+    "median_duration_difference_seconds": 1.3717811526667365,
+    "mean_confidence_difference": 0.1333333333333333,
+    "interpretation": "Observed within-participant differences only. Different task sets, shared state language and five participants do not establish a causal treatment effect."
+  },
+  "limits": [
+    "Observed task responses are not pooled votes on one common question.",
+    "Elapsed times include interruptions; they do not establish active attention.",
+    "Condition summaries and paired descriptive differences do not establish a causal treatment effect.",
+    "Free-text explanations were not collected. Rubric criteria requiring an explanation cannot be inferred from the action selector.",
+    "Final state accuracy concerns participant judgments; unmeasured criteria and causal pilot effects are not inferred."
+  ],
+  "input_sha256": {
+    "responses": "84eb5d91585943106b346c3597b3bbe54df7652ac779cf533b062c409d32de8e",
+    "protocol": "a60f5c19f735a38e9446b568754d0ebcbfceb8a35b20c1fdb9a579e0348afb36",
+    "assignments": "6c1608552c65e8b0272d3f5f12223bc92ef906930224f3649410622792c7a7d8",
+    "stimuli": "b768811059c6b84da9f3472d138da0499531cad28167d2665b36b4c9124cf979",
+    "manifest": "366100084c086a951b0874473639771ed4134bd6ded9cb631d977c2bbed2b1ac",
+    "pilot": "bb85c769f19b74c3e70104d87c73ab6a42804f34dfef19a47965446c4148a357"
+  }
+}

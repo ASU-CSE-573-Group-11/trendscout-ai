@@ -1,0 +1,117 @@
+{
+  "feature_version": "signals/0.1.0",
+  "github": {
+    "adapter_version": "signals-adapter/1.0.0",
+    "approximate_week_assignments": [],
+    "bot_heavy_repositories": [],
+    "companies": [],
+    "duplicate_record_ids": [],
+    "excluded_repositories": {},
+    "gap_policy": "unknown",
+    "gap_policy_reason": "a GitHub snapshot only describes the window it covers, so a week without a snapshot is unknown rather than zero",
+    "observations_received": 0,
+    "observations_used": 0,
+    "repositories": [],
+    "signal_family": "github",
+    "unavailable_metrics": {
+      "active_contributors": "not collected by policy: commit author names, emails, and profiles are discarded at collection time, so distinct contributors cannot be counted",
+      "issues_closed": "not collected: only the current open_issues_count counter is retained, which includes pull requests and cannot be split into opened and closed events",
+      "issues_opened": "not collected: only the current open_issues_count counter is retained, which includes pull requests and cannot be split into opened and closed events",
+      "releases": "not collected: the GitHub collector reads repository fields, branches, and commits only; the releases endpoint is not requested"
+    },
+    "week_assignment_methods": [],
+    "weeks": [],
+    "weeks_observed": []
+  },
+  "jobs": {
+    "adapter_version": "signals-adapter/1.0.0",
+    "companies": [
+      "browserbase",
+      "composio",
+      "deepset",
+      "e2b",
+      "langchain",
+      "letta",
+      "modal",
+      "pinecone",
+      "sourcegraph"
+    ],
+    "gap_policy": "unknown",
+    "gap_policy_reason": "a job-board snapshot describes only the weeks a collector ran; a week without a snapshot is unknown, not a hiring freeze",
+    "history_note": "job data is collected prospectively, so these series are short by construction and will report insufficient_history until min_history weeks exist",
+    "postings_received": 393,
+    "role_families": [
+      "data",
+      "developer_relations",
+      "evaluation",
+      "go_to_market",
+      "infrastructure",
+      "machine_learning",
+      "other",
+      "product_engineering",
+      "research",
+      "retrieval"
+    ],
+    "role_family_method": "explicit_title_phrases_v1",
+    "signal_family": "jobs",
+    "skills": [
+      "c++",
+      "cuda",
+      "docker",
+      "javascript",
+      "kubernetes",
+      "python",
+      "pytorch",
+      "rust",
+      "sql",
+      "typescript"
+    ],
+    "weeks": [
+      "2026-W43",
+      "2026-W44",
+      "2026-W45",
+      "2026-W46",
+      "2026-W47"
+    ]
+  },
+  "labels": {
+    "insufficient_history": 324
+  },
+  "last_data_week": "2026-W47",
+  "news": {
+    "adapter_version": "signals-adapter/1.0.0",
+    "companies": [],
+    "coverage_span": [
+      null,
+      null
+    ],
+    "dedup_note": "attention is counted per origin cluster; syndicated copies of one origin are not independent corroboration (docs/evidence-ledger.md)",
+    "documents_received": 0,
+    "gap_policy": "zero",
+    "gap_policy_reason": "news and company feeds are harvested continuously, so inside the coverage span a week with no article is a real zero rather than a missing observation",
+    "signal_family": "news",
+    "time_basis": [],
+    "weeks": []
+  },
+  "records_by_source_type": {
+    "job": 393
+  },
+  "records_received": 393,
+  "series_by_family": {
+    "jobs": 188
+  },
+  "series_count": 188,
+  "signal_count": 324,
+  "snapshot_week": "2026-W47",
+  "trend_config": {
+    "alpha": 0.3,
+    "fingerprint": "15641c8a5e33",
+    "min_history": 4,
+    "min_scale": 1.0,
+    "min_scale_points": 3,
+    "scale_method": "std",
+    "threshold": 1.5,
+    "window": 8,
+    "z_cap": 10.0
+  }
+}

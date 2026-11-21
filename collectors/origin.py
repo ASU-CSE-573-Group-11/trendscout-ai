@@ -84,13 +84,20 @@ def assign_origin_clusters(records: list[dict[str, Any]]) -> list[dict[str, Any]
                 continue
             if left.get("publisher") and left.get("publisher") == right.get("publisher"):
                 continue
+            # Similar headlines are not enough to establish syndication. Require
+            # matching substantial passages or substantial passage overlap.
+            left_passage, right_passage = tokenize(left.get('text')), tokenize(right.get('text'))
+            declared_copy = any('syndicated copy of' in (r.get('text') or '').lower() for r in (left, right))
+            if not declared_copy and (min(len(left_passage), len(right_passage)) < 8
+                                      or jaccard(left_passage, right_passage) < 0.65):
+                continue
             if jaccard(left_tokens, right_tokens) < TITLE_JACCARD:
                 continue
-            if left_time and right_time and abs((left_time - right_time).days) > 7:
+            if left_time and right_time and abs((left_time - right_time).total_seconds()) > 7 * 86400:
                 continue
             root_left = find(left["origin_cluster_id"])
             root_right = find(right["origin_cluster_id"])
-            parent[root_right] = root_left
+            parent[max(root_left, root_right)] = min(root_left, root_right)
 
     for record in records:
         root = find(record["origin_cluster_id"])

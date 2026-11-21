@@ -1,0 +1,290 @@
+{
+  "observed_at": "2026-11-21T08:01:33Z",
+  "cohort_sha256": "58c541d499cdd480d1b7c40a2915cef032a3f8aaa816dac4e2e86b57d821fe47",
+  "scope": "Eight complete ISO weeks of default-branch commits per available frozen-cohort repository.",
+  "companies": [
+    {
+      "company_id": "langchain",
+      "repositories": [
+        {
+          "repository": "langchain-ai/langchain",
+          "status": "collected",
+          "file": "sources/langchain-langchain-ai--langchain.json",
+          "sha256": "6719eb3f67aec9533c4c08fd270bec3c82378e91310114e3bfe9104549fc51d2",
+          "commit_count": 448,
+          "default_branch_sha": "8ff3cd30eebfe37712a91f11e3f4b61a545e7a37"
+        }
+      ],
+      "status": "collected",
+      "weekly_records": 8
+    },
+    {
+      "company_id": "llamaindex",
+      "repositories": [
+        {
+          "repository": "run-llama/llama_index",
+          "status": "collected",
+          "file": "sources/llamaindex-run-llama--llama_index.json",
+          "sha256": "4bc9a5638733949bdc502110621a5e22fb872084b173e7b8f3bb8cc57ac9d590",
+          "commit_count": 31,
+          "default_branch_sha": "99d7433f6f71888951379ccca9294e272442c832"
+        }
+      ],
+      "status": "collected",
+      "weekly_records": 8
+    },
+    {
+      "company_id": "crewai",
+      "repositories": [
+        {
+          "repository": "crewAIInc/crewAI",
+          "status": "collected",
+          "file": "sources/crewai-crewAIInc--crewAI.json",
+          "sha256": "879cfdb0844c72158ea65638de87982fe95846a80884eb44add375553fbe80b4",
+          "commit_count": 360,
+          "default_branch_sha": "56c26a7fb3ece62c64de52e8b4228d15c9c81492"
+        }
+      ],
+      "status": "collected",
+      "weekly_records": 8
+    },
+    {
+      "company_id": "e2b",
+      "repositories": [
+        {
+          "repository": "e2b-dev/E2B",
+          "status": "collected",
+          "file": "sources/e2b-e2b-dev--E2B.json",
+          "sha256": "fbf0c22839b3bfc4ec2baa0af0a71b19f8d3e834c5864828192634dccbb9fdbd",
+          "commit_count": 143,
+          "default_branch_sha": "08c4eeba6d08413779ec3fa5e7ac0edf3f608b33"
+        }
+      ],
+      "status": "collected",
+      "weekly_records": 8
+    },
+    {
+      "company_id": "browserbase",
+      "repositories": [
+        {
+          "repository": "browserbase/stagehand",
+          "status": "collected",
+          "file": "sources/browserbase-browserbase--stagehand.json",
+          "sha256": "f22b8cf331e20b493c6a59fd12d8624fa8bf61df532eb3a531c03c3e3508593a",
+          "commit_count": 207,
+          "default_branch_sha": "3bedd822f2e31c6716added7743179405985a439"
+        }
+      ],
+      "status": "collected",
+      "weekly_records": 8
+    },
+    {
+      "company_id": "composio",
+      "repositories": [
+        {
+          "repository": "ComposioHQ/composio",
+          "status": "collected",
+          "file": "sources/composio-ComposioHQ--composio.json",
+          "sha256": "3be3d822c8a01442c20d84c9fd393ab5b3365b6927e8a3aabcdf8964387451d4",
+          "commit_count": 934,
+          "default_branch_sha": "f44ef8e7e3b94e7667768f7b3874f4dc37ef6d0f"
+        }
+      ],
+      "status": "collected",
+      "weekly_records": 8
+    },
+    {
+      "company_id": "letta",
+      "repositories": [
+        {
+          "repository": "letta-ai/letta",
+          "status": "collected",
+          "file": "sources/letta-letta-ai--letta.json",
+          "sha256": "9f2d2600d279bca4e2b2579420201bc6441003f8567ab5e1ff7129b71958d217",
+          "commit_count": 2,
+          "default_branch_sha": "8816d3a8516893bfdc0fa14bfb1235226012e295"
+        }
+      ],
+      "status": "collected",
+      "weekly_records": 8
+    },
+    {
+      "company_id": "langfuse",
+      "repositories": [
+        {
+          "repository": "langfuse/langfuse",
+          "status": "collected",
+          "file": "sources/langfuse-langfuse--langfuse.json",
+          "sha256": "c1c92ddf6b76e80778d32b9ccf65568d99367c760cd976ae562cdeeec229a73e",
+          "commit_count": 1877,
+          "default_branch_sha": "4afc77978b844de865398c8e4f5af93c4b53e301"
+        }
+      ],
+      "status": "collected",
+      "weekly_records": 8
+    },
+    {
+      "company_id": "deepset",
+      "repositories": [
+        {
+          "repository": "deepset-ai/haystack",
+          "status": "collected",
+          "file": "sources/deepset-deepset-ai--haystack.json",
+          "sha256": "440023016f1333e38ae6983d23c5700ded19dbac3fcbb95af878adaa64b7346e",
+          "commit_count": 608,
+          "default_branch_sha": "85b8d4e0b8332a60002c3e06972386476fba6b7a"
+        }
+      ],
+      "status": "collected",
+      "weekly_records": 8
+    },
+    {
+      "company_id": "continue",
+      "repositories": [
+        {
+          "repository": "continuedev/continue",
+          "status": "collected",
+          "file": "sources/continue-continuedev--continue.json",
+          "sha256": "463c467a988f9495796b8227f63d13e6b864981504bd820840a453b76922a42a",
+          "commit_count": 0,
+          "default_branch_sha": "5522c6f44ca0ac3528b37244818fbfa39b5af470"
+        }
+      ],
+      "status": "collected",
+      "weekly_records": 8
+    },
+    {
+      "company_id": "sourcegraph",
+      "repositories": [
+        {
+          "repository": "sourcegraph/sourcegraph-public-snapshot",
+          "status": "collected",
+          "file": "sources/sourcegraph-sourcegraph--sourcegraph-public-snapshot.json",
+          "sha256": "e4471335d53398146018b8faad79f77725cb919fe73651b3b5a03df5f5af9f29",
+          "commit_count": 0,
+          "default_branch_sha": "c864f15af264f0f456a6d8a83290b5c940715349"
+        }
+      ],
+      "status": "collected",
+      "weekly_records": 8
+    },
+    {
+      "company_id": "modal",
+      "repositories": [
+        {
+          "repository": "modal-labs/modal",
+          "status": "unavailable",
+          "reason": "GitHub API request failed; repository history unavailable"
+        }
+      ],
+      "status": "unavailable",
+      "weekly_records": 0
+    },
+    {
+      "company_id": "replicate",
+      "repositories": [
+        {
+          "repository": "replicate/replicate-python",
+          "status": "collected",
+          "file": "sources/replicate-replicate--replicate-python.json",
+          "sha256": "4a4734d0fbd146be87325e2040139284fb88f74bb5abc41311432213040f683d",
+          "commit_count": 0,
+          "default_branch_sha": "d2956ff9c3e26ef434bc839cc5c87a50c49dfe20"
+        }
+      ],
+      "status": "collected",
+      "weekly_records": 8
+    },
+    {
+      "company_id": "wandb",
+      "repositories": [
+        {
+          "repository": "wandb/wandb",
+          "status": "collected",
+          "file": "sources/wandb-wandb--wandb.json",
+          "sha256": "899a40b01c66c752d545cabb50b02310a9b529544e838c1ff64727067183a57d",
+          "commit_count": 282,
+          "default_branch_sha": "76d4cac742cb666ec15545837b04e75b1db5b49f"
+        }
+      ],
+      "status": "collected",
+      "weekly_records": 8
+    },
+    {
+      "company_id": "pinecone",
+      "repositories": [
+        {
+          "repository": "pinecone-io/pinecone-python-client",
+          "status": "collected",
+          "file": "sources/pinecone-pinecone-io--pinecone-python-client.json",
+          "sha256": "039d23e05310839acaaeba67f991a740d94a2bf3c395d6cc93e5eec8ba68b699",
+          "commit_count": 156,
+          "default_branch_sha": "ccc6562f5f2ca2ab4de540712b84b09576f44f78"
+        }
+      ],
+      "status": "collected",
+      "weekly_records": 8
+    },
+    {
+      "company_id": "weaviate",
+      "repositories": [
+        {
+          "repository": "weaviate/weaviate",
+          "status": "collected",
+          "file": "sources/weaviate-weaviate--weaviate.json",
+          "sha256": "43b220b1fe2c35acd1c3e4a62865c53505078824a504268da4f27e39c7e96e69",
+          "commit_count": 2568,
+          "default_branch_sha": "cf81225fb834b088cf672bc6b60a3e8414e03b88"
+        }
+      ],
+      "status": "collected",
+      "weekly_records": 8
+    },
+    {
+      "company_id": "chroma",
+      "repositories": [
+        {
+          "repository": "chroma-core/chroma",
+          "status": "collected",
+          "file": "sources/chroma-chroma-core--chroma.json",
+          "sha256": "12059e7a65840c6aea75f5318b0ebbfe57d2040dce353bbfc5b9d903a63cb231",
+          "commit_count": 37,
+          "default_branch_sha": "1a3ac2c7c623adbd03ed2508dc27b98cdf26016d"
+        }
+      ],
+      "status": "collected",
+      "weekly_records": 8
+    },
+    {
+      "company_id": "arize",
+      "repositories": [
+        {
+          "repository": "Arize-ai/phoenix",
+          "status": "collected",
+          "file": "sources/arize-Arize-ai--phoenix.json",
+          "sha256": "f13be499e87873306d16a8f4c4dbe8d7563a973d4615aa45ed7581ee5da8c9fd",
+          "commit_count": 723,
+          "default_branch_sha": "e783d1dbc4034b735fc700de31a26e0012ee8243"
+        }
+      ],
+      "status": "collected",
+      "weekly_records": 8
+    }
+  ],
+  "companies_requested": 18,
+  "companies_collected": 17,
+  "weekly_records": 136,
+  "output_sha256": {
+    "records.jsonl": "1cd9a7b8c78413ba62bd83a71edc94aa182873016963914d954df38a2b1ee6f4",
+    "signals/coverage.json": "eab0567fce9eb063c9a0b5137ef97964ccd5cd2a532671e969a80ed7872dc937",
+    "signals/series.json": "f45b735ee4d40f0bf8283bf35c27aac7eaa454393e7d3f5f0fde8c94328c3047",
+    "signals/trend_signals.jsonl": "3c832c444f940036386ac0e2932a5f85bc1f208b2bc113bc9da69e9b435a3832"
+  },
+  "limits": [
+    "This is software activity, not hiring, funding or company headcount.",
+    "Repository stars, forks and issues are not reconstructed historically.",
+    "Default-branch commits available at collection time exclude other branches and deleted history.",
+    "The frozen repository choice is preserved; a dormant repository does not imply an inactive company.",
+    "No annotation attestations or participant measurements are created."
+  ]
+}

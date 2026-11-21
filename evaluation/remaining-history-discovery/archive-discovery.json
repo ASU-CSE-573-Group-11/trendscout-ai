@@ -1,0 +1,463 @@
+[
+  {
+    "source_id": "continue-yc",
+    "target_url": "https://www.ycombinator.com/companies/continue/jobs*",
+    "observed_at": "2026-11-21T11:41:36.507183+00:00",
+    "http_status": 200,
+    "response_url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fwww.ycombinator.com%2Fcompanies%2Fcontinue%2Fjobs%2A&output=json&filter=statuscode%3A200&collapse=timestamp%3A6&from=20251101&to=20261121&limit=250",
+    "file": "sources/continue-yc-cdx.json",
+    "sha256": "0e01af4e8ca46405bab15f6069e36828555b07a1928068895ff2f165cd6952c3",
+    "captures": [
+      {
+        "urlkey": "com,ycombinator)/companies/continue/jobs",
+        "timestamp": "20251113154837",
+        "original": "https://www.ycombinator.com/companies/continue/jobs",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "VZJBBOE7VCC7UNHNHHDN7FFS27CQ7NRP",
+        "length": "19378"
+      },
+      {
+        "urlkey": "com,ycombinator)/companies/continue/jobs",
+        "timestamp": "20251210135241",
+        "original": "https://www.ycombinator.com/companies/continue/jobs",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "BRBWPRV2G6KQOTS3HDANSW7TVQ3AOB5M",
+        "length": "18574"
+      },
+      {
+        "urlkey": "com,ycombinator)/companies/continue/jobs",
+        "timestamp": "20260201032645",
+        "original": "https://www.ycombinator.com/companies/continue/jobs",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "3Z5YXCTW4EDKCRM2ZJLG7UVFJ3WRWBF6",
+        "length": "21299"
+      },
+      {
+        "urlkey": "com,ycombinator)/companies/continue/jobs",
+        "timestamp": "20260513061857",
+        "original": "https://www.ycombinator.com/companies/continue/jobs",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "YRUSN4PDH54HVK4G62MLDAA4UT3FBOAC",
+        "length": "19433"
+      },
+      {
+        "urlkey": "com,ycombinator)/companies/continue/jobs/a6ajpmh-software-engineer",
+        "timestamp": "20260212061530",
+        "original": "https://www.ycombinator.com/companies/continue/jobs/a6aJpMh-software-engineer",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "BRBFYSQYXWTL66HERWXJBNACENTR2GKV",
+        "length": "20857"
+      },
+      {
+        "urlkey": "com,ycombinator)/companies/continue/jobs?ref=blog.continue.dev",
+        "timestamp": "20260811112520",
+        "original": "https://www.ycombinator.com/companies/continue/jobs?ref=blog.continue.dev",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "G2QII2HVVD5FFI66II2H6D4PEQXJ2IC3",
+        "length": "18102"
+      }
+    ]
+  },
+  {
+    "source_id": "continue-ashby",
+    "target_url": "https://jobs.ashbyhq.com/continue*",
+    "observed_at": "2026-11-21T11:41:36.507458+00:00",
+    "http_status": 200,
+    "response_url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fjobs.ashbyhq.com%2Fcontinue%2A&output=json&filter=statuscode%3A200&collapse=timestamp%3A6&from=20251101&to=20261121&limit=250",
+    "file": "sources/continue-ashby-cdx.json",
+    "sha256": "94ddee3a43bdda46db210b5a2f6d62b4a180d053e71e56fcf19c6df0306ae3e2",
+    "captures": [
+      {
+        "urlkey": "com,ashbyhq,jobs)/continue",
+        "timestamp": "20260213012947",
+        "original": "https://jobs.ashbyhq.com/continue",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "ESSQSD62G2PZ56BBCENJL5LFH7WQZZMB",
+        "length": "7706"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/continue/219fce3e-7af9-4b00-8fa7-87bf53db72f7",
+        "timestamp": "20251124022739",
+        "original": "https://jobs.ashbyhq.com/continue/219fce3e-7af9-4b00-8fa7-87bf53db72f7",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "CFPUCDZAGK2M5QO47OROZSXIRL3W4O3P",
+        "length": "9858"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/continue/219fce3e-7af9-4b00-8fa7-87bf53db72f7",
+        "timestamp": "20260228071137",
+        "original": "https://jobs.ashbyhq.com/continue/219fce3e-7af9-4b00-8fa7-87bf53db72f7",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "QXSHVVUM3MS4NRKD5GKSWCHTV27KXOU4",
+        "length": "10288"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/continue/219fce3e-7af9-4b00-8fa7-87bf53db72f7",
+        "timestamp": "20260309174916",
+        "original": "https://jobs.ashbyhq.com/continue/219fce3e-7af9-4b00-8fa7-87bf53db72f7",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "5N2JGAEMCNMZRMXIFRWZMXWEUUD5PAEH",
+        "length": "9770"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/continue/219fce3e-7af9-4b00-8fa7-87bf53db72f7/application",
+        "timestamp": "20251124022738",
+        "original": "https://jobs.ashbyhq.com/continue/219fce3e-7af9-4b00-8fa7-87bf53db72f7/application",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "KQZOYRWCLSEUBJGYKDF6ZYRSLIZZKRQ3",
+        "length": "9868"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/continue/36b1633f-153e-4277-9660-fc1bc5e7e255",
+        "timestamp": "20260217000233",
+        "original": "https://jobs.ashbyhq.com/continue/36b1633f-153e-4277-9660-fc1bc5e7e255",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "U6M4HXEHVUFIIUHJKRAUCLWVLNIIJDOU",
+        "length": "9972"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/continue/36b1633f-153e-4277-9660-fc1bc5e7e255",
+        "timestamp": "20260306100014",
+        "original": "https://jobs.ashbyhq.com/continue/36b1633f-153e-4277-9660-fc1bc5e7e255",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "GPZFGBXLPDUAFFTZWW2JVE3HPLKRH4MP",
+        "length": "10664"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/continue/3c3493c9-b66e-4add-9caa-ae424fe2a9ba",
+        "timestamp": "20251110112118",
+        "original": "https://jobs.ashbyhq.com/continue/3c3493c9-b66e-4add-9caa-ae424fe2a9ba",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "XROLL66FSP7MNTMDEOSN4Y72SHCR64LB",
+        "length": "9326"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/continue/3c3493c9-b66e-4add-9caa-ae424fe2a9ba",
+        "timestamp": "20260308012459",
+        "original": "https://jobs.ashbyhq.com/continue/3c3493c9-b66e-4add-9caa-ae424fe2a9ba",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "UHXJRN3S3P7RGRBOLZSP3KLVLC6EHIXX",
+        "length": "10398"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/continue/3c3493c9-b66e-4add-9caa-ae424fe2a9ba",
+        "timestamp": "20260410124401",
+        "original": "https://jobs.ashbyhq.com/continue/3c3493c9-b66e-4add-9caa-ae424fe2a9ba",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "TTM4UVUAQSOKOSLEAJXGBRBAL43ODMNC",
+        "length": "10436"
+      },
+      {
+        "urlkey": "com,ashbyhq,jobs)/continue?utm_source=gettjalerts.com",
+        "timestamp": "20260516012607",
+        "original": "https://jobs.ashbyhq.com/continue?utm_source=gettjalerts.com",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "LRG7Y2V5LIBWX6S7QZIBHBCP5TZSQS35",
+        "length": "8423"
+      }
+    ]
+  },
+  {
+    "source_id": "crewai-md",
+    "target_url": "https://apply.workable.com/crewai/jobs.md*",
+    "observed_at": "2026-11-21T11:41:36.507550+00:00",
+    "http_status": 200,
+    "response_url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fapply.workable.com%2Fcrewai%2Fjobs.md%2A&output=json&filter=statuscode%3A200&collapse=timestamp%3A6&from=20251101&to=20261121&limit=250",
+    "file": "sources/crewai-md-cdx.json",
+    "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "captures": []
+  },
+  {
+    "source_id": "crewai-llms",
+    "target_url": "https://apply.workable.com/crewai/llms.txt*",
+    "observed_at": "2026-11-21T11:41:36.507662+00:00",
+    "http_status": 200,
+    "response_url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fapply.workable.com%2Fcrewai%2Fllms.txt%2A&output=json&filter=statuscode%3A200&collapse=timestamp%3A6&from=20251101&to=20261121&limit=250",
+    "file": "sources/crewai-llms-cdx.json",
+    "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "captures": []
+  },
+  {
+    "source_id": "langfuse-canonical",
+    "target_url": "https://langfuse.com/careers*",
+    "observed_at": "2026-11-21T11:41:36.507797+00:00",
+    "http_status": 200,
+    "response_url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Flangfuse.com%2Fcareers%2A&output=json&filter=statuscode%3A200&collapse=timestamp%3A6&from=20251101&to=20261121&limit=250",
+    "file": "sources/langfuse-canonical-cdx.json",
+    "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "captures": []
+  },
+  {
+    "source_id": "wandb-parent",
+    "target_url": "https://www.coreweave.com/careers/weights-biases*",
+    "observed_at": "2026-11-21T11:41:36.954143+00:00",
+    "http_status": 200,
+    "response_url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fwww.coreweave.com%2Fcareers%2Fweights-biases%2A&output=json&filter=statuscode%3A200&collapse=timestamp%3A6&from=20251101&to=20261121&limit=250",
+    "file": "sources/wandb-parent-cdx.json",
+    "sha256": "ce25c5e10d87c4fb9bf4683830ee97bda6c3d86d56ac67e199ef6e6de4224ff0",
+    "captures": [
+      {
+        "urlkey": "com,coreweave)/careers/weights-biases",
+        "timestamp": "20251114121832",
+        "original": "https://coreweave.com/careers/weights-biases",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "OEFOQZJGOGJYNPRGWH4SZZBB743B5NZH",
+        "length": "36359"
+      },
+      {
+        "urlkey": "com,coreweave)/careers/weights-biases",
+        "timestamp": "20251210063153",
+        "original": "https://coreweave.com/careers/weights-biases",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "FYYU5ZOYGOJ7HQVC3FDJ2D3EJHAIYXTJ",
+        "length": "36610"
+      },
+      {
+        "urlkey": "com,coreweave)/careers/weights-biases",
+        "timestamp": "20260114210225",
+        "original": "https://www.coreweave.com/careers/weights-biases",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "JKW2UMLNLCGTNBEZUE2ZF2HV7COTUED6",
+        "length": "36554"
+      },
+      {
+        "urlkey": "com,coreweave)/careers/weights-biases",
+        "timestamp": "20260217000902",
+        "original": "https://coreweave.com/careers/weights-biases",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "VAA5MZDRK2DVG4WVK55SC6BZ7F57RWWC",
+        "length": "36438"
+      },
+      {
+        "urlkey": "com,coreweave)/careers/weights-biases",
+        "timestamp": "20260318115245",
+        "original": "https://coreweave.com/careers/weights-biases",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "5E4IB44Q4424I5QYZH3CBUYWDGTM323K",
+        "length": "46446"
+      },
+      {
+        "urlkey": "com,coreweave)/careers/weights-biases",
+        "timestamp": "20260512094322",
+        "original": "https://www.coreweave.com/careers/weights-biases",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "2HVBUPULCIHQESGSRO6JI4CRGP6FAV7W",
+        "length": "56391"
+      },
+      {
+        "urlkey": "com,coreweave)/careers/weights-biases",
+        "timestamp": "20260606221542",
+        "original": "https://coreweave.com/careers/weights-biases",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "OCDDHIDT3HVWB2BNUKZJHCTZOFBIL7X7",
+        "length": "57046"
+      },
+      {
+        "urlkey": "com,coreweave)/careers/weights-biases",
+        "timestamp": "20260717145229",
+        "original": "https://coreweave.com/careers/weights-biases",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "FIIMM2ZRIY6AI6WP3SUVQREHRAMGZR5D",
+        "length": "58061"
+      },
+      {
+        "urlkey": "com,coreweave)/careers/weights-biases",
+        "timestamp": "20260810162812",
+        "original": "http://www.coreweave.com/careers/weights-biases",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "62EJJCEI4UVCBZNT3IKFEDKEJQFKG2NQ",
+        "length": "57906"
+      },
+      {
+        "urlkey": "com,coreweave)/careers/weights-biases",
+        "timestamp": "20261019214842",
+        "original": "https://www.coreweave.com/careers/weights-biases",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "MUHFLLG7V3EILVHTW3LTYCMIXWMCIZKU",
+        "length": "55090"
+      },
+      {
+        "urlkey": "com,coreweave)/careers/weights-biases",
+        "timestamp": "20261103065915",
+        "original": "https://coreweave.com/careers/weights-biases",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "EEUI22ADBUIRMAUDAE24UTUB5BHNSAXS",
+        "length": "53987"
+      }
+    ]
+  },
+  {
+    "source_id": "replicate-root",
+    "target_url": "https://replicate.com/about*",
+    "observed_at": "2026-11-21T11:41:37.028915+00:00",
+    "http_status": 200,
+    "response_url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Freplicate.com%2Fabout%2A&output=json&filter=statuscode%3A200&collapse=timestamp%3A6&from=20251101&to=20261121&limit=250",
+    "file": "sources/replicate-root-cdx.json",
+    "sha256": "e6b888547ca97cc359d7ea91e43023645fdd9c0b77518c82726b9d4615b47ff4",
+    "captures": [
+      {
+        "urlkey": "com,replicate)/about",
+        "timestamp": "20251102091037",
+        "original": "https://replicate.com/about",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "Q2KWSDEBRBTLUHCT46GOA5MEM7NOT2X3",
+        "length": "15496"
+      },
+      {
+        "urlkey": "com,replicate)/about",
+        "timestamp": "20251204095029",
+        "original": "https://replicate.com/about",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "YMR5ITINYMMLXE7M6HPZHR46T6PQROMT",
+        "length": "15860"
+      },
+      {
+        "urlkey": "com,replicate)/about",
+        "timestamp": "20260101092551",
+        "original": "https://replicate.com/about",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "OPIVQKCGNNZ2S6IFZBQSCJKV4Q6EDHIQ",
+        "length": "15935"
+      },
+      {
+        "urlkey": "com,replicate)/about",
+        "timestamp": "20260203032037",
+        "original": "https://replicate.com/about",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "W54UJCSUCWHRC5IUW6FXVQ62HJG3WYY4",
+        "length": "15907"
+      },
+      {
+        "urlkey": "com,replicate)/about",
+        "timestamp": "20260301110956",
+        "original": "https://replicate.com/about",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "2WFLTHUEEJXI43IHIAXTXMFAMERPK2BY",
+        "length": "15952"
+      },
+      {
+        "urlkey": "com,replicate)/about",
+        "timestamp": "20260401174311",
+        "original": "https://replicate.com/about",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "Z6BEALPRIKLZSQPLUIKT6PHI756FDYVX",
+        "length": "9371"
+      },
+      {
+        "urlkey": "com,replicate)/about",
+        "timestamp": "20260503171619",
+        "original": "https://replicate.com/about",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "3QDQFSMUBKS233GPRIIGI2J6ZUV4NHKU",
+        "length": "8939"
+      },
+      {
+        "urlkey": "com,replicate)/about",
+        "timestamp": "20260706081344",
+        "original": "https://replicate.com/about",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "PR3YIGMJLLLD7I2KJSKLWKN5QTONN574",
+        "length": "13522"
+      },
+      {
+        "urlkey": "com,replicate)/about",
+        "timestamp": "20260807211034",
+        "original": "https://replicate.com/about",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "XUP3QEGJ4TNDHU4KJFLZI37GHYCUXXGO",
+        "length": "10101"
+      },
+      {
+        "urlkey": "com,replicate)/about",
+        "timestamp": "20260902165626",
+        "original": "https://replicate.com/about",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "HHMHF66X7SZKZZCZKSZCWF6HIVWKPOS7",
+        "length": "10616"
+      },
+      {
+        "urlkey": "com,replicate)/about",
+        "timestamp": "20261008102033",
+        "original": "https://replicate.com/about",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "ERSKTK2EX7T2LZQFOLAWAA646FJZLFXH",
+        "length": "10603"
+      },
+      {
+        "urlkey": "com,replicate)/about",
+        "timestamp": "20261102020105",
+        "original": "https://replicate.com/about",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "V2QPYYU6X7E2YWN3G4HMXMMIL24TCSTA",
+        "length": "10539"
+      },
+      {
+        "urlkey": "com,replicate)/about/jobs/account-executive",
+        "timestamp": "20251118041740",
+        "original": "https://replicate.com/about/jobs/account-executive",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "MMKKGQHQLOZGI3OTBFV7V4557MJH63ZL",
+        "length": "15477"
+      },
+      {
+        "urlkey": "com,replicate)/about?utm_campaign=new-ai-startup-jobs-week-beginning-september-24th-2024&utm_medium=referral&utm_source=aistartup.jobs",
+        "timestamp": "20260211124333",
+        "original": "https://replicate.com/about?utm_source=aistartup.jobs&utm_medium=referral&utm_campaign=new-ai-startup-jobs-week-beginning-september-24th-2024",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "OUHAH2CITRXHPKACQQVN5C4QTSNP7THG",
+        "length": "17355"
+      },
+      {
+        "urlkey": "com,replicate)/about?utm_campaign=new-ai-startup-jobs-week-ending-april-11th-2024&utm_medium=referral&utm_source=aistartup.jobs",
+        "timestamp": "20260717172935",
+        "original": "https://replicate.com/about?utm_source=aistartup.jobs&utm_medium=referral&utm_campaign=new-ai-startup-jobs-week-ending-april-11th-2024",
+        "mimetype": "text/html",
+        "statuscode": "200",
+        "digest": "QYHEUK2AGVN4P6NKDQFSRVC2PHQPVSER",
+        "length": "13052"
+      }
+    ]
+  }
+]

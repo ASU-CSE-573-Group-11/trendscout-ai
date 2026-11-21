@@ -1,0 +1,14 @@
+# CrewAI Careers
+
+> <p>The leading AI automation suite that enables enterprises to orchestrate Agents at Scale</p>
+> Powered by Workable.
+
+## Open Positions
+- All open roles (GET `https://apply.workable.com/crewai/jobs.md`): 4 current openings
+- Engineering: 1 role
+- Other: 1 role
+- Support: 2 roles
+
+## Optional
+- [Careers page](https://apply.workable.com/crewai/): Main careers page
+- [Company website](https://crewai.com): CrewAI website

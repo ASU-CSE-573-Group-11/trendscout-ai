@@ -1,0 +1,3738 @@
+{
+  "entities": [
+    {
+      "item_id": "entity:eb174b5a-a28e-5260-a99a-aeb84f1e4be8:0:9",
+      "document_id": "eb174b5a-a28e-5260-a99a-aeb84f1e4be8",
+      "start": 0,
+      "end": 9,
+      "entity_text": "LangChain",
+      "span_text": "LangChain Raises $300M Series C at $3B Valuation Would you notice if your agent got worse in production? Tell",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:eb174b5a-a28e-5260-a99a-aeb84f1e4be8:10:16",
+      "document_id": "eb174b5a-a28e-5260-a99a-aeb84f1e4be8",
+      "start": 10,
+      "end": 16,
+      "entity_text": "Raises",
+      "span_text": "LangChain Raises $300M Series C at $3B Valuation Would you notice if your agent got worse in production? Tell us in ",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:eb174b5a-a28e-5260-a99a-aeb84f1e4be8:23:29",
+      "document_id": "eb174b5a-a28e-5260-a99a-aeb84f1e4be8",
+      "start": 23,
+      "end": 29,
+      "entity_text": "Series",
+      "span_text": "LangChain Raises $300M Series C at $3B Valuation Would you notice if your agent got worse in production? Tell us in our annual su",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:eb174b5a-a28e-5260-a99a-aeb84f1e4be8:39:48",
+      "document_id": "eb174b5a-a28e-5260-a99a-aeb84f1e4be8",
+      "start": 39,
+      "end": 48,
+      "entity_text": "Valuation",
+      "span_text": "LangChain Raises $300M Series C at $3B Valuation Would you notice if your agent got worse in production? Tell us in our annual survey for the chance",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:eb174b5a-a28e-5260-a99a-aeb84f1e4be8:49:54",
+      "document_id": "eb174b5a-a28e-5260-a99a-aeb84f1e4be8",
+      "start": 49,
+      "end": 54,
+      "entity_text": "Would",
+      "span_text": "LangChain Raises $300M Series C at $3B Valuation Would you notice if your agent got worse in production? Tell us in our annual survey for the chance to wi",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:eb174b5a-a28e-5260-a99a-aeb84f1e4be8:105:109",
+      "document_id": "eb174b5a-a28e-5260-a99a-aeb84f1e4be8",
+      "start": 105,
+      "end": 109,
+      "entity_text": "Tell",
+      "span_text": "hain Raises $300M Series C at $3B Valuation Would you notice if your agent got worse in production? Tell us in our annual survey for the chance to win LangChain swag. | Take survey ↗ Products LangSmith Pl",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:eb174b5a-a28e-5260-a99a-aeb84f1e4be8:156:165",
+      "document_id": "eb174b5a-a28e-5260-a99a-aeb84f1e4be8",
+      "start": 156,
+      "end": 165,
+      "entity_text": "LangChain",
+      "span_text": "ou notice if your agent got worse in production? Tell us in our annual survey for the chance to win LangChain swag. | Take survey ↗ Products LangSmith Platform Agent Improvement Engine Improve agents autonomou",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:eb174b5a-a28e-5260-a99a-aeb84f1e4be8:174:178",
+      "document_id": "eb174b5a-a28e-5260-a99a-aeb84f1e4be8",
+      "start": 174,
+      "end": 178,
+      "entity_text": "Take",
+      "span_text": "agent got worse in production? Tell us in our annual survey for the chance to win LangChain swag. | Take survey ↗ Products LangSmith Platform Agent Improvement Engine Improve agents autonomously Observabi",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:eb174b5a-a28e-5260-a99a-aeb84f1e4be8:188:196",
+      "document_id": "eb174b5a-a28e-5260-a99a-aeb84f1e4be8",
+      "start": 188,
+      "end": 196,
+      "entity_text": "Products",
+      "span_text": "e in production? Tell us in our annual survey for the chance to win LangChain swag. | Take survey ↗ Products LangSmith Platform Agent Improvement Engine Improve agents autonomously Observability See exactly w",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:eb174b5a-a28e-5260-a99a-aeb84f1e4be8:197:206",
+      "document_id": "eb174b5a-a28e-5260-a99a-aeb84f1e4be8",
+      "start": 197,
+      "end": 206,
+      "entity_text": "LangSmith",
+      "span_text": "uction? Tell us in our annual survey for the chance to win LangChain swag. | Take survey ↗ Products LangSmith Platform Agent Improvement Engine Improve agents autonomously Observability See exactly what your a",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:eb174b5a-a28e-5260-a99a-aeb84f1e4be8:207:215",
+      "document_id": "eb174b5a-a28e-5260-a99a-aeb84f1e4be8",
+      "start": 207,
+      "end": 215,
+      "entity_text": "Platform",
+      "span_text": "ll us in our annual survey for the chance to win LangChain swag. | Take survey ↗ Products LangSmith Platform Agent Improvement Engine Improve agents autonomously Observability See exactly what your agents are",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:eb174b5a-a28e-5260-a99a-aeb84f1e4be8:216:221",
+      "document_id": "eb174b5a-a28e-5260-a99a-aeb84f1e4be8",
+      "start": 216,
+      "end": 221,
+      "entity_text": "Agent",
+      "span_text": "our annual survey for the chance to win LangChain swag. | Take survey ↗ Products LangSmith Platform Agent Improvement Engine Improve agents autonomously Observability See exactly what your agents are doing",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:8040d79a-d5bc-57b8-80ed-3b703a3d7af3:0:6",
+      "document_id": "8040d79a-d5bc-57b8-80ed-3b703a3d7af3",
+      "start": 0,
+      "end": 6,
+      "entity_text": "Follow",
+      "span_text": "Follow us on 4 Today we’re delighted to announce two milestones: the general availability of LlamaParse, a",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:8040d79a-d5bc-57b8-80ed-3b703a3d7af3:15:20",
+      "document_id": "8040d79a-d5bc-57b8-80ed-3b703a3d7af3",
+      "start": 15,
+      "end": 20,
+      "entity_text": "Today",
+      "span_text": "Follow us on 4 Today we’re delighted to announce two milestones: the general availability of LlamaParse, and our $19M se",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:8040d79a-d5bc-57b8-80ed-3b703a3d7af3:93:103",
+      "document_id": "8040d79a-d5bc-57b8-80ed-3b703a3d7af3",
+      "start": 93,
+      "end": 103,
+      "entity_text": "LlamaParse",
+      "span_text": "Follow us on 4 Today we’re delighted to announce two milestones: the general availability of LlamaParse, and our $19M series A funding round. LlamaParse is the core of our enterprise offering: a turn-key",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:8040d79a-d5bc-57b8-80ed-3b703a3d7af3:142:152",
+      "document_id": "8040d79a-d5bc-57b8-80ed-3b703a3d7af3",
+      "start": 142,
+      "end": 152,
+      "entity_text": "LlamaParse",
+      "span_text": "nounce two milestones: the general availability of LlamaParse, and our $19M series A funding round. LlamaParse is the core of our enterprise offering: a turn-key solution for agentic knowledge management over y",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:8040d79a-d5bc-57b8-80ed-3b703a3d7af3:369:372",
+      "document_id": "8040d79a-d5bc-57b8-80ed-3b703a3d7af3",
+      "start": 369,
+      "end": 372,
+      "entity_text": "Use",
+      "span_text": "data. It’s the most secure, accurate, and easy to use platform to enable building knowledge agents. Use one of our hundreds of available integrations to connect to your enterprise data, and let us take c",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:8040d79a-d5bc-57b8-80ed-3b703a3d7af3:567:577",
+      "document_id": "8040d79a-d5bc-57b8-80ed-3b703a3d7af3",
+      "start": 567,
+      "end": 577,
+      "entity_text": "LlamaParse",
+      "span_text": "ake care of parsing, ingesting, indexing, and retrieval for you, as well as uptime and reliability. LlamaParse is available both as an instant-setup SaaS offering and an on-premise solution for higher security ",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:8040d79a-d5bc-57b8-80ed-3b703a3d7af3:616:620",
+      "document_id": "8040d79a-d5bc-57b8-80ed-3b703a3d7af3",
+      "start": 616,
+      "end": 620,
+      "entity_text": "SaaS",
+      "span_text": "rieval for you, as well as uptime and reliability. LlamaParse is available both as an instant-setup SaaS offering and an on-premise solution for higher security and data locality guarantees. It’s also hig",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:8040d79a-d5bc-57b8-80ed-3b703a3d7af3:749:752",
+      "document_id": "8040d79a-d5bc-57b8-80ed-3b703a3d7af3",
+      "start": 749,
+      "end": 752,
+      "entity_text": "SOC",
+      "span_text": "olution for higher security and data locality guarantees. It’s also highly private and secure, with SOC 2 Type 2 certification. Now in general availability, you can sign up today and join happy customers",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:8040d79a-d5bc-57b8-80ed-3b703a3d7af3:755:759",
+      "document_id": "8040d79a-d5bc-57b8-80ed-3b703a3d7af3",
+      "start": 755,
+      "end": 759,
+      "entity_text": "Type",
+      "span_text": "n for higher security and data locality guarantees. It’s also highly private and secure, with SOC 2 Type 2 certification. Now in general availability, you can sign up today and join happy customers like R",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:8040d79a-d5bc-57b8-80ed-3b703a3d7af3:777:780",
+      "document_id": "8040d79a-d5bc-57b8-80ed-3b703a3d7af3",
+      "start": 777,
+      "end": 780,
+      "entity_text": "Now",
+      "span_text": "and data locality guarantees. It’s also highly private and secure, with SOC 2 Type 2 certification. Now in general availability, you can sign up today and join happy customers like Rakuten, Carlyle, Sale",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:8040d79a-d5bc-57b8-80ed-3b703a3d7af3:858:865",
+      "document_id": "8040d79a-d5bc-57b8-80ed-3b703a3d7af3",
+      "start": 858,
+      "end": 865,
+      "entity_text": "Rakuten",
+      "span_text": "e 2 certification. Now in general availability, you can sign up today and join happy customers like Rakuten, Carlyle, Salesforce and KPMG. If you’re in the EU, you may be interested in our GDPR-compliant EU ",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:8040d79a-d5bc-57b8-80ed-3b703a3d7af3:867:874",
+      "document_id": "8040d79a-d5bc-57b8-80ed-3b703a3d7af3",
+      "start": 867,
+      "end": 874,
+      "entity_text": "Carlyle",
+      "span_text": "fication. Now in general availability, you can sign up today and join happy customers like Rakuten, Carlyle, Salesforce and KPMG. If you’re in the EU, you may be interested in our GDPR-compliant EU SaaS offe",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:8767e401-ef9f-5ca1-aea7-36dd179301b7:0:4",
+      "document_id": "8767e401-ef9f-5ca1-aea7-36dd179301b7",
+      "start": 0,
+      "end": 4,
+      "entity_text": "June",
+      "span_text": "June 18, 2025 Building the future of web automation Paul Klein Company 3 min read Try our new product, D",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:8767e401-ef9f-5ca1-aea7-36dd179301b7:14:22",
+      "document_id": "8767e401-ef9f-5ca1-aea7-36dd179301b7",
+      "start": 14,
+      "end": 22,
+      "entity_text": "Building",
+      "span_text": "June 18, 2025 Building the future of web automation Paul Klein Company 3 min read Try our new product, Director.ai today I",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:8767e401-ef9f-5ca1-aea7-36dd179301b7:52:56",
+      "document_id": "8767e401-ef9f-5ca1-aea7-36dd179301b7",
+      "start": 52,
+      "end": 56,
+      "entity_text": "Paul",
+      "span_text": "June 18, 2025 Building the future of web automation Paul Klein Company 3 min read Try our new product, Director.ai today In this hyper-fast world of AI, in ",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:8767e401-ef9f-5ca1-aea7-36dd179301b7:57:62",
+      "document_id": "8767e401-ef9f-5ca1-aea7-36dd179301b7",
+      "start": 57,
+      "end": 62,
+      "entity_text": "Klein",
+      "span_text": "June 18, 2025 Building the future of web automation Paul Klein Company 3 min read Try our new product, Director.ai today In this hyper-fast world of AI, in order ",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:8767e401-ef9f-5ca1-aea7-36dd179301b7:63:70",
+      "document_id": "8767e401-ef9f-5ca1-aea7-36dd179301b7",
+      "start": 63,
+      "end": 70,
+      "entity_text": "Company",
+      "span_text": "June 18, 2025 Building the future of web automation Paul Klein Company 3 min read Try our new product, Director.ai today In this hyper-fast world of AI, in order to compe",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:8767e401-ef9f-5ca1-aea7-36dd179301b7:82:85",
+      "document_id": "8767e401-ef9f-5ca1-aea7-36dd179301b7",
+      "start": 82,
+      "end": 85,
+      "entity_text": "Try",
+      "span_text": "June 18, 2025 Building the future of web automation Paul Klein Company 3 min read Try our new product, Director.ai today In this hyper-fast world of AI, in order to compete you have to ",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:8767e401-ef9f-5ca1-aea7-36dd179301b7:103:114",
+      "document_id": "8767e401-ef9f-5ca1-aea7-36dd179301b7",
+      "start": 103,
+      "end": 114,
+      "entity_text": "Director.ai",
+      "span_text": "e 18, 2025 Building the future of web automation Paul Klein Company 3 min read Try our new product, Director.ai today In this hyper-fast world of AI, in order to compete you have to keep up. Even since starting ",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:8767e401-ef9f-5ca1-aea7-36dd179301b7:194:198",
+      "document_id": "8767e401-ef9f-5ca1-aea7-36dd179301b7",
+      "start": 194,
+      "end": 198,
+      "entity_text": "Even",
+      "span_text": "product, Director.ai today In this hyper-fast world of AI, in order to compete you have to keep up. Even since starting Browserbase 16 months ago, I’ve seen the promises of AI turn into production-ready r",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:8767e401-ef9f-5ca1-aea7-36dd179301b7:214:225",
+      "document_id": "8767e401-ef9f-5ca1-aea7-36dd179301b7",
+      "start": 214,
+      "end": 225,
+      "entity_text": "Browserbase",
+      "span_text": " today In this hyper-fast world of AI, in order to compete you have to keep up. Even since starting Browserbase 16 months ago, I’ve seen the promises of AI turn into production-ready reality. We’re proud to be p",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:8767e401-ef9f-5ca1-aea7-36dd179301b7:431:435",
+      "document_id": "8767e401-ef9f-5ca1-aea7-36dd179301b7",
+      "start": 431,
+      "end": 435,
+      "entity_text": "What",
+      "span_text": " this transformation, building the infrastructure that makes web automation accessible to everyone. What started with a thesis that AI agents would require great browser infrastructure, has turned into bi",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:8767e401-ef9f-5ca1-aea7-36dd179301b7:564:575",
+      "document_id": "8767e401-ef9f-5ca1-aea7-36dd179301b7",
+      "start": 564,
+      "end": 575,
+      "entity_text": "Browserbase",
+      "span_text": "I agents would require great browser infrastructure, has turned into billion dollar companies using Browserbase to deliver better outcomes for their customers. Building on a foundation of primitives The most tra",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:8767e401-ef9f-5ca1-aea7-36dd179301b7:624:632",
+      "document_id": "8767e401-ef9f-5ca1-aea7-36dd179301b7",
+      "start": 624,
+      "end": 632,
+      "entity_text": "Building",
+      "span_text": "ned into billion dollar companies using Browserbase to deliver better outcomes for their customers. Building on a foundation of primitives The most transformative technology companies (Twilio, Stripe, Vercel)",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:b4c06ed8-d4f1-593d-bb1c-f8a329355cab:0:4",
+      "document_id": "b4c06ed8-d4f1-593d-bb1c-f8a329355cab",
+      "start": 0,
+      "end": 4,
+      "entity_text": "Join",
+      "span_text": "Join us and help shape the future of AI by defining the narrative around document understanding. ABOUT T",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:b4c06ed8-d4f1-593d-bb1c-f8a329355cab:97:102",
+      "document_id": "b4c06ed8-d4f1-593d-bb1c-f8a329355cab",
+      "start": 97,
+      "end": 102,
+      "entity_text": "ABOUT",
+      "span_text": "Join us and help shape the future of AI by defining the narrative around document understanding. ABOUT THE ROLE LlamaIndex makes enterprise data useful for AI applications. You will own engineering exec",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:b4c06ed8-d4f1-593d-bb1c-f8a329355cab:103:106",
+      "document_id": "b4c06ed8-d4f1-593d-bb1c-f8a329355cab",
+      "start": 103,
+      "end": 106,
+      "entity_text": "THE",
+      "span_text": "n us and help shape the future of AI by defining the narrative around document understanding. ABOUT THE ROLE LlamaIndex makes enterprise data useful for AI applications. You will own engineering executio",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:b4c06ed8-d4f1-593d-bb1c-f8a329355cab:107:111",
+      "document_id": "b4c06ed8-d4f1-593d-bb1c-f8a329355cab",
+      "start": 107,
+      "end": 111,
+      "entity_text": "ROLE",
+      "span_text": " and help shape the future of AI by defining the narrative around document understanding. ABOUT THE ROLE LlamaIndex makes enterprise data useful for AI applications. You will own engineering execution, te",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:b4c06ed8-d4f1-593d-bb1c-f8a329355cab:112:122",
+      "document_id": "b4c06ed8-d4f1-593d-bb1c-f8a329355cab",
+      "start": 112,
+      "end": 122,
+      "entity_text": "LlamaIndex",
+      "span_text": "help shape the future of AI by defining the narrative around document understanding. ABOUT THE ROLE LlamaIndex makes enterprise data useful for AI applications. You will own engineering execution, technical dir",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:b4c06ed8-d4f1-593d-bb1c-f8a329355cab:173:176",
+      "document_id": "b4c06ed8-d4f1-593d-bb1c-f8a329355cab",
+      "start": 173,
+      "end": 176,
+      "entity_text": "You",
+      "span_text": "document understanding. ABOUT THE ROLE LlamaIndex makes enterprise data useful for AI applications. You will own engineering execution, technical direction, hiring, and team development. You will work cl",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:b4c06ed8-d4f1-593d-bb1c-f8a329355cab:260:263",
+      "document_id": "b4c06ed8-d4f1-593d-bb1c-f8a329355cab",
+      "start": 260,
+      "end": 263,
+      "entity_text": "You",
+      "span_text": "pplications. You will own engineering execution, technical direction, hiring, and team development. You will work closely with company leadership and product teams to decide what we build, how we build i",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:b4c06ed8-d4f1-593d-bb1c-f8a329355cab:411:415",
+      "document_id": "b4c06ed8-d4f1-593d-bb1c-f8a329355cab",
+      "start": 411,
+      "end": 415,
+      "entity_text": "This",
+      "span_text": "roduct teams to decide what we build, how we build it, and how we deliver it reliably to customers. This is a hands-on role. You should be comfortable reviewing code and architecture, debugging production",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:b4c06ed8-d4f1-593d-bb1c-f8a329355cab:436:439",
+      "document_id": "b4c06ed8-d4f1-593d-bb1c-f8a329355cab",
+      "start": 436,
+      "end": 439,
+      "entity_text": "You",
+      "span_text": "at we build, how we build it, and how we deliver it reliably to customers. This is a hands-on role. You should be comfortable reviewing code and architecture, debugging production issues, and writing cod",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:b4c06ed8-d4f1-593d-bb1c-f8a329355cab:619:622",
+      "document_id": "b4c06ed8-d4f1-593d-bb1c-f8a329355cab",
+      "start": 619,
+      "end": 622,
+      "entity_text": "B2B",
+      "span_text": "ues, and writing code for critical systems. We are looking for someone who has shipped and operated B2B API products and understands both model serving and model training—from experimentation and evaluat",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:b4c06ed8-d4f1-593d-bb1c-f8a329355cab:623:626",
+      "document_id": "b4c06ed8-d4f1-593d-bb1c-f8a329355cab",
+      "start": 623,
+      "end": 626,
+      "entity_text": "API",
+      "span_text": " and writing code for critical systems. We are looking for someone who has shipped and operated B2B API products and understands both model serving and model training—from experimentation and evaluation ",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:b4c06ed8-d4f1-593d-bb1c-f8a329355cab:767:783",
+      "document_id": "b4c06ed8-d4f1-593d-bb1c-f8a329355cab",
+      "start": 767,
+      "end": 783,
+      "entity_text": "RESPONSIBILITIES",
+      "span_text": "ing and model training—from experimentation and evaluation to deployment and production operations. RESPONSIBILITIES - Lead and develop our engineering team, setting clear priorities, ownership, and accountability. -",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:7db42262-253c-50c2-b41a-40aa32637d12:0:4",
+      "document_id": "7db42262-253c-50c2-b41a-40aa32637d12",
+      "start": 0,
+      "end": 4,
+      "entity_text": "Join",
+      "span_text": "Join us and help shape the future of AI by defining the narrative around document understanding. ABOUT T",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:7db42262-253c-50c2-b41a-40aa32637d12:97:102",
+      "document_id": "7db42262-253c-50c2-b41a-40aa32637d12",
+      "start": 97,
+      "end": 102,
+      "entity_text": "ABOUT",
+      "span_text": "Join us and help shape the future of AI by defining the narrative around document understanding. ABOUT THE ROLE We are looking for an AI Research Engineer to join our document understanding team. This r",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:7db42262-253c-50c2-b41a-40aa32637d12:103:106",
+      "document_id": "7db42262-253c-50c2-b41a-40aa32637d12",
+      "start": 103,
+      "end": 106,
+      "entity_text": "THE",
+      "span_text": "n us and help shape the future of AI by defining the narrative around document understanding. ABOUT THE ROLE We are looking for an AI Research Engineer to join our document understanding team. This role ",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:7db42262-253c-50c2-b41a-40aa32637d12:107:111",
+      "document_id": "7db42262-253c-50c2-b41a-40aa32637d12",
+      "start": 107,
+      "end": 111,
+      "entity_text": "ROLE",
+      "span_text": " and help shape the future of AI by defining the narrative around document understanding. ABOUT THE ROLE We are looking for an AI Research Engineer to join our document understanding team. This role is id",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:7db42262-253c-50c2-b41a-40aa32637d12:137:145",
+      "document_id": "7db42262-253c-50c2-b41a-40aa32637d12",
+      "start": 137,
+      "end": 145,
+      "entity_text": "Research",
+      "span_text": "AI by defining the narrative around document understanding. ABOUT THE ROLE We are looking for an AI Research Engineer to join our document understanding team. This role is ideal for someone who sits between a",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:7db42262-253c-50c2-b41a-40aa32637d12:146:154",
+      "document_id": "7db42262-253c-50c2-b41a-40aa32637d12",
+      "start": 146,
+      "end": 154,
+      "entity_text": "Engineer",
+      "span_text": "ining the narrative around document understanding. ABOUT THE ROLE We are looking for an AI Research Engineer to join our document understanding team. This role is ideal for someone who sits between applied re",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:7db42262-253c-50c2-b41a-40aa32637d12:196:200",
+      "document_id": "7db42262-253c-50c2-b41a-40aa32637d12",
+      "start": 196,
+      "end": 200,
+      "entity_text": "This",
+      "span_text": " ABOUT THE ROLE We are looking for an AI Research Engineer to join our document understanding team. This role is ideal for someone who sits between applied research and strong engineering. You will work o",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:7db42262-253c-50c2-b41a-40aa32637d12:285:288",
+      "document_id": "7db42262-253c-50c2-b41a-40aa32637d12",
+      "start": 285,
+      "end": 288,
+      "entity_text": "You",
+      "span_text": "ding team. This role is ideal for someone who sits between applied research and strong engineering. You will work on vision-language models, document processing, data curation, synthetic data generation,",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:7db42262-253c-50c2-b41a-40aa32637d12:445:448",
+      "document_id": "7db42262-253c-50c2-b41a-40aa32637d12",
+      "start": 445,
+      "end": 448,
+      "entity_text": "The",
+      "span_text": ", data curation, synthetic data generation, benchmarking, training, fine-tuning, and post-training. The goal is simple: make our document AI systems more accurate, faster, and more cost-effective in prod",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:7db42262-253c-50c2-b41a-40aa32637d12:556:559",
+      "document_id": "7db42262-253c-50c2-b41a-40aa32637d12",
+      "start": 556,
+      "end": 559,
+      "entity_text": "You",
+      "span_text": " simple: make our document AI systems more accurate, faster, and more cost-effective in production. You should be excited by frontier AI work, but equally motivated by practical product impact. This is n",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:7db42262-253c-50c2-b41a-40aa32637d12:650:654",
+      "document_id": "7db42262-253c-50c2-b41a-40aa32637d12",
+      "start": 650,
+      "end": 654,
+      "entity_text": "This",
+      "span_text": "tion. You should be excited by frontier AI work, but equally motivated by practical product impact. This is not a pure research role where ideas stay in papers. You will be expected to prototype quickly, ",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:7db42262-253c-50c2-b41a-40aa32637d12:711:714",
+      "document_id": "7db42262-253c-50c2-b41a-40aa32637d12",
+      "start": 711,
+      "end": 714,
+      "entity_text": "You",
+      "span_text": "motivated by practical product impact. This is not a pure research role where ideas stay in papers. You will be expected to prototype quickly, evaluate rigorously, and help turn promising approaches into",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:5d7a7ced-53aa-5b84-b7c5-30c694e18633:0:4",
+      "document_id": "5d7a7ced-53aa-5b84-b7c5-30c694e18633",
+      "start": 0,
+      "end": 4,
+      "entity_text": "Join",
+      "span_text": "Join us and help shape the future of AI by defining the narrative around document understanding. Don’t s",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:5d7a7ced-53aa-5b84-b7c5-30c694e18633:97:100",
+      "document_id": "5d7a7ced-53aa-5b84-b7c5-30c694e18633",
+      "start": 97,
+      "end": 100,
+      "entity_text": "Don",
+      "span_text": "Join us and help shape the future of AI by defining the narrative around document understanding. Don’t see a role that feels like the right fit? We’d still love to hear from you. Submit your applicati",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:5d7a7ced-53aa-5b84-b7c5-30c694e18633:179:185",
+      "document_id": "5d7a7ced-53aa-5b84-b7c5-30c694e18633",
+      "start": 179,
+      "end": 185,
+      "entity_text": "Submit",
+      "span_text": "nt understanding. Don’t see a role that feels like the right fit? We’d still love to hear from you. Submit your application here, and we’ll keep you in mind as new opportunities open up! Pursuant to the San",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:5d7a7ced-53aa-5b84-b7c5-30c694e18633:266:274",
+      "document_id": "5d7a7ced-53aa-5b84-b7c5-30c694e18633",
+      "start": 266,
+      "end": 274,
+      "entity_text": "Pursuant",
+      "span_text": "ar from you. Submit your application here, and we’ll keep you in mind as new opportunities open up! Pursuant to the San Francisco Fair Chance Ordinance, we will consider for employment qualified applicants wi",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:5d7a7ced-53aa-5b84-b7c5-30c694e18633:282:285",
+      "document_id": "5d7a7ced-53aa-5b84-b7c5-30c694e18633",
+      "start": 282,
+      "end": 285,
+      "entity_text": "San",
+      "span_text": "mit your application here, and we’ll keep you in mind as new opportunities open up! Pursuant to the San Francisco Fair Chance Ordinance, we will consider for employment qualified applicants with arrest a",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:5d7a7ced-53aa-5b84-b7c5-30c694e18633:286:295",
+      "document_id": "5d7a7ced-53aa-5b84-b7c5-30c694e18633",
+      "start": 286,
+      "end": 295,
+      "entity_text": "Francisco",
+      "span_text": "your application here, and we’ll keep you in mind as new opportunities open up! Pursuant to the San Francisco Fair Chance Ordinance, we will consider for employment qualified applicants with arrest and convict",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:5d7a7ced-53aa-5b84-b7c5-30c694e18633:296:300",
+      "document_id": "5d7a7ced-53aa-5b84-b7c5-30c694e18633",
+      "start": 296,
+      "end": 300,
+      "entity_text": "Fair",
+      "span_text": "cation here, and we’ll keep you in mind as new opportunities open up! Pursuant to the San Francisco Fair Chance Ordinance, we will consider for employment qualified applicants with arrest and conviction r",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:5d7a7ced-53aa-5b84-b7c5-30c694e18633:301:307",
+      "document_id": "5d7a7ced-53aa-5b84-b7c5-30c694e18633",
+      "start": 301,
+      "end": 307,
+      "entity_text": "Chance",
+      "span_text": "n here, and we’ll keep you in mind as new opportunities open up! Pursuant to the San Francisco Fair Chance Ordinance, we will consider for employment qualified applicants with arrest and conviction records.",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:5d7a7ced-53aa-5b84-b7c5-30c694e18633:308:317",
+      "document_id": "5d7a7ced-53aa-5b84-b7c5-30c694e18633",
+      "start": 308,
+      "end": 317,
+      "entity_text": "Ordinance",
+      "span_text": " and we’ll keep you in mind as new opportunities open up! Pursuant to the San Francisco Fair Chance Ordinance, we will consider for employment qualified applicants with arrest and conviction records. LlamaInde",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:5d7a7ced-53aa-5b84-b7c5-30c694e18633:408:418",
+      "document_id": "5d7a7ced-53aa-5b84-b7c5-30c694e18633",
+      "start": 408,
+      "end": 418,
+      "entity_text": "LlamaIndex",
+      "span_text": "Ordinance, we will consider for employment qualified applicants with arrest and conviction records. LlamaIndex does not accept unsolicited agency resumes. Please do not forward resumes to our jobs alias, employ",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:5d7a7ced-53aa-5b84-b7c5-30c694e18633:463:469",
+      "document_id": "5d7a7ced-53aa-5b84-b7c5-30c694e18633",
+      "start": 463,
+      "end": 469,
+      "entity_text": "Please",
+      "span_text": "plicants with arrest and conviction records. LlamaIndex does not accept unsolicited agency resumes. Please do not forward resumes to our jobs alias, employees, or any other organization location. LlamaIndex",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:5d7a7ced-53aa-5b84-b7c5-30c694e18633:559:569",
+      "document_id": "5d7a7ced-53aa-5b84-b7c5-30c694e18633",
+      "start": 559,
+      "end": 569,
+      "entity_text": "LlamaIndex",
+      "span_text": "es. Please do not forward resumes to our jobs alias, employees, or any other organization location. LlamaIndex is not responsible for any fees related to unsolicited resumes.",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:724f07a0-9038-5c04-a444-a224e9ba24d4:0:5",
+      "document_id": "724f07a0-9038-5c04-a444-a224e9ba24d4",
+      "start": 0,
+      "end": 5,
+      "entity_text": "ABOUT",
+      "span_text": "ABOUT US At LangChain, our mission is to enable every company to own its intelligence. We believe agents ",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:724f07a0-9038-5c04-a444-a224e9ba24d4:12:21",
+      "document_id": "724f07a0-9038-5c04-a444-a224e9ba24d4",
+      "start": 12,
+      "end": 21,
+      "entity_text": "LangChain",
+      "span_text": "ABOUT US At LangChain, our mission is to enable every company to own its intelligence. We believe agents will transform h",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:724f07a0-9038-5c04-a444-a224e9ba24d4:207:210",
+      "document_id": "724f07a0-9038-5c04-a444-a224e9ba24d4",
+      "start": 207,
+      "end": 210,
+      "entity_text": "Our",
+      "span_text": "ll transform how companies operate, and we're building the foundation to make that future possible. Our open-source harnesses and LangSmith platform give developers and enterprises the infrastructure to ",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:724f07a0-9038-5c04-a444-a224e9ba24d4:237:246",
+      "document_id": "724f07a0-9038-5c04-a444-a224e9ba24d4",
+      "start": 237,
+      "end": 246,
+      "entity_text": "LangSmith",
+      "span_text": "rate, and we're building the foundation to make that future possible. Our open-source harnesses and LangSmith platform give developers and enterprises the infrastructure to run, improve, and govern agents at s",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:724f07a0-9038-5c04-a444-a224e9ba24d4:481:488",
+      "document_id": "724f07a0-9038-5c04-a444-a224e9ba24d4",
+      "start": 481,
+      "end": 488,
+      "entity_text": "Sequoia",
+      "span_text": "ith our most recent funding round valuing the company at $3B, backed by leading investors including Sequoia, Benchmark, IVP, and CapitalG. As we continue to expand our platform and tackle some of the hardest",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:724f07a0-9038-5c04-a444-a224e9ba24d4:490:499",
+      "document_id": "724f07a0-9038-5c04-a444-a224e9ba24d4",
+      "start": 490,
+      "end": 499,
+      "entity_text": "Benchmark",
+      "span_text": "ost recent funding round valuing the company at $3B, backed by leading investors including Sequoia, Benchmark, IVP, and CapitalG. As we continue to expand our platform and tackle some of the hardest challenges",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:724f07a0-9038-5c04-a444-a224e9ba24d4:501:504",
+      "document_id": "724f07a0-9038-5c04-a444-a224e9ba24d4",
+      "start": 501,
+      "end": 504,
+      "entity_text": "IVP",
+      "span_text": "funding round valuing the company at $3B, backed by leading investors including Sequoia, Benchmark, IVP, and CapitalG. As we continue to expand our platform and tackle some of the hardest challenges in a",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:724f07a0-9038-5c04-a444-a224e9ba24d4:510:518",
+      "document_id": "724f07a0-9038-5c04-a444-a224e9ba24d4",
+      "start": 510,
+      "end": 518,
+      "entity_text": "CapitalG",
+      "span_text": "ound valuing the company at $3B, backed by leading investors including Sequoia, Benchmark, IVP, and CapitalG. As we continue to expand our platform and tackle some of the hardest challenges in agent engineeri",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:724f07a0-9038-5c04-a444-a224e9ba24d4:755:759",
+      "document_id": "724f07a0-9038-5c04-a444-a224e9ba24d4",
+      "start": 755,
+      "end": 759,
+      "entity_text": "More",
+      "span_text": "nity to make a meaningful impact and help shape both our technology and the future of the industry. More than 7,000 organizations rely on LangSmith, from fast-growing startups to Fortune 500 enterprises, ",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:724f07a0-9038-5c04-a444-a224e9ba24d4:793:802",
+      "document_id": "724f07a0-9038-5c04-a444-a224e9ba24d4",
+      "start": 793,
+      "end": 802,
+      "entity_text": "LangSmith",
+      "span_text": "elp shape both our technology and the future of the industry. More than 7,000 organizations rely on LangSmith, from fast-growing startups to Fortune 500 enterprises, including NVIDIA, Bridgewater, LinkedIn, Wo",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:724f07a0-9038-5c04-a444-a224e9ba24d4:834:841",
+      "document_id": "724f07a0-9038-5c04-a444-a224e9ba24d4",
+      "start": 834,
+      "end": 841,
+      "entity_text": "Fortune",
+      "span_text": "ure of the industry. More than 7,000 organizations rely on LangSmith, from fast-growing startups to Fortune 500 enterprises, including NVIDIA, Bridgewater, LinkedIn, Workday, and Rippling. We're just getting",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:724f07a0-9038-5c04-a444-a224e9ba24d4:869:875",
+      "document_id": "724f07a0-9038-5c04-a444-a224e9ba24d4",
+      "start": 869,
+      "end": 875,
+      "entity_text": "NVIDIA",
+      "span_text": "0 organizations rely on LangSmith, from fast-growing startups to Fortune 500 enterprises, including NVIDIA, Bridgewater, LinkedIn, Workday, and Rippling. We're just getting started on making high-performing",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:36725462-2467-59f7-9830-ceca221e5623:0:5",
+      "document_id": "36725462-2467-59f7-9830-ceca221e5623",
+      "start": 0,
+      "end": 5,
+      "entity_text": "ABOUT",
+      "span_text": "ABOUT US At LangChain, our mission is to enable every company to own its intelligence. We believe agents ",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:36725462-2467-59f7-9830-ceca221e5623:12:21",
+      "document_id": "36725462-2467-59f7-9830-ceca221e5623",
+      "start": 12,
+      "end": 21,
+      "entity_text": "LangChain",
+      "span_text": "ABOUT US At LangChain, our mission is to enable every company to own its intelligence. We believe agents will transform h",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:36725462-2467-59f7-9830-ceca221e5623:207:210",
+      "document_id": "36725462-2467-59f7-9830-ceca221e5623",
+      "start": 207,
+      "end": 210,
+      "entity_text": "Our",
+      "span_text": "ll transform how companies operate, and we're building the foundation to make that future possible. Our open-source harnesses and LangSmith platform give developers and enterprises the infrastructure to ",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:36725462-2467-59f7-9830-ceca221e5623:237:246",
+      "document_id": "36725462-2467-59f7-9830-ceca221e5623",
+      "start": 237,
+      "end": 246,
+      "entity_text": "LangSmith",
+      "span_text": "rate, and we're building the foundation to make that future possible. Our open-source harnesses and LangSmith platform give developers and enterprises the infrastructure to run, improve, and govern agents at s",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:36725462-2467-59f7-9830-ceca221e5623:481:488",
+      "document_id": "36725462-2467-59f7-9830-ceca221e5623",
+      "start": 481,
+      "end": 488,
+      "entity_text": "Sequoia",
+      "span_text": "ith our most recent funding round valuing the company at $3B, backed by leading investors including Sequoia, Benchmark, IVP, and CapitalG. As we continue to expand our platform and tackle some of the hardest",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:36725462-2467-59f7-9830-ceca221e5623:490:499",
+      "document_id": "36725462-2467-59f7-9830-ceca221e5623",
+      "start": 490,
+      "end": 499,
+      "entity_text": "Benchmark",
+      "span_text": "ost recent funding round valuing the company at $3B, backed by leading investors including Sequoia, Benchmark, IVP, and CapitalG. As we continue to expand our platform and tackle some of the hardest challenges",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:36725462-2467-59f7-9830-ceca221e5623:501:504",
+      "document_id": "36725462-2467-59f7-9830-ceca221e5623",
+      "start": 501,
+      "end": 504,
+      "entity_text": "IVP",
+      "span_text": "funding round valuing the company at $3B, backed by leading investors including Sequoia, Benchmark, IVP, and CapitalG. As we continue to expand our platform and tackle some of the hardest challenges in a",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:36725462-2467-59f7-9830-ceca221e5623:510:518",
+      "document_id": "36725462-2467-59f7-9830-ceca221e5623",
+      "start": 510,
+      "end": 518,
+      "entity_text": "CapitalG",
+      "span_text": "ound valuing the company at $3B, backed by leading investors including Sequoia, Benchmark, IVP, and CapitalG. As we continue to expand our platform and tackle some of the hardest challenges in agent engineeri",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:36725462-2467-59f7-9830-ceca221e5623:755:759",
+      "document_id": "36725462-2467-59f7-9830-ceca221e5623",
+      "start": 755,
+      "end": 759,
+      "entity_text": "More",
+      "span_text": "nity to make a meaningful impact and help shape both our technology and the future of the industry. More than 7,000 organizations rely on LangSmith, from fast-growing startups to Fortune 500 enterprises, ",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:36725462-2467-59f7-9830-ceca221e5623:793:802",
+      "document_id": "36725462-2467-59f7-9830-ceca221e5623",
+      "start": 793,
+      "end": 802,
+      "entity_text": "LangSmith",
+      "span_text": "elp shape both our technology and the future of the industry. More than 7,000 organizations rely on LangSmith, from fast-growing startups to Fortune 500 enterprises, including NVIDIA, Bridgewater, LinkedIn, Wo",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:36725462-2467-59f7-9830-ceca221e5623:834:841",
+      "document_id": "36725462-2467-59f7-9830-ceca221e5623",
+      "start": 834,
+      "end": 841,
+      "entity_text": "Fortune",
+      "span_text": "ure of the industry. More than 7,000 organizations rely on LangSmith, from fast-growing startups to Fortune 500 enterprises, including NVIDIA, Bridgewater, LinkedIn, Workday, and Rippling. We're just getting",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:36725462-2467-59f7-9830-ceca221e5623:869:875",
+      "document_id": "36725462-2467-59f7-9830-ceca221e5623",
+      "start": 869,
+      "end": 875,
+      "entity_text": "NVIDIA",
+      "span_text": "0 organizations rely on LangSmith, from fast-growing startups to Fortune 500 enterprises, including NVIDIA, Bridgewater, LinkedIn, Workday, and Rippling. We're just getting started on making high-performing",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:ac007877-2f78-5e44-bd24-c897f7265567:0:5",
+      "document_id": "ac007877-2f78-5e44-bd24-c897f7265567",
+      "start": 0,
+      "end": 5,
+      "entity_text": "ABOUT",
+      "span_text": "ABOUT US At LangChain, our mission is to enable every company to own its intelligence. We believe agents ",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:ac007877-2f78-5e44-bd24-c897f7265567:12:21",
+      "document_id": "ac007877-2f78-5e44-bd24-c897f7265567",
+      "start": 12,
+      "end": 21,
+      "entity_text": "LangChain",
+      "span_text": "ABOUT US At LangChain, our mission is to enable every company to own its intelligence. We believe agents will transform h",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:ac007877-2f78-5e44-bd24-c897f7265567:207:210",
+      "document_id": "ac007877-2f78-5e44-bd24-c897f7265567",
+      "start": 207,
+      "end": 210,
+      "entity_text": "Our",
+      "span_text": "ll transform how companies operate, and we're building the foundation to make that future possible. Our open-source harnesses and LangSmith platform give developers and enterprises the infrastructure to ",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:ac007877-2f78-5e44-bd24-c897f7265567:237:246",
+      "document_id": "ac007877-2f78-5e44-bd24-c897f7265567",
+      "start": 237,
+      "end": 246,
+      "entity_text": "LangSmith",
+      "span_text": "rate, and we're building the foundation to make that future possible. Our open-source harnesses and LangSmith platform give developers and enterprises the infrastructure to run, improve, and govern agents at s",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:ac007877-2f78-5e44-bd24-c897f7265567:481:488",
+      "document_id": "ac007877-2f78-5e44-bd24-c897f7265567",
+      "start": 481,
+      "end": 488,
+      "entity_text": "Sequoia",
+      "span_text": "ith our most recent funding round valuing the company at $3B, backed by leading investors including Sequoia, Benchmark, IVP, and CapitalG. As we continue to expand our platform and tackle some of the hardest",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:ac007877-2f78-5e44-bd24-c897f7265567:490:499",
+      "document_id": "ac007877-2f78-5e44-bd24-c897f7265567",
+      "start": 490,
+      "end": 499,
+      "entity_text": "Benchmark",
+      "span_text": "ost recent funding round valuing the company at $3B, backed by leading investors including Sequoia, Benchmark, IVP, and CapitalG. As we continue to expand our platform and tackle some of the hardest challenges",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:ac007877-2f78-5e44-bd24-c897f7265567:501:504",
+      "document_id": "ac007877-2f78-5e44-bd24-c897f7265567",
+      "start": 501,
+      "end": 504,
+      "entity_text": "IVP",
+      "span_text": "funding round valuing the company at $3B, backed by leading investors including Sequoia, Benchmark, IVP, and CapitalG. As we continue to expand our platform and tackle some of the hardest challenges in a",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:ac007877-2f78-5e44-bd24-c897f7265567:510:518",
+      "document_id": "ac007877-2f78-5e44-bd24-c897f7265567",
+      "start": 510,
+      "end": 518,
+      "entity_text": "CapitalG",
+      "span_text": "ound valuing the company at $3B, backed by leading investors including Sequoia, Benchmark, IVP, and CapitalG. As we continue to expand our platform and tackle some of the hardest challenges in agent engineeri",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:ac007877-2f78-5e44-bd24-c897f7265567:755:759",
+      "document_id": "ac007877-2f78-5e44-bd24-c897f7265567",
+      "start": 755,
+      "end": 759,
+      "entity_text": "More",
+      "span_text": "nity to make a meaningful impact and help shape both our technology and the future of the industry. More than 7,000 organizations rely on LangSmith, from fast-growing startups to Fortune 500 enterprises, ",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:ac007877-2f78-5e44-bd24-c897f7265567:793:802",
+      "document_id": "ac007877-2f78-5e44-bd24-c897f7265567",
+      "start": 793,
+      "end": 802,
+      "entity_text": "LangSmith",
+      "span_text": "elp shape both our technology and the future of the industry. More than 7,000 organizations rely on LangSmith, from fast-growing startups to Fortune 500 enterprises, including NVIDIA, Bridgewater, LinkedIn, Wo",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:ac007877-2f78-5e44-bd24-c897f7265567:834:841",
+      "document_id": "ac007877-2f78-5e44-bd24-c897f7265567",
+      "start": 834,
+      "end": 841,
+      "entity_text": "Fortune",
+      "span_text": "ure of the industry. More than 7,000 organizations rely on LangSmith, from fast-growing startups to Fortune 500 enterprises, including NVIDIA, Bridgewater, LinkedIn, Workday, and Rippling. We're just getting",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:ac007877-2f78-5e44-bd24-c897f7265567:869:875",
+      "document_id": "ac007877-2f78-5e44-bd24-c897f7265567",
+      "start": 869,
+      "end": 875,
+      "entity_text": "NVIDIA",
+      "span_text": "0 organizations rely on LangSmith, from fast-growing startups to Fortune 500 enterprises, including NVIDIA, Bridgewater, LinkedIn, Workday, and Rippling. We're just getting started on making high-performing",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:364d3130-0325-5326-8978-ab6372a3a9e3:0:5",
+      "document_id": "364d3130-0325-5326-8978-ab6372a3a9e3",
+      "start": 0,
+      "end": 5,
+      "entity_text": "ABOUT",
+      "span_text": "ABOUT US At LangChain, our mission is to enable every company to own its intelligence. We believe agents ",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:364d3130-0325-5326-8978-ab6372a3a9e3:12:21",
+      "document_id": "364d3130-0325-5326-8978-ab6372a3a9e3",
+      "start": 12,
+      "end": 21,
+      "entity_text": "LangChain",
+      "span_text": "ABOUT US At LangChain, our mission is to enable every company to own its intelligence. We believe agents will transform h",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:364d3130-0325-5326-8978-ab6372a3a9e3:207:210",
+      "document_id": "364d3130-0325-5326-8978-ab6372a3a9e3",
+      "start": 207,
+      "end": 210,
+      "entity_text": "Our",
+      "span_text": "ll transform how companies operate, and we're building the foundation to make that future possible. Our open-source harnesses and LangSmith platform give developers and enterprises the infrastructure to ",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:364d3130-0325-5326-8978-ab6372a3a9e3:237:246",
+      "document_id": "364d3130-0325-5326-8978-ab6372a3a9e3",
+      "start": 237,
+      "end": 246,
+      "entity_text": "LangSmith",
+      "span_text": "rate, and we're building the foundation to make that future possible. Our open-source harnesses and LangSmith platform give developers and enterprises the infrastructure to run, improve, and govern agents at s",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:364d3130-0325-5326-8978-ab6372a3a9e3:481:488",
+      "document_id": "364d3130-0325-5326-8978-ab6372a3a9e3",
+      "start": 481,
+      "end": 488,
+      "entity_text": "Sequoia",
+      "span_text": "ith our most recent funding round valuing the company at $3B, backed by leading investors including Sequoia, Benchmark, IVP, and CapitalG. As we continue to expand our platform and tackle some of the hardest",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:364d3130-0325-5326-8978-ab6372a3a9e3:490:499",
+      "document_id": "364d3130-0325-5326-8978-ab6372a3a9e3",
+      "start": 490,
+      "end": 499,
+      "entity_text": "Benchmark",
+      "span_text": "ost recent funding round valuing the company at $3B, backed by leading investors including Sequoia, Benchmark, IVP, and CapitalG. As we continue to expand our platform and tackle some of the hardest challenges",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:364d3130-0325-5326-8978-ab6372a3a9e3:501:504",
+      "document_id": "364d3130-0325-5326-8978-ab6372a3a9e3",
+      "start": 501,
+      "end": 504,
+      "entity_text": "IVP",
+      "span_text": "funding round valuing the company at $3B, backed by leading investors including Sequoia, Benchmark, IVP, and CapitalG. As we continue to expand our platform and tackle some of the hardest challenges in a",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:364d3130-0325-5326-8978-ab6372a3a9e3:510:518",
+      "document_id": "364d3130-0325-5326-8978-ab6372a3a9e3",
+      "start": 510,
+      "end": 518,
+      "entity_text": "CapitalG",
+      "span_text": "ound valuing the company at $3B, backed by leading investors including Sequoia, Benchmark, IVP, and CapitalG. As we continue to expand our platform and tackle some of the hardest challenges in agent engineeri",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:364d3130-0325-5326-8978-ab6372a3a9e3:755:759",
+      "document_id": "364d3130-0325-5326-8978-ab6372a3a9e3",
+      "start": 755,
+      "end": 759,
+      "entity_text": "More",
+      "span_text": "nity to make a meaningful impact and help shape both our technology and the future of the industry. More than 7,000 organizations rely on LangSmith, from fast-growing startups to Fortune 500 enterprises, ",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:364d3130-0325-5326-8978-ab6372a3a9e3:793:802",
+      "document_id": "364d3130-0325-5326-8978-ab6372a3a9e3",
+      "start": 793,
+      "end": 802,
+      "entity_text": "LangSmith",
+      "span_text": "elp shape both our technology and the future of the industry. More than 7,000 organizations rely on LangSmith, from fast-growing startups to Fortune 500 enterprises, including NVIDIA, Bridgewater, LinkedIn, Wo",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:364d3130-0325-5326-8978-ab6372a3a9e3:834:841",
+      "document_id": "364d3130-0325-5326-8978-ab6372a3a9e3",
+      "start": 834,
+      "end": 841,
+      "entity_text": "Fortune",
+      "span_text": "ure of the industry. More than 7,000 organizations rely on LangSmith, from fast-growing startups to Fortune 500 enterprises, including NVIDIA, Bridgewater, LinkedIn, Workday, and Rippling. We're just getting",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:364d3130-0325-5326-8978-ab6372a3a9e3:869:875",
+      "document_id": "364d3130-0325-5326-8978-ab6372a3a9e3",
+      "start": 869,
+      "end": 875,
+      "entity_text": "NVIDIA",
+      "span_text": "0 organizations rely on LangSmith, from fast-growing startups to Fortune 500 enterprises, including NVIDIA, Bridgewater, LinkedIn, Workday, and Rippling. We're just getting started on making high-performing",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:50235647-63d5-510f-b950-6bb34fe34c15:0:5",
+      "document_id": "50235647-63d5-510f-b950-6bb34fe34c15",
+      "start": 0,
+      "end": 5,
+      "entity_text": "ABOUT",
+      "span_text": "ABOUT US At LangChain, our mission is to enable every company to own its intelligence. We believe agents ",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:50235647-63d5-510f-b950-6bb34fe34c15:12:21",
+      "document_id": "50235647-63d5-510f-b950-6bb34fe34c15",
+      "start": 12,
+      "end": 21,
+      "entity_text": "LangChain",
+      "span_text": "ABOUT US At LangChain, our mission is to enable every company to own its intelligence. We believe agents will transform h",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:50235647-63d5-510f-b950-6bb34fe34c15:207:210",
+      "document_id": "50235647-63d5-510f-b950-6bb34fe34c15",
+      "start": 207,
+      "end": 210,
+      "entity_text": "Our",
+      "span_text": "ll transform how companies operate, and we're building the foundation to make that future possible. Our open-source harnesses and LangSmith platform give developers and enterprises the infrastructure to ",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:50235647-63d5-510f-b950-6bb34fe34c15:237:246",
+      "document_id": "50235647-63d5-510f-b950-6bb34fe34c15",
+      "start": 237,
+      "end": 246,
+      "entity_text": "LangSmith",
+      "span_text": "rate, and we're building the foundation to make that future possible. Our open-source harnesses and LangSmith platform give developers and enterprises the infrastructure to run, improve, and govern agents at s",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:50235647-63d5-510f-b950-6bb34fe34c15:481:488",
+      "document_id": "50235647-63d5-510f-b950-6bb34fe34c15",
+      "start": 481,
+      "end": 488,
+      "entity_text": "Sequoia",
+      "span_text": "ith our most recent funding round valuing the company at $3B, backed by leading investors including Sequoia, Benchmark, IVP, and CapitalG. As we continue to expand our platform and tackle some of the hardest",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:50235647-63d5-510f-b950-6bb34fe34c15:490:499",
+      "document_id": "50235647-63d5-510f-b950-6bb34fe34c15",
+      "start": 490,
+      "end": 499,
+      "entity_text": "Benchmark",
+      "span_text": "ost recent funding round valuing the company at $3B, backed by leading investors including Sequoia, Benchmark, IVP, and CapitalG. As we continue to expand our platform and tackle some of the hardest challenges",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:50235647-63d5-510f-b950-6bb34fe34c15:501:504",
+      "document_id": "50235647-63d5-510f-b950-6bb34fe34c15",
+      "start": 501,
+      "end": 504,
+      "entity_text": "IVP",
+      "span_text": "funding round valuing the company at $3B, backed by leading investors including Sequoia, Benchmark, IVP, and CapitalG. As we continue to expand our platform and tackle some of the hardest challenges in a",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:50235647-63d5-510f-b950-6bb34fe34c15:510:518",
+      "document_id": "50235647-63d5-510f-b950-6bb34fe34c15",
+      "start": 510,
+      "end": 518,
+      "entity_text": "CapitalG",
+      "span_text": "ound valuing the company at $3B, backed by leading investors including Sequoia, Benchmark, IVP, and CapitalG. As we continue to expand our platform and tackle some of the hardest challenges in agent engineeri",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:50235647-63d5-510f-b950-6bb34fe34c15:755:759",
+      "document_id": "50235647-63d5-510f-b950-6bb34fe34c15",
+      "start": 755,
+      "end": 759,
+      "entity_text": "More",
+      "span_text": "nity to make a meaningful impact and help shape both our technology and the future of the industry. More than 7,000 organizations rely on LangSmith, from fast-growing startups to Fortune 500 enterprises, ",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:50235647-63d5-510f-b950-6bb34fe34c15:793:802",
+      "document_id": "50235647-63d5-510f-b950-6bb34fe34c15",
+      "start": 793,
+      "end": 802,
+      "entity_text": "LangSmith",
+      "span_text": "elp shape both our technology and the future of the industry. More than 7,000 organizations rely on LangSmith, from fast-growing startups to Fortune 500 enterprises, including NVIDIA, Bridgewater, LinkedIn, Wo",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:50235647-63d5-510f-b950-6bb34fe34c15:834:841",
+      "document_id": "50235647-63d5-510f-b950-6bb34fe34c15",
+      "start": 834,
+      "end": 841,
+      "entity_text": "Fortune",
+      "span_text": "ure of the industry. More than 7,000 organizations rely on LangSmith, from fast-growing startups to Fortune 500 enterprises, including NVIDIA, Bridgewater, LinkedIn, Workday, and Rippling. We're just getting",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:50235647-63d5-510f-b950-6bb34fe34c15:869:875",
+      "document_id": "50235647-63d5-510f-b950-6bb34fe34c15",
+      "start": 869,
+      "end": 875,
+      "entity_text": "NVIDIA",
+      "span_text": "0 organizations rely on LangSmith, from fast-growing startups to Fortune 500 enterprises, including NVIDIA, Bridgewater, LinkedIn, Workday, and Rippling. We're just getting started on making high-performing",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:1cf2222b-1e3c-537a-a267-da5a25205e43:0:5",
+      "document_id": "1cf2222b-1e3c-537a-a267-da5a25205e43",
+      "start": 0,
+      "end": 5,
+      "entity_text": "ABOUT",
+      "span_text": "ABOUT US At LangChain, our mission is to enable every company to own its intelligence. We believe agents ",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:1cf2222b-1e3c-537a-a267-da5a25205e43:12:21",
+      "document_id": "1cf2222b-1e3c-537a-a267-da5a25205e43",
+      "start": 12,
+      "end": 21,
+      "entity_text": "LangChain",
+      "span_text": "ABOUT US At LangChain, our mission is to enable every company to own its intelligence. We believe agents will transform h",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:1cf2222b-1e3c-537a-a267-da5a25205e43:207:210",
+      "document_id": "1cf2222b-1e3c-537a-a267-da5a25205e43",
+      "start": 207,
+      "end": 210,
+      "entity_text": "Our",
+      "span_text": "ll transform how companies operate, and we're building the foundation to make that future possible. Our open-source harnesses and LangSmith platform give developers and enterprises the infrastructure to ",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:1cf2222b-1e3c-537a-a267-da5a25205e43:237:246",
+      "document_id": "1cf2222b-1e3c-537a-a267-da5a25205e43",
+      "start": 237,
+      "end": 246,
+      "entity_text": "LangSmith",
+      "span_text": "rate, and we're building the foundation to make that future possible. Our open-source harnesses and LangSmith platform give developers and enterprises the infrastructure to run, improve, and govern agents at s",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:1cf2222b-1e3c-537a-a267-da5a25205e43:481:488",
+      "document_id": "1cf2222b-1e3c-537a-a267-da5a25205e43",
+      "start": 481,
+      "end": 488,
+      "entity_text": "Sequoia",
+      "span_text": "ith our most recent funding round valuing the company at $3B, backed by leading investors including Sequoia, Benchmark, IVP, and CapitalG. As we continue to expand our platform and tackle some of the hardest",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:1cf2222b-1e3c-537a-a267-da5a25205e43:490:499",
+      "document_id": "1cf2222b-1e3c-537a-a267-da5a25205e43",
+      "start": 490,
+      "end": 499,
+      "entity_text": "Benchmark",
+      "span_text": "ost recent funding round valuing the company at $3B, backed by leading investors including Sequoia, Benchmark, IVP, and CapitalG. As we continue to expand our platform and tackle some of the hardest challenges",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:1cf2222b-1e3c-537a-a267-da5a25205e43:501:504",
+      "document_id": "1cf2222b-1e3c-537a-a267-da5a25205e43",
+      "start": 501,
+      "end": 504,
+      "entity_text": "IVP",
+      "span_text": "funding round valuing the company at $3B, backed by leading investors including Sequoia, Benchmark, IVP, and CapitalG. As we continue to expand our platform and tackle some of the hardest challenges in a",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:1cf2222b-1e3c-537a-a267-da5a25205e43:510:518",
+      "document_id": "1cf2222b-1e3c-537a-a267-da5a25205e43",
+      "start": 510,
+      "end": 518,
+      "entity_text": "CapitalG",
+      "span_text": "ound valuing the company at $3B, backed by leading investors including Sequoia, Benchmark, IVP, and CapitalG. As we continue to expand our platform and tackle some of the hardest challenges in agent engineeri",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:1cf2222b-1e3c-537a-a267-da5a25205e43:755:759",
+      "document_id": "1cf2222b-1e3c-537a-a267-da5a25205e43",
+      "start": 755,
+      "end": 759,
+      "entity_text": "More",
+      "span_text": "nity to make a meaningful impact and help shape both our technology and the future of the industry. More than 7,000 organizations rely on LangSmith, from fast-growing startups to Fortune 500 enterprises, ",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:1cf2222b-1e3c-537a-a267-da5a25205e43:793:802",
+      "document_id": "1cf2222b-1e3c-537a-a267-da5a25205e43",
+      "start": 793,
+      "end": 802,
+      "entity_text": "LangSmith",
+      "span_text": "elp shape both our technology and the future of the industry. More than 7,000 organizations rely on LangSmith, from fast-growing startups to Fortune 500 enterprises, including NVIDIA, Bridgewater, LinkedIn, Wo",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:1cf2222b-1e3c-537a-a267-da5a25205e43:834:841",
+      "document_id": "1cf2222b-1e3c-537a-a267-da5a25205e43",
+      "start": 834,
+      "end": 841,
+      "entity_text": "Fortune",
+      "span_text": "ure of the industry. More than 7,000 organizations rely on LangSmith, from fast-growing startups to Fortune 500 enterprises, including NVIDIA, Bridgewater, LinkedIn, Workday, and Rippling. We're just getting",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:1cf2222b-1e3c-537a-a267-da5a25205e43:869:875",
+      "document_id": "1cf2222b-1e3c-537a-a267-da5a25205e43",
+      "start": 869,
+      "end": 875,
+      "entity_text": "NVIDIA",
+      "span_text": "0 organizations rely on LangSmith, from fast-growing startups to Fortune 500 enterprises, including NVIDIA, Bridgewater, LinkedIn, Workday, and Rippling. We're just getting started on making high-performing",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:050c6cb9-2e90-5cb3-8c07-88f1507e808a:0:5",
+      "document_id": "050c6cb9-2e90-5cb3-8c07-88f1507e808a",
+      "start": 0,
+      "end": 5,
+      "entity_text": "ABOUT",
+      "span_text": "ABOUT US At LangChain, our mission is to enable every company to own its intelligence. We believe agents ",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:050c6cb9-2e90-5cb3-8c07-88f1507e808a:12:21",
+      "document_id": "050c6cb9-2e90-5cb3-8c07-88f1507e808a",
+      "start": 12,
+      "end": 21,
+      "entity_text": "LangChain",
+      "span_text": "ABOUT US At LangChain, our mission is to enable every company to own its intelligence. We believe agents will transform h",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:050c6cb9-2e90-5cb3-8c07-88f1507e808a:207:210",
+      "document_id": "050c6cb9-2e90-5cb3-8c07-88f1507e808a",
+      "start": 207,
+      "end": 210,
+      "entity_text": "Our",
+      "span_text": "ll transform how companies operate, and we're building the foundation to make that future possible. Our open-source harnesses and LangSmith platform give developers and enterprises the infrastructure to ",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:050c6cb9-2e90-5cb3-8c07-88f1507e808a:237:246",
+      "document_id": "050c6cb9-2e90-5cb3-8c07-88f1507e808a",
+      "start": 237,
+      "end": 246,
+      "entity_text": "LangSmith",
+      "span_text": "rate, and we're building the foundation to make that future possible. Our open-source harnesses and LangSmith platform give developers and enterprises the infrastructure to run, improve, and govern agents at s",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:050c6cb9-2e90-5cb3-8c07-88f1507e808a:481:488",
+      "document_id": "050c6cb9-2e90-5cb3-8c07-88f1507e808a",
+      "start": 481,
+      "end": 488,
+      "entity_text": "Sequoia",
+      "span_text": "ith our most recent funding round valuing the company at $3B, backed by leading investors including Sequoia, Benchmark, IVP, and CapitalG. As we continue to expand our platform and tackle some of the hardest",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:050c6cb9-2e90-5cb3-8c07-88f1507e808a:490:499",
+      "document_id": "050c6cb9-2e90-5cb3-8c07-88f1507e808a",
+      "start": 490,
+      "end": 499,
+      "entity_text": "Benchmark",
+      "span_text": "ost recent funding round valuing the company at $3B, backed by leading investors including Sequoia, Benchmark, IVP, and CapitalG. As we continue to expand our platform and tackle some of the hardest challenges",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:050c6cb9-2e90-5cb3-8c07-88f1507e808a:501:504",
+      "document_id": "050c6cb9-2e90-5cb3-8c07-88f1507e808a",
+      "start": 501,
+      "end": 504,
+      "entity_text": "IVP",
+      "span_text": "funding round valuing the company at $3B, backed by leading investors including Sequoia, Benchmark, IVP, and CapitalG. As we continue to expand our platform and tackle some of the hardest challenges in a",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:050c6cb9-2e90-5cb3-8c07-88f1507e808a:510:518",
+      "document_id": "050c6cb9-2e90-5cb3-8c07-88f1507e808a",
+      "start": 510,
+      "end": 518,
+      "entity_text": "CapitalG",
+      "span_text": "ound valuing the company at $3B, backed by leading investors including Sequoia, Benchmark, IVP, and CapitalG. As we continue to expand our platform and tackle some of the hardest challenges in agent engineeri",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:050c6cb9-2e90-5cb3-8c07-88f1507e808a:755:759",
+      "document_id": "050c6cb9-2e90-5cb3-8c07-88f1507e808a",
+      "start": 755,
+      "end": 759,
+      "entity_text": "More",
+      "span_text": "nity to make a meaningful impact and help shape both our technology and the future of the industry. More than 7,000 organizations rely on LangSmith, from fast-growing startups to Fortune 500 enterprises, ",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:050c6cb9-2e90-5cb3-8c07-88f1507e808a:793:802",
+      "document_id": "050c6cb9-2e90-5cb3-8c07-88f1507e808a",
+      "start": 793,
+      "end": 802,
+      "entity_text": "LangSmith",
+      "span_text": "elp shape both our technology and the future of the industry. More than 7,000 organizations rely on LangSmith, from fast-growing startups to Fortune 500 enterprises, including NVIDIA, Bridgewater, LinkedIn, Wo",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:050c6cb9-2e90-5cb3-8c07-88f1507e808a:834:841",
+      "document_id": "050c6cb9-2e90-5cb3-8c07-88f1507e808a",
+      "start": 834,
+      "end": 841,
+      "entity_text": "Fortune",
+      "span_text": "ure of the industry. More than 7,000 organizations rely on LangSmith, from fast-growing startups to Fortune 500 enterprises, including NVIDIA, Bridgewater, LinkedIn, Workday, and Rippling. We're just getting",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:050c6cb9-2e90-5cb3-8c07-88f1507e808a:869:875",
+      "document_id": "050c6cb9-2e90-5cb3-8c07-88f1507e808a",
+      "start": 869,
+      "end": 875,
+      "entity_text": "NVIDIA",
+      "span_text": "0 organizations rely on LangSmith, from fast-growing startups to Fortune 500 enterprises, including NVIDIA, Bridgewater, LinkedIn, Workday, and Rippling. We're just getting started on making high-performing",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:8a299686-3575-5e3b-9aeb-d69466277f57:0:5",
+      "document_id": "8a299686-3575-5e3b-9aeb-d69466277f57",
+      "start": 0,
+      "end": 5,
+      "entity_text": "ABOUT",
+      "span_text": "ABOUT US At LangChain, our mission is to enable every company to own its intelligence. We believe agents ",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:8a299686-3575-5e3b-9aeb-d69466277f57:12:21",
+      "document_id": "8a299686-3575-5e3b-9aeb-d69466277f57",
+      "start": 12,
+      "end": 21,
+      "entity_text": "LangChain",
+      "span_text": "ABOUT US At LangChain, our mission is to enable every company to own its intelligence. We believe agents will transform h",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:8a299686-3575-5e3b-9aeb-d69466277f57:207:210",
+      "document_id": "8a299686-3575-5e3b-9aeb-d69466277f57",
+      "start": 207,
+      "end": 210,
+      "entity_text": "Our",
+      "span_text": "ll transform how companies operate, and we're building the foundation to make that future possible. Our open-source harnesses and LangSmith platform give developers and enterprises the infrastructure to ",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:8a299686-3575-5e3b-9aeb-d69466277f57:237:246",
+      "document_id": "8a299686-3575-5e3b-9aeb-d69466277f57",
+      "start": 237,
+      "end": 246,
+      "entity_text": "LangSmith",
+      "span_text": "rate, and we're building the foundation to make that future possible. Our open-source harnesses and LangSmith platform give developers and enterprises the infrastructure to run, improve, and govern agents at s",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:8a299686-3575-5e3b-9aeb-d69466277f57:481:488",
+      "document_id": "8a299686-3575-5e3b-9aeb-d69466277f57",
+      "start": 481,
+      "end": 488,
+      "entity_text": "Sequoia",
+      "span_text": "ith our most recent funding round valuing the company at $3B, backed by leading investors including Sequoia, Benchmark, IVP, and CapitalG. As we continue to expand our platform and tackle some of the hardest",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:8a299686-3575-5e3b-9aeb-d69466277f57:490:499",
+      "document_id": "8a299686-3575-5e3b-9aeb-d69466277f57",
+      "start": 490,
+      "end": 499,
+      "entity_text": "Benchmark",
+      "span_text": "ost recent funding round valuing the company at $3B, backed by leading investors including Sequoia, Benchmark, IVP, and CapitalG. As we continue to expand our platform and tackle some of the hardest challenges",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:8a299686-3575-5e3b-9aeb-d69466277f57:501:504",
+      "document_id": "8a299686-3575-5e3b-9aeb-d69466277f57",
+      "start": 501,
+      "end": 504,
+      "entity_text": "IVP",
+      "span_text": "funding round valuing the company at $3B, backed by leading investors including Sequoia, Benchmark, IVP, and CapitalG. As we continue to expand our platform and tackle some of the hardest challenges in a",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:8a299686-3575-5e3b-9aeb-d69466277f57:510:518",
+      "document_id": "8a299686-3575-5e3b-9aeb-d69466277f57",
+      "start": 510,
+      "end": 518,
+      "entity_text": "CapitalG",
+      "span_text": "ound valuing the company at $3B, backed by leading investors including Sequoia, Benchmark, IVP, and CapitalG. As we continue to expand our platform and tackle some of the hardest challenges in agent engineeri",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:8a299686-3575-5e3b-9aeb-d69466277f57:755:759",
+      "document_id": "8a299686-3575-5e3b-9aeb-d69466277f57",
+      "start": 755,
+      "end": 759,
+      "entity_text": "More",
+      "span_text": "nity to make a meaningful impact and help shape both our technology and the future of the industry. More than 7,000 organizations rely on LangSmith, from fast-growing startups to Fortune 500 enterprises, ",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:8a299686-3575-5e3b-9aeb-d69466277f57:793:802",
+      "document_id": "8a299686-3575-5e3b-9aeb-d69466277f57",
+      "start": 793,
+      "end": 802,
+      "entity_text": "LangSmith",
+      "span_text": "elp shape both our technology and the future of the industry. More than 7,000 organizations rely on LangSmith, from fast-growing startups to Fortune 500 enterprises, including NVIDIA, Bridgewater, LinkedIn, Wo",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:8a299686-3575-5e3b-9aeb-d69466277f57:834:841",
+      "document_id": "8a299686-3575-5e3b-9aeb-d69466277f57",
+      "start": 834,
+      "end": 841,
+      "entity_text": "Fortune",
+      "span_text": "ure of the industry. More than 7,000 organizations rely on LangSmith, from fast-growing startups to Fortune 500 enterprises, including NVIDIA, Bridgewater, LinkedIn, Workday, and Rippling. We're just getting",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:8a299686-3575-5e3b-9aeb-d69466277f57:869:875",
+      "document_id": "8a299686-3575-5e3b-9aeb-d69466277f57",
+      "start": 869,
+      "end": 875,
+      "entity_text": "NVIDIA",
+      "span_text": "0 organizations rely on LangSmith, from fast-growing startups to Fortune 500 enterprises, including NVIDIA, Bridgewater, LinkedIn, Workday, and Rippling. We're just getting started on making high-performing",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:3d04a042-5b1a-51f9-a86c-c284f338a35a:0:5",
+      "document_id": "3d04a042-5b1a-51f9-a86c-c284f338a35a",
+      "start": 0,
+      "end": 5,
+      "entity_text": "ABOUT",
+      "span_text": "ABOUT US At LangChain, our mission is to enable every company to own its intelligence. We believe agents ",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:3d04a042-5b1a-51f9-a86c-c284f338a35a:12:21",
+      "document_id": "3d04a042-5b1a-51f9-a86c-c284f338a35a",
+      "start": 12,
+      "end": 21,
+      "entity_text": "LangChain",
+      "span_text": "ABOUT US At LangChain, our mission is to enable every company to own its intelligence. We believe agents will transform h",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:3d04a042-5b1a-51f9-a86c-c284f338a35a:207:210",
+      "document_id": "3d04a042-5b1a-51f9-a86c-c284f338a35a",
+      "start": 207,
+      "end": 210,
+      "entity_text": "Our",
+      "span_text": "ll transform how companies operate, and we're building the foundation to make that future possible. Our open-source harnesses and LangSmith platform give developers and enterprises the infrastructure to ",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:3d04a042-5b1a-51f9-a86c-c284f338a35a:237:246",
+      "document_id": "3d04a042-5b1a-51f9-a86c-c284f338a35a",
+      "start": 237,
+      "end": 246,
+      "entity_text": "LangSmith",
+      "span_text": "rate, and we're building the foundation to make that future possible. Our open-source harnesses and LangSmith platform give developers and enterprises the infrastructure to run, improve, and govern agents at s",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:3d04a042-5b1a-51f9-a86c-c284f338a35a:481:488",
+      "document_id": "3d04a042-5b1a-51f9-a86c-c284f338a35a",
+      "start": 481,
+      "end": 488,
+      "entity_text": "Sequoia",
+      "span_text": "ith our most recent funding round valuing the company at $3B, backed by leading investors including Sequoia, Benchmark, IVP, and CapitalG. As we continue to expand our platform and tackle some of the hardest",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:3d04a042-5b1a-51f9-a86c-c284f338a35a:490:499",
+      "document_id": "3d04a042-5b1a-51f9-a86c-c284f338a35a",
+      "start": 490,
+      "end": 499,
+      "entity_text": "Benchmark",
+      "span_text": "ost recent funding round valuing the company at $3B, backed by leading investors including Sequoia, Benchmark, IVP, and CapitalG. As we continue to expand our platform and tackle some of the hardest challenges",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:3d04a042-5b1a-51f9-a86c-c284f338a35a:501:504",
+      "document_id": "3d04a042-5b1a-51f9-a86c-c284f338a35a",
+      "start": 501,
+      "end": 504,
+      "entity_text": "IVP",
+      "span_text": "funding round valuing the company at $3B, backed by leading investors including Sequoia, Benchmark, IVP, and CapitalG. As we continue to expand our platform and tackle some of the hardest challenges in a",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:3d04a042-5b1a-51f9-a86c-c284f338a35a:510:518",
+      "document_id": "3d04a042-5b1a-51f9-a86c-c284f338a35a",
+      "start": 510,
+      "end": 518,
+      "entity_text": "CapitalG",
+      "span_text": "ound valuing the company at $3B, backed by leading investors including Sequoia, Benchmark, IVP, and CapitalG. As we continue to expand our platform and tackle some of the hardest challenges in agent engineeri",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:3d04a042-5b1a-51f9-a86c-c284f338a35a:755:759",
+      "document_id": "3d04a042-5b1a-51f9-a86c-c284f338a35a",
+      "start": 755,
+      "end": 759,
+      "entity_text": "More",
+      "span_text": "nity to make a meaningful impact and help shape both our technology and the future of the industry. More than 7,000 organizations rely on LangSmith, from fast-growing startups to Fortune 500 enterprises, ",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:3d04a042-5b1a-51f9-a86c-c284f338a35a:793:802",
+      "document_id": "3d04a042-5b1a-51f9-a86c-c284f338a35a",
+      "start": 793,
+      "end": 802,
+      "entity_text": "LangSmith",
+      "span_text": "elp shape both our technology and the future of the industry. More than 7,000 organizations rely on LangSmith, from fast-growing startups to Fortune 500 enterprises, including NVIDIA, Bridgewater, LinkedIn, Wo",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:3d04a042-5b1a-51f9-a86c-c284f338a35a:834:841",
+      "document_id": "3d04a042-5b1a-51f9-a86c-c284f338a35a",
+      "start": 834,
+      "end": 841,
+      "entity_text": "Fortune",
+      "span_text": "ure of the industry. More than 7,000 organizations rely on LangSmith, from fast-growing startups to Fortune 500 enterprises, including NVIDIA, Bridgewater, LinkedIn, Workday, and Rippling. We're just getting",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:3d04a042-5b1a-51f9-a86c-c284f338a35a:869:875",
+      "document_id": "3d04a042-5b1a-51f9-a86c-c284f338a35a",
+      "start": 869,
+      "end": 875,
+      "entity_text": "NVIDIA",
+      "span_text": "0 organizations rely on LangSmith, from fast-growing startups to Fortune 500 enterprises, including NVIDIA, Bridgewater, LinkedIn, Workday, and Rippling. We're just getting started on making high-performing",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:32a5b90a-9b89-50c5-b05b-d060ac441c0b:0:5",
+      "document_id": "32a5b90a-9b89-50c5-b05b-d060ac441c0b",
+      "start": 0,
+      "end": 5,
+      "entity_text": "ABOUT",
+      "span_text": "ABOUT US At LangChain, our mission is to enable every company to own its intelligence. We believe agents ",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:32a5b90a-9b89-50c5-b05b-d060ac441c0b:12:21",
+      "document_id": "32a5b90a-9b89-50c5-b05b-d060ac441c0b",
+      "start": 12,
+      "end": 21,
+      "entity_text": "LangChain",
+      "span_text": "ABOUT US At LangChain, our mission is to enable every company to own its intelligence. We believe agents will transform h",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:32a5b90a-9b89-50c5-b05b-d060ac441c0b:207:210",
+      "document_id": "32a5b90a-9b89-50c5-b05b-d060ac441c0b",
+      "start": 207,
+      "end": 210,
+      "entity_text": "Our",
+      "span_text": "ll transform how companies operate, and we're building the foundation to make that future possible. Our open-source harnesses and LangSmith platform give developers and enterprises the infrastructure to ",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:32a5b90a-9b89-50c5-b05b-d060ac441c0b:237:246",
+      "document_id": "32a5b90a-9b89-50c5-b05b-d060ac441c0b",
+      "start": 237,
+      "end": 246,
+      "entity_text": "LangSmith",
+      "span_text": "rate, and we're building the foundation to make that future possible. Our open-source harnesses and LangSmith platform give developers and enterprises the infrastructure to run, improve, and govern agents at s",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:32a5b90a-9b89-50c5-b05b-d060ac441c0b:481:488",
+      "document_id": "32a5b90a-9b89-50c5-b05b-d060ac441c0b",
+      "start": 481,
+      "end": 488,
+      "entity_text": "Sequoia",
+      "span_text": "ith our most recent funding round valuing the company at $3B, backed by leading investors including Sequoia, Benchmark, IVP, and CapitalG. As we continue to expand our platform and tackle some of the hardest",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:32a5b90a-9b89-50c5-b05b-d060ac441c0b:490:499",
+      "document_id": "32a5b90a-9b89-50c5-b05b-d060ac441c0b",
+      "start": 490,
+      "end": 499,
+      "entity_text": "Benchmark",
+      "span_text": "ost recent funding round valuing the company at $3B, backed by leading investors including Sequoia, Benchmark, IVP, and CapitalG. As we continue to expand our platform and tackle some of the hardest challenges",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:32a5b90a-9b89-50c5-b05b-d060ac441c0b:501:504",
+      "document_id": "32a5b90a-9b89-50c5-b05b-d060ac441c0b",
+      "start": 501,
+      "end": 504,
+      "entity_text": "IVP",
+      "span_text": "funding round valuing the company at $3B, backed by leading investors including Sequoia, Benchmark, IVP, and CapitalG. As we continue to expand our platform and tackle some of the hardest challenges in a",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:32a5b90a-9b89-50c5-b05b-d060ac441c0b:510:518",
+      "document_id": "32a5b90a-9b89-50c5-b05b-d060ac441c0b",
+      "start": 510,
+      "end": 518,
+      "entity_text": "CapitalG",
+      "span_text": "ound valuing the company at $3B, backed by leading investors including Sequoia, Benchmark, IVP, and CapitalG. As we continue to expand our platform and tackle some of the hardest challenges in agent engineeri",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:32a5b90a-9b89-50c5-b05b-d060ac441c0b:755:759",
+      "document_id": "32a5b90a-9b89-50c5-b05b-d060ac441c0b",
+      "start": 755,
+      "end": 759,
+      "entity_text": "More",
+      "span_text": "nity to make a meaningful impact and help shape both our technology and the future of the industry. More than 7,000 organizations rely on LangSmith, from fast-growing startups to Fortune 500 enterprises, ",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:32a5b90a-9b89-50c5-b05b-d060ac441c0b:793:802",
+      "document_id": "32a5b90a-9b89-50c5-b05b-d060ac441c0b",
+      "start": 793,
+      "end": 802,
+      "entity_text": "LangSmith",
+      "span_text": "elp shape both our technology and the future of the industry. More than 7,000 organizations rely on LangSmith, from fast-growing startups to Fortune 500 enterprises, including NVIDIA, Bridgewater, LinkedIn, Wo",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:32a5b90a-9b89-50c5-b05b-d060ac441c0b:834:841",
+      "document_id": "32a5b90a-9b89-50c5-b05b-d060ac441c0b",
+      "start": 834,
+      "end": 841,
+      "entity_text": "Fortune",
+      "span_text": "ure of the industry. More than 7,000 organizations rely on LangSmith, from fast-growing startups to Fortune 500 enterprises, including NVIDIA, Bridgewater, LinkedIn, Workday, and Rippling. We're just getting",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:32a5b90a-9b89-50c5-b05b-d060ac441c0b:869:875",
+      "document_id": "32a5b90a-9b89-50c5-b05b-d060ac441c0b",
+      "start": 869,
+      "end": 875,
+      "entity_text": "NVIDIA",
+      "span_text": "0 organizations rely on LangSmith, from fast-growing startups to Fortune 500 enterprises, including NVIDIA, Bridgewater, LinkedIn, Workday, and Rippling. We're just getting started on making high-performing",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:877c4672-4f7c-582b-a4a0-08e856fd8af7:0:5",
+      "document_id": "877c4672-4f7c-582b-a4a0-08e856fd8af7",
+      "start": 0,
+      "end": 5,
+      "entity_text": "ABOUT",
+      "span_text": "ABOUT US At LangChain, our mission is to enable every company to own its intelligence. We believe agents ",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:877c4672-4f7c-582b-a4a0-08e856fd8af7:12:21",
+      "document_id": "877c4672-4f7c-582b-a4a0-08e856fd8af7",
+      "start": 12,
+      "end": 21,
+      "entity_text": "LangChain",
+      "span_text": "ABOUT US At LangChain, our mission is to enable every company to own its intelligence. We believe agents will transform h",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:877c4672-4f7c-582b-a4a0-08e856fd8af7:207:210",
+      "document_id": "877c4672-4f7c-582b-a4a0-08e856fd8af7",
+      "start": 207,
+      "end": 210,
+      "entity_text": "Our",
+      "span_text": "ll transform how companies operate, and we're building the foundation to make that future possible. Our open-source harnesses and LangSmith platform give developers and enterprises the infrastructure to ",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:877c4672-4f7c-582b-a4a0-08e856fd8af7:237:246",
+      "document_id": "877c4672-4f7c-582b-a4a0-08e856fd8af7",
+      "start": 237,
+      "end": 246,
+      "entity_text": "LangSmith",
+      "span_text": "rate, and we're building the foundation to make that future possible. Our open-source harnesses and LangSmith platform give developers and enterprises the infrastructure to run, improve, and govern agents at s",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:877c4672-4f7c-582b-a4a0-08e856fd8af7:481:488",
+      "document_id": "877c4672-4f7c-582b-a4a0-08e856fd8af7",
+      "start": 481,
+      "end": 488,
+      "entity_text": "Sequoia",
+      "span_text": "ith our most recent funding round valuing the company at $3B, backed by leading investors including Sequoia, Benchmark, IVP, and CapitalG. As we continue to expand our platform and tackle some of the hardest",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:877c4672-4f7c-582b-a4a0-08e856fd8af7:490:499",
+      "document_id": "877c4672-4f7c-582b-a4a0-08e856fd8af7",
+      "start": 490,
+      "end": 499,
+      "entity_text": "Benchmark",
+      "span_text": "ost recent funding round valuing the company at $3B, backed by leading investors including Sequoia, Benchmark, IVP, and CapitalG. As we continue to expand our platform and tackle some of the hardest challenges",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:877c4672-4f7c-582b-a4a0-08e856fd8af7:501:504",
+      "document_id": "877c4672-4f7c-582b-a4a0-08e856fd8af7",
+      "start": 501,
+      "end": 504,
+      "entity_text": "IVP",
+      "span_text": "funding round valuing the company at $3B, backed by leading investors including Sequoia, Benchmark, IVP, and CapitalG. As we continue to expand our platform and tackle some of the hardest challenges in a",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:877c4672-4f7c-582b-a4a0-08e856fd8af7:510:518",
+      "document_id": "877c4672-4f7c-582b-a4a0-08e856fd8af7",
+      "start": 510,
+      "end": 518,
+      "entity_text": "CapitalG",
+      "span_text": "ound valuing the company at $3B, backed by leading investors including Sequoia, Benchmark, IVP, and CapitalG. As we continue to expand our platform and tackle some of the hardest challenges in agent engineeri",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:877c4672-4f7c-582b-a4a0-08e856fd8af7:755:759",
+      "document_id": "877c4672-4f7c-582b-a4a0-08e856fd8af7",
+      "start": 755,
+      "end": 759,
+      "entity_text": "More",
+      "span_text": "nity to make a meaningful impact and help shape both our technology and the future of the industry. More than 7,000 organizations rely on LangSmith, from fast-growing startups to Fortune 500 enterprises, ",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:877c4672-4f7c-582b-a4a0-08e856fd8af7:793:802",
+      "document_id": "877c4672-4f7c-582b-a4a0-08e856fd8af7",
+      "start": 793,
+      "end": 802,
+      "entity_text": "LangSmith",
+      "span_text": "elp shape both our technology and the future of the industry. More than 7,000 organizations rely on LangSmith, from fast-growing startups to Fortune 500 enterprises, including NVIDIA, Bridgewater, LinkedIn, Wo",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:877c4672-4f7c-582b-a4a0-08e856fd8af7:834:841",
+      "document_id": "877c4672-4f7c-582b-a4a0-08e856fd8af7",
+      "start": 834,
+      "end": 841,
+      "entity_text": "Fortune",
+      "span_text": "ure of the industry. More than 7,000 organizations rely on LangSmith, from fast-growing startups to Fortune 500 enterprises, including NVIDIA, Bridgewater, LinkedIn, Workday, and Rippling. We're just getting",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:877c4672-4f7c-582b-a4a0-08e856fd8af7:869:875",
+      "document_id": "877c4672-4f7c-582b-a4a0-08e856fd8af7",
+      "start": 869,
+      "end": 875,
+      "entity_text": "NVIDIA",
+      "span_text": "0 organizations rely on LangSmith, from fast-growing startups to Fortune 500 enterprises, including NVIDIA, Bridgewater, LinkedIn, Workday, and Rippling. We're just getting started on making high-performing",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:193d169c-9710-57a2-b733-0f96018e15eb:0:5",
+      "document_id": "193d169c-9710-57a2-b733-0f96018e15eb",
+      "start": 0,
+      "end": 5,
+      "entity_text": "ABOUT",
+      "span_text": "ABOUT US At LangChain, our mission is to enable every company to own its intelligence. We believe agents ",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:193d169c-9710-57a2-b733-0f96018e15eb:12:21",
+      "document_id": "193d169c-9710-57a2-b733-0f96018e15eb",
+      "start": 12,
+      "end": 21,
+      "entity_text": "LangChain",
+      "span_text": "ABOUT US At LangChain, our mission is to enable every company to own its intelligence. We believe agents will transform h",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:193d169c-9710-57a2-b733-0f96018e15eb:207:210",
+      "document_id": "193d169c-9710-57a2-b733-0f96018e15eb",
+      "start": 207,
+      "end": 210,
+      "entity_text": "Our",
+      "span_text": "ll transform how companies operate, and we're building the foundation to make that future possible. Our open-source harnesses and LangSmith platform give developers and enterprises the infrastructure to ",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:193d169c-9710-57a2-b733-0f96018e15eb:237:246",
+      "document_id": "193d169c-9710-57a2-b733-0f96018e15eb",
+      "start": 237,
+      "end": 246,
+      "entity_text": "LangSmith",
+      "span_text": "rate, and we're building the foundation to make that future possible. Our open-source harnesses and LangSmith platform give developers and enterprises the infrastructure to run, improve, and govern agents at s",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:193d169c-9710-57a2-b733-0f96018e15eb:481:488",
+      "document_id": "193d169c-9710-57a2-b733-0f96018e15eb",
+      "start": 481,
+      "end": 488,
+      "entity_text": "Sequoia",
+      "span_text": "ith our most recent funding round valuing the company at $3B, backed by leading investors including Sequoia, Benchmark, IVP, and CapitalG. As we continue to expand our platform and tackle some of the hardest",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:193d169c-9710-57a2-b733-0f96018e15eb:490:499",
+      "document_id": "193d169c-9710-57a2-b733-0f96018e15eb",
+      "start": 490,
+      "end": 499,
+      "entity_text": "Benchmark",
+      "span_text": "ost recent funding round valuing the company at $3B, backed by leading investors including Sequoia, Benchmark, IVP, and CapitalG. As we continue to expand our platform and tackle some of the hardest challenges",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:193d169c-9710-57a2-b733-0f96018e15eb:501:504",
+      "document_id": "193d169c-9710-57a2-b733-0f96018e15eb",
+      "start": 501,
+      "end": 504,
+      "entity_text": "IVP",
+      "span_text": "funding round valuing the company at $3B, backed by leading investors including Sequoia, Benchmark, IVP, and CapitalG. As we continue to expand our platform and tackle some of the hardest challenges in a",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:193d169c-9710-57a2-b733-0f96018e15eb:510:518",
+      "document_id": "193d169c-9710-57a2-b733-0f96018e15eb",
+      "start": 510,
+      "end": 518,
+      "entity_text": "CapitalG",
+      "span_text": "ound valuing the company at $3B, backed by leading investors including Sequoia, Benchmark, IVP, and CapitalG. As we continue to expand our platform and tackle some of the hardest challenges in agent engineeri",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:193d169c-9710-57a2-b733-0f96018e15eb:755:759",
+      "document_id": "193d169c-9710-57a2-b733-0f96018e15eb",
+      "start": 755,
+      "end": 759,
+      "entity_text": "More",
+      "span_text": "nity to make a meaningful impact and help shape both our technology and the future of the industry. More than 7,000 organizations rely on LangSmith, from fast-growing startups to Fortune 500 enterprises, ",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:193d169c-9710-57a2-b733-0f96018e15eb:793:802",
+      "document_id": "193d169c-9710-57a2-b733-0f96018e15eb",
+      "start": 793,
+      "end": 802,
+      "entity_text": "LangSmith",
+      "span_text": "elp shape both our technology and the future of the industry. More than 7,000 organizations rely on LangSmith, from fast-growing startups to Fortune 500 enterprises, including NVIDIA, Bridgewater, LinkedIn, Wo",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:193d169c-9710-57a2-b733-0f96018e15eb:834:841",
+      "document_id": "193d169c-9710-57a2-b733-0f96018e15eb",
+      "start": 834,
+      "end": 841,
+      "entity_text": "Fortune",
+      "span_text": "ure of the industry. More than 7,000 organizations rely on LangSmith, from fast-growing startups to Fortune 500 enterprises, including NVIDIA, Bridgewater, LinkedIn, Workday, and Rippling. We're just getting",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:193d169c-9710-57a2-b733-0f96018e15eb:869:875",
+      "document_id": "193d169c-9710-57a2-b733-0f96018e15eb",
+      "start": 869,
+      "end": 875,
+      "entity_text": "NVIDIA",
+      "span_text": "0 organizations rely on LangSmith, from fast-growing startups to Fortune 500 enterprises, including NVIDIA, Bridgewater, LinkedIn, Workday, and Rippling. We're just getting started on making high-performing",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:ee48465f-09e2-5c88-8bff-dc68032962cd:0:5",
+      "document_id": "ee48465f-09e2-5c88-8bff-dc68032962cd",
+      "start": 0,
+      "end": 5,
+      "entity_text": "ABOUT",
+      "span_text": "ABOUT US At LangChain, our mission is to enable every company to own its intelligence. We believe agents ",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:ee48465f-09e2-5c88-8bff-dc68032962cd:12:21",
+      "document_id": "ee48465f-09e2-5c88-8bff-dc68032962cd",
+      "start": 12,
+      "end": 21,
+      "entity_text": "LangChain",
+      "span_text": "ABOUT US At LangChain, our mission is to enable every company to own its intelligence. We believe agents will transform h",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:ee48465f-09e2-5c88-8bff-dc68032962cd:207:210",
+      "document_id": "ee48465f-09e2-5c88-8bff-dc68032962cd",
+      "start": 207,
+      "end": 210,
+      "entity_text": "Our",
+      "span_text": "ll transform how companies operate, and we're building the foundation to make that future possible. Our open-source harnesses and LangSmith platform give developers and enterprises the infrastructure to ",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:ee48465f-09e2-5c88-8bff-dc68032962cd:237:246",
+      "document_id": "ee48465f-09e2-5c88-8bff-dc68032962cd",
+      "start": 237,
+      "end": 246,
+      "entity_text": "LangSmith",
+      "span_text": "rate, and we're building the foundation to make that future possible. Our open-source harnesses and LangSmith platform give developers and enterprises the infrastructure to run, improve, and govern agents at s",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:ee48465f-09e2-5c88-8bff-dc68032962cd:481:488",
+      "document_id": "ee48465f-09e2-5c88-8bff-dc68032962cd",
+      "start": 481,
+      "end": 488,
+      "entity_text": "Sequoia",
+      "span_text": "ith our most recent funding round valuing the company at $3B, backed by leading investors including Sequoia, Benchmark, IVP, and CapitalG. As we continue to expand our platform and tackle some of the hardest",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:ee48465f-09e2-5c88-8bff-dc68032962cd:490:499",
+      "document_id": "ee48465f-09e2-5c88-8bff-dc68032962cd",
+      "start": 490,
+      "end": 499,
+      "entity_text": "Benchmark",
+      "span_text": "ost recent funding round valuing the company at $3B, backed by leading investors including Sequoia, Benchmark, IVP, and CapitalG. As we continue to expand our platform and tackle some of the hardest challenges",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:ee48465f-09e2-5c88-8bff-dc68032962cd:501:504",
+      "document_id": "ee48465f-09e2-5c88-8bff-dc68032962cd",
+      "start": 501,
+      "end": 504,
+      "entity_text": "IVP",
+      "span_text": "funding round valuing the company at $3B, backed by leading investors including Sequoia, Benchmark, IVP, and CapitalG. As we continue to expand our platform and tackle some of the hardest challenges in a",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:ee48465f-09e2-5c88-8bff-dc68032962cd:510:518",
+      "document_id": "ee48465f-09e2-5c88-8bff-dc68032962cd",
+      "start": 510,
+      "end": 518,
+      "entity_text": "CapitalG",
+      "span_text": "ound valuing the company at $3B, backed by leading investors including Sequoia, Benchmark, IVP, and CapitalG. As we continue to expand our platform and tackle some of the hardest challenges in agent engineeri",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:ee48465f-09e2-5c88-8bff-dc68032962cd:755:759",
+      "document_id": "ee48465f-09e2-5c88-8bff-dc68032962cd",
+      "start": 755,
+      "end": 759,
+      "entity_text": "More",
+      "span_text": "nity to make a meaningful impact and help shape both our technology and the future of the industry. More than 7,000 organizations rely on LangSmith, from fast-growing startups to Fortune 500 enterprises, ",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:ee48465f-09e2-5c88-8bff-dc68032962cd:793:802",
+      "document_id": "ee48465f-09e2-5c88-8bff-dc68032962cd",
+      "start": 793,
+      "end": 802,
+      "entity_text": "LangSmith",
+      "span_text": "elp shape both our technology and the future of the industry. More than 7,000 organizations rely on LangSmith, from fast-growing startups to Fortune 500 enterprises, including NVIDIA, Bridgewater, LinkedIn, Wo",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:ee48465f-09e2-5c88-8bff-dc68032962cd:834:841",
+      "document_id": "ee48465f-09e2-5c88-8bff-dc68032962cd",
+      "start": 834,
+      "end": 841,
+      "entity_text": "Fortune",
+      "span_text": "ure of the industry. More than 7,000 organizations rely on LangSmith, from fast-growing startups to Fortune 500 enterprises, including NVIDIA, Bridgewater, LinkedIn, Workday, and Rippling. We're just getting",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:ee48465f-09e2-5c88-8bff-dc68032962cd:869:875",
+      "document_id": "ee48465f-09e2-5c88-8bff-dc68032962cd",
+      "start": 869,
+      "end": 875,
+      "entity_text": "NVIDIA",
+      "span_text": "0 organizations rely on LangSmith, from fast-growing startups to Fortune 500 enterprises, including NVIDIA, Bridgewater, LinkedIn, Workday, and Rippling. We're just getting started on making high-performing",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:2cc150d0-748d-599b-bf30-18f175d2773f:0:5",
+      "document_id": "2cc150d0-748d-599b-bf30-18f175d2773f",
+      "start": 0,
+      "end": 5,
+      "entity_text": "ABOUT",
+      "span_text": "ABOUT US At LangChain, our mission is to enable every company to own its intelligence. We believe agents ",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:2cc150d0-748d-599b-bf30-18f175d2773f:12:21",
+      "document_id": "2cc150d0-748d-599b-bf30-18f175d2773f",
+      "start": 12,
+      "end": 21,
+      "entity_text": "LangChain",
+      "span_text": "ABOUT US At LangChain, our mission is to enable every company to own its intelligence. We believe agents will transform h",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:2cc150d0-748d-599b-bf30-18f175d2773f:207:210",
+      "document_id": "2cc150d0-748d-599b-bf30-18f175d2773f",
+      "start": 207,
+      "end": 210,
+      "entity_text": "Our",
+      "span_text": "ll transform how companies operate, and we're building the foundation to make that future possible. Our open-source harnesses and LangSmith platform give developers and enterprises the infrastructure to ",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:2cc150d0-748d-599b-bf30-18f175d2773f:237:246",
+      "document_id": "2cc150d0-748d-599b-bf30-18f175d2773f",
+      "start": 237,
+      "end": 246,
+      "entity_text": "LangSmith",
+      "span_text": "rate, and we're building the foundation to make that future possible. Our open-source harnesses and LangSmith platform give developers and enterprises the infrastructure to run, improve, and govern agents at s",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:2cc150d0-748d-599b-bf30-18f175d2773f:481:488",
+      "document_id": "2cc150d0-748d-599b-bf30-18f175d2773f",
+      "start": 481,
+      "end": 488,
+      "entity_text": "Sequoia",
+      "span_text": "ith our most recent funding round valuing the company at $3B, backed by leading investors including Sequoia, Benchmark, IVP, and CapitalG. As we continue to expand our platform and tackle some of the hardest",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:2cc150d0-748d-599b-bf30-18f175d2773f:490:499",
+      "document_id": "2cc150d0-748d-599b-bf30-18f175d2773f",
+      "start": 490,
+      "end": 499,
+      "entity_text": "Benchmark",
+      "span_text": "ost recent funding round valuing the company at $3B, backed by leading investors including Sequoia, Benchmark, IVP, and CapitalG. As we continue to expand our platform and tackle some of the hardest challenges",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:2cc150d0-748d-599b-bf30-18f175d2773f:501:504",
+      "document_id": "2cc150d0-748d-599b-bf30-18f175d2773f",
+      "start": 501,
+      "end": 504,
+      "entity_text": "IVP",
+      "span_text": "funding round valuing the company at $3B, backed by leading investors including Sequoia, Benchmark, IVP, and CapitalG. As we continue to expand our platform and tackle some of the hardest challenges in a",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:2cc150d0-748d-599b-bf30-18f175d2773f:510:518",
+      "document_id": "2cc150d0-748d-599b-bf30-18f175d2773f",
+      "start": 510,
+      "end": 518,
+      "entity_text": "CapitalG",
+      "span_text": "ound valuing the company at $3B, backed by leading investors including Sequoia, Benchmark, IVP, and CapitalG. As we continue to expand our platform and tackle some of the hardest challenges in agent engineeri",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:2cc150d0-748d-599b-bf30-18f175d2773f:755:759",
+      "document_id": "2cc150d0-748d-599b-bf30-18f175d2773f",
+      "start": 755,
+      "end": 759,
+      "entity_text": "More",
+      "span_text": "nity to make a meaningful impact and help shape both our technology and the future of the industry. More than 7,000 organizations rely on LangSmith, from fast-growing startups to Fortune 500 enterprises, ",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:2cc150d0-748d-599b-bf30-18f175d2773f:793:802",
+      "document_id": "2cc150d0-748d-599b-bf30-18f175d2773f",
+      "start": 793,
+      "end": 802,
+      "entity_text": "LangSmith",
+      "span_text": "elp shape both our technology and the future of the industry. More than 7,000 organizations rely on LangSmith, from fast-growing startups to Fortune 500 enterprises, including NVIDIA, Bridgewater, LinkedIn, Wo",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:2cc150d0-748d-599b-bf30-18f175d2773f:834:841",
+      "document_id": "2cc150d0-748d-599b-bf30-18f175d2773f",
+      "start": 834,
+      "end": 841,
+      "entity_text": "Fortune",
+      "span_text": "ure of the industry. More than 7,000 organizations rely on LangSmith, from fast-growing startups to Fortune 500 enterprises, including NVIDIA, Bridgewater, LinkedIn, Workday, and Rippling. We're just getting",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:2cc150d0-748d-599b-bf30-18f175d2773f:869:875",
+      "document_id": "2cc150d0-748d-599b-bf30-18f175d2773f",
+      "start": 869,
+      "end": 875,
+      "entity_text": "NVIDIA",
+      "span_text": "0 organizations rely on LangSmith, from fast-growing startups to Fortune 500 enterprises, including NVIDIA, Bridgewater, LinkedIn, Workday, and Rippling. We're just getting started on making high-performing",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:d1e116fd-c046-5c5f-adcd-4363b1dd6f05:0:5",
+      "document_id": "d1e116fd-c046-5c5f-adcd-4363b1dd6f05",
+      "start": 0,
+      "end": 5,
+      "entity_text": "ABOUT",
+      "span_text": "ABOUT US At LangChain, our mission is to enable every company to own its intelligence. We believe agents ",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:d1e116fd-c046-5c5f-adcd-4363b1dd6f05:12:21",
+      "document_id": "d1e116fd-c046-5c5f-adcd-4363b1dd6f05",
+      "start": 12,
+      "end": 21,
+      "entity_text": "LangChain",
+      "span_text": "ABOUT US At LangChain, our mission is to enable every company to own its intelligence. We believe agents will transform h",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:d1e116fd-c046-5c5f-adcd-4363b1dd6f05:207:210",
+      "document_id": "d1e116fd-c046-5c5f-adcd-4363b1dd6f05",
+      "start": 207,
+      "end": 210,
+      "entity_text": "Our",
+      "span_text": "ll transform how companies operate, and we're building the foundation to make that future possible. Our open-source harnesses and LangSmith platform give developers and enterprises the infrastructure to ",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:d1e116fd-c046-5c5f-adcd-4363b1dd6f05:237:246",
+      "document_id": "d1e116fd-c046-5c5f-adcd-4363b1dd6f05",
+      "start": 237,
+      "end": 246,
+      "entity_text": "LangSmith",
+      "span_text": "rate, and we're building the foundation to make that future possible. Our open-source harnesses and LangSmith platform give developers and enterprises the infrastructure to run, improve, and govern agents at s",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:d1e116fd-c046-5c5f-adcd-4363b1dd6f05:481:488",
+      "document_id": "d1e116fd-c046-5c5f-adcd-4363b1dd6f05",
+      "start": 481,
+      "end": 488,
+      "entity_text": "Sequoia",
+      "span_text": "ith our most recent funding round valuing the company at $3B, backed by leading investors including Sequoia, Benchmark, IVP, and CapitalG. As we continue to expand our platform and tackle some of the hardest",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:d1e116fd-c046-5c5f-adcd-4363b1dd6f05:490:499",
+      "document_id": "d1e116fd-c046-5c5f-adcd-4363b1dd6f05",
+      "start": 490,
+      "end": 499,
+      "entity_text": "Benchmark",
+      "span_text": "ost recent funding round valuing the company at $3B, backed by leading investors including Sequoia, Benchmark, IVP, and CapitalG. As we continue to expand our platform and tackle some of the hardest challenges",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:d1e116fd-c046-5c5f-adcd-4363b1dd6f05:501:504",
+      "document_id": "d1e116fd-c046-5c5f-adcd-4363b1dd6f05",
+      "start": 501,
+      "end": 504,
+      "entity_text": "IVP",
+      "span_text": "funding round valuing the company at $3B, backed by leading investors including Sequoia, Benchmark, IVP, and CapitalG. As we continue to expand our platform and tackle some of the hardest challenges in a",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:d1e116fd-c046-5c5f-adcd-4363b1dd6f05:510:518",
+      "document_id": "d1e116fd-c046-5c5f-adcd-4363b1dd6f05",
+      "start": 510,
+      "end": 518,
+      "entity_text": "CapitalG",
+      "span_text": "ound valuing the company at $3B, backed by leading investors including Sequoia, Benchmark, IVP, and CapitalG. As we continue to expand our platform and tackle some of the hardest challenges in agent engineeri",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:d1e116fd-c046-5c5f-adcd-4363b1dd6f05:755:759",
+      "document_id": "d1e116fd-c046-5c5f-adcd-4363b1dd6f05",
+      "start": 755,
+      "end": 759,
+      "entity_text": "More",
+      "span_text": "nity to make a meaningful impact and help shape both our technology and the future of the industry. More than 7,000 organizations rely on LangSmith, from fast-growing startups to Fortune 500 enterprises, ",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:d1e116fd-c046-5c5f-adcd-4363b1dd6f05:793:802",
+      "document_id": "d1e116fd-c046-5c5f-adcd-4363b1dd6f05",
+      "start": 793,
+      "end": 802,
+      "entity_text": "LangSmith",
+      "span_text": "elp shape both our technology and the future of the industry. More than 7,000 organizations rely on LangSmith, from fast-growing startups to Fortune 500 enterprises, including NVIDIA, Bridgewater, LinkedIn, Wo",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:d1e116fd-c046-5c5f-adcd-4363b1dd6f05:834:841",
+      "document_id": "d1e116fd-c046-5c5f-adcd-4363b1dd6f05",
+      "start": 834,
+      "end": 841,
+      "entity_text": "Fortune",
+      "span_text": "ure of the industry. More than 7,000 organizations rely on LangSmith, from fast-growing startups to Fortune 500 enterprises, including NVIDIA, Bridgewater, LinkedIn, Workday, and Rippling. We're just getting",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:d1e116fd-c046-5c5f-adcd-4363b1dd6f05:869:875",
+      "document_id": "d1e116fd-c046-5c5f-adcd-4363b1dd6f05",
+      "start": 869,
+      "end": 875,
+      "entity_text": "NVIDIA",
+      "span_text": "0 organizations rely on LangSmith, from fast-growing startups to Fortune 500 enterprises, including NVIDIA, Bridgewater, LinkedIn, Workday, and Rippling. We're just getting started on making high-performing",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:e32554b1-b6fa-5aad-a649-14ad5624d314:91:97",
+      "document_id": "e32554b1-b6fa-5aad-a649-14ad5624d314",
+      "start": 91,
+      "end": 97,
+      "entity_text": "Counts",
+      "span_text": "langchain-ai/langchain recorded 58 default-branch commits during 2026-11-09 to 2026-11-15. Counts are reconstructed from dated commits; repository counters are unavailable for this historical week.",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:82d08508-5cb5-55aa-8dd0-e1f1cb617baf:91:97",
+      "document_id": "82d08508-5cb5-55aa-8dd0-e1f1cb617baf",
+      "start": 91,
+      "end": 97,
+      "entity_text": "Counts",
+      "span_text": "langchain-ai/langchain recorded 46 default-branch commits during 2026-11-02 to 2026-11-08. Counts are reconstructed from dated commits; repository counters are unavailable for this historical week.",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:4fe7a036-fb5f-5a42-b7b0-ebca165b2a23:91:97",
+      "document_id": "4fe7a036-fb5f-5a42-b7b0-ebca165b2a23",
+      "start": 91,
+      "end": 97,
+      "entity_text": "Counts",
+      "span_text": "langchain-ai/langchain recorded 31 default-branch commits during 2026-10-26 to 2026-11-01. Counts are reconstructed from dated commits; repository counters are unavailable for this historical week.",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:82e2fe08-1179-57ad-a3f5-853b4d9e287c:91:97",
+      "document_id": "82e2fe08-1179-57ad-a3f5-853b4d9e287c",
+      "start": 91,
+      "end": 97,
+      "entity_text": "Counts",
+      "span_text": "langchain-ai/langchain recorded 88 default-branch commits during 2026-10-19 to 2026-10-25. Counts are reconstructed from dated commits; repository counters are unavailable for this historical week.",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:ad28ea32-93ea-5f21-acec-63b36522ac08:91:97",
+      "document_id": "ad28ea32-93ea-5f21-acec-63b36522ac08",
+      "start": 91,
+      "end": 97,
+      "entity_text": "Counts",
+      "span_text": "langchain-ai/langchain recorded 23 default-branch commits during 2026-10-12 to 2026-10-18. Counts are reconstructed from dated commits; repository counters are unavailable for this historical week.",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:a4015ce7-0535-56c8-b14f-1a40fac7019d:91:97",
+      "document_id": "a4015ce7-0535-56c8-b14f-1a40fac7019d",
+      "start": 91,
+      "end": 97,
+      "entity_text": "Counts",
+      "span_text": "langchain-ai/langchain recorded 50 default-branch commits during 2026-10-05 to 2026-10-11. Counts are reconstructed from dated commits; repository counters are unavailable for this historical week.",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:55654984-542c-5e52-9ce8-5678d80688e8:91:97",
+      "document_id": "55654984-542c-5e52-9ce8-5678d80688e8",
+      "start": 91,
+      "end": 97,
+      "entity_text": "Counts",
+      "span_text": "langchain-ai/langchain recorded 57 default-branch commits during 2026-09-28 to 2026-10-04. Counts are reconstructed from dated commits; repository counters are unavailable for this historical week.",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:1b0b26ad-97db-5001-a34d-24ddc270d344:91:97",
+      "document_id": "1b0b26ad-97db-5001-a34d-24ddc270d344",
+      "start": 91,
+      "end": 97,
+      "entity_text": "Counts",
+      "span_text": "langchain-ai/langchain recorded 44 default-branch commits during 2026-09-21 to 2026-09-27. Counts are reconstructed from dated commits; repository counters are unavailable for this historical week.",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:82040a95-5e36-5edf-80c0-2f22ed9b9769:85:91",
+      "document_id": "82040a95-5e36-5edf-80c0-2f22ed9b9769",
+      "start": 85,
+      "end": 91,
+      "entity_text": "Counts",
+      "span_text": "crewAIInc/crewAI recorded 40 default-branch commits during 2026-11-09 to 2026-11-15. Counts are reconstructed from dated commits; repository counters are unavailable for this historical week.",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:80da3961-90c2-5c24-9f09-496c77d41929:85:91",
+      "document_id": "80da3961-90c2-5c24-9f09-496c77d41929",
+      "start": 85,
+      "end": 91,
+      "entity_text": "Counts",
+      "span_text": "crewAIInc/crewAI recorded 44 default-branch commits during 2026-11-02 to 2026-11-08. Counts are reconstructed from dated commits; repository counters are unavailable for this historical week.",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:2463005a-34b7-54df-b54e-10f1c903354f:85:91",
+      "document_id": "2463005a-34b7-54df-b54e-10f1c903354f",
+      "start": 85,
+      "end": 91,
+      "entity_text": "Counts",
+      "span_text": "crewAIInc/crewAI recorded 78 default-branch commits during 2026-10-26 to 2026-11-01. Counts are reconstructed from dated commits; repository counters are unavailable for this historical week.",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:f3b13310-8958-5220-8e75-21518ee410bb:85:91",
+      "document_id": "f3b13310-8958-5220-8e75-21518ee410bb",
+      "start": 85,
+      "end": 91,
+      "entity_text": "Counts",
+      "span_text": "crewAIInc/crewAI recorded 59 default-branch commits during 2026-10-19 to 2026-10-25. Counts are reconstructed from dated commits; repository counters are unavailable for this historical week.",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:d73889b4-efa2-5be4-8dbe-81b2d61fa420:85:91",
+      "document_id": "d73889b4-efa2-5be4-8dbe-81b2d61fa420",
+      "start": 85,
+      "end": 91,
+      "entity_text": "Counts",
+      "span_text": "crewAIInc/crewAI recorded 35 default-branch commits during 2026-10-12 to 2026-10-18. Counts are reconstructed from dated commits; repository counters are unavailable for this historical week.",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:ae6caf46-50d6-5c10-af7d-2dc94c3e1be1:85:91",
+      "document_id": "ae6caf46-50d6-5c10-af7d-2dc94c3e1be1",
+      "start": 85,
+      "end": 91,
+      "entity_text": "Counts",
+      "span_text": "crewAIInc/crewAI recorded 27 default-branch commits during 2026-10-05 to 2026-10-11. Counts are reconstructed from dated commits; repository counters are unavailable for this historical week.",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:a626478e-cf2a-5067-9b9b-972dc5e28960:85:91",
+      "document_id": "a626478e-cf2a-5067-9b9b-972dc5e28960",
+      "start": 85,
+      "end": 91,
+      "entity_text": "Counts",
+      "span_text": "crewAIInc/crewAI recorded 16 default-branch commits during 2026-09-28 to 2026-10-04. Counts are reconstructed from dated commits; repository counters are unavailable for this historical week.",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:1591dac0-291d-5d48-aaef-1e3c91026f0c:85:91",
+      "document_id": "1591dac0-291d-5d48-aaef-1e3c91026f0c",
+      "start": 85,
+      "end": 91,
+      "entity_text": "Counts",
+      "span_text": "crewAIInc/crewAI recorded 12 default-branch commits during 2026-09-21 to 2026-09-27. Counts are reconstructed from dated commits; repository counters are unavailable for this historical week.",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:de67be64-1e7e-55a7-8567-b9ee5e68f40f:87:93",
+      "document_id": "de67be64-1e7e-55a7-8567-b9ee5e68f40f",
+      "start": 87,
+      "end": 93,
+      "entity_text": "Counts",
+      "span_text": "langfuse/langfuse recorded 203 default-branch commits during 2026-11-09 to 2026-11-15. Counts are reconstructed from dated commits; repository counters are unavailable for this historical week.",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:91e830e7-da6b-504b-99fc-1e1e06f15e2d:87:93",
+      "document_id": "91e830e7-da6b-504b-99fc-1e1e06f15e2d",
+      "start": 87,
+      "end": 93,
+      "entity_text": "Counts",
+      "span_text": "langfuse/langfuse recorded 248 default-branch commits during 2026-11-02 to 2026-11-08. Counts are reconstructed from dated commits; repository counters are unavailable for this historical week.",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:c3682e8d-7a90-50eb-b21a-6bc793882888:86:92",
+      "document_id": "c3682e8d-7a90-50eb-b21a-6bc793882888",
+      "start": 86,
+      "end": 92,
+      "entity_text": "Counts",
+      "span_text": "langfuse/langfuse recorded 89 default-branch commits during 2026-10-26 to 2026-11-01. Counts are reconstructed from dated commits; repository counters are unavailable for this historical week.",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:f42e99ff-4906-5bb0-8c33-3896e7c421a0:87:93",
+      "document_id": "f42e99ff-4906-5bb0-8c33-3896e7c421a0",
+      "start": 87,
+      "end": 93,
+      "entity_text": "Counts",
+      "span_text": "langfuse/langfuse recorded 217 default-branch commits during 2026-10-19 to 2026-10-25. Counts are reconstructed from dated commits; repository counters are unavailable for this historical week.",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:6e165beb-a7fb-510e-a84e-7402fde2b291:87:93",
+      "document_id": "6e165beb-a7fb-510e-a84e-7402fde2b291",
+      "start": 87,
+      "end": 93,
+      "entity_text": "Counts",
+      "span_text": "langfuse/langfuse recorded 280 default-branch commits during 2026-10-12 to 2026-10-18. Counts are reconstructed from dated commits; repository counters are unavailable for this historical week.",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:2160e027-2dc5-56da-9854-d85e07ee4621:87:93",
+      "document_id": "2160e027-2dc5-56da-9854-d85e07ee4621",
+      "start": 87,
+      "end": 93,
+      "entity_text": "Counts",
+      "span_text": "langfuse/langfuse recorded 251 default-branch commits during 2026-10-05 to 2026-10-11. Counts are reconstructed from dated commits; repository counters are unavailable for this historical week.",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:de366123-a4a6-5251-aacc-d5ba8a22a5e3:87:93",
+      "document_id": "de366123-a4a6-5251-aacc-d5ba8a22a5e3",
+      "start": 87,
+      "end": 93,
+      "entity_text": "Counts",
+      "span_text": "langfuse/langfuse recorded 104 default-branch commits during 2026-09-28 to 2026-10-04. Counts are reconstructed from dated commits; repository counters are unavailable for this historical week.",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "entity:8e331615-dcc0-5ed1-8ee7-e29e0ecaa6f8:87:93",
+      "document_id": "8e331615-dcc0-5ed1-8ee7-e29e0ecaa6f8",
+      "start": 87,
+      "end": 93,
+      "entity_text": "Counts",
+      "span_text": "langfuse/langfuse recorded 203 default-branch commits during 2026-09-21 to 2026-09-27. Counts are reconstructed from dated commits; repository counters are unavailable for this historical week.",
+      "label": "",
+      "notes": ""
+    }
+  ],
+  "relations": [
+    {
+      "item_id": "relation:eb174b5a-a28e-5260-a99a-aeb84f1e4be8:0",
+      "document_id": "eb174b5a-a28e-5260-a99a-aeb84f1e4be8",
+      "subject": "eb174b5a-a28e-5260-a99a-aeb84f1e4be8",
+      "object": "LangChain",
+      "span_text": "LangChain Raises $300M Series C at $3B Valuation Would you notice if your agent got worse in production? Tell",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "relation:eb174b5a-a28e-5260-a99a-aeb84f1e4be8:10",
+      "document_id": "eb174b5a-a28e-5260-a99a-aeb84f1e4be8",
+      "subject": "eb174b5a-a28e-5260-a99a-aeb84f1e4be8",
+      "object": "Raises",
+      "span_text": "LangChain Raises $300M Series C at $3B Valuation Would you notice if your agent got worse in production? Tell us in ",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "relation:eb174b5a-a28e-5260-a99a-aeb84f1e4be8:23",
+      "document_id": "eb174b5a-a28e-5260-a99a-aeb84f1e4be8",
+      "subject": "eb174b5a-a28e-5260-a99a-aeb84f1e4be8",
+      "object": "Series",
+      "span_text": "LangChain Raises $300M Series C at $3B Valuation Would you notice if your agent got worse in production? Tell us in our annual su",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "relation:eb174b5a-a28e-5260-a99a-aeb84f1e4be8:39",
+      "document_id": "eb174b5a-a28e-5260-a99a-aeb84f1e4be8",
+      "subject": "eb174b5a-a28e-5260-a99a-aeb84f1e4be8",
+      "object": "Valuation",
+      "span_text": "LangChain Raises $300M Series C at $3B Valuation Would you notice if your agent got worse in production? Tell us in our annual survey for the chance",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "relation:8040d79a-d5bc-57b8-80ed-3b703a3d7af3:0",
+      "document_id": "8040d79a-d5bc-57b8-80ed-3b703a3d7af3",
+      "subject": "8040d79a-d5bc-57b8-80ed-3b703a3d7af3",
+      "object": "Follow",
+      "span_text": "Follow us on 4 Today we’re delighted to announce two milestones: the general availability of LlamaParse, a",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "relation:8040d79a-d5bc-57b8-80ed-3b703a3d7af3:15",
+      "document_id": "8040d79a-d5bc-57b8-80ed-3b703a3d7af3",
+      "subject": "8040d79a-d5bc-57b8-80ed-3b703a3d7af3",
+      "object": "Today",
+      "span_text": "Follow us on 4 Today we’re delighted to announce two milestones: the general availability of LlamaParse, and our $19M se",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "relation:8040d79a-d5bc-57b8-80ed-3b703a3d7af3:93",
+      "document_id": "8040d79a-d5bc-57b8-80ed-3b703a3d7af3",
+      "subject": "8040d79a-d5bc-57b8-80ed-3b703a3d7af3",
+      "object": "LlamaParse",
+      "span_text": "Follow us on 4 Today we’re delighted to announce two milestones: the general availability of LlamaParse, and our $19M series A funding round. LlamaParse is the core of our enterprise offering: a turn-key",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "relation:8040d79a-d5bc-57b8-80ed-3b703a3d7af3:142",
+      "document_id": "8040d79a-d5bc-57b8-80ed-3b703a3d7af3",
+      "subject": "8040d79a-d5bc-57b8-80ed-3b703a3d7af3",
+      "object": "LlamaParse",
+      "span_text": "nounce two milestones: the general availability of LlamaParse, and our $19M series A funding round. LlamaParse is the core of our enterprise offering: a turn-key solution for agentic knowledge management over y",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "relation:8767e401-ef9f-5ca1-aea7-36dd179301b7:0",
+      "document_id": "8767e401-ef9f-5ca1-aea7-36dd179301b7",
+      "subject": "8767e401-ef9f-5ca1-aea7-36dd179301b7",
+      "object": "June",
+      "span_text": "June 18, 2025 Building the future of web automation Paul Klein Company 3 min read Try our new product, D",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "relation:8767e401-ef9f-5ca1-aea7-36dd179301b7:14",
+      "document_id": "8767e401-ef9f-5ca1-aea7-36dd179301b7",
+      "subject": "8767e401-ef9f-5ca1-aea7-36dd179301b7",
+      "object": "Building",
+      "span_text": "June 18, 2025 Building the future of web automation Paul Klein Company 3 min read Try our new product, Director.ai today I",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "relation:8767e401-ef9f-5ca1-aea7-36dd179301b7:52",
+      "document_id": "8767e401-ef9f-5ca1-aea7-36dd179301b7",
+      "subject": "8767e401-ef9f-5ca1-aea7-36dd179301b7",
+      "object": "Paul",
+      "span_text": "June 18, 2025 Building the future of web automation Paul Klein Company 3 min read Try our new product, Director.ai today In this hyper-fast world of AI, in ",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "relation:8767e401-ef9f-5ca1-aea7-36dd179301b7:57",
+      "document_id": "8767e401-ef9f-5ca1-aea7-36dd179301b7",
+      "subject": "8767e401-ef9f-5ca1-aea7-36dd179301b7",
+      "object": "Klein",
+      "span_text": "June 18, 2025 Building the future of web automation Paul Klein Company 3 min read Try our new product, Director.ai today In this hyper-fast world of AI, in order ",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "relation:b4c06ed8-d4f1-593d-bb1c-f8a329355cab:0",
+      "document_id": "b4c06ed8-d4f1-593d-bb1c-f8a329355cab",
+      "subject": "b4c06ed8-d4f1-593d-bb1c-f8a329355cab",
+      "object": "Join",
+      "span_text": "Join us and help shape the future of AI by defining the narrative around document understanding. ABOUT T",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "relation:b4c06ed8-d4f1-593d-bb1c-f8a329355cab:97",
+      "document_id": "b4c06ed8-d4f1-593d-bb1c-f8a329355cab",
+      "subject": "b4c06ed8-d4f1-593d-bb1c-f8a329355cab",
+      "object": "ABOUT",
+      "span_text": "Join us and help shape the future of AI by defining the narrative around document understanding. ABOUT THE ROLE LlamaIndex makes enterprise data useful for AI applications. You will own engineering exec",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "relation:b4c06ed8-d4f1-593d-bb1c-f8a329355cab:103",
+      "document_id": "b4c06ed8-d4f1-593d-bb1c-f8a329355cab",
+      "subject": "b4c06ed8-d4f1-593d-bb1c-f8a329355cab",
+      "object": "THE",
+      "span_text": "n us and help shape the future of AI by defining the narrative around document understanding. ABOUT THE ROLE LlamaIndex makes enterprise data useful for AI applications. You will own engineering executio",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "relation:b4c06ed8-d4f1-593d-bb1c-f8a329355cab:107",
+      "document_id": "b4c06ed8-d4f1-593d-bb1c-f8a329355cab",
+      "subject": "b4c06ed8-d4f1-593d-bb1c-f8a329355cab",
+      "object": "ROLE",
+      "span_text": " and help shape the future of AI by defining the narrative around document understanding. ABOUT THE ROLE LlamaIndex makes enterprise data useful for AI applications. You will own engineering execution, te",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "relation:7db42262-253c-50c2-b41a-40aa32637d12:0",
+      "document_id": "7db42262-253c-50c2-b41a-40aa32637d12",
+      "subject": "7db42262-253c-50c2-b41a-40aa32637d12",
+      "object": "Join",
+      "span_text": "Join us and help shape the future of AI by defining the narrative around document understanding. ABOUT T",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "relation:7db42262-253c-50c2-b41a-40aa32637d12:97",
+      "document_id": "7db42262-253c-50c2-b41a-40aa32637d12",
+      "subject": "7db42262-253c-50c2-b41a-40aa32637d12",
+      "object": "ABOUT",
+      "span_text": "Join us and help shape the future of AI by defining the narrative around document understanding. ABOUT THE ROLE We are looking for an AI Research Engineer to join our document understanding team. This r",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "relation:7db42262-253c-50c2-b41a-40aa32637d12:103",
+      "document_id": "7db42262-253c-50c2-b41a-40aa32637d12",
+      "subject": "7db42262-253c-50c2-b41a-40aa32637d12",
+      "object": "THE",
+      "span_text": "n us and help shape the future of AI by defining the narrative around document understanding. ABOUT THE ROLE We are looking for an AI Research Engineer to join our document understanding team. This role ",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "relation:7db42262-253c-50c2-b41a-40aa32637d12:107",
+      "document_id": "7db42262-253c-50c2-b41a-40aa32637d12",
+      "subject": "7db42262-253c-50c2-b41a-40aa32637d12",
+      "object": "ROLE",
+      "span_text": " and help shape the future of AI by defining the narrative around document understanding. ABOUT THE ROLE We are looking for an AI Research Engineer to join our document understanding team. This role is id",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "relation:5d7a7ced-53aa-5b84-b7c5-30c694e18633:0",
+      "document_id": "5d7a7ced-53aa-5b84-b7c5-30c694e18633",
+      "subject": "5d7a7ced-53aa-5b84-b7c5-30c694e18633",
+      "object": "Join",
+      "span_text": "Join us and help shape the future of AI by defining the narrative around document understanding. Don’t s",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "relation:5d7a7ced-53aa-5b84-b7c5-30c694e18633:97",
+      "document_id": "5d7a7ced-53aa-5b84-b7c5-30c694e18633",
+      "subject": "5d7a7ced-53aa-5b84-b7c5-30c694e18633",
+      "object": "Don",
+      "span_text": "Join us and help shape the future of AI by defining the narrative around document understanding. Don’t see a role that feels like the right fit? We’d still love to hear from you. Submit your applicati",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "relation:5d7a7ced-53aa-5b84-b7c5-30c694e18633:179",
+      "document_id": "5d7a7ced-53aa-5b84-b7c5-30c694e18633",
+      "subject": "5d7a7ced-53aa-5b84-b7c5-30c694e18633",
+      "object": "Submit",
+      "span_text": "nt understanding. Don’t see a role that feels like the right fit? We’d still love to hear from you. Submit your application here, and we’ll keep you in mind as new opportunities open up! Pursuant to the San",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "relation:5d7a7ced-53aa-5b84-b7c5-30c694e18633:266",
+      "document_id": "5d7a7ced-53aa-5b84-b7c5-30c694e18633",
+      "subject": "5d7a7ced-53aa-5b84-b7c5-30c694e18633",
+      "object": "Pursuant",
+      "span_text": "ar from you. Submit your application here, and we’ll keep you in mind as new opportunities open up! Pursuant to the San Francisco Fair Chance Ordinance, we will consider for employment qualified applicants wi",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "relation:724f07a0-9038-5c04-a444-a224e9ba24d4:0",
+      "document_id": "724f07a0-9038-5c04-a444-a224e9ba24d4",
+      "subject": "724f07a0-9038-5c04-a444-a224e9ba24d4",
+      "object": "ABOUT",
+      "span_text": "ABOUT US At LangChain, our mission is to enable every company to own its intelligence. We believe agents ",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "relation:724f07a0-9038-5c04-a444-a224e9ba24d4:12",
+      "document_id": "724f07a0-9038-5c04-a444-a224e9ba24d4",
+      "subject": "724f07a0-9038-5c04-a444-a224e9ba24d4",
+      "object": "LangChain",
+      "span_text": "ABOUT US At LangChain, our mission is to enable every company to own its intelligence. We believe agents will transform h",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "relation:724f07a0-9038-5c04-a444-a224e9ba24d4:207",
+      "document_id": "724f07a0-9038-5c04-a444-a224e9ba24d4",
+      "subject": "724f07a0-9038-5c04-a444-a224e9ba24d4",
+      "object": "Our",
+      "span_text": "ll transform how companies operate, and we're building the foundation to make that future possible. Our open-source harnesses and LangSmith platform give developers and enterprises the infrastructure to ",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "relation:724f07a0-9038-5c04-a444-a224e9ba24d4:237",
+      "document_id": "724f07a0-9038-5c04-a444-a224e9ba24d4",
+      "subject": "724f07a0-9038-5c04-a444-a224e9ba24d4",
+      "object": "LangSmith",
+      "span_text": "rate, and we're building the foundation to make that future possible. Our open-source harnesses and LangSmith platform give developers and enterprises the infrastructure to run, improve, and govern agents at s",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "relation:36725462-2467-59f7-9830-ceca221e5623:0",
+      "document_id": "36725462-2467-59f7-9830-ceca221e5623",
+      "subject": "36725462-2467-59f7-9830-ceca221e5623",
+      "object": "ABOUT",
+      "span_text": "ABOUT US At LangChain, our mission is to enable every company to own its intelligence. We believe agents ",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "relation:36725462-2467-59f7-9830-ceca221e5623:12",
+      "document_id": "36725462-2467-59f7-9830-ceca221e5623",
+      "subject": "36725462-2467-59f7-9830-ceca221e5623",
+      "object": "LangChain",
+      "span_text": "ABOUT US At LangChain, our mission is to enable every company to own its intelligence. We believe agents will transform h",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "relation:36725462-2467-59f7-9830-ceca221e5623:207",
+      "document_id": "36725462-2467-59f7-9830-ceca221e5623",
+      "subject": "36725462-2467-59f7-9830-ceca221e5623",
+      "object": "Our",
+      "span_text": "ll transform how companies operate, and we're building the foundation to make that future possible. Our open-source harnesses and LangSmith platform give developers and enterprises the infrastructure to ",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "relation:36725462-2467-59f7-9830-ceca221e5623:237",
+      "document_id": "36725462-2467-59f7-9830-ceca221e5623",
+      "subject": "36725462-2467-59f7-9830-ceca221e5623",
+      "object": "LangSmith",
+      "span_text": "rate, and we're building the foundation to make that future possible. Our open-source harnesses and LangSmith platform give developers and enterprises the infrastructure to run, improve, and govern agents at s",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "relation:ac007877-2f78-5e44-bd24-c897f7265567:0",
+      "document_id": "ac007877-2f78-5e44-bd24-c897f7265567",
+      "subject": "ac007877-2f78-5e44-bd24-c897f7265567",
+      "object": "ABOUT",
+      "span_text": "ABOUT US At LangChain, our mission is to enable every company to own its intelligence. We believe agents ",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "relation:ac007877-2f78-5e44-bd24-c897f7265567:12",
+      "document_id": "ac007877-2f78-5e44-bd24-c897f7265567",
+      "subject": "ac007877-2f78-5e44-bd24-c897f7265567",
+      "object": "LangChain",
+      "span_text": "ABOUT US At LangChain, our mission is to enable every company to own its intelligence. We believe agents will transform h",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "relation:ac007877-2f78-5e44-bd24-c897f7265567:207",
+      "document_id": "ac007877-2f78-5e44-bd24-c897f7265567",
+      "subject": "ac007877-2f78-5e44-bd24-c897f7265567",
+      "object": "Our",
+      "span_text": "ll transform how companies operate, and we're building the foundation to make that future possible. Our open-source harnesses and LangSmith platform give developers and enterprises the infrastructure to ",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "relation:ac007877-2f78-5e44-bd24-c897f7265567:237",
+      "document_id": "ac007877-2f78-5e44-bd24-c897f7265567",
+      "subject": "ac007877-2f78-5e44-bd24-c897f7265567",
+      "object": "LangSmith",
+      "span_text": "rate, and we're building the foundation to make that future possible. Our open-source harnesses and LangSmith platform give developers and enterprises the infrastructure to run, improve, and govern agents at s",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "relation:364d3130-0325-5326-8978-ab6372a3a9e3:0",
+      "document_id": "364d3130-0325-5326-8978-ab6372a3a9e3",
+      "subject": "364d3130-0325-5326-8978-ab6372a3a9e3",
+      "object": "ABOUT",
+      "span_text": "ABOUT US At LangChain, our mission is to enable every company to own its intelligence. We believe agents ",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "relation:364d3130-0325-5326-8978-ab6372a3a9e3:12",
+      "document_id": "364d3130-0325-5326-8978-ab6372a3a9e3",
+      "subject": "364d3130-0325-5326-8978-ab6372a3a9e3",
+      "object": "LangChain",
+      "span_text": "ABOUT US At LangChain, our mission is to enable every company to own its intelligence. We believe agents will transform h",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "relation:364d3130-0325-5326-8978-ab6372a3a9e3:207",
+      "document_id": "364d3130-0325-5326-8978-ab6372a3a9e3",
+      "subject": "364d3130-0325-5326-8978-ab6372a3a9e3",
+      "object": "Our",
+      "span_text": "ll transform how companies operate, and we're building the foundation to make that future possible. Our open-source harnesses and LangSmith platform give developers and enterprises the infrastructure to ",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "relation:364d3130-0325-5326-8978-ab6372a3a9e3:237",
+      "document_id": "364d3130-0325-5326-8978-ab6372a3a9e3",
+      "subject": "364d3130-0325-5326-8978-ab6372a3a9e3",
+      "object": "LangSmith",
+      "span_text": "rate, and we're building the foundation to make that future possible. Our open-source harnesses and LangSmith platform give developers and enterprises the infrastructure to run, improve, and govern agents at s",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "relation:50235647-63d5-510f-b950-6bb34fe34c15:0",
+      "document_id": "50235647-63d5-510f-b950-6bb34fe34c15",
+      "subject": "50235647-63d5-510f-b950-6bb34fe34c15",
+      "object": "ABOUT",
+      "span_text": "ABOUT US At LangChain, our mission is to enable every company to own its intelligence. We believe agents ",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "relation:50235647-63d5-510f-b950-6bb34fe34c15:12",
+      "document_id": "50235647-63d5-510f-b950-6bb34fe34c15",
+      "subject": "50235647-63d5-510f-b950-6bb34fe34c15",
+      "object": "LangChain",
+      "span_text": "ABOUT US At LangChain, our mission is to enable every company to own its intelligence. We believe agents will transform h",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "relation:50235647-63d5-510f-b950-6bb34fe34c15:207",
+      "document_id": "50235647-63d5-510f-b950-6bb34fe34c15",
+      "subject": "50235647-63d5-510f-b950-6bb34fe34c15",
+      "object": "Our",
+      "span_text": "ll transform how companies operate, and we're building the foundation to make that future possible. Our open-source harnesses and LangSmith platform give developers and enterprises the infrastructure to ",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "relation:50235647-63d5-510f-b950-6bb34fe34c15:237",
+      "document_id": "50235647-63d5-510f-b950-6bb34fe34c15",
+      "subject": "50235647-63d5-510f-b950-6bb34fe34c15",
+      "object": "LangSmith",
+      "span_text": "rate, and we're building the foundation to make that future possible. Our open-source harnesses and LangSmith platform give developers and enterprises the infrastructure to run, improve, and govern agents at s",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "relation:1cf2222b-1e3c-537a-a267-da5a25205e43:0",
+      "document_id": "1cf2222b-1e3c-537a-a267-da5a25205e43",
+      "subject": "1cf2222b-1e3c-537a-a267-da5a25205e43",
+      "object": "ABOUT",
+      "span_text": "ABOUT US At LangChain, our mission is to enable every company to own its intelligence. We believe agents ",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "relation:1cf2222b-1e3c-537a-a267-da5a25205e43:12",
+      "document_id": "1cf2222b-1e3c-537a-a267-da5a25205e43",
+      "subject": "1cf2222b-1e3c-537a-a267-da5a25205e43",
+      "object": "LangChain",
+      "span_text": "ABOUT US At LangChain, our mission is to enable every company to own its intelligence. We believe agents will transform h",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "relation:1cf2222b-1e3c-537a-a267-da5a25205e43:207",
+      "document_id": "1cf2222b-1e3c-537a-a267-da5a25205e43",
+      "subject": "1cf2222b-1e3c-537a-a267-da5a25205e43",
+      "object": "Our",
+      "span_text": "ll transform how companies operate, and we're building the foundation to make that future possible. Our open-source harnesses and LangSmith platform give developers and enterprises the infrastructure to ",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "relation:1cf2222b-1e3c-537a-a267-da5a25205e43:237",
+      "document_id": "1cf2222b-1e3c-537a-a267-da5a25205e43",
+      "subject": "1cf2222b-1e3c-537a-a267-da5a25205e43",
+      "object": "LangSmith",
+      "span_text": "rate, and we're building the foundation to make that future possible. Our open-source harnesses and LangSmith platform give developers and enterprises the infrastructure to run, improve, and govern agents at s",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "relation:050c6cb9-2e90-5cb3-8c07-88f1507e808a:0",
+      "document_id": "050c6cb9-2e90-5cb3-8c07-88f1507e808a",
+      "subject": "050c6cb9-2e90-5cb3-8c07-88f1507e808a",
+      "object": "ABOUT",
+      "span_text": "ABOUT US At LangChain, our mission is to enable every company to own its intelligence. We believe agents ",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "relation:050c6cb9-2e90-5cb3-8c07-88f1507e808a:12",
+      "document_id": "050c6cb9-2e90-5cb3-8c07-88f1507e808a",
+      "subject": "050c6cb9-2e90-5cb3-8c07-88f1507e808a",
+      "object": "LangChain",
+      "span_text": "ABOUT US At LangChain, our mission is to enable every company to own its intelligence. We believe agents will transform h",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "relation:050c6cb9-2e90-5cb3-8c07-88f1507e808a:207",
+      "document_id": "050c6cb9-2e90-5cb3-8c07-88f1507e808a",
+      "subject": "050c6cb9-2e90-5cb3-8c07-88f1507e808a",
+      "object": "Our",
+      "span_text": "ll transform how companies operate, and we're building the foundation to make that future possible. Our open-source harnesses and LangSmith platform give developers and enterprises the infrastructure to ",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "relation:050c6cb9-2e90-5cb3-8c07-88f1507e808a:237",
+      "document_id": "050c6cb9-2e90-5cb3-8c07-88f1507e808a",
+      "subject": "050c6cb9-2e90-5cb3-8c07-88f1507e808a",
+      "object": "LangSmith",
+      "span_text": "rate, and we're building the foundation to make that future possible. Our open-source harnesses and LangSmith platform give developers and enterprises the infrastructure to run, improve, and govern agents at s",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "relation:8a299686-3575-5e3b-9aeb-d69466277f57:0",
+      "document_id": "8a299686-3575-5e3b-9aeb-d69466277f57",
+      "subject": "8a299686-3575-5e3b-9aeb-d69466277f57",
+      "object": "ABOUT",
+      "span_text": "ABOUT US At LangChain, our mission is to enable every company to own its intelligence. We believe agents ",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "relation:8a299686-3575-5e3b-9aeb-d69466277f57:12",
+      "document_id": "8a299686-3575-5e3b-9aeb-d69466277f57",
+      "subject": "8a299686-3575-5e3b-9aeb-d69466277f57",
+      "object": "LangChain",
+      "span_text": "ABOUT US At LangChain, our mission is to enable every company to own its intelligence. We believe agents will transform h",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "relation:8a299686-3575-5e3b-9aeb-d69466277f57:207",
+      "document_id": "8a299686-3575-5e3b-9aeb-d69466277f57",
+      "subject": "8a299686-3575-5e3b-9aeb-d69466277f57",
+      "object": "Our",
+      "span_text": "ll transform how companies operate, and we're building the foundation to make that future possible. Our open-source harnesses and LangSmith platform give developers and enterprises the infrastructure to ",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "relation:8a299686-3575-5e3b-9aeb-d69466277f57:237",
+      "document_id": "8a299686-3575-5e3b-9aeb-d69466277f57",
+      "subject": "8a299686-3575-5e3b-9aeb-d69466277f57",
+      "object": "LangSmith",
+      "span_text": "rate, and we're building the foundation to make that future possible. Our open-source harnesses and LangSmith platform give developers and enterprises the infrastructure to run, improve, and govern agents at s",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "relation:3d04a042-5b1a-51f9-a86c-c284f338a35a:0",
+      "document_id": "3d04a042-5b1a-51f9-a86c-c284f338a35a",
+      "subject": "3d04a042-5b1a-51f9-a86c-c284f338a35a",
+      "object": "ABOUT",
+      "span_text": "ABOUT US At LangChain, our mission is to enable every company to own its intelligence. We believe agents ",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "relation:3d04a042-5b1a-51f9-a86c-c284f338a35a:12",
+      "document_id": "3d04a042-5b1a-51f9-a86c-c284f338a35a",
+      "subject": "3d04a042-5b1a-51f9-a86c-c284f338a35a",
+      "object": "LangChain",
+      "span_text": "ABOUT US At LangChain, our mission is to enable every company to own its intelligence. We believe agents will transform h",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "relation:3d04a042-5b1a-51f9-a86c-c284f338a35a:207",
+      "document_id": "3d04a042-5b1a-51f9-a86c-c284f338a35a",
+      "subject": "3d04a042-5b1a-51f9-a86c-c284f338a35a",
+      "object": "Our",
+      "span_text": "ll transform how companies operate, and we're building the foundation to make that future possible. Our open-source harnesses and LangSmith platform give developers and enterprises the infrastructure to ",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "relation:3d04a042-5b1a-51f9-a86c-c284f338a35a:237",
+      "document_id": "3d04a042-5b1a-51f9-a86c-c284f338a35a",
+      "subject": "3d04a042-5b1a-51f9-a86c-c284f338a35a",
+      "object": "LangSmith",
+      "span_text": "rate, and we're building the foundation to make that future possible. Our open-source harnesses and LangSmith platform give developers and enterprises the infrastructure to run, improve, and govern agents at s",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "relation:32a5b90a-9b89-50c5-b05b-d060ac441c0b:0",
+      "document_id": "32a5b90a-9b89-50c5-b05b-d060ac441c0b",
+      "subject": "32a5b90a-9b89-50c5-b05b-d060ac441c0b",
+      "object": "ABOUT",
+      "span_text": "ABOUT US At LangChain, our mission is to enable every company to own its intelligence. We believe agents ",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "relation:32a5b90a-9b89-50c5-b05b-d060ac441c0b:12",
+      "document_id": "32a5b90a-9b89-50c5-b05b-d060ac441c0b",
+      "subject": "32a5b90a-9b89-50c5-b05b-d060ac441c0b",
+      "object": "LangChain",
+      "span_text": "ABOUT US At LangChain, our mission is to enable every company to own its intelligence. We believe agents will transform h",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "relation:32a5b90a-9b89-50c5-b05b-d060ac441c0b:207",
+      "document_id": "32a5b90a-9b89-50c5-b05b-d060ac441c0b",
+      "subject": "32a5b90a-9b89-50c5-b05b-d060ac441c0b",
+      "object": "Our",
+      "span_text": "ll transform how companies operate, and we're building the foundation to make that future possible. Our open-source harnesses and LangSmith platform give developers and enterprises the infrastructure to ",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "relation:32a5b90a-9b89-50c5-b05b-d060ac441c0b:237",
+      "document_id": "32a5b90a-9b89-50c5-b05b-d060ac441c0b",
+      "subject": "32a5b90a-9b89-50c5-b05b-d060ac441c0b",
+      "object": "LangSmith",
+      "span_text": "rate, and we're building the foundation to make that future possible. Our open-source harnesses and LangSmith platform give developers and enterprises the infrastructure to run, improve, and govern agents at s",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "relation:877c4672-4f7c-582b-a4a0-08e856fd8af7:0",
+      "document_id": "877c4672-4f7c-582b-a4a0-08e856fd8af7",
+      "subject": "877c4672-4f7c-582b-a4a0-08e856fd8af7",
+      "object": "ABOUT",
+      "span_text": "ABOUT US At LangChain, our mission is to enable every company to own its intelligence. We believe agents ",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "relation:877c4672-4f7c-582b-a4a0-08e856fd8af7:12",
+      "document_id": "877c4672-4f7c-582b-a4a0-08e856fd8af7",
+      "subject": "877c4672-4f7c-582b-a4a0-08e856fd8af7",
+      "object": "LangChain",
+      "span_text": "ABOUT US At LangChain, our mission is to enable every company to own its intelligence. We believe agents will transform h",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "relation:877c4672-4f7c-582b-a4a0-08e856fd8af7:207",
+      "document_id": "877c4672-4f7c-582b-a4a0-08e856fd8af7",
+      "subject": "877c4672-4f7c-582b-a4a0-08e856fd8af7",
+      "object": "Our",
+      "span_text": "ll transform how companies operate, and we're building the foundation to make that future possible. Our open-source harnesses and LangSmith platform give developers and enterprises the infrastructure to ",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "relation:877c4672-4f7c-582b-a4a0-08e856fd8af7:237",
+      "document_id": "877c4672-4f7c-582b-a4a0-08e856fd8af7",
+      "subject": "877c4672-4f7c-582b-a4a0-08e856fd8af7",
+      "object": "LangSmith",
+      "span_text": "rate, and we're building the foundation to make that future possible. Our open-source harnesses and LangSmith platform give developers and enterprises the infrastructure to run, improve, and govern agents at s",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "relation:193d169c-9710-57a2-b733-0f96018e15eb:0",
+      "document_id": "193d169c-9710-57a2-b733-0f96018e15eb",
+      "subject": "193d169c-9710-57a2-b733-0f96018e15eb",
+      "object": "ABOUT",
+      "span_text": "ABOUT US At LangChain, our mission is to enable every company to own its intelligence. We believe agents ",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "relation:193d169c-9710-57a2-b733-0f96018e15eb:12",
+      "document_id": "193d169c-9710-57a2-b733-0f96018e15eb",
+      "subject": "193d169c-9710-57a2-b733-0f96018e15eb",
+      "object": "LangChain",
+      "span_text": "ABOUT US At LangChain, our mission is to enable every company to own its intelligence. We believe agents will transform h",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "relation:193d169c-9710-57a2-b733-0f96018e15eb:207",
+      "document_id": "193d169c-9710-57a2-b733-0f96018e15eb",
+      "subject": "193d169c-9710-57a2-b733-0f96018e15eb",
+      "object": "Our",
+      "span_text": "ll transform how companies operate, and we're building the foundation to make that future possible. Our open-source harnesses and LangSmith platform give developers and enterprises the infrastructure to ",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "relation:193d169c-9710-57a2-b733-0f96018e15eb:237",
+      "document_id": "193d169c-9710-57a2-b733-0f96018e15eb",
+      "subject": "193d169c-9710-57a2-b733-0f96018e15eb",
+      "object": "LangSmith",
+      "span_text": "rate, and we're building the foundation to make that future possible. Our open-source harnesses and LangSmith platform give developers and enterprises the infrastructure to run, improve, and govern agents at s",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "relation:ee48465f-09e2-5c88-8bff-dc68032962cd:0",
+      "document_id": "ee48465f-09e2-5c88-8bff-dc68032962cd",
+      "subject": "ee48465f-09e2-5c88-8bff-dc68032962cd",
+      "object": "ABOUT",
+      "span_text": "ABOUT US At LangChain, our mission is to enable every company to own its intelligence. We believe agents ",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "relation:ee48465f-09e2-5c88-8bff-dc68032962cd:12",
+      "document_id": "ee48465f-09e2-5c88-8bff-dc68032962cd",
+      "subject": "ee48465f-09e2-5c88-8bff-dc68032962cd",
+      "object": "LangChain",
+      "span_text": "ABOUT US At LangChain, our mission is to enable every company to own its intelligence. We believe agents will transform h",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "relation:ee48465f-09e2-5c88-8bff-dc68032962cd:207",
+      "document_id": "ee48465f-09e2-5c88-8bff-dc68032962cd",
+      "subject": "ee48465f-09e2-5c88-8bff-dc68032962cd",
+      "object": "Our",
+      "span_text": "ll transform how companies operate, and we're building the foundation to make that future possible. Our open-source harnesses and LangSmith platform give developers and enterprises the infrastructure to ",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "relation:ee48465f-09e2-5c88-8bff-dc68032962cd:237",
+      "document_id": "ee48465f-09e2-5c88-8bff-dc68032962cd",
+      "subject": "ee48465f-09e2-5c88-8bff-dc68032962cd",
+      "object": "LangSmith",
+      "span_text": "rate, and we're building the foundation to make that future possible. Our open-source harnesses and LangSmith platform give developers and enterprises the infrastructure to run, improve, and govern agents at s",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "relation:2cc150d0-748d-599b-bf30-18f175d2773f:0",
+      "document_id": "2cc150d0-748d-599b-bf30-18f175d2773f",
+      "subject": "2cc150d0-748d-599b-bf30-18f175d2773f",
+      "object": "ABOUT",
+      "span_text": "ABOUT US At LangChain, our mission is to enable every company to own its intelligence. We believe agents ",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "relation:2cc150d0-748d-599b-bf30-18f175d2773f:12",
+      "document_id": "2cc150d0-748d-599b-bf30-18f175d2773f",
+      "subject": "2cc150d0-748d-599b-bf30-18f175d2773f",
+      "object": "LangChain",
+      "span_text": "ABOUT US At LangChain, our mission is to enable every company to own its intelligence. We believe agents will transform h",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "relation:2cc150d0-748d-599b-bf30-18f175d2773f:207",
+      "document_id": "2cc150d0-748d-599b-bf30-18f175d2773f",
+      "subject": "2cc150d0-748d-599b-bf30-18f175d2773f",
+      "object": "Our",
+      "span_text": "ll transform how companies operate, and we're building the foundation to make that future possible. Our open-source harnesses and LangSmith platform give developers and enterprises the infrastructure to ",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "relation:2cc150d0-748d-599b-bf30-18f175d2773f:237",
+      "document_id": "2cc150d0-748d-599b-bf30-18f175d2773f",
+      "subject": "2cc150d0-748d-599b-bf30-18f175d2773f",
+      "object": "LangSmith",
+      "span_text": "rate, and we're building the foundation to make that future possible. Our open-source harnesses and LangSmith platform give developers and enterprises the infrastructure to run, improve, and govern agents at s",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "relation:d1e116fd-c046-5c5f-adcd-4363b1dd6f05:0",
+      "document_id": "d1e116fd-c046-5c5f-adcd-4363b1dd6f05",
+      "subject": "d1e116fd-c046-5c5f-adcd-4363b1dd6f05",
+      "object": "ABOUT",
+      "span_text": "ABOUT US At LangChain, our mission is to enable every company to own its intelligence. We believe agents ",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "relation:d1e116fd-c046-5c5f-adcd-4363b1dd6f05:12",
+      "document_id": "d1e116fd-c046-5c5f-adcd-4363b1dd6f05",
+      "subject": "d1e116fd-c046-5c5f-adcd-4363b1dd6f05",
+      "object": "LangChain",
+      "span_text": "ABOUT US At LangChain, our mission is to enable every company to own its intelligence. We believe agents will transform h",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "relation:d1e116fd-c046-5c5f-adcd-4363b1dd6f05:207",
+      "document_id": "d1e116fd-c046-5c5f-adcd-4363b1dd6f05",
+      "subject": "d1e116fd-c046-5c5f-adcd-4363b1dd6f05",
+      "object": "Our",
+      "span_text": "ll transform how companies operate, and we're building the foundation to make that future possible. Our open-source harnesses and LangSmith platform give developers and enterprises the infrastructure to ",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "relation:d1e116fd-c046-5c5f-adcd-4363b1dd6f05:237",
+      "document_id": "d1e116fd-c046-5c5f-adcd-4363b1dd6f05",
+      "subject": "d1e116fd-c046-5c5f-adcd-4363b1dd6f05",
+      "object": "LangSmith",
+      "span_text": "rate, and we're building the foundation to make that future possible. Our open-source harnesses and LangSmith platform give developers and enterprises the infrastructure to run, improve, and govern agents at s",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "relation:e32554b1-b6fa-5aad-a649-14ad5624d314:91",
+      "document_id": "e32554b1-b6fa-5aad-a649-14ad5624d314",
+      "subject": "e32554b1-b6fa-5aad-a649-14ad5624d314",
+      "object": "Counts",
+      "span_text": "langchain-ai/langchain recorded 58 default-branch commits during 2026-11-09 to 2026-11-15. Counts are reconstructed from dated commits; repository counters are unavailable for this historical week.",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "relation:82d08508-5cb5-55aa-8dd0-e1f1cb617baf:91",
+      "document_id": "82d08508-5cb5-55aa-8dd0-e1f1cb617baf",
+      "subject": "82d08508-5cb5-55aa-8dd0-e1f1cb617baf",
+      "object": "Counts",
+      "span_text": "langchain-ai/langchain recorded 46 default-branch commits during 2026-11-02 to 2026-11-08. Counts are reconstructed from dated commits; repository counters are unavailable for this historical week.",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "relation:4fe7a036-fb5f-5a42-b7b0-ebca165b2a23:91",
+      "document_id": "4fe7a036-fb5f-5a42-b7b0-ebca165b2a23",
+      "subject": "4fe7a036-fb5f-5a42-b7b0-ebca165b2a23",
+      "object": "Counts",
+      "span_text": "langchain-ai/langchain recorded 31 default-branch commits during 2026-10-26 to 2026-11-01. Counts are reconstructed from dated commits; repository counters are unavailable for this historical week.",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "relation:82e2fe08-1179-57ad-a3f5-853b4d9e287c:91",
+      "document_id": "82e2fe08-1179-57ad-a3f5-853b4d9e287c",
+      "subject": "82e2fe08-1179-57ad-a3f5-853b4d9e287c",
+      "object": "Counts",
+      "span_text": "langchain-ai/langchain recorded 88 default-branch commits during 2026-10-19 to 2026-10-25. Counts are reconstructed from dated commits; repository counters are unavailable for this historical week.",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "relation:ad28ea32-93ea-5f21-acec-63b36522ac08:91",
+      "document_id": "ad28ea32-93ea-5f21-acec-63b36522ac08",
+      "subject": "ad28ea32-93ea-5f21-acec-63b36522ac08",
+      "object": "Counts",
+      "span_text": "langchain-ai/langchain recorded 23 default-branch commits during 2026-10-12 to 2026-10-18. Counts are reconstructed from dated commits; repository counters are unavailable for this historical week.",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "relation:a4015ce7-0535-56c8-b14f-1a40fac7019d:91",
+      "document_id": "a4015ce7-0535-56c8-b14f-1a40fac7019d",
+      "subject": "a4015ce7-0535-56c8-b14f-1a40fac7019d",
+      "object": "Counts",
+      "span_text": "langchain-ai/langchain recorded 50 default-branch commits during 2026-10-05 to 2026-10-11. Counts are reconstructed from dated commits; repository counters are unavailable for this historical week.",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "relation:55654984-542c-5e52-9ce8-5678d80688e8:91",
+      "document_id": "55654984-542c-5e52-9ce8-5678d80688e8",
+      "subject": "55654984-542c-5e52-9ce8-5678d80688e8",
+      "object": "Counts",
+      "span_text": "langchain-ai/langchain recorded 57 default-branch commits during 2026-09-28 to 2026-10-04. Counts are reconstructed from dated commits; repository counters are unavailable for this historical week.",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "relation:1b0b26ad-97db-5001-a34d-24ddc270d344:91",
+      "document_id": "1b0b26ad-97db-5001-a34d-24ddc270d344",
+      "subject": "1b0b26ad-97db-5001-a34d-24ddc270d344",
+      "object": "Counts",
+      "span_text": "langchain-ai/langchain recorded 44 default-branch commits during 2026-09-21 to 2026-09-27. Counts are reconstructed from dated commits; repository counters are unavailable for this historical week.",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "relation:82040a95-5e36-5edf-80c0-2f22ed9b9769:85",
+      "document_id": "82040a95-5e36-5edf-80c0-2f22ed9b9769",
+      "subject": "82040a95-5e36-5edf-80c0-2f22ed9b9769",
+      "object": "Counts",
+      "span_text": "crewAIInc/crewAI recorded 40 default-branch commits during 2026-11-09 to 2026-11-15. Counts are reconstructed from dated commits; repository counters are unavailable for this historical week.",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "relation:80da3961-90c2-5c24-9f09-496c77d41929:85",
+      "document_id": "80da3961-90c2-5c24-9f09-496c77d41929",
+      "subject": "80da3961-90c2-5c24-9f09-496c77d41929",
+      "object": "Counts",
+      "span_text": "crewAIInc/crewAI recorded 44 default-branch commits during 2026-11-02 to 2026-11-08. Counts are reconstructed from dated commits; repository counters are unavailable for this historical week.",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "relation:2463005a-34b7-54df-b54e-10f1c903354f:85",
+      "document_id": "2463005a-34b7-54df-b54e-10f1c903354f",
+      "subject": "2463005a-34b7-54df-b54e-10f1c903354f",
+      "object": "Counts",
+      "span_text": "crewAIInc/crewAI recorded 78 default-branch commits during 2026-10-26 to 2026-11-01. Counts are reconstructed from dated commits; repository counters are unavailable for this historical week.",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "relation:f3b13310-8958-5220-8e75-21518ee410bb:85",
+      "document_id": "f3b13310-8958-5220-8e75-21518ee410bb",
+      "subject": "f3b13310-8958-5220-8e75-21518ee410bb",
+      "object": "Counts",
+      "span_text": "crewAIInc/crewAI recorded 59 default-branch commits during 2026-10-19 to 2026-10-25. Counts are reconstructed from dated commits; repository counters are unavailable for this historical week.",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "relation:d73889b4-efa2-5be4-8dbe-81b2d61fa420:85",
+      "document_id": "d73889b4-efa2-5be4-8dbe-81b2d61fa420",
+      "subject": "d73889b4-efa2-5be4-8dbe-81b2d61fa420",
+      "object": "Counts",
+      "span_text": "crewAIInc/crewAI recorded 35 default-branch commits during 2026-10-12 to 2026-10-18. Counts are reconstructed from dated commits; repository counters are unavailable for this historical week.",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "relation:ae6caf46-50d6-5c10-af7d-2dc94c3e1be1:85",
+      "document_id": "ae6caf46-50d6-5c10-af7d-2dc94c3e1be1",
+      "subject": "ae6caf46-50d6-5c10-af7d-2dc94c3e1be1",
+      "object": "Counts",
+      "span_text": "crewAIInc/crewAI recorded 27 default-branch commits during 2026-10-05 to 2026-10-11. Counts are reconstructed from dated commits; repository counters are unavailable for this historical week.",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "relation:a626478e-cf2a-5067-9b9b-972dc5e28960:85",
+      "document_id": "a626478e-cf2a-5067-9b9b-972dc5e28960",
+      "subject": "a626478e-cf2a-5067-9b9b-972dc5e28960",
+      "object": "Counts",
+      "span_text": "crewAIInc/crewAI recorded 16 default-branch commits during 2026-09-28 to 2026-10-04. Counts are reconstructed from dated commits; repository counters are unavailable for this historical week.",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "relation:1591dac0-291d-5d48-aaef-1e3c91026f0c:85",
+      "document_id": "1591dac0-291d-5d48-aaef-1e3c91026f0c",
+      "subject": "1591dac0-291d-5d48-aaef-1e3c91026f0c",
+      "object": "Counts",
+      "span_text": "crewAIInc/crewAI recorded 12 default-branch commits during 2026-09-21 to 2026-09-27. Counts are reconstructed from dated commits; repository counters are unavailable for this historical week.",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "relation:de67be64-1e7e-55a7-8567-b9ee5e68f40f:87",
+      "document_id": "de67be64-1e7e-55a7-8567-b9ee5e68f40f",
+      "subject": "de67be64-1e7e-55a7-8567-b9ee5e68f40f",
+      "object": "Counts",
+      "span_text": "langfuse/langfuse recorded 203 default-branch commits during 2026-11-09 to 2026-11-15. Counts are reconstructed from dated commits; repository counters are unavailable for this historical week.",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "relation:91e830e7-da6b-504b-99fc-1e1e06f15e2d:87",
+      "document_id": "91e830e7-da6b-504b-99fc-1e1e06f15e2d",
+      "subject": "91e830e7-da6b-504b-99fc-1e1e06f15e2d",
+      "object": "Counts",
+      "span_text": "langfuse/langfuse recorded 248 default-branch commits during 2026-11-02 to 2026-11-08. Counts are reconstructed from dated commits; repository counters are unavailable for this historical week.",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "relation:c3682e8d-7a90-50eb-b21a-6bc793882888:86",
+      "document_id": "c3682e8d-7a90-50eb-b21a-6bc793882888",
+      "subject": "c3682e8d-7a90-50eb-b21a-6bc793882888",
+      "object": "Counts",
+      "span_text": "langfuse/langfuse recorded 89 default-branch commits during 2026-10-26 to 2026-11-01. Counts are reconstructed from dated commits; repository counters are unavailable for this historical week.",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "relation:f42e99ff-4906-5bb0-8c33-3896e7c421a0:87",
+      "document_id": "f42e99ff-4906-5bb0-8c33-3896e7c421a0",
+      "subject": "f42e99ff-4906-5bb0-8c33-3896e7c421a0",
+      "object": "Counts",
+      "span_text": "langfuse/langfuse recorded 217 default-branch commits during 2026-10-19 to 2026-10-25. Counts are reconstructed from dated commits; repository counters are unavailable for this historical week.",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "relation:6e165beb-a7fb-510e-a84e-7402fde2b291:87",
+      "document_id": "6e165beb-a7fb-510e-a84e-7402fde2b291",
+      "subject": "6e165beb-a7fb-510e-a84e-7402fde2b291",
+      "object": "Counts",
+      "span_text": "langfuse/langfuse recorded 280 default-branch commits during 2026-10-12 to 2026-10-18. Counts are reconstructed from dated commits; repository counters are unavailable for this historical week.",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "relation:2160e027-2dc5-56da-9854-d85e07ee4621:87",
+      "document_id": "2160e027-2dc5-56da-9854-d85e07ee4621",
+      "subject": "2160e027-2dc5-56da-9854-d85e07ee4621",
+      "object": "Counts",
+      "span_text": "langfuse/langfuse recorded 251 default-branch commits during 2026-10-05 to 2026-10-11. Counts are reconstructed from dated commits; repository counters are unavailable for this historical week.",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "relation:de366123-a4a6-5251-aacc-d5ba8a22a5e3:87",
+      "document_id": "de366123-a4a6-5251-aacc-d5ba8a22a5e3",
+      "subject": "de366123-a4a6-5251-aacc-d5ba8a22a5e3",
+      "object": "Counts",
+      "span_text": "langfuse/langfuse recorded 104 default-branch commits during 2026-09-28 to 2026-10-04. Counts are reconstructed from dated commits; repository counters are unavailable for this historical week.",
+      "label": "",
+      "notes": ""
+    },
+    {
+      "item_id": "relation:8e331615-dcc0-5ed1-8ee7-e29e0ecaa6f8:87",
+      "document_id": "8e331615-dcc0-5ed1-8ee7-e29e0ecaa6f8",
+      "subject": "8e331615-dcc0-5ed1-8ee7-e29e0ecaa6f8",
+      "object": "Counts",
+      "span_text": "langfuse/langfuse recorded 203 default-branch commits during 2026-09-21 to 2026-09-27. Counts are reconstructed from dated commits; repository counters are unavailable for this historical week.",
+      "label": "",
+      "notes": ""
+    }
+  ]
+}

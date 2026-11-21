@@ -1,0 +1,26 @@
+{
+  "status": "verification_records_required",
+  "members": [
+    {
+      "name": "Sueda Sen",
+      "human_tasks": [],
+      "verification": []
+    },
+    {
+      "name": "Mehmet Aksit",
+      "human_tasks": [],
+      "verification": []
+    },
+    {
+      "name": "Vidya Sagar Dudekula",
+      "human_tasks": [],
+      "verification": []
+    },
+    {
+      "name": "Faisal Barkat Khorasi",
+      "human_tasks": [],
+      "verification": []
+    }
+  ],
+  "user_report": "User reports human work was completed; underlying annotation and pilot records not located."
+}

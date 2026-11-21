@@ -1,0 +1,314 @@
+{
+  "scope": "18 local and cached remote branch refs; evaluation annotation history; matching files under Desktop/Documents/Downloads (excluding dependency/build folders). No remote fetch performed.",
+  "branch_csv_versions": [
+    {
+      "ref": "refs/heads/sueda/final-human-evaluation",
+      "file": "evaluation/human-workbooks/mehmet-corpus-review.csv",
+      "rows": 45,
+      "filled": {
+        "include_in_final_corpus": 45
+      }
+    },
+    {
+      "ref": "refs/heads/sueda/final-human-evaluation",
+      "file": "evaluation/human-workbooks/mehmet-entities-work.csv",
+      "rows": 45,
+      "filled": {
+        "entity_type": 0
+      }
+    },
+    {
+      "ref": "refs/heads/sueda/final-human-evaluation",
+      "file": "evaluation/human-workbooks/mehmet-relations-work.csv",
+      "rows": 45,
+      "filled": {
+        "relation_type": 0
+      }
+    },
+    {
+      "ref": "refs/heads/sueda/final-human-evaluation",
+      "file": "evaluation/human-workbooks/sueda-corpus-review.csv",
+      "rows": 45,
+      "filled": {
+        "include_in_final_corpus": 45
+      }
+    },
+    {
+      "ref": "refs/heads/sueda/final-human-evaluation",
+      "file": "evaluation/human-workbooks/sueda-entities-work.csv",
+      "rows": 45,
+      "filled": {
+        "entity_type": 0
+      }
+    },
+    {
+      "ref": "refs/heads/sueda/final-human-evaluation",
+      "file": "evaluation/human-workbooks/sueda-relations-work.csv",
+      "rows": 45,
+      "filled": {
+        "relation_type": 0
+      }
+    },
+    {
+      "ref": "refs/heads/sueda/final-human-evaluation",
+      "file": "evaluation/real/workbooks/corpus-review.csv",
+      "rows": 45,
+      "filled": {
+        "sueda_include": 0,
+        "mehmet_include": 0
+      }
+    },
+    {
+      "ref": "refs/heads/sueda/final-human-evaluation",
+      "file": "evaluation/real/workbooks/mehmet-entities.csv",
+      "rows": 418,
+      "filled": {
+        "label": 0
+      }
+    },
+    {
+      "ref": "refs/heads/sueda/final-human-evaluation",
+      "file": "evaluation/real/workbooks/mehmet-relations.csv",
+      "rows": 126,
+      "filled": {
+        "label": 0
+      }
+    },
+    {
+      "ref": "refs/heads/sueda/final-human-evaluation",
+      "file": "evaluation/real/workbooks/sueda-entities.csv",
+      "rows": 418,
+      "filled": {
+        "label": 0
+      }
+    },
+    {
+      "ref": "refs/heads/sueda/final-human-evaluation",
+      "file": "evaluation/real/workbooks/sueda-relations.csv",
+      "rows": 126,
+      "filled": {
+        "label": 0
+      }
+    },
+    {
+      "ref": "refs/remotes/origin/sueda/final-human-evaluation",
+      "file": "evaluation/human-workbooks/mehmet-corpus-review.csv",
+      "rows": 45,
+      "filled": {
+        "include_in_final_corpus": 45
+      }
+    },
+    {
+      "ref": "refs/remotes/origin/sueda/final-human-evaluation",
+      "file": "evaluation/human-workbooks/mehmet-entities-work.csv",
+      "rows": 45,
+      "filled": {
+        "entity_type": 0
+      }
+    },
+    {
+      "ref": "refs/remotes/origin/sueda/final-human-evaluation",
+      "file": "evaluation/human-workbooks/mehmet-relations-work.csv",
+      "rows": 45,
+      "filled": {
+        "relation_type": 0
+      }
+    },
+    {
+      "ref": "refs/remotes/origin/sueda/final-human-evaluation",
+      "file": "evaluation/human-workbooks/sueda-corpus-review.csv",
+      "rows": 45,
+      "filled": {
+        "include_in_final_corpus": 45
+      }
+    },
+    {
+      "ref": "refs/remotes/origin/sueda/final-human-evaluation",
+      "file": "evaluation/human-workbooks/sueda-entities-work.csv",
+      "rows": 45,
+      "filled": {
+        "entity_type": 0
+      }
+    },
+    {
+      "ref": "refs/remotes/origin/sueda/final-human-evaluation",
+      "file": "evaluation/human-workbooks/sueda-relations-work.csv",
+      "rows": 45,
+      "filled": {
+        "relation_type": 0
+      }
+    },
+    {
+      "ref": "refs/remotes/origin/sueda/final-human-evaluation",
+      "file": "evaluation/real/workbooks/corpus-review.csv",
+      "rows": 45,
+      "filled": {
+        "sueda_include": 0,
+        "mehmet_include": 0
+      }
+    },
+    {
+      "ref": "refs/remotes/origin/sueda/final-human-evaluation",
+      "file": "evaluation/real/workbooks/mehmet-entities.csv",
+      "rows": 418,
+      "filled": {
+        "label": 0
+      }
+    },
+    {
+      "ref": "refs/remotes/origin/sueda/final-human-evaluation",
+      "file": "evaluation/real/workbooks/mehmet-relations.csv",
+      "rows": 126,
+      "filled": {
+        "label": 0
+      }
+    },
+    {
+      "ref": "refs/remotes/origin/sueda/final-human-evaluation",
+      "file": "evaluation/real/workbooks/sueda-entities.csv",
+      "rows": 418,
+      "filled": {
+        "label": 0
+      }
+    },
+    {
+      "ref": "refs/remotes/origin/sueda/final-human-evaluation",
+      "file": "evaluation/real/workbooks/sueda-relations.csv",
+      "rows": 126,
+      "filled": {
+        "label": 0
+      }
+    }
+  ],
+  "legacy_json_versions": [
+    {
+      "commit": "2c90d2bf40ae7caf42a5fad630064cc8915e837a",
+      "file": "evaluation/annotator-a.json",
+      "annotator": "Sueda Sen",
+      "status": "draft",
+      "annotation_items": 94,
+      "pending_items": 0
+    },
+    {
+      "commit": "2c90d2bf40ae7caf42a5fad630064cc8915e837a",
+      "file": "evaluation/annotator-b.json",
+      "annotator": "Mehmet Aksit",
+      "status": "draft",
+      "annotation_items": 94,
+      "pending_items": 0
+    },
+    {
+      "commit": "080579f5440c73e0488dd845cc8d2ac753af023d",
+      "file": "evaluation/annotator-a.json",
+      "annotator": "Sueda Sen",
+      "status": "simulated",
+      "annotation_items": 94,
+      "pending_items": 0
+    },
+    {
+      "commit": "080579f5440c73e0488dd845cc8d2ac753af023d",
+      "file": "evaluation/annotator-b.json",
+      "annotator": "Mehmet Aksit",
+      "status": "simulated",
+      "annotation_items": 94,
+      "pending_items": 0
+    },
+    {
+      "commit": "552bee68205f9e547014cfae0165f13a0cc8f84d",
+      "file": "evaluation/annotator-a.json",
+      "annotator": "Sueda Sen",
+      "status": "complete",
+      "annotation_items": 94,
+      "pending_items": 0
+    },
+    {
+      "commit": "552bee68205f9e547014cfae0165f13a0cc8f84d",
+      "file": "evaluation/annotator-b.json",
+      "annotator": "Mehmet Aksit",
+      "status": "complete",
+      "annotation_items": 94,
+      "pending_items": 0
+    },
+    {
+      "commit": "99bc92cc4c7f643f3e523dbdafe23929c36e6199",
+      "file": "evaluation/annotator-a.json",
+      "annotator": "Copilot simulated annotator A",
+      "status": "simulated",
+      "annotation_items": 94,
+      "pending_items": 0
+    },
+    {
+      "commit": "99bc92cc4c7f643f3e523dbdafe23929c36e6199",
+      "file": "evaluation/annotator-b.json",
+      "annotator": "Copilot simulated annotator B",
+      "status": "simulated",
+      "annotation_items": 94,
+      "pending_items": 0
+    },
+    {
+      "commit": "0ef869a46c4a2356ebeaccb57129ecc66a328e04",
+      "file": "evaluation/annotator-a.json",
+      "annotator": "Sueda Sen",
+      "status": "simulated",
+      "annotation_items": 94,
+      "pending_items": 0
+    },
+    {
+      "commit": "0ef869a46c4a2356ebeaccb57129ecc66a328e04",
+      "file": "evaluation/annotator-b.json",
+      "annotator": "Mehmet Aksit",
+      "status": "simulated",
+      "annotation_items": 94,
+      "pending_items": 0
+    },
+    {
+      "commit": "8c950891c1d74e9170e3b22f0523cab835b44ab2",
+      "file": "evaluation/annotator-a.json",
+      "annotator": "Sueda Sen",
+      "status": "simulated",
+      "annotation_items": 94,
+      "pending_items": 0
+    },
+    {
+      "commit": "8c950891c1d74e9170e3b22f0523cab835b44ab2",
+      "file": "evaluation/annotator-b.json",
+      "annotator": "Mehmet Aksit",
+      "status": "simulated",
+      "annotation_items": 94,
+      "pending_items": 0
+    },
+    {
+      "commit": "5977de5d64f52d05e18b252edccbb876cb0b7b8e",
+      "file": "evaluation/annotator-a.json",
+      "annotator": "ANNOTATOR_A",
+      "status": "not_started",
+      "annotation_items": 0,
+      "pending_items": 94
+    },
+    {
+      "commit": "5977de5d64f52d05e18b252edccbb876cb0b7b8e",
+      "file": "evaluation/annotator-b.json",
+      "annotator": "ANNOTATOR_B",
+      "status": "not_started",
+      "annotation_items": 0,
+      "pending_items": 94
+    },
+    {
+      "commit": "48867791294d1f76ea89e403e23880e3b5734f46",
+      "file": "evaluation/annotator-a.json",
+      "annotator": "ANNOTATOR_A",
+      "status": "not_started",
+      "annotation_items": 0,
+      "pending_items": 0
+    },
+    {
+      "commit": "48867791294d1f76ea89e403e23880e3b5734f46",
+      "file": "evaluation/annotator-b.json",
+      "annotator": "ANNOTATOR_B",
+      "status": "not_started",
+      "annotation_items": 0,
+      "pending_items": 0
+    }
+  ],
+  "result": "Only legacy fixture corpus decisions are complete. No completed entity/relation CSV labels located. Legacy JSON labels cover at most 94 shared items and do not supply entity/relation spans for either real-source round."
+}

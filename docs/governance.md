@@ -8,7 +8,7 @@
 
 ## Protected branch
 
-The default branch is `main` (not `master`). No contributor, including an administrator, should work directly on or push directly to `main`.
+The default branch is `main` (not `master`). No contributor, including an administrator, should work directly on or push directly to `main`. This is the team review policy; live enforcement must be checked separately.
 
 Every change follows this path:
 
@@ -19,7 +19,7 @@ Every change follows this path:
 5. Obtain approval from at least one code owner on the latest revision.
 6. Merge through GitHub after all protection requirements pass.
 
-## Enforced controls
+## Required controls
 
 - Pull request required before merging.
 - At least one code-owner approval required.
@@ -39,4 +39,18 @@ git pull --ff-only
 git switch -c sueda/source-pilot
 ```
 
-Direct commits to a local `main` branch are technically possible, but the GitHub protection rule prevents them from being pushed or merged without the required pull-request review.
+Direct commits to a local `main` branch are technically possible. Do not rely on server-side protection to stop a direct push until enforcement has been verified.
+
+## Live access review: 21 November 2026
+
+Read-only authenticated API checks confirmed that the repository is private and
+uses `main`. `SuedaSen` and `mcaksit` have admin roles; `VidyasagarDudekula`
+and `EroNinja` have write roles. These are GitHub account roles, not inferred
+identity aliases or proof of study participation.
+
+The branch-protection API returned HTTP 403 with a plan/visibility restriction.
+Server-side enforcement of the required controls could not be verified. The
+checked-in branch-protection JSON and CODEOWNERS describe the intended policy;
+they do not establish that GitHub currently enforces it. Repository visibility,
+billing, permissions, and protection settings were not changed. The response
+and observed roles are recorded in `evaluation/submission/access-review.json`.

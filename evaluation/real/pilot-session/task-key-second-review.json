@@ -1,0 +1,80 @@
+{
+  "status": "blind_second_review_complete",
+  "method": "personal_source_review",
+  "reviewer": "Sueda Sen",
+  "completed_at": "2026-11-21T09:11:32Z",
+  "entries": [
+    {
+      "question_id": "q-pilot-github-mlops",
+      "expected_state": "corroborated",
+      "accepted_actions": [
+        "answer",
+        "qualify",
+        "abstain"
+      ],
+      "source_basis": "evidence_policy",
+      "rationale": "Excellent"
+    },
+    {
+      "question_id": "q-investors-later-hiring",
+      "expected_state": "corroborated",
+      "accepted_actions": [
+        "answer",
+        "qualify"
+      ],
+      "source_basis": "corpus_and_policy",
+      "rationale": "Excellent"
+    },
+    {
+      "question_id": "q-sector-attention",
+      "expected_state": "corroborated",
+      "accepted_actions": [
+        "answer",
+        "qualify"
+      ],
+      "source_basis": "evidence_policy",
+      "rationale": "Excellent"
+    },
+    {
+      "question_id": "q-why-emerging",
+      "expected_state": "corroborated",
+      "accepted_actions": [
+        "answer",
+        "qualify"
+      ],
+      "source_basis": "evidence_policy",
+      "rationale": "Excellent"
+    },
+    {
+      "question_id": "q-unsupported-acquisition",
+      "expected_state": "disputed",
+      "accepted_actions": [
+        "answer",
+        "qualify"
+      ],
+      "source_basis": "evidence_policy",
+      "rationale": "Excellent"
+    },
+    {
+      "question_id": "q-future-performance",
+      "expected_state": "corroborated",
+      "accepted_actions": [
+        "answer",
+        "abstain"
+      ],
+      "source_basis": "corpus_and_policy",
+      "rationale": "Excellent"
+    }
+  ],
+  "personal_independent_review_confirmed": true,
+  "input_sha256": {
+    "protocol": "a60f5c19f735a38e9446b568754d0ebcbfceb8a35b20c1fdb9a579e0348afb36",
+    "stimuli": "b768811059c6b84da9f3472d138da0499531cad28167d2665b36b4c9124cf979",
+    "corpus_manifest": "81d279b8470cfb0bf57af21ffbfe71a1e3c56e8d12626ca2feacb785c1523640",
+    "responses": "fad841d05b3383a9962e6c9ecb25e029a6f43dfca1f00fca5a788a410c66d4e2",
+    "policy": "517bfa30134f13e9f5a3245d017959d66f0629d78b2c8cab8d9b3c2eb2e094f1"
+  },
+  "reviewer_was_pilot_participant": true,
+  "independence_scope": "Reviewer confirms decisions were entered without consulting the initial task key or other participant responses. The reviewer is a study participant, not an external assessor.",
+  "scope": "Second task-key decisions only. Does not attest entity/relation annotation or final adjudication."
+}

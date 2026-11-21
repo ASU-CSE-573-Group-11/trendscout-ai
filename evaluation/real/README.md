@@ -16,6 +16,14 @@ funding, hiring, activity growth, or independent corroboration. The original
 were designed for the original study, so they are diagnostic here; this round
 cannot establish the original temporal multi-hop success criterion.
 
+## Sueda first source review
+
+[Sueda’s review package](sueda-review/README.md) fills her worksheet labels,
+45 corpus decisions, and 1,260 relevance grades. Supplementary exact spans
+bring the source-review inventory to 500 entity mentions, with a separate
+90-fact documentary relation sample. This is one project source review;
+independent second review and participant measurements remain required.
+
 ## Completed source review and scoring
 
 Source-reviewed qrels and scores are now available without filling the separate
@@ -28,7 +36,7 @@ questions. This is an observed corpus-coverage result.
 its frozen answer key, 1,260 judgments, and 112 additional saved answer bundles.
 Questions and judgments were authored before retrieval on this set. Every
 positive judgment carries an exact source quote. Reviewer provenance is
-`Codex source review`; no independent team adjudication is asserted.
+`Source review`; no independent team adjudication is asserted.
 
 ```bash
 # Raw document ranking measurements, independent of answer citations.

@@ -65,7 +65,20 @@ def run_sueda_collection(
         youtube_records, youtube_coverage = collect_youtube(cohort)
 
     raw = news_records + voice_records + company_records + yc_records + youtube_records
-    clustered = assign_origin_clusters(raw)
+    # The same article can occur in several topic feeds. Preserve one source
+    # record while retaining all discovery source IDs.
+    unique: dict[str, dict[str, Any]] = {}
+    for record in raw:
+        existing = unique.get(record['record_id'])
+        if existing is None:
+            unique[record['record_id']] = record
+            continue
+        ids = set(existing.get('metadata', {}).get('discovery_source_ids', []))
+        for item in (existing, record):
+            if item.get('metadata', {}).get('source_id'):
+                ids.add(item['metadata']['source_id'])
+        existing.setdefault('metadata', {})['discovery_source_ids'] = sorted(ids)
+    clustered = assign_origin_clusters(list(unique.values()))
     accepted, rejected = quarantine(clustered)
 
     return {
@@ -76,6 +89,7 @@ def run_sueda_collection(
         ),
         "stats": {
             "raw_count": len(raw),
+            "duplicate_records_removed": len(raw) - len(unique),
             "accepted_count": len(accepted),
             "rejected_count": len(rejected),
             "independent_origins": independent_origin_count(accepted),

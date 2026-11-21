@@ -1,0 +1,11 @@
+{
+  "url": "https://boards-api.greenhouse.io/v1/boards/arizeai/jobs",
+  "observed_at": "2026-11-21T10:18:12.342211+00:00",
+  "status": 200,
+  "sha256": "d62f4545a1aca6744d4860f07bb9e2b00542c80cc31c841ec951afe909e7c616",
+  "file": "sources/arize-candidate-api.json",
+  "official_career_ids": 20,
+  "api_ids": 20,
+  "identical_ids": true,
+  "intersection": 20
+}

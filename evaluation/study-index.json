@@ -1,0 +1,93 @@
+{
+  "annotation_round": {
+    "directory": "evaluation/real",
+    "candidate_revision": "evaluation/real/sueda-review/candidate-review-v2",
+    "method": "single source review prepared; independent annotation pending"
+  },
+  "pilot_round": {
+    "directory": "evaluation/real",
+    "session": "evaluation/real/pilot-session",
+    "console": "evaluation.pilot_console"
+  },
+  "retrieval_rounds": [
+    {
+      "directory": "evaluation/real",
+      "scope": "Original 28 questions over 45 release documents; strict source relevance."
+    },
+    {
+      "directory": "evaluation/real/release-study",
+      "scope": "Separate release-fact lookup study."
+    },
+    {
+      "directory": "evaluation/mixed",
+      "scope": "Exploratory mixed-source component-relevance diagnostics; not original full-question accuracy."
+    }
+  ],
+  "documentary_collection": "evaluation/sueda-delivery-corpus",
+  "rule": "Never copy corpus decisions or labels across different frozen source sets.",
+  "dated_evidence_extension": {
+    "directory": "evaluation/sueda-evidence-extension",
+    "scope": "Five dated public-voice documents; two verified LangChain board observations; exploratory signal integration with insufficient history. No changes to earlier experiments."
+  },
+  "cohort_history": {
+    "directory": "evaluation/cohort-history-v2",
+    "initial_freeze": "evaluation/cohort-history",
+    "scope": "All 18 companies; 8 complete default-branch commit weeks each; explicit Modal repository-source revision. Not hiring or historical star counts."
+  },
+  "cohort_jobs": {
+    "directory": "evaluation/cohort-job-history",
+    "source_audit": "evaluation/cohort-source-audit",
+    "scope": "All 18 companies accounted for, 9 current boards, 2 in-window archived comparisons; remaining histories unknown."
+  },
+  "mixed_first_source_review": {
+    "directory": "evaluation/mixed/sueda-source-review",
+    "scope": "Sueda source review of all frozen mixed-round candidates and component relevance pairs; not independent personal annotation."
+  },
+  "cohort_job_archive_followup": {
+    "directory": "evaluation/cohort-archive-followup",
+    "scope": "Query-variant archive lookup adds 102 LangChain observations dated 5 October; merged total 495 observations, historical company coverage still 2/18."
+  },
+  "cohort_identity_review": {
+    "directory": "evaluation/cohort-identity-review",
+    "usable_profiles": "evaluation/cohort-identity-review/usable-profiles.json",
+    "scope": "Current fetched YC name/domain support only. Frozen 18-company membership and earlier registry assertions remain unchanged."
+  },
+  "question_coverage": {
+    "file": "evaluation/submission/question-coverage.json",
+    "scope": "Offline 28-question source-component inventory and bounded raw commit comparisons; not scored qrels, human annotation or full temporal answerability."
+  },
+  "funding_source_review": {
+    "file": "evaluation/submission/funding-source-review.json",
+    "scope": "Exact-passaged primary-source review of three funding pages; two announcement days normalized, no financing close dates or later growth inferred."
+  },
+  "career_history_followup": {
+    "directory": "evaluation/cohort-history-followup",
+    "scope": "LlamaIndex official career-list history, 8 to 2 specific roles, distinct from ATS stock; total historical company coverage 3/18. Raw CDX and retrieval failures retained."
+  },
+  "browser_collection": {
+    "module": "collectors.browser_snapshot",
+    "example": "evaluation/browser-observations/llamaindex-2026-11-21",
+    "scope": "Optional isolated current-page Selenium capture, explicit readiness selector, retained DOM and clock. Not historical stock or independent annotation."
+  },
+  "ats_history_followup": {
+    "directory": "evaluation/cohort-ats-history",
+    "scope": "Archived complete Ashby/Greenhouse landing populations and corresponding API populations; historical coverage 12/18, current attributable ATS boards 11. No benchmark-score changes."
+  },
+  "independent_source_review_console": {
+    "module": "evaluation.independent_review",
+    "url": "http://127.0.0.1:8767",
+    "scope": "Unprefilled separate source decisions; reviewer self-reported independence, frozen source hashes and automatic agreement after complete actual reviews. Existing assisted workbooks preserved."
+  },
+  "mixed_relation_reconciliation": {
+    "file": "evaluation/mixed/relation-reconciliation.json",
+    "scope": "Source-assisted reconciliation of 69 reported disagreements plus quality checks of 39 agreed labels; original personal decisions and pre-reconciliation agreement preserved."
+  },
+  "sueda_entity_source_check": {
+    "file": "evaluation/submission/sueda-entity-source-check.json",
+    "scope": "Source-assisted formal checks across the release and mixed seed pools, with 41 documented release-context correction recommendations. Original worksheets preserved; not independent annotation."
+  },
+  "remaining_company_history_review": {
+    "directory": "evaluation/remaining-history-discovery",
+    "scope": "13 paired complete official populations, four additional restricted directory/brand-title channels, CrewAI current board and historical advertisements without a complete baseline. No weekly interpolation or old benchmark-score changes."
+  }
+}

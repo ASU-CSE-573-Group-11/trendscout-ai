@@ -1,0 +1,30 @@
+[
+  {
+    "source_id": "continue-current-api",
+    "url": "https://api.ashbyhq.com/posting-api/job-board/continue",
+    "observed_at": "2026-11-21T11:44:48.408243+00:00",
+    "http_status": 404,
+    "response_url": "https://api.ashbyhq.com/posting-api/job-board/continue",
+    "file": "sources/continue-current-api.txt",
+    "sha256": "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
+  },
+  {
+    "source_id": "coreweave-parent-api",
+    "url": "https://boards-api.greenhouse.io/v1/boards/coreweave/jobs?content=true",
+    "observed_at": "2026-11-21T11:44:48.673679+00:00",
+    "http_status": 200,
+    "response_url": "https://boards-api.greenhouse.io/v1/boards/coreweave/jobs?content=true",
+    "file": "sources/coreweave-parent-api.txt",
+    "sha256": "e6d73885f05818be0ffac06b1d67ec8731094df761cfdf6679f46e4687f9b5fc",
+    "job_count": 316
+  },
+  {
+    "source_id": "crewai-jobs-md",
+    "url": "https://apply.workable.com/crewai/jobs.md",
+    "observed_at": "2026-11-21T11:44:49.116195+00:00",
+    "http_status": 200,
+    "response_url": "https://apply.workable.com/crewai/jobs.md",
+    "file": "sources/crewai-jobs-md.txt",
+    "sha256": "7d0b950a46f15a1e0aba9340226bdab6a463aac5834087a85f7e0704d9f51c5a"
+  }
+]

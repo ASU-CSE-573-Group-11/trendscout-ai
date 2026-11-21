@@ -1,0 +1,8 @@
+{
+  "revision_date": "2026-11-20",
+  "reason": "Refresh documented collection endpoints after live checks returned HTML or HTTP 404. Cohort membership, identifiers, and original freeze are unchanged.",
+  "endpoints": {
+    "company:langchain": "https://blog.langchain.com/rss/",
+    "simon_willison": "https://simonwillison.net/atom/everything/"
+  }
+}
