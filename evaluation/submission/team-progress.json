@@ -111,17 +111,17 @@
     },
     {
       "name": "Mehmet Aksit",
-      "owner_points_out_of_80": 45.0,
+      "owner_points_out_of_80": 55.0,
       "shared_points_out_of_20": 11.25,
-      "completion_estimate": 56.25,
+      "completion_estimate": 66.25,
       "deliverables": [
         {
           "deliverable": "Temporal ontology and vocabulary",
           "weight": 10,
-          "stage": 2,
-          "points": 5.0,
-          "evidence": "ontology/trendscout.ttl",
-          "remaining": "Seven OWL classes form the provenance skeleton; proposed Investor/Voice/Product/Technology/Skill/JobPosting/Repository/FundingRound classes and complete domain/range rules are missing."
+          "stage": 4,
+          "points": 10.0,
+          "evidence": "ontology/trendscout.ttl; ontology/README.md; tests/test_graph_artifacts.py",
+          "remaining": "The planned research-domain classes and explicit domain/range contracts are implemented and parse-tested. Population of these classes from the real cohort remains an integration deliverable."
         },
         {
           "deliverable": "Neo4j schema, constraints and loader",
@@ -150,10 +150,10 @@
         {
           "deliverable": "Cypher and SPARQL competency queries",
           "weight": 10,
-          "stage": 2,
-          "points": 5.0,
-          "evidence": "graph/competency_queries.cypher; graph/temporal_queries.cypher; graph/evidence_queries.cypher",
-          "remaining": "Cypher templates are present; no SPARQL query file was found."
+          "stage": 4,
+          "points": 10.0,
+          "evidence": "graph/competency_queries.cypher; graph/temporal_queries.cypher; graph/evidence_queries.cypher; graph/sparql/; tests/test_sparql_queries.py",
+          "remaining": "Five SPARQL 1.1 competency queries are independently parseable and representative paths execute in RDFLib. Real-cohort result acceptance remains part of live integration."
         },
         {
           "deliverable": "Claims, evidence ledger and temporal paths",

@@ -1,0 +1,15 @@
+PREFIX ts: <https://example.org/trendscout/>
+
+# Bind ?companyId at execution time.
+SELECT ?posting ?technology ?skill
+WHERE {
+  ?startup a ts:Startup ;
+           ts:companyId ?companyId ;
+           ts:hasJobPosting ?posting .
+  ?posting a ts:JobPosting ;
+           ts:usesTechnology ?technology ;
+           ts:requiresSkill ?skill .
+  ?technology a ts:Technology .
+  ?skill a ts:Skill .
+}
+ORDER BY ?posting ?technology ?skill

@@ -31,6 +31,13 @@ The constraints must be applied before loading records. SHACL validation remains
 an explicit step after RDF export; the repository does not require a live
 Neo4j server or SHACL engine for its unit tests.
 
+The expanded ontology declares startup, investor, funding-round, public-voice,
+product, technology, skill, job-posting, and repository concepts with explicit
+property domains and ranges. Five independently executable SPARQL 1.1
+competency queries are in [`sparql/`](./sparql/README.md). Tests parse every
+query and execute representative provenance, funding-to-listing, and
+technology/skill paths against an in-memory RDF graph.
+
 ## Live Neo4j loader
 
 Start the local Community Edition database:

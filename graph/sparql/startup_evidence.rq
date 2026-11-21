@@ -1,0 +1,15 @@
+PREFIX ts: <https://example.org/trendscout/>
+
+# Bind ?companyId, ?observedFrom, and ?observedTo at execution time.
+SELECT ?record ?publisher ?observedAt ?sourceUrl
+WHERE {
+  ?record a ts:SourceRecord ;
+          ts:about ?startup ;
+          ts:publishedBy ?publisher ;
+          ts:observedAt ?observedAt ;
+          ts:sourceUrl ?sourceUrl .
+  ?startup a ts:Startup ;
+           ts:companyId ?companyId .
+  FILTER (?observedAt >= ?observedFrom && ?observedAt < ?observedTo)
+}
+ORDER BY ?observedAt ?record

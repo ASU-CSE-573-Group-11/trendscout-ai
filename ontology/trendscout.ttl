@@ -3,49 +3,239 @@
 @prefix schema: <https://schema.org/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-ts:Startup a owl:Class .
+ts: a owl:Ontology ;
+    rdfs:label "TrendScout temporal evidence ontology" ;
+    rdfs:comment "Vocabulary for provenance-bound startup, funding, hiring, product, technology, repository, public-voice, and claim evidence." .
+
+# Core provenance and evidence classes.
+
+ts:Startup a owl:Class ;
+    rdfs:subClassOf prov:Agent, schema:Organization .
+
 ts:SourceRecord a owl:Class ;
-    rdfs:subClassOf prov:Entity .
+    rdfs:subClassOf prov:Entity, schema:CreativeWork .
+
 ts:Publisher a owl:Class ;
     rdfs:subClassOf prov:Agent .
+
 ts:Claim a owl:Class ;
     rdfs:subClassOf prov:Entity .
-ts:Event a owl:Class ;
-    rdfs:subClassOf prov:Entity .
-ts:Document a owl:Class ;
-    rdfs:subClassOf prov:Entity .
-ts:Sector a owl:Class .
 
-ts:about a owl:ObjectProperty .
+ts:Event a owl:Class ;
+    rdfs:subClassOf prov:Activity, schema:Event .
+
+ts:Document a owl:Class ;
+    rdfs:subClassOf prov:Entity, schema:CreativeWork .
+
+ts:OriginCluster a owl:Class ;
+    rdfs:subClassOf prov:Entity .
+
+ts:Sector a owl:Class ;
+    rdfs:subClassOf prov:Entity .
+
+# Domain classes required by the research questions.
+
+ts:Investor a owl:Class ;
+    rdfs:subClassOf prov:Agent .
+
+ts:Voice a owl:Class ;
+    rdfs:subClassOf prov:Agent .
+
+ts:Product a owl:Class ;
+    rdfs:subClassOf prov:Entity, schema:Product .
+
+ts:Technology a owl:Class ;
+    rdfs:subClassOf prov:Entity .
+
+ts:Skill a owl:Class ;
+    rdfs:subClassOf prov:Entity .
+
+ts:JobPosting a owl:Class ;
+    rdfs:subClassOf prov:Entity, schema:JobPosting .
+
+ts:Repository a owl:Class ;
+    rdfs:subClassOf prov:Entity, schema:SoftwareSourceCode .
+
+ts:FundingRound a owl:Class ;
+    rdfs:subClassOf prov:Activity, schema:Event .
+
+# Object properties. Every project property has an explicit domain and range.
+
+ts:about a owl:ObjectProperty ;
+    rdfs:domain ts:SourceRecord ;
+    rdfs:range owl:Thing .
+
 ts:publishedBy a owl:ObjectProperty ;
-    rdfs:subPropertyOf prov:wasAttributedTo .
+    rdfs:subPropertyOf prov:wasAttributedTo ;
+    rdfs:domain ts:SourceRecord ;
+    rdfs:range ts:Publisher .
+
 ts:supports a owl:ObjectProperty ;
-    rdfs:subPropertyOf prov:wasDerivedFrom .
+    rdfs:subPropertyOf prov:wasDerivedFrom ;
+    rdfs:domain ts:SourceRecord ;
+    rdfs:range ts:Claim .
+
 ts:derivedFrom a owl:ObjectProperty ;
-    rdfs:subPropertyOf prov:wasDerivedFrom .
-ts:sameOriginAs a owl:ObjectProperty ;
-    a owl:SymmetricProperty .
-ts:operatesIn a owl:ObjectProperty .
+    rdfs:subPropertyOf prov:wasDerivedFrom ;
+    rdfs:domain prov:Entity ;
+    rdfs:range prov:Entity .
+
+ts:sameOriginAs a owl:ObjectProperty, owl:SymmetricProperty ;
+    rdfs:domain ts:SourceRecord ;
+    rdfs:range ts:SourceRecord .
+
+ts:memberOfOrigin a owl:ObjectProperty ;
+    rdfs:domain ts:SourceRecord ;
+    rdfs:range ts:OriginCluster .
+
+ts:operatesIn a owl:ObjectProperty ;
+    rdfs:domain ts:Startup ;
+    rdfs:range ts:Sector .
+
+ts:hasProduct a owl:ObjectProperty ;
+    rdfs:domain ts:Startup ;
+    rdfs:range ts:Product .
+
+ts:usesTechnology a owl:ObjectProperty ;
+    rdfs:domain owl:Thing ;
+    rdfs:range ts:Technology .
+
+ts:requiresSkill a owl:ObjectProperty ;
+    rdfs:domain ts:JobPosting ;
+    rdfs:range ts:Skill .
+
+ts:hasJobPosting a owl:ObjectProperty ;
+    rdfs:domain ts:Startup ;
+    rdfs:range ts:JobPosting .
+
+ts:hasRepository a owl:ObjectProperty ;
+    rdfs:domain ts:Startup ;
+    rdfs:range ts:Repository .
+
+ts:participatedIn a owl:ObjectProperty ;
+    rdfs:domain ts:Investor ;
+    rdfs:range ts:FundingRound .
+
+ts:fundingOf a owl:ObjectProperty ;
+    rdfs:domain ts:FundingRound ;
+    rdfs:range ts:Startup .
+
+ts:associatedVoice a owl:ObjectProperty ;
+    rdfs:domain ts:Startup ;
+    rdfs:range ts:Voice .
+
+ts:relatedEvent a owl:ObjectProperty ;
+    rdfs:domain ts:Claim ;
+    rdfs:range ts:Event .
+
+# Temporal and scalar properties.
 
 ts:eventAt a owl:DatatypeProperty ;
-    rdfs:subPropertyOf schema:temporal .
+    rdfs:subPropertyOf schema:temporal ;
+    rdfs:domain owl:Thing ;
+    rdfs:range xsd:dateTime .
+
 ts:publishedAt a owl:DatatypeProperty ;
-    rdfs:subPropertyOf schema:temporal .
+    rdfs:subPropertyOf schema:temporal ;
+    rdfs:domain ts:SourceRecord ;
+    rdfs:range xsd:dateTime .
+
 ts:observedAt a owl:DatatypeProperty ;
-    rdfs:subPropertyOf prov:generatedAtTime .
-ts:contentHash a owl:DatatypeProperty .
-ts:sourceUrl a owl:DatatypeProperty .
-ts:originClusterId a owl:DatatypeProperty .
-ts:sourceType a owl:DatatypeProperty .
-ts:passage a owl:DatatypeProperty .
-ts:recordId a owl:DatatypeProperty .
-ts:sectorId a owl:DatatypeProperty .
-ts:companyId a owl:DatatypeProperty .
-ts:name a owl:DatatypeProperty .
-ts:claimText a owl:DatatypeProperty .
-ts:state a owl:DatatypeProperty .
-ts:confidence a owl:DatatypeProperty .
-ts:extractionMethod a owl:DatatypeProperty .
-ts:stateChangedAt a owl:DatatypeProperty .
-ts:reason a owl:DatatypeProperty .
+    rdfs:subPropertyOf prov:generatedAtTime ;
+    rdfs:domain owl:Thing ;
+    rdfs:range xsd:dateTime .
+
+ts:stateChangedAt a owl:DatatypeProperty ;
+    rdfs:subPropertyOf schema:temporal ;
+    rdfs:domain ts:Claim ;
+    rdfs:range xsd:dateTime .
+
+ts:contentHash a owl:DatatypeProperty ;
+    rdfs:domain ts:SourceRecord ;
+    rdfs:range xsd:string .
+
+ts:sourceUrl a owl:DatatypeProperty ;
+    rdfs:domain ts:SourceRecord ;
+    rdfs:range xsd:anyURI .
+
+ts:originClusterId a owl:DatatypeProperty ;
+    rdfs:domain owl:Thing ;
+    rdfs:range xsd:string .
+
+ts:sourceType a owl:DatatypeProperty ;
+    rdfs:domain ts:SourceRecord ;
+    rdfs:range xsd:string .
+
+ts:title a owl:DatatypeProperty ;
+    rdfs:domain owl:Thing ;
+    rdfs:range xsd:string .
+
+ts:passage a owl:DatatypeProperty ;
+    rdfs:domain ts:SourceRecord ;
+    rdfs:range xsd:string .
+
+ts:recordId a owl:DatatypeProperty ;
+    rdfs:domain ts:SourceRecord ;
+    rdfs:range xsd:string .
+
+ts:collectorVersion a owl:DatatypeProperty ;
+    rdfs:domain ts:SourceRecord ;
+    rdfs:range xsd:string .
+
+ts:sectorId a owl:DatatypeProperty ;
+    rdfs:domain ts:Sector ;
+    rdfs:range xsd:string .
+
+ts:companyId a owl:DatatypeProperty ;
+    rdfs:domain ts:Startup ;
+    rdfs:range xsd:string .
+
+ts:name a owl:DatatypeProperty ;
+    rdfs:domain owl:Thing ;
+    rdfs:range xsd:string .
+
+ts:claimId a owl:DatatypeProperty ;
+    rdfs:domain ts:Claim ;
+    rdfs:range xsd:string .
+
+ts:claimText a owl:DatatypeProperty ;
+    rdfs:domain ts:Claim ;
+    rdfs:range xsd:string .
+
+ts:state a owl:DatatypeProperty ;
+    rdfs:domain ts:Claim ;
+    rdfs:range xsd:string .
+
+ts:confidence a owl:DatatypeProperty ;
+    rdfs:domain ts:Claim ;
+    rdfs:range xsd:decimal .
+
+ts:extractionMethod a owl:DatatypeProperty ;
+    rdfs:domain ts:Claim ;
+    rdfs:range xsd:string .
+
+ts:reason a owl:DatatypeProperty ;
+    rdfs:domain ts:Claim ;
+    rdfs:range xsd:string .
+
+ts:roundId a owl:DatatypeProperty ;
+    rdfs:domain ts:FundingRound ;
+    rdfs:range xsd:string .
+
+ts:amount a owl:DatatypeProperty ;
+    rdfs:domain ts:FundingRound ;
+    rdfs:range xsd:decimal .
+
+ts:currency a owl:DatatypeProperty ;
+    rdfs:domain ts:FundingRound ;
+    rdfs:range xsd:string .
+
+ts:jobPostingId a owl:DatatypeProperty ;
+    rdfs:domain ts:JobPosting ;
+    rdfs:range xsd:string .
+
+ts:repositoryId a owl:DatatypeProperty ;
+    rdfs:domain ts:Repository ;
+    rdfs:range xsd:string .

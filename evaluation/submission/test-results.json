@@ -1,13 +1,13 @@
 {
-  "checked_at": "2026-11-21T12:15:05.616799+00:00",
-  "command": ".venv/bin/python -m pytest -q --junitxml=artifacts/submission-tests.xml",
+  "checked_at": "2026-11-21T20:02:27Z",
+  "command": ".venv/bin/python -m pytest -q --junitxml=artifacts/submission-tests-mehmet.xml",
   "counts": {
-    "tests": 484,
+    "tests": 490,
     "failures": 0,
     "errors": 0,
     "skipped": 1
   },
-  "passed": 483,
+  "passed": 489,
   "scope": "Software tests. Final pilot scores assess only observed fields.",
   "browser_smoke_check": {
     "status": "passed",
@@ -21,9 +21,9 @@
     "verified": "Source visible, readable candidate, no label preselection, personal confirmation unchecked."
   },
   "latest_targeted_check": {
-    "command": ".venv/bin/python -m pytest tests/test_remaining_history_review.py tests/test_question_coverage.py tests/test_sueda_delivery.py -q",
-    "passed": 27,
+    "command": ".venv/bin/python -m pytest tests/test_graph_artifacts.py tests/test_sparql_queries.py tests/test_rdf.py tests/test_shacl.py -q",
+    "passed": 12,
     "failed": 0,
-    "scope": "Final population-boundary and summary consistency changes; archive clock, empty versus unknown, branded subsets and delivery replay."
+    "scope": "Ontology class and domain/range contracts; independent SPARQL parsing and representative in-memory query execution; existing RDF and SHACL regression checks."
   }
 }
