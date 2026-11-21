@@ -123,6 +123,10 @@ remain in the same local database. Public listings are not treated as completed
 hires; unknown funding event dates remain absent; Investors are not assigned to
 specific FundingRounds without a retained source link; Claims remain emerging
 source excerpts rather than independent semantic gold.
+The reproducible demo computes the same five-company summaries offline and from
+the payload-specific live Neo4j subgraph; all company counts, provenance checks,
+skills and technologies match exactly. This is a structural integration check,
+not evidence of retrieval quality or graph superiority.
 
 A component-only rubric assigns 1 to explicit relevant evidence components and
 0 otherwise, with no grade-2 labels. Ten of 28 questions have such components.

@@ -176,8 +176,8 @@
           "weight": 10,
           "stage": 3,
           "points": 7.5,
-          "evidence": "retrieval/graph_access.py; evaluation/mixed/real-graph-integration/summary.json; evaluation/mixed/real-graph-integration/live-neo4j-validation.json",
-          "remaining": "The five-company mixed snapshot has reproducible RDF/SHACL replay and live Neo4j payload acceptance. Full 18-company semantic population and cited-answer correctness measurements remain."
+          "evidence": "retrieval/graph_access.py; evaluation/mixed/real-graph-integration/summary.json; evaluation/mixed/real-graph-integration/live-neo4j-validation.json; evaluation/mixed/real-graph-integration/demo-results.json",
+          "remaining": "The five-company mixed snapshot has reproducible RDF/SHACL replay, live Neo4j payload acceptance and exact offline/live demo parity. Full 18-company semantic population and cited-answer correctness measurements remain."
         }
       ]
     },

@@ -73,6 +73,18 @@ Cypher for every node and edge, and reports database label counts after import.
 The checked-in payload is independently replayed from the frozen mixed records
 with `python -m evaluation.real_graph_integration check`.
 
+Run the deterministic demo offline, or compare it with the exact payload stored
+in the local Neo4j database:
+
+```bash
+python -m evaluation.real_graph_demo
+python -m evaluation.real_graph_demo --live
+```
+
+The demo reports per-company observed claims, funding announcements, public job
+postings, repositories, skills, and technologies. Its output explicitly avoids
+converting listings into hires or temporal co-occurrence into causality.
+
 The loader applies `constraints.cypher`, executes the parameterized import
 statements, and verifies the `SourceRecord` node count. Override the local
 defaults with `NEO4J_URI`, `NEO4J_USERNAME`, `NEO4J_PASSWORD`, or

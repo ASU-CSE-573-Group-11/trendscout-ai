@@ -93,6 +93,7 @@
   "real_graph_integration": {
     "directory": "evaluation/mixed/real-graph-integration",
     "builder": "evaluation.real_graph_integration",
+    "demo": "evaluation.real_graph_demo",
     "scope": "Frozen real mixed-source projection with Claim, Investor, FundingRound, JobPosting, Repository, Skill and Technology nodes; RDF/SHACL replay and payload-specific live Neo4j acceptance. Listings are not hires and unknown funding event dates remain absent."
   }
 }

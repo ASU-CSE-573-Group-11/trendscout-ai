@@ -1,13 +1,13 @@
 {
-  "checked_at": "2026-11-21T20:20:21Z",
-  "command": ".venv/bin/python -m pytest -q --junitxml=artifacts/submission-tests-real-graph.xml",
+  "checked_at": "2026-11-21T20:26:22Z",
+  "command": ".venv/bin/python -m pytest -q --junitxml=artifacts/submission-tests-real-graph-demo.xml",
   "counts": {
-    "tests": 495,
+    "tests": 497,
     "failures": 0,
     "errors": 0,
     "skipped": 1
   },
-  "passed": 494,
+  "passed": 496,
   "scope": "Software tests. Final pilot scores assess only observed fields.",
   "browser_smoke_check": {
     "status": "passed",
@@ -21,9 +21,9 @@
     "verified": "Source visible, readable candidate, no label preselection, personal confirmation unchecked."
   },
   "latest_targeted_check": {
-    "command": ".venv/bin/python -m pytest tests/test_real_graph_integration.py tests/test_cypher.py tests/test_graph_artifacts.py tests/test_rdf.py tests/test_shacl.py tests/test_sparql_queries.py -q",
-    "passed": 21,
+    "command": ".venv/bin/python -m pytest tests/test_real_graph_demo.py tests/test_real_graph_integration.py tests/test_cypher.py -q",
+    "passed": 11,
     "failed": 0,
-    "scope": "Real semantic projection, complete-payload Cypher generation, ontology/constraint coverage, RDF/SHACL conformance, SPARQL parsing and representative query execution."
+    "scope": "Offline graph demo summaries, live/offline parity artifact, real semantic projection replay and complete-payload Cypher generation."
   }
 }

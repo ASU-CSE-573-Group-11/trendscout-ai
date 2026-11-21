@@ -57,6 +57,7 @@ def artifacts(directory: Path = DEFAULT_DIRECTORY) -> tuple[dict, str, str, dict
         "edge_types": dict(sorted(relations.items())),
         "shacl_conforms": True,
         "live_neo4j_validation": "live-neo4j-validation.json",
+        "reproducible_demo": "demo-results.json",
         "source_record_count": len(records),
         "source_review_basis": "Sueda source-assisted entity review; not independent paired annotation.",
         "limitations": [
@@ -72,12 +73,12 @@ def artifacts(directory: Path = DEFAULT_DIRECTORY) -> tuple[dict, str, str, dict
 
 def write_output(directory: Path, output: Path, *, replace: bool = False) -> None:
     expected = {"graph.json", "records.ttl", "shacl-report.txt", "summary.json"}
-    allowed = expected | {"live-neo4j-validation.json"}
+    allowed = expected | {"live-neo4j-validation.json", "demo-results.json"}
     if output.exists():
         existing = {path.name for path in output.iterdir()}
         if not replace:
             raise ValueError(f"refusing to overwrite existing output: {output}")
-        if frozenset(existing) not in {frozenset(expected), frozenset(allowed)}:
+        if not expected.issubset(existing) or not existing.issubset(allowed):
             raise ValueError(f"refusing to replace unexpected output contents: {sorted(existing)}")
     payload, turtle, report, summary = artifacts(directory)
     output.mkdir(parents=True, exist_ok=replace)
