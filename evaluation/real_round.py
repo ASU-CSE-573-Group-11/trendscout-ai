@@ -32,6 +32,24 @@ def read_csv(path):
         return list(csv.DictReader(handle))
 
 
+def load_csv(path, item_column, label_column):
+    """Load a flat human label CSV and reject duplicate item IDs."""
+    rows = read_csv(path)
+    labels = {}
+    seen = set()
+    for row in rows:
+        item = str(row.get(item_column, '')).strip()
+        label = str(row.get(label_column, '')).strip()
+        if not item:
+            continue
+        if item in seen:
+            raise ValueError(f'duplicate item ID: {item}')
+        seen.add(item)
+        if label:
+            labels[item] = label
+    return labels
+
+
 def write_csv(path, fields, rows):
     with path.open('x', newline='', encoding='utf-8') as handle:
         writer = csv.DictWriter(handle, fieldnames=fields)
@@ -63,7 +81,9 @@ def frozen_records(directory):
     return records
 
 
-def prepare(directory):
+def prepare(directory, relation_candidates_per_document=3):
+    if relation_candidates_per_document < 1:
+        raise ValueError('relation candidates per document must be positive')
     records = frozen_records(directory)
     work = directory / 'workbooks'
     if work.exists() and any(work.iterdir()):
@@ -86,7 +106,7 @@ def prepare(directory):
                              'document_id': record['record_id'], 'start': match.start(), 'end': match.end(),
                              'entity_text': match.group(), 'span_text': text[max(0, match.start()-100):match.end()+100],
                              'label': '', 'notes': ''})
-        for match in matches[:3]:
+        for match in matches[:relation_candidates_per_document]:
             relations.append({'item_id': f"relation:{record['record_id']}:{match.start()}",
                               'document_id': record['record_id'],
                               'subject': record['record_id'], 'object': match.group(),
@@ -284,6 +304,11 @@ def validate(directory):
     task_ids = set(pilot['protocol']['task_ids'])
     if pilot.get('status') != 'complete' or set(pilot['protocol'].get('task_key', {})) != task_ids:
         errors.append('pilot completion and adjudicated task key required')
+    try:
+        from evaluation.finalize_pilot import verify as verify_final_pilot
+        verify_final_pilot(directory)
+    except (ValueError,FileNotFoundError):
+        errors.append('verified pilot adjudication and final observed-field grading required')
     for participant in ids:
         tasks = [r for r in results if r.get('participant_id') == participant]
         if (len(tasks) != 6 or {r.get('question_id') for r in tasks} != task_ids
@@ -291,11 +316,14 @@ def validate(directory):
                 or any(sum(r.get('condition') == c for r in tasks) != 3
                        for c in pilot['protocol']['conditions'])):
             errors.append(f'pilot participant {participant}: six unique counterbalanced tasks required')
-    if any(r.get('participant_id') not in ids or any(type(r.get(k)) is not bool
-            for k in ['status_correct', 'evidence_correct', 'abstention_correct'])
+    if any(r.get('participant_id') not in ids or type(r.get('status_correct')) is not bool
+           or any(r.get(k) is not None and type(r.get(k)) is not bool for k in ['evidence_correct','abstention_correct'])
            or not isinstance(r.get('duration_seconds'), (int, float)) or r['duration_seconds'] <= 0
            or r.get('confidence') not in [1, 2, 3, 4, 5] for r in results):
         errors.append('invalid pilot measurements')
+    unmeasured=sum(r.get(k) is None for r in results for k in ['evidence_correct','abstention_correct'])
+    if unmeasured:
+        errors.append(f'pilot has {unmeasured} unmeasured explanation-dependent assessments; full protocol completeness is not established')
     contribution = read_json(directory / 'contribution-record.json')
     if (contribution.get('status') != 'verified' or len(contribution.get('members', [])) != 4
             or any(not m.get('human_tasks') or not m.get('verification') for m in contribution['members'])):
@@ -396,6 +424,8 @@ def main():
     parser.add_argument('--directory', type=Path, default=ROOT / 'evaluation/real')
     parser.add_argument('--study-directory', type=Path, help='Separate frozen question set and answer outputs.')
     parser.add_argument('--qrels', type=Path, help='Exhaustive source-review judgments with provenance.')
+    parser.add_argument('--relation-candidates-per-document', type=int, default=3,
+                        help='Candidate relation spans per document when preparing a new round.')
     args = parser.parse_args()
     try:
         if args.action == 'agreement':
@@ -413,7 +443,7 @@ def main():
         elif args.action == 'rank':
             rank(args.directory, args.qrels, args.study_directory)
         else:
-            prepare(args.directory)
+            prepare(args.directory, args.relation_candidates_per_document)
     except (ValueError, KeyError, OSError) as exc:
         print(f'Cannot {args.action}: {exc}', file=sys.stderr)
         return 2
