@@ -53,7 +53,13 @@ def build_parser() -> argparse.ArgumentParser:
 
 def main(argv: Sequence[str] | None = None) -> int:
     args = build_parser().parse_args(argv)
-    kappa, count = cohen_kappa(load_annotations(args.first), load_annotations(args.second))
+    try:
+        kappa, count = cohen_kappa(load_annotations(args.first), load_annotations(args.second))
+    except ValueError as exc:
+        print(f"Cannot compute Cohen's kappa: {exc}")
+        print("Fill both annotator JSON files with the same item_id keys, then rerun.")
+        print("Do not invent labels: annotation work must come from the two annotators.")
+        return 2
     print(json.dumps({
         "shared_items": count,
         "cohen_kappa": round(kappa, 6),
