@@ -29,6 +29,35 @@ def main(argv: Sequence[str] | None = None) -> int:
     args = build_parser().parse_args(argv)
     args.out_dir.mkdir(parents=True, exist_ok=True)
 
+    human_corpus = json.loads(
+        Path("evaluation/human-corpus.json").read_text(encoding="utf-8")
+    )
+    corpus_fields = [
+        "document_id",
+        "company_id",
+        "source_type",
+        "source_url",
+        "title",
+        "span_text",
+        "include_in_final_corpus",
+        "reviewer_notes",
+    ]
+    corpus_rows = [
+        {
+            "document_id": document["document_id"],
+            "company_id": document.get("company_id") or "",
+            "source_type": document["source_type"],
+            "source_url": document["source_url"],
+            "title": document.get("title") or "",
+            "span_text": document.get("span_text") or "",
+            "include_in_final_corpus": "",
+            "reviewer_notes": "",
+        }
+        for document in human_corpus["documents"]
+    ]
+    write_csv(args.out_dir / "sueda-corpus-review.csv", corpus_fields, corpus_rows)
+    write_csv(args.out_dir / "mehmet-corpus-review.csv", corpus_fields, corpus_rows)
+
     worklist = json.loads(
         (Path("evaluation/annotation-worklist.json")).read_text(encoding="utf-8")
     )

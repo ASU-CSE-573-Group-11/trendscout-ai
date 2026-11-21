@@ -108,6 +108,17 @@ python evaluation/csv_agreement.py \
   evaluation/human-workbooks/mehmet-evidence.csv
 ```
 
+For the first human gate, both annotators fill separate corpus-review files:
+
+```bash
+evaluation/human-workbooks/sueda-corpus-review.csv
+evaluation/human-workbooks/mehmet-corpus-review.csv
+```
+
+Enter `yes` or `no` in `include_in_final_corpus`. Keep the independent review
+files separate until the human selection is reconciled. The corpus is complete
+only after the final agreed set has 40-50 documents.
+
 Primary success, from the proposal: temporal multi-hop accuracy above the strongest non-graph baseline, unsupported claims below 10%, and valid evidence for at least 90% of factual answer claims.
 
 Do not mix a live collection run with a scored evaluation snapshot.
