@@ -2,7 +2,10 @@
 
 This folder contains the reproducible real-source semantic graph demonstration.
 It compares a committed offline graph with the exact payload stored in local
-Neo4j, then presents the result through `demo.html`.
+Neo4j, then presents the result through `demo.html`. The page includes two
+small, data-driven charts: claim coverage by company and the observed mix of
+funding announcements, job listings and repositories. They describe the
+snapshot's coverage and must not be interpreted as company rankings.
 
 The demo reports observed source evidence. A public job listing is not a
 completed hire, an announcement date is not automatically a financing event
@@ -18,7 +21,7 @@ date, and temporal proximity does not establish causality.
 | `summary.json` | Graph counts, input hashes and limitations |
 | `live-neo4j-validation.json` | Payload-specific live database acceptance record |
 | `demo-results.json` | Offline and live company summaries used by the page |
-| `demo.html` | Static explanatory dashboard |
+| `demo.html` | Static explanatory study page with accessible coverage charts |
 
 ## 1. Open the repository
 
@@ -134,7 +137,7 @@ Successful output records:
 
 No password is written to `demo-results.json`.
 
-## 7. Open the visual dashboard
+## 7. Open the visual study page
 
 Serve the folder over HTTP so the page can read `demo-results.json`:
 
