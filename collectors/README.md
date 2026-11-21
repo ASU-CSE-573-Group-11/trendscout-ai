@@ -2,6 +2,13 @@
 
 Independent collection modules. Every collector must output records compatible with `schemas/record.schema.json`.
 
+## Vidya Sagar Dudekula — Greenhouse, Lever, and GitHub APIs
+
+See [API_COLLECTORS.md](API_COLLECTORS.md) for setup, live collection, offline
+replay, schema/graph integration, and coverage limitations. Run the API CLI with
+`python -m collectors`. Its retry helper is `api_http.py`; Süeda's existing
+`http.py` and `python -m collectors.run` interface remain available.
+
 ## Sueda Sen — news, voices, company RSS, YC identity
 
 This module collects the named documentary sources from the 28 October data plan. It does not collect Greenhouse, Lever, or GitHub activity; those remain Vidya's module.
