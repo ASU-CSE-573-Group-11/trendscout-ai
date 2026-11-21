@@ -29,6 +29,8 @@ from faisal_snapshot import snapshot_records
 from interface.agent import AgentConfig, TrendScoutAgent
 from evaluation.build_annotation_worklist import build_worklist
 from evaluation.prepare_annotation_round import main as prepare_annotation_round
+from evaluation.build_human_corpus import build_corpus
+from evaluation.validate_human_evaluation import validate
 
 SEED = json.loads(__import__("pathlib").Path("evaluation/questions.seed.json").read_text(encoding="utf-8"))["questions"]
 
@@ -73,6 +75,35 @@ def test_frozen_snapshot_annotation_worklist_has_95_items_and_94_unique_ids():
     item_ids = [item["item_id"] for item in items]
     assert len(items) == 95
     assert len(set(item_ids)) == 94
+
+
+def test_human_corpus_has_40_to_50_documents():
+    documents = build_corpus(snapshot_records(), limit=45)
+    assert len(documents) == 45
+    assert len({document["document_id"] for document in documents}) == 45
+
+
+def test_human_evaluation_validation_refuses_incomplete_state(tmp_path):
+    root = tmp_path
+    (root / "evaluation").mkdir()
+    (root / "evaluation/human-corpus.json").write_text(json.dumps({
+        "document_count": 45,
+        "status": "machine_selected_pending_human_review",
+    }), encoding="utf-8")
+    (root / "evaluation/entity-relation.template.json").write_text(json.dumps({
+        "entities": [], "relations": [], "status": "human_annotation_pending"
+    }), encoding="utf-8")
+    (root / "evaluation/annotation_agreement.json").write_text(json.dumps({
+        "status": "human_review_complete", "shared_items": 94
+    }), encoding="utf-8")
+    (root / "evaluation/adjudicated-qrels.template.json").write_text(json.dumps({
+        "illustrative": True, "status": "human_qrels_pending", "qrels": {}
+    }), encoding="utf-8")
+    (root / "evaluation/trust-pilot.template.json").write_text(json.dumps({
+        "participants": [], "task_results": []
+    }), encoding="utf-8")
+    errors = validate(root)
+    assert len(errors) >= 1
 
 
 def test_prepare_annotation_round_creates_no_fake_labels():

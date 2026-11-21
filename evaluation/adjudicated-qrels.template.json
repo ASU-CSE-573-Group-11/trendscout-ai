@@ -1,0 +1,8 @@
+{
+  "judged_by": "PENDING: Sueda Sen and Mehmet Aksit, adjudicated",
+  "snapshot": "tests/fixtures/faisal/snapshot_records.jsonl",
+  "illustrative": true,
+  "status": "human_qrels_pending",
+  "why_illustrative": "Do not score or report retrieval metrics from this template.",
+  "qrels": {}
+}

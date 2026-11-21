@@ -7,7 +7,7 @@
   "shared_items": 94,
   "different_labels": 0,
   "cohen_kappa": 1.0,
-  "status": "human_review_complete",
+  "status": "unverified_simulated_label_agreement",
   "snapshot": "tests/fixtures/faisal/snapshot_records.jsonl",
-  "note": "Human review metadata and final labels are stored in the annotator JSON files. Adjudicated relevance grades remain a separate question-to-record mapping."
+  "note": "The 1.0 value was generated from identical Copilot draft labels. Independent human review and adjudication are still required before reporting it as Cohen's kappa."
 }

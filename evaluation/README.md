@@ -16,7 +16,19 @@ question identifier or its expected behavior.
 | `compute_agreement.py` | Cohen's kappa calculation for independent annotator labels |
 | `build_annotation_worklist.py` | Generates a stable 95-item worklist from the frozen fixture snapshot |
 | `annotation-worklist.json` | 95 frozen items with record IDs, spans, and the three time fields |
-| `annotation_agreement.json` | Human annotator agreement summary: 94 shared items, Cohen's kappa 1.0 |
+| `annotation_agreement.json` | Unverified prior 94-item draft agreement; not human Cohen's kappa |
+| `build_human_corpus.py` | Builds a deterministic 40-50 document human annotation candidate corpus |
+| `adjudicated-qrels.template.json` | Human-only final relevance label template; not illustrative until adjudicated |
+| `trust-pilot.template.json` | Human trust-pilot protocol and result placeholder |
+| `human-progress.json` | Machine-readable final-evaluation completion checklist |
+| `human-corpus.json` | 45 deterministic candidate documents pending human selection review |
+| `entity-relation.template.json` | Human entity/relation worksheet; no synthetic labels |
+| `adjudicated-qrels.template.json` | Human-only relevance label target |
+| `trust-pilot.template.json` | Human trust-pilot protocol and result placeholder |
+| `validate_human_evaluation.py` | Refuses success until all human-only gates are complete |
+| `contribution-record.template.json` | Human verification record placeholder |
+| `trust-pilot.protocol.json` | Trust-pilot protocol and participant/result placeholders |
+| `final-human-status.json` | Overall final-evaluation completion state |
 
 ## Annotation workflow
 

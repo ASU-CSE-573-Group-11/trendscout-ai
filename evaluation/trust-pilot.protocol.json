@@ -1,0 +1,19 @@
+{
+  "status": "human_participants_pending",
+  "participants_target": "5-8",
+  "tasks_each": "6-8",
+  "conditions": [
+    "citations_only",
+    "citations_plus_state_and_path"
+  ],
+  "randomize_condition_order": true,
+  "measures": [
+    "status_accuracy",
+    "evidence_choice",
+    "abstention_accuracy",
+    "time",
+    "confidence"
+  ],
+  "results": [],
+  "participants": []
+}

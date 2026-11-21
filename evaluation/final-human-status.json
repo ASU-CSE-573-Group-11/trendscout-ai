@@ -1,0 +1,12 @@
+{
+  "status": "incomplete",
+  "document_corpus": "pending_human_selection",
+  "entity_mentions": "pending_human_annotation",
+  "relations": "pending_human_annotation",
+  "independent_human_agreement": "pending_independent_human_labels",
+  "adjudicated_qrels": "pending_adjudication",
+  "scored_evaluation": "pending_real_qrels",
+  "trust_pilot": "pending_human_participants",
+  "final_report": "pending_scored_results",
+  "contribution_record": "pending_verification"
+}

@@ -96,11 +96,12 @@
     "annotation:news:venturebeat:langchain-series-b-syndicated:f6cd52345822f609dd6121cf89ff6a13765ea925cbde50bb647feab795569a93": "emerging"
   },
   "annotator": "Mehmet Aksit",
-  "human_review_status": "complete",
-  "independent_human_kappa_eligible": true,
+  "human_review_status": "pending",
+  "independent_human_kappa_eligible": false,
   "generated_by": "Mehmet",
   "generated_from": "evaluation/annotation-worklist.json",
   "not_human_annotation": false,
   "pending_item_ids": [],
-  "status": "complete"
+  "status": "simulated",
+  "not_human_annotation": true
 }

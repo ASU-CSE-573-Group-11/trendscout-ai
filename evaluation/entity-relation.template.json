@@ -1,0 +1,11 @@
+{
+  "status": "human_annotation_pending",
+  "entity_target": "200+",
+  "relation_target": "80-100",
+  "annotators": [
+    "Sueda Sen",
+    "Mehmet Aksit"
+  ],
+  "entities": [],
+  "relations": []
+}

@@ -1,0 +1,11 @@
+{
+  "document_corpus": "pending",
+  "entity_mentions": "pending",
+  "relations": "pending",
+  "independent_human_agreement": "pending",
+  "adjudicated_qrels": "pending",
+  "scored_evaluation": "pending",
+  "trust_pilot": "pending",
+  "final_report": "pending",
+  "contribution_record": "pending"
+}

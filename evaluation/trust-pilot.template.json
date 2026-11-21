@@ -1,0 +1,18 @@
+{
+  "participants_target": "5-8",
+  "tasks_each": "6-8",
+  "conditions": [
+    "citations_only",
+    "citations_plus_state_and_path"
+  ],
+  "measures": [
+    "status_accuracy",
+    "evidence_choice",
+    "abstention_accuracy",
+    "time",
+    "confidence"
+  ],
+  "status": "human_participants_pending",
+  "participants": [],
+  "task_results": []
+}
