@@ -538,9 +538,9 @@ class InMemoryGraph:
 class Neo4jBackend:
     """Execute the real Cypher templates against Neo4j.
 
-    Written against the official ``neo4j`` driver. Not yet exercised against a
-    live database: Mehmet's loader has not been run on a server, so this path is
-    unverified and the interface defaults to :class:`InMemoryGraph`.
+    Written against the official ``neo4j`` driver. The live Community Edition
+    loader and backend smoke test have passed; the interface may still default
+    to :class:`InMemoryGraph`.
     """
 
     uri: str

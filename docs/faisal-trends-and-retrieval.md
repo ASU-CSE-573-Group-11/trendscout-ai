@@ -538,7 +538,7 @@ finished here instead.
 | Needed from | What | Why it is not blocking |
 |---|---|---|
 | Vidya | A real cohort collection run | Only data is missing; the wiring is verified against her code |
-| Mehmet | A live Neo4j load | `Neo4jBackend` is written; the in-memory equivalent serves the demo |
+| Mehmet | Cohort-scale Neo4j validation | The live Community Edition loader and `Neo4jBackend` smoke test pass; full cohort validation remains |
 | Mehmet | `Claim` nodes from the evidence ledger | Multi-hop paths reach trend signals today; claim paths appear automatically once claims load |
 | Sueda | Relevance labels against the frozen snapshot | Needed to report retrieval metrics; every condition, ablation, and the scoring runner already work |
 | Team | Whether to enable the Anthropic provider, and whose key | The extractive fallback runs without one |
