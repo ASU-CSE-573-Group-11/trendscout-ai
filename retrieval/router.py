@@ -158,9 +158,18 @@ class RouteDecision:
 #: ``(rule name, intent, pattern, confidence)``, evaluated in order.
 INTENT_RULES: tuple[tuple[str, str, str, float], ...] = (
     (
+        "snapshot_boundary",
+        "unsupported",
+        r"\b(private revenue|market share before|outside the (collection|snapshot|frozen) "
+        r"window|before the .*collection window|missing from (the )?(snapshot|collection)|"
+        r"led .*latest funding round)\b",
+        0.95,
+    ),
+    (
         "prediction",
         "unsupported",
-        r"\b(will|would|going to|predict|prediction|forecast|expect to|likely to|"
+        r"\b(will|going to|predict|prediction|forecast|expect to|likely to|"
+        r"would (have|be|acquire|invest|increase|decrease|happen)|"
         r"guarantee|future|projected)\b",
         0.95,
     ),
@@ -180,8 +189,14 @@ INTENT_RULES: tuple[tuple[str, str, str, float], ...] = (
     (
         "what_evidence_would_change",
         "evidence_state",
-        r"\bwhat (evidence|would it take)\b.*\b(change|different|revise)\b",
+        r"\b(what evidence|which evidence|what would change|would .*count as independent)\b",
         0.85,
+    ),
+    (
+        "evidence_supports_or_weakens",
+        "evidence_state",
+        r"\b(supports or weakens|change .*from .*to|count as independent origins)\b",
+        0.9,
     ),
     (
         "aggregate_counting",
