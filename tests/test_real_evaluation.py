@@ -10,6 +10,19 @@ from interface.agent import AgentConfig, TrendScoutAgent
 from collectors.records import make_record
 
 
+def test_sueda_source_review_has_200_accepted_entities():
+    import csv
+    path = ROOT / 'evaluation/real/workbooks/sueda-entities.csv'
+    rows = list(csv.DictReader(path.open(newline='', encoding='utf-8')))
+    accepted = sum(row['label'].strip() not in ('', 'NONE') for row in rows)
+    assert accepted == 200
+    progress = json.loads(
+        (ROOT / 'evaluation/real/sueda-entity-progress.json').read_text(encoding='utf-8')
+    )
+    assert progress['target_met'] is True
+    assert progress['independent_human_attestation'] is False
+
+
 def test_frozen_real_corpus_is_valid_unique_and_traceable():
     records = frozen_records(ROOT / 'evaluation/real')
     assert len(records) == 45
@@ -56,7 +69,8 @@ def test_renaming_simulated_status_does_not_make_human_labels(tmp_path):
         load_annotations(path)
 
 
-def test_independent_round_computes_agreement_without_adjudicated_labels(tmp_path):
+@pytest.mark.parametrize('sparse', [False, True])
+def test_independent_round_computes_agreement_without_adjudicated_labels(tmp_path, sparse):
     import hashlib
     import shutil
     from evaluation.real_round import write_json, read_json
@@ -72,6 +86,8 @@ def test_independent_round_computes_agreement_without_adjudicated_labels(tmp_pat
             rows = read_json(source / 'candidate-items.json')[kind]
             for index, row in enumerate(rows):
                 row['label'] = ('Product' if index % 2 else 'Technology') if kind == 'entities' else ('MENTIONS' if index < 90 else 'NONE')
+                if sparse and index > 1:
+                    row['label'] = 'NONE'
             path = tmp_path / 'workbooks' / f'{name}-{kind}.csv'
             with path.open('w', newline='') as handle:
                 writer = csv.DictWriter(handle, fieldnames=list(rows[0]))
@@ -87,6 +103,8 @@ def test_independent_round_computes_agreement_without_adjudicated_labels(tmp_pat
     assert report['relations']['shared_items'] == 126
     assert report['entities']['cohen_kappa'] == 1
     assert report['relations']['cohen_kappa'] == 1
+    assert report['entities']['planned_positive_target_met_by_reviewer']['sueda'] is (not sparse)
+    assert report['relations']['planned_positive_target_met_by_reviewer']['mehmet'] is (not sparse)
     # Test-only labels live exclusively in tmp_path; no study file is modified.
 
 

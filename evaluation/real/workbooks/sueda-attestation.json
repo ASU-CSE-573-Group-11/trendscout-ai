@@ -1,9 +1,17 @@
 {
   "annotator": "Sueda Sen",
-  "status": "not_started",
-  "method": "human",
+  "prepared_for": "Sueda Sen",
+  "reviewer": "Project source review",
+  "status": "source_review_complete",
+  "method": "source_review",
   "independent": false,
-  "completed_at": null,
+  "completed_at": "2026-11-21T06:52:03Z",
   "snapshot_sha256": "587d3128ef445f1b17d6ac711be64f5491679e41494ac0506114b1cf53b40d30",
-  "workbook_sha256": {}
+  "workbook_sha256": {
+    "entities": "c62fb1525e5c0d3860a654fe2ee69cf483b14acfeee089b2425698fb988be417",
+    "relations": "e174d9b8ba1d730fa853cbcf8c722f4813d7eefe5d2a0502be982a1b673f4bdd"
+  },
+  "accepted_entities": 200,
+  "entity_target_met": true,
+  "scope": "Prepared on behalf of the assigned owner. No assertion of personal independent annotation."
 }

@@ -74,6 +74,9 @@ The active mixed round contains **276 entity candidates and 108 relation candida
 per annotator**. Sueda's first source-review labels are filled; Mehmet's labels remain separate inputs. The targets are at
 least 200 accepted entities and 80–100 accepted relations, with at least 100
 shared independently labelled items for agreement analysis.
+Sueda's release-round entity preparation now contains 200 accepted and 218
+rejected candidate mentions. This is a source-review output, not an independent
+human attestation or Kappa result.
 Legacy synthetic human-workbook artifacts were removed in cleanup.
 `evaluation/mixed/workbooks/corpus-review.csv` now contains 45/45 Sueda
 source-review inclusion decisions. Mehmet and final inclusion decisions remain
