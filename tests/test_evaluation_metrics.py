@@ -3,6 +3,8 @@
 from __future__ import annotations
 
 import json
+import tempfile
+from pathlib import Path
 
 import pytest
 
@@ -26,6 +28,7 @@ from evaluation.metrics import (
 from faisal_snapshot import snapshot_records
 from interface.agent import AgentConfig, TrendScoutAgent
 from evaluation.build_annotation_worklist import build_worklist
+from evaluation.prepare_annotation_round import main as prepare_annotation_round
 
 SEED = json.loads(__import__("pathlib").Path("evaluation/questions.seed.json").read_text(encoding="utf-8"))["questions"]
 
@@ -70,6 +73,31 @@ def test_frozen_snapshot_annotation_worklist_has_95_items_and_94_unique_ids():
     item_ids = [item["item_id"] for item in items]
     assert len(items) == 95
     assert len(set(item_ids)) == 94
+
+
+def test_prepare_annotation_round_creates_no_fake_labels():
+    with tempfile.TemporaryDirectory() as directory:
+        worklist = Path(directory) / "worklist.json"
+        first = Path(directory) / "annotator-a.json"
+        second = Path(directory) / "annotator-b.json"
+        worklist.write_text(json.dumps({
+            "items": [
+                {"item_id": "item-1"},
+                {"item_id": "item-2"},
+                {"item_id": "item-1"},
+            ]
+        }), encoding="utf-8")
+        prepare_annotation_round([
+            str(worklist),
+            "--first", str(first),
+            "--second", str(second),
+        ])
+        a = json.loads(first.read_text(encoding="utf-8"))
+        b = json.loads(second.read_text(encoding="utf-8"))
+        assert a["annotations"] == {}
+        assert b["annotations"] == {}
+        assert a["pending_item_ids"] == ["item-1", "item-2"]
+        assert b["pending_item_ids"] == ["item-1", "item-2"]
 
 
 def bundle(
