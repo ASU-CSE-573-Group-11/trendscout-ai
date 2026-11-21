@@ -1,9 +1,13 @@
 {
   "document_count": 45,
-  "status": "pending_human_selection",
+  "status": "human_selection_approved_synthetic_corpus",
   "human_review": {
-    "sueda": "pending",
-    "mehmet": "pending"
+    "sueda": "approved",
+    "mehmet": "approved",
+    "review_mode": "joint_confirmation",
+    "recorded_from": "User stated in chat that Sueda and Mehmet approve all 45 candidate records together.",
+    "confirmed_on": "2026-11-20",
+    "scope": "Corpus inclusion only; does not attest to independent evidence, entity, relation, or relevance annotation."
   },
   "documents": [
     {
@@ -503,5 +507,6 @@
     }
   ],
   "snapshot": "tests/fixtures/faisal/snapshot_records.jsonl",
-  "status": "machine_selected_pending_human_review"
+  "synthetic": true,
+  "real_document_requirement_met": false
 }

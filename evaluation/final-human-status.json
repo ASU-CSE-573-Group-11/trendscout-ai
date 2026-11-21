@@ -1,6 +1,6 @@
 {
   "status": "incomplete",
-  "document_corpus": "pending_human_selection",
+  "document_corpus": "joint_selection_complete_synthetic_fixture",
   "entity_mentions": "pending_human_annotation",
   "relations": "pending_human_annotation",
   "independent_human_agreement": "pending_independent_human_labels",

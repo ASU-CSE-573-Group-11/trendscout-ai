@@ -26,6 +26,8 @@ question identifier or its expected behavior.
 | `adjudicated-qrels.template.json` | Human-only relevance label target |
 | `trust-pilot.template.json` | Human trust-pilot protocol and result placeholder |
 | `validate_human_evaluation.py` | Refuses success until all human-only gates are complete |
+| `reconcile_corpus_reviews.py` | Reconciles separate Sueda/Mehmet corpus inclusion decisions |
+| `final-human-corpus.json` | Jointly approved 45-document synthetic-fixture corpus |
 | `contribution-record.template.json` | Human verification record placeholder |
 | `trust-pilot.protocol.json` | Trust-pilot protocol and participant/result placeholders |
 | `final-human-status.json` | Overall final-evaluation completion state |
