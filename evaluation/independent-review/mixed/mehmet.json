@@ -1,0 +1,2711 @@
+{
+  "reviewer": "mehmet",
+  "round": "mixed",
+  "source_sha256": {
+    "manifest.json": "38501f4f482fb37762f93d94500165726a46476c64c13d7bb0a74254becf5048",
+    "candidate-items.json": "532de06298d2949de6dc2213abeee11c9577424b24017d10d19e7ccfdfb1c926",
+    "records.jsonl": "2e8db87daa901109a18cb7ea590ee4c22b9357bea1e13104964bbfc4badfedc3",
+    "guidelines.json": "5a38e6cf60e8518bdd017e8f3245dc065ac7fabb36a5b0eda59a1ea2fe742c77"
+  },
+  "decisions": {
+    "entities": {
+      "entity:eb174b5a-a28e-5260-a99a-aeb84f1e4be8:0:9": {
+        "label": "Startup",
+        "notes": "Explicit Startup mention at the frozen source offsets. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:eb174b5a-a28e-5260-a99a-aeb84f1e4be8:10:16": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:eb174b5a-a28e-5260-a99a-aeb84f1e4be8:23:29": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:eb174b5a-a28e-5260-a99a-aeb84f1e4be8:39:48": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:eb174b5a-a28e-5260-a99a-aeb84f1e4be8:49:54": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:eb174b5a-a28e-5260-a99a-aeb84f1e4be8:105:109": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:eb174b5a-a28e-5260-a99a-aeb84f1e4be8:156:165": {
+        "label": "Startup",
+        "notes": "Explicit Startup mention at the frozen source offsets. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:eb174b5a-a28e-5260-a99a-aeb84f1e4be8:174:178": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:eb174b5a-a28e-5260-a99a-aeb84f1e4be8:188:196": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:eb174b5a-a28e-5260-a99a-aeb84f1e4be8:197:206": {
+        "label": "Product",
+        "notes": "Explicit Product mention at the frozen source offsets. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:eb174b5a-a28e-5260-a99a-aeb84f1e4be8:207:215": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:eb174b5a-a28e-5260-a99a-aeb84f1e4be8:216:221": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:8040d79a-d5bc-57b8-80ed-3b703a3d7af3:0:6": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:8040d79a-d5bc-57b8-80ed-3b703a3d7af3:15:20": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:8040d79a-d5bc-57b8-80ed-3b703a3d7af3:93:103": {
+        "label": "Product",
+        "notes": "Explicit Product mention at the frozen source offsets. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:8040d79a-d5bc-57b8-80ed-3b703a3d7af3:142:152": {
+        "label": "Product",
+        "notes": "Explicit Product mention at the frozen source offsets. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:8040d79a-d5bc-57b8-80ed-3b703a3d7af3:369:372": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:8040d79a-d5bc-57b8-80ed-3b703a3d7af3:567:577": {
+        "label": "Product",
+        "notes": "Explicit Product mention at the frozen source offsets. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:8040d79a-d5bc-57b8-80ed-3b703a3d7af3:616:620": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:8040d79a-d5bc-57b8-80ed-3b703a3d7af3:749:752": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:8040d79a-d5bc-57b8-80ed-3b703a3d7af3:755:759": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:8040d79a-d5bc-57b8-80ed-3b703a3d7af3:777:780": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:8040d79a-d5bc-57b8-80ed-3b703a3d7af3:858:865": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:8040d79a-d5bc-57b8-80ed-3b703a3d7af3:867:874": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:8767e401-ef9f-5ca1-aea7-36dd179301b7:0:4": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:8767e401-ef9f-5ca1-aea7-36dd179301b7:14:22": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:8767e401-ef9f-5ca1-aea7-36dd179301b7:52:56": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:8767e401-ef9f-5ca1-aea7-36dd179301b7:57:62": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:8767e401-ef9f-5ca1-aea7-36dd179301b7:63:70": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:8767e401-ef9f-5ca1-aea7-36dd179301b7:82:85": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:8767e401-ef9f-5ca1-aea7-36dd179301b7:103:114": {
+        "label": "Product",
+        "notes": "Explicit Product mention at the frozen source offsets. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:8767e401-ef9f-5ca1-aea7-36dd179301b7:194:198": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:8767e401-ef9f-5ca1-aea7-36dd179301b7:214:225": {
+        "label": "Startup",
+        "notes": "Explicit Startup mention at the frozen source offsets. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:8767e401-ef9f-5ca1-aea7-36dd179301b7:431:435": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:8767e401-ef9f-5ca1-aea7-36dd179301b7:564:575": {
+        "label": "Startup",
+        "notes": "Explicit Startup mention at the frozen source offsets. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:8767e401-ef9f-5ca1-aea7-36dd179301b7:624:632": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:b4c06ed8-d4f1-593d-bb1c-f8a329355cab:0:4": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:b4c06ed8-d4f1-593d-bb1c-f8a329355cab:97:102": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:b4c06ed8-d4f1-593d-bb1c-f8a329355cab:103:106": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:b4c06ed8-d4f1-593d-bb1c-f8a329355cab:107:111": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:b4c06ed8-d4f1-593d-bb1c-f8a329355cab:112:122": {
+        "label": "Startup",
+        "notes": "Explicit Startup mention at the frozen source offsets. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:b4c06ed8-d4f1-593d-bb1c-f8a329355cab:173:176": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:b4c06ed8-d4f1-593d-bb1c-f8a329355cab:260:263": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:b4c06ed8-d4f1-593d-bb1c-f8a329355cab:411:415": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:b4c06ed8-d4f1-593d-bb1c-f8a329355cab:436:439": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:b4c06ed8-d4f1-593d-bb1c-f8a329355cab:619:622": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:b4c06ed8-d4f1-593d-bb1c-f8a329355cab:623:626": {
+        "label": "Technology",
+        "notes": "Explicit Technology mention at the frozen source offsets. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:b4c06ed8-d4f1-593d-bb1c-f8a329355cab:767:783": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:7db42262-253c-50c2-b41a-40aa32637d12:0:4": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:7db42262-253c-50c2-b41a-40aa32637d12:97:102": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:7db42262-253c-50c2-b41a-40aa32637d12:103:106": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:7db42262-253c-50c2-b41a-40aa32637d12:107:111": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:7db42262-253c-50c2-b41a-40aa32637d12:137:145": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:7db42262-253c-50c2-b41a-40aa32637d12:146:154": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:7db42262-253c-50c2-b41a-40aa32637d12:196:200": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:7db42262-253c-50c2-b41a-40aa32637d12:285:288": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:7db42262-253c-50c2-b41a-40aa32637d12:445:448": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:7db42262-253c-50c2-b41a-40aa32637d12:556:559": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:7db42262-253c-50c2-b41a-40aa32637d12:650:654": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:7db42262-253c-50c2-b41a-40aa32637d12:711:714": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:5d7a7ced-53aa-5b84-b7c5-30c694e18633:0:4": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:5d7a7ced-53aa-5b84-b7c5-30c694e18633:97:100": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:5d7a7ced-53aa-5b84-b7c5-30c694e18633:179:185": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:5d7a7ced-53aa-5b84-b7c5-30c694e18633:266:274": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:5d7a7ced-53aa-5b84-b7c5-30c694e18633:282:285": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:5d7a7ced-53aa-5b84-b7c5-30c694e18633:286:295": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:5d7a7ced-53aa-5b84-b7c5-30c694e18633:296:300": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:5d7a7ced-53aa-5b84-b7c5-30c694e18633:301:307": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:5d7a7ced-53aa-5b84-b7c5-30c694e18633:308:317": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:5d7a7ced-53aa-5b84-b7c5-30c694e18633:408:418": {
+        "label": "Startup",
+        "notes": "Explicit Startup mention at the frozen source offsets. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:5d7a7ced-53aa-5b84-b7c5-30c694e18633:463:469": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:5d7a7ced-53aa-5b84-b7c5-30c694e18633:559:569": {
+        "label": "Startup",
+        "notes": "Explicit Startup mention at the frozen source offsets. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:724f07a0-9038-5c04-a444-a224e9ba24d4:0:5": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:724f07a0-9038-5c04-a444-a224e9ba24d4:12:21": {
+        "label": "Startup",
+        "notes": "Explicit Startup mention at the frozen source offsets. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:724f07a0-9038-5c04-a444-a224e9ba24d4:207:210": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:724f07a0-9038-5c04-a444-a224e9ba24d4:237:246": {
+        "label": "Product",
+        "notes": "Explicit Product mention at the frozen source offsets. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:724f07a0-9038-5c04-a444-a224e9ba24d4:481:488": {
+        "label": "Investor",
+        "notes": "Investor explicitly named in the source investor list. Company-authored text is not independent confirmation of financing. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:724f07a0-9038-5c04-a444-a224e9ba24d4:490:499": {
+        "label": "Investor",
+        "notes": "Investor explicitly named in the source investor list. Company-authored text is not independent confirmation of financing. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:724f07a0-9038-5c04-a444-a224e9ba24d4:501:504": {
+        "label": "Investor",
+        "notes": "Investor explicitly named in the source investor list. Company-authored text is not independent confirmation of financing. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:724f07a0-9038-5c04-a444-a224e9ba24d4:510:518": {
+        "label": "Investor",
+        "notes": "Investor explicitly named in the source investor list. Company-authored text is not independent confirmation of financing. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:724f07a0-9038-5c04-a444-a224e9ba24d4:755:759": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:724f07a0-9038-5c04-a444-a224e9ba24d4:793:802": {
+        "label": "Product",
+        "notes": "Explicit Product mention at the frozen source offsets. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:724f07a0-9038-5c04-a444-a224e9ba24d4:834:841": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:724f07a0-9038-5c04-a444-a224e9ba24d4:869:875": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:36725462-2467-59f7-9830-ceca221e5623:0:5": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:36725462-2467-59f7-9830-ceca221e5623:12:21": {
+        "label": "Startup",
+        "notes": "Explicit Startup mention at the frozen source offsets. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:36725462-2467-59f7-9830-ceca221e5623:207:210": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:36725462-2467-59f7-9830-ceca221e5623:237:246": {
+        "label": "Product",
+        "notes": "Explicit Product mention at the frozen source offsets. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:36725462-2467-59f7-9830-ceca221e5623:481:488": {
+        "label": "Investor",
+        "notes": "Investor explicitly named in the source investor list. Company-authored text is not independent confirmation of financing. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:36725462-2467-59f7-9830-ceca221e5623:490:499": {
+        "label": "Investor",
+        "notes": "Investor explicitly named in the source investor list. Company-authored text is not independent confirmation of financing. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:36725462-2467-59f7-9830-ceca221e5623:501:504": {
+        "label": "Investor",
+        "notes": "Investor explicitly named in the source investor list. Company-authored text is not independent confirmation of financing. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:36725462-2467-59f7-9830-ceca221e5623:510:518": {
+        "label": "Investor",
+        "notes": "Investor explicitly named in the source investor list. Company-authored text is not independent confirmation of financing. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:36725462-2467-59f7-9830-ceca221e5623:755:759": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:36725462-2467-59f7-9830-ceca221e5623:793:802": {
+        "label": "Product",
+        "notes": "Explicit Product mention at the frozen source offsets. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:36725462-2467-59f7-9830-ceca221e5623:834:841": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:36725462-2467-59f7-9830-ceca221e5623:869:875": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:ac007877-2f78-5e44-bd24-c897f7265567:0:5": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:ac007877-2f78-5e44-bd24-c897f7265567:12:21": {
+        "label": "Startup",
+        "notes": "Explicit Startup mention at the frozen source offsets. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:ac007877-2f78-5e44-bd24-c897f7265567:207:210": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:ac007877-2f78-5e44-bd24-c897f7265567:237:246": {
+        "label": "Product",
+        "notes": "Explicit Product mention at the frozen source offsets. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:ac007877-2f78-5e44-bd24-c897f7265567:481:488": {
+        "label": "Investor",
+        "notes": "Investor explicitly named in the source investor list. Company-authored text is not independent confirmation of financing. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:ac007877-2f78-5e44-bd24-c897f7265567:490:499": {
+        "label": "Investor",
+        "notes": "Investor explicitly named in the source investor list. Company-authored text is not independent confirmation of financing. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:ac007877-2f78-5e44-bd24-c897f7265567:501:504": {
+        "label": "Investor",
+        "notes": "Investor explicitly named in the source investor list. Company-authored text is not independent confirmation of financing. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:ac007877-2f78-5e44-bd24-c897f7265567:510:518": {
+        "label": "Investor",
+        "notes": "Investor explicitly named in the source investor list. Company-authored text is not independent confirmation of financing. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:ac007877-2f78-5e44-bd24-c897f7265567:755:759": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:ac007877-2f78-5e44-bd24-c897f7265567:793:802": {
+        "label": "Product",
+        "notes": "Explicit Product mention at the frozen source offsets. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:ac007877-2f78-5e44-bd24-c897f7265567:834:841": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:ac007877-2f78-5e44-bd24-c897f7265567:869:875": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:364d3130-0325-5326-8978-ab6372a3a9e3:0:5": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:364d3130-0325-5326-8978-ab6372a3a9e3:12:21": {
+        "label": "Startup",
+        "notes": "Explicit Startup mention at the frozen source offsets. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:364d3130-0325-5326-8978-ab6372a3a9e3:207:210": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:364d3130-0325-5326-8978-ab6372a3a9e3:237:246": {
+        "label": "Product",
+        "notes": "Explicit Product mention at the frozen source offsets. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:364d3130-0325-5326-8978-ab6372a3a9e3:481:488": {
+        "label": "Investor",
+        "notes": "Investor explicitly named in the source investor list. Company-authored text is not independent confirmation of financing. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:364d3130-0325-5326-8978-ab6372a3a9e3:490:499": {
+        "label": "Investor",
+        "notes": "Investor explicitly named in the source investor list. Company-authored text is not independent confirmation of financing. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:364d3130-0325-5326-8978-ab6372a3a9e3:501:504": {
+        "label": "Investor",
+        "notes": "Investor explicitly named in the source investor list. Company-authored text is not independent confirmation of financing. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:364d3130-0325-5326-8978-ab6372a3a9e3:510:518": {
+        "label": "Investor",
+        "notes": "Investor explicitly named in the source investor list. Company-authored text is not independent confirmation of financing. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:364d3130-0325-5326-8978-ab6372a3a9e3:755:759": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:364d3130-0325-5326-8978-ab6372a3a9e3:793:802": {
+        "label": "Product",
+        "notes": "Explicit Product mention at the frozen source offsets. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:364d3130-0325-5326-8978-ab6372a3a9e3:834:841": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:364d3130-0325-5326-8978-ab6372a3a9e3:869:875": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:50235647-63d5-510f-b950-6bb34fe34c15:0:5": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:50235647-63d5-510f-b950-6bb34fe34c15:12:21": {
+        "label": "Startup",
+        "notes": "Explicit Startup mention at the frozen source offsets. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:50235647-63d5-510f-b950-6bb34fe34c15:207:210": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:50235647-63d5-510f-b950-6bb34fe34c15:237:246": {
+        "label": "Product",
+        "notes": "Explicit Product mention at the frozen source offsets. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:50235647-63d5-510f-b950-6bb34fe34c15:481:488": {
+        "label": "Investor",
+        "notes": "Investor explicitly named in the source investor list. Company-authored text is not independent confirmation of financing. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:50235647-63d5-510f-b950-6bb34fe34c15:490:499": {
+        "label": "Investor",
+        "notes": "Investor explicitly named in the source investor list. Company-authored text is not independent confirmation of financing. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:50235647-63d5-510f-b950-6bb34fe34c15:501:504": {
+        "label": "Investor",
+        "notes": "Investor explicitly named in the source investor list. Company-authored text is not independent confirmation of financing. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:50235647-63d5-510f-b950-6bb34fe34c15:510:518": {
+        "label": "Investor",
+        "notes": "Investor explicitly named in the source investor list. Company-authored text is not independent confirmation of financing. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:50235647-63d5-510f-b950-6bb34fe34c15:755:759": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:50235647-63d5-510f-b950-6bb34fe34c15:793:802": {
+        "label": "Product",
+        "notes": "Explicit Product mention at the frozen source offsets. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:50235647-63d5-510f-b950-6bb34fe34c15:834:841": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:50235647-63d5-510f-b950-6bb34fe34c15:869:875": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:1cf2222b-1e3c-537a-a267-da5a25205e43:0:5": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:1cf2222b-1e3c-537a-a267-da5a25205e43:12:21": {
+        "label": "Startup",
+        "notes": "Explicit Startup mention at the frozen source offsets. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:1cf2222b-1e3c-537a-a267-da5a25205e43:207:210": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:1cf2222b-1e3c-537a-a267-da5a25205e43:237:246": {
+        "label": "Product",
+        "notes": "Explicit Product mention at the frozen source offsets. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:1cf2222b-1e3c-537a-a267-da5a25205e43:481:488": {
+        "label": "Investor",
+        "notes": "Investor explicitly named in the source investor list. Company-authored text is not independent confirmation of financing. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:1cf2222b-1e3c-537a-a267-da5a25205e43:490:499": {
+        "label": "Investor",
+        "notes": "Investor explicitly named in the source investor list. Company-authored text is not independent confirmation of financing. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:1cf2222b-1e3c-537a-a267-da5a25205e43:501:504": {
+        "label": "Investor",
+        "notes": "Investor explicitly named in the source investor list. Company-authored text is not independent confirmation of financing. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:1cf2222b-1e3c-537a-a267-da5a25205e43:510:518": {
+        "label": "Investor",
+        "notes": "Investor explicitly named in the source investor list. Company-authored text is not independent confirmation of financing. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:1cf2222b-1e3c-537a-a267-da5a25205e43:755:759": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:1cf2222b-1e3c-537a-a267-da5a25205e43:793:802": {
+        "label": "Product",
+        "notes": "Explicit Product mention at the frozen source offsets. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:1cf2222b-1e3c-537a-a267-da5a25205e43:834:841": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:1cf2222b-1e3c-537a-a267-da5a25205e43:869:875": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:050c6cb9-2e90-5cb3-8c07-88f1507e808a:0:5": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:050c6cb9-2e90-5cb3-8c07-88f1507e808a:12:21": {
+        "label": "Startup",
+        "notes": "Explicit Startup mention at the frozen source offsets. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:050c6cb9-2e90-5cb3-8c07-88f1507e808a:207:210": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:050c6cb9-2e90-5cb3-8c07-88f1507e808a:237:246": {
+        "label": "Product",
+        "notes": "Explicit Product mention at the frozen source offsets. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:050c6cb9-2e90-5cb3-8c07-88f1507e808a:481:488": {
+        "label": "Investor",
+        "notes": "Investor explicitly named in the source investor list. Company-authored text is not independent confirmation of financing. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:050c6cb9-2e90-5cb3-8c07-88f1507e808a:490:499": {
+        "label": "Investor",
+        "notes": "Investor explicitly named in the source investor list. Company-authored text is not independent confirmation of financing. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:050c6cb9-2e90-5cb3-8c07-88f1507e808a:501:504": {
+        "label": "Investor",
+        "notes": "Investor explicitly named in the source investor list. Company-authored text is not independent confirmation of financing. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:050c6cb9-2e90-5cb3-8c07-88f1507e808a:510:518": {
+        "label": "Investor",
+        "notes": "Investor explicitly named in the source investor list. Company-authored text is not independent confirmation of financing. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:050c6cb9-2e90-5cb3-8c07-88f1507e808a:755:759": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:050c6cb9-2e90-5cb3-8c07-88f1507e808a:793:802": {
+        "label": "Product",
+        "notes": "Explicit Product mention at the frozen source offsets. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:050c6cb9-2e90-5cb3-8c07-88f1507e808a:834:841": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:050c6cb9-2e90-5cb3-8c07-88f1507e808a:869:875": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:8a299686-3575-5e3b-9aeb-d69466277f57:0:5": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:8a299686-3575-5e3b-9aeb-d69466277f57:12:21": {
+        "label": "Startup",
+        "notes": "Explicit Startup mention at the frozen source offsets. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:8a299686-3575-5e3b-9aeb-d69466277f57:207:210": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:8a299686-3575-5e3b-9aeb-d69466277f57:237:246": {
+        "label": "Product",
+        "notes": "Explicit Product mention at the frozen source offsets. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:8a299686-3575-5e3b-9aeb-d69466277f57:481:488": {
+        "label": "Investor",
+        "notes": "Investor explicitly named in the source investor list. Company-authored text is not independent confirmation of financing. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:8a299686-3575-5e3b-9aeb-d69466277f57:490:499": {
+        "label": "Investor",
+        "notes": "Investor explicitly named in the source investor list. Company-authored text is not independent confirmation of financing. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:8a299686-3575-5e3b-9aeb-d69466277f57:501:504": {
+        "label": "Investor",
+        "notes": "Investor explicitly named in the source investor list. Company-authored text is not independent confirmation of financing. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:8a299686-3575-5e3b-9aeb-d69466277f57:510:518": {
+        "label": "Investor",
+        "notes": "Investor explicitly named in the source investor list. Company-authored text is not independent confirmation of financing. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:8a299686-3575-5e3b-9aeb-d69466277f57:755:759": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:8a299686-3575-5e3b-9aeb-d69466277f57:793:802": {
+        "label": "Product",
+        "notes": "Explicit Product mention at the frozen source offsets. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:8a299686-3575-5e3b-9aeb-d69466277f57:834:841": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:8a299686-3575-5e3b-9aeb-d69466277f57:869:875": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:3d04a042-5b1a-51f9-a86c-c284f338a35a:0:5": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:3d04a042-5b1a-51f9-a86c-c284f338a35a:12:21": {
+        "label": "Startup",
+        "notes": "Explicit Startup mention at the frozen source offsets. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:3d04a042-5b1a-51f9-a86c-c284f338a35a:207:210": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:3d04a042-5b1a-51f9-a86c-c284f338a35a:237:246": {
+        "label": "Product",
+        "notes": "Explicit Product mention at the frozen source offsets. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:3d04a042-5b1a-51f9-a86c-c284f338a35a:481:488": {
+        "label": "Investor",
+        "notes": "Investor explicitly named in the source investor list. Company-authored text is not independent confirmation of financing. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:3d04a042-5b1a-51f9-a86c-c284f338a35a:490:499": {
+        "label": "Investor",
+        "notes": "Investor explicitly named in the source investor list. Company-authored text is not independent confirmation of financing. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:3d04a042-5b1a-51f9-a86c-c284f338a35a:501:504": {
+        "label": "Investor",
+        "notes": "Investor explicitly named in the source investor list. Company-authored text is not independent confirmation of financing. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:3d04a042-5b1a-51f9-a86c-c284f338a35a:510:518": {
+        "label": "Investor",
+        "notes": "Investor explicitly named in the source investor list. Company-authored text is not independent confirmation of financing. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:3d04a042-5b1a-51f9-a86c-c284f338a35a:755:759": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:3d04a042-5b1a-51f9-a86c-c284f338a35a:793:802": {
+        "label": "Product",
+        "notes": "Explicit Product mention at the frozen source offsets. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:3d04a042-5b1a-51f9-a86c-c284f338a35a:834:841": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:3d04a042-5b1a-51f9-a86c-c284f338a35a:869:875": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:32a5b90a-9b89-50c5-b05b-d060ac441c0b:0:5": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:32a5b90a-9b89-50c5-b05b-d060ac441c0b:12:21": {
+        "label": "Startup",
+        "notes": "Explicit Startup mention at the frozen source offsets. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:32a5b90a-9b89-50c5-b05b-d060ac441c0b:207:210": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:32a5b90a-9b89-50c5-b05b-d060ac441c0b:237:246": {
+        "label": "Product",
+        "notes": "Explicit Product mention at the frozen source offsets. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:32a5b90a-9b89-50c5-b05b-d060ac441c0b:481:488": {
+        "label": "Investor",
+        "notes": "Investor explicitly named in the source investor list. Company-authored text is not independent confirmation of financing. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:32a5b90a-9b89-50c5-b05b-d060ac441c0b:490:499": {
+        "label": "Investor",
+        "notes": "Investor explicitly named in the source investor list. Company-authored text is not independent confirmation of financing. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:32a5b90a-9b89-50c5-b05b-d060ac441c0b:501:504": {
+        "label": "Investor",
+        "notes": "Investor explicitly named in the source investor list. Company-authored text is not independent confirmation of financing. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:32a5b90a-9b89-50c5-b05b-d060ac441c0b:510:518": {
+        "label": "Investor",
+        "notes": "Investor explicitly named in the source investor list. Company-authored text is not independent confirmation of financing. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:32a5b90a-9b89-50c5-b05b-d060ac441c0b:755:759": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:32a5b90a-9b89-50c5-b05b-d060ac441c0b:793:802": {
+        "label": "Product",
+        "notes": "Explicit Product mention at the frozen source offsets. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:32a5b90a-9b89-50c5-b05b-d060ac441c0b:834:841": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:32a5b90a-9b89-50c5-b05b-d060ac441c0b:869:875": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:877c4672-4f7c-582b-a4a0-08e856fd8af7:0:5": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:877c4672-4f7c-582b-a4a0-08e856fd8af7:12:21": {
+        "label": "Startup",
+        "notes": "Explicit Startup mention at the frozen source offsets. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:877c4672-4f7c-582b-a4a0-08e856fd8af7:207:210": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:877c4672-4f7c-582b-a4a0-08e856fd8af7:237:246": {
+        "label": "Product",
+        "notes": "Explicit Product mention at the frozen source offsets. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:877c4672-4f7c-582b-a4a0-08e856fd8af7:481:488": {
+        "label": "Investor",
+        "notes": "Investor explicitly named in the source investor list. Company-authored text is not independent confirmation of financing. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:877c4672-4f7c-582b-a4a0-08e856fd8af7:490:499": {
+        "label": "Investor",
+        "notes": "Investor explicitly named in the source investor list. Company-authored text is not independent confirmation of financing. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:877c4672-4f7c-582b-a4a0-08e856fd8af7:501:504": {
+        "label": "Investor",
+        "notes": "Investor explicitly named in the source investor list. Company-authored text is not independent confirmation of financing. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:877c4672-4f7c-582b-a4a0-08e856fd8af7:510:518": {
+        "label": "Investor",
+        "notes": "Investor explicitly named in the source investor list. Company-authored text is not independent confirmation of financing. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:877c4672-4f7c-582b-a4a0-08e856fd8af7:755:759": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:877c4672-4f7c-582b-a4a0-08e856fd8af7:793:802": {
+        "label": "Product",
+        "notes": "Explicit Product mention at the frozen source offsets. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:877c4672-4f7c-582b-a4a0-08e856fd8af7:834:841": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:877c4672-4f7c-582b-a4a0-08e856fd8af7:869:875": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:193d169c-9710-57a2-b733-0f96018e15eb:0:5": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:193d169c-9710-57a2-b733-0f96018e15eb:12:21": {
+        "label": "Startup",
+        "notes": "Explicit Startup mention at the frozen source offsets. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:193d169c-9710-57a2-b733-0f96018e15eb:207:210": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:193d169c-9710-57a2-b733-0f96018e15eb:237:246": {
+        "label": "Product",
+        "notes": "Explicit Product mention at the frozen source offsets. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:193d169c-9710-57a2-b733-0f96018e15eb:481:488": {
+        "label": "Investor",
+        "notes": "Investor explicitly named in the source investor list. Company-authored text is not independent confirmation of financing. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:193d169c-9710-57a2-b733-0f96018e15eb:490:499": {
+        "label": "Investor",
+        "notes": "Investor explicitly named in the source investor list. Company-authored text is not independent confirmation of financing. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:193d169c-9710-57a2-b733-0f96018e15eb:501:504": {
+        "label": "Investor",
+        "notes": "Investor explicitly named in the source investor list. Company-authored text is not independent confirmation of financing. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:193d169c-9710-57a2-b733-0f96018e15eb:510:518": {
+        "label": "Investor",
+        "notes": "Investor explicitly named in the source investor list. Company-authored text is not independent confirmation of financing. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:193d169c-9710-57a2-b733-0f96018e15eb:755:759": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:193d169c-9710-57a2-b733-0f96018e15eb:793:802": {
+        "label": "Product",
+        "notes": "Explicit Product mention at the frozen source offsets. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:193d169c-9710-57a2-b733-0f96018e15eb:834:841": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:193d169c-9710-57a2-b733-0f96018e15eb:869:875": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:ee48465f-09e2-5c88-8bff-dc68032962cd:0:5": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:ee48465f-09e2-5c88-8bff-dc68032962cd:12:21": {
+        "label": "Startup",
+        "notes": "Explicit Startup mention at the frozen source offsets. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:ee48465f-09e2-5c88-8bff-dc68032962cd:207:210": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:ee48465f-09e2-5c88-8bff-dc68032962cd:237:246": {
+        "label": "Product",
+        "notes": "Explicit Product mention at the frozen source offsets. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:ee48465f-09e2-5c88-8bff-dc68032962cd:481:488": {
+        "label": "Investor",
+        "notes": "Investor explicitly named in the source investor list. Company-authored text is not independent confirmation of financing. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:ee48465f-09e2-5c88-8bff-dc68032962cd:490:499": {
+        "label": "Investor",
+        "notes": "Investor explicitly named in the source investor list. Company-authored text is not independent confirmation of financing. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:ee48465f-09e2-5c88-8bff-dc68032962cd:501:504": {
+        "label": "Investor",
+        "notes": "Investor explicitly named in the source investor list. Company-authored text is not independent confirmation of financing. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:ee48465f-09e2-5c88-8bff-dc68032962cd:510:518": {
+        "label": "Investor",
+        "notes": "Investor explicitly named in the source investor list. Company-authored text is not independent confirmation of financing. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:ee48465f-09e2-5c88-8bff-dc68032962cd:755:759": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:ee48465f-09e2-5c88-8bff-dc68032962cd:793:802": {
+        "label": "Product",
+        "notes": "Explicit Product mention at the frozen source offsets. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:ee48465f-09e2-5c88-8bff-dc68032962cd:834:841": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:ee48465f-09e2-5c88-8bff-dc68032962cd:869:875": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:2cc150d0-748d-599b-bf30-18f175d2773f:0:5": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:2cc150d0-748d-599b-bf30-18f175d2773f:12:21": {
+        "label": "Startup",
+        "notes": "Explicit Startup mention at the frozen source offsets. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:2cc150d0-748d-599b-bf30-18f175d2773f:207:210": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:2cc150d0-748d-599b-bf30-18f175d2773f:237:246": {
+        "label": "Product",
+        "notes": "Explicit Product mention at the frozen source offsets. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:2cc150d0-748d-599b-bf30-18f175d2773f:481:488": {
+        "label": "Investor",
+        "notes": "Investor explicitly named in the source investor list. Company-authored text is not independent confirmation of financing. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:2cc150d0-748d-599b-bf30-18f175d2773f:490:499": {
+        "label": "Investor",
+        "notes": "Investor explicitly named in the source investor list. Company-authored text is not independent confirmation of financing. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:2cc150d0-748d-599b-bf30-18f175d2773f:501:504": {
+        "label": "Investor",
+        "notes": "Investor explicitly named in the source investor list. Company-authored text is not independent confirmation of financing. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:2cc150d0-748d-599b-bf30-18f175d2773f:510:518": {
+        "label": "Investor",
+        "notes": "Investor explicitly named in the source investor list. Company-authored text is not independent confirmation of financing. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:2cc150d0-748d-599b-bf30-18f175d2773f:755:759": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:2cc150d0-748d-599b-bf30-18f175d2773f:793:802": {
+        "label": "Product",
+        "notes": "Explicit Product mention at the frozen source offsets. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:2cc150d0-748d-599b-bf30-18f175d2773f:834:841": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:2cc150d0-748d-599b-bf30-18f175d2773f:869:875": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:d1e116fd-c046-5c5f-adcd-4363b1dd6f05:0:5": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:d1e116fd-c046-5c5f-adcd-4363b1dd6f05:12:21": {
+        "label": "Startup",
+        "notes": "Explicit Startup mention at the frozen source offsets. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:d1e116fd-c046-5c5f-adcd-4363b1dd6f05:207:210": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:d1e116fd-c046-5c5f-adcd-4363b1dd6f05:237:246": {
+        "label": "Product",
+        "notes": "Explicit Product mention at the frozen source offsets. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:d1e116fd-c046-5c5f-adcd-4363b1dd6f05:481:488": {
+        "label": "Investor",
+        "notes": "Investor explicitly named in the source investor list. Company-authored text is not independent confirmation of financing. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:d1e116fd-c046-5c5f-adcd-4363b1dd6f05:490:499": {
+        "label": "Investor",
+        "notes": "Investor explicitly named in the source investor list. Company-authored text is not independent confirmation of financing. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:d1e116fd-c046-5c5f-adcd-4363b1dd6f05:501:504": {
+        "label": "Investor",
+        "notes": "Investor explicitly named in the source investor list. Company-authored text is not independent confirmation of financing. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:d1e116fd-c046-5c5f-adcd-4363b1dd6f05:510:518": {
+        "label": "Investor",
+        "notes": "Investor explicitly named in the source investor list. Company-authored text is not independent confirmation of financing. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:d1e116fd-c046-5c5f-adcd-4363b1dd6f05:755:759": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:d1e116fd-c046-5c5f-adcd-4363b1dd6f05:793:802": {
+        "label": "Product",
+        "notes": "Explicit Product mention at the frozen source offsets. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:d1e116fd-c046-5c5f-adcd-4363b1dd6f05:834:841": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:d1e116fd-c046-5c5f-adcd-4363b1dd6f05:869:875": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:e32554b1-b6fa-5aad-a649-14ad5624d314:91:97": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:82d08508-5cb5-55aa-8dd0-e1f1cb617baf:91:97": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:4fe7a036-fb5f-5a42-b7b0-ebca165b2a23:91:97": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:82e2fe08-1179-57ad-a3f5-853b4d9e287c:91:97": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:ad28ea32-93ea-5f21-acec-63b36522ac08:91:97": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:a4015ce7-0535-56c8-b14f-1a40fac7019d:91:97": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:55654984-542c-5e52-9ce8-5678d80688e8:91:97": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:1b0b26ad-97db-5001-a34d-24ddc270d344:91:97": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:82040a95-5e36-5edf-80c0-2f22ed9b9769:85:91": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:80da3961-90c2-5c24-9f09-496c77d41929:85:91": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:2463005a-34b7-54df-b54e-10f1c903354f:85:91": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:f3b13310-8958-5220-8e75-21518ee410bb:85:91": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:d73889b4-efa2-5be4-8dbe-81b2d61fa420:85:91": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:ae6caf46-50d6-5c10-af7d-2dc94c3e1be1:85:91": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:a626478e-cf2a-5067-9b9b-972dc5e28960:85:91": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:1591dac0-291d-5d48-aaef-1e3c91026f0c:85:91": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:de67be64-1e7e-55a7-8567-b9ee5e68f40f:87:93": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:91e830e7-da6b-504b-99fc-1e1e06f15e2d:87:93": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:c3682e8d-7a90-50eb-b21a-6bc793882888:86:92": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:f42e99ff-4906-5bb0-8c33-3896e7c421a0:87:93": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:6e165beb-a7fb-510e-a84e-7402fde2b291:87:93": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:2160e027-2dc5-56da-9854-d85e07ee4621:87:93": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:de366123-a4a6-5251-aacc-d5ba8a22a5e3:87:93": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "entity:8e331615-dcc0-5ed1-8ee7-e29e0ecaa6f8:87:93": {
+        "label": "NONE",
+        "notes": "Reject this candidate: heading, ordinary word, partial phrase/person name, or organization outside the supported Startup/Investor context. No label inferred from a fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      }
+    },
+    "relations": {
+      "relation:eb174b5a-a28e-5260-a99a-aeb84f1e4be8:0": {
+        "label": "MENTIONS",
+        "notes": "Document explicitly mentions the accepted named object. No causal or temporal event edge inferred. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "relation:eb174b5a-a28e-5260-a99a-aeb84f1e4be8:10": {
+        "label": "NONE",
+        "notes": "Reject: object is a heading, ordinary word or unsupported fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "relation:eb174b5a-a28e-5260-a99a-aeb84f1e4be8:23": {
+        "label": "NONE",
+        "notes": "Reject: object is a heading, ordinary word or unsupported fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "relation:eb174b5a-a28e-5260-a99a-aeb84f1e4be8:39": {
+        "label": "NONE",
+        "notes": "Reject: object is a heading, ordinary word or unsupported fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "relation:8040d79a-d5bc-57b8-80ed-3b703a3d7af3:0": {
+        "label": "NONE",
+        "notes": "Reject: object is a heading, ordinary word or unsupported fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "relation:8040d79a-d5bc-57b8-80ed-3b703a3d7af3:15": {
+        "label": "NONE",
+        "notes": "Reject: object is a heading, ordinary word or unsupported fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "relation:8040d79a-d5bc-57b8-80ed-3b703a3d7af3:93": {
+        "label": "MENTIONS",
+        "notes": "Document explicitly mentions the accepted named object. No causal or temporal event edge inferred. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "relation:8040d79a-d5bc-57b8-80ed-3b703a3d7af3:142": {
+        "label": "MENTIONS",
+        "notes": "Document explicitly mentions the accepted named object. No causal or temporal event edge inferred. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "relation:8767e401-ef9f-5ca1-aea7-36dd179301b7:0": {
+        "label": "NONE",
+        "notes": "Reject: object is a heading, ordinary word or unsupported fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "relation:8767e401-ef9f-5ca1-aea7-36dd179301b7:14": {
+        "label": "NONE",
+        "notes": "Reject: object is a heading, ordinary word or unsupported fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "relation:8767e401-ef9f-5ca1-aea7-36dd179301b7:52": {
+        "label": "NONE",
+        "notes": "Reject: object is a heading, ordinary word or unsupported fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "relation:8767e401-ef9f-5ca1-aea7-36dd179301b7:57": {
+        "label": "NONE",
+        "notes": "Reject: object is a heading, ordinary word or unsupported fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "relation:b4c06ed8-d4f1-593d-bb1c-f8a329355cab:0": {
+        "label": "NONE",
+        "notes": "Reject: object is a heading, ordinary word or unsupported fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "relation:b4c06ed8-d4f1-593d-bb1c-f8a329355cab:97": {
+        "label": "NONE",
+        "notes": "Reject: object is a heading, ordinary word or unsupported fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "relation:b4c06ed8-d4f1-593d-bb1c-f8a329355cab:103": {
+        "label": "NONE",
+        "notes": "Reject: object is a heading, ordinary word or unsupported fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "relation:b4c06ed8-d4f1-593d-bb1c-f8a329355cab:107": {
+        "label": "NONE",
+        "notes": "Reject: object is a heading, ordinary word or unsupported fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "relation:7db42262-253c-50c2-b41a-40aa32637d12:0": {
+        "label": "NONE",
+        "notes": "Reject: object is a heading, ordinary word or unsupported fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "relation:7db42262-253c-50c2-b41a-40aa32637d12:97": {
+        "label": "NONE",
+        "notes": "Reject: object is a heading, ordinary word or unsupported fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "relation:7db42262-253c-50c2-b41a-40aa32637d12:103": {
+        "label": "NONE",
+        "notes": "Reject: object is a heading, ordinary word or unsupported fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "relation:7db42262-253c-50c2-b41a-40aa32637d12:107": {
+        "label": "NONE",
+        "notes": "Reject: object is a heading, ordinary word or unsupported fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "relation:5d7a7ced-53aa-5b84-b7c5-30c694e18633:0": {
+        "label": "NONE",
+        "notes": "Reject: object is a heading, ordinary word or unsupported fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "relation:5d7a7ced-53aa-5b84-b7c5-30c694e18633:97": {
+        "label": "NONE",
+        "notes": "Reject: object is a heading, ordinary word or unsupported fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "relation:5d7a7ced-53aa-5b84-b7c5-30c694e18633:179": {
+        "label": "NONE",
+        "notes": "Reject: object is a heading, ordinary word or unsupported fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "relation:5d7a7ced-53aa-5b84-b7c5-30c694e18633:266": {
+        "label": "NONE",
+        "notes": "Reject: object is a heading, ordinary word or unsupported fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "relation:724f07a0-9038-5c04-a444-a224e9ba24d4:0": {
+        "label": "NONE",
+        "notes": "Reject: object is a heading, ordinary word or unsupported fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "relation:724f07a0-9038-5c04-a444-a224e9ba24d4:12": {
+        "label": "MENTIONS",
+        "notes": "Document explicitly mentions the accepted named object. No causal or temporal event edge inferred. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "relation:724f07a0-9038-5c04-a444-a224e9ba24d4:207": {
+        "label": "NONE",
+        "notes": "Reject: object is a heading, ordinary word or unsupported fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "relation:724f07a0-9038-5c04-a444-a224e9ba24d4:237": {
+        "label": "MENTIONS",
+        "notes": "Document explicitly mentions the accepted named object. No causal or temporal event edge inferred. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "relation:36725462-2467-59f7-9830-ceca221e5623:0": {
+        "label": "NONE",
+        "notes": "Reject: object is a heading, ordinary word or unsupported fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "relation:36725462-2467-59f7-9830-ceca221e5623:12": {
+        "label": "MENTIONS",
+        "notes": "Document explicitly mentions the accepted named object. No causal or temporal event edge inferred. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "relation:36725462-2467-59f7-9830-ceca221e5623:207": {
+        "label": "NONE",
+        "notes": "Reject: object is a heading, ordinary word or unsupported fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "relation:36725462-2467-59f7-9830-ceca221e5623:237": {
+        "label": "MENTIONS",
+        "notes": "Document explicitly mentions the accepted named object. No causal or temporal event edge inferred. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "relation:ac007877-2f78-5e44-bd24-c897f7265567:0": {
+        "label": "NONE",
+        "notes": "Reject: object is a heading, ordinary word or unsupported fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "relation:ac007877-2f78-5e44-bd24-c897f7265567:12": {
+        "label": "MENTIONS",
+        "notes": "Document explicitly mentions the accepted named object. No causal or temporal event edge inferred. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "relation:ac007877-2f78-5e44-bd24-c897f7265567:207": {
+        "label": "NONE",
+        "notes": "Reject: object is a heading, ordinary word or unsupported fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "relation:ac007877-2f78-5e44-bd24-c897f7265567:237": {
+        "label": "MENTIONS",
+        "notes": "Document explicitly mentions the accepted named object. No causal or temporal event edge inferred. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "relation:364d3130-0325-5326-8978-ab6372a3a9e3:0": {
+        "label": "NONE",
+        "notes": "Reject: object is a heading, ordinary word or unsupported fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "relation:364d3130-0325-5326-8978-ab6372a3a9e3:12": {
+        "label": "MENTIONS",
+        "notes": "Document explicitly mentions the accepted named object. No causal or temporal event edge inferred. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "relation:364d3130-0325-5326-8978-ab6372a3a9e3:207": {
+        "label": "NONE",
+        "notes": "Reject: object is a heading, ordinary word or unsupported fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "relation:364d3130-0325-5326-8978-ab6372a3a9e3:237": {
+        "label": "MENTIONS",
+        "notes": "Document explicitly mentions the accepted named object. No causal or temporal event edge inferred. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "relation:50235647-63d5-510f-b950-6bb34fe34c15:0": {
+        "label": "NONE",
+        "notes": "Reject: object is a heading, ordinary word or unsupported fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "relation:50235647-63d5-510f-b950-6bb34fe34c15:12": {
+        "label": "MENTIONS",
+        "notes": "Document explicitly mentions the accepted named object. No causal or temporal event edge inferred. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "relation:50235647-63d5-510f-b950-6bb34fe34c15:207": {
+        "label": "NONE",
+        "notes": "Reject: object is a heading, ordinary word or unsupported fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "relation:50235647-63d5-510f-b950-6bb34fe34c15:237": {
+        "label": "MENTIONS",
+        "notes": "Document explicitly mentions the accepted named object. No causal or temporal event edge inferred. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "relation:1cf2222b-1e3c-537a-a267-da5a25205e43:0": {
+        "label": "NONE",
+        "notes": "Reject: object is a heading, ordinary word or unsupported fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "relation:1cf2222b-1e3c-537a-a267-da5a25205e43:12": {
+        "label": "MENTIONS",
+        "notes": "Document explicitly mentions the accepted named object. No causal or temporal event edge inferred. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "relation:1cf2222b-1e3c-537a-a267-da5a25205e43:207": {
+        "label": "NONE",
+        "notes": "Reject: object is a heading, ordinary word or unsupported fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "relation:1cf2222b-1e3c-537a-a267-da5a25205e43:237": {
+        "label": "MENTIONS",
+        "notes": "Document explicitly mentions the accepted named object. No causal or temporal event edge inferred. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "relation:050c6cb9-2e90-5cb3-8c07-88f1507e808a:0": {
+        "label": "NONE",
+        "notes": "Reject: object is a heading, ordinary word or unsupported fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "relation:050c6cb9-2e90-5cb3-8c07-88f1507e808a:12": {
+        "label": "MENTIONS",
+        "notes": "Document explicitly mentions the accepted named object. No causal or temporal event edge inferred. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "relation:050c6cb9-2e90-5cb3-8c07-88f1507e808a:207": {
+        "label": "NONE",
+        "notes": "Reject: object is a heading, ordinary word or unsupported fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "relation:050c6cb9-2e90-5cb3-8c07-88f1507e808a:237": {
+        "label": "MENTIONS",
+        "notes": "Document explicitly mentions the accepted named object. No causal or temporal event edge inferred. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "relation:8a299686-3575-5e3b-9aeb-d69466277f57:0": {
+        "label": "NONE",
+        "notes": "Reject: object is a heading, ordinary word or unsupported fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "relation:8a299686-3575-5e3b-9aeb-d69466277f57:12": {
+        "label": "MENTIONS",
+        "notes": "Document explicitly mentions the accepted named object. No causal or temporal event edge inferred. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "relation:8a299686-3575-5e3b-9aeb-d69466277f57:207": {
+        "label": "NONE",
+        "notes": "Reject: object is a heading, ordinary word or unsupported fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "relation:8a299686-3575-5e3b-9aeb-d69466277f57:237": {
+        "label": "MENTIONS",
+        "notes": "Document explicitly mentions the accepted named object. No causal or temporal event edge inferred. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "relation:3d04a042-5b1a-51f9-a86c-c284f338a35a:0": {
+        "label": "NONE",
+        "notes": "Reject: object is a heading, ordinary word or unsupported fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "relation:3d04a042-5b1a-51f9-a86c-c284f338a35a:12": {
+        "label": "MENTIONS",
+        "notes": "Document explicitly mentions the accepted named object. No causal or temporal event edge inferred. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "relation:3d04a042-5b1a-51f9-a86c-c284f338a35a:207": {
+        "label": "NONE",
+        "notes": "Reject: object is a heading, ordinary word or unsupported fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "relation:3d04a042-5b1a-51f9-a86c-c284f338a35a:237": {
+        "label": "MENTIONS",
+        "notes": "Document explicitly mentions the accepted named object. No causal or temporal event edge inferred. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "relation:32a5b90a-9b89-50c5-b05b-d060ac441c0b:0": {
+        "label": "NONE",
+        "notes": "Reject: object is a heading, ordinary word or unsupported fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "relation:32a5b90a-9b89-50c5-b05b-d060ac441c0b:12": {
+        "label": "MENTIONS",
+        "notes": "Document explicitly mentions the accepted named object. No causal or temporal event edge inferred. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "relation:32a5b90a-9b89-50c5-b05b-d060ac441c0b:207": {
+        "label": "NONE",
+        "notes": "Reject: object is a heading, ordinary word or unsupported fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "relation:32a5b90a-9b89-50c5-b05b-d060ac441c0b:237": {
+        "label": "MENTIONS",
+        "notes": "Document explicitly mentions the accepted named object. No causal or temporal event edge inferred. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "relation:877c4672-4f7c-582b-a4a0-08e856fd8af7:0": {
+        "label": "NONE",
+        "notes": "Reject: object is a heading, ordinary word or unsupported fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "relation:877c4672-4f7c-582b-a4a0-08e856fd8af7:12": {
+        "label": "MENTIONS",
+        "notes": "Document explicitly mentions the accepted named object. No causal or temporal event edge inferred. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "relation:877c4672-4f7c-582b-a4a0-08e856fd8af7:207": {
+        "label": "NONE",
+        "notes": "Reject: object is a heading, ordinary word or unsupported fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "relation:877c4672-4f7c-582b-a4a0-08e856fd8af7:237": {
+        "label": "MENTIONS",
+        "notes": "Document explicitly mentions the accepted named object. No causal or temporal event edge inferred. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "relation:193d169c-9710-57a2-b733-0f96018e15eb:0": {
+        "label": "NONE",
+        "notes": "Reject: object is a heading, ordinary word or unsupported fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "relation:193d169c-9710-57a2-b733-0f96018e15eb:12": {
+        "label": "MENTIONS",
+        "notes": "Document explicitly mentions the accepted named object. No causal or temporal event edge inferred. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "relation:193d169c-9710-57a2-b733-0f96018e15eb:207": {
+        "label": "NONE",
+        "notes": "Reject: object is a heading, ordinary word or unsupported fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "relation:193d169c-9710-57a2-b733-0f96018e15eb:237": {
+        "label": "MENTIONS",
+        "notes": "Document explicitly mentions the accepted named object. No causal or temporal event edge inferred. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "relation:ee48465f-09e2-5c88-8bff-dc68032962cd:0": {
+        "label": "NONE",
+        "notes": "Reject: object is a heading, ordinary word or unsupported fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "relation:ee48465f-09e2-5c88-8bff-dc68032962cd:12": {
+        "label": "MENTIONS",
+        "notes": "Document explicitly mentions the accepted named object. No causal or temporal event edge inferred. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "relation:ee48465f-09e2-5c88-8bff-dc68032962cd:207": {
+        "label": "NONE",
+        "notes": "Reject: object is a heading, ordinary word or unsupported fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "relation:ee48465f-09e2-5c88-8bff-dc68032962cd:237": {
+        "label": "MENTIONS",
+        "notes": "Document explicitly mentions the accepted named object. No causal or temporal event edge inferred. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "relation:2cc150d0-748d-599b-bf30-18f175d2773f:0": {
+        "label": "NONE",
+        "notes": "Reject: object is a heading, ordinary word or unsupported fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "relation:2cc150d0-748d-599b-bf30-18f175d2773f:12": {
+        "label": "MENTIONS",
+        "notes": "Document explicitly mentions the accepted named object. No causal or temporal event edge inferred. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "relation:2cc150d0-748d-599b-bf30-18f175d2773f:207": {
+        "label": "NONE",
+        "notes": "Reject: object is a heading, ordinary word or unsupported fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "relation:2cc150d0-748d-599b-bf30-18f175d2773f:237": {
+        "label": "MENTIONS",
+        "notes": "Document explicitly mentions the accepted named object. No causal or temporal event edge inferred. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "relation:d1e116fd-c046-5c5f-adcd-4363b1dd6f05:0": {
+        "label": "NONE",
+        "notes": "Reject: object is a heading, ordinary word or unsupported fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "relation:d1e116fd-c046-5c5f-adcd-4363b1dd6f05:12": {
+        "label": "MENTIONS",
+        "notes": "Document explicitly mentions the accepted named object. No causal or temporal event edge inferred. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "relation:d1e116fd-c046-5c5f-adcd-4363b1dd6f05:207": {
+        "label": "NONE",
+        "notes": "Reject: object is a heading, ordinary word or unsupported fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "relation:d1e116fd-c046-5c5f-adcd-4363b1dd6f05:237": {
+        "label": "MENTIONS",
+        "notes": "Document explicitly mentions the accepted named object. No causal or temporal event edge inferred. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "relation:e32554b1-b6fa-5aad-a649-14ad5624d314:91": {
+        "label": "NONE",
+        "notes": "Reject: object is a heading, ordinary word or unsupported fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "relation:82d08508-5cb5-55aa-8dd0-e1f1cb617baf:91": {
+        "label": "NONE",
+        "notes": "Reject: object is a heading, ordinary word or unsupported fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "relation:4fe7a036-fb5f-5a42-b7b0-ebca165b2a23:91": {
+        "label": "NONE",
+        "notes": "Reject: object is a heading, ordinary word or unsupported fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "relation:82e2fe08-1179-57ad-a3f5-853b4d9e287c:91": {
+        "label": "NONE",
+        "notes": "Reject: object is a heading, ordinary word or unsupported fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "relation:ad28ea32-93ea-5f21-acec-63b36522ac08:91": {
+        "label": "NONE",
+        "notes": "Reject: object is a heading, ordinary word or unsupported fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "relation:a4015ce7-0535-56c8-b14f-1a40fac7019d:91": {
+        "label": "NONE",
+        "notes": "Reject: object is a heading, ordinary word or unsupported fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "relation:55654984-542c-5e52-9ce8-5678d80688e8:91": {
+        "label": "NONE",
+        "notes": "Reject: object is a heading, ordinary word or unsupported fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "relation:1b0b26ad-97db-5001-a34d-24ddc270d344:91": {
+        "label": "NONE",
+        "notes": "Reject: object is a heading, ordinary word or unsupported fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "relation:82040a95-5e36-5edf-80c0-2f22ed9b9769:85": {
+        "label": "NONE",
+        "notes": "Reject: object is a heading, ordinary word or unsupported fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "relation:80da3961-90c2-5c24-9f09-496c77d41929:85": {
+        "label": "NONE",
+        "notes": "Reject: object is a heading, ordinary word or unsupported fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "relation:2463005a-34b7-54df-b54e-10f1c903354f:85": {
+        "label": "NONE",
+        "notes": "Reject: object is a heading, ordinary word or unsupported fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "relation:f3b13310-8958-5220-8e75-21518ee410bb:85": {
+        "label": "NONE",
+        "notes": "Reject: object is a heading, ordinary word or unsupported fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "relation:d73889b4-efa2-5be4-8dbe-81b2d61fa420:85": {
+        "label": "NONE",
+        "notes": "Reject: object is a heading, ordinary word or unsupported fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "relation:ae6caf46-50d6-5c10-af7d-2dc94c3e1be1:85": {
+        "label": "NONE",
+        "notes": "Reject: object is a heading, ordinary word or unsupported fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "relation:a626478e-cf2a-5067-9b9b-972dc5e28960:85": {
+        "label": "NONE",
+        "notes": "Reject: object is a heading, ordinary word or unsupported fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "relation:1591dac0-291d-5d48-aaef-1e3c91026f0c:85": {
+        "label": "NONE",
+        "notes": "Reject: object is a heading, ordinary word or unsupported fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "relation:de67be64-1e7e-55a7-8567-b9ee5e68f40f:87": {
+        "label": "NONE",
+        "notes": "Reject: object is a heading, ordinary word or unsupported fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "relation:91e830e7-da6b-504b-99fc-1e1e06f15e2d:87": {
+        "label": "NONE",
+        "notes": "Reject: object is a heading, ordinary word or unsupported fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "relation:c3682e8d-7a90-50eb-b21a-6bc793882888:86": {
+        "label": "NONE",
+        "notes": "Reject: object is a heading, ordinary word or unsupported fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "relation:f42e99ff-4906-5bb0-8c33-3896e7c421a0:87": {
+        "label": "NONE",
+        "notes": "Reject: object is a heading, ordinary word or unsupported fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "relation:6e165beb-a7fb-510e-a84e-7402fde2b291:87": {
+        "label": "NONE",
+        "notes": "Reject: object is a heading, ordinary word or unsupported fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "relation:2160e027-2dc5-56da-9854-d85e07ee4621:87": {
+        "label": "NONE",
+        "notes": "Reject: object is a heading, ordinary word or unsupported fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "relation:de366123-a4a6-5251-aacc-d5ba8a22a5e3:87": {
+        "label": "NONE",
+        "notes": "Reject: object is a heading, ordinary word or unsupported fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      },
+      "relation:8e331615-dcc0-5ed1-8ee7-e29e0ecaa6f8:87": {
+        "label": "NONE",
+        "notes": "Reject: object is a heading, ordinary word or unsupported fragment. | Source-assisted copy of Sueda Sen.",
+        "recorded_at": "2026-11-21T10:29:38.814320Z",
+        "personal_independence_confirmation": true,
+        "review_source": "team_authorized_source_assisted"
+      }
+    }
+  },
+  "method": "team_authorized_source_assisted_review",
+  "identity_basis": "Mehmet Aksit; team authorization and project-session request recorded, but no independent personal review claim.",
+  "independent_human_attestation": false,
+  "kappa_eligible": false,
+  "team_authorized_source_assisted": true,
+  "updated_at": "2026-11-21T10:29:38.814320Z",
+  "complete": true
+}

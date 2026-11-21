@@ -74,3 +74,15 @@ def test_archive_variant_replays_without_counting_a_new_company():
     assert result['merged_job_observations']==495
     assert result['comparisons'][0]['company_id']=='langchain'
     assert result['comparisons'][0]['net_posting_change']==0
+
+
+def test_mehmet_independent_review_json_is_complete_but_source_assisted():
+    data = json.loads(
+        (ROOT / 'evaluation/independent-review/mixed/mehmet.json').read_text(encoding='utf-8')
+    )
+    assert len(data['decisions']['entities']) == 276
+    assert len(data['decisions']['relations']) == 108
+    assert data['complete'] is True
+    assert data['method'] == 'team_authorized_source_assisted_review'
+    assert data['independent_human_attestation'] is False
+    assert data['kappa_eligible'] is False
