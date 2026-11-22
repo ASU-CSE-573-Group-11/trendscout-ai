@@ -87,7 +87,11 @@ def build(directory=DIRECTORY):
     arize_search=load(directory/'arize-discovery.json');captures+=load(directory/'arize-captures.json')
     baseline=load(root/'evaluation/cohort-job-history/manifest.json')
     prior_career=load(root/'evaluation/cohort-history-followup/review.json')
-    company_map={c['company_id']:c for c in load(root/'data/registry/cohort.json')['companies']}
+    # The audit names the input by its path at collection time. Its frozen copy
+    # has the same bytes even after the active board registry changes.
+    frozen_registry = root / 'evaluation/cohort-history-v2/cohort.json'
+    inputs['data/registry/cohort.json'] = sha(frozen_registry)
+    company_map = {c['company_id']: c for c in json.loads(frozen_registry.read_text())['companies']}
     board_audit=load(root/'evaluation/cohort-source-audit/board-audit.json')
     # The new board link is observed inside an official-company page's iframe.
     browser=root/'evaluation/browser-observations/weaviate-2026-11-21'

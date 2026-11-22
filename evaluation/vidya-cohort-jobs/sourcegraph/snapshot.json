@@ -1,0 +1,229 @@
+{
+  "snapshot_version": 2,
+  "source": "greenhouse",
+  "target": "sourcegraph91",
+  "company_id": "sourcegraph",
+  "company_name": "Sourcegraph",
+  "observed_at": "2026-11-22T06:18:16.852Z",
+  "origin_cluster_id": null,
+  "payload": {
+    "jobs": [
+      {
+        "absolute_url": "https://job-boards.greenhouse.io/sourcegraph91/jobs/6264761004",
+        "data_compliance": [
+          {
+            "type": "gdpr",
+            "requires_consent": false,
+            "requires_processing_consent": false,
+            "requires_retention_consent": false,
+            "retention_period": null,
+            "demographic_data_consent_applies": true
+          }
+        ],
+        "internal_job_id": 5242282004,
+        "location": {
+          "name": "Remote"
+        },
+        "metadata": null,
+        "id": 6264761004,
+        "updated_at": "2026-11-19T12:11:19-05:00",
+        "requisition_id": "659",
+        "title": "AI Transformation Architect [IC4]",
+        "company_name": "Sourcegraph",
+        "first_published": "2026-11-19T12:10:35-05:00",
+        "language": "en",
+        "application_deadline": null
+      },
+      {
+        "absolute_url": "https://job-boards.greenhouse.io/sourcegraph91/jobs/6209697004",
+        "data_compliance": [
+          {
+            "type": "gdpr",
+            "requires_consent": false,
+            "requires_processing_consent": false,
+            "requires_retention_consent": false,
+            "retention_period": null,
+            "demographic_data_consent_applies": true
+          }
+        ],
+        "internal_job_id": 5223388004,
+        "location": {
+          "name": "Remote"
+        },
+        "metadata": null,
+        "id": 6209697004,
+        "updated_at": "2026-10-07T14:58:30-04:00",
+        "requisition_id": "647",
+        "title": "Compliance Manager [IC3]",
+        "company_name": "Sourcegraph",
+        "first_published": "2026-10-07T14:58:30-04:00",
+        "language": "en",
+        "application_deadline": null
+      },
+      {
+        "absolute_url": "https://job-boards.greenhouse.io/sourcegraph91/jobs/6237958004",
+        "data_compliance": [
+          {
+            "type": "gdpr",
+            "requires_consent": false,
+            "requires_processing_consent": false,
+            "requires_retention_consent": false,
+            "retention_period": null,
+            "demographic_data_consent_applies": true
+          }
+        ],
+        "internal_job_id": 5233485004,
+        "location": {
+          "name": "Remote"
+        },
+        "metadata": null,
+        "id": 6237958004,
+        "updated_at": "2026-11-13T16:54:50-05:00",
+        "requisition_id": "650",
+        "title": "Enterprise Account Executive, US [IC5]",
+        "company_name": "Sourcegraph",
+        "first_published": "2026-11-13T16:54:50-05:00",
+        "language": "en",
+        "application_deadline": null
+      },
+      {
+        "absolute_url": "https://job-boards.greenhouse.io/sourcegraph91/jobs/4621149004",
+        "data_compliance": [
+          {
+            "type": "gdpr",
+            "requires_consent": false,
+            "requires_processing_consent": false,
+            "requires_retention_consent": false,
+            "retention_period": null,
+            "demographic_data_consent_applies": false
+          }
+        ],
+        "internal_job_id": null,
+        "location": {
+          "name": "Remote"
+        },
+        "metadata": null,
+        "id": 4621149004,
+        "updated_at": "2026-04-20T20:27:16-04:00",
+        "requisition_id": null,
+        "title": "Join our Talent Community to learn about future job opportunities!",
+        "company_name": "Sourcegraph",
+        "first_published": "2022-08-09T13:10:02-04:00",
+        "language": "en",
+        "application_deadline": null
+      },
+      {
+        "absolute_url": "https://job-boards.greenhouse.io/sourcegraph91/jobs/6264747004",
+        "data_compliance": [
+          {
+            "type": "gdpr",
+            "requires_consent": false,
+            "requires_processing_consent": false,
+            "requires_retention_consent": false,
+            "retention_period": null,
+            "demographic_data_consent_applies": true
+          }
+        ],
+        "internal_job_id": 5242273004,
+        "location": {
+          "name": "Remote"
+        },
+        "metadata": null,
+        "id": 6264747004,
+        "updated_at": "2026-11-19T12:07:43-05:00",
+        "requisition_id": "658",
+        "title": "Manager, Revenue Enablement & Strategy [M3]",
+        "company_name": "Sourcegraph",
+        "first_published": "2026-11-19T12:07:43-05:00",
+        "language": "en",
+        "application_deadline": null
+      },
+      {
+        "absolute_url": "https://job-boards.greenhouse.io/sourcegraph91/jobs/6185008004",
+        "data_compliance": [
+          {
+            "type": "gdpr",
+            "requires_consent": false,
+            "requires_processing_consent": false,
+            "requires_retention_consent": false,
+            "retention_period": null,
+            "demographic_data_consent_applies": true
+          }
+        ],
+        "internal_job_id": 5212069004,
+        "location": {
+          "name": "Remote"
+        },
+        "metadata": null,
+        "id": 6185008004,
+        "updated_at": "2026-10-05T13:55:57-04:00",
+        "requisition_id": "643",
+        "title": "ML & Agentic Systems Engineer [IC4]",
+        "company_name": "Sourcegraph",
+        "first_published": "2026-09-10T10:18:44-04:00",
+        "language": "en",
+        "application_deadline": null
+      },
+      {
+        "absolute_url": "https://job-boards.greenhouse.io/sourcegraph91/jobs/6103628004",
+        "data_compliance": [
+          {
+            "type": "gdpr",
+            "requires_consent": false,
+            "requires_processing_consent": false,
+            "requires_retention_consent": false,
+            "retention_period": null,
+            "demographic_data_consent_applies": true
+          }
+        ],
+        "internal_job_id": 5179961004,
+        "location": {
+          "name": "Remote"
+        },
+        "metadata": null,
+        "id": 6103628004,
+        "updated_at": "2026-10-08T14:27:31-04:00",
+        "requisition_id": "636",
+        "title": "Software Engineer - Platform [IC3]",
+        "company_name": "Sourcegraph",
+        "first_published": "2026-07-09T12:15:18-04:00",
+        "language": "en",
+        "application_deadline": null
+      },
+      {
+        "absolute_url": "https://job-boards.greenhouse.io/sourcegraph91/jobs/6237971004",
+        "data_compliance": [
+          {
+            "type": "gdpr",
+            "requires_consent": false,
+            "requires_processing_consent": false,
+            "requires_retention_consent": false,
+            "retention_period": null,
+            "demographic_data_consent_applies": true
+          }
+        ],
+        "internal_job_id": 5233493004,
+        "location": {
+          "name": "Remote"
+        },
+        "metadata": null,
+        "id": 6237971004,
+        "updated_at": "2026-11-11T21:29:22-05:00",
+        "requisition_id": "652",
+        "title": "Strategic Account Director - US [IC6]",
+        "company_name": "Sourcegraph",
+        "first_published": "2026-11-10T15:55:47-05:00",
+        "language": "en",
+        "application_deadline": null
+      }
+    ],
+    "meta": {
+      "total": 8
+    }
+  },
+  "coverage": {
+    "api_url": "https://boards-api.greenhouse.io/v1/boards/sourcegraph91/jobs",
+    "pages": 1,
+    "include_descriptions": false
+  }
+}

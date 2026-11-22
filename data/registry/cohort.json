@@ -102,7 +102,7 @@
       "github_repos": ["https://github.com/browserbase/stagehand"],
       "newsroom_url": "https://www.browserbase.com/blog",
       "rss_url": null,
-      "greenhouse_board": null,
+      "greenhouse_board": "browserbaseinc",
       "lever_site": null,
       "youtube_query": "Browserbase Stagehand"
     },
@@ -216,7 +216,7 @@
       "github_repos": ["https://github.com/sourcegraph/sourcegraph-public-snapshot"],
       "newsroom_url": "https://sourcegraph.com/blog",
       "rss_url": "https://about.sourcegraph.com/blog/rss.xml",
-      "greenhouse_board": null,
+      "greenhouse_board": "sourcegraph91",
       "lever_site": null,
       "youtube_query": "Sourcegraph Cody"
     },

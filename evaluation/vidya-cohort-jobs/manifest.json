@@ -1,0 +1,44 @@
+{
+  "source": "Greenhouse Job Board API",
+  "method": "Fresh public GET via Firecrawl, followed by python -m collectors --replay. Each payload is the complete listing-metadata response to the recorded URL. The content=true response was checked for the same posting IDs.",
+  "collector_version": "api-collectors/0.2.0",
+  "scope": "Point-in-time board observations after the frozen study window. The two registry boards account for 24 listings. Arize is reported separately.",
+  "runs": [
+    {
+      "company_id": "browserbase",
+      "target": "browserbaseinc",
+      "scope": "registry",
+      "observed_at": "2026-11-22T06:18:16.902Z",
+      "api_url": "https://boards-api.greenhouse.io/v1/boards/browserbaseinc/jobs",
+      "record_count": 16,
+      "snapshot": "browserbase/snapshot.json",
+      "snapshot_sha256": "e1e919be91499cdab37e1ef96e3be20a5d54603684081283b614328cb8fcd2ff",
+      "records": "browserbase/records.jsonl",
+      "records_sha256": "36eb6ea3b9caa946bf52d7c128ea412ba877c57b3cee0b30cb38184bea0d0d61"
+    },
+    {
+      "company_id": "sourcegraph",
+      "target": "sourcegraph91",
+      "scope": "registry",
+      "observed_at": "2026-11-22T06:18:16.852Z",
+      "api_url": "https://boards-api.greenhouse.io/v1/boards/sourcegraph91/jobs",
+      "record_count": 8,
+      "snapshot": "sourcegraph/snapshot.json",
+      "snapshot_sha256": "bda0f511f998dca0f7c40945da24a8fdb3f8377fd5fb072971839717ea7df3e5",
+      "records": "sourcegraph/records.jsonl",
+      "records_sha256": "94b13079b06140619cd2837f547e3f108d6fd547db5ad474e5a3a08ce6f54d78"
+    },
+    {
+      "company_id": "arize",
+      "target": "arizeai",
+      "scope": "supplemental",
+      "observed_at": "2026-11-22T06:18:16.870Z",
+      "api_url": "https://boards-api.greenhouse.io/v1/boards/arizeai/jobs",
+      "record_count": 20,
+      "snapshot": "arize/snapshot.json",
+      "snapshot_sha256": "a2071e7fde63b39adffbf529236a82c59e7ff1035fddeff94f43fb2e0b58cfda",
+      "records": "arize/records.jsonl",
+      "records_sha256": "d5541a1f090271dd766d5d694653a5f1738aef9fcd4747feb1a04419e6bb8269"
+    }
+  ]
+}

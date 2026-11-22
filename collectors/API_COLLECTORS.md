@@ -101,9 +101,57 @@ BM25 returned five results with source URLs for `Python engineer`. Each live API
 run used one page; multi-page paths are tested offline.
 
 Anthropic and ShyftLabs are connectivity checks outside the frozen cohort.
-LangChain is included. The registry's Greenhouse/Lever mappings still need
-verification before a cohort run. A live Neo4j load and complete cited-answer
-integration remain to be done.
+
+## Frozen cohort job boards
+
+The November 21 Phoenix collection observed 16 Browserbase listings and 8
+Sourcegraph listings. Both Greenhouse slugs are in the registry. No company-owned
+Lever site was verified. Arize has a separate 20-listing Greenhouse snapshot.
+The two-board registry scope follows the demo assignment. Arize's later
+ID-level verification is recorded separately below.
+
+| Company | Verified board or public hiring channel | Evidence |
+|---|---|---|
+| LangChain | Ashby `langchain` | [Board audit][audit] |
+| LlamaIndex | Official careers page with a native role list | [Careers review][native] |
+| CrewAI | Workable `crewai` | [Workable widget review][review] |
+| E2B | Ashby `e2b` | [Board audit][audit] |
+| Browserbase | Greenhouse `browserbaseinc` | [Board audit][audit] |
+| Composio | Ashby `composio` | [Board audit][audit] |
+| Letta | Ashby `letta` | [Board audit][audit] |
+| Langfuse | Archived Ashby `langfuse`. The live board returned 404. | [Archive findings][archives] |
+| deepset | Ashby `deepsetai` | [Board audit][audit] |
+| Continue | Archived Ashby `continue`. The live board returned 404. | [Archive findings][archives] |
+| Sourcegraph | Greenhouse `sourcegraph91` | [Board audit][audit] |
+| Modal | Ashby `modal` | [Board audit][audit] |
+| Replicate | Archived Ashby `replicate`. The careers link now points to Cloudflare. | [Archive findings][archives] |
+| Weights & Biases | Greenhouse `coreweave` is the parent board. The dedicated `weights_and_biases` endpoint returned 404. | [Channel review][review] |
+| Pinecone | Ashby `pinecone` | [Board audit][audit] |
+| Weaviate | Ashby `weaviate` | [Verified board](../evaluation/cohort-ats-history/weaviate-discovery.json) |
+| Chroma | Official careers page with a native role list | [Careers review][review] |
+| Arize | Greenhouse `arizeai`. All 20 posting IDs matched Arize's careers page in the later audit. | [Arize ID check](../evaluation/cohort-ats-history/arize-candidate-check.json) |
+
+[audit]: ../evaluation/cohort-source-audit/board-audit.json
+[native]: ../evaluation/cohort-history-followup/review.json
+[review]: ../evaluation/remaining-history-discovery/review.json
+[archives]: ../evaluation/remaining-history-discovery/followup-2026-11-21-findings.json
+
+The [snapshot manifest](../evaluation/vidya-cohort-jobs/manifest.json) lists
+observation times, source URLs, counts, checksums, and normalized records.
+Replay a board from the repository root with
+`python -m collectors --replay evaluation/vidya-cohort-jobs/browserbase/snapshot.json`.
+Use `sourcegraph` or `arize` in the same path for the other boards.
+
+The snapshots retain the complete listing-metadata response. Greenhouse omits
+descriptions on this endpoint, so skill extraction here sees only titles.
+Collector v1 normalizes title case and whitespace and recognizes 11 explicit
+skill terms. Downstream role families are defined in
+[`signals/job_features.py`](../signals/job_features.py).
+
+Each board was observed once, after the October 30 study cutoff. Weekly hiring
+comparisons use the separate [historical board review][review]. Süeda's
+[GitHub history](../evaluation/cohort-history-v2/manifest.json) covers eight
+weeks for each of the 18 companies.
 
 ## Sources and dependencies
 

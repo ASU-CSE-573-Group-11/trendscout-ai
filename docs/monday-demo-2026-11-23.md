@@ -73,14 +73,13 @@ These comments are already answered in the October deck or in the repo. Keep one
 - Eighteen-company graph: 866 nodes and 2,308 edges. SHACL passes. The same offline and live match holds.
 - A job node is an observed listing, not a hire.
 
-### Vidya — what is done, and what is still yours
+### Vidya — collector evidence
 
 - Greenhouse, Lever, and GitHub collectors are in the repo and tested.
 - Retry, pagination, and the access notes are done.
-- `greenhouse_board` and `lever_site` are still null for all 18 companies in `data/registry/cohort.json`.
-- The board audit already shows Greenhouse for Browserbase (`browserbaseinc`) and Sourcegraph (`sourcegraph91`).
-- The other companies are mostly Ashby or Workable. Leave those two fields null and write which ATS they actually use.
-- We still need committed collector snapshots for the Greenhouse boards, not only the code.
+- On November 21 (Phoenix), the two mapped Greenhouse boards listed 24 openings: 16 at Browserbase (`browserbaseinc`) and 8 at Sourcegraph (`sourcegraph91`). These observations fall after the study cutoff.
+- A later identity check verified Arize's Greenhouse board. Its separate snapshot contains 20 listings. No company-owned Lever site was verified in the cohort.
+- For the offline demo, run `python -m collectors --replay evaluation/vidya-cohort-jobs/browserbase/snapshot.json`. See [all 18 hiring sources](../collectors/API_COLLECTORS.md#frozen-cohort-job-boards) and the [snapshot manifest](../evaluation/vidya-cohort-jobs/manifest.json).
 
 ### Faisal — what is done, and what is still yours
 

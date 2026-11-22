@@ -1,0 +1,541 @@
+{
+  "snapshot_version": 2,
+  "source": "greenhouse",
+  "target": "arizeai",
+  "company_id": "arize",
+  "company_name": "Arize",
+  "observed_at": "2026-11-22T06:18:16.870Z",
+  "origin_cluster_id": null,
+  "payload": {
+    "jobs": [
+      {
+        "absolute_url": "https://job-boards.greenhouse.io/arizeai/jobs/5989512004",
+        "data_compliance": [
+          {
+            "type": "gdpr",
+            "requires_consent": false,
+            "requires_processing_consent": false,
+            "requires_retention_consent": false,
+            "retention_period": null,
+            "demographic_data_consent_applies": false
+          }
+        ],
+        "internal_job_id": 5151179004,
+        "location": {
+          "name": "Remote (Singapore)"
+        },
+        "metadata": null,
+        "id": 5989512004,
+        "updated_at": "2026-11-10T11:00:36-05:00",
+        "requisition_id": "180",
+        "title": "AI Application Engineer, APJ",
+        "company_name": "Arize AI",
+        "first_published": "2026-05-06T10:55:59-04:00",
+        "language": "en",
+        "application_deadline": null
+      },
+      {
+        "absolute_url": "https://job-boards.greenhouse.io/arizeai/jobs/5793354004",
+        "data_compliance": [
+          {
+            "type": "gdpr",
+            "requires_consent": false,
+            "requires_processing_consent": false,
+            "requires_retention_consent": false,
+            "retention_period": null,
+            "demographic_data_consent_applies": false
+          }
+        ],
+        "internal_job_id": 5046747004,
+        "location": {
+          "name": "EMEA (Remote)"
+        },
+        "metadata": null,
+        "id": 5793354004,
+        "updated_at": "2026-09-23T16:45:19-04:00",
+        "requisition_id": "135",
+        "title": "AI Sales Engineer, EMEA",
+        "company_name": "Arize AI",
+        "first_published": "2026-02-05T10:15:02-05:00",
+        "language": "en",
+        "application_deadline": null
+      },
+      {
+        "absolute_url": "https://job-boards.greenhouse.io/arizeai/jobs/5792327004",
+        "data_compliance": [
+          {
+            "type": "gdpr",
+            "requires_consent": false,
+            "requires_processing_consent": false,
+            "requires_retention_consent": false,
+            "retention_period": null,
+            "demographic_data_consent_applies": false
+          }
+        ],
+        "internal_job_id": 5046386004,
+        "location": {
+          "name": "Remote (United States)"
+        },
+        "metadata": null,
+        "id": 5792327004,
+        "updated_at": "2026-09-23T16:45:19-04:00",
+        "requisition_id": "134",
+        "title": "AI Sales Engineer, US",
+        "company_name": "Arize AI",
+        "first_published": "2026-02-05T10:16:10-05:00",
+        "language": "en",
+        "application_deadline": null
+      },
+      {
+        "absolute_url": "https://job-boards.greenhouse.io/arizeai/jobs/6030902004",
+        "data_compliance": [
+          {
+            "type": "gdpr",
+            "requires_consent": false,
+            "requires_processing_consent": false,
+            "requires_retention_consent": false,
+            "retention_period": null,
+            "demographic_data_consent_applies": false
+          }
+        ],
+        "internal_job_id": 5042035004,
+        "location": {
+          "name": "Remote (New York)"
+        },
+        "metadata": null,
+        "id": 6030902004,
+        "updated_at": "2026-09-23T16:45:19-04:00",
+        "requisition_id": "131",
+        "title": "AI Solutions Manager, East",
+        "company_name": "Arize AI",
+        "first_published": "2026-06-15T14:41:59-04:00",
+        "language": "en",
+        "application_deadline": null
+      },
+      {
+        "absolute_url": "https://job-boards.greenhouse.io/arizeai/jobs/6128122004",
+        "data_compliance": [
+          {
+            "type": "gdpr",
+            "requires_consent": false,
+            "requires_processing_consent": false,
+            "requires_retention_consent": false,
+            "retention_period": null,
+            "demographic_data_consent_applies": false
+          }
+        ],
+        "internal_job_id": 5192469004,
+        "location": {
+          "name": "Remote (San Francisco)"
+        },
+        "metadata": null,
+        "id": 6128122004,
+        "updated_at": "2026-09-23T16:58:07-04:00",
+        "requisition_id": "210",
+        "title": "Applied AI Engineer",
+        "company_name": "Arize AI",
+        "first_published": "2026-08-27T16:43:02-04:00",
+        "language": "en",
+        "application_deadline": null
+      },
+      {
+        "absolute_url": "https://job-boards.greenhouse.io/arizeai/jobs/5803069004",
+        "data_compliance": [
+          {
+            "type": "gdpr",
+            "requires_consent": false,
+            "requires_processing_consent": false,
+            "requires_retention_consent": false,
+            "retention_period": null,
+            "demographic_data_consent_applies": false
+          }
+        ],
+        "internal_job_id": 5051568004,
+        "location": {
+          "name": "San Francisco"
+        },
+        "metadata": null,
+        "id": 5803069004,
+        "updated_at": "2026-09-23T16:45:19-04:00",
+        "requisition_id": "139",
+        "title": "Commercial Account Executive, Digital Native (San Francisco)",
+        "company_name": "Arize AI",
+        "first_published": "2026-02-12T14:26:53-05:00",
+        "language": "en",
+        "application_deadline": null
+      },
+      {
+        "absolute_url": "https://job-boards.greenhouse.io/arizeai/jobs/6203635004",
+        "data_compliance": [
+          {
+            "type": "gdpr",
+            "requires_consent": false,
+            "requires_processing_consent": false,
+            "requires_retention_consent": false,
+            "retention_period": null,
+            "demographic_data_consent_applies": false
+          }
+        ],
+        "internal_job_id": 5221190004,
+        "location": {
+          "name": "Remote (United States)"
+        },
+        "metadata": null,
+        "id": 6203635004,
+        "updated_at": "2026-09-23T16:45:19-04:00",
+        "requisition_id": "215",
+        "title": "DevOps Engineer",
+        "company_name": "Arize AI",
+        "first_published": "2026-09-21T14:32:21-04:00",
+        "language": "en",
+        "application_deadline": null
+      },
+      {
+        "absolute_url": "https://job-boards.greenhouse.io/arizeai/jobs/6254132004",
+        "data_compliance": [
+          {
+            "type": "gdpr",
+            "requires_consent": false,
+            "requires_processing_consent": false,
+            "requires_retention_consent": false,
+            "retention_period": null,
+            "demographic_data_consent_applies": false
+          }
+        ],
+        "internal_job_id": 5238427004,
+        "location": {
+          "name": "Remote (SIngapore)"
+        },
+        "metadata": null,
+        "id": 6254132004,
+        "updated_at": "2026-11-10T13:50:48-05:00",
+        "requisition_id": "224",
+        "title": "Director of Sales, APJ",
+        "company_name": "Arize AI",
+        "first_published": "2026-11-10T10:40:42-05:00",
+        "language": "en",
+        "application_deadline": null
+      },
+      {
+        "absolute_url": "https://job-boards.greenhouse.io/arizeai/jobs/6128123004",
+        "data_compliance": [
+          {
+            "type": "gdpr",
+            "requires_consent": false,
+            "requires_processing_consent": false,
+            "requires_retention_consent": false,
+            "retention_period": null,
+            "demographic_data_consent_applies": false
+          }
+        ],
+        "internal_job_id": 5192469004,
+        "location": {
+          "name": "Remote (San Francisco)"
+        },
+        "metadata": null,
+        "id": 6128123004,
+        "updated_at": "2026-09-23T16:59:44-04:00",
+        "requisition_id": "210",
+        "title": "Education Engineer ",
+        "company_name": "Arize AI",
+        "first_published": "2026-08-27T16:45:15-04:00",
+        "language": "en",
+        "application_deadline": null
+      },
+      {
+        "absolute_url": "https://job-boards.greenhouse.io/arizeai/jobs/6242516004",
+        "data_compliance": [
+          {
+            "type": "gdpr",
+            "requires_consent": false,
+            "requires_processing_consent": false,
+            "requires_retention_consent": false,
+            "retention_period": null,
+            "demographic_data_consent_applies": false
+          }
+        ],
+        "internal_job_id": 5235273004,
+        "location": {
+          "name": "Remote"
+        },
+        "metadata": null,
+        "id": 6242516004,
+        "updated_at": "2026-11-05T11:04:46-05:00",
+        "requisition_id": "223",
+        "title": "Enterprise Account Executive, MEA",
+        "company_name": "Arize AI",
+        "first_published": "2026-11-03T14:30:49-05:00",
+        "language": "en",
+        "application_deadline": null
+      },
+      {
+        "absolute_url": "https://job-boards.greenhouse.io/arizeai/jobs/5730389004",
+        "data_compliance": [
+          {
+            "type": "gdpr",
+            "requires_consent": false,
+            "requires_processing_consent": false,
+            "requires_retention_consent": false,
+            "retention_period": null,
+            "demographic_data_consent_applies": false
+          }
+        ],
+        "internal_job_id": 5016381004,
+        "location": {
+          "name": "Remote (West Coast)"
+        },
+        "metadata": null,
+        "id": 5730389004,
+        "updated_at": "2026-09-23T16:45:19-04:00",
+        "requisition_id": "110",
+        "title": "Enterprise Account Executive (West)",
+        "company_name": "Arize AI",
+        "first_published": "2025-12-05T16:17:47-05:00",
+        "language": "en",
+        "application_deadline": null
+      },
+      {
+        "absolute_url": "https://job-boards.greenhouse.io/arizeai/jobs/5993317004",
+        "data_compliance": [
+          {
+            "type": "gdpr",
+            "requires_consent": false,
+            "requires_processing_consent": false,
+            "requires_retention_consent": false,
+            "retention_period": null,
+            "demographic_data_consent_applies": false
+          }
+        ],
+        "internal_job_id": 5152982004,
+        "location": {
+          "name": "Remote (Singapore)"
+        },
+        "metadata": null,
+        "id": 5993317004,
+        "updated_at": "2026-11-17T09:57:11-05:00",
+        "requisition_id": "183",
+        "title": "Forward Deployed Engineer, APJ",
+        "company_name": "Arize AI",
+        "first_published": "2026-05-11T11:58:47-04:00",
+        "language": "en",
+        "application_deadline": null
+      },
+      {
+        "absolute_url": "https://job-boards.greenhouse.io/arizeai/jobs/6231664004",
+        "data_compliance": [
+          {
+            "type": "gdpr",
+            "requires_consent": false,
+            "requires_processing_consent": false,
+            "requires_retention_consent": false,
+            "retention_period": null,
+            "demographic_data_consent_applies": false
+          }
+        ],
+        "internal_job_id": 5231328004,
+        "location": {
+          "name": "San Francisco, CA"
+        },
+        "metadata": null,
+        "id": 6231664004,
+        "updated_at": "2026-11-03T12:38:58-05:00",
+        "requisition_id": "218",
+        "title": "Head of Growth Marketing ",
+        "company_name": "Arize AI",
+        "first_published": "2026-10-21T20:48:52-04:00",
+        "language": "en",
+        "application_deadline": null
+      },
+      {
+        "absolute_url": "https://job-boards.greenhouse.io/arizeai/jobs/6231745004",
+        "data_compliance": [
+          {
+            "type": "gdpr",
+            "requires_consent": false,
+            "requires_processing_consent": false,
+            "requires_retention_consent": false,
+            "retention_period": null,
+            "demographic_data_consent_applies": false
+          }
+        ],
+        "internal_job_id": 5231334004,
+        "location": {
+          "name": "San Francisco, CA"
+        },
+        "metadata": null,
+        "id": 6231745004,
+        "updated_at": "2026-11-10T11:14:57-05:00",
+        "requisition_id": "219",
+        "title": "Principal of Technical Content & Editorial",
+        "company_name": "Arize AI",
+        "first_published": "2026-10-21T20:53:27-04:00",
+        "language": "en",
+        "application_deadline": null
+      },
+      {
+        "absolute_url": "https://job-boards.greenhouse.io/arizeai/jobs/5396396004",
+        "data_compliance": [
+          {
+            "type": "gdpr",
+            "requires_consent": false,
+            "requires_processing_consent": false,
+            "requires_retention_consent": false,
+            "retention_period": null,
+            "demographic_data_consent_applies": false
+          }
+        ],
+        "internal_job_id": 4852384004,
+        "location": {
+          "name": "Remote (United States)"
+        },
+        "metadata": null,
+        "id": 5396396004,
+        "updated_at": "2026-09-23T16:45:19-04:00",
+        "requisition_id": "48",
+        "title": "Senior AI Product Engineer, Backend",
+        "company_name": "Arize AI",
+        "first_published": "2024-12-10T10:08:32-05:00",
+        "language": "en",
+        "application_deadline": null
+      },
+      {
+        "absolute_url": "https://job-boards.greenhouse.io/arizeai/jobs/5396420004",
+        "data_compliance": [
+          {
+            "type": "gdpr",
+            "requires_consent": false,
+            "requires_processing_consent": false,
+            "requires_retention_consent": false,
+            "retention_period": null,
+            "demographic_data_consent_applies": false
+          }
+        ],
+        "internal_job_id": 4852397004,
+        "location": {
+          "name": "Remote (United States)"
+        },
+        "metadata": null,
+        "id": 5396420004,
+        "updated_at": "2026-09-23T16:45:19-04:00",
+        "requisition_id": "49",
+        "title": "Senior AI Product Engineer, Fullstack",
+        "company_name": "Arize AI",
+        "first_published": "2024-12-10T10:20:34-05:00",
+        "language": "en",
+        "application_deadline": null
+      },
+      {
+        "absolute_url": "https://job-boards.greenhouse.io/arizeai/jobs/6254817004",
+        "data_compliance": [
+          {
+            "type": "gdpr",
+            "requires_consent": false,
+            "requires_processing_consent": false,
+            "requires_retention_consent": false,
+            "retention_period": null,
+            "demographic_data_consent_applies": false
+          }
+        ],
+        "internal_job_id": 5238618004,
+        "location": {
+          "name": "United States (Remote)"
+        },
+        "metadata": null,
+        "id": 6254817004,
+        "updated_at": "2026-11-10T16:36:43-05:00",
+        "requisition_id": "225",
+        "title": "Senior AI Product Manager, Evals & Annotations",
+        "company_name": "Arize AI",
+        "first_published": "2026-11-10T16:31:45-05:00",
+        "language": "en",
+        "application_deadline": null
+      },
+      {
+        "absolute_url": "https://job-boards.greenhouse.io/arizeai/jobs/5818115004",
+        "data_compliance": [
+          {
+            "type": "gdpr",
+            "requires_consent": false,
+            "requires_processing_consent": false,
+            "requires_retention_consent": false,
+            "retention_period": null,
+            "demographic_data_consent_applies": false
+          }
+        ],
+        "internal_job_id": 5059028004,
+        "location": {
+          "name": "United States (Remote)"
+        },
+        "metadata": null,
+        "id": 5818115004,
+        "updated_at": "2026-11-10T16:37:20-05:00",
+        "requisition_id": "149",
+        "title": "Senior AI Product Manager, Observability",
+        "company_name": "Arize AI",
+        "first_published": "2026-03-03T14:32:04-05:00",
+        "language": "en",
+        "application_deadline": null
+      },
+      {
+        "absolute_url": "https://job-boards.greenhouse.io/arizeai/jobs/5778086004",
+        "data_compliance": [
+          {
+            "type": "gdpr",
+            "requires_consent": false,
+            "requires_processing_consent": false,
+            "requires_retention_consent": false,
+            "retention_period": null,
+            "demographic_data_consent_applies": false
+          }
+        ],
+        "internal_job_id": 5039788004,
+        "location": {
+          "name": "Remote (United States)"
+        },
+        "metadata": null,
+        "id": 5778086004,
+        "updated_at": "2026-09-23T16:45:19-04:00",
+        "requisition_id": "128",
+        "title": "Senior Open Source Design Engineer",
+        "company_name": "Arize AI",
+        "first_published": "2026-01-22T10:40:37-05:00",
+        "language": "en",
+        "application_deadline": null
+      },
+      {
+        "absolute_url": "https://job-boards.greenhouse.io/arizeai/jobs/6115096004",
+        "data_compliance": [
+          {
+            "type": "gdpr",
+            "requires_consent": false,
+            "requires_processing_consent": false,
+            "requires_retention_consent": false,
+            "retention_period": null,
+            "demographic_data_consent_applies": false
+          }
+        ],
+        "internal_job_id": null,
+        "location": {
+          "name": "Remote"
+        },
+        "metadata": null,
+        "id": 6115096004,
+        "updated_at": "2026-09-23T16:45:19-04:00",
+        "requisition_id": null,
+        "title": "Talent Community",
+        "company_name": "Arize AI",
+        "first_published": "2026-07-13T17:35:18-04:00",
+        "language": "en",
+        "application_deadline": null
+      }
+    ],
+    "meta": {
+      "total": 20
+    }
+  },
+  "coverage": {
+    "api_url": "https://boards-api.greenhouse.io/v1/boards/arizeai/jobs",
+    "pages": 1,
+    "include_descriptions": false
+  }
+}
