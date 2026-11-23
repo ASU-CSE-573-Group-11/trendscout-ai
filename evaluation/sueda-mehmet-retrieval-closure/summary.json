@@ -1,0 +1,52 @@
+{
+  "completed_by": [
+    "Sueda Sen",
+    "Mehmet Aksit"
+  ],
+  "not_completed_by": [
+    "Faisal Barkat Khorasi",
+    "Vidya Sagar Dudekula"
+  ],
+  "question": "Which LangChain records mention hiring or funding in the study window?",
+  "semantic_encoder": "st:sentence-transformers/all-MiniLM-L6-v2",
+  "semantic": true,
+  "semantic_dim": 384,
+  "semantic_backend": "numpy",
+  "semantic_passages": 45,
+  "semantic_overall_state": "emerging",
+  "neo4j_graph_backend": "neo4j",
+  "neo4j_result_backends": [
+    "neo4j"
+  ],
+  "neo4j_result_count": 2,
+  "neo4j_overall_state": "insufficient",
+  "neo4j_graph_describe": {
+    "backend": "neo4j",
+    "nodes": 170,
+    "edges": 466,
+    "cypher": {
+      "template_count": 11,
+      "files": [
+        "competency_queries.cypher",
+        "evidence_queries.cypher",
+        "temporal_queries.cypher"
+      ],
+      "purposes_resolved": [
+        "claim_origins",
+        "claim_window_path",
+        "claims_for_record",
+        "claims_in_state",
+        "company_records",
+        "corroboration_threshold",
+        "independent_origins",
+        "latest_state_path",
+        "publisher_path",
+        "records_in_window",
+        "temporal_multihop"
+      ],
+      "purposes_missing": []
+    },
+    "caveat": "Cypher templates were executed against the live Neo4j database."
+  },
+  "note": "HashingEncoder runs remain lexical. This directory records one sentence-transformer index (semantic true) and one answer whose graph rows were returned by Neo4jBackend."
+}
