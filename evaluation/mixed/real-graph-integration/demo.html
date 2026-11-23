@@ -95,7 +95,18 @@
     <section class="section" id="overview">
       <div class="container">
         <h2>The frozen graph</h2>
-        <p class="text-secondary">Forty-five retained records. These counts are the snapshot, not the whole market.</p>
+        <p class="text-secondary">Drag the canvas. Scroll to zoom. Click a node to read it. The default view is the company neighborhood: startups, listings, repositories, rounds, investors, skills, and technologies. Claims stay off until you ask for them.</p>
+        <div class="d-flex flex-wrap gap-2 mb-3" id="graph-filters">
+          <button class="pill" type="button" data-company="all">All five</button>
+          <button class="btn btn-outline-light btn-sm rounded-pill" type="button" data-company="browserbase">Browserbase</button>
+          <button class="btn btn-outline-light btn-sm rounded-pill" type="button" data-company="crewai">CrewAI</button>
+          <button class="btn btn-outline-light btn-sm rounded-pill" type="button" data-company="langchain">LangChain</button>
+          <button class="btn btn-outline-light btn-sm rounded-pill" type="button" data-company="langfuse">Langfuse</button>
+          <button class="btn btn-outline-light btn-sm rounded-pill" type="button" data-company="llamaindex">LlamaIndex</button>
+          <button class="btn btn-outline-light btn-sm rounded-pill" type="button" id="toggle-claims">Show claims</button>
+        </div>
+        <div id="graph-canvas" style="height:560px;background:#0c0c0c;border:1px solid #2a2a2a;border-radius:18px"></div>
+        <p id="graph-detail" class="mt-3 mb-4 text-secondary">Select a node.</p>
         <div id="facts" class="row g-3"></div>
       </div>
     </section>
@@ -159,6 +170,7 @@ python -m http.server 8770 --bind 127.0.0.1
       </div>
     </section>
   </div>
+  <script src="https://unpkg.com/vis-network@9.1.9/standalone/umd/vis-network.min.js"></script>
   <script>
     const el=id=>document.getElementById(id);
     const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -186,6 +198,52 @@ python -m http.server 8770 --bind 127.0.0.1
       el('finding-zero').innerHTML=`<strong>Original ${z.questions} questions: Precision@5 is ${z.precision_at_5}.</strong> ${esc(z.reading)}`;
       el('unmeasured').innerHTML=f.not_measured.map(item=>`<span class="tag">Not measured · ${esc(item)}</span>`).join('');
     }).catch(err=>{el('finding-zero').textContent='Findings did not load. Open http://127.0.0.1:8770/demo.html';console.error(err)});
+    const COLORS={Startup:'#ff3b30',FundingRound:'#ffb4ae',JobPosting:'#f5f5f5',Repository:'#8d8d8d',Investor:'#ffd60a',Skill:'#5ac8fa',Technology:'#30d158',Claim:'#666',SourceRecord:'#444',OriginCluster:'#555',Publisher:'#999'};
+    const STRUCTURAL=new Set(['Startup','FundingRound','JobPosting','Repository','Investor','Skill','Technology']);
+    fetch('graph.json').then(r=>r.json()).then(graph=>{
+      const title=n=>{const p=n.properties||{};const raw=p.name||p.title||p.company_id||(p.claim_text||'').slice(0,80)||n.id;return n.label==='Startup'?raw:String(raw).slice(0,22)};
+      let company='all', showClaims=false, network;
+      const detail=document.getElementById('graph-detail');
+      function draw(){
+        const keep=new Set();
+        graph.nodes.forEach(n=>{
+          if(!showClaims && !STRUCTURAL.has(n.label)) return;
+          if(company==='all' || n.id===`startup:${company}` || (n.properties||{}).company_id===company || (n.id||'').includes(company)) keep.add(n.id);
+        });
+        if(company!=='all'){
+          graph.edges.forEach(e=>{
+            if(keep.has(e.from)||keep.has(e.to)){
+              const other=keep.has(e.from)?e.to:e.from;
+              const node=graph.nodes.find(n=>n.id===other);
+              if(node && (showClaims || STRUCTURAL.has(node.label))) keep.add(other);
+            }
+          });
+        }
+        const nodes=graph.nodes.filter(n=>keep.has(n.id)).map(n=>({id:n.id,label:title(n),group:n.label,color:COLORS[n.label]||'#aaa',font:{color:'#fff',face:'IBM Plex Sans',size:n.label==='Startup'?18:12},shape:n.label==='Startup'?'dot':'box',size:n.label==='Startup'?28:12,title:n.label}));
+        const edges=graph.edges.filter(e=>keep.has(e.from)&&keep.has(e.to)).map(e=>({from:e.from,to:e.to,label:e.type,color:{color:'#5a2a28'},font:{color:'#888',size:9,strokeWidth:0},arrows:'to'}));
+        const data={nodes:new vis.DataSet(nodes),edges:new vis.DataSet(edges)};
+        const options={physics:{stabilization:true,barnesHut:{gravitationalConstant:-8000,springLength:140}},interaction:{hover:true,tooltipDelay:80}};
+        if(network) network.destroy();
+        network=new vis.Network(document.getElementById('graph-canvas'),data,options);
+        network.on('click',params=>{
+          const id=params.nodes[0];
+          const node=graph.nodes.find(n=>n.id===id);
+          if(!node){detail.textContent='Select a node.';return}
+          const p=node.properties||{};
+          const line=p.claim_text||p.passage||p.title||p.name||p.company_id||node.id;
+          detail.textContent=`${node.label} · ${String(line).slice(0,280)}`;
+        });
+        detail.textContent=`${nodes.length} nodes · ${edges.length} links · drag, scroll, and click`;
+      }
+      document.getElementById('graph-filters').addEventListener('click',ev=>{
+        const button=ev.target.closest('button');
+        if(!button) return;
+        if(button.id==='toggle-claims'){showClaims=!showClaims;button.textContent=showClaims?'Hide claims':'Show claims';}
+        else company=button.dataset.company;
+        draw();
+      });
+      draw();
+    }).catch(err=>{document.getElementById('graph-detail').textContent='Graph file did not load. Use http://127.0.0.1:8770/demo.html';console.error(err)});
   </script>
 </body>
 </html>
