@@ -1,0 +1,17 @@
+{
+  "run_id": "2026-11-23T111731-091391Z-691667aa",
+  "mode": "live",
+  "started_at": "2026-11-23T11:17:31.091712Z",
+  "status": "success",
+  "record_count": 16,
+  "collector_version": "api-collectors/0.2.0",
+  "source": "greenhouse",
+  "target": "browserbaseinc",
+  "company_id": "browserbase",
+  "observed_at": "2026-11-23T11:17:31.091751Z",
+  "coverage": {
+    "api_url": "https://boards-api.greenhouse.io/v1/boards/browserbaseinc/jobs",
+    "pages": 1
+  },
+  "finished_at": "2026-11-23T11:17:31.391202Z"
+}

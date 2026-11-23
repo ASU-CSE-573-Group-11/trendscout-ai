@@ -1,0 +1,17 @@
+{
+  "run_id": "2026-11-23T111731-533005Z-e86313c8",
+  "mode": "live",
+  "started_at": "2026-11-23T11:17:31.533318Z",
+  "status": "success",
+  "record_count": 8,
+  "collector_version": "api-collectors/0.2.0",
+  "source": "greenhouse",
+  "target": "sourcegraph91",
+  "company_id": "sourcegraph",
+  "observed_at": "2026-11-23T11:17:31.533372Z",
+  "coverage": {
+    "api_url": "https://boards-api.greenhouse.io/v1/boards/sourcegraph91/jobs",
+    "pages": 1
+  },
+  "finished_at": "2026-11-23T11:17:31.746832Z"
+}
