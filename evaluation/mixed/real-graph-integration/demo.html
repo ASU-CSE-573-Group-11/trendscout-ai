@@ -3,196 +3,189 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="TrendScout evidence ledger for the frozen five-company graph.">
   <title>TrendScout — Evidence ledger</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,600;1,700;1,800&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <style>
-    :root {
-      --ink:#241f1a; --paper:#f3efe6; --card:#fffdf8; --rule:#d9d0c3;
-      --ledger:#1f4d3a; --ledger-soft:#e7f2ec; --stamp:#9a3b2f; --stamp-soft:#f8ece8;
-      --muted:#6b6258;
-    }
-    body { background:var(--paper); color:var(--ink); font-family:"IBM Plex Sans",sans-serif; }
-    .mono, code, pre, .figure, .nav-id { font-family:"IBM Plex Mono",ui-monospace,monospace; }
-    .navbar { background:var(--ink); }
-    .navbar-brand { font-weight:600; letter-spacing:.04em; }
-    .navbar .nav-link { color:#e7e0d4; font-size:.92rem; }
-    .navbar .nav-link:hover, .navbar .nav-link:focus { color:#fff; }
-    .findings-link { color:#f3efe6 !important; background:var(--ledger); border-radius:4px; padding:.35rem .7rem !important; }
-    section { scroll-margin-top:76px; }
-    .eyebrow { color:var(--stamp); font-size:.75rem; font-weight:600; letter-spacing:.14em; text-transform:uppercase; }
-    h1,h2,h3 { letter-spacing:-.02em; }
-    h1 { font-size:clamp(1.8rem,3vw,2.5rem); font-weight:600; }
-    .lede { color:#4d463e; max-width:46rem; }
-    .sheet { background:var(--card); border:1px solid var(--rule); border-radius:6px; }
-    .figure { font-size:2.6rem; font-weight:500; line-height:1; color:var(--ledger); }
-    .meter { height:6px; background:#ece6dc; border-radius:99px; overflow:hidden; }
-    .meter > span { display:block; height:100%; background:var(--ledger); }
-    .meter.hash > span { background:#3d6f8c; }
-    .bar-track { height:10px; background:#ece6dc; border-radius:99px; overflow:hidden; }
-    .bar-fill { display:block; height:100%; background:var(--ink); }
-    .stacked { display:flex; height:12px; background:#ece6dc; border-radius:99px; overflow:hidden; }
-    .seg-fund { background:var(--stamp); } .seg-job { background:#3d6f8c; } .seg-repo { background:var(--ledger); }
-    .swatch { width:.7rem; height:.7rem; display:inline-block; border-radius:2px; margin-right:.35rem; }
-    .company-side { background:#f7f3eb; }
-    .step-no { color:var(--stamp); font-family:"IBM Plex Mono",monospace; }
-    footer { color:var(--muted); }
-    pre { background:#241f1a; color:#f3efe6; border-radius:6px; padding:1rem 1.1rem; }
-    a { color:#1d5c84; }
+    :root { --red:#ff3b30; --ink:#070707; --card:#121212; --line:#2a2a2a; --muted:#a3a3a3; }
+    html { scroll-behavior:smooth; }
+    body { margin:0; background:var(--ink); color:#f5f5f5; font-family:"IBM Plex Sans",sans-serif; }
+    .contours { position:fixed; inset:0; z-index:0; pointer-events:none; opacity:.85; }
+    .page { position:relative; z-index:1; }
+    .nav-wrap { background:rgba(7,7,7,.86); backdrop-filter:blur(10px); border-bottom:1px solid #1c1c1c; }
+    .brand { font-family:"Barlow Condensed",sans-serif; font-weight:700; letter-spacing:.08em; font-size:1.35rem; color:#fff; text-decoration:none; }
+    .brand span { color:var(--red); }
+    .nav-wrap a { color:#d4d4d4; text-decoration:none; font-size:.92rem; }
+    .nav-wrap a:hover { color:#fff; }
+    .pill { display:inline-flex; align-items:center; gap:.45rem; background:var(--red); color:#fff !important; border-radius:999px; padding:.45rem .95rem; font-weight:600; }
+    .display { font-family:"Barlow Condensed",sans-serif; font-weight:800; font-style:italic; letter-spacing:-.03em; line-height:.88; font-size:clamp(4.2rem,9vw,7.4rem); text-transform:uppercase; }
+    .display em { color:var(--red); font-style:italic; }
+    .hero { min-height:calc(100vh - 64px); display:flex; align-items:center; padding:3rem 0 4rem; }
+    .card-dark { background:linear-gradient(180deg,#1a1a1a,#101010); border:1px solid #3a1a18; border-radius:18px; box-shadow:0 20px 50px rgba(255,59,48,.12); }
+    .figure { font-family:"Barlow Condensed",sans-serif; font-style:italic; font-weight:800; font-size:4rem; line-height:.9; }
+    .figure small { font-size:1.4rem; color:#aaa; font-weight:600; }
+    .meter { height:4px; background:#2a2a2a; border-radius:99px; overflow:hidden; }
+    .meter > span { display:block; height:100%; background:var(--red); }
+    .section { padding:4.5rem 0; border-top:1px solid #1c1c1c; }
+    h2 { font-family:"Barlow Condensed",sans-serif; font-weight:700; font-style:italic; text-transform:uppercase; letter-spacing:-.02em; font-size:clamp(2.2rem,4vw,3.4rem); }
+    .stat { background:#111; border:1px solid var(--line); border-radius:16px; padding:1.25rem; }
+    .stat b { font-family:"Barlow Condensed",sans-serif; font-size:3rem; font-style:italic; font-weight:700; display:block; line-height:1; }
+    .sheet { background:#111; border:1px solid var(--line); border-radius:16px; padding:1.25rem; }
+    .bar-track { height:8px; background:#222; border-radius:99px; overflow:hidden; }
+    .bar-fill { display:block; height:100%; background:#fff; }
+    .stacked { display:flex; height:10px; background:#222; border-radius:99px; overflow:hidden; }
+    .seg-fund { background:var(--red); } .seg-job { background:#f5f5f5; } .seg-repo { background:#8d8d8d; }
+    .warn { border:1px solid #6b2a24; background:#1a0d0c; border-radius:14px; padding:1rem 1.1rem; }
+    .tag { border:1px solid #333; border-radius:999px; padding:.25rem .7rem; color:#ccc; font-size:.82rem; }
+    pre { background:#0c0c0c; color:#eee; border:1px solid #222; border-radius:12px; padding:1rem; }
+    a { color:#ffb4ae; }
+    table { color:#eee; }
+    .table { --bs-table-bg:transparent; --bs-table-color:#eee; --bs-table-border-color:#2a2a2a; }
   </style>
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
-    <div class="container">
-      <a class="navbar-brand text-white" href="#findings">TrendScout ledger</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav" aria-controls="nav" aria-label="Open sections">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="nav">
-        <ul class="navbar-nav ms-auto gap-lg-2">
-          <li class="nav-item"><a class="nav-link findings-link" href="#findings">Findings</a></li>
-          <li class="nav-item"><a class="nav-link" href="#overview">Graph</a></li>
-          <li class="nav-item"><a class="nav-link" href="#distribution">Evidence</a></li>
-          <li class="nav-item"><a class="nav-link" href="#companies">Companies</a></li>
-          <li class="nav-item"><a class="nav-link" href="#method">Method</a></li>
-          <li class="nav-item"><a class="nav-link" href="#inventory">Inventory</a></li>
-          <li class="nav-item"><a class="nav-link" href="#run">Run</a></li>
-        </ul>
+  <svg class="contours" viewBox="0 0 1440 900" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+    <g fill="none" stroke="#ff3b30" stroke-width="1.2" opacity=".55">
+      <path d="M-40 80 C 220 20, 380 180, 620 90 S 1040 10, 1500 140"/>
+      <path d="M-80 220 C 180 120, 420 340, 700 210 S 1120 80, 1520 260"/>
+      <path d="M-60 420 C 240 300, 480 520, 760 390 S 1180 280, 1540 470"/>
+      <path d="M-40 640 C 260 520, 500 760, 820 600 S 1200 480, 1520 700"/>
+      <path d="M80 900 C 300 760, 560 980, 860 820 S 1240 700, 1500 880"/>
+    </g>
+  </svg>
+  <div class="page">
+    <header class="nav-wrap sticky-top">
+      <div class="container d-flex align-items-center justify-content-between py-3 gap-3">
+        <a class="brand" href="#findings">TREND<span>SCOUT</span></a>
+        <nav class="d-none d-lg-flex align-items-center gap-4">
+          <a class="pill" href="#findings">Findings</a>
+          <a href="#overview">Graph</a>
+          <a href="#distribution">Evidence</a>
+          <a href="#companies">Companies</a>
+          <a href="#method">Method</a>
+          <a href="#run">Run</a>
+        </nav>
       </div>
-    </div>
-  </nav>
+    </header>
 
-  <header class="border-bottom">
-    <div class="container py-4">
-      <div class="eyebrow">Group 11 · frozen mixed-source snapshot</div>
-      <h1 class="mt-2 mb-2">Evidence ledger for five companies</h1>
-      <p class="lede mb-3">Counts below are what this snapshot retains. A listing is not a hire. An announcement date is not a financing close. The answer model does not choose the evidence state.</p>
-      <div id="status" class="alert alert-secondary mb-0" role="status">Reading the checked-in demo record.</div>
-    </div>
-  </header>
-
-  <main class="container py-4">
-    <section id="findings" class="mb-5">
-      <div class="eyebrow">Start here</div>
-      <h2 class="mt-2">Findings</h2>
-      <p class="text-secondary">Release-fact lookup, 28 questions, one supporting document each. Precision@5 cannot exceed 0.2. The large number is how many of those documents landed in the top five. Hashing dense is lexical, not a sentence transformer.</p>
-      <div id="finding-cards" class="row g-3"></div>
-      <div id="finding-zero" class="alert alert-warning mt-3 mb-2" role="status">Loading the original-question result.</div>
-      <div id="unmeasured" class="d-flex flex-wrap gap-2"></div>
-    </section>
-
-    <section id="overview" class="mb-5">
-      <div class="eyebrow">Graph</div>
-      <h2 class="mt-2">What the frozen graph holds</h2>
-      <p class="text-secondary">Forty-five retained source records. These counts are the study snapshot, not the full activity of each company.</p>
-      <div id="facts" class="row g-3"></div>
-    </section>
-
-    <section id="distribution" class="mb-5">
-      <div class="eyebrow">Evidence</div>
-      <h2 class="mt-2">Where the retained evidence sits</h2>
-      <p class="text-secondary">Descriptive coverage of this snapshot. Not a ranking and not a market share.</p>
-      <div class="row g-3">
-        <div class="col-lg-7">
-          <article class="sheet p-4 h-100">
-            <h3 class="h5">Source-excerpt claims</h3>
-            <div id="claim-bars" class="mt-3"></div>
-            <p class="small text-secondary mt-3 mb-0">LangChain is longest because this round kept funding, jobs, and a repository for it. That is coverage, not proof it was more active.</p>
-          </article>
-        </div>
-        <div class="col-lg-5">
-          <article class="sheet p-4 h-100">
-            <h3 class="h5">Funding, jobs, repositories</h3>
-            <div id="domain-bars" class="mt-3"></div>
-            <p class="small mt-3 mb-0"><span class="swatch seg-fund"></span>Funding <span class="swatch seg-job ms-2"></span>Job listing <span class="swatch seg-repo ms-2"></span>Repository</p>
-          </article>
+    <section class="hero" id="findings">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-6">
+            <div class="text-uppercase small text-secondary mb-3" style="letter-spacing:.22em">Group 11 · evidence ledger</div>
+            <h1 class="display">Read the<br><em>signal</em><br>before you<br>claim it</h1>
+            <p class="mt-4 text-secondary" style="max-width:34rem">Five frozen companies. Live Neo4j matches the file. The numbers on the right are the retrieval findings: how often the one supporting release note appeared in the top five.</p>
+            <div id="status" class="mt-4 text-secondary">Checking the live graph…</div>
+            <div class="d-flex flex-wrap gap-2 mt-4">
+              <a class="pill" href="#finding-cards">Open the three scores</a>
+              <a class="btn btn-outline-light rounded-pill px-4" href="#overview">See the graph</a>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div id="finding-cards" class="d-grid gap-3"></div>
+            <div id="finding-zero" class="warn mt-3">Loading the original-question result.</div>
+            <div id="unmeasured" class="d-flex flex-wrap gap-2 mt-3"></div>
+          </div>
         </div>
       </div>
     </section>
 
-    <section id="companies" class="mb-5">
-      <div class="eyebrow">Companies</div>
-      <h2 class="mt-2">Present, and absent, for each company</h2>
-      <p class="text-secondary">A zero means no node in this snapshot.</p>
-      <div id="company-list" class="d-grid gap-3"></div>
-    </section>
-
-    <section id="method" class="mb-5">
-      <div class="eyebrow">Method</div>
-      <h2 class="mt-2">How the graph was produced</h2>
-      <div class="row g-3">
-        <div class="col-md-6 col-xl-3"><article class="sheet p-3 h-100"><div class="step-no">01</div><h3 class="h6 mt-2">Freeze sources</h3><p class="small text-secondary mb-0">Pages, listings, and weekly repository observations keep URLs, hashes, and observation clocks.</p></article></div>
-        <div class="col-md-6 col-xl-3"><article class="sheet p-3 h-100"><div class="step-no">02</div><h3 class="h6 mt-2">Project semantics</h3><p class="small text-secondary mb-0">Records become claims, rounds, postings, repositories, investors, skills, and technologies.</p></article></div>
-        <div class="col-md-6 col-xl-3"><article class="sheet p-3 h-100"><div class="step-no">03</div><h3 class="h6 mt-2">Validate RDF</h3><p class="small text-secondary mb-0">The graph is exported as Turtle and checked with SHACL.</p></article></div>
-        <div class="col-md-6 col-xl-3"><article class="sheet p-3 h-100"><div class="step-no">04</div><h3 class="h6 mt-2">Compare Neo4j</h3><p class="small text-secondary mb-0">The live database must match the committed file, company by company.</p></article></div>
+    <section class="section" id="overview">
+      <div class="container">
+        <h2>The frozen graph</h2>
+        <p class="text-secondary">Forty-five retained records. These counts are the snapshot, not the whole market.</p>
+        <div id="facts" class="row g-3"></div>
       </div>
     </section>
 
-    <section id="inventory" class="mb-5">
-      <div class="eyebrow">Inventory</div>
-      <h2 class="mt-2">Nodes and relationships</h2>
-      <div class="row g-3">
-        <div class="col-md-6"><div class="sheet p-3"><h3 class="h6">Node types</h3><table class="table table-sm mb-0"><thead><tr><th>Type</th><th class="text-end">Count</th></tr></thead><tbody id="nodes"></tbody></table></div></div>
-        <div class="col-md-6"><div class="sheet p-3"><h3 class="h6">Relationship types</h3><table class="table table-sm mb-0"><thead><tr><th>Type</th><th class="text-end">Count</th></tr></thead><tbody id="edges"></tbody></table></div></div>
+    <section class="section" id="distribution">
+      <div class="container">
+        <h2>Where the evidence sits</h2>
+        <div class="row g-4">
+          <div class="col-lg-7"><article class="sheet"><h3 class="h5">Source-excerpt claims</h3><div id="claim-bars" class="mt-3"></div><p class="small text-secondary mt-3 mb-0">LangChain is longest because this round kept more of its records. That is coverage, not a ranking.</p></article></div>
+          <div class="col-lg-5"><article class="sheet h-100"><h3 class="h5">Funding, jobs, repositories</h3><div id="domain-bars" class="mt-3"></div><p class="small mt-3 mb-0"><span class="d-inline-block rounded-circle me-1" style="width:.7rem;height:.7rem;background:#ff3b30"></span>Funding <span class="d-inline-block rounded-circle mx-1" style="width:.7rem;height:.7rem;background:#fff"></span>Jobs <span class="d-inline-block rounded-circle mx-1" style="width:.7rem;height:.7rem;background:#8d8d8d"></span>Repository</p></article></div>
+        </div>
       </div>
     </section>
 
-    <section class="mb-5">
-      <div class="eyebrow">Provenance</div>
-      <h2 class="mt-2">Checks</h2>
-      <div id="checks" class="row g-3"></div>
+    <section class="section" id="companies">
+      <div class="container">
+        <h2>Each company</h2>
+        <p class="text-secondary">A zero means no node in this snapshot.</p>
+        <div id="company-list" class="d-grid gap-3"></div>
+      </div>
     </section>
 
-    <section class="mb-5">
-      <div class="eyebrow">Limits</div>
-      <h2 class="mt-2">What this graph does not say</h2>
-      <ol id="limits" class="mb-0"></ol>
+    <section class="section" id="method">
+      <div class="container">
+        <h2>How it was built</h2>
+        <div class="row g-3">
+          <div class="col-md-6 col-xl-3"><article class="sheet h-100"><div class="text-danger">01</div><h3 class="h6 mt-2">Freeze</h3><p class="small text-secondary mb-0">URLs, hashes, and observation clocks stay on the record.</p></article></div>
+          <div class="col-md-6 col-xl-3"><article class="sheet h-100"><div class="text-danger">02</div><h3 class="h6 mt-2">Project</h3><p class="small text-secondary mb-0">Records become claims, rounds, postings, and repositories.</p></article></div>
+          <div class="col-md-6 col-xl-3"><article class="sheet h-100"><div class="text-danger">03</div><h3 class="h6 mt-2">Validate</h3><p class="small text-secondary mb-0">Turtle export, checked with SHACL.</p></article></div>
+          <div class="col-md-6 col-xl-3"><article class="sheet h-100"><div class="text-danger">04</div><h3 class="h6 mt-2">Compare</h3><p class="small text-secondary mb-0">Live Neo4j must match the committed file.</p></article></div>
+        </div>
+      </div>
     </section>
 
-    <section id="run" class="mb-4">
-      <div class="eyebrow">Run</div>
-      <h2 class="mt-2">Same checked-in demo</h2>
-      <p class="text-secondary">Setup notes are in <a href="README.md">this folder’s README</a>. Serve the folder over HTTP. Opening the file from Finder leaves the charts empty.</p>
-      <pre class="mono mb-0"><code>python -m evaluation.real_graph_integration check
-python -m evaluation.real_graph_demo --live
-cd evaluation/mixed/real-graph-integration
+    <section class="section" id="inventory">
+      <div class="container">
+        <h2>Inventory</h2>
+        <div class="row g-3">
+          <div class="col-md-6"><div class="sheet"><h3 class="h6">Nodes</h3><table class="table table-sm mb-0"><tbody id="nodes"></tbody></table></div></div>
+          <div class="col-md-6"><div class="sheet"><h3 class="h6">Relationships</h3><table class="table table-sm mb-0"><tbody id="edges"></tbody></table></div></div>
+        </div>
+        <div id="checks" class="row g-3 mt-1"></div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2>What it does not say</h2>
+        <ol id="limits"></ol>
+      </div>
+    </section>
+
+    <section class="section" id="run">
+      <div class="container">
+        <h2>Run it</h2>
+        <p class="text-secondary">Open this address. A file from Finder will not load Findings.</p>
+        <pre class="mb-0"><code>cd evaluation/mixed/real-graph-integration
 python -m http.server 8770 --bind 127.0.0.1
 # http://127.0.0.1:8770/demo.html</code></pre>
+        <p class="small text-secondary mt-3 mb-0" id="meta"></p>
+      </div>
     </section>
-  </main>
-  <footer class="border-top"><div class="container py-3 small" id="meta">Loading graph metadata…</div></footer>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </div>
   <script>
     const el=id=>document.getElementById(id);
     const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-    const explanations={browserbase:'The retained snapshot contains one funding announcement and its source-excerpt claim. It contains no Browserbase job-listing or repository node in this mixed round.',crewai:'The snapshot contains eight repository-activity claims connected to one repository. No funding announcement or public job-posting node is included in this mixed round.',langchain:'This is the broadest company profile in the snapshot: one funding announcement, fifteen observed public job listings, one repository, and four investors explicitly named as backers in retained source text.',langfuse:'The snapshot contains eight repository-activity claims and one repository. Funding and job-listing evidence for Langfuse is outside this mixed graph population.',llamaindex:'The retained evidence includes one funding announcement and three observed public job listings. No LlamaIndex repository node is included in this mixed round.'};
-    const checkText={claims_with_source_and_subject_paths:['Claims retain both links','Each counted Claim is linked to a retained SourceRecord and a Startup subject.'],documented_domain_nodes:['Domain nodes have source records','FundingRound, JobPosting and Repository nodes are connected through DOCUMENTS relationships.'],funding_rounds_without_reviewed_event_date:['Unknown dates stay unknown','The announcements are retained, but their financing event dates were not independently established.'],investor_to_specific_round_edges:['No unsupported round assignments','Investor names are not assigned to a specific FundingRound without a retained source link.']};
-    fetch('demo-results.json').then(r=>{if(!r.ok)throw Error(`HTTP ${r.status}`);return r.json()}).then(d=>{
+    const explanations={browserbase:'One funding announcement and its claim. No Browserbase job or repository node in this round.',crewai:'Eight repository claims and one repository. No funding or job node in this round.',langchain:'One funding announcement, fifteen job listings, one repository, and four named backers in the retained text.',langfuse:'Eight repository claims and one repository. Funding and jobs for Langfuse are outside this graph.',llamaindex:'One funding announcement and three job listings. No repository node in this round.'};
+    const checkText={claims_with_source_and_subject_paths:['Claims keep both links','Each claim links to a source record and a startup.'],documented_domain_nodes:['Domain nodes have sources','Rounds, postings, and repositories connect through DOCUMENTS.'],funding_rounds_without_reviewed_event_date:['Unknown dates stay unknown','Announcement text is kept. Close dates were not established.'],investor_to_specific_round_edges:['No invented round assignments','Investors are not tied to a round without a source link.']};
+    fetch('demo-results.json').then(r=>{if(!r.ok)throw Error('HTTP '+r.status);return r.json()}).then(d=>{
       const s=d.live||d.offline;
-      el('status').className=d.live_matches_offline?'alert alert-success mb-0':'alert alert-secondary mb-0';
-      el('status').innerHTML=d.live_matches_offline?'<strong>Live Neo4j matches the committed offline graph.</strong> Company summaries, provenance checks, skills, and technologies are identical.':'<strong>Offline result loaded.</strong> No live parity result is recorded.';
-      el('facts').innerHTML=[[s.node_count,'semantic nodes','Typed records in the checked-in graph.'],[s.edge_count,'relationships','Provenance and domain links.'],[s.companies.length,'companies','Browserbase, CrewAI, LangChain, Langfuse, LlamaIndex.'],[s.node_labels.SourceRecord,'source records','3 funding, 18 job listings, 24 repository weeks.']].map(([v,l,p])=>`<div class="col-6 col-lg-3"><article class="sheet p-3 h-100"><div class="figure">${v}</div><div class="fw-semibold mt-2">${l}</div><p class="small text-secondary mb-0">${p}</p></article></div>`).join('');
+      el('status').innerHTML=d.live_matches_offline?'<span class="text-white">Live Neo4j matches the committed graph.</span>':'Offline file loaded. Live parity is not recorded.';
+      el('facts').innerHTML=[[s.node_count,'nodes'],[s.edge_count,'relationships'],[s.companies.length,'companies'],[s.node_labels.SourceRecord,'source records']].map(([v,l])=>`<div class="col-6 col-lg-3"><article class="stat"><b>${v}</b><div class="text-secondary mt-2">${l}</div></article></div>`).join('');
       const maxClaims=Math.max(...s.companies.map(c=>c.claim_count),1);
-      el('claim-bars').innerHTML=s.companies.map(c=>`<div class="d-flex align-items-center gap-2 mb-2"><div style="width:7.5rem" class="fw-semibold">${esc(c.name)}</div><div class="bar-track flex-grow-1"><span class="bar-fill" style="width:${(c.claim_count/maxClaims)*100}%"></span></div><div class="mono" style="width:2rem">${c.claim_count}</div></div>`).join('');
+      el('claim-bars').innerHTML=s.companies.map(c=>`<div class="d-flex align-items-center gap-2 mb-2"><div style="width:7rem">${esc(c.name)}</div><div class="bar-track flex-grow-1"><span class="bar-fill" style="width:${(c.claim_count/maxClaims)*100}%"></span></div><div style="width:2rem" class="text-end">${c.claim_count}</div></div>`).join('');
       const maxDomain=Math.max(...s.companies.map(c=>c.funding_announcement_count+c.observed_job_posting_count+c.repository_count),1);
-      el('domain-bars').innerHTML=s.companies.map(c=>{const total=c.funding_announcement_count+c.observed_job_posting_count+c.repository_count;const width=n=>`${(n/maxDomain)*100}%`;return `<div class="mb-3"><div class="d-flex justify-content-between small"><strong>${esc(c.name)}</strong><span class="text-secondary">${total}</span></div><div class="stacked mt-1"><span class="seg-fund" style="width:${width(c.funding_announcement_count)}"></span><span class="seg-job" style="width:${width(c.observed_job_posting_count)}"></span><span class="seg-repo" style="width:${width(c.repository_count)}"></span></div></div>`}).join('');
-      el('company-list').innerHTML=s.companies.map(c=>{const tags=[...c.skills.map(x=>`skill: ${x}`),...c.technologies.map(x=>`technology: ${x}`)];return `<article class="sheet overflow-hidden"><div class="row g-0"><div class="col-md-3 company-side p-3"><h3 class="h5 mb-1">${esc(c.name)}</h3><div class="nav-id small text-secondary">${esc(c.company_id)}</div></div><div class="col-md-9 p-3"><p class="mb-2">${esc(explanations[c.company_id]||'This profile reports only the evidence retained in the frozen mixed-source graph.')}</p><p class="small text-secondary mb-2"><b class="text-dark">${c.claim_count}</b> claims · <b class="text-dark">${c.funding_announcement_count}</b> funding · <b class="text-dark">${c.observed_job_posting_count}</b> listings · <b class="text-dark">${c.repository_count}</b> repositories · <b class="text-dark">${c.named_backer_count}</b> named backers</p>${tags.length?`<div class="d-flex flex-wrap gap-1">${tags.map(x=>`<span class="badge text-bg-light border">${esc(x)}</span>`).join('')}</div>`:'<p class="small text-secondary mb-0">No skill or technology node in this snapshot.</p>'}</div></div></article>`}).join('');
-      el('nodes').innerHTML=Object.entries(s.node_labels).map(([k,v])=>`<tr><td>${esc(k)}</td><td class="text-end mono">${v}</td></tr>`).join('');
-      el('edges').innerHTML=Object.entries(s.edge_types).map(([k,v])=>`<tr><td>${esc(k)}</td><td class="text-end mono">${v}</td></tr>`).join('');
-      el('checks').innerHTML=Object.entries(s.provenance_checks).map(([k,v])=>`<div class="col-md-6"><article class="sheet p-3 h-100"><div class="figure">${v}</div><strong class="d-block mt-2">${esc(checkText[k]?.[0]||k.replaceAll('_',' '))}</strong><p class="small text-secondary mb-0">${esc(checkText[k]?.[1]||'Recorded structural check.')}</p></article></div>`).join('');
+      el('domain-bars').innerHTML=s.companies.map(c=>{const t=c.funding_announcement_count+c.observed_job_posting_count+c.repository_count;const w=n=>`${(n/maxDomain)*100}%`;return `<div class="mb-3"><div class="d-flex justify-content-between small"><span>${esc(c.name)}</span><span class="text-secondary">${t}</span></div><div class="stacked mt-1"><span class="seg-fund" style="width:${w(c.funding_announcement_count)}"></span><span class="seg-job" style="width:${w(c.observed_job_posting_count)}"></span><span class="seg-repo" style="width:${w(c.repository_count)}"></span></div></div>`}).join('');
+      el('company-list').innerHTML=s.companies.map(c=>`<article class="sheet"><div class="row"><div class="col-md-3"><h3 class="h5 mb-1">${esc(c.name)}</h3><div class="small text-secondary">${esc(c.company_id)}</div></div><div class="col-md-9"><p class="mb-2">${esc(explanations[c.company_id]||'')}</p><p class="small text-secondary mb-0">${c.claim_count} claims · ${c.funding_announcement_count} funding · ${c.observed_job_posting_count} listings · ${c.repository_count} repositories · ${c.named_backer_count} backers</p></div></div></article>`).join('');
+      el('nodes').innerHTML=Object.entries(s.node_labels).map(([k,v])=>`<tr><td>${esc(k)}</td><td class="text-end">${v}</td></tr>`).join('');
+      el('edges').innerHTML=Object.entries(s.edge_types).map(([k,v])=>`<tr><td>${esc(k)}</td><td class="text-end">${v}</td></tr>`).join('');
+      el('checks').innerHTML=Object.entries(s.provenance_checks).map(([k,v])=>`<div class="col-md-6"><article class="sheet h-100"><b class="figure" style="font-size:2.4rem">${v}</b><div class="fw-semibold">${esc(checkText[k]?.[0]||k)}</div><p class="small text-secondary mb-0">${esc(checkText[k]?.[1]||'')}</p></article></div>`).join('');
       el('limits').innerHTML=s.interpretation_limits.map(x=>`<li class="mb-2">${esc(x)}</li>`).join('');
-      el('meta').textContent=`Status: ${d.status} · Graph SHA-256: ${d.graph_sha256} · ${d.scope}`;
-    }).catch(err=>{el('status').className='alert alert-danger mb-0';el('status').textContent=`Demo data could not be loaded (${err.message}). Serve this folder over HTTP.`;console.error(err)});
-    fetch('findings.json').then(r=>{if(!r.ok)throw Error(`HTTP ${r.status}`);return r.json()}).then(f=>{
+      el('meta').textContent=`${d.status} · ${d.graph_sha256}`;
+    }).catch(err=>{el('status').textContent='Graph file did not load. Use http://127.0.0.1:8770/demo.html';console.error(err)});
+    fetch('findings.json').then(r=>{if(!r.ok)throw Error('HTTP '+r.status);return r.json()}).then(f=>{
       const pct=n=>`${Math.round(n*1000)/10}%`;
-      el('finding-cards').innerHTML=f.conditions.map(c=>`<div class="col-md-4"><article class="sheet p-3 h-100"><div class="eyebrow">${esc(c.label)}</div><div class="figure mt-2">${c.hits}<span class="fs-5 text-secondary"> / ${f.questions}</span></div><div class="row g-2 small text-secondary mt-3"><div class="col-4">Recall@5<div class="text-dark fw-semibold">${pct(c.recall_at_5)}</div></div><div class="col-4">MRR@5<div class="text-dark fw-semibold">${pct(c.mrr_at_5)}</div></div><div class="col-4">P@5<div class="text-dark fw-semibold">${c.precision_at_5.toFixed(3)}</div></div></div><div class="meter ${c.id==='dense'?'hash':''} mt-3"><span style="width:${c.recall_at_5*100}%"></span></div></article></div>`).join('');
+      el('finding-cards').innerHTML=f.conditions.map(c=>`<article class="card-dark p-3"><div class="small text-uppercase text-secondary" style="letter-spacing:.16em">${esc(c.label)}</div><div class="figure">${c.hits}<small> / ${f.questions}</small></div><div class="d-flex justify-content-between small text-secondary mt-2"><span>Recall ${pct(c.recall_at_5)}</span><span>MRR ${pct(c.mrr_at_5)}</span><span>P@5 ${c.precision_at_5.toFixed(3)}</span></div><div class="meter mt-2"><span style="width:${c.recall_at_5*100}%"></span></div></article>`).join('');
       const z=f.original_questions;
       el('finding-zero').innerHTML=`<strong>Original ${z.questions} questions: Precision@5 is ${z.precision_at_5}.</strong> ${esc(z.reading)}`;
-      el('unmeasured').innerHTML=f.not_measured.map(item=>`<span class="badge rounded-pill text-bg-light border">Not measured · ${esc(item)}</span>`).join('');
-    }).catch(err=>{el('finding-zero').className='alert alert-danger mt-3';el('finding-zero').textContent=`Findings file did not load (${err.message}).`});
+      el('unmeasured').innerHTML=f.not_measured.map(item=>`<span class="tag">Not measured · ${esc(item)}</span>`).join('');
+    }).catch(err=>{el('finding-zero').textContent='Findings did not load. Open http://127.0.0.1:8770/demo.html';console.error(err)});
   </script>
 </body>
 </html>
