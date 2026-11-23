@@ -1,0 +1,401 @@
+{
+  "completed_by": [
+    "Sueda Sen",
+    "Mehmet Aksit"
+  ],
+  "observed_at": "2026-11-23T11:42:33Z",
+  "method": "Public HTTP fetch of audited board APIs, named RSS feeds, a fixed funding-page list, Wikidata search, and EDGAR search. Failed fetches are coverage rows, not records.",
+  "counts": {
+    "job_listings_live": 238,
+    "funding_pages_kept": 18,
+    "news": 2,
+    "company_posts": 112,
+    "public_voice": 6,
+    "reference": 36,
+    "records": 412
+  },
+  "proposal_targets": {
+    "funding_events": "20-40",
+    "job_observations": "150-300",
+    "news_documents": "120-180"
+  },
+  "already_in_repository_before_this_run": {
+    "cohort_job_history_records": 393,
+    "job_cap_that_produced_147_graph_nodes": "max 25 unique listings per company",
+    "funding_rounds_in_frozen_graph": 3
+  },
+  "greenhouse_or_lever": {
+    "greenhouse_boards_in_audit": [
+      "browserbaseinc",
+      "sourcegraph91"
+    ],
+    "lever_boards_in_audit": [],
+    "note": "No Lever slug is queried, because the audit has none. Ashby boards are collected under their own type."
+  },
+  "lda": {
+    "method": "lda_collapsed_gibbs_v1",
+    "config": {
+      "topics": 6,
+      "alpha": 0.1,
+      "beta": 0.01,
+      "iterations": 80,
+      "burn_in": 20,
+      "seed": 20261110,
+      "min_document_frequency": 2,
+      "max_document_ratio": 0.6,
+      "min_documents": 25,
+      "method": "lda_collapsed_gibbs_v1"
+    },
+    "documents": 138,
+    "dropped_documents": 0,
+    "vocabulary": 2277,
+    "topics": [
+      {
+        "topic_id": "topic-00",
+        "index": 0,
+        "label": "agent, tools, tool",
+        "weight": 0.167184,
+        "terms": [
+          {
+            "term": "agent",
+            "probability": 0.065206
+          },
+          {
+            "term": "tools",
+            "probability": 0.038245
+          },
+          {
+            "term": "tool",
+            "probability": 0.025589
+          },
+          {
+            "term": "plan",
+            "probability": 0.025314
+          },
+          {
+            "term": "use",
+            "probability": 0.024488
+          },
+          {
+            "term": "agents",
+            "probability": 0.019261
+          },
+          {
+            "term": "task",
+            "probability": 0.018711
+          },
+          {
+            "term": "generate",
+            "probability": 0.01761
+          },
+          {
+            "term": "access",
+            "probability": 0.013209
+          },
+          {
+            "term": "prompt",
+            "probability": 0.012383
+          },
+          {
+            "term": "actions",
+            "probability": 0.011558
+          },
+          {
+            "term": "environment",
+            "probability": 0.009907
+          }
+        ]
+      },
+      {
+        "topic_id": "topic-01",
+        "index": 1,
+        "label": "image, language, text",
+        "weight": 0.1701,
+        "terms": [
+          {
+            "term": "image",
+            "probability": 0.026776
+          },
+          {
+            "term": "language",
+            "probability": 0.025153
+          },
+          {
+            "term": "text",
+            "probability": 0.025153
+          },
+          {
+            "term": "multimodal",
+            "probability": 0.022719
+          },
+          {
+            "term": "models",
+            "probability": 0.019474
+          },
+          {
+            "term": "e2b",
+            "probability": 0.019203
+          },
+          {
+            "term": "clip",
+            "probability": 0.015417
+          },
+          {
+            "term": "images",
+            "probability": 0.014065
+          },
+          {
+            "term": "code",
+            "probability": 0.013254
+          },
+          {
+            "term": "use",
+            "probability": 0.013254
+          },
+          {
+            "term": "learning",
+            "probability": 0.012713
+          },
+          {
+            "term": "like",
+            "probability": 0.011361
+          }
+        ]
+      },
+      {
+        "topic_id": "topic-02",
+        "index": 2,
+        "label": "one, search, applications",
+        "weight": 0.166443,
+        "terms": [
+          {
+            "term": "one",
+            "probability": 0.030123
+          },
+          {
+            "term": "search",
+            "probability": 0.02211
+          },
+          {
+            "term": "applications",
+            "probability": 0.016307
+          },
+          {
+            "term": "first",
+            "probability": 0.015478
+          },
+          {
+            "term": "engineering",
+            "probability": 0.014372
+          },
+          {
+            "term": "vector",
+            "probability": 0.013543
+          },
+          {
+            "term": "get",
+            "probability": 0.012714
+          },
+          {
+            "term": "built",
+            "probability": 0.01078
+          },
+          {
+            "term": "systems",
+            "probability": 0.01078
+          },
+          {
+            "term": "better",
+            "probability": 0.010504
+          },
+          {
+            "term": "evaluation",
+            "probability": 0.010504
+          },
+          {
+            "term": "large",
+            "probability": 0.010227
+          }
+        ]
+      },
+      {
+        "topic_id": "topic-03",
+        "index": 3,
+        "label": "products, view, overview",
+        "weight": 0.083036,
+        "terms": [
+          {
+            "term": "products",
+            "probability": 0.01927
+          },
+          {
+            "term": "view",
+            "probability": 0.01817
+          },
+          {
+            "term": "overview",
+            "probability": 0.017619
+          },
+          {
+            "term": "services",
+            "probability": 0.017069
+          },
+          {
+            "term": "technology",
+            "probability": 0.016518
+          },
+          {
+            "term": "business",
+            "probability": 0.015968
+          },
+          {
+            "term": "general",
+            "probability": 0.014317
+          },
+          {
+            "term": "financial",
+            "probability": 0.013766
+          },
+          {
+            "term": "partners",
+            "probability": 0.013216
+          },
+          {
+            "term": "computer",
+            "probability": 0.011014
+          },
+          {
+            "term": "automate",
+            "probability": 0.009913
+          },
+          {
+            "term": "workflows",
+            "probability": 0.009913
+          }
+        ]
+      },
+      {
+        "topic_id": "topic-04",
+        "index": 4,
+        "label": "model, query, many",
+        "weight": 0.248692,
+        "terms": [
+          {
+            "term": "model",
+            "probability": 0.060605
+          },
+          {
+            "term": "query",
+            "probability": 0.02428
+          },
+          {
+            "term": "many",
+            "probability": 0.022427
+          },
+          {
+            "term": "models",
+            "probability": 0.0215
+          },
+          {
+            "term": "data",
+            "probability": 0.019832
+          },
+          {
+            "term": "example",
+            "probability": 0.01872
+          },
+          {
+            "term": "system",
+            "probability": 0.018535
+          },
+          {
+            "term": "context",
+            "probability": 0.01316
+          },
+          {
+            "term": "different",
+            "probability": 0.012419
+          },
+          {
+            "term": "used",
+            "probability": 0.011863
+          },
+          {
+            "term": "information",
+            "probability": 0.010936
+          },
+          {
+            "term": "response",
+            "probability": 0.01038
+          }
+        ]
+      },
+      {
+        "topic_id": "topic-05",
+        "index": 5,
+        "label": "agents, pinecone, build",
+        "weight": 0.164545,
+        "terms": [
+          {
+            "term": "agents",
+            "probability": 0.031307
+          },
+          {
+            "term": "pinecone",
+            "probability": 0.021525
+          },
+          {
+            "term": "build",
+            "probability": 0.019568
+          },
+          {
+            "term": "building",
+            "probability": 0.017332
+          },
+          {
+            "term": "platform",
+            "probability": 0.014537
+          },
+          {
+            "term": "enterprise",
+            "probability": 0.013978
+          },
+          {
+            "term": "developers",
+            "probability": 0.013419
+          },
+          {
+            "term": "data",
+            "probability": 0.013139
+          },
+          {
+            "term": "product",
+            "probability": 0.012021
+          },
+          {
+            "term": "open",
+            "probability": 0.011462
+          },
+          {
+            "term": "series",
+            "probability": 0.011462
+          },
+          {
+            "term": "infrastructure",
+            "probability": 0.010624
+          }
+        ]
+      }
+    ],
+    "log_likelihood": -144162.24639547296,
+    "underpowered": false,
+    "caveat": null
+  },
+  "transformer_ner": {
+    "status": "ran",
+    "model": "dslim/bert-base-NER",
+    "documents": 20,
+    "caveat": "Model spans are not human labels and were not adjudicated."
+  },
+  "ner_entity_count": 123
+}

@@ -1,0 +1,636 @@
+{
+  "jobs": [
+    {
+      "company_id": "langchain",
+      "type": "ashby",
+      "slug": "langchain",
+      "status": "ok",
+      "listings": 100
+    },
+    {
+      "company_id": "llamaindex",
+      "status": "no_board_in_audit",
+      "listings": 0
+    },
+    {
+      "company_id": "crewai",
+      "status": "no_board_in_audit",
+      "listings": 0
+    },
+    {
+      "company_id": "e2b",
+      "type": "ashby",
+      "slug": "e2b",
+      "status": "ok",
+      "listings": 16
+    },
+    {
+      "company_id": "browserbase",
+      "type": "greenhouse",
+      "slug": "browserbaseinc",
+      "status": "ok",
+      "listings": 16
+    },
+    {
+      "company_id": "composio",
+      "type": "ashby",
+      "slug": "composio",
+      "status": "ok",
+      "listings": 30
+    },
+    {
+      "company_id": "letta",
+      "type": "ashby",
+      "slug": "letta",
+      "status": "ok",
+      "listings": 4
+    },
+    {
+      "company_id": "langfuse",
+      "status": "no_board_in_audit",
+      "listings": 0
+    },
+    {
+      "company_id": "deepset",
+      "type": "ashby",
+      "slug": "deepsetai",
+      "status": "ok",
+      "listings": 4
+    },
+    {
+      "company_id": "continue",
+      "status": "no_board_in_audit",
+      "listings": 0
+    },
+    {
+      "company_id": "sourcegraph",
+      "type": "greenhouse",
+      "slug": "sourcegraph91",
+      "status": "ok",
+      "listings": 8
+    },
+    {
+      "company_id": "modal",
+      "type": "ashby",
+      "slug": "modal",
+      "status": "ok",
+      "listings": 52
+    },
+    {
+      "company_id": "replicate",
+      "status": "no_board_in_audit",
+      "listings": 0
+    },
+    {
+      "company_id": "wandb",
+      "status": "no_board_in_audit",
+      "listings": 0
+    },
+    {
+      "company_id": "pinecone",
+      "type": "ashby",
+      "slug": "pinecone",
+      "status": "ok",
+      "listings": 8
+    },
+    {
+      "company_id": "weaviate",
+      "status": "no_board_in_audit",
+      "listings": 0
+    },
+    {
+      "company_id": "chroma",
+      "status": "no_board_in_audit",
+      "listings": 0
+    },
+    {
+      "company_id": "arize",
+      "status": "no_board_in_audit",
+      "listings": 0
+    }
+  ],
+  "funding": [
+    {
+      "company_id": "langchain",
+      "url": "https://langchain.com/blog/series-c",
+      "status": "kept",
+      "chars": 5000
+    },
+    {
+      "company_id": "llamaindex",
+      "url": "https://llamaindex.ai/blog/announcing-our-series-a-and-llamacloud-general-availability",
+      "status": "kept",
+      "chars": 5000
+    },
+    {
+      "company_id": "browserbase",
+      "url": "https://www.browserbase.com/blog/series-b-and-beyond",
+      "status": "kept",
+      "chars": 5000
+    },
+    {
+      "company_id": "e2b",
+      "url": "https://e2b.dev/resources/series-a",
+      "status": "kept",
+      "chars": 5000
+    },
+    {
+      "company_id": "modal",
+      "url": "https://modal.com/blog/announcing-our-series-b",
+      "status": "kept",
+      "chars": 5000
+    },
+    {
+      "company_id": "crewai",
+      "url": "https://www.insightpartners.com/ideas/crewai-launches-multi-agentic-platform-to-deliver-on-the-promise-of-generative-ai-for-enterprise/",
+      "status": "kept",
+      "chars": 5000
+    },
+    {
+      "company_id": "langfuse",
+      "url": "https://langfuse.com/blog/announcing-our-seed-round",
+      "status": "kept",
+      "chars": 5000
+    },
+    {
+      "company_id": "pinecone",
+      "url": "https://www.pinecone.io/newsroom/pinecone-raises-usd100m-in-series-b-funding-to-provide-long-term-memory-for-ai/",
+      "status": "kept",
+      "chars": 3999
+    },
+    {
+      "company_id": "weaviate",
+      "url": "https://www.prnewswire.com/news-releases/weaviate-raises-50-million-series-b-funding-to-meet-soaring-demand-for-ai-native-vector-database-technology-301803296.html",
+      "status": "kept",
+      "chars": 5000
+    },
+    {
+      "company_id": "chroma",
+      "url": "https://www.trychroma.com/blog/seed",
+      "status": "kept",
+      "chars": 5000
+    },
+    {
+      "company_id": "arize",
+      "url": "https://arize.com/blog/arize-ai-raises-70m-series-c/",
+      "status": "kept",
+      "chars": 5000
+    },
+    {
+      "company_id": "composio",
+      "url": "https://composio.dev/blog/series-a",
+      "status": "kept",
+      "chars": 5000
+    },
+    {
+      "company_id": "letta",
+      "url": "https://www.prnewswire.com/news-releases/berkeley-ai-research-lab-spinout-letta-raises-10m-seed-financing-led-by-felicis-to-build-ai-with-memory-302257004.html",
+      "status": "kept",
+      "chars": 5000
+    },
+    {
+      "company_id": "replicate",
+      "url": "https://replicate.com/blog/series-b",
+      "status": "kept",
+      "chars": 3606
+    },
+    {
+      "company_id": "sourcegraph",
+      "url": "https://sourcegraph.com/blog/announcing-sourcegraphs-series-d-round",
+      "status": "kept",
+      "chars": 3906
+    },
+    {
+      "company_id": "continue",
+      "url": "https://techcrunch.com/2025/02/26/continue-wants-to-help-developers-create-and-share-custom-ai-coding-assistants/",
+      "status": "kept",
+      "chars": 5000
+    },
+    {
+      "company_id": "deepset",
+      "url": "https://www.deepset.ai/news/funding-announcement-balderton-capital",
+      "status": "kept",
+      "chars": 5000
+    },
+    {
+      "company_id": "wandb",
+      "url": "https://wandb.ai/site/press-release/weights-biases-raises-50-million-round-led-by-daniel-gross-and-nat-friedman-announces-wb-prompts/",
+      "status": "kept",
+      "chars": 5000
+    },
+    {
+      "company_id": "browserbase",
+      "url": "https://www.browserbase.com/blog/series-a",
+      "status": "fetched_but_no_funding_sentence"
+    },
+    {
+      "company_id": "pinecone",
+      "url": "https://www.pinecone.io/blog/pinecone-series-a/",
+      "status": "fetch_failed",
+      "detail": "failed to fetch https://www.pinecone.io/blog/pinecone-series-a/: 404 Client Error: Not Found for url: https://www.pinecone.io/blog/pinecone-series-a/"
+    }
+  ],
+  "news": [
+    {
+      "source_id": "techcrunch_ai",
+      "status": "ok",
+      "entries_seen": 20,
+      "entries_kept": 0
+    },
+    {
+      "source_id": "venturebeat_ai",
+      "status": "unavailable",
+      "detail": "failed to fetch https://venturebeat.com/category/ai/feed/: 429 Client Error: Too Many Requests for url: https://venturebeat.com/category/ai/feed/"
+    },
+    {
+      "source_id": "techcrunch_langchain",
+      "status": "ok",
+      "entries_seen": 3,
+      "entries_kept": 2
+    },
+    {
+      "source_id": "techcrunch_browserbase",
+      "status": "unavailable",
+      "detail": "failed to fetch https://techcrunch.com/tag/browserbase/feed/: 404 Client Error: Not Found for url: https://techcrunch.com/tag/browserbase/feed/"
+    },
+    {
+      "source_id": "techcrunch_composio",
+      "status": "unavailable",
+      "detail": "failed to fetch https://techcrunch.com/tag/composio/feed/: 404 Client Error: Not Found for url: https://techcrunch.com/tag/composio/feed/"
+    }
+  ],
+  "company_posts": [
+    {
+      "company_id": "langchain",
+      "feed_url": null,
+      "entries_seen": 0,
+      "entries_kept": 0,
+      "status": "no_feed",
+      "attempts": [
+        "failed to fetch https://langchain.com/feed: 404 Client Error: Not Found for url: https://www.langchain.com/feed",
+        "failed to fetch https://langchain.com/blog/feed: 404 Client Error: Not Found for url: https://www.langchain.com/blog/feed"
+      ]
+    },
+    {
+      "company_id": "llamaindex",
+      "feed_url": null,
+      "entries_seen": 0,
+      "entries_kept": 0,
+      "status": "no_feed",
+      "attempts": [
+        "failed to fetch https://llamaindex.ai/feed: 404 Client Error: Not Found for url: https://www.llamaindex.ai/feed",
+        "failed to fetch https://llamaindex.ai/blog/feed: 404 Client Error: Not Found for url: https://www.llamaindex.ai/blog/feed"
+      ]
+    },
+    {
+      "company_id": "crewai",
+      "feed_url": "https://blog.crewai.com/feed",
+      "entries_seen": 15,
+      "entries_kept": 15,
+      "status": "ok",
+      "attempts": [
+        "failed to fetch https://crewai.com/feed: 404 Client Error: Not Found for url: https://crewai.com/feed",
+        "failed to fetch https://crewai.com/blog/feed: 404 Client Error: Not Found for url: https://crewai.com/blog/feed"
+      ]
+    },
+    {
+      "company_id": "e2b",
+      "feed_url": "https://e2b.dev/rss.xml",
+      "entries_seen": 86,
+      "entries_kept": 40,
+      "status": "ok",
+      "attempts": [
+        "failed to fetch https://e2b.dev/feed: 404 Client Error: Not Found for url: https://e2b.dev/feed",
+        "failed to fetch https://e2b.dev/blog/feed: 404 Client Error: Not Found for url: https://e2b.dev/resources/feed"
+      ]
+    },
+    {
+      "company_id": "browserbase",
+      "feed_url": null,
+      "entries_seen": 0,
+      "entries_kept": 0,
+      "status": "no_feed",
+      "attempts": [
+        "invalid RSS/Atom feed: https://browserbase.com/feed",
+        "invalid RSS/Atom feed: https://browserbase.com/blog/feed"
+      ]
+    },
+    {
+      "company_id": "composio",
+      "feed_url": null,
+      "entries_seen": 0,
+      "entries_kept": 0,
+      "status": "no_feed",
+      "attempts": [
+        "failed to fetch https://composio.dev/feed: 404 Client Error: Not Found for url: https://composio.dev/feed",
+        "failed to fetch https://composio.dev/blog/feed: 404 Client Error: Not Found for url: https://composio.dev/blog/feed"
+      ]
+    },
+    {
+      "company_id": "letta",
+      "feed_url": null,
+      "entries_seen": 0,
+      "entries_kept": 0,
+      "status": "no_feed",
+      "attempts": [
+        "failed to fetch https://letta.com/feed: 404 Client Error: Not Found for url: https://www.letta.com/feed",
+        "failed to fetch https://letta.com/blog/feed: 404 Client Error: Not Found for url: https://www.letta.com/blog/feed"
+      ]
+    },
+    {
+      "company_id": "langfuse",
+      "feed_url": null,
+      "entries_seen": 0,
+      "entries_kept": 0,
+      "status": "no_feed",
+      "attempts": [
+        "failed to fetch https://langfuse.com/feed: 404 Client Error: Not Found for url: https://langfuse.com/feed",
+        "failed to fetch https://langfuse.com/blog/feed: 404 Client Error: Not Found for url: https://langfuse.com/blog/feed"
+      ]
+    },
+    {
+      "company_id": "deepset",
+      "feed_url": null,
+      "entries_seen": 0,
+      "entries_kept": 0,
+      "status": "no_feed",
+      "attempts": [
+        "invalid RSS/Atom feed: https://deepset.ai/feed",
+        "invalid RSS/Atom feed: https://deepset.ai/blog/feed"
+      ]
+    },
+    {
+      "company_id": "continue",
+      "feed_url": "https://blog.continue.dev/feed",
+      "entries_seen": 7,
+      "entries_kept": 7,
+      "status": "ok",
+      "attempts": [
+        "failed to fetch https://continue.dev/feed: 404 Client Error: Not Found for url: https://continue.dev/feed",
+        "failed to fetch https://continue.dev/blog/feed: 404 Client Error: Not Found for url: https://continue.dev/blog/feed"
+      ]
+    },
+    {
+      "company_id": "sourcegraph",
+      "feed_url": null,
+      "entries_seen": 0,
+      "entries_kept": 0,
+      "status": "no_feed",
+      "attempts": [
+        "failed to fetch https://sourcegraph.com/feed: 404 Client Error: Not Found for url: https://sourcegraph.com/feed",
+        "failed to fetch https://sourcegraph.com/blog/feed: 404 Client Error: Not Found for url: https://sourcegraph.com/blog/feed"
+      ]
+    },
+    {
+      "company_id": "modal",
+      "feed_url": null,
+      "entries_seen": 0,
+      "entries_kept": 0,
+      "status": "no_feed",
+      "attempts": [
+        "failed to fetch https://modal.com/feed: 404 Client Error: Not Found for url: https://modal.com/feed",
+        "failed to fetch https://modal.com/blog/feed: 404 Client Error: Not Found for url: https://modal.com/blog/feed"
+      ]
+    },
+    {
+      "company_id": "replicate",
+      "feed_url": null,
+      "entries_seen": 0,
+      "entries_kept": 0,
+      "status": "no_feed",
+      "attempts": [
+        "failed to fetch https://replicate.com/feed: 404 Client Error: Not Found for url: https://replicate.com/feed",
+        "failed to fetch https://replicate.com/blog/feed: 404 Client Error: Not Found for url: https://replicate.com/blog/feed"
+      ]
+    },
+    {
+      "company_id": "wandb",
+      "feed_url": null,
+      "entries_seen": 0,
+      "entries_kept": 0,
+      "status": "no_feed",
+      "attempts": [
+        "invalid RSS/Atom feed: https://wandb.ai/feed",
+        "invalid RSS/Atom feed: https://wandb.ai/blog/feed"
+      ]
+    },
+    {
+      "company_id": "pinecone",
+      "feed_url": "https://pinecone.io/feed",
+      "entries_seen": 390,
+      "entries_kept": 40,
+      "status": "ok",
+      "attempts": []
+    },
+    {
+      "company_id": "weaviate",
+      "feed_url": null,
+      "entries_seen": 0,
+      "entries_kept": 0,
+      "status": "no_feed",
+      "attempts": [
+        "failed to fetch https://weaviate.io/feed: 404 Client Error: Not Found for url: https://weaviate.io/feed",
+        "failed to fetch https://weaviate.io/blog/feed: 404 Client Error: Not Found for url: https://weaviate.io/blog/feed"
+      ]
+    },
+    {
+      "company_id": "chroma",
+      "feed_url": null,
+      "entries_seen": 0,
+      "entries_kept": 0,
+      "status": "no_feed",
+      "attempts": [
+        "invalid RSS/Atom feed: https://trychroma.com/feed",
+        "failed to fetch https://trychroma.com/blog/feed: 404 Client Error: Not Found for url: https://www.trychroma.com/blog/feed"
+      ]
+    },
+    {
+      "company_id": "arize",
+      "feed_url": "https://arize.com/feed",
+      "entries_seen": 10,
+      "entries_kept": 10,
+      "status": "ok",
+      "attempts": []
+    }
+  ],
+  "voices": [
+    {
+      "source_id": "the_batch",
+      "status": "unavailable",
+      "detail": "failed to fetch https://www.deeplearning.ai/the-batch/feed/: 404 Client Error: Not Found for url: https://www.deeplearning.ai/the-batch/feed"
+    },
+    {
+      "source_id": "latent_space",
+      "status": "ok",
+      "entries_seen": 20,
+      "entries_kept": 0
+    },
+    {
+      "source_id": "simon_willison",
+      "status": "unavailable",
+      "detail": "failed to fetch https://simonwillison.net/atom/xml/: 404 Client Error: Not Found for url: https://simonwillison.net/atom/xml/"
+    },
+    {
+      "source_id": "interconnects",
+      "status": "ok",
+      "entries_seen": 20,
+      "entries_kept": 0
+    },
+    {
+      "source_id": "ahead_of_ai",
+      "status": "ok",
+      "entries_seen": 20,
+      "entries_kept": 0
+    },
+    {
+      "source_id": "one_useful_thing",
+      "status": "ok",
+      "entries_seen": 20,
+      "entries_kept": 0
+    },
+    {
+      "source_id": "pragmatic_engineer",
+      "status": "ok",
+      "entries_seen": 20,
+      "entries_kept": 0
+    },
+    {
+      "source_id": "lilian_weng",
+      "status": "ok",
+      "entries_seen": 53,
+      "entries_kept": 0
+    },
+    {
+      "source_id": "chip_huyen",
+      "status": "ok",
+      "entries_seen": 10,
+      "entries_kept": 5
+    },
+    {
+      "source_id": "eugene_yan",
+      "status": "ok",
+      "entries_seen": 215,
+      "entries_kept": 1
+    },
+    {
+      "source_id": "hamel_husain",
+      "status": "unavailable",
+      "detail": "failed to fetch https://hamel.dev/feed.xml: 404 Client Error: Not Found for url: https://hamel.dev/feed.xml"
+    },
+    {
+      "source_id": "jason_liu",
+      "status": "unavailable",
+      "detail": "failed to fetch https://jxnl.co/rss.xml: 404 Client Error: Not Found for url: https://jxnl.co/rss.xml"
+    },
+    {
+      "source_id": "benedict_evans",
+      "status": "ok",
+      "entries_seen": 20,
+      "entries_kept": 0
+    },
+    {
+      "source_id": "stratechery",
+      "status": "ok",
+      "entries_seen": 10,
+      "entries_kept": 0
+    },
+    {
+      "source_id": "import_ai",
+      "status": "ok",
+      "entries_seen": 20,
+      "entries_kept": 0
+    }
+  ],
+  "reference": [
+    {
+      "company_id": "langchain",
+      "wikidata": "hits",
+      "sec": "fetch_failed"
+    },
+    {
+      "company_id": "llamaindex",
+      "wikidata": "hits",
+      "sec": "fetch_failed"
+    },
+    {
+      "company_id": "crewai",
+      "wikidata": "hits",
+      "sec": "fetch_failed"
+    },
+    {
+      "company_id": "e2b",
+      "wikidata": "hits",
+      "sec": "fetch_failed"
+    },
+    {
+      "company_id": "browserbase",
+      "wikidata": "no_hit",
+      "sec": "fetch_failed"
+    },
+    {
+      "company_id": "composio",
+      "wikidata": "hits",
+      "sec": "fetch_failed"
+    },
+    {
+      "company_id": "letta",
+      "wikidata": "hits",
+      "sec": "fetch_failed"
+    },
+    {
+      "company_id": "langfuse",
+      "wikidata": "no_hit",
+      "sec": "fetch_failed"
+    },
+    {
+      "company_id": "deepset",
+      "wikidata": "hits",
+      "sec": "fetch_failed"
+    },
+    {
+      "company_id": "continue",
+      "wikidata": "hits",
+      "sec": "fetch_failed"
+    },
+    {
+      "company_id": "sourcegraph",
+      "wikidata": "hits",
+      "sec": "fetch_failed"
+    },
+    {
+      "company_id": "modal",
+      "wikidata": "hits",
+      "sec": "fetch_failed"
+    },
+    {
+      "company_id": "replicate",
+      "wikidata": "hits",
+      "sec": "fetch_failed"
+    },
+    {
+      "company_id": "wandb",
+      "wikidata": "no_hit",
+      "sec": "fetch_failed"
+    },
+    {
+      "company_id": "pinecone",
+      "wikidata": "hits",
+      "sec": "fetch_failed"
+    },
+    {
+      "company_id": "weaviate",
+      "wikidata": "hits",
+      "sec": "fetch_failed"
+    },
+    {
+      "company_id": "chroma",
+      "wikidata": "hits",
+      "sec": "fetch_failed"
+    },
+    {
+      "company_id": "arize",
+      "wikidata": "hits",
+      "sec": "fetch_failed"
+    }
+  ]
+}

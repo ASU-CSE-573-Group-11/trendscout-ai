@@ -1,0 +1,763 @@
+{
+  "status": "ran",
+  "model": "dslim/bert-base-NER",
+  "documents": 20,
+  "caveat": "Model spans are not human labels and were not adjudicated.",
+  "rows": [
+    {
+      "record_id": "ed85bc31-3509-521c-8e4a-4e795b04ffc8",
+      "company_id": "langchain",
+      "source_type": "funding",
+      "entities": [
+        {
+          "text": "LangChain",
+          "label": "ORG",
+          "score": 0.995
+        },
+        {
+          "text": "LangChain",
+          "label": "ORG",
+          "score": 0.989
+        },
+        {
+          "text": "LangSmith",
+          "label": "ORG",
+          "score": 0.985
+        }
+      ]
+    },
+    {
+      "record_id": "fd7602a1-ba0f-5920-a084-c07356fc169a",
+      "company_id": "llamaindex",
+      "source_type": "funding",
+      "entities": [
+        {
+          "text": "GA",
+          "label": "ORG",
+          "score": 0.531
+        },
+        {
+          "text": "L",
+          "label": "ORG",
+          "score": 0.885
+        },
+        {
+          "text": "OS",
+          "label": "ORG",
+          "score": 0.868
+        },
+        {
+          "text": "Research Solutions",
+          "label": "ORG",
+          "score": 0.981
+        },
+        {
+          "text": "Persona Engineering",
+          "label": "ORG",
+          "score": 0.868
+        },
+        {
+          "text": "R & D",
+          "label": "ORG",
+          "score": 0.98
+        }
+      ]
+    },
+    {
+      "record_id": "9e85c305-6ada-5a57-a4c4-d7f45169be8d",
+      "company_id": "browserbase",
+      "source_type": "funding",
+      "entities": [
+        {
+          "text": "Agents Scale",
+          "label": "ORG",
+          "score": 0.448
+        },
+        {
+          "text": "JSO",
+          "label": "MISC",
+          "score": 0.844
+        }
+      ]
+    },
+    {
+      "record_id": "1d27d427-87c1-5f2f-8aec-437b62623030",
+      "company_id": "e2b",
+      "source_type": "funding",
+      "entities": [
+        {
+          "text": "Fortune 100",
+          "label": "MISC",
+          "score": 0.971
+        },
+        {
+          "text": "AI Agents",
+          "label": "MISC",
+          "score": 0.636
+        },
+        {
+          "text": "Enterprise Resources Company",
+          "label": "ORG",
+          "score": 0.999
+        },
+        {
+          "text": "Doc",
+          "label": "ORG",
+          "score": 0.914
+        },
+        {
+          "text": "##H",
+          "label": "ORG",
+          "score": 0.414
+        },
+        {
+          "text": "Fortune 100",
+          "label": "MISC",
+          "score": 0.966
+        },
+        {
+          "text": "AI Agents",
+          "label": "MISC",
+          "score": 0.618
+        },
+        {
+          "text": "V",
+          "label": "PER",
+          "score": 0.999
+        },
+        {
+          "text": "##ase",
+          "label": "PER",
+          "score": 0.991
+        },
+        {
+          "text": "##k Mlejn",
+          "label": "PER",
+          "score": 0.764
+        },
+        {
+          "text": "E2B",
+          "label": "ORG",
+          "score": 0.843
+        }
+      ]
+    },
+    {
+      "record_id": "48f9ced8-94cc-55a4-9813-b1085ca4bbe2",
+      "company_id": "modal",
+      "source_type": "funding",
+      "entities": [
+        {
+          "text": "Kim",
+          "label": "MISC",
+          "score": 0.59
+        },
+        {
+          "text": "K",
+          "label": "MISC",
+          "score": 0.956
+        },
+        {
+          "text": "Mo",
+          "label": "ORG",
+          "score": 0.344
+        },
+        {
+          "text": "Kim",
+          "label": "MISC",
+          "score": 0.748
+        },
+        {
+          "text": "K3",
+          "label": "MISC",
+          "score": 0.733
+        },
+        {
+          "text": "Mo",
+          "label": "MISC",
+          "score": 0.347
+        }
+      ]
+    },
+    {
+      "record_id": "b5da9a31-3a45-511e-9080-bc845ceb86ca",
+      "company_id": "crewai",
+      "source_type": "funding",
+      "entities": [
+        {
+          "text": "CrewAI",
+          "label": "ORG",
+          "score": 0.911
+        },
+        {
+          "text": "Multi",
+          "label": "MISC",
+          "score": 0.395
+        },
+        {
+          "text": "Agentic",
+          "label": "MISC",
+          "score": 0.558
+        },
+        {
+          "text": "Generative AI",
+          "label": "MISC",
+          "score": 0.907
+        },
+        {
+          "text": "Enterprise",
+          "label": "MISC",
+          "score": 0.355
+        },
+        {
+          "text": "In",
+          "label": "ORG",
+          "score": 0.989
+        },
+        {
+          "text": "##sight Partners",
+          "label": "ORG",
+          "score": 0.83
+        },
+        {
+          "text": "Insight Partners",
+          "label": "ORG",
+          "score": 0.83
+        },
+        {
+          "text": "CrewAI",
+          "label": "ORG",
+          "score": 0.887
+        },
+        {
+          "text": "Multi",
+          "label": "ORG",
+          "score": 0.507
+        },
+        {
+          "text": "Agentic",
+          "label": "MISC",
+          "score": 0.556
+        },
+        {
+          "text": "Platform",
+          "label": "ORG",
+          "score": 0.43
+        }
+      ]
+    },
+    {
+      "record_id": "55244bd6-b738-58e1-9a59-46154d4c4f3f",
+      "company_id": "langfuse",
+      "source_type": "funding",
+      "entities": [
+        {
+          "text": "Langfuse",
+          "label": "ORG",
+          "score": 0.988
+        },
+        {
+          "text": "Langfuse",
+          "label": "ORG",
+          "score": 0.988
+        },
+        {
+          "text": "Langfuse",
+          "label": "ORG",
+          "score": 0.719
+        },
+        {
+          "text": "AI Gateway",
+          "label": "ORG",
+          "score": 0.682
+        },
+        {
+          "text": "AI Gateway",
+          "label": "ORG",
+          "score": 0.957
+        },
+        {
+          "text": "OpenA",
+          "label": "ORG",
+          "score": 0.707
+        },
+        {
+          "text": "LangChain",
+          "label": "ORG",
+          "score": 0.806
+        },
+        {
+          "text": "SD",
+          "label": "MISC",
+          "score": 0.469
+        }
+      ]
+    },
+    {
+      "record_id": "95b15920-73f7-5093-86df-edc430f6f26b",
+      "company_id": "pinecone",
+      "source_type": "funding",
+      "entities": [
+        {
+          "text": "Pinecone",
+          "label": "ORG",
+          "score": 0.906
+        },
+        {
+          "text": "AI",
+          "label": "MISC",
+          "score": 0.95
+        },
+        {
+          "text": "Pinecon",
+          "label": "ORG",
+          "score": 0.694
+        },
+        {
+          "text": "Dismiss Products Enterprise Customers",
+          "label": "ORG",
+          "score": 0.933
+        },
+        {
+          "text": "Pinecone",
+          "label": "ORG",
+          "score": 0.954
+        },
+        {
+          "text": "AI NE",
+          "label": "MISC",
+          "score": 0.85
+        },
+        {
+          "text": "YOR",
+          "label": "LOC",
+          "score": 0.448
+        },
+        {
+          "text": "##K",
+          "label": "MISC",
+          "score": 0.788
+        },
+        {
+          "text": "Pinecon",
+          "label": "ORG",
+          "score": 0.688
+        }
+      ]
+    },
+    {
+      "record_id": "cd26039b-1403-5d04-9192-1908aa3f6800",
+      "company_id": "weaviate",
+      "source_type": "funding",
+      "entities": [
+        {
+          "text": "We",
+          "label": "ORG",
+          "score": 0.605
+        },
+        {
+          "text": "AI Native Vector Database",
+          "label": "MISC",
+          "score": 0.99
+        },
+        {
+          "text": "Investor Relations Journalists Agencies",
+          "label": "ORG",
+          "score": 0.839
+        },
+        {
+          "text": "News Products",
+          "label": "ORG",
+          "score": 0.912
+        }
+      ]
+    },
+    {
+      "record_id": "76cee9a8-320f-58ad-9da3-7d6e5bdfa596",
+      "company_id": "chroma",
+      "source_type": "funding",
+      "entities": [
+        {
+          "text": "Chroma",
+          "label": "ORG",
+          "score": 0.738
+        },
+        {
+          "text": "Ch",
+          "label": "ORG",
+          "score": 0.84
+        },
+        {
+          "text": "##roma Products Products",
+          "label": "ORG",
+          "score": 0.895
+        },
+        {
+          "text": "Research Engineering Resources",
+          "label": "ORG",
+          "score": 0.772
+        },
+        {
+          "text": "##H",
+          "label": "ORG",
+          "score": 0.728
+        },
+        {
+          "text": "Chroma",
+          "label": "ORG",
+          "score": 0.719
+        },
+        {
+          "text": "AI",
+          "label": "MISC",
+          "score": 0.999
+        },
+        {
+          "text": "AI",
+          "label": "MISC",
+          "score": 0.999
+        }
+      ]
+    },
+    {
+      "record_id": "072dfed9-bb4f-5e59-bf4f-b369bdd8f588",
+      "company_id": "arize",
+      "source_type": "funding",
+      "entities": [
+        {
+          "text": "AI",
+          "label": "ORG",
+          "score": 0.388
+        },
+        {
+          "text": "AI & Agent",
+          "label": "MISC",
+          "score": 0.898
+        }
+      ]
+    },
+    {
+      "record_id": "98baf318-a3d7-5852-8404-d3be47e00ed8",
+      "company_id": "composio",
+      "source_type": "funding",
+      "entities": [
+        {
+          "text": "AI",
+          "label": "MISC",
+          "score": 0.954
+        },
+        {
+          "text": "AI",
+          "label": "MISC",
+          "score": 0.906
+        },
+        {
+          "text": "Composio",
+          "label": "ORG",
+          "score": 0.915
+        },
+        {
+          "text": "Co",
+          "label": "PER",
+          "score": 0.771
+        }
+      ]
+    },
+    {
+      "record_id": "6036ff0d-8915-5321-9ba8-89e2aea2581e",
+      "company_id": "letta",
+      "source_type": "funding",
+      "entities": [
+        {
+          "text": "Berkeley AI Research Lab Spinout Let",
+          "label": "ORG",
+          "score": 0.921
+        },
+        {
+          "text": "Fe",
+          "label": "PER",
+          "score": 0.96
+        },
+        {
+          "text": "##lic",
+          "label": "PER",
+          "score": 0.482
+        },
+        {
+          "text": "AI",
+          "label": "MISC",
+          "score": 0.848
+        },
+        {
+          "text": "##tor Relations Journalists Agencies",
+          "label": "ORG",
+          "score": 0.921
+        },
+        {
+          "text": "News Products",
+          "label": "ORG",
+          "score": 0.976
+        }
+      ]
+    },
+    {
+      "record_id": "5df906b2-fb5f-5115-bd6d-21099d42dac0",
+      "company_id": "replicate",
+      "source_type": "funding",
+      "entities": [
+        {
+          "text": "AI",
+          "label": "MISC",
+          "score": 0.994
+        },
+        {
+          "text": "Rep",
+          "label": "MISC",
+          "score": 0.599
+        },
+        {
+          "text": "AI",
+          "label": "MISC",
+          "score": 0.959
+        },
+        {
+          "text": "Stable",
+          "label": "ORG",
+          "score": 0.714
+        },
+        {
+          "text": "Diff",
+          "label": "MISC",
+          "score": 0.521
+        },
+        {
+          "text": "##usion",
+          "label": "ORG",
+          "score": 0.685
+        }
+      ]
+    },
+    {
+      "record_id": "f446cf3d-2be4-511d-bc44-dae2e0fccc7b",
+      "company_id": "sourcegraph",
+      "source_type": "funding",
+      "entities": [
+        {
+          "text": "Sourcegraph",
+          "label": "ORG",
+          "score": 0.993
+        },
+        {
+          "text": "Sourcegraph",
+          "label": "ORG",
+          "score": 0.816
+        },
+        {
+          "text": "AI",
+          "label": "MISC",
+          "score": 0.974
+        },
+        {
+          "text": "Sourcegraph",
+          "label": "ORG",
+          "score": 0.686
+        },
+        {
+          "text": "Sourcegraph",
+          "label": "ORG",
+          "score": 0.982
+        },
+        {
+          "text": "Sourcegraph",
+          "label": "ORG",
+          "score": 0.991
+        },
+        {
+          "text": "Andreess",
+          "label": "PER",
+          "score": 0.974
+        },
+        {
+          "text": "##en Horowitz",
+          "label": "PER",
+          "score": 0.852
+        }
+      ]
+    },
+    {
+      "record_id": "1827ccf0-b8c5-5f1e-887c-71c67a524154",
+      "company_id": "continue",
+      "source_type": "funding",
+      "entities": [
+        {
+          "text": "AI",
+          "label": "MISC",
+          "score": 0.894
+        },
+        {
+          "text": "TechCrunch",
+          "label": "ORG",
+          "score": 0.825
+        },
+        {
+          "text": "TechCrunch",
+          "label": "ORG",
+          "score": 0.731
+        },
+        {
+          "text": "##kt",
+          "label": "ORG",
+          "score": 0.438
+        },
+        {
+          "text": "TechCrunch",
+          "label": "ORG",
+          "score": 0.841
+        },
+        {
+          "text": "Apple Security AI",
+          "label": "ORG",
+          "score": 0.848
+        },
+        {
+          "text": "Amazon A",
+          "label": "ORG",
+          "score": 0.949
+        },
+        {
+          "text": "Biotech & Health Climate Cloud Computing Commerce",
+          "label": "ORG",
+          "score": 0.875
+        },
+        {
+          "text": "Crypt",
+          "label": "ORG",
+          "score": 0.856
+        },
+        {
+          "text": "Enterprise",
+          "label": "ORG",
+          "score": 0.888
+        },
+        {
+          "text": "Fintech",
+          "label": "ORG",
+          "score": 0.806
+        }
+      ]
+    },
+    {
+      "record_id": "e69d4e87-c088-52ae-bce8-5f5c811de3b0",
+      "company_id": "deepset",
+      "source_type": "funding",
+      "entities": [
+        {
+          "text": "Balder",
+          "label": "ORG",
+          "score": 0.99
+        },
+        {
+          "text": "##ton Capital Products & Services",
+          "label": "ORG",
+          "score": 0.964
+        },
+        {
+          "text": "Haystack Enterprise Platform",
+          "label": "ORG",
+          "score": 0.998
+        },
+        {
+          "text": "Haystack Enterprise Starter Solutions Enterprise Public Sector Defense & National Security Resources Resource Center",
+          "label": "ORG",
+          "score": 0.984
+        },
+        {
+          "text": "Case Studies",
+          "label": "ORG",
+          "score": 0.985
+        },
+        {
+          "text": "Sovereign AI Systems",
+          "label": "ORG",
+          "score": 0.982
+        },
+        {
+          "text": "Sovereign AI Systems",
+          "label": "ORG",
+          "score": 0.991
+        }
+      ]
+    },
+    {
+      "record_id": "468520c5-470c-501b-b0b1-0ee2451145f5",
+      "company_id": "wandb",
+      "source_type": "funding",
+      "entities": [
+        {
+          "text": "Weights & Biases",
+          "label": "ORG",
+          "score": 0.99
+        },
+        {
+          "text": "Daniel Gross",
+          "label": "PER",
+          "score": 1.0
+        },
+        {
+          "text": "Nat Friedman",
+          "label": "PER",
+          "score": 0.999
+        },
+        {
+          "text": "Weights & Biases",
+          "label": "ORG",
+          "score": 0.994
+        },
+        {
+          "text": "AI",
+          "label": "MISC",
+          "score": 0.989
+        },
+        {
+          "text": "AI",
+          "label": "MISC",
+          "score": 0.995
+        }
+      ]
+    },
+    {
+      "record_id": "9ea49bcf-88e5-530f-959f-0145b55e5aba",
+      "company_id": "langchain",
+      "source_type": "news",
+      "entities": [
+        {
+          "text": "LangChain",
+          "label": "ORG",
+          "score": 0.999
+        },
+        {
+          "text": "LangSmith",
+          "label": "ORG",
+          "score": 0.999
+        }
+      ]
+    },
+    {
+      "record_id": "69e3cb5b-4d3a-584b-96e2-36024b9cf877",
+      "company_id": "langchain",
+      "source_type": "news",
+      "entities": [
+        {
+          "text": "TechCrunch",
+          "label": "ORG",
+          "score": 0.997
+        },
+        {
+          "text": "AI",
+          "label": "MISC",
+          "score": 0.995
+        }
+      ]
+    }
+  ]
+}
