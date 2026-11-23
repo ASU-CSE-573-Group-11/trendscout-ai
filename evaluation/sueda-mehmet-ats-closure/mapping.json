@@ -1,0 +1,237 @@
+{
+  "status": "greenhouse_snapshots_collected",
+  "completed_by": [
+    "Sueda Sen",
+    "Mehmet Aksit"
+  ],
+  "not_completed_by": [
+    "Vidya Sagar Dudekula",
+    "Faisal Barkat Khorasi"
+  ],
+  "observed_at": "2026-11-23T11:17:28Z",
+  "source": "evaluation/cohort-source-audit/board-audit.json",
+  "greenhouse_slugs_written": [
+    "browserbase",
+    "sourcegraph"
+  ],
+  "lever_slugs_written": [],
+  "companies": [
+    {
+      "company_id": "langchain",
+      "name": "LangChain",
+      "greenhouse_board": null,
+      "lever_site": null,
+      "audited_boards": [
+        {
+          "type": "ashby",
+          "slug": "langchain",
+          "api_url": "https://api.ashbyhq.com/posting-api/job-board/langchain"
+        }
+      ],
+      "registry_note": "Not Greenhouse or Lever. Registry fields stay null. Audited ATS: ashby:langchain"
+    },
+    {
+      "company_id": "llamaindex",
+      "name": "LlamaIndex",
+      "greenhouse_board": null,
+      "lever_site": null,
+      "audited_boards": [],
+      "registry_note": "No Greenhouse or Lever board in the cohort board audit. Registry fields stay null."
+    },
+    {
+      "company_id": "crewai",
+      "name": "CrewAI",
+      "greenhouse_board": null,
+      "lever_site": null,
+      "audited_boards": [],
+      "registry_note": "No Greenhouse or Lever board in the cohort board audit. Registry fields stay null."
+    },
+    {
+      "company_id": "e2b",
+      "name": "E2B",
+      "greenhouse_board": null,
+      "lever_site": null,
+      "audited_boards": [
+        {
+          "type": "ashby",
+          "slug": "e2b",
+          "api_url": "https://api.ashbyhq.com/posting-api/job-board/e2b"
+        }
+      ],
+      "registry_note": "Not Greenhouse or Lever. Registry fields stay null. Audited ATS: ashby:e2b"
+    },
+    {
+      "company_id": "browserbase",
+      "name": "Browserbase",
+      "greenhouse_board": "browserbaseinc",
+      "lever_site": null,
+      "audited_boards": [
+        {
+          "type": "greenhouse",
+          "slug": "browserbaseinc",
+          "api_url": "https://boards-api.greenhouse.io/v1/boards/browserbaseinc/jobs"
+        }
+      ],
+      "registry_note": null
+    },
+    {
+      "company_id": "composio",
+      "name": "Composio",
+      "greenhouse_board": null,
+      "lever_site": null,
+      "audited_boards": [
+        {
+          "type": "ashby",
+          "slug": "composio",
+          "api_url": "https://api.ashbyhq.com/posting-api/job-board/composio"
+        }
+      ],
+      "registry_note": "Not Greenhouse or Lever. Registry fields stay null. Audited ATS: ashby:composio"
+    },
+    {
+      "company_id": "letta",
+      "name": "Letta",
+      "greenhouse_board": null,
+      "lever_site": null,
+      "audited_boards": [
+        {
+          "type": "ashby",
+          "slug": "letta",
+          "api_url": "https://api.ashbyhq.com/posting-api/job-board/letta"
+        }
+      ],
+      "registry_note": "Not Greenhouse or Lever. Registry fields stay null. Audited ATS: ashby:letta"
+    },
+    {
+      "company_id": "langfuse",
+      "name": "Langfuse",
+      "greenhouse_board": null,
+      "lever_site": null,
+      "audited_boards": [],
+      "registry_note": "No Greenhouse or Lever board in the cohort board audit. Registry fields stay null."
+    },
+    {
+      "company_id": "deepset",
+      "name": "deepset",
+      "greenhouse_board": null,
+      "lever_site": null,
+      "audited_boards": [
+        {
+          "type": "ashby",
+          "slug": "deepsetai",
+          "api_url": "https://api.ashbyhq.com/posting-api/job-board/deepsetai"
+        }
+      ],
+      "registry_note": "Not Greenhouse or Lever. Registry fields stay null. Audited ATS: ashby:deepsetai"
+    },
+    {
+      "company_id": "continue",
+      "name": "Continue",
+      "greenhouse_board": null,
+      "lever_site": null,
+      "audited_boards": [],
+      "registry_note": "No Greenhouse or Lever board in the cohort board audit. Registry fields stay null."
+    },
+    {
+      "company_id": "sourcegraph",
+      "name": "Sourcegraph",
+      "greenhouse_board": "sourcegraph91",
+      "lever_site": null,
+      "audited_boards": [
+        {
+          "type": "greenhouse",
+          "slug": "sourcegraph91",
+          "api_url": "https://boards-api.greenhouse.io/v1/boards/sourcegraph91/jobs"
+        }
+      ],
+      "registry_note": null
+    },
+    {
+      "company_id": "modal",
+      "name": "Modal",
+      "greenhouse_board": null,
+      "lever_site": null,
+      "audited_boards": [
+        {
+          "type": "ashby",
+          "slug": "modal",
+          "api_url": "https://api.ashbyhq.com/posting-api/job-board/modal"
+        }
+      ],
+      "registry_note": "Not Greenhouse or Lever. Registry fields stay null. Audited ATS: ashby:modal"
+    },
+    {
+      "company_id": "replicate",
+      "name": "Replicate",
+      "greenhouse_board": null,
+      "lever_site": null,
+      "audited_boards": [],
+      "registry_note": "No Greenhouse or Lever board in the cohort board audit. Registry fields stay null."
+    },
+    {
+      "company_id": "wandb",
+      "name": "Weights & Biases",
+      "greenhouse_board": null,
+      "lever_site": null,
+      "audited_boards": [],
+      "registry_note": "No Greenhouse or Lever board in the cohort board audit. Registry fields stay null."
+    },
+    {
+      "company_id": "pinecone",
+      "name": "Pinecone",
+      "greenhouse_board": null,
+      "lever_site": null,
+      "audited_boards": [
+        {
+          "type": "ashby",
+          "slug": "pinecone",
+          "api_url": "https://api.ashbyhq.com/posting-api/job-board/pinecone"
+        }
+      ],
+      "registry_note": "Not Greenhouse or Lever. Registry fields stay null. Audited ATS: ashby:pinecone"
+    },
+    {
+      "company_id": "weaviate",
+      "name": "Weaviate",
+      "greenhouse_board": null,
+      "lever_site": null,
+      "audited_boards": [],
+      "registry_note": "No Greenhouse or Lever board in the cohort board audit. Registry fields stay null."
+    },
+    {
+      "company_id": "chroma",
+      "name": "Chroma",
+      "greenhouse_board": null,
+      "lever_site": null,
+      "audited_boards": [],
+      "registry_note": "No Greenhouse or Lever board in the cohort board audit. Registry fields stay null."
+    },
+    {
+      "company_id": "arize",
+      "name": "Arize",
+      "greenhouse_board": null,
+      "lever_site": null,
+      "audited_boards": [],
+      "registry_note": "No Greenhouse or Lever board in the cohort board audit. Registry fields stay null."
+    }
+  ],
+  "collector_runs": [
+    {
+      "company_id": "browserbase",
+      "target": "browserbaseinc",
+      "status": "success",
+      "record_count": 16,
+      "observed_at": "2026-11-23T11:17:31.091751Z",
+      "manifest": "evaluation/sueda-mehmet-ats-closure/collector-runs/2026-11-23T111731-091391Z-691667aa/manifest.json"
+    },
+    {
+      "company_id": "sourcegraph",
+      "target": "sourcegraph91",
+      "status": "success",
+      "record_count": 8,
+      "observed_at": "2026-11-23T11:17:31.533372Z",
+      "manifest": "evaluation/sueda-mehmet-ats-closure/collector-runs/2026-11-23T111731-533005Z-e86313c8/manifest.json"
+    }
+  ],
+  "snapshots_collected_at": "2026-11-23T11:17:40Z"
+}

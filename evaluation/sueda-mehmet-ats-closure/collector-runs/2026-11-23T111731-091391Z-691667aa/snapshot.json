@@ -1,0 +1,826 @@
+{
+  "snapshot_version": 2,
+  "source": "greenhouse",
+  "target": "browserbaseinc",
+  "company_id": "browserbase",
+  "company_name": "Browserbase",
+  "observed_at": "2026-11-23T11:17:31.091751Z",
+  "origin_cluster_id": null,
+  "payload": {
+    "jobs": [
+      {
+        "absolute_url": "https://job-boards.greenhouse.io/browserbaseinc/jobs/4476918009",
+        "data_compliance": [
+          {
+            "type": "gdpr",
+            "requires_consent": false,
+            "requires_processing_consent": false,
+            "requires_retention_consent": false,
+            "retention_period": null,
+            "demographic_data_consent_applies": false
+          }
+        ],
+        "internal_job_id": 4291061009,
+        "location": {
+          "name": "San Francisco"
+        },
+        "metadata": null,
+        "id": 4476918009,
+        "updated_at": "2026-11-02T19:31:13-05:00",
+        "requisition_id": "26REV02",
+        "title": "Account Executive - Mid-Market",
+        "company_name": "Browserbase",
+        "first_published": "2026-11-02T19:31:13-05:00",
+        "language": "en",
+        "application_deadline": null,
+        "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;h2&gt;About Browserbase&lt;/h2&gt;\n&lt;p&gt;Browserbase is the complete platform for building and deploying AI agents that browse and interact with the web like humans. With a single API key, developers can enable agents to search and retrieve information, fill out forms, and take action across websites. Today, Browserbase powers more than 50 million browser sessions each month for over 10,000 customers, including Ramp, DeepMind, Clay, Vercel, and Notion.&lt;/p&gt;\n&lt;p&gt;We&#39;re a Series B startup that&#39;s tripled our headcount in 2 years, and we&#39;re continuing to grow, fast. Backed by Kleiner Perkins, CRV, and Notable Capital, our team is building on our CEO&#39;s&lt;a href=&quot;https://memos.hawkhill.ventures/p/an-internet-browser-for-ai&quot;&gt; founding vision&lt;/a&gt; to power the world&#39;s best AI tools and help everyone automate the web.&lt;/p&gt;&lt;/div&gt;&lt;h2&gt;About the Role&lt;/h2&gt;\n&lt;p&gt;You&#39;ll be one of the first Mid Market Account Executives at Browserbase, and you&#39;ll help build this segment from the ground up.&lt;/p&gt;\n&lt;p&gt;Mid Market is where some of the most exciting AI work is happening right now. Companies with 100 to 2,999 employees are moving fast, putting agents into production, and making real infrastructure bets. They need a partner who understands the technology and can guide them from first build to company-wide rollout. That partner is you.&lt;/p&gt;\n&lt;p&gt;You&#39;ll run full-cycle deals with multiple stakeholders, from the engineers building with Browserbase to the leaders signing the contract. You&#39;ll land new logos, set them up to expand, and help turn promising accounts into some of our largest customers.&lt;/p&gt;\n&lt;p&gt;You&#39;ll also work directly with GTM leadership to define how we win in Mid Market: who we target, how we qualify, how we price and package, and how we land and expand. The playbook you write will shape every Mid Market hire that follows.&amp;nbsp;If you want real ownership, bigger deals and a hand in building a segment, this is the seat.&lt;/p&gt;\n&lt;h2&gt;What You&#39;ll Do&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;Own the Mid Market segment: run full-cycle deals with companies of 100 to 2,999 employees, from prospecting to signed contract.&lt;/li&gt;\n&lt;li&gt;Land and expand: win new logos, then build the relationships and roadmap that turn first deals into larger, multi-team commitments.&lt;/li&gt;\n&lt;li&gt;Build pipeline: combine inbound, product-led signals and strategic outbound to create a healthy, growing pipeline.&lt;/li&gt;\n&lt;li&gt;Convert product-led growth: identify self-serve teams with momentum and turn them into strategic, committed contracts.&lt;/li&gt;\n&lt;li&gt;Multithread every deal: build trust with engineers, engineering leaders, security, procurement and executive buyers.&lt;/li&gt;\n&lt;li&gt;Build the playbook: create the processes, messaging and qualification standards that define how Mid Market sells at Browserbase.&lt;/li&gt;\n&lt;li&gt;Run compelling, technical demos: partner with Solutions Engineering to show how Browserbase solves real business problems.&lt;/li&gt;\n&lt;li&gt;Negotiate and close: lead pricing, contract and security conversations through the full sales cycle.&lt;/li&gt;\n&lt;li&gt;Shape the product: bring customer feedback, use cases and competitive intel back to Product and Engineering.&lt;/li&gt;\n&lt;li&gt;Forecast with precision: track your metrics, report on pipeline and call your number accurately.&lt;/li&gt;\n&lt;li&gt;Be the face of Browserbase: represent us at events, conferences and customer meetings.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2&gt;You Might Be a Good Fit If You Have&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;5+ years of closing experience in SaaS, ideally selling technical or AI infrastructure products.&lt;/li&gt;\n&lt;li&gt;A track record of exceeding quota selling into mid-size companies.&lt;/li&gt;\n&lt;li&gt;Experience running multi-stakeholder deals, including security reviews and procurement.&lt;/li&gt;\n&lt;li&gt;Experience with product-led growth, specifically converting self-serve users into contracts.&lt;/li&gt;\n&lt;li&gt;Comfort with outbound prospecting and building your own pipeline.&lt;/li&gt;\n&lt;li&gt;Strong technical aptitude and the ability to talk credibly with developers and engineering leaders.&lt;/li&gt;\n&lt;li&gt;Excellent communication skills, written and verbal.&lt;/li&gt;\n&lt;li&gt;Self-motivation and comfort operating in ambiguity at a fast-growing startup.&lt;/li&gt;\n&lt;li&gt;The ability to work from our San Francisco HQ 4 days a week (or willingness to relocate).&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2&gt;Nice to Have&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;Experience selling dev tools, APIs or infrastructure to technical buyers.&lt;/li&gt;\n&lt;li&gt;Experience building sales processes or a new segment from scratch.&lt;/li&gt;\n&lt;li&gt;A history of land-and-expand wins that grew into large accounts.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2&gt;Why Join Us&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;strong&gt;Build something that matters.&lt;/strong&gt; Work on a product developers love (just look at @browserbase).&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Shape a segment from day one.&lt;/strong&gt; You&#39;ll help define the Mid Market motion, the role and the playbook that future reps inherit.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Grow with the company.&lt;/strong&gt; Early GTM hires here have a real path to lead, mentor and build the team as we scale.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Lean, high-impact team.&lt;/strong&gt; Your deals move the company forward, and everyone sees it.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2&gt;Benefits&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;Competitive salary and early-stage equity&lt;/li&gt;\n&lt;li&gt;Comprehensive medical, dental and vision coverage&lt;/li&gt;\n&lt;li&gt;401(k)&lt;/li&gt;\n&lt;li&gt;Catered lunches&lt;/li&gt;\n&lt;li&gt;Downtown San Francisco office&lt;/li&gt;\n&lt;li&gt;AI tools and credits&lt;/li&gt;\n&lt;li&gt;Team offsites&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;/p&gt;&lt;div class=&quot;content-pay-transparency&quot;&gt;&lt;div class=&quot;pay-input&quot;&gt;&lt;div class=&quot;title&quot;&gt;OTE (includes base + commission)&lt;/div&gt;&lt;div class=&quot;pay-range&quot;&gt;&lt;span&gt;$219,000&lt;/span&gt;&lt;span class=&quot;divider&quot;&gt;&amp;mdash;&lt;/span&gt;&lt;span&gt;$274,000 USD&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;p&gt;&lt;em&gt;Browserbase is an equal opportunity employer. We celebrate diversity and are committed to creating an inclusive environment for all employees, regardless of race, color, religion, sex, sexual orientation, gender identity or expression, national origin, age, disability, genetic information, veteran status, or any other characteristic protected by applicable law.&amp;nbsp;&lt;/em&gt;&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;If you need a reasonable accommodation at any point during the application or interview process, please contact your recruiter.&lt;/em&gt;&lt;/p&gt;&lt;/div&gt;",
+        "departments": [
+          {
+            "id": 4074354009,
+            "name": "Sales",
+            "child_ids": [
+              4075169009,
+              4075170009,
+              4075171009
+            ],
+            "parent_id": null
+          }
+        ],
+        "offices": [
+          {
+            "id": 4081171009,
+            "name": "San Francisco",
+            "location": "San Francisco, California, United States",
+            "child_ids": [],
+            "parent_id": null
+          }
+        ],
+        "ai_disclaimer": null,
+        "include_ai_disclaimer": null,
+        "ai_opt_out_request_url": "http://app9.greenhouse.io/ai_opt_out_request/job_post/4476918009/ai_opt_out"
+      },
+      {
+        "absolute_url": "https://job-boards.greenhouse.io/browserbaseinc/jobs/4476925009",
+        "data_compliance": [
+          {
+            "type": "gdpr",
+            "requires_consent": false,
+            "requires_processing_consent": false,
+            "requires_retention_consent": false,
+            "retention_period": null,
+            "demographic_data_consent_applies": false
+          }
+        ],
+        "internal_job_id": 4291065009,
+        "location": {
+          "name": "San Francisco"
+        },
+        "metadata": null,
+        "id": 4476925009,
+        "updated_at": "2026-11-02T19:35:51-05:00",
+        "requisition_id": "26REV10",
+        "title": "Account Executive - Startups",
+        "company_name": "Browserbase",
+        "first_published": "2026-11-02T19:35:51-05:00",
+        "language": "en",
+        "application_deadline": null,
+        "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;h2&gt;About Browserbase&lt;/h2&gt;\n&lt;p&gt;Browserbase is the complete platform for building and deploying AI agents that browse and interact with the web like humans. With a single API key, developers can enable agents to search and retrieve information, fill out forms, and take action across websites. Today, Browserbase powers more than 50 million browser sessions each month for over 10,000 customers, including Ramp, DeepMind, Clay, Vercel, and Notion.&lt;/p&gt;\n&lt;p&gt;We&#39;re a Series B startup that&#39;s tripled our headcount in 2 years, and we&#39;re continuing to grow, fast. Backed by Kleiner Perkins, CRV, and Notable Capital, our team is building on our CEO&#39;s&lt;a href=&quot;https://memos.hawkhill.ventures/p/an-internet-browser-for-ai&quot;&gt; founding vision&lt;/a&gt; to power the world&#39;s best AI tools and help everyone automate the web.&lt;/p&gt;&lt;/div&gt;&lt;h2&gt;About the Role&lt;/h2&gt;\n&lt;p&gt;You&#39;ll be one of the first Velocity Account Executives at Browserbase, and you&#39;ll help define what this role and this segment become.&lt;/p&gt;\n&lt;p&gt;Our Velocity motion is where the action is fastest. Developers sign up, start building, and hit real scale on their own. Your job is to find those teams at exactly the right moment and turn momentum into committed contracts. That means a high volume of deals, shorter sales cycles, and the chance to close more new logos in a quarter than most AEs close in a year.&lt;/p&gt;\n&lt;p&gt;You&#39;ll work directly with GTM leadership to build the playbook from the ground up: how we spot product-led signals, how we qualify fast, how we price and package for speed, and how we hand off to expansion. What you build here becomes the foundation every future Velocity rep runs on.&lt;/p&gt;\n&lt;p&gt;If you love speed, reps and a fast scoreboard, this is the seat.&lt;/p&gt;\n&lt;h2&gt;What You&#39;ll Do&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;Own a high-velocity book: run a large volume of opportunities from first touch to signed contract, with short cycles and fast decisions.&lt;/li&gt;\n&lt;li&gt;Convert product-led momentum: use usage data and signals to identify self-serve teams ready to scale, then turn them into annual and committed-use contracts.&lt;/li&gt;\n&lt;li&gt;Prospect relentlessly: pair inbound and product signals with sharp outbound to keep your pipeline full every week.&lt;/li&gt;\n&lt;li&gt;Build the playbook: create the processes, talk tracks, sequences and qualification standards that define how Velocity sells at Browserbase.&lt;/li&gt;\n&lt;li&gt;Run tight, technical demos: partner with Solutions Engineering when needed, and show developers exactly how Browserbase fits into what they&#39;re building.&lt;/li&gt;\n&lt;li&gt;Close with speed: negotiate pricing and terms efficiently and manage the full cycle without letting deals stall.&lt;/li&gt;\n&lt;li&gt;Shape the product: bring customer feedback, use cases and competitive intel back to Product and Engineering.&lt;/li&gt;\n&lt;li&gt;Forecast with precision: track your metrics, report on pipeline and call your number accurately.&lt;/li&gt;\n&lt;li&gt;Be the face of Browserbase: represent us at events, hackathons and in developer communities.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2&gt;You Might Be a Good Fit If You Have&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;3+ years of closing experience in SaaS, ideally selling technical or AI infrastructure products.&lt;/li&gt;\n&lt;li&gt;A track record of exceeding quota in a high-volume, short-cycle motion.&lt;/li&gt;\n&lt;li&gt;Experience with product-led growth, specifically converting self-serve users into paying contracts.&lt;/li&gt;\n&lt;li&gt;Comfort and energy for outbound prospecting and running many deals at once.&lt;/li&gt;\n&lt;li&gt;Strong technical aptitude and the ability to talk credibly with developers.&lt;/li&gt;\n&lt;li&gt;Excellent communication skills, written and verbal.&lt;/li&gt;\n&lt;li&gt;Self-motivation and comfort operating in ambiguity at a fast-growing startup.&lt;/li&gt;\n&lt;li&gt;The ability to work from our San Francisco HQ 4 days a week (or willingness to relocate).&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2&gt;Nice to Have&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;Experience selling dev tools, APIs or infrastructure to technical buyers.&lt;/li&gt;\n&lt;li&gt;Experience helping build a sales process or segment from scratch.&lt;/li&gt;\n&lt;li&gt;A love for metrics, experiments and finding the fastest path to yes.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2&gt;Why Join Us&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;Build something that matters. Work on a product developers love (just look at @browserbase).&lt;/li&gt;\n&lt;li&gt;Shape a segment from day one. You&#39;ll help define the Velocity motion, the role and the playbook that future reps inherit.&lt;/li&gt;\n&lt;li&gt;Grow with the company. Early GTM hires here have a real path to lead, mentor and build the team as we scale.&lt;/li&gt;\n&lt;li&gt;Lean, high-impact team. Your wins show up on the board every week.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2&gt;Benefits&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;Competitive salary and early-stage equity&lt;/li&gt;\n&lt;li&gt;Comprehensive medical, dental and vision coverage&lt;/li&gt;\n&lt;li&gt;401(k)&lt;/li&gt;\n&lt;li&gt;Catered lunches&lt;/li&gt;\n&lt;li&gt;Downtown San Francisco office&lt;/li&gt;\n&lt;li&gt;AI tools and credits&lt;/li&gt;\n&lt;li&gt;Team offsites&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;/p&gt;&lt;div class=&quot;content-pay-transparency&quot;&gt;&lt;div class=&quot;pay-input&quot;&gt;&lt;div class=&quot;title&quot;&gt;OTE (includes base + commission)&lt;/div&gt;&lt;div class=&quot;pay-range&quot;&gt;&lt;span&gt;$178,500&lt;/span&gt;&lt;span class=&quot;divider&quot;&gt;&amp;mdash;&lt;/span&gt;&lt;span&gt;$223,000 USD&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;p&gt;&lt;em&gt;Browserbase is an equal opportunity employer. We celebrate diversity and are committed to creating an inclusive environment for all employees, regardless of race, color, religion, sex, sexual orientation, gender identity or expression, national origin, age, disability, genetic information, veteran status, or any other characteristic protected by applicable law.&amp;nbsp;&lt;/em&gt;&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;If you need a reasonable accommodation at any point during the application or interview process, please contact your recruiter.&lt;/em&gt;&lt;/p&gt;&lt;/div&gt;",
+        "departments": [
+          {
+            "id": 4074354009,
+            "name": "Sales",
+            "child_ids": [
+              4075169009,
+              4075170009,
+              4075171009
+            ],
+            "parent_id": null
+          }
+        ],
+        "offices": [
+          {
+            "id": 4081171009,
+            "name": "San Francisco",
+            "location": "San Francisco, California, United States",
+            "child_ids": [],
+            "parent_id": null
+          }
+        ],
+        "ai_disclaimer": null,
+        "include_ai_disclaimer": null,
+        "ai_opt_out_request_url": "http://app9.greenhouse.io/ai_opt_out_request/job_post/4476925009/ai_opt_out"
+      },
+      {
+        "absolute_url": "https://job-boards.greenhouse.io/browserbaseinc/jobs/4507685009",
+        "data_compliance": [
+          {
+            "type": "gdpr",
+            "requires_consent": false,
+            "requires_processing_consent": false,
+            "requires_retention_consent": false,
+            "retention_period": null,
+            "demographic_data_consent_applies": false
+          }
+        ],
+        "internal_job_id": 4306795009,
+        "location": {
+          "name": "San Francisco"
+        },
+        "metadata": null,
+        "id": 4507685009,
+        "updated_at": "2026-11-21T20:44:52-05:00",
+        "requisition_id": "26GEN02",
+        "title": "Chief of Staff",
+        "company_name": "Browserbase",
+        "first_published": "2026-11-13T17:59:28-05:00",
+        "language": "en",
+        "application_deadline": null,
+        "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;h2&gt;About Browserbase&lt;/h2&gt;\n&lt;p&gt;Browserbase is the complete platform for building and deploying AI agents that browse and interact with the web like humans. With a single API key, developers can enable agents to search and retrieve information, fill out forms, and take action across websites. Today, Browserbase powers more than 50 million browser sessions each month for over 10,000 customers, including Ramp, DeepMind, Clay, Vercel, and Notion.&lt;/p&gt;\n&lt;p&gt;We&#39;re a Series B startup that&#39;s tripled our headcount in 2 years, and we&#39;re continuing to grow, fast. Backed by Kleiner Perkins, CRV, and Notable Capital, our team is building on our CEO&#39;s&lt;a href=&quot;https://memos.hawkhill.ventures/p/an-internet-browser-for-ai&quot;&gt; founding vision&lt;/a&gt; to power the world&#39;s best AI tools and help everyone automate the web.&lt;/p&gt;&lt;/div&gt;&lt;p&gt;Job Title: Chief of Staff&lt;/p&gt;\n&lt;p&gt;Worksite Location: 1 Post S, Floor 15, San Francisco, CA 94104&lt;/p&gt;\n&lt;h2&gt;Job Description&amp;nbsp;&lt;/h2&gt;\n&lt;ol&gt;\n&lt;li&gt;Serve as CEO’s key strategic partner in defining company direction, partnering directly with C-suite leadership to align commercial strategy with business objectives and drive market entry, aligning cross-functional initiatives, and executing high-impact business decisions.&lt;/li&gt;\n&lt;li&gt;Drive competitive intelligence and market analysis to inform product positioning and capture market share in developer infrastructure, conducting in-depth competitive analysis of the industry landscape using SQL and Python-based modeling.&lt;/li&gt;\n&lt;li&gt;Define strategic buyer personas and messaging frameworks for developers, CTOs, and enterprise tech leaders (Python/SQL, AI).&lt;/li&gt;\n&lt;li&gt;Architecting and executing scalable go-to-market strategy tailored to headless browser, dev-centric infrastructure markets, and full-funnel marketing campaigns.&lt;/li&gt;\n&lt;li&gt;Establish performance metrics and KPIs that drive strategic marketing decision-making and growth accountability, developing dynamic revenue forecasting models and commission calculation frameworks to support financial planning, quota-setting, and performance accountability using Stripe Sigma, SQL, and Python.&lt;/li&gt;\n&lt;li&gt;Negotiate high-impact partnership agreements that accelerate growth and market penetration.&lt;/li&gt;\n&lt;li&gt;Drive co-marketing initiatives and joint value propositions with key ecosystem players.&lt;/li&gt;\n&lt;li&gt;Implement scalable marketing systems (CRM, project management) that support rapid growth using Hubspot, Apollo.io, Sales Navigator and Hunter.io.&lt;/li&gt;\n&lt;li&gt;Lead cross-functional collaboration between engineering, product, and go-to-market teams.&lt;/li&gt;\n&lt;/ol&gt;\n&lt;p&gt;May telecommute&lt;/p&gt;\n&lt;h2&gt;Minimum Requirements:&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;Master’s (or foreign educ. equiv.) Degree in Computer, Information, and Technology,&lt;/li&gt;\n&lt;li&gt;Management Information Systems, Information Technology, Business Administration, or a&lt;/li&gt;\n&lt;li&gt;related field plus two (2) years’ experience in the job offered or related occupation.&amp;nbsp;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2&gt;Special Skill Requirements:&lt;/h2&gt;\n&lt;ol&gt;\n&lt;li&gt;Architecting and executing go-to-market strategy and full-funnel marketing campaigns.&lt;/li&gt;\n&lt;li&gt;Partnering directly with C-suite leadership to align commercial strategy with business objectives and drive market entry.&lt;/li&gt;\n&lt;li&gt;Conducting in-depth competitive analysis of the industry landscape using SQL and Python-based modeling.&lt;/li&gt;\n&lt;li&gt;Using Stripe Sigma, SQL, and Python.&lt;/li&gt;\n&lt;li&gt;Developing dynamic revenue forecasting models and commission calculation frameworks to support financial planning, quota-setting, and performance accountability.&lt;/li&gt;\n&lt;li&gt;Using Hubspot, Apollo.io, Sales Navigator and Hunter.io.&lt;/li&gt;\n&lt;/ol&gt;\n&lt;p&gt;Base Salary: $225,000 per annum. 40 hours per week; M-F.&lt;/p&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;p&gt;&lt;em&gt;Browserbase is an equal opportunity employer. We celebrate diversity and are committed to creating an inclusive environment for all employees, regardless of race, color, religion, sex, sexual orientation, gender identity or expression, national origin, age, disability, genetic information, veteran status, or any other characteristic protected by applicable law.&amp;nbsp;&lt;/em&gt;&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;If you need a reasonable accommodation at any point during the application or interview process, please contact your recruiter.&lt;/em&gt;&lt;/p&gt;&lt;/div&gt;",
+        "departments": [
+          {
+            "id": 4094007009,
+            "name": "Other",
+            "child_ids": [],
+            "parent_id": null
+          }
+        ],
+        "offices": [
+          {
+            "id": 4081171009,
+            "name": "San Francisco",
+            "location": "San Francisco, California, United States",
+            "child_ids": [],
+            "parent_id": null
+          }
+        ],
+        "ai_disclaimer": null,
+        "include_ai_disclaimer": null,
+        "ai_opt_out_request_url": "http://app9.greenhouse.io/ai_opt_out_request/job_post/4507685009/ai_opt_out"
+      },
+      {
+        "absolute_url": "https://job-boards.greenhouse.io/browserbaseinc/jobs/4425079009",
+        "data_compliance": [
+          {
+            "type": "gdpr",
+            "requires_consent": false,
+            "requires_processing_consent": false,
+            "requires_retention_consent": false,
+            "retention_period": null,
+            "demographic_data_consent_applies": false
+          }
+        ],
+        "internal_job_id": 4246462009,
+        "location": {
+          "name": "San Francisco"
+        },
+        "metadata": null,
+        "id": 4425079009,
+        "updated_at": "2026-10-19T16:28:16-04:00",
+        "requisition_id": "26GRO01",
+        "title": "Content Lead",
+        "company_name": "Browserbase",
+        "first_published": "2026-10-15T12:30:08-04:00",
+        "language": "en",
+        "application_deadline": null,
+        "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;h2&gt;About Browserbase&lt;/h2&gt;\n&lt;p&gt;Browserbase is the complete platform for building and deploying AI agents that browse and interact with the web like humans. With a single API key, developers can enable agents to search and retrieve information, fill out forms, and take action across websites. Today, Browserbase powers more than 50 million browser sessions each month for over 10,000 customers, including Ramp, DeepMind, Clay, Vercel, and Notion.&lt;/p&gt;\n&lt;p&gt;We&#39;re a Series B startup that&#39;s tripled our headcount in 2 years, and we&#39;re continuing to grow, fast. Backed by Kleiner Perkins, CRV, and Notable Capital, our team is building on our CEO&#39;s&lt;a href=&quot;https://memos.hawkhill.ventures/p/an-internet-browser-for-ai&quot;&gt; founding vision&lt;/a&gt; to power the world&#39;s best AI tools and help everyone automate the web.&lt;/p&gt;&lt;/div&gt;&lt;h2 data-pm-slice=&quot;0 0 []&quot;&gt;About &lt;strong&gt;Browserbase&lt;/strong&gt;&lt;/h2&gt;\n&lt;p&gt;Browserbase is the complete platform to build and deploy agents that browse and interact with the web like humans. We’re on a mission to make AI work for people by operating the systems built for humans. We provide one API key for agents to search and fetch information, fill out forms, and replicate user actions. We run 50M+ sessions/month for 10,000+ customers including Ramp, Deepmind, Clay, Vercel, and Notion.&lt;/p&gt;\n&lt;p&gt;We&#39;re a Series B startup that&#39;s tripled our headcount in 2 years, and are continuing to grow, fast. Backed by Kleiner Perkins, CRV, and Notable Capital, our team is building on our CEO&#39;s&lt;a href=&quot;https://memos.hawkhill.ventures/p/an-internet-browser-for-ai&quot; target=&quot;_blank&quot;&gt; &lt;u&gt;founding vision&lt;/u&gt;&lt;/a&gt; to power the world&#39;s best AI tools and help everyone automate the web.&lt;/p&gt;\n&lt;h2&gt;About the Role&lt;/h2&gt;\n&lt;p&gt;We&#39;re looking for a Content Lead to own our content-led-growth engine. This role would oversee all awareness activities across blogs, docs, socials, SEO, and launches to fuel our top of funnel. You&#39;ll craft the point of view that makes developers and technical buyers understand our category and product.&lt;/p&gt;\n&lt;p&gt;You’re a great fit for this role if you’ve been in Product Marketing, Content Strategy, Growth Engineering, or Brand Marketing. You love telling stories, writing, and have great taste. And of course, you’ve been an engineer or can market to one.&lt;/p&gt;\n&lt;h2&gt;What you&#39;ll do&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;\n&lt;p&gt;&lt;strong&gt;Drive the content strategy&lt;/strong&gt; and bar for Browserbase across organic &amp;amp; paid channels to hit our growth goals and measure success.&lt;/p&gt;\n&lt;/li&gt;\n&lt;li&gt;\n&lt;p&gt;&lt;strong&gt;Define the market&lt;/strong&gt; we’re operating in and the thought leadership we need to own it, in partnership with our Product Marketers.&lt;/p&gt;\n&lt;/li&gt;\n&lt;li&gt;\n&lt;p&gt;&lt;strong&gt;Run and grow a team&lt;/strong&gt; that spans content, product marketing, and developer experience.&lt;/p&gt;\n&lt;/li&gt;\n&lt;li&gt;\n&lt;p&gt;&lt;strong&gt;Review and create content&lt;/strong&gt; that developers actually want to read and share.&lt;/p&gt;\n&lt;/li&gt;\n&lt;li&gt;\n&lt;p&gt;&lt;strong&gt;Work on strategic technical partnerships&lt;/strong&gt; for where Browserbase can integrate with other tools. This includes integrations, documentation, and co-marketing.&lt;/p&gt;\n&lt;/li&gt;\n&lt;li&gt;\n&lt;p&gt;&lt;strong&gt;Partner with Sales, Product, and Growth&lt;/strong&gt; making sure content performs, converts, and is useful across the funnel.&lt;/p&gt;\n&lt;/li&gt;\n&lt;li&gt;\n&lt;p&gt;&lt;strong&gt;Represent Browserbase&lt;/strong&gt; in high-visibility moments like launches, executive writing, PR, and Partnerships.&lt;/p&gt;\n&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2&gt;What we&#39;re looking for&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;\n&lt;p&gt;7+ years in content or brand marketing at a developer-facing company, with execution and strategy.&lt;/p&gt;\n&lt;/li&gt;\n&lt;li&gt;\n&lt;p&gt;A track record of building content programs that moved pipeline and revenue.&lt;/p&gt;\n&lt;/li&gt;\n&lt;li&gt;\n&lt;p&gt;Fluency across Twitter, LinkedIn, Reddit, and Hacker News.&lt;/p&gt;\n&lt;/li&gt;\n&lt;li&gt;\n&lt;p&gt;Strong SEO instincts and comfort with paid content and distribution, not just organic.&lt;/p&gt;\n&lt;/li&gt;\n&lt;li&gt;\n&lt;p&gt;Excellent writing and editing, with a clear point of view on what makes writing good.&lt;/p&gt;\n&lt;/li&gt;\n&lt;li&gt;\n&lt;p&gt;Experience managing and growing a team.&lt;/p&gt;\n&lt;/li&gt;\n&lt;li&gt;\n&lt;p&gt;A real interest in the browser automation and AI agent space, and the judgment to translate that into a market narrative.&lt;/p&gt;\n&lt;/li&gt;\n&lt;li&gt;\n&lt;p&gt;You&#39;ve led content at a company through a major market shift or category creation.&lt;/p&gt;\n&lt;/li&gt;\n&lt;li&gt;\n&lt;p&gt;You&#39;ve written or ghostwritten for executives.&lt;/p&gt;\n&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;h2&gt;&lt;strong&gt;Benefits&lt;/strong&gt;&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;\n&lt;p&gt;Competitive salary + meaningful early-stage equity&lt;/p&gt;\n&lt;/li&gt;\n&lt;li&gt;\n&lt;p&gt;Comprehensive medical, dental, and vision coverage for you and your dependents&lt;/p&gt;\n&lt;/li&gt;\n&lt;li&gt;\n&lt;p&gt;401(k)&lt;/p&gt;\n&lt;/li&gt;\n&lt;li&gt;\n&lt;p&gt;Daily catered lunches with a fully-stocked kitchen&lt;/p&gt;\n&lt;/li&gt;\n&lt;li&gt;\n&lt;p&gt;Beautiful office in downtown San Francisco&lt;/p&gt;\n&lt;/li&gt;\n&lt;li&gt;\n&lt;p&gt;All the AI tools + credits you want&lt;/p&gt;\n&lt;/li&gt;\n&lt;li&gt;\n&lt;p&gt;Regular team offsites and company events&lt;/p&gt;\n&lt;/li&gt;\n&lt;/ul&gt;&lt;div class=&quot;content-pay-transparency&quot;&gt;&lt;div class=&quot;pay-input&quot;&gt;&lt;div class=&quot;title&quot;&gt;Base Compensation&lt;/div&gt;&lt;div class=&quot;pay-range&quot;&gt;&lt;span&gt;$215,000&lt;/span&gt;&lt;span class=&quot;divider&quot;&gt;&amp;mdash;&lt;/span&gt;&lt;span&gt;$260,000 USD&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;p&gt;&lt;em&gt;Browserbase is an equal opportunity employer. We celebrate diversity and are committed to creating an inclusive environment for all employees, regardless of race, color, religion, sex, sexual orientation, gender identity or expression, national origin, age, disability, genetic information, veteran status, or any other characteristic protected by applicable law.&amp;nbsp;&lt;/em&gt;&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;If you need a reasonable accommodation at any point during the application or interview process, please contact your recruiter.&lt;/em&gt;&lt;/p&gt;&lt;/div&gt;",
+        "departments": [
+          {
+            "id": 4074353009,
+            "name": "Growth",
+            "child_ids": [
+              4075172009,
+              4075173009,
+              4075174009,
+              4075175009,
+              4075176009,
+              4075177009
+            ],
+            "parent_id": null
+          }
+        ],
+        "offices": [
+          {
+            "id": 4081171009,
+            "name": "San Francisco",
+            "location": "San Francisco, California, United States",
+            "child_ids": [],
+            "parent_id": null
+          }
+        ],
+        "ai_disclaimer": null,
+        "include_ai_disclaimer": null,
+        "ai_opt_out_request_url": "http://app9.greenhouse.io/ai_opt_out_request/job_post/4425079009/ai_opt_out"
+      },
+      {
+        "absolute_url": "https://job-boards.greenhouse.io/browserbaseinc/jobs/4476911009",
+        "data_compliance": [
+          {
+            "type": "gdpr",
+            "requires_consent": false,
+            "requires_processing_consent": false,
+            "requires_retention_consent": false,
+            "retention_period": null,
+            "demographic_data_consent_applies": false
+          }
+        ],
+        "internal_job_id": 4291058009,
+        "location": {
+          "name": "San Francisco"
+        },
+        "metadata": null,
+        "id": 4476911009,
+        "updated_at": "2026-11-18T21:07:22-05:00",
+        "requisition_id": "26REV01",
+        "title": "Enterprise Account Executive",
+        "company_name": "Browserbase",
+        "first_published": "2026-11-02T19:24:46-05:00",
+        "language": "en",
+        "application_deadline": null,
+        "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;h2&gt;About Browserbase&lt;/h2&gt;\n&lt;p&gt;Browserbase is the complete platform for building and deploying AI agents that browse and interact with the web like humans. With a single API key, developers can enable agents to search and retrieve information, fill out forms, and take action across websites. Today, Browserbase powers more than 50 million browser sessions each month for over 10,000 customers, including Ramp, DeepMind, Clay, Vercel, and Notion.&lt;/p&gt;\n&lt;p&gt;We&#39;re a Series B startup that&#39;s tripled our headcount in 2 years, and we&#39;re continuing to grow, fast. Backed by Kleiner Perkins, CRV, and Notable Capital, our team is building on our CEO&#39;s&lt;a href=&quot;https://memos.hawkhill.ventures/p/an-internet-browser-for-ai&quot;&gt; founding vision&lt;/a&gt; to power the world&#39;s best AI tools and help everyone automate the web.&lt;/p&gt;&lt;/div&gt;&lt;h2&gt;About the Role&lt;/h2&gt;\n&lt;p&gt;Browserbase is excited to hire an Account Executive, Enterprise to create and grow the enterprise sales motion. You&#39;ll own our most strategic segment: companies with 3,000+ employees, including some of our largest and most important customers.&lt;/p&gt;\n&lt;p&gt;In this pivotal role, you&#39;ll establish our enterprise sales strategy from the ground up, building relationships with key prospects and closing large, complex deals that drive our continued growth. You&#39;ll work closely with leadership to define our sales processes, messaging, and go-to-market approach while serving as the face of Browserbase to enterprise customers, from the engineers building on our platform to the executives investing in AI across their organizations.&lt;/p&gt;\n&lt;h2&gt;Key Responsibilities&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;Develop and execute our enterprise sales strategy for companies with 3,000+ employees, including outbound prospecting, pipeline management, and closing deals&lt;/li&gt;\n&lt;li&gt;Own a focused book of strategic named accounts, building account plans that identify where Browserbase can land and how we expand across teams, business units, and use cases&lt;/li&gt;\n&lt;li&gt;Lead complex, multi-stakeholder sales cycles, building relationships with engineering leaders, AI and platform teams, security, procurement, legal, and C-level executives&lt;/li&gt;\n&lt;li&gt;Run disciplined deal execution using a structured qualification framework (such as MEDDPICC) and mutual action plans with your customers&lt;/li&gt;\n&lt;li&gt;Create sales processes, documentation, and playbooks that will scale with our growing team&lt;/li&gt;\n&lt;li&gt;Build and maintain long-term, trusted relationships with enterprise prospects and customers&lt;/li&gt;\n&lt;li&gt;Collaborate with product and engineering teams to communicate customer needs and market opportunities&lt;/li&gt;\n&lt;li&gt;Deliver compelling product demonstrations that highlight the value of our technical platform, with the support of our talented Sales Engineer&lt;/li&gt;\n&lt;li&gt;Navigate security reviews, compliance requirements, and procurement processes alongside our internal teams&lt;/li&gt;\n&lt;li&gt;Negotiate complex, high-value contracts and manage the full sales cycle from prospecting to close&lt;/li&gt;\n&lt;li&gt;Partner with Customer Success to drive adoption, expansion, and renewals within your accounts&lt;/li&gt;\n&lt;li&gt;Provide market intelligence and competitive insights to inform product and company strategy&lt;/li&gt;\n&lt;li&gt;Track and report on sales metrics, forecasts, and pipeline to leadership&lt;/li&gt;\n&lt;li&gt;Represent Browserbase at industry events, conferences, and executive briefings&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2&gt;You&#39;re a good fit if you...&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;Have 5+ years of true enterprise SaaS sales experience, preferably in technical products or AI infrastructure&lt;/li&gt;\n&lt;li&gt;Have a track record of closing large, six and seven-figure deals with enterprise companies (3,000+ employees)&lt;/li&gt;\n&lt;li&gt;Possess a track record of consistently meeting or exceeding sales targets in a high-growth environment&lt;/li&gt;\n&lt;li&gt;Have experience navigating long, complex sales cycles with multiple stakeholders, including security, legal, and procurement&lt;/li&gt;\n&lt;li&gt;Are comfortable engaging and influencing senior executives and technical decision-makers alike&lt;/li&gt;\n&lt;li&gt;Have experience with product-led growth strategies and converting self-service users to enterprise contracts&lt;/li&gt;\n&lt;li&gt;Are comfortable with outbound prospecting and developing new business relationships&lt;/li&gt;\n&lt;li&gt;Have strong technical aptitude and ability to understand and communicate complex technical concepts&lt;/li&gt;\n&lt;li&gt;Have excellent communication and presentation skills with the ability to tailor messaging to different stakeholders&lt;/li&gt;\n&lt;li&gt;Are self-motivated with the ability to thrive in an ambiguous, fast-paced startup environment&lt;/li&gt;\n&lt;li&gt;Are excited to work 4 days a week in our San Francisco HQ (or are open to relocating here)&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2&gt;Nice to Haves&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;Experience selling developer tools, API products, or other technical infrastructure&lt;/li&gt;\n&lt;li&gt;Experience building sales processes from scratch at an early-stage company&lt;/li&gt;\n&lt;li&gt;Experience with strategic account planning and land-and-expand motions in large enterprises&lt;/li&gt;\n&lt;li&gt;Existing relationships with engineering, AI, or platform leaders at large enterprises&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2&gt;Why you should join us&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;Sell a product that developers genuinely love (just check our Twitter mentions &lt;a href=&quot;https://x.com/browserbasehq&quot;&gt;@browserbase&lt;/a&gt;).&lt;/li&gt;\n&lt;li&gt;Own our most strategic segment and work with the largest companies building with AI agents.&lt;/li&gt;\n&lt;li&gt;Shape the buying experience of a category-defining infrastructure company.&lt;/li&gt;\n&lt;li&gt;Join a lean, high-impact team where your work directly influences growth.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2&gt;Benefits&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;Competitive salary + meaningful early-stage equity&lt;/li&gt;\n&lt;li&gt;Comprehensive medical, dental, and vision coverage for you and your dependents&lt;/li&gt;\n&lt;li&gt;401(k)&lt;/li&gt;\n&lt;li&gt;Daily catered lunches with a fully-stocked kitchen&lt;/li&gt;\n&lt;li&gt;Beautiful office in downtown San Francisco&lt;/li&gt;\n&lt;li&gt;All the AI tools + credits you want&lt;/li&gt;\n&lt;li&gt;Regular team offsites and company events&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;div class=&quot;content-pay-transparency&quot;&gt;&lt;div class=&quot;pay-input&quot;&gt;&lt;div class=&quot;title&quot;&gt;OTE (includes base + commission)&lt;/div&gt;&lt;div class=&quot;pay-range&quot;&gt;&lt;span&gt;$270,500&lt;/span&gt;&lt;span class=&quot;divider&quot;&gt;&amp;mdash;&lt;/span&gt;&lt;span&gt;$338,000 USD&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;p&gt;&lt;em&gt;Browserbase is an equal opportunity employer. We celebrate diversity and are committed to creating an inclusive environment for all employees, regardless of race, color, religion, sex, sexual orientation, gender identity or expression, national origin, age, disability, genetic information, veteran status, or any other characteristic protected by applicable law.&amp;nbsp;&lt;/em&gt;&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;If you need a reasonable accommodation at any point during the application or interview process, please contact your recruiter.&lt;/em&gt;&lt;/p&gt;&lt;/div&gt;",
+        "departments": [
+          {
+            "id": 4074354009,
+            "name": "Sales",
+            "child_ids": [
+              4075169009,
+              4075170009,
+              4075171009
+            ],
+            "parent_id": null
+          }
+        ],
+        "offices": [
+          {
+            "id": 4081171009,
+            "name": "San Francisco",
+            "location": "San Francisco, California, United States",
+            "child_ids": [],
+            "parent_id": null
+          }
+        ],
+        "ai_disclaimer": null,
+        "include_ai_disclaimer": null,
+        "ai_opt_out_request_url": "http://app9.greenhouse.io/ai_opt_out_request/job_post/4476911009/ai_opt_out"
+      },
+      {
+        "absolute_url": "https://job-boards.greenhouse.io/browserbaseinc/jobs/4466643009",
+        "data_compliance": [
+          {
+            "type": "gdpr",
+            "requires_consent": false,
+            "requires_processing_consent": false,
+            "requires_retention_consent": false,
+            "retention_period": null,
+            "demographic_data_consent_applies": false
+          }
+        ],
+        "internal_job_id": 4285057009,
+        "location": {
+          "name": "San Francisco"
+        },
+        "metadata": null,
+        "id": 4466643009,
+        "updated_at": "2026-10-24T01:47:35-04:00",
+        "requisition_id": "26REV07",
+        "title": "Manager, Sales Development",
+        "company_name": "Browserbase",
+        "first_published": "2026-10-24T01:47:35-04:00",
+        "language": "en",
+        "application_deadline": null,
+        "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;h2&gt;About Browserbase&lt;/h2&gt;\n&lt;p&gt;Browserbase is the complete platform for building and deploying AI agents that browse and interact with the web like humans. With a single API key, developers can enable agents to search and retrieve information, fill out forms, and take action across websites. Today, Browserbase powers more than 50 million browser sessions each month for over 10,000 customers, including Ramp, DeepMind, Clay, Vercel, and Notion.&lt;/p&gt;\n&lt;p&gt;We&#39;re a Series B startup that&#39;s tripled our headcount in 2 years, and we&#39;re continuing to grow, fast. Backed by Kleiner Perkins, CRV, and Notable Capital, our team is building on our CEO&#39;s&lt;a href=&quot;https://memos.hawkhill.ventures/p/an-internet-browser-for-ai&quot;&gt; founding vision&lt;/a&gt; to power the world&#39;s best AI tools and help everyone automate the web.&lt;/p&gt;&lt;/div&gt;&lt;h2&gt;About the role&lt;/h2&gt;\n&lt;p&gt;You&#39;ll own and build Browserbase&#39;s pipeline engine from the ground up. You&#39;ll lead, coach, and scale our SDR team, and partner closely with Sales, Marketing, and leadership to define how we generate pipeline. This role is much more than managing activity. You&#39;ll shape how the market discovers Browserbase and directly influence the quality of every deal our AEs work.&lt;/p&gt;\n&lt;h2&gt;What you&#39;ll do&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;Lead, coach and grow the SDR team, from hiring and onboarding to weekly coaching and career development.&lt;/li&gt;\n&lt;li&gt;Build a value-based pipeline strategy that leads with customer outcomes and use cases, not volume, to improve our SQL to SQO conversion rate.&lt;/li&gt;\n&lt;li&gt;Set the team up to deliver 3x qualified pipeline through sharper targeting, messaging, process and AI-driven workflows.&lt;/li&gt;\n&lt;li&gt;Help us take Browserbase into new verticals, from account selection and personas to the plays and messaging that open doors.&lt;/li&gt;\n&lt;li&gt;Build the strategy and presence of our pipeline engine: the systems, data, tooling, metrics and culture that make pipeline predictable and repeatable.&lt;/li&gt;\n&lt;li&gt;Partner with AEs, Sales Engineers, TCSMs and Marketing on clear rules of engagement, SQO definitions and handoffs.&lt;/li&gt;\n&lt;li&gt;Own the team&#39;s SQO number, and report on pipeline, conversion and forecast.&lt;/li&gt;\n&lt;li&gt;Learn our product deeply and coach SDRs to be credible with technical buyers.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2&gt;What success looks like in year one&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;The team beats 100% of its SQO target, with a measurable lift in SQL to SQO conversion.&lt;/li&gt;\n&lt;li&gt;You&#39;re fluent in our product and your SDRs hold their own with engineering leaders.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2&gt;You&#39;re a good fit if you...&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;Have led or built an SDR or BDR team at a high growth B2B company, ideally one selling technical products.&lt;/li&gt;\n&lt;li&gt;Have a track record of hitting team pipeline targets and improving conversion, not just activity.&lt;/li&gt;\n&lt;li&gt;Are deeply curious and consultative. You teach reps to uncover pain and prescribe solutions.&lt;/li&gt;\n&lt;li&gt;Are AI-native. You&#39;ve built your own workflows with tools like Claude and can show what you automated and what it changed.&lt;/li&gt;\n&lt;li&gt;Learn and adapt fast, and are comfortable with ambiguity and change.&lt;/li&gt;\n&lt;li&gt;Bring humility, grit, a bias for action and a low ego.&lt;/li&gt;\n&lt;li&gt;Have strong technical aptitude and can make a developer-first product make sense to any buyer.&lt;/li&gt;\n&lt;li&gt;Are willing to work from our San Francisco office 4 days a week, or to relocate.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;We care less about years of experience and more about the qualities above.&lt;/p&gt;\n&lt;h2&gt;Nice to haves&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;Experience with prospecting tools like Amplemarket, Clay or Nooks.&lt;/li&gt;\n&lt;li&gt;Experience launching outbound into new verticals or segments.&lt;/li&gt;\n&lt;li&gt;Experience building an SDR function from scratch at an early-stage company.&lt;/li&gt;\n&lt;li&gt;Experience selling developer tools, APIs or infrastructure.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2&gt;Why you should join us&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;Build the pipeline engine for a category-defining infrastructure company, and own how the market discovers it.&lt;/li&gt;\n&lt;li&gt;Join a lean team where your work directly drives company growth, with high visibility to leadership.&lt;/li&gt;\n&lt;li&gt;Work alongside people who raise the bar with every hire.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2&gt;Benefits&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;Competitive salary plus meaningful early-stage equity&lt;/li&gt;\n&lt;li&gt;Medical, dental and vision coverage for you and your dependents&lt;/li&gt;\n&lt;li&gt;401(k)&lt;/li&gt;\n&lt;li&gt;Daily catered lunches and a fully stocked kitchen in our downtown San Francisco office&lt;/li&gt;\n&lt;li&gt;Unlimited access to AI tools and credits&lt;/li&gt;\n&lt;li&gt;Regular team offsites and company events&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;/p&gt;&lt;div class=&quot;content-pay-transparency&quot;&gt;&lt;div class=&quot;pay-input&quot;&gt;&lt;div class=&quot;title&quot;&gt;OTE (includes base + commission)&lt;/div&gt;&lt;div class=&quot;pay-range&quot;&gt;&lt;span&gt;$165,000&lt;/span&gt;&lt;span class=&quot;divider&quot;&gt;&amp;mdash;&lt;/span&gt;&lt;span&gt;$205,000 USD&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;p&gt;&lt;em&gt;Browserbase is an equal opportunity employer. We celebrate diversity and are committed to creating an inclusive environment for all employees, regardless of race, color, religion, sex, sexual orientation, gender identity or expression, national origin, age, disability, genetic information, veteran status, or any other characteristic protected by applicable law.&amp;nbsp;&lt;/em&gt;&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;If you need a reasonable accommodation at any point during the application or interview process, please contact your recruiter.&lt;/em&gt;&lt;/p&gt;&lt;/div&gt;",
+        "departments": [
+          {
+            "id": 4074354009,
+            "name": "Sales",
+            "child_ids": [
+              4075169009,
+              4075170009,
+              4075171009
+            ],
+            "parent_id": null
+          }
+        ],
+        "offices": [
+          {
+            "id": 4081171009,
+            "name": "San Francisco",
+            "location": "San Francisco, California, United States",
+            "child_ids": [],
+            "parent_id": null
+          }
+        ],
+        "ai_disclaimer": null,
+        "include_ai_disclaimer": null,
+        "ai_opt_out_request_url": "http://app9.greenhouse.io/ai_opt_out_request/job_post/4466643009/ai_opt_out"
+      },
+      {
+        "absolute_url": "https://job-boards.greenhouse.io/browserbaseinc/jobs/4451814009",
+        "data_compliance": [
+          {
+            "type": "gdpr",
+            "requires_consent": false,
+            "requires_processing_consent": false,
+            "requires_retention_consent": false,
+            "retention_period": null,
+            "demographic_data_consent_applies": false
+          }
+        ],
+        "internal_job_id": 4267104009,
+        "location": {
+          "name": "San Francisco"
+        },
+        "metadata": null,
+        "id": 4451814009,
+        "updated_at": "2026-10-19T18:01:49-04:00",
+        "requisition_id": "26REV06",
+        "title": "Partnerships Lead",
+        "company_name": "Browserbase",
+        "first_published": "2026-10-19T18:01:49-04:00",
+        "language": "en",
+        "application_deadline": null,
+        "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;h2&gt;About Browserbase&lt;/h2&gt;\n&lt;p&gt;Browserbase is the complete platform for building and deploying AI agents that browse and interact with the web like humans. With a single API key, developers can enable agents to search and retrieve information, fill out forms, and take action across websites. Today, Browserbase powers more than 50 million browser sessions each month for over 10,000 customers, including Ramp, DeepMind, Clay, Vercel, and Notion.&lt;/p&gt;\n&lt;p&gt;We&#39;re a Series B startup that&#39;s tripled our headcount in 2 years, and we&#39;re continuing to grow, fast. Backed by Kleiner Perkins, CRV, and Notable Capital, our team is building on our CEO&#39;s&lt;a href=&quot;https://memos.hawkhill.ventures/p/an-internet-browser-for-ai&quot;&gt; founding vision&lt;/a&gt; to power the world&#39;s best AI tools and help everyone automate the web.&lt;/p&gt;&lt;/div&gt;&lt;h2&gt;About the Role&lt;/h2&gt;\n&lt;p&gt;Browserbase is hiring our first partnerships leader to own channel and partnerships end to end. Today our ecosystem momentum is largely organic, agent frameworks that ship on Stagehand, integrations like 1Password and Cloudflare, teams that discover us through a model provider or a marketplace. Your job is to turn that pull into a repeatable, measurable revenue channel.&lt;/p&gt;\n&lt;p&gt;This is a build role. You&#39;ll define the partner strategy, sign the first cohort of partners, negotiate the agreements, stand up the co-sell and marketplace motion, and instrument attribution so partner-sourced revenue shows up in the forecast alongside direct. You&#39;ll report to the Head of Sales and carry a pipeline target and revenue number.&lt;/p&gt;\n&lt;p&gt;You&#39;ll own four surfaces:&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;strong&gt;Technology &amp;amp; ecosystem partners&lt;/strong&gt;: model providers, agent frameworks, orchestration and dev platforms, identity, and security. Integrations that make Browserbase the default browser layer in someone else&#39;s stack.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Cloud marketplaces &amp;amp; hyperscalers&lt;/strong&gt;: AWS, GCP, and Azure listings, private offers, committed-spend drawdown, and co-sell with field teams.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Services partners&lt;/strong&gt;: SIs, AI consultancies, and agencies building agents for customers in healthcare, fintech, legal, supply chain, and GTM.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Resell, referral &amp;amp; OEM&lt;/strong&gt;: referral programs, VAR/distribution where it unlocks new geographies or segments, and embedded/OEM deals where a platform runs Browserbase under the hood.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2&gt;Key Responsibilities&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;Own partner-sourced and partner-influenced revenue as a number, with a quarterly forecast commit. Our expectation is you come within 3-7% of that commit every quarter.&lt;/li&gt;\n&lt;li&gt;Build the partner strategy from scratch: segment the ecosystem, pick the 10–15 partnerships that actually move revenue, and know when to say no to partnerships that don’t move the needle.&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Recruit, negotiate, and launch partnerships: commercial terms, rev share, referral fees, OEM and co-sell agreements: working with legal and finance on repeatable paper.&lt;/li&gt;\n&lt;li&gt;Stand up and scale our cloud marketplace presence, including listings, private offers, and co-sell motions with hyperscaler field teams.&lt;/li&gt;\n&lt;li&gt;Build a services partner program: enablement, certification, deal registration, and joint delivery for agent implementations.&lt;/li&gt;\n&lt;li&gt;Win the internal sell. Get AEs, SEs, and TCSMs to work partner-sourced deals, and make partner routing something reps want rather than tolerate.&lt;/li&gt;\n&lt;li&gt;Partner with Product and Engineering on what needs to exist for an integration to be real, APIs, docs, reference implementations, co-built features, and advocate for the roadmap items that unlock the biggest partners.&lt;/li&gt;\n&lt;li&gt;Run joint GTM with Marketing: launches, co-marketing, joint content, conference presence, and developer programs around Stagehand and MCP.&lt;/li&gt;\n&lt;li&gt;Instrument the function. Define attribution from first touch, build partner reporting in CRM, and report performance to leadership monthly.&lt;/li&gt;\n&lt;li&gt;Bring ecosystem intelligence back inside, where the agent stack is consolidating, who&#39;s about to build versus buy, and what that means for our roadmap and positioning.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2&gt;You&#39;re a good fit if you...&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;Have 7+ years in partnerships, channel, or business development, with time at a developer-infrastructure, API, or AI/ML company.&lt;/li&gt;\n&lt;li&gt;Have built a partner function from zero, not inherited one, and can point to revenue you can defend as sourced or influenced.&lt;/li&gt;\n&lt;li&gt;Have run cloud marketplace and co-sell motions with at least one hyperscaler, and understand private offers and committed-spend drawdown.&lt;/li&gt;\n&lt;li&gt;Have negotiated real commercial agreements: rev share, referral, OEM, and reseller terms.&lt;/li&gt;\n&lt;li&gt;Are technical enough to hold a credible conversation about APIs, SDKs, agent frameworks, and MCP, and to run a whiteboard session with a partner&#39;s engineering lead without a solutions engineer in the room.&lt;/li&gt;\n&lt;li&gt;Understand consumption and usage-based pricing, and how partner economics work when revenue is metered rather than seat-based.&lt;/li&gt;\n&lt;li&gt;Operate as a player-coach: you&#39;ll do the sourcing, the calls, and the paper yourself for the first year, then hire behind it.&lt;/li&gt;\n&lt;li&gt;Thrive without structure. You&#39;d rather define the playbook than run someone else&#39;s.&lt;/li&gt;\n&lt;li&gt;Are excited to work &lt;strong&gt;4 days a week in our San Francisco HQ&lt;/strong&gt; (or are open to relocating here).&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2&gt;Bonus Points&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;You&#39;ve worked inside the agent or LLM ecosystem, model providers, orchestration frameworks, or agent platforms.&lt;/li&gt;\n&lt;li&gt;You&#39;ve built an OEM or embedded motion where your product shipped inside someone else&#39;s.&lt;/li&gt;\n&lt;li&gt;You&#39;ve contributed to or built around open source, and understand how OSS distribution converts to commercial revenue.&lt;/li&gt;\n&lt;li&gt;You&#39;ve run partnerships for a company between $5M and $50M ARR and seen what breaks on the way up.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2&gt;&lt;strong&gt;Benefits&lt;/strong&gt;&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;Competitive salary + meaningful early-stage equity&lt;/li&gt;\n&lt;li&gt;Comprehensive medical, dental, and vision coverage for you and your dependents&lt;/li&gt;\n&lt;li&gt;401(k)&lt;/li&gt;\n&lt;li&gt;Daily catered lunches with a fully-stocked kitchen&lt;/li&gt;\n&lt;li&gt;Beautiful office in downtown San Francisco&lt;/li&gt;\n&lt;li&gt;All the AI tools + credits you want&lt;/li&gt;\n&lt;li&gt;Regular team offsites and company events&lt;/li&gt;\n&lt;/ul&gt;&lt;div class=&quot;content-pay-transparency&quot;&gt;&lt;div class=&quot;pay-input&quot;&gt;&lt;div class=&quot;title&quot;&gt;OTE (includes base + commission)&lt;/div&gt;&lt;div class=&quot;pay-range&quot;&gt;&lt;span&gt;$244,000&lt;/span&gt;&lt;span class=&quot;divider&quot;&gt;&amp;mdash;&lt;/span&gt;&lt;span&gt;$305,000 USD&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;p&gt;&lt;em&gt;Browserbase is an equal opportunity employer. We celebrate diversity and are committed to creating an inclusive environment for all employees, regardless of race, color, religion, sex, sexual orientation, gender identity or expression, national origin, age, disability, genetic information, veteran status, or any other characteristic protected by applicable law.&amp;nbsp;&lt;/em&gt;&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;If you need a reasonable accommodation at any point during the application or interview process, please contact your recruiter.&lt;/em&gt;&lt;/p&gt;&lt;/div&gt;",
+        "departments": [
+          {
+            "id": 4074354009,
+            "name": "Sales",
+            "child_ids": [
+              4075169009,
+              4075170009,
+              4075171009
+            ],
+            "parent_id": null
+          }
+        ],
+        "offices": [
+          {
+            "id": 4081171009,
+            "name": "San Francisco",
+            "location": "San Francisco, California, United States",
+            "child_ids": [],
+            "parent_id": null
+          }
+        ],
+        "ai_disclaimer": null,
+        "include_ai_disclaimer": null,
+        "ai_opt_out_request_url": "http://app9.greenhouse.io/ai_opt_out_request/job_post/4451814009/ai_opt_out"
+      },
+      {
+        "absolute_url": "https://job-boards.greenhouse.io/browserbaseinc/jobs/4451034009",
+        "data_compliance": [
+          {
+            "type": "gdpr",
+            "requires_consent": false,
+            "requires_processing_consent": false,
+            "requires_retention_consent": false,
+            "retention_period": null,
+            "demographic_data_consent_applies": false
+          }
+        ],
+        "internal_job_id": 4266645009,
+        "location": {
+          "name": "San Francisco"
+        },
+        "metadata": null,
+        "id": 4451034009,
+        "updated_at": "2026-11-05T18:25:46-05:00",
+        "requisition_id": "26PEO01",
+        "title": "Recruiter",
+        "company_name": "Browserbase",
+        "first_published": "2026-10-15T12:29:51-04:00",
+        "language": "en",
+        "application_deadline": null,
+        "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;h2&gt;About Browserbase&lt;/h2&gt;\n&lt;p&gt;Browserbase is the complete platform for building and deploying AI agents that browse and interact with the web like humans. With a single API key, developers can enable agents to search and retrieve information, fill out forms, and take action across websites. Today, Browserbase powers more than 50 million browser sessions each month for over 10,000 customers, including Ramp, DeepMind, Clay, Vercel, and Notion.&lt;/p&gt;\n&lt;p&gt;We&#39;re a Series B startup that&#39;s tripled our headcount in 2 years, and we&#39;re continuing to grow, fast. Backed by Kleiner Perkins, CRV, and Notable Capital, our team is building on our CEO&#39;s&lt;a href=&quot;https://memos.hawkhill.ventures/p/an-internet-browser-for-ai&quot;&gt; founding vision&lt;/a&gt; to power the world&#39;s best AI tools and help everyone automate the web.&lt;/p&gt;&lt;/div&gt;&lt;h2&gt;&lt;strong&gt;About the role&lt;/strong&gt;&lt;/h2&gt;\n&lt;p&gt;We&#39;re looking for a Recruiter to help build the teams shaping Browserbase&#39;s future. As a key member of our growing talent team, you&#39;ll partner closely with hiring managers and leaders across the company to find, engage, and hire exceptional people who can make a meaningful impact as we scale.&lt;/p&gt;\n&lt;p&gt;Whether your background is in technical recruiting, GTM recruiting, or a combination of both, we&#39;re looking for someone who brings curiosity, strong judgment, intentionality, and a high level of ownership to every search.&lt;/p&gt;\n&lt;p&gt;You&#39;ll own the full recruiting lifecycle while partnering to build the processes and programs that make hiring more effective and scalable. You’ll do more than just fill roles; you&#39;ll have a real voice in how we identify talent, assess candidates, and make thoughtful hiring decisions.&lt;/p&gt;\n&lt;h2&gt;&lt;strong&gt;What you&#39;ll do&lt;/strong&gt;&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;strong&gt;Own full-cycle recruiting.&lt;/strong&gt; Lead searches from intake through assessment, offer strategy, and close, supporting technical and business functions based on company priorities.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Build trusted hiring manager partnerships.&lt;/strong&gt; Understand team needs, align on hiring principles, and bring recommendations that help leaders make thoughtful hiring decisions. Know when to challenge assumptions and advocate for the right hiring bar.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Source with intention.&lt;/strong&gt; Develop targeted sourcing strategies and build relationships with exceptional talent. Understand our product, business, and long-term goals well enough to identify candidates who can make a meaningful impact.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Deliver an exceptional candidate experience.&lt;/strong&gt; Create a thoughtful, transparent, and efficient process where candidates feel informed, prepared, and respected, regardless of the outcome.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Strengthen how we hire.&lt;/strong&gt; Partner with our team to build and improve structured interviews, evaluation criteria, interviewer training, and referral programs that support consistent, high-quality hiring as we scale.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Use data to drive better decisions.&lt;/strong&gt; Own pipeline health and recruiting metrics, identify bottlenecks, and proactively recommend improvements to our hiring processes and outcomes.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2&gt;&lt;strong&gt;What you&#39;ll bring&lt;/strong&gt;&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;strong&gt;5+ years of full-cycle recruiting experience&lt;/strong&gt; with a strong track record of hiring technical, business/GTM, or a combination of roles, ideally in a fast-moving startup or high-growth environment.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Strong sourcing and assessment skills&lt;/strong&gt;, with the ability to identify exceptional talent, build targeted pipelines, and thoughtfully evaluate candidates beyond their resumes.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;A consultative approach to hiring manager partnerships&lt;/strong&gt;, including the confidence to challenge assumptions, influence decisions, and build trust across teams.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Curiosity and business acumen&lt;/strong&gt;, with the ability to quickly understand new domains, develop technical fluency, and connect talent decisions to company priorities.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Strong ownership, organization, and follow-through&lt;/strong&gt;, with the ability to independently manage multiple searches, adapt to changing priorities, and use recruiting data to improve results.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;A collaborative, company-first mindset&lt;/strong&gt;, with genuine care for the people you hire, the experience you create, and the long-term success of Browserbase.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;Bonus points if you&#39;ve recruited in developer tools, AI, infrastructure, or other highly technical environments.&lt;/p&gt;\n&lt;h2&gt;&lt;strong&gt;Benefits&lt;/strong&gt;&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;Competitive salary + meaningful early-stage equity&lt;/li&gt;\n&lt;li&gt;Comprehensive medical, dental, and vision coverage for you and your dependents&lt;/li&gt;\n&lt;li&gt;401(k)&lt;/li&gt;\n&lt;li&gt;Daily catered lunches with a fully stocked kitchen&lt;/li&gt;\n&lt;li&gt;Beautiful office in downtown San Francisco&lt;/li&gt;\n&lt;li&gt;All the AI tools + credits you want&lt;/li&gt;\n&lt;li&gt;Regular team offsites and company events&lt;/li&gt;\n&lt;/ul&gt;&lt;div class=&quot;content-pay-transparency&quot;&gt;&lt;div class=&quot;pay-input&quot;&gt;&lt;div class=&quot;title&quot;&gt;Base Compensation&lt;/div&gt;&lt;div class=&quot;pay-range&quot;&gt;&lt;span&gt;$135,000&lt;/span&gt;&lt;span class=&quot;divider&quot;&gt;&amp;mdash;&lt;/span&gt;&lt;span&gt;$175,000 USD&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;p&gt;&lt;em&gt;Browserbase is an equal opportunity employer. We celebrate diversity and are committed to creating an inclusive environment for all employees, regardless of race, color, religion, sex, sexual orientation, gender identity or expression, national origin, age, disability, genetic information, veteran status, or any other characteristic protected by applicable law.&amp;nbsp;&lt;/em&gt;&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;If you need a reasonable accommodation at any point during the application or interview process, please contact your recruiter.&lt;/em&gt;&lt;/p&gt;&lt;/div&gt;",
+        "departments": [
+          {
+            "id": 4074355009,
+            "name": "People",
+            "child_ids": [],
+            "parent_id": null
+          }
+        ],
+        "offices": [
+          {
+            "id": 4081171009,
+            "name": "San Francisco",
+            "location": "San Francisco, California, United States",
+            "child_ids": [],
+            "parent_id": null
+          }
+        ],
+        "ai_disclaimer": null,
+        "include_ai_disclaimer": null,
+        "ai_opt_out_request_url": "http://app9.greenhouse.io/ai_opt_out_request/job_post/4451034009/ai_opt_out"
+      },
+      {
+        "absolute_url": "https://job-boards.greenhouse.io/browserbaseinc/jobs/4468434009",
+        "data_compliance": [
+          {
+            "type": "gdpr",
+            "requires_consent": false,
+            "requires_processing_consent": false,
+            "requires_retention_consent": false,
+            "retention_period": null,
+            "demographic_data_consent_applies": false
+          }
+        ],
+        "internal_job_id": 4286055009,
+        "location": {
+          "name": "San Francisco"
+        },
+        "metadata": null,
+        "id": 4468434009,
+        "updated_at": "2026-10-26T18:54:07-04:00",
+        "requisition_id": "26REV09",
+        "title": "Sales Development Representative",
+        "company_name": "Browserbase",
+        "first_published": "2026-10-26T18:54:07-04:00",
+        "language": "en",
+        "application_deadline": null,
+        "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;h2&gt;About Browserbase&lt;/h2&gt;\n&lt;p&gt;Browserbase is the complete platform for building and deploying AI agents that browse and interact with the web like humans. With a single API key, developers can enable agents to search and retrieve information, fill out forms, and take action across websites. Today, Browserbase powers more than 50 million browser sessions each month for over 10,000 customers, including Ramp, DeepMind, Clay, Vercel, and Notion.&lt;/p&gt;\n&lt;p&gt;We&#39;re a Series B startup that&#39;s tripled our headcount in 2 years, and we&#39;re continuing to grow, fast. Backed by Kleiner Perkins, CRV, and Notable Capital, our team is building on our CEO&#39;s&lt;a href=&quot;https://memos.hawkhill.ventures/p/an-internet-browser-for-ai&quot;&gt; founding vision&lt;/a&gt; to power the world&#39;s best AI tools and help everyone automate the web.&lt;/p&gt;&lt;/div&gt;&lt;h2&gt;About the role&lt;/h2&gt;\n&lt;p&gt;You&#39;ll be on the front line of Browserbase&#39;s pipeline engine. You&#39;ll research, prospect and engage developer, engineering and business leaders at our target accounts, and turn their interest into qualified opportunities for our Account Executives. This role is much more than booking meetings. You&#39;ll lead with customer outcomes and use cases, learn our product deeply, and help shape our playbook as the team scales.&lt;/p&gt;\n&lt;h2&gt;What you&#39;ll do&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;Generate qualified pipeline through personalized, multi-channel outbound (calls, email, LinkedIn and events) into target accounts.&lt;/li&gt;\n&lt;li&gt;Run cold calls to uncover the use case, the pain and the decision makers, then hand off to AEs with full context.&lt;/li&gt;\n&lt;li&gt;Work inbound and product sign-up leads quickly, turning hand-raisers into qualified opportunities.&lt;/li&gt;\n&lt;li&gt;Partner with AEs on account strategy and with Marketing on events and campaigns.&lt;/li&gt;\n&lt;li&gt;Build and use AI-driven workflows with tools like Claude, Clay and Amplemarket to research faster and personalize better.&lt;/li&gt;\n&lt;li&gt;Share what you hear in the market (messaging, objections, competitors) to sharpen our playbook.&lt;/li&gt;\n&lt;li&gt;Keep HubSpot accurate and track your own activity and conversion.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2&gt;What success looks like in year one&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;You beat 100% of your qualified opportunity target, with strong conversion: quality over volume.&lt;/li&gt;\n&lt;li&gt;You can explain browser infrastructure for AI agents and hold a credible first conversation with an engineering leader.&lt;/li&gt;\n&lt;li&gt;You contribute at least one play, sequence or AI workflow that the whole team adopts.&lt;/li&gt;\n&lt;li&gt;Top performers build toward an Account Executive role.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2&gt;You&#39;re a good fit if you...&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;Have 1 to 3 years in an SDR, BDR, sales or customer-facing role, or a strong track record of winning somewhere else.&lt;/li&gt;\n&lt;li&gt;Are resilient and competitive. You handle rejection, keep going, and want to be at the top of the leaderboard.&lt;/li&gt;\n&lt;li&gt;Are deeply curious and consultative, even on a cold call. You uncover the real problem instead of just booking a meeting.&lt;/li&gt;\n&lt;li&gt;Write clearly and concisely. Your outreach is short, specific to the prospect, and something an engineering leader would actually reply to.&lt;/li&gt;\n&lt;li&gt;Are AI-native. You&#39;ve built your own workflows with tools like Claude and can show what you automated and what it changed.&lt;/li&gt;\n&lt;li&gt;Learn and adapt fast, and are comfortable with ambiguity and change.&lt;/li&gt;\n&lt;li&gt;Bring humility, grit, a bias for action and a low ego.&lt;/li&gt;\n&lt;li&gt;Are genuinely interested in how software is built and how AI agents are changing it.&lt;/li&gt;\n&lt;li&gt;Are willing to work from our San Francisco office 4 days a week, or to relocate.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;We care less about years of experience and more about the qualities above.&lt;/p&gt;\n&lt;h2&gt;Nice to haves&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;SDR or BDR experience at a developer tools, API or infrastructure company.&lt;/li&gt;\n&lt;li&gt;Experience with tools like HubSpot, Amplemarket, Clay or Nooks.&lt;/li&gt;\n&lt;li&gt;A desire to grow into an Account Executive role.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2&gt;Why you should join us&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;Be part of the team building the pipeline engine for a category-defining infrastructure company.&lt;/li&gt;\n&lt;li&gt;Join a lean team where your work directly drives company growth, with high visibility to leadership.&lt;/li&gt;\n&lt;li&gt;Learn from people who raise the bar with every hire, with a clear path to grow your career.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2&gt;Benefits&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;Competitive salary, commission and meaningful early-stage equity&lt;/li&gt;\n&lt;li&gt;Medical, dental and vision coverage for you and your dependents&lt;/li&gt;\n&lt;li&gt;401(k)&lt;/li&gt;\n&lt;li&gt;Daily catered lunches and a fully stocked kitchen in our downtown San Francisco office&lt;/li&gt;\n&lt;li&gt;Unlimited access to AI tools and credits&lt;/li&gt;\n&lt;li&gt;Regular team offsites and company events&lt;/li&gt;\n&lt;/ul&gt;&lt;div class=&quot;content-pay-transparency&quot;&gt;&lt;div class=&quot;pay-input&quot;&gt;&lt;div class=&quot;title&quot;&gt;OTE (includes base + commission)&lt;/div&gt;&lt;div class=&quot;pay-range&quot;&gt;&lt;span&gt;$89,000&lt;/span&gt;&lt;span class=&quot;divider&quot;&gt;&amp;mdash;&lt;/span&gt;&lt;span&gt;$111,000 USD&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;p&gt;&lt;em&gt;Browserbase is an equal opportunity employer. We celebrate diversity and are committed to creating an inclusive environment for all employees, regardless of race, color, religion, sex, sexual orientation, gender identity or expression, national origin, age, disability, genetic information, veteran status, or any other characteristic protected by applicable law.&amp;nbsp;&lt;/em&gt;&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;If you need a reasonable accommodation at any point during the application or interview process, please contact your recruiter.&lt;/em&gt;&lt;/p&gt;&lt;/div&gt;",
+        "departments": [
+          {
+            "id": 4074354009,
+            "name": "Sales",
+            "child_ids": [
+              4075169009,
+              4075170009,
+              4075171009
+            ],
+            "parent_id": null
+          }
+        ],
+        "offices": [
+          {
+            "id": 4081171009,
+            "name": "San Francisco",
+            "location": "San Francisco, California, United States",
+            "child_ids": [],
+            "parent_id": null
+          }
+        ],
+        "ai_disclaimer": null,
+        "include_ai_disclaimer": null,
+        "ai_opt_out_request_url": "http://app9.greenhouse.io/ai_opt_out_request/job_post/4468434009/ai_opt_out"
+      },
+      {
+        "absolute_url": "https://job-boards.greenhouse.io/browserbaseinc/jobs/4438063009",
+        "data_compliance": [
+          {
+            "type": "gdpr",
+            "requires_consent": false,
+            "requires_processing_consent": false,
+            "requires_retention_consent": false,
+            "retention_period": null,
+            "demographic_data_consent_applies": false
+          }
+        ],
+        "internal_job_id": 4246687009,
+        "location": {
+          "name": "San Francisco"
+        },
+        "metadata": null,
+        "id": 4438063009,
+        "updated_at": "2026-10-19T16:29:31-04:00",
+        "requisition_id": "26REV05",
+        "title": "Sales Engineer",
+        "company_name": "Browserbase",
+        "first_published": "2026-10-07T18:35:04-04:00",
+        "language": "en",
+        "application_deadline": null,
+        "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;h2&gt;About Browserbase&lt;/h2&gt;\n&lt;p&gt;Browserbase is the complete platform for building and deploying AI agents that browse and interact with the web like humans. With a single API key, developers can enable agents to search and retrieve information, fill out forms, and take action across websites. Today, Browserbase powers more than 50 million browser sessions each month for over 10,000 customers, including Ramp, DeepMind, Clay, Vercel, and Notion.&lt;/p&gt;\n&lt;p&gt;We&#39;re a Series B startup that&#39;s tripled our headcount in 2 years, and we&#39;re continuing to grow, fast. Backed by Kleiner Perkins, CRV, and Notable Capital, our team is building on our CEO&#39;s&lt;a href=&quot;https://memos.hawkhill.ventures/p/an-internet-browser-for-ai&quot;&gt; founding vision&lt;/a&gt; to power the world&#39;s best AI tools and help everyone automate the web.&lt;/p&gt;&lt;/div&gt;&lt;h2&gt;&lt;strong&gt;About the&lt;/strong&gt; Role&lt;/h2&gt;\n&lt;p&gt;Browserbase is seeking a motivated Sales Engineer to join our growing technical sales team. You&#39;ll work closely with our Growth, Support, and Eng teams to drive technical adoption of our platform.&lt;/p&gt;\n&lt;p&gt;This includes conducting compelling product demonstrations, developing custom solutions, and enabling our customers to easily build with Browserbase.&lt;/p&gt;\n&lt;p&gt;Our product is highly technical, so we’re looking for engineers who have both strong tech fundamentals and customer empathy.&lt;/p&gt;\n&lt;h2&gt;&lt;strong&gt;Key Responsibilities&lt;/strong&gt;&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;strong&gt;Technical Guidance &amp;amp; Enablement:&lt;/strong&gt; Act as the primary technical advisor for prospects and customers. Help them onboard, design solutions, troubleshoot issues, and make the most of Browserbase’s APIs and infrastructure.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Close&lt;/strong&gt; &lt;strong&gt;Deals&lt;/strong&gt;: You’ll serve as the technical expert articulating Browserbase’s technical value proposition &amp;amp; competitive differentiation. You’ll also serve as the main point of contact to get customers over the finish line.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Build&lt;/strong&gt; &lt;strong&gt;POCs&lt;/strong&gt;: Build proof-of-concepts and sample implementations that showcase Browserbase&#39;s capabilities in customer-specific environments.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Sales &amp;lt;&amp;gt; Product&lt;/strong&gt;: Identify and document customer requirements, collaborating with the product team to ensure alignment with our roadmap and customer communication around new features.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Resources&lt;/strong&gt;: Create technical content including demo environments, guides, and reference architectures to support the sales process.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Technical&lt;/strong&gt; &lt;strong&gt;Team&lt;/strong&gt; &lt;strong&gt;Member&lt;/strong&gt;: Stay current on industry trends, competitive offerings, and emerging technologies in our space and help to train and enable the broader team on our product.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2&gt;&lt;strong&gt;Qualifications&lt;/strong&gt;&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;2+ years of Sales Engineering, Solutions Architecture, or similar customer-facing technical role.&lt;/li&gt;\n&lt;li&gt;Strong technical background with experience in web development, databases, or developer tools.&lt;/li&gt;\n&lt;li&gt;Excellent communication skills with ability to explain complex technical concepts to diverse audiences. Lots of zoom calls in this role.&lt;/li&gt;\n&lt;li&gt;Experience conducting effective product demonstrations and technical presentations.&lt;/li&gt;\n&lt;li&gt;Problem-solving mindset with the ability to quickly understand customer challenges.&lt;/li&gt;\n&lt;li&gt;Comfort with a fast-paced startup environment and ability to work with ambiguity.&lt;/li&gt;\n&lt;li&gt;Customer-centric approach with a focus on building long-term relationships.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2&gt;&lt;strong&gt;Benefits&lt;/strong&gt;&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;Competitive salary + meaningful early-stage equity&lt;/li&gt;\n&lt;li&gt;Comprehensive medical, dental, and vision coverage for you and your dependents&lt;/li&gt;\n&lt;li&gt;401(k)&lt;/li&gt;\n&lt;li&gt;Daily catered lunches with a fully-stocked kitchen&lt;/li&gt;\n&lt;li&gt;Beautiful office in downtown San Francisco&lt;/li&gt;\n&lt;li&gt;All the AI tools + credits you want&lt;/li&gt;\n&lt;li&gt;Regular team offsites and company events&lt;/li&gt;\n&lt;/ul&gt;&lt;div class=&quot;content-pay-transparency&quot;&gt;&lt;div class=&quot;pay-input&quot;&gt;&lt;div class=&quot;title&quot;&gt;OTE (includes base + commission)&lt;/div&gt;&lt;div class=&quot;pay-range&quot;&gt;&lt;span&gt;$178,000&lt;/span&gt;&lt;span class=&quot;divider&quot;&gt;&amp;mdash;&lt;/span&gt;&lt;span&gt;$222,500 USD&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;p&gt;&lt;em&gt;Browserbase is an equal opportunity employer. We celebrate diversity and are committed to creating an inclusive environment for all employees, regardless of race, color, religion, sex, sexual orientation, gender identity or expression, national origin, age, disability, genetic information, veteran status, or any other characteristic protected by applicable law.&amp;nbsp;&lt;/em&gt;&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;If you need a reasonable accommodation at any point during the application or interview process, please contact your recruiter.&lt;/em&gt;&lt;/p&gt;&lt;/div&gt;",
+        "departments": [
+          {
+            "id": 4075169009,
+            "name": "Sales Engineering",
+            "child_ids": [],
+            "parent_id": 4074354009
+          }
+        ],
+        "offices": [
+          {
+            "id": 4081171009,
+            "name": "San Francisco",
+            "location": "San Francisco, California, United States",
+            "child_ids": [],
+            "parent_id": null
+          }
+        ],
+        "ai_disclaimer": null,
+        "include_ai_disclaimer": null,
+        "ai_opt_out_request_url": "http://app9.greenhouse.io/ai_opt_out_request/job_post/4438063009/ai_opt_out"
+      },
+      {
+        "absolute_url": "https://job-boards.greenhouse.io/browserbaseinc/jobs/4468411009",
+        "data_compliance": [
+          {
+            "type": "gdpr",
+            "requires_consent": false,
+            "requires_processing_consent": false,
+            "requires_retention_consent": false,
+            "retention_period": null,
+            "demographic_data_consent_applies": false
+          }
+        ],
+        "internal_job_id": 4286039009,
+        "location": {
+          "name": "San Francisco"
+        },
+        "metadata": null,
+        "id": 4468411009,
+        "updated_at": "2026-11-06T18:02:15-05:00",
+        "requisition_id": "26REV08",
+        "title": "Sales Manager",
+        "company_name": "Browserbase",
+        "first_published": "2026-10-26T18:21:43-04:00",
+        "language": "en",
+        "application_deadline": null,
+        "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;h2&gt;About Browserbase&lt;/h2&gt;\n&lt;p&gt;Browserbase is the complete platform for building and deploying AI agents that browse and interact with the web like humans. With a single API key, developers can enable agents to search and retrieve information, fill out forms, and take action across websites. Today, Browserbase powers more than 50 million browser sessions each month for over 10,000 customers, including Ramp, DeepMind, Clay, Vercel, and Notion.&lt;/p&gt;\n&lt;p&gt;We&#39;re a Series B startup that&#39;s tripled our headcount in 2 years, and we&#39;re continuing to grow, fast. Backed by Kleiner Perkins, CRV, and Notable Capital, our team is building on our CEO&#39;s&lt;a href=&quot;https://memos.hawkhill.ventures/p/an-internet-browser-for-ai&quot;&gt; founding vision&lt;/a&gt; to power the world&#39;s best AI tools and help everyone automate the web.&lt;/p&gt;&lt;/div&gt;&lt;h2&gt;About the role&lt;/h2&gt;\n&lt;p&gt;You&#39;ll lead and scale our entire Account Executive team, across all segments (Velocity, Mid Market, Enterprise), as we continue to hone in on our fast growing land and expand business, and continue to scale our outbound enterprise grade sales motion. You&#39;ll own the entire sales number, coach AEs to win larger and more complex deals, and build the operating rhythm behind it, including forecasting, deal reviews, pipeline discipline, and clear partnership with our SDRs, Sales Engineers, and Technical Customer Success Managers. You&#39;ll be in the room on our most strategic deals with executive and technical buyers, while developing the next generation of sellers.&lt;/p&gt;\n&lt;h2&gt;What you&#39;ll do&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;Hire, onboard and develop Account Executives who raise the bar with every hire.&lt;/li&gt;\n&lt;li&gt;Own the team&#39;s revenue target, with a forecast you commit to at the start of each quarter and land.&lt;/li&gt;\n&lt;li&gt;Run weekly deal reviews and 1:1 coaching that lift win rates, deal size and sales velocity.&lt;/li&gt;\n&lt;li&gt;Build high quality pipeline with the team through AE sourced plays, partners and ecosystems, a strong partnership with the SDR team, and expansion motion with our TCSMs.&lt;/li&gt;\n&lt;li&gt;Set clear rules of engagement with SDRs, SEs and TCSMs, so every customer gets a 5 star experience from first call to renewal.&lt;/li&gt;\n&lt;li&gt;Build repeatable playbooks for each segment, from larger initial deals to multi year agreements and expansion.&lt;/li&gt;\n&lt;li&gt;Step into strategic deals alongside your AEs, from executive alignment through procurement, security and legal.&lt;/li&gt;\n&lt;li&gt;Partner with Product, Marketing and Finance on pricing, packaging and the customer feedback loop.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2&gt;What success looks like in year one&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;The team never misses its revenue target, and your quarterly forecast lands close to the number you committed on day one. We pride ourselves on being closest to the pin (within ~3-5% accuracy).&lt;/li&gt;\n&lt;li&gt;New AEs you hire hit their ramp milestones, and uplevel the existing team.&lt;/li&gt;\n&lt;li&gt;You’ve nailed our velocity motion and outbound enterprise motion with true repeatability across all industries and verticals we target.&lt;/li&gt;\n&lt;li&gt;You’ve scaled a deal review, forecasting and coaching cadence the whole team runs on.&lt;/li&gt;\n&lt;li&gt;You are viewed as a trusted partner across your EPD counterparts to ensure the voice of the customer gets back to our team in a thoughtful, prioritized approach.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2&gt;You&#39;re a good fit if you...&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;Have led a team of quota carrying Account Executives for 4+ years&lt;/li&gt;\n&lt;li&gt;Have a track record of closing complex, technical deals yourself, and of making the sellers around you better.&lt;/li&gt;\n&lt;li&gt;Can point to people you&#39;ve developed who became top performers or were promoted.&lt;/li&gt;\n&lt;li&gt;Recruit A+ players and act quickly when someone isn&#39;t working out.&lt;/li&gt;\n&lt;li&gt;Experience running both a velocity (land and expand) motion and an enterprise motion.&lt;/li&gt;\n&lt;li&gt;Run your business with extreme rigor. You know your numbers and take immense pride in forecast accuracy.&lt;/li&gt;\n&lt;li&gt;Have built or rebuilt a sales motion at a high growth company, not just inherited a working one.&lt;/li&gt;\n&lt;li&gt;Are AI native, and have built workflows with tools like Claude that make you and your team better at deal inspection, coaching, and forecasting. Manual work is something you know how to eliminate quickly with AI so your team can focus on strategic work that matters. We believe in “sell 90,” where your team is spending &amp;gt;90% of their time working with the customer.&lt;/li&gt;\n&lt;li&gt;Fluency with a qualification framework such as MEDDPICC. You are a master in deepling understanding customer pain, and tying a solution to a company wide objective, not just an end user pain.&lt;/li&gt;\n&lt;li&gt;Learn and adapt fast, bring humility, grit and a low ego, and are comfortable with ambiguity and change.&lt;/li&gt;\n&lt;li&gt;Are willing to work from our San Francisco office 4 days a week, or to relocate.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;We care less about years of experience and more about the qualities and results above.&lt;/p&gt;\n&lt;h2&gt;Nice to haves&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;Experience selling, or leading teams selling, developer tools, APIs, infrastructure or usage based products.&lt;/li&gt;\n&lt;li&gt;Experience co selling with cloud partners or marketplaces such as AWS or Microsoft.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2&gt;Why you should join us&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;Build and lead the sales team at a category defining infrastructure company, during its fastest growth.&lt;/li&gt;\n&lt;li&gt;Shape how we sell across segmentation, playbooks, pricing and the operating rhythm of the team.&lt;/li&gt;\n&lt;li&gt;High visibility to leadership, and real impact on product and company direction.&lt;/li&gt;\n&lt;li&gt;You are the first sales leadership hire outside of our Head of GTM. This role has a direct path to scaling the organization and will be a true owner of the business.&lt;/li&gt;\n&lt;li&gt;Work alongside people who are the top 1%.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2&gt;Benefits&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;Competitive salary, variable compensation and meaningful early-stage equity&lt;/li&gt;\n&lt;li&gt;Medical, dental and vision coverage for you and your dependents&lt;/li&gt;\n&lt;li&gt;401(k)&lt;/li&gt;\n&lt;li&gt;Daily catered lunches and a fully stocked kitchen in our downtown San Francisco office&lt;/li&gt;\n&lt;li&gt;Unlimited access to AI tools and credits&lt;/li&gt;\n&lt;li&gt;Regular team offsites and company events&lt;/li&gt;\n&lt;/ul&gt;&lt;div class=&quot;content-pay-transparency&quot;&gt;&lt;div class=&quot;pay-input&quot;&gt;&lt;div class=&quot;title&quot;&gt;OTE (includes base + commission)&lt;/div&gt;&lt;div class=&quot;pay-range&quot;&gt;&lt;span&gt;$332,000&lt;/span&gt;&lt;span class=&quot;divider&quot;&gt;&amp;mdash;&lt;/span&gt;&lt;span&gt;$415,000 USD&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;p&gt;&lt;em&gt;Browserbase is an equal opportunity employer. We celebrate diversity and are committed to creating an inclusive environment for all employees, regardless of race, color, religion, sex, sexual orientation, gender identity or expression, national origin, age, disability, genetic information, veteran status, or any other characteristic protected by applicable law.&amp;nbsp;&lt;/em&gt;&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;If you need a reasonable accommodation at any point during the application or interview process, please contact your recruiter.&lt;/em&gt;&lt;/p&gt;&lt;/div&gt;",
+        "departments": [
+          {
+            "id": 4074354009,
+            "name": "Sales",
+            "child_ids": [
+              4075169009,
+              4075170009,
+              4075171009
+            ],
+            "parent_id": null
+          }
+        ],
+        "offices": [
+          {
+            "id": 4081171009,
+            "name": "San Francisco",
+            "location": "San Francisco, California, United States",
+            "child_ids": [],
+            "parent_id": null
+          }
+        ],
+        "ai_disclaimer": null,
+        "include_ai_disclaimer": null,
+        "ai_opt_out_request_url": "http://app9.greenhouse.io/ai_opt_out_request/job_post/4468411009/ai_opt_out"
+      },
+      {
+        "absolute_url": "https://job-boards.greenhouse.io/browserbaseinc/jobs/4452456009",
+        "data_compliance": [
+          {
+            "type": "gdpr",
+            "requires_consent": false,
+            "requires_processing_consent": false,
+            "requires_retention_consent": false,
+            "retention_period": null,
+            "demographic_data_consent_applies": false
+          }
+        ],
+        "internal_job_id": 4267483009,
+        "location": {
+          "name": "San Francisco"
+        },
+        "metadata": null,
+        "id": 4452456009,
+        "updated_at": "2026-11-20T17:17:32-05:00",
+        "requisition_id": "26GRO04",
+        "title": "Sales Strategy and Operations, Senior Analyst",
+        "company_name": "Browserbase",
+        "first_published": "2026-10-19T15:57:37-04:00",
+        "language": "en",
+        "application_deadline": null,
+        "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;h2&gt;About Browserbase&lt;/h2&gt;\n&lt;p&gt;Browserbase is the complete platform for building and deploying AI agents that browse and interact with the web like humans. With a single API key, developers can enable agents to search and retrieve information, fill out forms, and take action across websites. Today, Browserbase powers more than 50 million browser sessions each month for over 10,000 customers, including Ramp, DeepMind, Clay, Vercel, and Notion.&lt;/p&gt;\n&lt;p&gt;We&#39;re a Series B startup that&#39;s tripled our headcount in 2 years, and we&#39;re continuing to grow, fast. Backed by Kleiner Perkins, CRV, and Notable Capital, our team is building on our CEO&#39;s&lt;a href=&quot;https://memos.hawkhill.ventures/p/an-internet-browser-for-ai&quot;&gt; founding vision&lt;/a&gt; to power the world&#39;s best AI tools and help everyone automate the web.&lt;/p&gt;&lt;/div&gt;&lt;h2 data-pm-slice=&quot;1 3 []&quot;&gt;About the role&lt;/h2&gt;\n&lt;p&gt;This is the founding hire on the Revenue Operations team! We’re pretty excited about it. It’s also the first one focused squarely on sales strategy and analytics, so you should have a background in Sales Ops. You will report to and work in close partnership with our RevOps Lead, along with our Head of Sales, Head of Growth, Head of Finance, AEs, and TCSMs. This role is based in San Francisco where the full team is, and we are open to New York for the right candidate.&lt;/p&gt;\n&lt;p&gt;At Browserbase, we sell a usage-based product through two motions: a self-serve funnel that thousands of developers enter on their own, and an enterprise sales team that turns the best of those (and fresh outbound accounts) into large, expanding deals. This role would have to understand our revenue model to help impact strategic sales decisions like segmenting, forecasting, and compensation.&lt;/p&gt;\n&lt;h2&gt;What you&#39;ll do&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;strong&gt;Segmentation analysis:&lt;/strong&gt; Run the closed-won and expansion analysis that tells us how we should be carving the market and strategize the best way to ensure coverage, account assignment, and quota.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Quota and capacity modeling.&lt;/strong&gt; Build the capacity models, quota scenarios, and SDR target math that Sales leadership and Finance make decisions from. Model the levers before we pull them and bring them, with an opinion, to the team.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Forecast modeling and inspection:&lt;/strong&gt; Build and maintain the forecast model, prep the weekly call, inspect the deals behind the number, and flag where it is likely wrong before anyone else notices. You are our eyes and ears and we rely on you to make sure the data is correct.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Funnel and pipeline analytics:&lt;/strong&gt; Partner with our team on filling in the funnel from self-serve signup to PQL to SQO to closed-won to expansion. Surface the conversion points worth fixing, jump in with recommendations, and help us get creative on moving the number. We’ve worked with RevOps people before who stay squarely out of the strategic decisions and work, this job isn’t it! We want you excited by the problems and to partner on solving them.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Systems troubleshooting.&lt;/strong&gt; Understand the systems generating our numbers (HubSpot, Snowflake, Stripe, product data) well enough to triage them.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Market sizing and targeting.&lt;/strong&gt; Use enrichment tooling to size segments, build target account lists, and support outbound planning.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Deal desk support.&lt;/strong&gt; Help on pricing approvals and deal structure as volume grows. Secondary to everything above, but part of the job.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2&gt;Requirements&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;3 to 5 years in sales operations, revenue operations, sales strategy, or GTM strategy and operations at a B2B SaaS or developer tools company. A consulting or finance background with at least two years in an operating seat also works.&lt;/li&gt;\n&lt;li&gt;Real analytical chops. You can build a segmentation analysis, a capacity model, and a forecast, and you know which one the question calls for. SQL or equivalent, plus actual modeling, not just pivot tables.&lt;/li&gt;\n&lt;li&gt;You can take a defined piece of a larger problem and run it to a real answer without needing to own the whole thing.&lt;/li&gt;\n&lt;li&gt;Great collaboration with Sales. Your customers at Browserbase will be internal so that means working well with AEs and jamming on strategic reports with the Head of Sales.&lt;/li&gt;\n&lt;li&gt;Hands-on with HubSpot or Salesforce. You know the objects, the reporting layer, and where the data actually comes from.&lt;/li&gt;\n&lt;li&gt;You have worked on a forecast before and understand what makes one wrong.&lt;/li&gt;\n&lt;li&gt;Genuine AI tooling fluency. You use Claude, Codex, or similar to write queries, prototype internal tools, and move faster. When building something yourself is the fastest path, you build it.&lt;/li&gt;\n&lt;li&gt;Low ego, high ownership. We are small and the job will definitely change.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2&gt;Nice to haves&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;Usage-based or consumption pricing experience.&lt;/li&gt;\n&lt;li&gt;Experience supporting both self-serve and enterprise motions, and an instinct for how they should reinforce each other.&lt;/li&gt;\n&lt;li&gt;Clay, Amplemarket, Outreach, or similar for enrichment, TAM building, and outbound tooling.&lt;/li&gt;\n&lt;li&gt;Quota and comp plan design experience. We are not hiring a dedicated comp analyst, but knowing how plans behave is valuable.&lt;/li&gt;\n&lt;li&gt;Snowflake, dbt, or a BI tool like Hex, Looker, or Tableau.&lt;/li&gt;\n&lt;li&gt;Deal desk or CPQ exposure.&lt;/li&gt;\n&lt;li&gt;You have been an early ops hire before and know what breaks beyond a Series B.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2&gt;Benefits&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;Competitive salary + meaningful early-stage equity&lt;/li&gt;\n&lt;li&gt;Comprehensive medical, dental, and vision coverage for you and your dependents&lt;/li&gt;\n&lt;li&gt;401(k)&lt;/li&gt;\n&lt;li&gt;Daily catered lunches with a fully-stocked kitchen&lt;/li&gt;\n&lt;li&gt;Beautiful office in downtown San Francisco&lt;/li&gt;\n&lt;li&gt;All the AI tools + credits you want&lt;/li&gt;\n&lt;li&gt;Regular team offsites and company events&lt;/li&gt;\n&lt;/ul&gt;&lt;div class=&quot;content-pay-transparency&quot;&gt;&lt;div class=&quot;pay-input&quot;&gt;&lt;div class=&quot;title&quot;&gt;Base Compensation&lt;/div&gt;&lt;div class=&quot;pay-range&quot;&gt;&lt;span&gt;$120,000&lt;/span&gt;&lt;span class=&quot;divider&quot;&gt;&amp;mdash;&lt;/span&gt;&lt;span&gt;$160,000 USD&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;p&gt;&lt;em&gt;Browserbase is an equal opportunity employer. We celebrate diversity and are committed to creating an inclusive environment for all employees, regardless of race, color, religion, sex, sexual orientation, gender identity or expression, national origin, age, disability, genetic information, veteran status, or any other characteristic protected by applicable law.&amp;nbsp;&lt;/em&gt;&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;If you need a reasonable accommodation at any point during the application or interview process, please contact your recruiter.&lt;/em&gt;&lt;/p&gt;&lt;/div&gt;",
+        "departments": [
+          {
+            "id": 4074353009,
+            "name": "Growth",
+            "child_ids": [
+              4075172009,
+              4075173009,
+              4075174009,
+              4075175009,
+              4075176009,
+              4075177009
+            ],
+            "parent_id": null
+          }
+        ],
+        "offices": [
+          {
+            "id": 4081171009,
+            "name": "San Francisco",
+            "location": "San Francisco, California, United States",
+            "child_ids": [],
+            "parent_id": null
+          }
+        ],
+        "ai_disclaimer": null,
+        "include_ai_disclaimer": null,
+        "ai_opt_out_request_url": "http://app9.greenhouse.io/ai_opt_out_request/job_post/4452456009/ai_opt_out"
+      },
+      {
+        "absolute_url": "https://job-boards.greenhouse.io/browserbaseinc/jobs/4451753009",
+        "data_compliance": [
+          {
+            "type": "gdpr",
+            "requires_consent": false,
+            "requires_processing_consent": false,
+            "requires_retention_consent": false,
+            "retention_period": null,
+            "demographic_data_consent_applies": false
+          }
+        ],
+        "internal_job_id": 4267066009,
+        "location": {
+          "name": "San Francisco"
+        },
+        "metadata": null,
+        "id": 4451753009,
+        "updated_at": "2026-10-19T16:28:22-04:00",
+        "requisition_id": "26ENG05",
+        "title": "Software Engineer (Agent Platform)",
+        "company_name": "Browserbase",
+        "first_published": "2026-10-14T13:12:34-04:00",
+        "language": "en",
+        "application_deadline": null,
+        "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;h2&gt;About Browserbase&lt;/h2&gt;\n&lt;p&gt;Browserbase is the complete platform for building and deploying AI agents that browse and interact with the web like humans. With a single API key, developers can enable agents to search and retrieve information, fill out forms, and take action across websites. Today, Browserbase powers more than 50 million browser sessions each month for over 10,000 customers, including Ramp, DeepMind, Clay, Vercel, and Notion.&lt;/p&gt;\n&lt;p&gt;We&#39;re a Series B startup that&#39;s tripled our headcount in 2 years, and we&#39;re continuing to grow, fast. Backed by Kleiner Perkins, CRV, and Notable Capital, our team is building on our CEO&#39;s&lt;a href=&quot;https://memos.hawkhill.ventures/p/an-internet-browser-for-ai&quot;&gt; founding vision&lt;/a&gt; to power the world&#39;s best AI tools and help everyone automate the web.&lt;/p&gt;&lt;/div&gt;&lt;h2&gt;About the Role&lt;/h2&gt;\n&lt;p&gt;Agent Platform is Browserbase’s framework for automating browsers with code. The Agent Platform team creates developer tools at the intersection of AI and open source, making browser automation smarter, simpler, and more powerful.&lt;/p&gt;\n&lt;h2&gt;What you&#39;ll do&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;Build, operate, and grow the Agent Platform framework — developer-first APIs with ~2M monthly downloads and ~17k stars. Design and implement tools that make automating the web simple and powerful.&lt;/li&gt;\n&lt;li&gt;Work with frontier AI labs (OpenAI, Google, and others) to improve models, benchmark capabilities, and make them more accessible to developers.&lt;/li&gt;\n&lt;li&gt;Deploy production-ready AI solutions that impact millions of customers, shaping the future of the web.&lt;/li&gt;\n&lt;li&gt;Help define, scope, and prioritize projects that shape the future of developer tooling.&lt;/li&gt;\n&lt;li&gt;Document as you go and share your knowledge with the team.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2&gt;Technical skills:&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;Strong coding skills: preferably TypeScript; also valuable: Python/Go.&lt;/li&gt;\n&lt;li&gt;Experience building developer tools, frameworks, or libraries that others depend on.&lt;/li&gt;\n&lt;li&gt;Experience building AI agents/LLMs, distributed systems, or applying reinforcement learning.&lt;/li&gt;\n&lt;li&gt;Familiarity with web automation frameworks (Puppeteer, Playwright, Selenium) or web scraping; huge bonus: Chrome DevTools Protocol (CDP) experience.&lt;/li&gt;\n&lt;li&gt;Track record of open source contributions or public developer projects.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2&gt;You&#39;re a good fit if you:&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;Have high agency: you can set direction, make judgment calls, and drive projects forward without waiting for perfect clarity.&lt;/li&gt;\n&lt;li&gt;Have a strong sense of ownership and bias toward action.&lt;/li&gt;\n&lt;li&gt;Can drive projects independently, with high accountability without much outside input.&lt;/li&gt;\n&lt;li&gt;Communicate clearly in writing and in person, and choose the right medium for the message.&lt;/li&gt;\n&lt;li&gt;Are adaptable and able to dive into unfamiliar systems, learn quickly, and make sound technical decisions.&lt;/li&gt;\n&lt;li&gt;Enjoy collaborating with a small, ambitious team in a fast-paced environment.&lt;/li&gt;\n&lt;li&gt;Are excited to work &lt;strong&gt;4 days a week (WFH Wednesday) in our San Francisco&lt;/strong&gt; HQ (or open to relocating here).&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2&gt;&lt;strong&gt;Why join us&lt;/strong&gt;:&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;Shape the future of browser automation with AI-driven developer tools.&lt;/li&gt;\n&lt;li&gt;Work in the open: collaborate with and contribute to the broader open source community.&lt;/li&gt;\n&lt;li&gt;Collaborate with a small, high-bar team of engineers who care deeply about quality.&lt;/li&gt;\n&lt;li&gt;Join an ambitious startup where your impact will be felt immediately.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;div class=&quot;_descriptionText_5yu8i_201 ashby-job-posting-description&quot;&gt;\n&lt;h2&gt;Benefits&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;Competitive salary + meaningful early-stage equity&lt;/li&gt;\n&lt;li&gt;Comprehensive medical, dental, and vision coverage for you and your dependents&lt;/li&gt;\n&lt;li&gt;401(k)&lt;/li&gt;\n&lt;li&gt;Daily catered lunches with a fully-stocked kitchen&lt;/li&gt;\n&lt;li&gt;Beautiful office in downtown San Francisco&lt;/li&gt;\n&lt;li&gt;All the AI tools + credits you want&lt;/li&gt;\n&lt;li&gt;Regular team offsites and company events&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/div&gt;&lt;div class=&quot;content-pay-transparency&quot;&gt;&lt;div class=&quot;pay-input&quot;&gt;&lt;div class=&quot;title&quot;&gt;Base Compensation&lt;/div&gt;&lt;div class=&quot;pay-range&quot;&gt;&lt;span&gt;$180,000&lt;/span&gt;&lt;span class=&quot;divider&quot;&gt;&amp;mdash;&lt;/span&gt;&lt;span&gt;$300,000 USD&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;p&gt;&lt;em&gt;Browserbase is an equal opportunity employer. We celebrate diversity and are committed to creating an inclusive environment for all employees, regardless of race, color, religion, sex, sexual orientation, gender identity or expression, national origin, age, disability, genetic information, veteran status, or any other characteristic protected by applicable law.&amp;nbsp;&lt;/em&gt;&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;If you need a reasonable accommodation at any point during the application or interview process, please contact your recruiter.&lt;/em&gt;&lt;/p&gt;&lt;/div&gt;",
+        "departments": [
+          {
+            "id": 4074351009,
+            "name": "Engineering",
+            "child_ids": [
+              4077531009,
+              4077532009,
+              4075178009,
+              4075179009,
+              4075180009
+            ],
+            "parent_id": null
+          }
+        ],
+        "offices": [
+          {
+            "id": 4081171009,
+            "name": "San Francisco",
+            "location": "San Francisco, California, United States",
+            "child_ids": [],
+            "parent_id": null
+          }
+        ],
+        "ai_disclaimer": null,
+        "include_ai_disclaimer": null,
+        "ai_opt_out_request_url": "http://app9.greenhouse.io/ai_opt_out_request/job_post/4451753009/ai_opt_out"
+      },
+      {
+        "absolute_url": "https://job-boards.greenhouse.io/browserbaseinc/jobs/4451762009",
+        "data_compliance": [
+          {
+            "type": "gdpr",
+            "requires_consent": false,
+            "requires_processing_consent": false,
+            "requires_retention_consent": false,
+            "retention_period": null,
+            "demographic_data_consent_applies": false
+          }
+        ],
+        "internal_job_id": 4267072009,
+        "location": {
+          "name": "San Francisco"
+        },
+        "metadata": null,
+        "id": 4451762009,
+        "updated_at": "2026-10-19T16:30:05-04:00",
+        "requisition_id": "26ENG01",
+        "title": "Software Engineer (Core)",
+        "company_name": "Browserbase",
+        "first_published": "2026-10-15T12:31:57-04:00",
+        "language": "en",
+        "application_deadline": null,
+        "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;h2&gt;About Browserbase&lt;/h2&gt;\n&lt;p&gt;Browserbase is the complete platform for building and deploying AI agents that browse and interact with the web like humans. With a single API key, developers can enable agents to search and retrieve information, fill out forms, and take action across websites. Today, Browserbase powers more than 50 million browser sessions each month for over 10,000 customers, including Ramp, DeepMind, Clay, Vercel, and Notion.&lt;/p&gt;\n&lt;p&gt;We&#39;re a Series B startup that&#39;s tripled our headcount in 2 years, and we&#39;re continuing to grow, fast. Backed by Kleiner Perkins, CRV, and Notable Capital, our team is building on our CEO&#39;s&lt;a href=&quot;https://memos.hawkhill.ventures/p/an-internet-browser-for-ai&quot;&gt; founding vision&lt;/a&gt; to power the world&#39;s best AI tools and help everyone automate the web.&lt;/p&gt;&lt;/div&gt;&lt;h2&gt;About the Role&lt;/h2&gt;\n&lt;p&gt;Core (aka Browserbase Core Infrastructure) is the backbone of everything we do. This team keeps our browsers running at scale, solving massive distributed systems challenges and making sure our platform is fast, reliable, and scalable.&lt;/p&gt;\n&lt;h2&gt;What you’ll do&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;Build, operate, and grow the Browserbase Core platform — designing and developing robust, scalable distributed backends with developer-friendly APIs.&lt;/li&gt;\n&lt;li&gt;Work closely with the rest of Engineering, gathering input and providing great support so every team can build on Core with confidence.&lt;/li&gt;\n&lt;li&gt;Help define, scope, and review key projects; set priorities on the roadmap; and sequence deliverables that push the platform forward.&lt;/li&gt;\n&lt;li&gt;Establish and reinforce best practices around development, operations, and reliability.&lt;/li&gt;\n&lt;li&gt;Continuously enhance the platform to meet rapidly expanding customer adoption and demand.&lt;/li&gt;\n&lt;li&gt;Investigate, troubleshoot, and resolve operational issues that arise in production.&lt;/li&gt;\n&lt;li&gt;Document as you go and share your knowledge with the team.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2&gt;Technical skills&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;Deep experience building and scaling distributed systems, with scale on the order of hundreds or thousands of instances.&lt;/li&gt;\n&lt;li&gt;Strong expertise coding in Go or Typescript; bonus if you’ve touched Firecracker or similar VMMs.&lt;/li&gt;\n&lt;li&gt;Familiarity with CI/CD pipelines, Kubernetes and Docker, message queues, relational databases, automated testing, performance optimization, and zero-downtime multi-region deployments.&lt;/li&gt;\n&lt;li&gt;A systems-thinking mindset you understand how infrastructure choices ripple all the way up to customer experience.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2&gt;You’re a good fit if you…&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;Have high agency: you can set direction, make judgment calls, and drive projects forward without waiting for perfect clarity.&lt;/li&gt;\n&lt;li&gt;Have a strong sense of ownership and bias toward action.&lt;/li&gt;\n&lt;li&gt;Can drive projects independently, with high accountability without much outside input.&lt;/li&gt;\n&lt;li&gt;Communicate clearly in writing and in person, and choose the right medium for the message.&lt;/li&gt;\n&lt;li&gt;Are adaptable and able to dive into unfamiliar systems, learn quickly, and make sound technical decisions.&lt;/li&gt;\n&lt;li&gt;Enjoy collaborating with a small, ambitious team in a fast-paced environment.&lt;/li&gt;\n&lt;li&gt;Are excited to work &lt;strong&gt;5 days a week in our San Francisco&lt;/strong&gt; HQ (or open to relocating here).&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2&gt;Why join us&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;Work on some of the hardest problems in modern infrastructure.&lt;/li&gt;\n&lt;li&gt;Collaborate with a small, high-bar team of engineers who care deeply about quality.&lt;/li&gt;\n&lt;li&gt;Build core technology that every Browserbase product depends on.&lt;/li&gt;\n&lt;li&gt;Join an ambitious startup where your impact will be felt immediately.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;div class=&quot;_descriptionText_5yu8i_201 ashby-job-posting-description&quot;&gt;\n&lt;h2&gt;Benefits&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;Competitive salary + meaningful early-stage equity&lt;/li&gt;\n&lt;li&gt;Comprehensive medical, dental, and vision coverage for you and your dependents&lt;/li&gt;\n&lt;li&gt;401(k)&lt;/li&gt;\n&lt;li&gt;Daily catered lunches with a fully-stocked kitchen&lt;/li&gt;\n&lt;li&gt;Beautiful office in downtown San Francisco&lt;/li&gt;\n&lt;li&gt;All the AI tools + credits you want&lt;/li&gt;\n&lt;li&gt;Regular team offsites and company events&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/div&gt;&lt;div class=&quot;content-pay-transparency&quot;&gt;&lt;div class=&quot;pay-input&quot;&gt;&lt;div class=&quot;title&quot;&gt;Base Compensation&lt;/div&gt;&lt;div class=&quot;pay-range&quot;&gt;&lt;span&gt;$180,000&lt;/span&gt;&lt;span class=&quot;divider&quot;&gt;&amp;mdash;&lt;/span&gt;&lt;span&gt;$300,000 USD&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;p&gt;&lt;em&gt;Browserbase is an equal opportunity employer. We celebrate diversity and are committed to creating an inclusive environment for all employees, regardless of race, color, religion, sex, sexual orientation, gender identity or expression, national origin, age, disability, genetic information, veteran status, or any other characteristic protected by applicable law.&amp;nbsp;&lt;/em&gt;&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;If you need a reasonable accommodation at any point during the application or interview process, please contact your recruiter.&lt;/em&gt;&lt;/p&gt;&lt;/div&gt;",
+        "departments": [
+          {
+            "id": 4074351009,
+            "name": "Engineering",
+            "child_ids": [
+              4077531009,
+              4077532009,
+              4075178009,
+              4075179009,
+              4075180009
+            ],
+            "parent_id": null
+          }
+        ],
+        "offices": [
+          {
+            "id": 4081171009,
+            "name": "San Francisco",
+            "location": "San Francisco, California, United States",
+            "child_ids": [],
+            "parent_id": null
+          }
+        ],
+        "ai_disclaimer": null,
+        "include_ai_disclaimer": null,
+        "ai_opt_out_request_url": "http://app9.greenhouse.io/ai_opt_out_request/job_post/4451762009/ai_opt_out"
+      },
+      {
+        "absolute_url": "https://job-boards.greenhouse.io/browserbaseinc/jobs/4476929009",
+        "data_compliance": [
+          {
+            "type": "gdpr",
+            "requires_consent": false,
+            "requires_processing_consent": false,
+            "requires_retention_consent": false,
+            "retention_period": null,
+            "demographic_data_consent_applies": false
+          }
+        ],
+        "internal_job_id": 4291069009,
+        "location": {
+          "name": "San Francisco"
+        },
+        "metadata": null,
+        "id": 4476929009,
+        "updated_at": "2026-11-04T18:54:22-05:00",
+        "requisition_id": "26REV11",
+        "title": "Technical Customer Success Manager (Enterprise)",
+        "company_name": "Browserbase",
+        "first_published": "2026-11-04T17:46:57-05:00",
+        "language": "en",
+        "application_deadline": null,
+        "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;h2&gt;About Browserbase&lt;/h2&gt;\n&lt;p&gt;Browserbase is the complete platform for building and deploying AI agents that browse and interact with the web like humans. With a single API key, developers can enable agents to search and retrieve information, fill out forms, and take action across websites. Today, Browserbase powers more than 50 million browser sessions each month for over 10,000 customers, including Ramp, DeepMind, Clay, Vercel, and Notion.&lt;/p&gt;\n&lt;p&gt;We&#39;re a Series B startup that&#39;s tripled our headcount in 2 years, and we&#39;re continuing to grow, fast. Backed by Kleiner Perkins, CRV, and Notable Capital, our team is building on our CEO&#39;s&lt;a href=&quot;https://memos.hawkhill.ventures/p/an-internet-browser-for-ai&quot;&gt; founding vision&lt;/a&gt; to power the world&#39;s best AI tools and help everyone automate the web.&lt;/p&gt;&lt;/div&gt;&lt;h2&gt;About the role&lt;/h2&gt;\n&lt;p&gt;As an Enterprise Technical Customer Success Manager, you’ll own long-term partnerships with customers whose implementations span multiple teams, stakeholders, and business priorities. You’ll help engineering teams build reliable production workflows while ensuring executive sponsors understand the value Browserbase delivers.&lt;/p&gt;\n&lt;p&gt;This is a senior individual contributor role for someone who can move confidently between debugging an integration, coordinating a complex rollout, and leading an executive conversation about business outcomes. You’ll bring structure to ambiguous situations and maintain accountability from onboarding through renewal and expansion.&lt;/p&gt;\n&lt;h2&gt;What you’ll do&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;Own the post-sale lifecycle for a focused portfolio of enterprise customers, creating joint success plans with measurable outcomes, milestones, owners, and dependencies.&lt;/li&gt;\n&lt;li&gt;Lead complex onboarding and adoption programs across engineering, product, and business teams; coordinate security, procurement, and other internal stakeholders when they affect customer progress.&lt;/li&gt;\n&lt;li&gt;Read customer code, understand system architecture, and troubleshoot integrations. Guide discussions about reliability, scale, and production readiness in partnership with Engineering.&lt;/li&gt;\n&lt;li&gt;Build relationships across technical champions, executive sponsors, and commercial decision-makers so success does not depend on a single contact.&lt;/li&gt;\n&lt;li&gt;Run weekly customer meetings with clear agendas, written follow-ups, accountable owners, and reliable closure of commitments. Lead technical workshops, onboarding plans, and escalation reviews as needed.&lt;/li&gt;\n&lt;li&gt;Lead QBRs and executive business reviews with senior leaders, connecting adoption and workflow performance to business value and decisions about future investment.&lt;/li&gt;\n&lt;li&gt;Own renewal strategy and execution: establish the value case early, manage objections and decision processes, maintain a clear forecast, and close renewals with or without Sales involvement.&lt;/li&gt;\n&lt;li&gt;Partner with Sales to develop expansion opportunities across additional teams and use cases, grounded in demonstrated customer needs and outcomes.&lt;/li&gt;\n&lt;li&gt;Combine usage, technical performance, stakeholder engagement, and business context to identify risks; lead recovery plans and coordinate escalations through resolution.&lt;/li&gt;\n&lt;li&gt;Manage substantial feature-request pipelines: clarify use cases and business impact, advocate for priorities with Product and Engineering, communicate tradeoffs and status, and close the loop without promising uncommitted roadmap work.&lt;/li&gt;\n&lt;li&gt;Develop playbooks that strengthen enterprise delivery across the CS team.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2&gt;What you’ll bring&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;5+ years in Technical Customer Success, Solutions Engineering, Forward Deployed Engineering, or Technical Account Management, with substantial experience owning enterprise customer relationships. We expect many strong candidates to bring 5–8+ years of relevant experience.&lt;/li&gt;\n&lt;li&gt;Experience in a revenue-generating role, with direct accountability for strategic accounts, renewals, and expansion. You can point to commercial outcomes you personally owned.&lt;/li&gt;\n&lt;li&gt;Hands-on ability to read and troubleshoot JavaScript/TypeScript or Python, work with APIs and SDKs, interpret logs, and discuss infrastructure and application architecture with engineers.&lt;/li&gt;\n&lt;li&gt;Experience coordinating technical implementations across teams, resolving competing priorities, and keeping work moving through dependencies and escalations.&lt;/li&gt;\n&lt;li&gt;A track record of stakeholder mapping and multi-threading at large companies, building executive alignment, presenting business value, and guiding difficult commercial or delivery conversations.&lt;/li&gt;\n&lt;li&gt;Experience with engineering-heavy customers, earning trust through technical specificity, preparation, and consistent follow-through.&lt;/li&gt;\n&lt;li&gt;Strong judgment about when to solve an issue directly and when to bring in Engineering, Product, or commercial partners.&lt;/li&gt;\n&lt;li&gt;Clear communication, customer empathy, and the independence to build structure in a fast-moving startup.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2&gt;Nice to have&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;Experience with enterprise developer tools, cloud infrastructure, automation, observability, AI infrastructure, data infrastructure, or security products.&lt;/li&gt;\n&lt;li&gt;Experience with browser automation and tools such as Stagehand, Playwright, or Selenium.&lt;/li&gt;\n&lt;li&gt;Familiarity with enterprise security reviews, procurement processes, and production reliability requirements.&lt;/li&gt;\n&lt;li&gt;Experience mentoring teammates or building enterprise success methodologies.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2&gt;What success looks like&lt;/h2&gt;\n&lt;p&gt;Customers launch and sustain reliable production workflows, demonstrate measurable business value, and build durable relationships with Browserbase across their organizations. Renewals are well prepared, risks surface early, and expansion follows successful adoption.&lt;/p&gt;\n&lt;div class=&quot;_descriptionText_5yu8i_201 ashby-job-posting-description&quot;&gt;\n&lt;h2&gt;Benefits&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;Competitive salary + meaningful early-stage equity&lt;/li&gt;\n&lt;li&gt;Comprehensive medical, dental, and vision coverage for you and your dependents&lt;/li&gt;\n&lt;li&gt;401(k)&lt;/li&gt;\n&lt;li&gt;Daily catered lunches with a fully-stocked kitchen&lt;/li&gt;\n&lt;li&gt;Beautiful office in downtown San Francisco&lt;/li&gt;\n&lt;li&gt;All the AI tools + credits you want&lt;/li&gt;\n&lt;li&gt;Regular team offsites and company events&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/div&gt;&lt;div class=&quot;content-pay-transparency&quot;&gt;&lt;div class=&quot;pay-input&quot;&gt;&lt;div class=&quot;title&quot;&gt;OTE (includes base + commission)&lt;/div&gt;&lt;div class=&quot;pay-range&quot;&gt;&lt;span&gt;$211,500&lt;/span&gt;&lt;span class=&quot;divider&quot;&gt;&amp;mdash;&lt;/span&gt;&lt;span&gt;$264,500 USD&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;p&gt;&lt;em&gt;Browserbase is an equal opportunity employer. We celebrate diversity and are committed to creating an inclusive environment for all employees, regardless of race, color, religion, sex, sexual orientation, gender identity or expression, national origin, age, disability, genetic information, veteran status, or any other characteristic protected by applicable law.&amp;nbsp;&lt;/em&gt;&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;If you need a reasonable accommodation at any point during the application or interview process, please contact your recruiter.&lt;/em&gt;&lt;/p&gt;&lt;/div&gt;",
+        "departments": [
+          {
+            "id": 4075171009,
+            "name": "Technical Customer Success",
+            "child_ids": [],
+            "parent_id": 4074354009
+          }
+        ],
+        "offices": [
+          {
+            "id": 4081171009,
+            "name": "San Francisco",
+            "location": "San Francisco, California, United States",
+            "child_ids": [],
+            "parent_id": null
+          }
+        ],
+        "ai_disclaimer": null,
+        "include_ai_disclaimer": null,
+        "ai_opt_out_request_url": "http://app9.greenhouse.io/ai_opt_out_request/job_post/4476929009/ai_opt_out"
+      },
+      {
+        "absolute_url": "https://job-boards.greenhouse.io/browserbaseinc/jobs/4483397009",
+        "data_compliance": [
+          {
+            "type": "gdpr",
+            "requires_consent": false,
+            "requires_processing_consent": false,
+            "requires_retention_consent": false,
+            "retention_period": null,
+            "demographic_data_consent_applies": false
+          }
+        ],
+        "internal_job_id": 4294690009,
+        "location": {
+          "name": "San Francisco"
+        },
+        "metadata": null,
+        "id": 4483397009,
+        "updated_at": "2026-11-06T15:28:45-05:00",
+        "requisition_id": "26PEO02",
+        "title": "Technical Recruiter",
+        "company_name": "Browserbase",
+        "first_published": "2026-11-06T15:28:33-05:00",
+        "language": "en",
+        "application_deadline": null,
+        "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;h2&gt;About Browserbase&lt;/h2&gt;\n&lt;p&gt;Browserbase is the complete platform for building and deploying AI agents that browse and interact with the web like humans. With a single API key, developers can enable agents to search and retrieve information, fill out forms, and take action across websites. Today, Browserbase powers more than 50 million browser sessions each month for over 10,000 customers, including Ramp, DeepMind, Clay, Vercel, and Notion.&lt;/p&gt;\n&lt;p&gt;We&#39;re a Series B startup that&#39;s tripled our headcount in 2 years, and we&#39;re continuing to grow, fast. Backed by Kleiner Perkins, CRV, and Notable Capital, our team is building on our CEO&#39;s&lt;a href=&quot;https://memos.hawkhill.ventures/p/an-internet-browser-for-ai&quot;&gt; founding vision&lt;/a&gt; to power the world&#39;s best AI tools and help everyone automate the web.&lt;/p&gt;&lt;/div&gt;&lt;h3&gt;&lt;strong&gt;About the role&lt;/strong&gt;&lt;/h3&gt;\n&lt;p&gt;We’re looking for a Technical Recruiter to help build our Engineering, Product and Design teams at Browserbase. You’ll own full cycle technical recruiting from initial intake through offer acceptance, partnering closely with hiring managers to understand what their teams need and find people who can make a meaningful impact as we grow.&lt;/p&gt;\n&lt;p&gt;You’ll bring curiosity, strong judgment, intentionality, and a high level of ownership to every search. You care about understanding the work behind a job description, building relationships with talented people, and helping teams make thoughtful hiring decisions. You take pride in both the people you hire and the experience you create for every candidate, regardless of the outcome.&lt;/p&gt;\n&lt;h3&gt;&lt;strong&gt;What you’ll do&lt;/strong&gt;&lt;/h3&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;strong&gt;Own technical hiring from start to finish.&lt;/strong&gt; Lead the full recruiting process across engineering and other technical functions, including intake, sourcing, screening, and closing.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Build strong hiring manager partnerships.&lt;/strong&gt; Align on role expectations, candidate profiles, and interview plans. Bring recommendations, ask thoughtful questions, and help hiring managers make clear, timely decisions.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Source with intention.&lt;/strong&gt; Build targeted sourcing strategies that reflect each team’s needs and the company’s long-term goals. Develop relationships with candidates whose experience, interests, and ways of working align with the opportunity.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Develop technical fluency.&lt;/strong&gt; Understand our product, technical challenges, and engineering organization well enough to engage candidates credibly and recognize relevant experience.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Create an exceptional candidate experience.&lt;/strong&gt; Keep candidates informed, prepared, and supported throughout the process. Communicate with warmth, clarity, and care, including when delivering difficult news.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Help candidates make informed decisions.&lt;/strong&gt; Understand their motivations and priorities, communicate the opportunity honestly, and partner with hiring managers and People on thoughtful offer and closing strategies.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Strengthen how we interview.&lt;/strong&gt; Help design structured interviews, clarify evaluation criteria, improve feedback quality, and prepare interviewers to assess candidates fairly and consistently.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Own your recruiting data.&lt;/strong&gt; Maintain accurate pipeline information and use conversion rates, candidate feedback, and other insights to identify bottlenecks and recommend improvements.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Build for the company’s future.&lt;/strong&gt; Partner with our team and technical leaders to keep hiring priorities and candidate profiles aligned with our roadmap, business goals, and evolving team needs.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h3&gt;&lt;strong&gt;What you’ll bring&lt;/strong&gt;&lt;/h3&gt;\n&lt;ul&gt;\n&lt;li&gt;7+ years of recruiting experience, with a strong track record of hiring engineering and technical talent.&lt;/li&gt;\n&lt;li&gt;Experience independently managing full-cycle searches in a fast-moving startup or high-growth environment.&lt;/li&gt;\n&lt;li&gt;Strong sourcing skills and evidence of building candidate pipelines for competitive or specialized technical roles.&lt;/li&gt;\n&lt;li&gt;Enough technical knowledge to understand differences across engineering disciplines, ask relevant questions, and connect candidates’ experience to the needs of a role.&lt;/li&gt;\n&lt;li&gt;A consultative approach to working with hiring managers, including the confidence to challenge assumptions and offer practical recommendations.&lt;/li&gt;\n&lt;li&gt;Strong candidate assessment and closing skills, grounded in listening, relationship building, and sound judgment.&lt;/li&gt;\n&lt;li&gt;Excellent organization and follow-through, with the ability to manage multiple searches and adjust as priorities change.&lt;/li&gt;\n&lt;li&gt;Comfort using an ATS and recruiting data to manage your work, communicate progress, and improve results.&lt;/li&gt;\n&lt;li&gt;A collaborative mindset, personal accountability, and care for how your work affects candidates and teammates.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2&gt;&lt;strong&gt;Benefits&lt;/strong&gt;&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;Competitive salary + meaningful early-stage equity&lt;/li&gt;\n&lt;li&gt;Comprehensive medical, dental, and vision coverage for you and your dependents&lt;/li&gt;\n&lt;li&gt;401(k)&lt;/li&gt;\n&lt;li&gt;Daily catered lunches with a fully stocked kitchen&lt;/li&gt;\n&lt;li&gt;Beautiful office in downtown San Francisco&lt;/li&gt;\n&lt;li&gt;All the AI tools + credits you want&lt;/li&gt;\n&lt;li&gt;Regular team offsites and company events&lt;/li&gt;\n&lt;/ul&gt;&lt;div class=&quot;content-pay-transparency&quot;&gt;&lt;div class=&quot;pay-input&quot;&gt;&lt;div class=&quot;title&quot;&gt;Base Compensation&lt;/div&gt;&lt;div class=&quot;pay-range&quot;&gt;&lt;span&gt;$167,000&lt;/span&gt;&lt;span class=&quot;divider&quot;&gt;&amp;mdash;&lt;/span&gt;&lt;span&gt;$208,500 USD&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;p&gt;&lt;em&gt;Browserbase is an equal opportunity employer. We celebrate diversity and are committed to creating an inclusive environment for all employees, regardless of race, color, religion, sex, sexual orientation, gender identity or expression, national origin, age, disability, genetic information, veteran status, or any other characteristic protected by applicable law.&amp;nbsp;&lt;/em&gt;&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;If you need a reasonable accommodation at any point during the application or interview process, please contact your recruiter.&lt;/em&gt;&lt;/p&gt;&lt;/div&gt;",
+        "departments": [
+          {
+            "id": 4074355009,
+            "name": "People",
+            "child_ids": [],
+            "parent_id": null
+          }
+        ],
+        "offices": [
+          {
+            "id": 4081171009,
+            "name": "San Francisco",
+            "location": "San Francisco, California, United States",
+            "child_ids": [],
+            "parent_id": null
+          }
+        ],
+        "ai_disclaimer": null,
+        "include_ai_disclaimer": null,
+        "ai_opt_out_request_url": "http://app9.greenhouse.io/ai_opt_out_request/job_post/4483397009/ai_opt_out"
+      }
+    ],
+    "meta": {
+      "total": 16
+    }
+  },
+  "coverage": {
+    "api_url": "https://boards-api.greenhouse.io/v1/boards/browserbaseinc/jobs",
+    "pages": 1
+  }
+}
