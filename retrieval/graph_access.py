@@ -16,8 +16,8 @@ It is an *equivalent*, not the real thing, and every answer says which backend
 produced it. The selected Cypher from ``graph/*.cypher`` still travels with the
 answer, so a reviewer can see the query the result corresponds to.
 :class:`Neo4jBackend` executes those templates for real when the driver and a
-database are available; it is written against the official driver API and has
-not been run against a live instance yet.
+database are available. A recorded live answer is in
+``evaluation/sueda-mehmet-retrieval-closure/``.
 """
 
 from __future__ import annotations
@@ -584,6 +584,38 @@ class Neo4jBackend:
             rows=rows,
             backend=self.name,
         )
+
+    def companies(self) -> list[str]:
+        with self._driver.session(database=self.database) as session:
+            rows = session.run(
+                "MATCH (startup:Startup) WHERE startup.company_id IS NOT NULL "
+                "RETURN DISTINCT startup.company_id AS company_id ORDER BY company_id"
+            )
+            return [row["company_id"] for row in rows]
+
+    def sectors(self) -> list[str]:
+        return []
+
+    def sector_attention(self, **_kwargs: Any) -> GraphResult:
+        return GraphResult(
+            purpose="sector_attention",
+            template=None,
+            parameters={},
+            backend=self.name,
+            note="Sector attention is not executed by the live Neo4j answer path.",
+        )
+
+    def describe(self) -> dict[str, Any]:
+        with self._driver.session(database=self.database) as session:
+            counts = session.run("MATCH (n) RETURN count(n) AS nodes").single()
+            edges = session.run("MATCH ()-[r]->() RETURN count(r) AS edges").single()
+        return {
+            "backend": self.name,
+            "nodes": counts["nodes"] if counts else 0,
+            "edges": edges["edges"] if edges else 0,
+            "cypher": self.library.describe(),
+            "caveat": "Cypher templates were executed against the live Neo4j database.",
+        }
 
     def company_records(  # pragma: no cover - optional path
         self, company_id: str, *, observed_from: str | None = None, observed_to: str | None = None

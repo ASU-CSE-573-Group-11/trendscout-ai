@@ -1,0 +1,384 @@
+{
+  "question": "Which LangChain records mention hiring or funding in the study window?",
+  "question_id": "sueda-mehmet-semantic-1",
+  "answer_text": "For the full snapshot, from 5 retrieved item(s):\n- langchain-ai/langchain recorded 44 default-branch commits during 2026-09-21 to 2026-09-27. [1]\n- LangChain Raises $300M Series C at $3B Valuation Would you notice if your agent got worse in production? [2]\n- ABOUT US At LangChain, our mission is to enable every company to own its intelligence. [3]\n- langfuse/langfuse recorded 203 default-branch commits during 2026-09-21 to 2026-09-27. [4]",
+  "claims": [
+    {
+      "text": "langchain-ai/langchain recorded 44 default-branch commits during 2026-09-21 to 2026-09-27.",
+      "citation_numbers": [
+        1
+      ],
+      "evidence_state": "emerging",
+      "evidence_reason": "a single operational signal supports this claim and nothing contradicts it",
+      "supported": true,
+      "independent_origin_count": 1,
+      "record_ids": [],
+      "conflicts": []
+    },
+    {
+      "text": "LangChain Raises $300M Series C at $3B Valuation Would you notice if your agent got worse in production?",
+      "citation_numbers": [
+        2
+      ],
+      "evidence_state": "emerging",
+      "evidence_reason": "a single documentary origin supports this claim and nothing contradicts it",
+      "supported": true,
+      "independent_origin_count": 1,
+      "record_ids": [],
+      "conflicts": []
+    },
+    {
+      "text": "ABOUT US At LangChain, our mission is to enable every company to own its intelligence.",
+      "citation_numbers": [
+        3
+      ],
+      "evidence_state": "emerging",
+      "evidence_reason": "a single operational signal supports this claim and nothing contradicts it",
+      "supported": true,
+      "independent_origin_count": 1,
+      "record_ids": [],
+      "conflicts": []
+    },
+    {
+      "text": "langfuse/langfuse recorded 203 default-branch commits during 2026-09-21 to 2026-09-27.",
+      "citation_numbers": [
+        4
+      ],
+      "evidence_state": "emerging",
+      "evidence_reason": "a single operational signal supports this claim and nothing contradicts it",
+      "supported": true,
+      "independent_origin_count": 1,
+      "record_ids": [],
+      "conflicts": []
+    }
+  ],
+  "citations": [
+    {
+      "number": 1,
+      "kind": "passage",
+      "record_ids": [
+        "1b0b26ad-97db-5001-a34d-24ddc270d344"
+      ],
+      "origin_cluster_ids": [
+        "c5a32632e586ab2c"
+      ],
+      "source_type": "github",
+      "title": "langchain-ai/langchain commits 2026-09-21 to 2026-09-27",
+      "source_url": "https://github.com/langchain-ai/langchain",
+      "publisher": "LangChain",
+      "company_id": "langchain",
+      "when": "2026-09-27T23:59:59Z",
+      "time_basis": "event_at",
+      "text": "langchain-ai/langchain recorded 44 default-branch commits during 2026-09-21 to 2026-09-27. Counts are reconstructed from dated commits; repository counters are unavailable for this historical week.",
+      "retrievers": {
+        "dense": {
+          "rank": 1,
+          "score": 0.45878463983535767
+        }
+      },
+      "score": 0.020491803278688527,
+      "detail": {
+        "corroborating_origins": 17,
+        "corroboration_bonus_applied": true
+      }
+    },
+    {
+      "number": 2,
+      "kind": "passage",
+      "record_ids": [
+        "eb174b5a-a28e-5260-a99a-aeb84f1e4be8"
+      ],
+      "origin_cluster_ids": [
+        "97db7b651f0fccb8"
+      ],
+      "source_type": "funding",
+      "title": "LangChain Raises $300M Series C at $3B Valuation",
+      "source_url": "https://langchain.com/blog/series-c",
+      "publisher": "LangChain",
+      "company_id": "langchain",
+      "when": "2026-11-13T15:55:00Z",
+      "time_basis": "published_at",
+      "text": "LangChain Raises $300M Series C at $3B Valuation Would you notice if your agent got worse in production? Tell us in our annual survey for the chance to win LangChain swag. | Take survey ↗ Products LangSmith Platform Agent Improvement Engine Improve agents autonomously Observability See exactly what your agents are doing Evaluation Score and improve agent performance Agent Runtime Agent Server Ship and scale agents in production Sandboxes Run agent-generated code safely Fleet Agents for the whole company Agent Governance LLM Gateway Control agent model calls Open Source Agent Frameworks deepagents Build long-running agents for complex tasks langgraph Build agents with low-level control langchain Quick start agents with any model provider Resources Learn Academy Free courses on building agents Certification Become a certified agent engineer Blog Product news and deep dives Documentation Guides and API references Library Guides, reports, and ebooks Max Agency Podcast on building agents Webinars Live and recorded expert sessions YouTube Video tutorials and walkthroughs Interrupt On-Demand Recorded sessions from Interrupt events Connect Community Connect with other agent builders Meetups Local, community-led gatherings Events Find events online and near you LangChain @ AWS re:Invent Nov 30 · Las Vegas Docs Customers Pricing Try LangSmith Get a demo Try LangSmith Get a demo Company Announcements LangChain Raises $300M to Enable Every Company to Own Its Intelligence Harrison Chase November 13, 2026 3 min Go back to blog Create agents Create agents Share Our Series C Announcement Today, we’re announcing that LangChain raised $300M at a $3B valuation to advance our mission to enable every company to own its intelligence. The round was led by existing investor CapitalG, with significant participation from new investors GIC and DFJ Growth and existing investors IVP and Sapphire Ventures. We believe agents will transform the economy. That future will be shaped by domain-specific agents differentiated by their knowledge, data, and UX. These agents will be sold as standalone products and also used to transform internal company operations. The companies that control these systems will build lasting competitive advantages. To capture that opportunity, every company will need to own its intelligence. Companies should be free to choose the best models for their needs, control their data and infrastructure, and continuously improve their agents, while maintaining the governance needed to operate securely at scale. That’s why we’ve built LangSmith, the framework-agnostic platform to run, improve, and govern agents . More than 7,000 organizations already rely on LangSmith, from fast-growing startups like Harvey, Rippling, and Listen Labs to Fortune 500 enterprises like NVIDIA, Toyota, and Salesforce. Clay uses LangSmith to monitor hundreds of millions of agent runs per month and improve their agents. Workday uses LangSmith to run and govern agents across the organization, reducing the time to deploy a new agent from five months to under a day. LangSmith provides the foundation for companies to control their agent systems across three pillars – Agent Runtime, Agent Improvement, and Agent Governance: Agent Runtime gives teams the architecture and infrastructure to run agents reliably. Deep Agents, LangGraph, and LangChain give developers flexibility across models and control over how context is managed. LangSmith Agent Server and Sandboxes allow teams to deploy and run agents securely at scale, whether in the cloud or in their environment. LangSmith Managed Agents and Fleet provide fully managed services to build, deploy, and run mission-critical agents in production. Agent Improvement helps teams test, monitor, and improve agent performance. LangSmith Observability and Evaluation give teams visibility into how agents behave and measure quality. LangSmith Engine, our in-platform agent, automates improvement by finding errors, writing code and prompt fixes, and monitoring production traffic for regressions. LangSmith Fine-Tuning helps teams turn agent traces into training data to fine-tune and evaluate specialized models. Agent Governance gives teams centralized control over how agents use models, tools, and data. Our LLM and Tool Gateways help teams manage model budgets and fallbacks, protect sensitive data, and govern tool access and authentication across teams and agents . On Friday, November 20th, we shared several new LangSmith capabilities that build on this foundation. Watch the recording of our special release event to see what’s coming next. LangSmith has been shaped by our fantastic community – from our developer evangelists to the customers we’re lucky enough to partner with. Thank you all for your feedback, insights, and trust. There’s still so much left to build. Building high performing agents is harder than it should be, and we‘re determined to change that. Come join us in making it easier for every company to own its intelligence. Harrison ‍ Thank you to our new and existing investors for helping make this journey possible. We’re excited to welcome Salesforce Ventures, Insight Venture Partners, QuantumLight, and MongoDB Ventures, and grateful to Sequoia, Amplify, and Benchmark for doubling down in this round. ‍ Related content Company Announcements Observability & Evals LangSmith for Coding Agents: Now track spend by outcome Jacob Lee November 18, 2026 8 min Company Announcements Protect sensitive data in your traces: new controls in LangSmith Trammell Saltzgaber November 17, 2026 5 min LangSmith Company Announcements New in LangSmith: Engine v2, Managed Deep Agents, Fine-Tuning, and More Jacob Talbot September 25, 2026 7 min Sign up for our newsletter to stay up to date Thank you! Your submission has been received! Oops! Something went wrong while submitting the form. See what your agent is really doing LangSmith, our agent engineering platform, helps developers debug every agent decision, eval changes, and deploy in one click. Try LangSmith Get a demo Products LangSmith Platform LangSmith Observability LangSmith Evaluation LangSmith Agent Server LangSmith Fleet LangSmith Sandboxes Deep Agents Deep Agents Code LangChain LangGraph Resources Blog Customer Stories Guides Community Changelog Docs Support LangChain Academy Company About Careers Partners Trust Center Brand Assets Events Sign up for our newsletter to stay up to date Thank you! Your submission has been received! Oops! Something went wrong while submitting the form. All systems operational Privacy policy Enterprise Terms Enterprise DPA Standard Terms Standard DPA",
+      "retrievers": {
+        "dense": {
+          "rank": 17,
+          "score": 0.33077648282051086
+        }
+      },
+      "score": 0.016233766233766236,
+      "detail": {
+        "corroborating_origins": 17,
+        "corroboration_bonus_applied": true
+      }
+    },
+    {
+      "number": 3,
+      "kind": "passage",
+      "record_ids": [
+        "2cc150d0-748d-599b-bf30-18f175d2773f"
+      ],
+      "origin_cluster_ids": [
+        "dc1179c95d9a8130"
+      ],
+      "source_type": "job",
+      "title": "Product Designer",
+      "source_url": "https://jobs.ashbyhq.com/langchain/28aba38e-de19-4ae5-9316-08575a11ae4d",
+      "publisher": "LangChain",
+      "company_id": "langchain",
+      "when": "2026-07-23T04:09:14Z",
+      "time_basis": "published_at",
+      "text": "ABOUT US At LangChain, our mission is to enable every company to own its intelligence. We believe agents will transform how companies operate, and we're building the foundation to make that future possible. Our open-source harnesses and LangSmith platform give developers and enterprises the infrastructure to run, improve, and govern agents at scale. We've raised $460M to date, with our most recent funding round valuing the company at $3B, backed by leading investors including Sequoia, Benchmark, IVP, and CapitalG. As we continue to expand our platform and tackle some of the hardest challenges in agent engineering, every team member has the opportunity to make a meaningful impact and help shape both our technology and the future of the industry. More than 7,000 organizations rely on LangSmith, from fast-growing startups to Fortune 500 enterprises, including NVIDIA, Bridgewater, LinkedIn, Workday, and Rippling. We're just getting started on making high-performing agents easier to build and manage at scale. ABOUT THE ROLE We're looking for a Product Designer to help shape the experience for the developers and teams who build on LangChain. You'll work across our core product surfaces, and depending on where the need is greatest, that could include how developers get from first signup to real production usage, as well as deeper platform workflows like debugging, evaluation, and observability. The common thread is developers doing technical, often high-stakes work, and needing an interface that gets out of their way. You'll partner with engineering, product, and other designers to figure out where the friction is and design your way out of it. *This position will be onsite in San Francisco, CA WHAT YOU'LL DO - Build a deep understanding of how developers actually use LangChain's products through interviews and feedback sessions so your design decisions are grounded in real behavior and address user needs - Own the full design arc on your features — from early concepts to polished, shipped work - Work across a range of product areas and design initiatives as priorities shift - Collaborate closely with product, engineering and other key stakeholders to ship new features quickly WHAT YOU'LL BRING - 3+ years of fullstack product design experience ideally working on developer tools, AI, or complex SaaS products - Sharp eye for detail, with a strong foundation across user-centered design, interaction design, and visual craft - A track record of solving hard interaction design problems, particularly around dense technical data - Data-driven decision making - you are comfortable driving user research, both with internal stakeholders and external customers, and using what you learn to inform your designs - You take initiative and ownership of tasks end-to-end - Strong technical acumen - you collaborate effectively with engineers to design things that are both well-crafted and feasible - Start-up DNA - you thrive in fast-paced, highly dynamic environments COMPENSATION PHILOSOPHY We offer competitive compensation that includes base salary, variable compensation for relevant roles, meaningful equity, benefits, and perks. We are hiring for this role across a range of scope, and the compensation band reflects that. Your offer depends on what we learn about your impact, craft, leadership, and communication during the interview process. We will tell you early where you’re tracking and talk comp with you before offer stage. Team members in the EU, UK, and APAC receive locally competitive benefits aligned with regional norms and regulations. BENEFITS Benefits include medical, dental, and vision coverage, flexible vacation, a 401(k) plan, meals on in-office days in the US and more.",
+      "retrievers": {
+        "dense": {
+          "rank": 26,
+          "score": 0.20637360215187073
+        }
+      },
+      "score": 0.014534883720930232,
+      "detail": {
+        "corroborating_origins": 17,
+        "corroboration_bonus_applied": true
+      }
+    },
+    {
+      "number": 4,
+      "kind": "passage",
+      "record_ids": [
+        "8e331615-dcc0-5ed1-8ee7-e29e0ecaa6f8"
+      ],
+      "origin_cluster_ids": [
+        "a5d406dab37933d6"
+      ],
+      "source_type": "github",
+      "title": "langfuse/langfuse commits 2026-09-21 to 2026-09-27",
+      "source_url": "https://github.com/langfuse/langfuse",
+      "publisher": "Langfuse",
+      "company_id": "langfuse",
+      "when": "2026-09-27T23:59:59Z",
+      "time_basis": "event_at",
+      "text": "langfuse/langfuse recorded 203 default-branch commits during 2026-09-21 to 2026-09-27. Counts are reconstructed from dated commits; repository counters are unavailable for this historical week.",
+      "retrievers": {
+        "dense": {
+          "rank": 9,
+          "score": 0.3745342195034027
+        }
+      },
+      "score": 0.014492753623188406,
+      "detail": {
+        "corroborating_origins": 1,
+        "corroboration_bonus_applied": false
+      }
+    },
+    {
+      "number": 5,
+      "kind": "passage",
+      "record_ids": [
+        "32a5b90a-9b89-50c5-b05b-d060ac441c0b"
+      ],
+      "origin_cluster_ids": [
+        "0442c81bb66ffc45"
+      ],
+      "source_type": "job",
+      "title": "Deployed Engineer, Professional Services (APAC)",
+      "source_url": "https://jobs.ashbyhq.com/langchain/0ee73994-b8a3-4a75-9675-da536abd3e10",
+      "publisher": "LangChain",
+      "company_id": "langchain",
+      "when": "2026-10-10T16:57:12Z",
+      "time_basis": "published_at",
+      "text": "ABOUT US At LangChain, our mission is to enable every company to own its intelligence. We believe agents will transform how companies operate, and we're building the foundation to make that future possible. Our open-source harnesses and LangSmith platform give developers and enterprises the infrastructure to run, improve, and govern agents at scale. We've raised $460M to date, with our most recent funding round valuing the company at $3B, backed by leading investors including Sequoia, Benchmark, IVP, and CapitalG. As we continue to expand our platform and tackle some of the hardest challenges in agent engineering, every team member has the opportunity to make a meaningful impact and help shape both our technology and the future of the industry. More than 7,000 organizations rely on LangSmith, from fast-growing startups to Fortune 500 enterprises, including NVIDIA, Bridgewater, LinkedIn, Workday, and Rippling. We're just getting started on making high-performing agents easier to build and manage at scale. ABOUT THE ROLE We're looking for a Deployed Engineer to join our Professional Services team, working directly with enterprise customers to build reliable, production agents. You'll translate vague enterprise workflows into concrete software specs and guide engineering teams through the resulting solution, or build it for them. You might spend a week designing a customer's agent architecture, a few weeks co-building their evaluation pipeline, or a quarter embedded inside their team shipping alongside their engineers. You are someone who's built real AI systems for production and can defend the technical tradeoffs within them. Location: Singapore (Remote with up to 25% travel) WHAT YOU'LL DO - Advising: Agent architecture design, evaluation strategy review, and best-practice production guidance. - Building: Co-build with the customer's engineering team across the full Agent Development Lifecycle (ADLC) in outcome-scoped engagements. - Embedding: Serve as a deployed engineer inside the customer's team for extended engagements, operating as a de facto member of their org to ship agent systems directly. - Agent Engineering: ADLC end-to-end, architecture design, orchestration patterns, evals, custom conversational UIs, and production deployment. - Applied AI: Post-training, supervised fine-tuning, harness engineering, trace mining, model selection and evaluation methodology. WHAT YOU'LL BRING - 4+ years of software engineering experience with deep expertise in Python. TypeScript/JavaScript a plus. - 2+ years of hands-on experience building and shipping production agent systems. - Strong client-facing communication skills, with the ability to confidently articulate architectural decisions to technical stakeholders (engineers, architects, CTOs). - Strong experience with LangChain/LangGraph/Deep Agents or comparable frameworks, including multi-agent patterns and state management (short and long-term memory). - Deep familiarity designing and implementing evaluation methodologies for non-deterministic AI systems. - Comfortable operating across the full spectrum from advisory to embedded delivery. - Willing to travel up to 20% of the time. NICE TO HAVE: - Exposure to dataset curation and post-training techniques (SFT, DPO, RLHF) on open-weight models using tools like Axolotl, Unsloth, Hugging Face transformers, or TRL. - Experience with trace mining to drive continuous improvement loops Looking to lead technical strategy across the customer journey from Proofs of Value (PoVs) to driving overall adoption? Please check out the Deployed Engineer listing focused on Account Strategy & Solutions. COMPENSATION PHILOSOPHY We offer competitive compensation that includes base salary, variable compensation for relevant roles, meaningful equity, benefits, and perks. We are hiring for this role across a range of scope, and the compensation band reflects that. Your offer depends on what we learn about your impact, craft, leadership, and communication during the interview process. We will tell you early where you’re tracking and talk comp with you before offer stage. Team members in the EU, UK, and APAC receive locally competitive benefits aligned with regional norms and regulations. BENEFITS Benefits include medical, dental, and vision coverage, flexible vacation, a 401(k) plan, meals on in-office days in the US and more.",
+      "retrievers": {
+        "dense": {
+          "rank": 27,
+          "score": 0.204436257481575
+        }
+      },
+      "score": 0.014367816091954023,
+      "detail": {
+        "corroborating_origins": 17,
+        "corroboration_bonus_applied": true
+      }
+    }
+  ],
+  "route": {
+    "question": "Which LangChain records mention hiring or funding in the study window?",
+    "intent": "narrative",
+    "strategies": [
+      "documents"
+    ],
+    "time_window": {
+      "start": null,
+      "end": "2026-11-21T06:41:32Z",
+      "basis": "none",
+      "expression": null,
+      "anchor": "2026-11-21T06:41:31Z",
+      "weeks": null,
+      "label": "the full snapshot",
+      "iso_weeks": []
+    },
+    "confidence": 0.4,
+    "method": "rules",
+    "rationale": "no intent rule matched; defaulting to document retrieval",
+    "matched_rules": [],
+    "scores": {},
+    "companies": [
+      "langchain"
+    ],
+    "metrics": [
+      "new_postings"
+    ],
+    "role_families": [],
+    "future_reference": null
+  },
+  "time_window": {
+    "start": null,
+    "end": "2026-11-21T06:41:32Z",
+    "basis": "none",
+    "expression": null,
+    "anchor": "2026-11-21T06:41:31Z",
+    "weeks": null,
+    "label": "the full snapshot",
+    "iso_weeks": []
+  },
+  "graph": [],
+  "graph_paths": [],
+  "trend_signals": [],
+  "overall_state": "emerging",
+  "abstained": false,
+  "abstention_reason": null,
+  "missing_evidence": [],
+  "qualified": true,
+  "qualification": "Qualified: the strongest claim rests on a single independent origin, which the evidence ledger treats as emerging rather than established.",
+  "unsupported_claim_count": 0,
+  "unsupported_claim_rate": 0.0,
+  "provider": {
+    "text": "For the full snapshot, from 5 retrieved item(s):\n- langchain-ai/langchain recorded 44 default-branch commits during 2026-09-21 to 2026-09-27. [1]\n- LangChain Raises $300M Series C at $3B Valuation Would you notice if your agent got worse in production? [2]\n- ABOUT US At LangChain, our mission is to enable every company to own its intelligence. [3]\n- langfuse/langfuse recorded 203 default-branch commits during 2026-09-21 to 2026-09-27. [4]",
+    "provider": "extractive",
+    "model": null,
+    "fallback_used": false,
+    "fallback_reason": null,
+    "usage": {},
+    "refused": false
+  },
+  "latency": {
+    "parse": 0.06,
+    "route": 1.906,
+    "retrieve": 48.415,
+    "graph": 0.007,
+    "generate": 2.226,
+    "total": 52.648,
+    "unattributed": 0.034
+  },
+  "config": {
+    "mode": "dense",
+    "k": 5,
+    "routing_method": "rules",
+    "provider": null,
+    "encoder": "sentence-transformers/all-MiniLM-L6-v2",
+    "distinct_origins": true,
+    "use_graph": false,
+    "use_temporal_fields": true,
+    "use_corroboration_weighting": true,
+    "corroboration_bonus": 0.25,
+    "demo_mode": false,
+    "target_median_ms": 8000.0,
+    "max_trend_citations": 8,
+    "max_graph_citations": 3,
+    "max_companies_queried": 6,
+    "documents_enabled": true,
+    "ablations": {
+      "graph_retrieval": false,
+      "temporal_fields": true,
+      "corroboration_weighting": true
+    },
+    "evidence": {
+      "minimum_independent_origins": 2,
+      "amount_tolerance": 0.1,
+      "date_tolerance_days": 7,
+      "refresh_window_days": 7,
+      "allowed_missed_refresh_windows": 2,
+      "stale_after_days": 14
+    },
+    "retrieval": {
+      "mode": "dense",
+      "rrf_k": 60,
+      "weights": {
+        "bm25": 1.0,
+        "dense": 1.0
+      },
+      "distinct_origins": true,
+      "passages": 45,
+      "records": 45,
+      "dense": {
+        "encoder": "st:sentence-transformers/all-MiniLM-L6-v2",
+        "dim": 384,
+        "semantic": true,
+        "backend": "numpy",
+        "passages": 45,
+        "records": 45,
+        "format_version": 2,
+        "caveat": null
+      },
+      "fusion": "reciprocal_rank_fusion"
+    },
+    "router": {
+      "method": "rules",
+      "methods_available": [
+        "rules",
+        "tfidf_logistic"
+      ],
+      "snapshot_anchor": "2026-11-21T06:41:31Z",
+      "intents": [
+        "exact",
+        "aggregate",
+        "narrative",
+        "mixed_temporal",
+        "evidence_state",
+        "unsupported"
+      ],
+      "intent_strategies": {
+        "exact": [
+          "graph"
+        ],
+        "aggregate": [
+          "graph",
+          "trend"
+        ],
+        "narrative": [
+          "documents"
+        ],
+        "mixed_temporal": [
+          "graph",
+          "documents",
+          "trend"
+        ],
+        "evidence_state": [
+          "graph",
+          "ledger"
+        ],
+        "unsupported": []
+      },
+      "rule_count": 11,
+      "training_questions": 60,
+      "cohort_companies": 18
+    }
+  },
+  "snapshot": {
+    "snapshot_id": "mixed@45",
+    "snapshot_anchor": "2026-11-21T06:41:31Z",
+    "last_data_week": "2026-W47",
+    "records": 45,
+    "demo_mode": false,
+    "replayed_from_snapshot": true,
+    "graph_backend": "in_memory",
+    "dense": {
+      "encoder": "st:sentence-transformers/all-MiniLM-L6-v2",
+      "dim": 384,
+      "semantic": true,
+      "backend": "numpy",
+      "passages": 45,
+      "records": 45,
+      "format_version": 2,
+      "caveat": null
+    }
+  }
+}
