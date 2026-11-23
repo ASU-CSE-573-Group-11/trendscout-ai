@@ -3,135 +3,168 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="A source-bound walkthrough of the TrendScout real semantic graph.">
-  <title>TrendScout — Real Graph Study</title>
+  <meta name="description" content="TrendScout evidence ledger for the frozen five-company graph.">
+  <title>TrendScout — Evidence ledger</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <style>
-    :root { color-scheme:light; --ink:#18212b; --muted:#5e6a76; --paper:#f7f8f6; --white:#fff; --line:#d9dedc; --navy:#173f5f; --blue:#276b91; --rust:#a84f32; --green:#276749; --green-bg:#edf7f1; --soft:#eef2f3; }
-    * { box-sizing:border-box; }
-    html { scroll-behavior:smooth; }
-    body { margin:0; color:var(--ink); background:var(--paper); font:1rem/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
-    a { color:var(--blue); text-underline-offset:3px; }
-    .wrap { width:min(1120px,calc(100% - 40px)); margin:auto; }
-    .topbar { background:var(--ink); color:#fff; font-size:.9rem; }
-    .topbar .wrap { min-height:44px; display:flex; align-items:center; justify-content:space-between; gap:18px; }
-    .brand { font-weight:750; letter-spacing:.04em; }
-    .topbar nav { display:flex; gap:20px; }
-    .topbar a { color:#dfe8ed; text-decoration:none; }
-    header { padding:72px 0 52px; border-bottom:1px solid var(--line); background:var(--white); }
-    .kicker { color:var(--rust); font-weight:750; letter-spacing:.12em; text-transform:uppercase; font-size:.8rem; }
-    h1,h2,h3 { font-family:Georgia,"Times New Roman",serif; font-weight:500; letter-spacing:-.025em; }
-    h1 { max-width:820px; margin:.25em 0; font-size:clamp(2.7rem,6vw,5.2rem); line-height:1.02; overflow-wrap:break-word; }
-    h2 { margin:0 0 12px; font-size:clamp(2rem,4vw,3rem); line-height:1.1; }
-    h3 { margin:0 0 8px; font-size:1.45rem; }
-    .lede { max-width:780px; margin:0; color:#43505c; font-size:1.2rem; }
-    .status { margin-top:30px; padding:15px 18px; border-left:4px solid var(--green); background:var(--green-bg); display:flex; gap:12px; align-items:flex-start; max-width:820px; }
-    .status strong { color:var(--green); }
-    section { padding:62px 0; border-bottom:1px solid var(--line); }
-    .section-intro { max-width:760px; color:var(--muted); font-size:1.08rem; margin:0 0 28px; }
-    .facts { display:grid; grid-template-columns:repeat(4,1fr); border:1px solid var(--line); background:var(--white); }
-    .fact { padding:22px; min-height:145px; border-right:1px solid var(--line); }
-    .fact:last-child { border-right:0; }
-    .fact .value { font:500 2.65rem/1 Georgia,serif; color:var(--navy); }
-    .fact strong { display:block; margin:10px 0 4px; }
-    .fact p { color:var(--muted); margin:0; font-size:.92rem; line-height:1.45; }
-    .finding-cards { display:grid; grid-template-columns:repeat(3,1fr); gap:18px; }
-    .finding-card { min-width:0; background:var(--white); border:1px solid var(--line); padding:22px 22px 18px; }
-    .finding-card .value { font:500 3.1rem/1 Georgia,serif; color:var(--navy); }
-    .finding-card .of { color:var(--muted); font-size:1.1rem; }
-    .finding-card .stats { display:grid; grid-template-columns:repeat(3,1fr); gap:8px; margin-top:14px; color:var(--muted); font-size:.84rem; }
-    .finding-card .stats b { display:block; color:var(--ink); font-weight:650; font-variant-numeric:tabular-nums; }
-    .meter { height:8px; margin-top:18px; background:#e8eceb; }
-    .meter span { display:block; height:100%; background:var(--navy); }
-    .finding-card.hashing .meter span { background:var(--blue); }
-    .finding-zero { margin-top:18px; max-width:none; }
-    .unmeasured { display:flex; flex-wrap:wrap; gap:8px; margin-top:16px; }
-    .charts { display:grid; grid-template-columns:minmax(0,1.35fr) minmax(280px,.65fr); gap:24px; }
-    .chart { min-width:0; background:var(--white); border:1px solid var(--line); padding:24px; }
-    .chart h3 { margin-bottom:6px; }
-    .chart-intro { margin:0 0 22px; color:var(--muted); }
-    .bar-chart { display:grid; gap:16px; }
-    .bar-row { display:grid; grid-template-columns:108px 1fr 32px; gap:12px; align-items:center; }
-    .bar-label { font-weight:650; line-height:1.25; }
-    .bar-track { min-width:0; height:15px; background:#e8eceb; overflow:hidden; }
-    .bar-fill { display:block; height:100%; background:var(--navy); }
-    .bar-value { text-align:right; font-variant-numeric:tabular-nums; }
-    .legend { display:flex; flex-wrap:wrap; gap:8px 18px; margin:20px 0 0; padding-top:16px; border-top:1px solid var(--line); color:var(--muted); font-size:.9rem; }
-    .legend span::before { content:""; display:inline-block; width:10px; height:10px; margin-right:7px; background:var(--navy); }
-    .legend .funding::before { background:var(--rust); }
-    .legend .jobs::before { background:var(--blue); }
-    .legend .repository::before { background:var(--green); }
-    .stacked-company { margin-bottom:18px; }
-    .stacked-company:last-child { margin-bottom:0; }
-    .stacked-head { display:flex; justify-content:space-between; gap:12px; margin-bottom:6px; }
-    .stacked-head span { color:var(--muted); font-size:.88rem; }
-    .stacked-bar { display:flex; height:16px; background:#e8eceb; overflow:hidden; }
-    .segment { min-width:0; height:100%; }
-    .segment.funding { background:var(--rust); }
-    .segment.jobs { background:var(--blue); }
-    .segment.repository { background:var(--green); }
-    .takeaway { margin:22px 0 0; padding:16px 18px; border-left:3px solid var(--rust); background:#fbf3ef; color:#453c37; }
-    .takeaway strong { display:block; margin-bottom:3px; }
-    .company-list { display:grid; gap:18px; }
-    .company { min-width:0; background:var(--white); border:1px solid var(--line); display:grid; grid-template-columns:220px 1fr; }
-    .company-head { padding:24px; background:var(--soft); border-right:1px solid var(--line); }
-    .company-head h3 { color:var(--navy); }
-    .company-id { color:var(--muted); font-size:.88rem; font-family:ui-monospace,SFMono-Regular,Menlo,monospace; }
-    .company-body { min-width:0; padding:24px; }
-    .company-body p { margin:0 0 16px; }
-    .measurements { display:flex; flex-wrap:wrap; gap:8px 18px; padding-top:14px; border-top:1px solid var(--line); }
-    .measurements span { color:var(--muted); }
-    .measurements b { color:var(--ink); }
-    .tags { display:flex; flex-wrap:wrap; gap:7px; margin-top:14px; }
-    .tag { border:1px solid #c9d4d8; background:#f8faf9; padding:4px 9px; border-radius:3px; font-size:.85rem; color:#43525f; }
-    .method { display:grid; grid-template-columns:repeat(4,1fr); counter-reset:step; }
-    .step { min-width:0; position:relative; padding:22px; border-top:2px solid var(--navy); background:var(--white); border-right:1px solid var(--line); }
-    .step:last-child { border-right:0; }
-    .step::before { counter-increment:step; content:counter(step); display:block; color:var(--rust); font:500 1.5rem Georgia,serif; margin-bottom:24px; }
-    .step p { color:var(--muted); margin:0; }
-    .inventory { display:grid; grid-template-columns:1fr 1fr; gap:24px; }
-    .table-box { min-width:0; background:var(--white); border:1px solid var(--line); padding:20px; }
-    table { width:100%; table-layout:fixed; border-collapse:collapse; }
-    th,td { text-align:left; padding:9px 6px; border-bottom:1px solid var(--line); }
-    th { color:var(--muted); font-size:.8rem; text-transform:uppercase; letter-spacing:.07em; }
-    td:first-child { overflow-wrap:anywhere; }
-    td:last-child,th:last-child { width:28%; text-align:right; font-variant-numeric:tabular-nums; }
-    .checks { display:grid; grid-template-columns:repeat(2,1fr); gap:14px; }
-    .check { background:var(--white); border:1px solid var(--line); padding:20px; }
-    .check b { color:var(--rust); font:500 2rem Georgia,serif; }
-    .check strong { display:block; margin:4px 0; }
-    .check p { color:var(--muted); margin:0; }
-    .limits { display:grid; grid-template-columns:1fr 1fr; gap:12px 36px; margin:0; padding:0; list-style:none; counter-reset:limit; }
-    .limits li { position:relative; padding:14px 0 14px 38px; border-top:1px solid var(--line); }
-    .limits li::before { counter-increment:limit; content:counter(limit); position:absolute; left:0; color:var(--rust); font:500 1.2rem Georgia,serif; }
-    .reproduce { background:var(--ink); color:#f4f7f8; border-bottom:0; }
-    .reproduce .section-intro { color:#b8c5ce; }
-    .reproduce a { color:#9ed4ef; }
-    pre { margin:22px 0 0; padding:20px; overflow:auto; background:#0f1820; border:1px solid #344553; color:#e7eef2; font:14px/1.65 ui-monospace,SFMono-Regular,Menlo,monospace; }
-    footer { padding:24px 0 46px; color:var(--muted); font-size:.85rem; background:var(--white); overflow-wrap:anywhere; }
-    .error { color:#9c2f24; background:#fff0ee; border-left-color:#9c2f24; }
-    @media(max-width:850px) { .facts,.method,.finding-cards{grid-template-columns:1fr 1fr}.fact:nth-child(2){border-right:0}.fact{border-bottom:1px solid var(--line)}.charts{grid-template-columns:1fr}.company{grid-template-columns:1fr}.company-head{border-right:0;border-bottom:1px solid var(--line)}.inventory{grid-template-columns:1fr} }
-    @media(max-width:580px) { .topbar nav{display:none}.facts,.method,.checks,.limits,.finding-cards{grid-template-columns:1fr}.fact,.step{border-right:0}.wrap{width:min(100% - 28px,1120px)}header{padding-top:48px}section{padding:46px 0}.bar-row{grid-template-columns:88px 1fr 26px;gap:8px}.chart{padding:18px} }
+    :root {
+      --ink:#241f1a; --paper:#f3efe6; --card:#fffdf8; --rule:#d9d0c3;
+      --ledger:#1f4d3a; --ledger-soft:#e7f2ec; --stamp:#9a3b2f; --stamp-soft:#f8ece8;
+      --muted:#6b6258;
+    }
+    body { background:var(--paper); color:var(--ink); font-family:"IBM Plex Sans",sans-serif; }
+    .mono, code, pre, .figure, .nav-id { font-family:"IBM Plex Mono",ui-monospace,monospace; }
+    .navbar { background:var(--ink); }
+    .navbar-brand { font-weight:600; letter-spacing:.04em; }
+    .navbar .nav-link { color:#e7e0d4; font-size:.92rem; }
+    .navbar .nav-link:hover, .navbar .nav-link:focus { color:#fff; }
+    .findings-link { color:#f3efe6 !important; background:var(--ledger); border-radius:4px; padding:.35rem .7rem !important; }
+    section { scroll-margin-top:76px; }
+    .eyebrow { color:var(--stamp); font-size:.75rem; font-weight:600; letter-spacing:.14em; text-transform:uppercase; }
+    h1,h2,h3 { letter-spacing:-.02em; }
+    h1 { font-size:clamp(1.8rem,3vw,2.5rem); font-weight:600; }
+    .lede { color:#4d463e; max-width:46rem; }
+    .sheet { background:var(--card); border:1px solid var(--rule); border-radius:6px; }
+    .figure { font-size:2.6rem; font-weight:500; line-height:1; color:var(--ledger); }
+    .meter { height:6px; background:#ece6dc; border-radius:99px; overflow:hidden; }
+    .meter > span { display:block; height:100%; background:var(--ledger); }
+    .meter.hash > span { background:#3d6f8c; }
+    .bar-track { height:10px; background:#ece6dc; border-radius:99px; overflow:hidden; }
+    .bar-fill { display:block; height:100%; background:var(--ink); }
+    .stacked { display:flex; height:12px; background:#ece6dc; border-radius:99px; overflow:hidden; }
+    .seg-fund { background:var(--stamp); } .seg-job { background:#3d6f8c; } .seg-repo { background:var(--ledger); }
+    .swatch { width:.7rem; height:.7rem; display:inline-block; border-radius:2px; margin-right:.35rem; }
+    .company-side { background:#f7f3eb; }
+    .step-no { color:var(--stamp); font-family:"IBM Plex Mono",monospace; }
+    footer { color:var(--muted); }
+    pre { background:#241f1a; color:#f3efe6; border-radius:6px; padding:1rem 1.1rem; }
+    a { color:#1d5c84; }
   </style>
 </head>
 <body>
-    <div class="topbar"><div class="wrap"><div class="brand">TrendScout AI</div><nav><a href="#findings">Findings</a><a href="#distribution">Evidence</a><a href="#companies">Companies</a><a href="#method">Method</a><a href="#inventory">Data inventory</a><a href="#run">Run locally</a></nav></div></div>
-  <header><div class="wrap"><div class="kicker">Real graph study · Frozen mixed-source snapshot</div><h1>What the evidence graph contains—and what it does not.</h1><p class="lede">This page explains the project’s real semantic graph in plain language. It separates observed source facts from interpretation, shows each company’s retained evidence, and verifies that the local Neo4j database reproduces the committed offline graph.</p><div id="status" class="status"><div>●</div><div><strong>Loading validation result</strong><br><span class="muted">Reading the checked-in demo record.</span></div></div></div></header>
-  <main>
-    <section id="overview"><div class="wrap"><div class="kicker">Study overview</div><h2>A bounded integration result</h2><p class="section-intro">The graph is built from 45 retained source records covering five companies. Counts below describe nodes and links in this frozen study snapshot—not the full universe of each company’s activity.</p><div id="facts" class="facts"></div></div></section>
-    <section id="findings"><div class="wrap"><div class="kicker">Measured findings</div><h2>Retrieval found the release note. It did not find the original questions.</h2><p class="section-intro">Twenty-eight release-fact questions each have one supporting document, so Precision@5 cannot rise above 0.2. The bars are Recall@5: how often that document appears in the top five. The dense bar is a hashing encoder, not a sentence transformer.</p><div id="finding-cards" class="finding-cards"></div><div id="finding-zero" class="status finding-zero"></div><div id="unmeasured" class="unmeasured"></div></div></section>
-    <section id="distribution"><div class="wrap"><div class="kicker">Evidence distribution</div><h2>Where the retained evidence is concentrated</h2><p class="section-intro">These compact charts expose imbalance in the snapshot. They are descriptive views of collected records—not company rankings, market-share estimates, or measures of real-world performance.</p><div class="charts"><article class="chart"><h3>Source-excerpt claims by company</h3><p class="chart-intro">Each bar counts claims projected from retained source records. The scale is shared across all five companies.</p><div id="claim-bars" class="bar-chart" role="img" aria-label="Bar chart of source-excerpt claims by company"></div><p class="takeaway"><strong>How to read this</strong>LangChain dominates because the mixed round retained funding, job-listing and repository evidence for it. That difference reflects coverage, not proof that LangChain was more active than every other company.</p></article><article class="chart"><h3>Observed domain evidence</h3><p class="chart-intro">The strips separate funding announcements, public job listings and repositories for each company.</p><div id="domain-bars" aria-label="Stacked bars of observed domain evidence by company"></div><div class="legend"><span class="funding">Funding announcement</span><span class="jobs">Job listing</span><span class="repository">Repository</span></div><p class="takeaway"><strong>The clearest pattern</strong>Most job-listing evidence belongs to LangChain. CrewAI and Langfuse enter this snapshot through repository observations instead.</p></article></div></div></section>
-    <section id="companies"><div class="wrap"><div class="kicker">Company evidence</div><h2>What is actually present for each company</h2><p class="section-intro">Every profile states the available evidence and the missing categories. A zero means “no matching node in this snapshot,” not “the company had none in reality.”</p><div id="company-list" class="company-list"></div></div></section>
-    <section id="method"><div class="wrap"><div class="kicker">Method</div><h2>How the graph was produced</h2><p class="section-intro">The integration preserves source identity and validation boundaries from collection through the live database.</p><div class="method"><article class="step"><h3>Freeze sources</h3><p>Funding pages, public job listings and weekly repository observations are retained with source URLs, hashes and observation clocks.</p></article><article class="step"><h3>Project semantics</h3><p>Source records become provenance-bound Claims, FundingRounds, JobPostings, Repositories, Investors, Skills and Technologies.</p></article><article class="step"><h3>Validate RDF</h3><p>The complete graph is exported as Turtle and checked against SHACL identity, datatype and relationship requirements.</p></article><article class="step"><h3>Compare Neo4j</h3><p>The live database reads the exact payload IDs and relationships. Its company summaries must equal the offline result.</p></article></div></div></section>
-    <section id="inventory"><div class="wrap"><div class="kicker">Full inventory</div><h2>Nodes and relationships, written out</h2><p class="section-intro">These tables expose the complete graph composition rather than hiding it behind a single headline total.</p><div class="inventory"><div class="table-box"><h3>Node types</h3><table><thead><tr><th>Type</th><th>Count</th></tr></thead><tbody id="nodes"></tbody></table></div><div class="table-box"><h3>Relationship types</h3><table><thead><tr><th>Type</th><th>Count</th></tr></thead><tbody id="edges"></tbody></table></div></div></div></section>
-    <section><div class="wrap"><div class="kicker">Provenance</div><h2>Checks that guard the interpretation</h2><p class="section-intro">The checks below are structural acceptance tests. They show that claims remain tied to sources and subjects, and that unsupported investor-to-round edges were not invented.</p><div id="checks" class="checks"></div></div></section>
-    <section><div class="wrap"><div class="kicker">Reading guide</div><h2>Important limits</h2><p class="section-intro">These statements are part of the result, not footnotes. They define what can safely be concluded from the graph.</p><ol id="limits" class="limits"></ol></div></section>
-    <section id="run" class="reproduce"><div class="wrap"><div class="kicker">Reproduce locally</div><h2>Run the same checked-in demo</h2><p class="section-intro">The full setup, Neo4j load, validation and troubleshooting steps are documented in <a href="README.md">this folder’s README</a>. If the environment is already prepared, the short path is:</p><pre><code>python -m evaluation.real_graph_integration check
+  <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+    <div class="container">
+      <a class="navbar-brand text-white" href="#findings">TrendScout ledger</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav" aria-controls="nav" aria-label="Open sections">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="nav">
+        <ul class="navbar-nav ms-auto gap-lg-2">
+          <li class="nav-item"><a class="nav-link findings-link" href="#findings">Findings</a></li>
+          <li class="nav-item"><a class="nav-link" href="#overview">Graph</a></li>
+          <li class="nav-item"><a class="nav-link" href="#distribution">Evidence</a></li>
+          <li class="nav-item"><a class="nav-link" href="#companies">Companies</a></li>
+          <li class="nav-item"><a class="nav-link" href="#method">Method</a></li>
+          <li class="nav-item"><a class="nav-link" href="#inventory">Inventory</a></li>
+          <li class="nav-item"><a class="nav-link" href="#run">Run</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="border-bottom">
+    <div class="container py-4">
+      <div class="eyebrow">Group 11 · frozen mixed-source snapshot</div>
+      <h1 class="mt-2 mb-2">Evidence ledger for five companies</h1>
+      <p class="lede mb-3">Counts below are what this snapshot retains. A listing is not a hire. An announcement date is not a financing close. The answer model does not choose the evidence state.</p>
+      <div id="status" class="alert alert-secondary mb-0" role="status">Reading the checked-in demo record.</div>
+    </div>
+  </header>
+
+  <main class="container py-4">
+    <section id="findings" class="mb-5">
+      <div class="eyebrow">Start here</div>
+      <h2 class="mt-2">Findings</h2>
+      <p class="text-secondary">Release-fact lookup, 28 questions, one supporting document each. Precision@5 cannot exceed 0.2. The large number is how many of those documents landed in the top five. Hashing dense is lexical, not a sentence transformer.</p>
+      <div id="finding-cards" class="row g-3"></div>
+      <div id="finding-zero" class="alert alert-warning mt-3 mb-2" role="status">Loading the original-question result.</div>
+      <div id="unmeasured" class="d-flex flex-wrap gap-2"></div>
+    </section>
+
+    <section id="overview" class="mb-5">
+      <div class="eyebrow">Graph</div>
+      <h2 class="mt-2">What the frozen graph holds</h2>
+      <p class="text-secondary">Forty-five retained source records. These counts are the study snapshot, not the full activity of each company.</p>
+      <div id="facts" class="row g-3"></div>
+    </section>
+
+    <section id="distribution" class="mb-5">
+      <div class="eyebrow">Evidence</div>
+      <h2 class="mt-2">Where the retained evidence sits</h2>
+      <p class="text-secondary">Descriptive coverage of this snapshot. Not a ranking and not a market share.</p>
+      <div class="row g-3">
+        <div class="col-lg-7">
+          <article class="sheet p-4 h-100">
+            <h3 class="h5">Source-excerpt claims</h3>
+            <div id="claim-bars" class="mt-3"></div>
+            <p class="small text-secondary mt-3 mb-0">LangChain is longest because this round kept funding, jobs, and a repository for it. That is coverage, not proof it was more active.</p>
+          </article>
+        </div>
+        <div class="col-lg-5">
+          <article class="sheet p-4 h-100">
+            <h3 class="h5">Funding, jobs, repositories</h3>
+            <div id="domain-bars" class="mt-3"></div>
+            <p class="small mt-3 mb-0"><span class="swatch seg-fund"></span>Funding <span class="swatch seg-job ms-2"></span>Job listing <span class="swatch seg-repo ms-2"></span>Repository</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="companies" class="mb-5">
+      <div class="eyebrow">Companies</div>
+      <h2 class="mt-2">Present, and absent, for each company</h2>
+      <p class="text-secondary">A zero means no node in this snapshot.</p>
+      <div id="company-list" class="d-grid gap-3"></div>
+    </section>
+
+    <section id="method" class="mb-5">
+      <div class="eyebrow">Method</div>
+      <h2 class="mt-2">How the graph was produced</h2>
+      <div class="row g-3">
+        <div class="col-md-6 col-xl-3"><article class="sheet p-3 h-100"><div class="step-no">01</div><h3 class="h6 mt-2">Freeze sources</h3><p class="small text-secondary mb-0">Pages, listings, and weekly repository observations keep URLs, hashes, and observation clocks.</p></article></div>
+        <div class="col-md-6 col-xl-3"><article class="sheet p-3 h-100"><div class="step-no">02</div><h3 class="h6 mt-2">Project semantics</h3><p class="small text-secondary mb-0">Records become claims, rounds, postings, repositories, investors, skills, and technologies.</p></article></div>
+        <div class="col-md-6 col-xl-3"><article class="sheet p-3 h-100"><div class="step-no">03</div><h3 class="h6 mt-2">Validate RDF</h3><p class="small text-secondary mb-0">The graph is exported as Turtle and checked with SHACL.</p></article></div>
+        <div class="col-md-6 col-xl-3"><article class="sheet p-3 h-100"><div class="step-no">04</div><h3 class="h6 mt-2">Compare Neo4j</h3><p class="small text-secondary mb-0">The live database must match the committed file, company by company.</p></article></div>
+      </div>
+    </section>
+
+    <section id="inventory" class="mb-5">
+      <div class="eyebrow">Inventory</div>
+      <h2 class="mt-2">Nodes and relationships</h2>
+      <div class="row g-3">
+        <div class="col-md-6"><div class="sheet p-3"><h3 class="h6">Node types</h3><table class="table table-sm mb-0"><thead><tr><th>Type</th><th class="text-end">Count</th></tr></thead><tbody id="nodes"></tbody></table></div></div>
+        <div class="col-md-6"><div class="sheet p-3"><h3 class="h6">Relationship types</h3><table class="table table-sm mb-0"><thead><tr><th>Type</th><th class="text-end">Count</th></tr></thead><tbody id="edges"></tbody></table></div></div>
+      </div>
+    </section>
+
+    <section class="mb-5">
+      <div class="eyebrow">Provenance</div>
+      <h2 class="mt-2">Checks</h2>
+      <div id="checks" class="row g-3"></div>
+    </section>
+
+    <section class="mb-5">
+      <div class="eyebrow">Limits</div>
+      <h2 class="mt-2">What this graph does not say</h2>
+      <ol id="limits" class="mb-0"></ol>
+    </section>
+
+    <section id="run" class="mb-4">
+      <div class="eyebrow">Run</div>
+      <h2 class="mt-2">Same checked-in demo</h2>
+      <p class="text-secondary">Setup notes are in <a href="README.md">this folder’s README</a>. Serve the folder over HTTP. Opening the file from Finder leaves the charts empty.</p>
+      <pre class="mono mb-0"><code>python -m evaluation.real_graph_integration check
 python -m evaluation.real_graph_demo --live
 cd evaluation/mixed/real-graph-integration
 python -m http.server 8770 --bind 127.0.0.1
-# Open http://127.0.0.1:8770/demo.html</code></pre></div></section>
+# http://127.0.0.1:8770/demo.html</code></pre>
+    </section>
   </main>
-  <footer><div class="wrap" id="meta">Loading graph metadata…</div></footer>
+  <footer class="border-top"><div class="container py-3 small" id="meta">Loading graph metadata…</div></footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   <script>
     const el=id=>document.getElementById(id);
     const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -139,26 +172,27 @@ python -m http.server 8770 --bind 127.0.0.1
     const checkText={claims_with_source_and_subject_paths:['Claims retain both links','Each counted Claim is linked to a retained SourceRecord and a Startup subject.'],documented_domain_nodes:['Domain nodes have source records','FundingRound, JobPosting and Repository nodes are connected through DOCUMENTS relationships.'],funding_rounds_without_reviewed_event_date:['Unknown dates stay unknown','The announcements are retained, but their financing event dates were not independently established.'],investor_to_specific_round_edges:['No unsupported round assignments','Investor names are not assigned to a specific FundingRound without a retained source link.']};
     fetch('demo-results.json').then(r=>{if(!r.ok)throw Error(`HTTP ${r.status}`);return r.json()}).then(d=>{
       const s=d.live||d.offline;
-      el('status').innerHTML=d.live_matches_offline?'<div>●</div><div><strong>Live Neo4j matches the committed offline graph</strong><br><span class="muted">Company summaries, provenance checks, skills and technologies are identical.</span></div>':'<div>●</div><div><strong>Offline result loaded</strong><br><span class="muted">No live parity result is recorded.</span></div>';
-      el('facts').innerHTML=[[s.node_count,'semantic nodes','Typed records and research entities in the checked-in graph.'],[s.edge_count,'relationships','Provenance and domain links between those nodes.'],[s.companies.length,'companies','Browserbase, CrewAI, LangChain, Langfuse and LlamaIndex.'],[s.node_labels.SourceRecord,'source records','3 funding, 18 job-listing and 24 weekly repository records.']].map(([v,l,p])=>`<article class="fact"><div class="value">${v}</div><strong>${l}</strong><p>${p}</p></article>`).join('');
+      el('status').className=d.live_matches_offline?'alert alert-success mb-0':'alert alert-secondary mb-0';
+      el('status').innerHTML=d.live_matches_offline?'<strong>Live Neo4j matches the committed offline graph.</strong> Company summaries, provenance checks, skills, and technologies are identical.':'<strong>Offline result loaded.</strong> No live parity result is recorded.';
+      el('facts').innerHTML=[[s.node_count,'semantic nodes','Typed records in the checked-in graph.'],[s.edge_count,'relationships','Provenance and domain links.'],[s.companies.length,'companies','Browserbase, CrewAI, LangChain, Langfuse, LlamaIndex.'],[s.node_labels.SourceRecord,'source records','3 funding, 18 job listings, 24 repository weeks.']].map(([v,l,p])=>`<div class="col-6 col-lg-3"><article class="sheet p-3 h-100"><div class="figure">${v}</div><div class="fw-semibold mt-2">${l}</div><p class="small text-secondary mb-0">${p}</p></article></div>`).join('');
       const maxClaims=Math.max(...s.companies.map(c=>c.claim_count),1);
-      el('claim-bars').innerHTML=s.companies.map(c=>`<div class="bar-row"><div class="bar-label">${esc(c.name)}</div><div class="bar-track"><span class="bar-fill" style="width:${(c.claim_count/maxClaims)*100}%"></span></div><div class="bar-value">${c.claim_count}</div></div>`).join('');
+      el('claim-bars').innerHTML=s.companies.map(c=>`<div class="d-flex align-items-center gap-2 mb-2"><div style="width:7.5rem" class="fw-semibold">${esc(c.name)}</div><div class="bar-track flex-grow-1"><span class="bar-fill" style="width:${(c.claim_count/maxClaims)*100}%"></span></div><div class="mono" style="width:2rem">${c.claim_count}</div></div>`).join('');
       const maxDomain=Math.max(...s.companies.map(c=>c.funding_announcement_count+c.observed_job_posting_count+c.repository_count),1);
-      el('domain-bars').innerHTML=s.companies.map(c=>{const total=c.funding_announcement_count+c.observed_job_posting_count+c.repository_count;const width=n=>`${(n/maxDomain)*100}%`;return `<div class="stacked-company"><div class="stacked-head"><strong>${esc(c.name)}</strong><span>${total} observed record${total===1?'':'s'}</span></div><div class="stacked-bar"><span class="segment funding" style="width:${width(c.funding_announcement_count)}" title="${c.funding_announcement_count} funding announcement(s)"></span><span class="segment jobs" style="width:${width(c.observed_job_posting_count)}" title="${c.observed_job_posting_count} job listing(s)"></span><span class="segment repository" style="width:${width(c.repository_count)}" title="${c.repository_count} repository/repositories"></span></div></div>`}).join('');
-      el('company-list').innerHTML=s.companies.map(c=>{const tags=[...c.skills.map(x=>`skill: ${x}`),...c.technologies.map(x=>`technology: ${x}`)];return `<article class="company"><div class="company-head"><h3>${esc(c.name)}</h3><div class="company-id">${esc(c.company_id)}</div></div><div class="company-body"><p>${esc(explanations[c.company_id]||'This profile reports only the evidence retained in the frozen mixed-source graph.')}</p><div class="measurements"><span><b>${c.claim_count}</b> source-excerpt claims</span><span><b>${c.funding_announcement_count}</b> funding announcements</span><span><b>${c.observed_job_posting_count}</b> observed job postings</span><span><b>${c.repository_count}</b> repositories</span><span><b>${c.named_backer_count}</b> named backers</span></div>${tags.length?`<div class="tags">${tags.map(x=>`<span class="tag">${esc(x)}</span>`).join('')}</div>`:'<p class="muted" style="margin-top:14px">No normalized skill or technology nodes are attached to this company in the snapshot.</p>'}</div></article>`}).join('');
-      el('nodes').innerHTML=Object.entries(s.node_labels).map(([k,v])=>`<tr><td>${esc(k)}</td><td>${v}</td></tr>`).join('');
-      el('edges').innerHTML=Object.entries(s.edge_types).map(([k,v])=>`<tr><td>${esc(k)}</td><td>${v}</td></tr>`).join('');
-      el('checks').innerHTML=Object.entries(s.provenance_checks).map(([k,v])=>`<article class="check"><b>${v}</b><strong>${esc(checkText[k]?.[0]||k.replaceAll('_',' '))}</strong><p>${esc(checkText[k]?.[1]||'Recorded structural check.')}</p></article>`).join('');
-      el('limits').innerHTML=s.interpretation_limits.map(x=>`<li>${esc(x)}</li>`).join('');
+      el('domain-bars').innerHTML=s.companies.map(c=>{const total=c.funding_announcement_count+c.observed_job_posting_count+c.repository_count;const width=n=>`${(n/maxDomain)*100}%`;return `<div class="mb-3"><div class="d-flex justify-content-between small"><strong>${esc(c.name)}</strong><span class="text-secondary">${total}</span></div><div class="stacked mt-1"><span class="seg-fund" style="width:${width(c.funding_announcement_count)}"></span><span class="seg-job" style="width:${width(c.observed_job_posting_count)}"></span><span class="seg-repo" style="width:${width(c.repository_count)}"></span></div></div>`}).join('');
+      el('company-list').innerHTML=s.companies.map(c=>{const tags=[...c.skills.map(x=>`skill: ${x}`),...c.technologies.map(x=>`technology: ${x}`)];return `<article class="sheet overflow-hidden"><div class="row g-0"><div class="col-md-3 company-side p-3"><h3 class="h5 mb-1">${esc(c.name)}</h3><div class="nav-id small text-secondary">${esc(c.company_id)}</div></div><div class="col-md-9 p-3"><p class="mb-2">${esc(explanations[c.company_id]||'This profile reports only the evidence retained in the frozen mixed-source graph.')}</p><p class="small text-secondary mb-2"><b class="text-dark">${c.claim_count}</b> claims · <b class="text-dark">${c.funding_announcement_count}</b> funding · <b class="text-dark">${c.observed_job_posting_count}</b> listings · <b class="text-dark">${c.repository_count}</b> repositories · <b class="text-dark">${c.named_backer_count}</b> named backers</p>${tags.length?`<div class="d-flex flex-wrap gap-1">${tags.map(x=>`<span class="badge text-bg-light border">${esc(x)}</span>`).join('')}</div>`:'<p class="small text-secondary mb-0">No skill or technology node in this snapshot.</p>'}</div></div></article>`}).join('');
+      el('nodes').innerHTML=Object.entries(s.node_labels).map(([k,v])=>`<tr><td>${esc(k)}</td><td class="text-end mono">${v}</td></tr>`).join('');
+      el('edges').innerHTML=Object.entries(s.edge_types).map(([k,v])=>`<tr><td>${esc(k)}</td><td class="text-end mono">${v}</td></tr>`).join('');
+      el('checks').innerHTML=Object.entries(s.provenance_checks).map(([k,v])=>`<div class="col-md-6"><article class="sheet p-3 h-100"><div class="figure">${v}</div><strong class="d-block mt-2">${esc(checkText[k]?.[0]||k.replaceAll('_',' '))}</strong><p class="small text-secondary mb-0">${esc(checkText[k]?.[1]||'Recorded structural check.')}</p></article></div>`).join('');
+      el('limits').innerHTML=s.interpretation_limits.map(x=>`<li class="mb-2">${esc(x)}</li>`).join('');
       el('meta').textContent=`Status: ${d.status} · Graph SHA-256: ${d.graph_sha256} · ${d.scope}`;
-    }).catch(err=>{el('status').classList.add('error');el('status').innerHTML=`<div>●</div><div><strong>Demo data could not be loaded</strong><br>${esc(err.message)}. Serve this folder over HTTP rather than opening the HTML file directly.</div>`;console.error(err)});
+    }).catch(err=>{el('status').className='alert alert-danger mb-0';el('status').textContent=`Demo data could not be loaded (${err.message}). Serve this folder over HTTP.`;console.error(err)});
     fetch('findings.json').then(r=>{if(!r.ok)throw Error(`HTTP ${r.status}`);return r.json()}).then(f=>{
       const pct=n=>`${Math.round(n*1000)/10}%`;
-      el('finding-cards').innerHTML=f.conditions.map(c=>`<article class="finding-card${c.id==='dense'?' hashing':''}"><div class="kicker">${esc(c.label)}</div><div class="value">${c.hits}<span class="of"> / ${f.questions}</span></div><div class="stats"><span>Recall@5<b>${pct(c.recall_at_5)}</b></span><span>MRR@5<b>${pct(c.mrr_at_5)}</b></span><span>P@5<b>${c.precision_at_5.toFixed(3)}</b></span></div><div class="meter" role="img" aria-label="${esc(c.label)} recall"><span style="width:${c.recall_at_5*100}%"></span></div></article>`).join('');
+      el('finding-cards').innerHTML=f.conditions.map(c=>`<div class="col-md-4"><article class="sheet p-3 h-100"><div class="eyebrow">${esc(c.label)}</div><div class="figure mt-2">${c.hits}<span class="fs-5 text-secondary"> / ${f.questions}</span></div><div class="row g-2 small text-secondary mt-3"><div class="col-4">Recall@5<div class="text-dark fw-semibold">${pct(c.recall_at_5)}</div></div><div class="col-4">MRR@5<div class="text-dark fw-semibold">${pct(c.mrr_at_5)}</div></div><div class="col-4">P@5<div class="text-dark fw-semibold">${c.precision_at_5.toFixed(3)}</div></div></div><div class="meter ${c.id==='dense'?'hash':''} mt-3"><span style="width:${c.recall_at_5*100}%"></span></div></article></div>`).join('');
       const z=f.original_questions;
-      el('finding-zero').innerHTML=`<div>●</div><div><strong>Original ${z.questions} questions: Precision@5 is ${z.precision_at_5}</strong><br>${esc(z.reading)}</div>`;
-      el('unmeasured').innerHTML=f.not_measured.map(item=>`<span class="tag">${esc(item)}</span>`).join('');
-    }).catch(err=>{el('finding-zero').classList.add('error');el('finding-zero').innerHTML=`<div>●</div><div><strong>Findings file did not load</strong><br>${esc(err.message)}</div>`});
+      el('finding-zero').innerHTML=`<strong>Original ${z.questions} questions: Precision@5 is ${z.precision_at_5}.</strong> ${esc(z.reading)}`;
+      el('unmeasured').innerHTML=f.not_measured.map(item=>`<span class="badge rounded-pill text-bg-light border">Not measured · ${esc(item)}</span>`).join('');
+    }).catch(err=>{el('finding-zero').className='alert alert-danger mt-3';el('finding-zero').textContent=`Findings file did not load (${err.message}).`});
   </script>
 </body>
 </html>
