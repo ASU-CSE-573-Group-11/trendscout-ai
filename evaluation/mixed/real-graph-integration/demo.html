@@ -34,6 +34,17 @@
     .fact .value { font:500 2.65rem/1 Georgia,serif; color:var(--navy); }
     .fact strong { display:block; margin:10px 0 4px; }
     .fact p { color:var(--muted); margin:0; font-size:.92rem; line-height:1.45; }
+    .finding-cards { display:grid; grid-template-columns:repeat(3,1fr); gap:18px; }
+    .finding-card { min-width:0; background:var(--white); border:1px solid var(--line); padding:22px 22px 18px; }
+    .finding-card .value { font:500 3.1rem/1 Georgia,serif; color:var(--navy); }
+    .finding-card .of { color:var(--muted); font-size:1.1rem; }
+    .finding-card .stats { display:grid; grid-template-columns:repeat(3,1fr); gap:8px; margin-top:14px; color:var(--muted); font-size:.84rem; }
+    .finding-card .stats b { display:block; color:var(--ink); font-weight:650; font-variant-numeric:tabular-nums; }
+    .meter { height:8px; margin-top:18px; background:#e8eceb; }
+    .meter span { display:block; height:100%; background:var(--navy); }
+    .finding-card.hashing .meter span { background:var(--blue); }
+    .finding-zero { margin-top:18px; max-width:none; }
+    .unmeasured { display:flex; flex-wrap:wrap; gap:8px; margin-top:16px; }
     .charts { display:grid; grid-template-columns:minmax(0,1.35fr) minmax(280px,.65fr); gap:24px; }
     .chart { min-width:0; background:var(--white); border:1px solid var(--line); padding:24px; }
     .chart h3 { margin-bottom:6px; }
@@ -98,15 +109,16 @@
     pre { margin:22px 0 0; padding:20px; overflow:auto; background:#0f1820; border:1px solid #344553; color:#e7eef2; font:14px/1.65 ui-monospace,SFMono-Regular,Menlo,monospace; }
     footer { padding:24px 0 46px; color:var(--muted); font-size:.85rem; background:var(--white); overflow-wrap:anywhere; }
     .error { color:#9c2f24; background:#fff0ee; border-left-color:#9c2f24; }
-    @media(max-width:850px) { .facts,.method{grid-template-columns:1fr 1fr}.fact:nth-child(2){border-right:0}.fact{border-bottom:1px solid var(--line)}.charts{grid-template-columns:1fr}.company{grid-template-columns:1fr}.company-head{border-right:0;border-bottom:1px solid var(--line)}.inventory{grid-template-columns:1fr} }
-    @media(max-width:580px) { .topbar nav{display:none}.facts,.method,.checks,.limits{grid-template-columns:1fr}.fact,.step{border-right:0}.wrap{width:min(100% - 28px,1120px)}header{padding-top:48px}section{padding:46px 0}.bar-row{grid-template-columns:88px 1fr 26px;gap:8px}.chart{padding:18px} }
+    @media(max-width:850px) { .facts,.method,.finding-cards{grid-template-columns:1fr 1fr}.fact:nth-child(2){border-right:0}.fact{border-bottom:1px solid var(--line)}.charts{grid-template-columns:1fr}.company{grid-template-columns:1fr}.company-head{border-right:0;border-bottom:1px solid var(--line)}.inventory{grid-template-columns:1fr} }
+    @media(max-width:580px) { .topbar nav{display:none}.facts,.method,.checks,.limits,.finding-cards{grid-template-columns:1fr}.fact,.step{border-right:0}.wrap{width:min(100% - 28px,1120px)}header{padding-top:48px}section{padding:46px 0}.bar-row{grid-template-columns:88px 1fr 26px;gap:8px}.chart{padding:18px} }
   </style>
 </head>
 <body>
-  <div class="topbar"><div class="wrap"><div class="brand">TrendScout AI</div><nav><a href="#distribution">Evidence</a><a href="#companies">Companies</a><a href="#method">Method</a><a href="#inventory">Data inventory</a><a href="#run">Run locally</a></nav></div></div>
+    <div class="topbar"><div class="wrap"><div class="brand">TrendScout AI</div><nav><a href="#findings">Findings</a><a href="#distribution">Evidence</a><a href="#companies">Companies</a><a href="#method">Method</a><a href="#inventory">Data inventory</a><a href="#run">Run locally</a></nav></div></div>
   <header><div class="wrap"><div class="kicker">Real graph study · Frozen mixed-source snapshot</div><h1>What the evidence graph contains—and what it does not.</h1><p class="lede">This page explains the project’s real semantic graph in plain language. It separates observed source facts from interpretation, shows each company’s retained evidence, and verifies that the local Neo4j database reproduces the committed offline graph.</p><div id="status" class="status"><div>●</div><div><strong>Loading validation result</strong><br><span class="muted">Reading the checked-in demo record.</span></div></div></div></header>
   <main>
     <section id="overview"><div class="wrap"><div class="kicker">Study overview</div><h2>A bounded integration result</h2><p class="section-intro">The graph is built from 45 retained source records covering five companies. Counts below describe nodes and links in this frozen study snapshot—not the full universe of each company’s activity.</p><div id="facts" class="facts"></div></div></section>
+    <section id="findings"><div class="wrap"><div class="kicker">Measured findings</div><h2>Retrieval found the release note. It did not find the original questions.</h2><p class="section-intro">Twenty-eight release-fact questions each have one supporting document, so Precision@5 cannot rise above 0.2. The bars are Recall@5: how often that document appears in the top five. The dense bar is a hashing encoder, not a sentence transformer.</p><div id="finding-cards" class="finding-cards"></div><div id="finding-zero" class="status finding-zero"></div><div id="unmeasured" class="unmeasured"></div></div></section>
     <section id="distribution"><div class="wrap"><div class="kicker">Evidence distribution</div><h2>Where the retained evidence is concentrated</h2><p class="section-intro">These compact charts expose imbalance in the snapshot. They are descriptive views of collected records—not company rankings, market-share estimates, or measures of real-world performance.</p><div class="charts"><article class="chart"><h3>Source-excerpt claims by company</h3><p class="chart-intro">Each bar counts claims projected from retained source records. The scale is shared across all five companies.</p><div id="claim-bars" class="bar-chart" role="img" aria-label="Bar chart of source-excerpt claims by company"></div><p class="takeaway"><strong>How to read this</strong>LangChain dominates because the mixed round retained funding, job-listing and repository evidence for it. That difference reflects coverage, not proof that LangChain was more active than every other company.</p></article><article class="chart"><h3>Observed domain evidence</h3><p class="chart-intro">The strips separate funding announcements, public job listings and repositories for each company.</p><div id="domain-bars" aria-label="Stacked bars of observed domain evidence by company"></div><div class="legend"><span class="funding">Funding announcement</span><span class="jobs">Job listing</span><span class="repository">Repository</span></div><p class="takeaway"><strong>The clearest pattern</strong>Most job-listing evidence belongs to LangChain. CrewAI and Langfuse enter this snapshot through repository observations instead.</p></article></div></div></section>
     <section id="companies"><div class="wrap"><div class="kicker">Company evidence</div><h2>What is actually present for each company</h2><p class="section-intro">Every profile states the available evidence and the missing categories. A zero means “no matching node in this snapshot,” not “the company had none in reality.”</p><div id="company-list" class="company-list"></div></div></section>
     <section id="method"><div class="wrap"><div class="kicker">Method</div><h2>How the graph was produced</h2><p class="section-intro">The integration preserves source identity and validation boundaries from collection through the live database.</p><div class="method"><article class="step"><h3>Freeze sources</h3><p>Funding pages, public job listings and weekly repository observations are retained with source URLs, hashes and observation clocks.</p></article><article class="step"><h3>Project semantics</h3><p>Source records become provenance-bound Claims, FundingRounds, JobPostings, Repositories, Investors, Skills and Technologies.</p></article><article class="step"><h3>Validate RDF</h3><p>The complete graph is exported as Turtle and checked against SHACL identity, datatype and relationship requirements.</p></article><article class="step"><h3>Compare Neo4j</h3><p>The live database reads the exact payload IDs and relationships. Its company summaries must equal the offline result.</p></article></div></div></section>
@@ -140,6 +152,13 @@ python -m http.server 8770 --bind 127.0.0.1
       el('limits').innerHTML=s.interpretation_limits.map(x=>`<li>${esc(x)}</li>`).join('');
       el('meta').textContent=`Status: ${d.status} · Graph SHA-256: ${d.graph_sha256} · ${d.scope}`;
     }).catch(err=>{el('status').classList.add('error');el('status').innerHTML=`<div>●</div><div><strong>Demo data could not be loaded</strong><br>${esc(err.message)}. Serve this folder over HTTP rather than opening the HTML file directly.</div>`;console.error(err)});
+    fetch('findings.json').then(r=>{if(!r.ok)throw Error(`HTTP ${r.status}`);return r.json()}).then(f=>{
+      const pct=n=>`${Math.round(n*1000)/10}%`;
+      el('finding-cards').innerHTML=f.conditions.map(c=>`<article class="finding-card${c.id==='dense'?' hashing':''}"><div class="kicker">${esc(c.label)}</div><div class="value">${c.hits}<span class="of"> / ${f.questions}</span></div><div class="stats"><span>Recall@5<b>${pct(c.recall_at_5)}</b></span><span>MRR@5<b>${pct(c.mrr_at_5)}</b></span><span>P@5<b>${c.precision_at_5.toFixed(3)}</b></span></div><div class="meter" role="img" aria-label="${esc(c.label)} recall"><span style="width:${c.recall_at_5*100}%"></span></div></article>`).join('');
+      const z=f.original_questions;
+      el('finding-zero').innerHTML=`<div>●</div><div><strong>Original ${z.questions} questions: Precision@5 is ${z.precision_at_5}</strong><br>${esc(z.reading)}</div>`;
+      el('unmeasured').innerHTML=f.not_measured.map(item=>`<span class="tag">${esc(item)}</span>`).join('');
+    }).catch(err=>{el('finding-zero').classList.add('error');el('finding-zero').innerHTML=`<div>●</div><div><strong>Findings file did not load</strong><br>${esc(err.message)}</div>`});
   </script>
 </body>
 </html>

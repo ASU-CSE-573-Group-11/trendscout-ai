@@ -1,0 +1,47 @@
+{
+  "title": "Release-fact lookup",
+  "questions": 28,
+  "positives_per_question": 1,
+  "precision_ceiling": 0.2,
+  "encoder": "hashing",
+  "semantic": false,
+  "source": "evaluation/real/release-study/retrieval-metrics.json",
+  "conditions": [
+    {
+      "id": "bm25",
+      "label": "BM25",
+      "hits": 27,
+      "precision_at_5": 0.192857,
+      "recall_at_5": 0.964286,
+      "mrr_at_5": 0.882143
+    },
+    {
+      "id": "dense",
+      "label": "Hashing dense",
+      "hits": 23,
+      "precision_at_5": 0.164286,
+      "recall_at_5": 0.821429,
+      "mrr_at_5": 0.652976
+    },
+    {
+      "id": "hybrid",
+      "label": "Hybrid",
+      "hits": 27,
+      "precision_at_5": 0.192857,
+      "recall_at_5": 0.964286,
+      "mrr_at_5": 0.819643
+    }
+  ],
+  "original_questions": {
+    "questions": 28,
+    "positive_documents": 0,
+    "precision_at_5": 0.0,
+    "source": "evaluation/real/retrieval-metrics.json",
+    "reading": "The release corpus contains no passage that establishes the original 28 project questions. Precision@5 is 0 for BM25, hashing, and hybrid. Recall@5 is undefined."
+  },
+  "not_measured": [
+    "Temporal multi-hop answer accuracy",
+    "Trend Precision@5",
+    "Whether evidence states change a participant’s judgment"
+  ]
+}
